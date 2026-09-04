@@ -76,7 +76,11 @@
           <p>Technology Origin → Statutory Planning Milestone → Jurisdiction / Territory → Commercial Realisation</p>
         </div>
         <div class="surface-tools">
-          <button class="btn-pill-action" onclick="downloadChartImage()">
+          <button class="btn-pill-action" onclick="resetChartView()" title="Reset zoom and node positions">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+            Reset View
+          </button>
+          <button class="btn-pill-action" onclick="downloadChartImage()" title="Download 2x High-Res PNG">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
             Export High-Res PNG
           </button>
@@ -112,6 +116,11 @@
               <option value="Hydro & Marine">Hydro & Marine</option>
             </select>
           </div>
+
+          <a href="scotland-objections/index.html" class="scotland-deepdive-pill" id="scotland-deepdive-btn" style="display: none;" title="Explore 179 objections across 32 councils">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+            Scotland Objections Map (32 Councils) &rarr;
+          </a>
         </div>
 
         <div class="throughput-stat">
@@ -210,6 +219,10 @@
     function onFilterChange() {
       selectedCountry = document.getElementById('filter-country').value;
       selectedTech = document.getElementById('filter-tech').value;
+      const scotBtn = document.getElementById('scotland-deepdive-btn');
+      if (scotBtn) {
+        scotBtn.style.display = (selectedCountry === 'Scotland') ? 'inline-flex' : 'none';
+      }
       renderCurrentChart();
     }
 
@@ -351,20 +364,57 @@
 
       let config = {
         responsive: true,
-        displayModeBar: true,
-        displaylogo: false,
-        modeBarButtonsToRemove: ['lasso2d', 'select2d']
+        displayModeBar: false,
+        displaylogo: false
       };
 
-      Plotly.react('plotly-flow-div', [trace], layout, config);
+      const chartDiv = document.getElementById('plotly-flow-div');
+      Plotly.react(chartDiv, [trace], layout, config);
+
+      if (!chartDiv.hasClickBound) {
+        chartDiv.on('plotly_click', function(data) {
+          if (data && data.points && data.points[0]) {
+            let pt = data.points[0];
+            let label = pt.label || '';
+            if (pt.pointNumber !== undefined && trace.node && trace.node.label) {
+              label = trace.node.label[pt.pointNumber] || label;
+            }
+            if (label.includes('Scotland')) {
+              document.getElementById('filter-country').value = 'Scotland';
+              selectedCountry = 'Scotland';
+              const scotBtn = document.getElementById('scotland-deepdive-btn');
+              if (scotBtn) {
+                scotBtn.style.display = 'inline-flex';
+              }
+              renderCurrentChart();
+            }
+          }
+        });
+        chartDiv.hasClickBound = true;
+      }
+    }
+
+    function resetChartView() {
+      selectedCountry = 'ALL';
+      selectedTech = 'ALL';
+      currentMetric = 'GW';
+      document.getElementById('filter-country').value = 'ALL';
+      document.getElementById('filter-tech').value = 'ALL';
+      document.getElementById('btn-metric-gw').classList.add('active');
+      document.getElementById('btn-metric-count').classList.remove('active');
+      const scotBtn = document.getElementById('scotland-deepdive-btn');
+      if (scotBtn) {
+        scotBtn.style.display = 'none';
+      }
+      renderCurrentChart();
     }
 
     function downloadChartImage() {
       Plotly.downloadImage('plotly-flow-div', {
         format: 'png',
-        width: 1920,
-        height: 1080,
-        filename: `slava_energy_Macro_Planning_Lifecycle_${currentMetric}`
+        width: 2880,
+        height: 1600,
+        filename: `slava_energy_Macro_Planning_Lifecycle_${currentMetric}_${selectedCountry}`
       });
     }
 

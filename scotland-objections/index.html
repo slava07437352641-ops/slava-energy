@@ -497,10 +497,144 @@
         .project-link:hover {
             color: #8C3E26;
         }
+
+        /* Apple Global Navigation Bar */
+        .apple-global-nav {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.88);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+        }
+
+        [data-theme="dark"] .apple-global-nav {
+            background: rgba(36, 30, 24, 0.92);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .apple-global-nav .nav-inner {
+            max-width: 1500px;
+            margin: 0 auto;
+            padding: 10px 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .nav-brand-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .nav-brand-avatar {
+            width: 30px;
+            height: 30px;
+            border-radius: 8px;
+            background: #007D3F;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #FFFFFF;
+        }
+
+        .nav-brand-text {
+            display: flex;
+            flex-direction: column;
+            line-height: 1.15;
+        }
+
+        .nav-brand-title {
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            color: var(--text-primary);
+        }
+
+        .nav-brand-sub {
+            font-size: 11px;
+            color: #8C7462;
+        }
+
+        .apple-global-nav .nav-actions {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .nav-back-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 14px;
+            background: #007D3F;
+            color: #FFFFFF !important;
+            border-radius: 980px;
+            font-size: 13px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .nav-back-pill:hover {
+            background: #009A4E;
+            transform: scale(1.02);
+        }
+
+        .nav-status-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 12px;
+            font-weight: 500;
+            color: var(--text-secondary);
+            background: rgba(0, 0, 0, 0.04);
+            padding: 5px 12px;
+            border-radius: 980px;
+        }
+
+        .nav-status-pill .status-dot {
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            background: #007D3F;
+            box-shadow: 0 0 6px #007D3F;
+        }
     
 </style>
 </head>
 <body>
+
+    <!-- Global Apple Navigation Bar -->
+    <nav class="apple-global-nav">
+        <div class="nav-inner">
+            <a href="../index.html" class="nav-brand-link" title="Return to slava.energy Portal">
+                <div class="nav-brand-avatar">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                </div>
+                <div class="nav-brand-text">
+                    <span class="nav-brand-title">slava.energy</span>
+                    <span class="nav-brand-sub">UK Renewable Intelligence</span>
+                </div>
+            </a>
+
+            <div class="nav-actions">
+                <a href="../index.html" class="nav-back-pill">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                    Back to Macro Lifecycle
+                </a>
+                <div class="nav-status-pill">
+                    <div class="status-dot"></div>
+                    32 Scottish Councils
+                </div>
+            </div>
+        </div>
+    </nav>
 
     <header>
         <div>
