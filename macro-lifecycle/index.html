@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UK Renewable Energy Planning Database (REPD Q2 2026) - Option 1: Macro Planning Lifecycle</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --kre-green: #007D3F;
+      --kre-green-light: #00A653;
+      --kre-green-dark: #005A2D;
+      --kre-slate: #535A5F;
+      --kre-slate-light: #7E868C;
+      --charcoal: #1D1D1F;
+      --bg-light: #F7F9F8;
+      --bg-card: #FFFFFF;
+      --border-color: #E2E8E5;
+      --accent-gold: #D97706;
+      --accent-red: #DC2626;
+      --accent-blue: #2563EB;
+      --accent-teal: #0D9488;
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.05), 0 1px 2px rgba(0,0,0,0.03);
+      --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.07), 0 2px 4px -1px rgba(0,0,0,0.04);
+      --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.08), 0 4px 6px -2px rgba(0,0,0,0.03);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background-color: var(--bg-light);
+      color: var(--charcoal);
+      line-height: 1.5;
+      padding: 24px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 1540px;
+      margin: 0 auto;
+    }
+
+    header.exec-header {
+      background: #FFFFFF;
+      border: 1px solid var(--border-color);
+      border-top: 4px solid var(--kre-green);
+      border-radius: 12px;
+      padding: 24px 32px;
+      margin-bottom: 24px;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .brand-meta {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .brand-subtitle {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--kre-slate);
+    }
+
+    .brand-title {
+      font-size: 24px;
+      font-weight: 800;
+      color: var(--kre-green);
+      letter-spacing: -0.5px;
+    }
+
+    .brand-desc {
+      font-size: 13.5px;
+      color: var(--kre-slate);
+      max-width: 860px;
+    }
+
+    .header-actions {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .pill-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #E8F5E9;
+      color: var(--kre-green-dark);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      border: 1px solid #C8E6C9;
+    }
+
+    .pill-badge .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--kre-green);
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.85); }
+    }
+
+    .btn-export {
+      background: #FFFFFF;
+      border: 1px solid var(--border-color);
+      color: var(--charcoal);
+      font-size: 12.5px;
+      font-weight: 600;
+      padding: 8px 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.2s ease;
+    }
+
+    .btn-export:hover {
+      background: #F0F4F2;
+      border-color: var(--kre-green);
+      color: var(--kre-green-dark);
+    }
+
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .kpi-card {
+      background: #FFFFFF;
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 18px 20px;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .kpi-card::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 4px;
+      background: var(--kre-green);
+    }
+
+    .kpi-card.warning::before { background: var(--accent-gold); }
+    .kpi-card.blue::before { background: var(--accent-blue); }
+    .kpi-card.teal::before { background: var(--accent-teal); }
+
+    .kpi-label {
+      font-size: 11.5px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: var(--kre-slate);
+    }
+
+    .kpi-value {
+      font-size: 26px;
+      font-weight: 800;
+      color: var(--charcoal);
+      line-height: 1.1;
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    .kpi-subtext {
+      font-size: 12px;
+      color: var(--kre-slate);
+      font-weight: 500;
+    }
+
+    .controls-bar {
+      background: #FFFFFF;
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 14px 24px;
+      margin-bottom: 20px;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .filter-group {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .control-label {
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--kre-slate);
+    }
+
+    .select-input {
+      background: #FFFFFF;
+      border: 1px solid #CBD5E1;
+      border-radius: 6px;
+      padding: 6px 12px;
+      font-size: 12.5px;
+      font-weight: 500;
+      color: var(--charcoal);
+      outline: none;
+      cursor: pointer;
+      transition: border-color 0.2s;
+    }
+
+    .select-input:focus {
+      border-color: var(--kre-green);
+    }
+
+    .toggle-group {
+      display: inline-flex;
+      background: #E2E8E5;
+      border-radius: 8px;
+      padding: 3px;
+      border: 1px solid #D0D9D5;
+    }
+
+    .toggle-btn {
+      background: transparent;
+      border: none;
+      padding: 6px 14px;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--kre-slate);
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .toggle-btn.active {
+      background: #FFFFFF;
+      color: var(--kre-green-dark);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    .chart-card {
+      background: #FFFFFF;
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: var(--shadow-sm);
+      margin-bottom: 24px;
+    }
+
+    .chart-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 16px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid var(--border-color);
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .chart-heading-group {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .chart-title {
+      font-size: 19px;
+      font-weight: 800;
+      color: var(--kre-green-dark);
+    }
+
+    .chart-subtitle {
+      font-size: 13px;
+      color: var(--kre-slate);
+    }
+
+    .chart-plot-container {
+      width: 100%;
+      height: 750px;
+      position: relative;
+    }
+
+    .insights-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-left: 4px solid var(--kre-green);
+      border-radius: 10px;
+      padding: 20px 24px;
+      margin-bottom: 24px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .insights-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--kre-green-dark);
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .insights-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 16px;
+    }
+
+    .insight-item {
+      font-size: 13px;
+      color: #334155;
+      line-height: 1.5;
+    }
+
+    .insight-item strong {
+      color: var(--charcoal);
+    }
+
+    footer.exec-footer {
+      margin-top: 32px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border-color);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12px;
+      color: var(--kre-slate);
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    @media (max-width: 900px) {
+      body { padding: 12px; }
+      .chart-plot-container { height: 600px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <header class="exec-header">
+    <div class="brand-meta">
+      <span class="brand-subtitle">KOEHLER RENEWABLE ENERGY (KRE UK) • PLANNING INTELLIGENCE</span>
+      <h1 class="brand-title">UK Renewable Energy Planning Database (REPD Q2 2026)</h1>
+      <p class="brand-desc">
+        Strategic macro planning lifecycle flow analysis of the UK clean energy pipeline (14,657 projects / 398.2 GW tracked).
+        Visualising technology origin, statutory planning milestone progression, jurisdiction distribution, and grid delivery.
+      </p>
+    </div>
+    <div class="header-actions">
+      <a href="../index.html" style="display:inline-flex; align-items:center; gap:6px; background:#1A1F22; color:white; text-decoration:none; padding:6px 14px; border-radius:20px; font-size:12px; font-weight:600;">
+        <span>← Back to slava.energy</span>
+      </a>
+      <div class="pill-badge">
+        <div class="dot"></div>
+        <span>DESNZ REPD Q2 2026</span>
+      </div>
+      <button class="btn-export" onclick="downloadChartImage()">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+        Export PNG
+      </button>
+    </div>
+  </header>
+
+  <div class="kpi-grid">
+    <div class="kpi-card">
+      <span class="kpi-label">Total Tracked Pipeline</span>
+      <span class="kpi-value">398.2 <span style="font-size:16px; font-weight:600; color:var(--kre-slate)">GW</span></span>
+      <span class="kpi-subtext">14,657 projects across UK</span>
+    </div>
+    <div class="kpi-card warning">
+      <span class="kpi-label">Awaiting Construction (Grid Queue)</span>
+      <span class="kpi-value">147.0 <span style="font-size:16px; font-weight:600; color:var(--kre-slate)">GW</span></span>
+      <span class="kpi-subtext">5,948 consented projects stalled</span>
+    </div>
+    <div class="kpi-card">
+      <span class="kpi-label">Operational Realised Assets</span>
+      <span class="kpi-value">58.6 <span style="font-size:16px; font-weight:600; color:var(--kre-slate)">GW</span></span>
+      <span class="kpi-subtext">3,132 grid-connected projects</span>
+    </div>
+    <div class="kpi-card teal">
+      <span class="kpi-label">Under Active Construction</span>
+      <span class="kpi-value">28.1 <span style="font-size:16px; font-weight:600; color:var(--kre-slate)">GW</span></span>
+      <span class="kpi-subtext">457 projects on-site buildout</span>
+    </div>
+    <div class="kpi-card blue">
+      <span class="kpi-label">Live In Planning Review</span>
+      <span class="kpi-value">95.1 <span style="font-size:16px; font-weight:600; color:var(--kre-slate)">GW</span></span>
+      <span class="kpi-subtext">1,539 active statutory applications</span>
+    </div>
+  </div>
+
+  <div class="controls-bar">
+    <div class="filter-group">
+      <span class="control-label">Metric:</span>
+      <div class="toggle-group">
+        <button class="toggle-btn active" id="btn-metric-gw" onclick="setMetric('GW')">Capacity (GW)</button>
+        <button class="toggle-btn" id="btn-metric-count" onclick="setMetric('Count')">Project Count</button>
+      </div>
+
+      <span class="control-label" style="margin-left: 12px;">Country:</span>
+      <select class="select-input" id="filter-country" onchange="onFilterChange()">
+        <option value="ALL">All UK Jurisdictions</option>
+        <option value="Scotland">Scotland Only</option>
+        <option value="England">England Only</option>
+        <option value="Wales">Wales Only</option>
+        <option value="Northern Ireland">Northern Ireland Only</option>
+      </select>
+
+      <span class="control-label" style="margin-left: 12px;" id="label-filter-tech">Technology:</span>
+      <select class="select-input" id="filter-tech" onchange="onFilterChange()">
+        <option value="ALL">All Technologies</option>
+        <option value="Solar PV">Solar PV</option>
+        <option value="Wind Onshore">Wind Onshore</option>
+        <option value="Battery Storage (BESS)">Battery Storage (BESS)</option>
+        <option value="Wind Offshore">Wind Offshore</option>
+        <option value="Biomass & Waste">Biomass & Waste</option>
+        <option value="Hydro & Marine">Hydro & Marine</option>
+      </select>
+    </div>
+
+    <div class="filter-group">
+      <span style="font-size: 12px; color: var(--kre-slate);">
+        <strong id="active-flow-count">14,657</strong> projects | <strong id="active-flow-gw">398.2</strong> GW active flow
+      </span>
+    </div>
+  </div>
+
+  <div class="chart-card">
+    <div class="chart-header">
+      <div class="chart-heading-group">
+        <h2 class="chart-title" id="chart-main-title">Option 1: Macro Planning Lifecycle</h2>
+        <p class="chart-subtitle" id="chart-main-subtitle">
+          End-to-end value stream: Technology Origin → Statutory Planning Milestone → Jurisdiction / Territory → Commercial Realisation.
+        </p>
+      </div>
+      <div>
+        <span style="font-size: 11px; color: var(--kre-slate); font-style: italic;">
+          Drag nodes vertically to reorder • Hover links to inspect precise GW / count & flow share
+        </span>
+      </div>
+    </div>
+    <div id="plotly-flow-div" class="chart-plot-container"></div>
+  </div>
+
+  <div class="insights-card">
+    <div class="insights-title">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+      Key Due Diligence Insights from the Macro Planning Lifecycle
+    </div>
+    <div class="insights-grid" id="insights-container">
+      <div class="insight-item">
+        <strong>1. The Post-Consent "Delivery Chasm" (147.0 GW Stalled):</strong>
+        Over 71% of all consented capacity (147.0 GW across 5,948 projects) currently sits in <em>Awaiting Construction</em> status. The primary bottleneck to UK net zero is no longer local planning committees, but transmission and distribution grid connection queues (NESO TEC Register).
+      </div>
+      <div class="insight-item">
+        <strong>2. Technology Dominance in the Queue:</strong>
+        Battery Storage (BESS) represents <strong>147.8 GW</strong> of total pipeline, with 62.3 GW already consented and stalled awaiting transmission connection dates. Solar PV represents <strong>68.2 GW</strong>, of which 38.4 GW is awaiting build.
+      </div>
+      <div class="insight-item">
+        <strong>3. Geographical Polarization:</strong>
+        Scotland hosts <strong>74.1% (45.4 GW)</strong> of all Onshore Wind pipeline, while England dominates Solar PV (60.3 GW) and BESS (102.0 GW), reflecting differing land availability, wind resource, and planning frameworks.
+      </div>
+    </div>
+  </div>
+
+  <footer class="exec-footer">
+    <div>
+      <strong>Source Data:</strong> UK Department for Energy Security and Net Zero (DESNZ) Renewable Energy Planning Database (REPD Q2 2026).
+    </div>
+    <div>
+      Koehler Renewable Energy (KRE UK) Due Diligence Platform
+    </div>
+  </footer>
+
+</div>
+
+<script>
+  const rawDataOp1 = [{"TechGroup":"Battery Storage (BESS)","Country":"England","DevStatus":"Abandoned","count":33,"sum":1211.99},{"TechGroup":"Battery Storage (BESS)","Country":"England","DevStatus":"Appeal Lodged","count":2,"sum":112.4},{"TechGroup":"Battery Storage (BESS)","Country":"England","DevStatus":"Appeal Refused","count":4,"sum":74.9},{"TechGroup":"Battery Storage (BESS)","Country":"England","DevStatus":"Application Refused","count":111,"sum":4622.15},{"TechGroup":"Battery Storage (BESS)","Country":"England","DevStatus":"Application Submitted","count":309,"sum":28449.5},{"TechGroup":"Battery Storage (BESS)","Country":"England","DevStatus":"Application Withdrawn","count":95,"sum":3272.3},{"TechGroup":"Battery Storage (BESS)","Country":"England","DevStatus":"Awaiting Construction","count":977,"sum":48780.21},{"TechGroup":"Battery Storage (BESS)","Country":"England","DevStatus":"Decommissioned","count":7,"sum":6.7},{"TechGroup":"Battery Storage (BESS)","Country":"England","DevStatus":"No Application Required","count":1,"sum":0.0},{"TechGroup":"Battery Storage (BESS)","Country":"England","DevStatus":"Operational","count":146,"sum":3940.01},{"TechGroup":"Battery Storage (BESS)","Country":"England","DevStatus":"Planning Permission Expired","count":54,"sum":888.1},{"TechGroup":"Battery Storage (BESS)","Country":"England","DevStatus":"Revised","count":143,"sum":5665.34},{"TechGroup":"Battery Storage (BESS)","Country":"England","DevStatus":"Under Construction","count":77,"sum":4939.54},{"TechGroup":"Battery Storage (BESS)","Country":"Northern Ireland","DevStatus":"Appeal Refused","count":1,"sum":0.0},{"TechGroup":"Battery Storage (BESS)","Country":"Northern Ireland","DevStatus":"Application Submitted","count":14,"sum":802.7},{"TechGroup":"Battery Storage (BESS)","Country":"Northern Ireland","DevStatus":"Application Withdrawn","count":1,"sum":82.0},{"TechGroup":"Battery Storage (BESS)","Country":"Northern Ireland","DevStatus":"Awaiting Construction","count":28,"sum":1087.0},{"TechGroup":"Battery Storage (BESS)","Country":"Northern Ireland","DevStatus":"Operational","count":1,"sum":10.0},{"TechGroup":"Battery Storage (BESS)","Country":"Northern Ireland","DevStatus":"Revised","count":1,"sum":48.0},{"TechGroup":"Battery Storage (BESS)","Country":"Northern Ireland","DevStatus":"Under Construction","count":3,"sum":200.0},{"TechGroup":"Battery Storage (BESS)","Country":"Scotland","DevStatus":"Abandoned","count":12,"sum":255.8},{"TechGroup":"Battery Storage (BESS)","Country":"Scotland","DevStatus":"Appeal Refused","count":1,"sum":38.0},{"TechGroup":"Battery Storage (BESS)","Country":"Scotland","DevStatus":"Application Refused","count":33,"sum":984.59},{"TechGroup":"Battery Storage (BESS)","Country":"Scotland","DevStatus":"Application Submitted","count":132,"sum":10209.1},{"TechGroup":"Battery Storage (BESS)","Country":"Scotland","DevStatus":"Application Withdrawn","count":12,"sum":302.1},{"TechGroup":"Battery Storage (BESS)","Country":"Scotland","DevStatus":"Awaiting Construction","count":248,"sum":18606.01},{"TechGroup":"Battery Storage (BESS)","Country":"Scotland","DevStatus":"Decommissioned","count":1,"sum":0.1},{"TechGroup":"Battery Storage (BESS)","Country":"Scotland","DevStatus":"Operational","count":25,"sum":922.58},{"TechGroup":"Battery Storage (BESS)","Country":"Scotland","DevStatus":"Planning Permission Expired","count":7,"sum":94.9},{"TechGroup":"Battery Storage (BESS)","Country":"Scotland","DevStatus":"Revised","count":23,"sum":703.2},{"TechGroup":"Battery Storage (BESS)","Country":"Scotland","DevStatus":"Under Construction","count":35,"sum":4314.4},{"TechGroup":"Battery Storage (BESS)","Country":"Wales","DevStatus":"Abandoned","count":3,"sum":0.0},{"TechGroup":"Battery Storage (BESS)","Country":"Wales","DevStatus":"Appeal Lodged","count":1,"sum":0.0},{"TechGroup":"Battery Storage (BESS)","Country":"Wales","DevStatus":"Application Refused","count":9,"sum":150.7},{"TechGroup":"Battery Storage (BESS)","Country":"Wales","DevStatus":"Application Submitted","count":32,"sum":2649.23},{"TechGroup":"Battery Storage (BESS)","Country":"Wales","DevStatus":"Awaiting Construction","count":75,"sum":3624.93},{"TechGroup":"Battery Storage (BESS)","Country":"Wales","DevStatus":"Operational","count":6,"sum":83.76},{"TechGroup":"Battery Storage (BESS)","Country":"Wales","DevStatus":"Planning Permission Expired","count":2,"sum":5.5},{"TechGroup":"Battery Storage (BESS)","Country":"Wales","DevStatus":"Revised","count":6,"sum":192.4},{"TechGroup":"Battery Storage (BESS)","Country":"Wales","DevStatus":"Under Construction","count":7,"sum":453.08},{"TechGroup":"Biomass & Waste","Country":"England","DevStatus":"Abandoned","count":114,"sum":2976.16},{"TechGroup":"Biomass & Waste","Country":"England","DevStatus":"Appeal Refused","count":8,"sum":87.0},{"TechGroup":"Biomass & Waste","Country":"England","DevStatus":"Appeal Withdrawn","count":7,"sum":108.0},{"TechGroup":"Biomass & Waste","Country":"England","DevStatus":"Application Refused","count":65,"sum":679.5},{"TechGroup":"Biomass & Waste","Country":"England","DevStatus":"Application Submitted","count":32,"sum":46.6},{"TechGroup":"Biomass & Waste","Country":"England","DevStatus":"Application Withdrawn","count":55,"sum":726.3},{"TechGroup":"Biomass & Waste","Country":"England","DevStatus":"Awaiting Construction","count":125,"sum":1248.11},{"TechGroup":"Biomass & Waste","Country":"England","DevStatus":"Decommissioned","count":3,"sum":743.0},{"TechGroup":"Biomass & Waste","Country":"England","DevStatus":"No Application Required","count":1,"sum":27.8},{"TechGroup":"Biomass & Waste","Country":"England","DevStatus":"Operational","count":471,"sum":6275.9},{"TechGroup":"Biomass & Waste","Country":"England","DevStatus":"Planning Permission Expired","count":51,"sum":887.7},{"TechGroup":"Biomass & Waste","Country":"England","DevStatus":"Revised","count":55,"sum":906.5},{"TechGroup":"Biomass & Waste","Country":"England","DevStatus":"Under Construction","count":38,"sum":702.2},{"TechGroup":"Biomass & Waste","Country":"Northern Ireland","DevStatus":"Abandoned","count":3,"sum":7.5},{"TechGroup":"Biomass & Waste","Country":"Northern Ireland","DevStatus":"Application Refused","count":6,"sum":67.7},{"TechGroup":"Biomass & Waste","Country":"Northern Ireland","DevStatus":"Application Submitted","count":4,"sum":1.5},{"TechGroup":"Biomass & Waste","Country":"Northern Ireland","DevStatus":"Application Withdrawn","count":2,"sum":3.0},{"TechGroup":"Biomass & Waste","Country":"Northern Ireland","DevStatus":"Awaiting Construction","count":5,"sum":21.7},{"TechGroup":"Biomass & Waste","Country":"Northern Ireland","DevStatus":"Operational","count":14,"sum":39.2},{"TechGroup":"Biomass & Waste","Country":"Northern Ireland","DevStatus":"Planning Permission Expired","count":3,"sum":12.5},{"TechGroup":"Biomass & Waste","Country":"Northern Ireland","DevStatus":"Under Construction","count":1,"sum":14.9},{"TechGroup":"Biomass & Waste","Country":"Scotland","DevStatus":"Abandoned","count":11,"sum":103.6},{"TechGroup":"Biomass & Waste","Country":"Scotland","DevStatus":"Appeal Refused","count":4,"sum":33.0},{"TechGroup":"Biomass & Waste","Country":"Scotland","DevStatus":"Appeal Withdrawn","count":1,"sum":18.0},{"TechGroup":"Biomass & Waste","Country":"Scotland","DevStatus":"Application Refused","count":4,"sum":20.0},{"TechGroup":"Biomass & Waste","Country":"Scotland","DevStatus":"Application Submitted","count":4,"sum":279.0},{"TechGroup":"Biomass & Waste","Country":"Scotland","DevStatus":"Application Withdrawn","count":10,"sum":448.2},{"TechGroup":"Biomass & Waste","Country":"Scotland","DevStatus":"Awaiting Construction","count":30,"sum":107.19},{"TechGroup":"Biomass & Waste","Country":"Scotland","DevStatus":"Decommissioned","count":2,"sum":8.2},{"TechGroup":"Biomass & Waste","Country":"Scotland","DevStatus":"Operational","count":70,"sum":458.7},{"TechGroup":"Biomass & Waste","Country":"Scotland","DevStatus":"Planning Permission Expired","count":8,"sum":256.5},{"TechGroup":"Biomass & Waste","Country":"Scotland","DevStatus":"Revised","count":8,"sum":17.7},{"TechGroup":"Biomass & Waste","Country":"Scotland","DevStatus":"Under Construction","count":9,"sum":153.0},{"TechGroup":"Biomass & Waste","Country":"Wales","DevStatus":"Abandoned","count":12,"sum":480.7},{"TechGroup":"Biomass & Waste","Country":"Wales","DevStatus":"Appeal Refused","count":2,"sum":80.9},{"TechGroup":"Biomass & Waste","Country":"Wales","DevStatus":"Appeal Withdrawn","count":2,"sum":49.0},{"TechGroup":"Biomass & Waste","Country":"Wales","DevStatus":"Application Refused","count":7,"sum":95.1},{"TechGroup":"Biomass & Waste","Country":"Wales","DevStatus":"Application Withdrawn","count":6,"sum":111.7},{"TechGroup":"Biomass & Waste","Country":"Wales","DevStatus":"Awaiting Construction","count":12,"sum":6.19},{"TechGroup":"Biomass & Waste","Country":"Wales","DevStatus":"Decommissioned","count":3,"sum":38.5},{"TechGroup":"Biomass & Waste","Country":"Wales","DevStatus":"Operational","count":30,"sum":210.69},{"TechGroup":"Biomass & Waste","Country":"Wales","DevStatus":"Planning Permission Expired","count":6,"sum":347.8},{"TechGroup":"Biomass & Waste","Country":"Wales","DevStatus":"Revised","count":3,"sum":19.5},{"TechGroup":"Biomass & Waste","Country":"Wales","DevStatus":"Under Construction","count":1,"sum":1.0},{"TechGroup":"Hydro & Marine","Country":"England","DevStatus":"Abandoned","count":2,"sum":106.0},{"TechGroup":"Hydro & Marine","Country":"England","DevStatus":"Application Refused","count":1,"sum":0.3},{"TechGroup":"Hydro & Marine","Country":"England","DevStatus":"Application Submitted","count":9,"sum":429.2},{"TechGroup":"Hydro & Marine","Country":"England","DevStatus":"Application Withdrawn","count":3,"sum":3.8},{"TechGroup":"Hydro & Marine","Country":"England","DevStatus":"Awaiting Construction","count":35,"sum":405.79},{"TechGroup":"Hydro & Marine","Country":"England","DevStatus":"Operational","count":5,"sum":19.7},{"TechGroup":"Hydro & Marine","Country":"England","DevStatus":"Planning Permission Expired","count":2,"sum":1.4},{"TechGroup":"Hydro & Marine","Country":"England","DevStatus":"Revised","count":4,"sum":20.58},{"TechGroup":"Hydro & Marine","Country":"England","DevStatus":"Under Construction","count":2,"sum":7.7},{"TechGroup":"Hydro & Marine","Country":"Scotland","DevStatus":"Abandoned","count":9,"sum":20.6},{"TechGroup":"Hydro & Marine","Country":"Scotland","DevStatus":"Appeal Refused","count":2,"sum":4.0},{"TechGroup":"Hydro & Marine","Country":"Scotland","DevStatus":"Application Refused","count":6,"sum":13.9},{"TechGroup":"Hydro & Marine","Country":"Scotland","DevStatus":"Application Submitted","count":12,"sum":6250.75},{"TechGroup":"Hydro & Marine","Country":"Scotland","DevStatus":"Application Withdrawn","count":11,"sum":28.4},{"TechGroup":"Hydro & Marine","Country":"Scotland","DevStatus":"Awaiting Construction","count":29,"sum":7823.94},{"TechGroup":"Hydro & Marine","Country":"Scotland","DevStatus":"Operational","count":91,"sum":1337.7},{"TechGroup":"Hydro & Marine","Country":"Scotland","DevStatus":"Planning Permission Expired","count":5,"sum":6.6},{"TechGroup":"Hydro & Marine","Country":"Scotland","DevStatus":"Revised","count":9,"sum":618.8},{"TechGroup":"Hydro & Marine","Country":"Scotland","DevStatus":"Under Construction","count":11,"sum":8.4},{"TechGroup":"Hydro & Marine","Country":"Wales","DevStatus":"Abandoned","count":1,"sum":0.0},{"TechGroup":"Hydro & Marine","Country":"Wales","DevStatus":"Application Refused","count":2,"sum":5.6},{"TechGroup":"Hydro & Marine","Country":"Wales","DevStatus":"Application Submitted","count":4,"sum":1.05},{"TechGroup":"Hydro & Marine","Country":"Wales","DevStatus":"Application Withdrawn","count":3,"sum":6.0},{"TechGroup":"Hydro & Marine","Country":"Wales","DevStatus":"Awaiting Construction","count":9,"sum":266.6},{"TechGroup":"Hydro & Marine","Country":"Wales","DevStatus":"No Application Required","count":1,"sum":20.0},{"TechGroup":"Hydro & Marine","Country":"Wales","DevStatus":"Operational","count":8,"sum":2142.8},{"TechGroup":"Hydro & Marine","Country":"Wales","DevStatus":"Revised","count":2,"sum":49.9},{"TechGroup":"Hydro & Marine","Country":"Wales","DevStatus":"Under Construction","count":3,"sum":4.41},{"TechGroup":"Other Low Carbon","Country":"England","DevStatus":"Abandoned","count":1,"sum":1.2},{"TechGroup":"Other Low Carbon","Country":"England","DevStatus":"Application Refused","count":1,"sum":49.0},{"TechGroup":"Other Low Carbon","Country":"England","DevStatus":"Application Submitted","count":4,"sum":2.0},{"TechGroup":"Other Low Carbon","Country":"England","DevStatus":"Application Withdrawn","count":2,"sum":7.0},{"TechGroup":"Other Low Carbon","Country":"England","DevStatus":"Awaiting Construction","count":7,"sum":84.9},{"TechGroup":"Other Low Carbon","Country":"England","DevStatus":"Decommissioned","count":1,"sum":0.4},{"TechGroup":"Other Low Carbon","Country":"England","DevStatus":"Operational","count":17,"sum":475.7},{"TechGroup":"Other Low Carbon","Country":"England","DevStatus":"Planning Permission Expired","count":1,"sum":2.0},{"TechGroup":"Other Low Carbon","Country":"England","DevStatus":"Revised","count":2,"sum":79.9},{"TechGroup":"Other Low Carbon","Country":"England","DevStatus":"Under Construction","count":1,"sum":7.0},{"TechGroup":"Other Low Carbon","Country":"Northern Ireland","DevStatus":"Application Submitted","count":1,"sum":100.0},{"TechGroup":"Other Low Carbon","Country":"Northern Ireland","DevStatus":"Decommissioned","count":1,"sum":1.2},{"TechGroup":"Other Low Carbon","Country":"Scotland","DevStatus":"Abandoned","count":2,"sum":6.5},{"TechGroup":"Other Low Carbon","Country":"Scotland","DevStatus":"Application Submitted","count":4,"sum":227.2},{"TechGroup":"Other Low Carbon","Country":"Scotland","DevStatus":"Application Withdrawn","count":2,"sum":9.2},{"TechGroup":"Other Low Carbon","Country":"Scotland","DevStatus":"Awaiting Construction","count":5,"sum":85.0},{"TechGroup":"Other Low Carbon","Country":"Scotland","DevStatus":"Decommissioned","count":6,"sum":6.0},{"TechGroup":"Other Low Carbon","Country":"Scotland","DevStatus":"Operational","count":6,"sum":12.9},{"TechGroup":"Other Low Carbon","Country":"Scotland","DevStatus":"Planning Permission Expired","count":3,"sum":83.0},{"TechGroup":"Other Low Carbon","Country":"Wales","DevStatus":"Abandoned","count":1,"sum":10.0},{"TechGroup":"Other Low Carbon","Country":"Wales","DevStatus":"Application Submitted","count":1,"sum":7.0},{"TechGroup":"Other Low Carbon","Country":"Wales","DevStatus":"Operational","count":1,"sum":5.5},{"TechGroup":"Other Low Carbon","Country":"Wales","DevStatus":"Planning Permission Expired","count":1,"sum":320.0},{"TechGroup":"Other Low Carbon","Country":"Wales","DevStatus":"Under Construction","count":1,"sum":240.0},{"TechGroup":"Solar PV","Country":"England","DevStatus":"Abandoned","count":94,"sum":561.83},{"TechGroup":"Solar PV","Country":"England","DevStatus":"Appeal Lodged","count":1,"sum":40.0},{"TechGroup":"Solar PV","Country":"England","DevStatus":"Appeal Refused","count":82,"sum":836.2},{"TechGroup":"Solar PV","Country":"England","DevStatus":"Appeal Withdrawn","count":7,"sum":61.3},{"TechGroup":"Solar PV","Country":"England","DevStatus":"Application Refused","count":283,"sum":2776.64},{"TechGroup":"Solar PV","Country":"England","DevStatus":"Application Submitted","count":571,"sum":14941.98},{"TechGroup":"Solar PV","Country":"England","DevStatus":"Application Withdrawn","count":163,"sum":1005.9},{"TechGroup":"Solar PV","Country":"England","DevStatus":"Awaiting Construction","count":3547,"sum":23855.67},{"TechGroup":"Solar PV","Country":"England","DevStatus":"No Application Required","count":6,"sum":0.3},{"TechGroup":"Solar PV","Country":"England","DevStatus":"Operational","count":1216,"sum":9931.06},{"TechGroup":"Solar PV","Country":"England","DevStatus":"Planning Permission Expired","count":99,"sum":878.0},{"TechGroup":"Solar PV","Country":"England","DevStatus":"Revised","count":306,"sum":2648.19},{"TechGroup":"Solar PV","Country":"England","DevStatus":"Under Construction","count":189,"sum":2757.91},{"TechGroup":"Solar PV","Country":"Northern Ireland","DevStatus":"Abandoned","count":4,"sum":38.5},{"TechGroup":"Solar PV","Country":"Northern Ireland","DevStatus":"Appeal Refused","count":1,"sum":6.2},{"TechGroup":"Solar PV","Country":"Northern Ireland","DevStatus":"Appeal Withdrawn","count":1,"sum":5.0},{"TechGroup":"Solar PV","Country":"Northern Ireland","DevStatus":"Application Refused","count":1,"sum":4.1},{"TechGroup":"Solar PV","Country":"Northern Ireland","DevStatus":"Application Submitted","count":11,"sum":82.94},{"TechGroup":"Solar PV","Country":"Northern Ireland","DevStatus":"Application Withdrawn","count":2,"sum":15.8},{"TechGroup":"Solar PV","Country":"Northern Ireland","DevStatus":"Awaiting Construction","count":17,"sum":105.8},{"TechGroup":"Solar PV","Country":"Northern Ireland","DevStatus":"Operational","count":21,"sum":209.3},{"TechGroup":"Solar PV","Country":"Northern Ireland","DevStatus":"Planning Permission Expired","count":4,"sum":13.1},{"TechGroup":"Solar PV","Country":"Northern Ireland","DevStatus":"Revised","count":1,"sum":25.0},{"TechGroup":"Solar PV","Country":"Other\/Offshore","DevStatus":"Operational","count":1,"sum":16.0},{"TechGroup":"Solar PV","Country":"Scotland","DevStatus":"Abandoned","count":16,"sum":91.0},{"TechGroup":"Solar PV","Country":"Scotland","DevStatus":"Appeal Refused","count":4,"sum":34.8},{"TechGroup":"Solar PV","Country":"Scotland","DevStatus":"Application Refused","count":8,"sum":256.6},{"TechGroup":"Solar PV","Country":"Scotland","DevStatus":"Application Submitted","count":60,"sum":1300.24},{"TechGroup":"Solar PV","Country":"Scotland","DevStatus":"Application Withdrawn","count":8,"sum":13.65},{"TechGroup":"Solar PV","Country":"Scotland","DevStatus":"Awaiting Construction","count":286,"sum":2002.73},{"TechGroup":"Solar PV","Country":"Scotland","DevStatus":"No Application Required","count":1,"sum":1.3},{"TechGroup":"Solar PV","Country":"Scotland","DevStatus":"Operational","count":41,"sum":84.75},{"TechGroup":"Solar PV","Country":"Scotland","DevStatus":"Planning Permission Expired","count":16,"sum":104.9},{"TechGroup":"Solar PV","Country":"Scotland","DevStatus":"Revised","count":16,"sum":141.4},{"TechGroup":"Solar PV","Country":"Scotland","DevStatus":"Under Construction","count":23,"sum":219.37},{"TechGroup":"Solar PV","Country":"Wales","DevStatus":"Abandoned","count":17,"sum":101.95},{"TechGroup":"Solar PV","Country":"Wales","DevStatus":"Appeal Lodged","count":2,"sum":200.0},{"TechGroup":"Solar PV","Country":"Wales","DevStatus":"Appeal Refused","count":5,"sum":18.4},{"TechGroup":"Solar PV","Country":"Wales","DevStatus":"Application Refused","count":12,"sum":195.49},{"TechGroup":"Solar PV","Country":"Wales","DevStatus":"Application Submitted","count":27,"sum":439.32},{"TechGroup":"Solar PV","Country":"Wales","DevStatus":"Application Withdrawn","count":11,"sum":40.59},{"TechGroup":"Solar PV","Country":"Wales","DevStatus":"Awaiting Construction","count":112,"sum":820.0},{"TechGroup":"Solar PV","Country":"Wales","DevStatus":"No Application Required","count":3,"sum":0.0},{"TechGroup":"Solar PV","Country":"Wales","DevStatus":"Operational","count":128,"sum":908.04},{"TechGroup":"Solar PV","Country":"Wales","DevStatus":"Planning Permission Expired","count":16,"sum":88.5},{"TechGroup":"Solar PV","Country":"Wales","DevStatus":"Revised","count":9,"sum":120.03},{"TechGroup":"Solar PV","Country":"Wales","DevStatus":"Under Construction","count":11,"sum":235.88},{"TechGroup":"Wind Offshore","Country":"England","DevStatus":"Abandoned","count":2,"sum":348.0},{"TechGroup":"Wind Offshore","Country":"England","DevStatus":"Application Refused","count":3,"sum":1850.0},{"TechGroup":"Wind Offshore","Country":"England","DevStatus":"Application Withdrawn","count":2,"sum":1484.0},{"TechGroup":"Wind Offshore","Country":"England","DevStatus":"Awaiting Construction","count":19,"sum":19029.4},{"TechGroup":"Wind Offshore","Country":"England","DevStatus":"Decommissioned","count":1,"sum":4.0},{"TechGroup":"Wind Offshore","Country":"England","DevStatus":"Operational","count":34,"sum":10972.7},{"TechGroup":"Wind Offshore","Country":"England","DevStatus":"Under Construction","count":6,"sum":10755.0},{"TechGroup":"Wind Offshore","Country":"Scotland","DevStatus":"Application Submitted","count":14,"sum":18058.0},{"TechGroup":"Wind Offshore","Country":"Scotland","DevStatus":"Awaiting Construction","count":8,"sum":10923.0},{"TechGroup":"Wind Offshore","Country":"Scotland","DevStatus":"Operational","count":12,"sum":4312.3},{"TechGroup":"Wind Offshore","Country":"Scotland","DevStatus":"Revised","count":1,"sum":0.0},{"TechGroup":"Wind Offshore","Country":"Scotland","DevStatus":"Under Construction","count":2,"sum":1090.0},{"TechGroup":"Wind Offshore","Country":"Wales","DevStatus":"Application Withdrawn","count":1,"sum":108.0},{"TechGroup":"Wind Offshore","Country":"Wales","DevStatus":"Awaiting Construction","count":2,"sum":875.0},{"TechGroup":"Wind Offshore","Country":"Wales","DevStatus":"Operational","count":3,"sum":726.0},{"TechGroup":"Wind Onshore","Country":"England","DevStatus":"Abandoned","count":21,"sum":194.2},{"TechGroup":"Wind Onshore","Country":"England","DevStatus":"Appeal Refused","count":65,"sum":900.3},{"TechGroup":"Wind Onshore","Country":"England","DevStatus":"Appeal Withdrawn","count":15,"sum":204.0},{"TechGroup":"Wind Onshore","Country":"England","DevStatus":"Application Refused","count":164,"sum":1557.7},{"TechGroup":"Wind Onshore","Country":"England","DevStatus":"Application Submitted","count":43,"sum":300.94},{"TechGroup":"Wind Onshore","Country":"England","DevStatus":"Application Withdrawn","count":100,"sum":1105.9},{"TechGroup":"Wind Onshore","Country":"England","DevStatus":"Awaiting Construction","count":71,"sum":74.78},{"TechGroup":"Wind Onshore","Country":"England","DevStatus":"Decommissioned","count":5,"sum":27.1},{"TechGroup":"Wind Onshore","Country":"England","DevStatus":"No Application Required","count":1,"sum":0.0},{"TechGroup":"Wind Onshore","Country":"England","DevStatus":"Operational","count":282,"sum":2871.45},{"TechGroup":"Wind Onshore","Country":"England","DevStatus":"Planning Permission Expired","count":9,"sum":87.8},{"TechGroup":"Wind Onshore","Country":"England","DevStatus":"Revised","count":71,"sum":906.45},{"TechGroup":"Wind Onshore","Country":"England","DevStatus":"Under Construction","count":2,"sum":5.2},{"TechGroup":"Wind Onshore","Country":"Northern Ireland","DevStatus":"Abandoned","count":5,"sum":48.5},{"TechGroup":"Wind Onshore","Country":"Northern Ireland","DevStatus":"Appeal Refused","count":13,"sum":189.0},{"TechGroup":"Wind Onshore","Country":"Northern Ireland","DevStatus":"Appeal Withdrawn","count":7,"sum":112.4},{"TechGroup":"Wind Onshore","Country":"Northern Ireland","DevStatus":"Application Refused","count":18,"sum":251.25},{"TechGroup":"Wind Onshore","Country":"Northern Ireland","DevStatus":"Application Submitted","count":78,"sum":343.01},{"TechGroup":"Wind Onshore","Country":"Northern Ireland","DevStatus":"Application Withdrawn","count":35,"sum":380.38},{"TechGroup":"Wind Onshore","Country":"Northern Ireland","DevStatus":"Awaiting Construction","count":119,"sum":420.17},{"TechGroup":"Wind Onshore","Country":"Northern Ireland","DevStatus":"Operational","count":83,"sum":1215.7},{"TechGroup":"Wind Onshore","Country":"Northern Ireland","DevStatus":"Planning Permission Expired","count":10,"sum":52.1},{"TechGroup":"Wind Onshore","Country":"Northern Ireland","DevStatus":"Revised","count":12,"sum":155.7},{"TechGroup":"Wind Onshore","Country":"Northern Ireland","DevStatus":"Under Construction","count":1,"sum":27.0},{"TechGroup":"Wind Onshore","Country":"Scotland","DevStatus":"Abandoned","count":23,"sum":1164.3},{"TechGroup":"Wind Onshore","Country":"Scotland","DevStatus":"Appeal Refused","count":108,"sum":2839.2},{"TechGroup":"Wind Onshore","Country":"Scotland","DevStatus":"Appeal Withdrawn","count":6,"sum":252.0},{"TechGroup":"Wind Onshore","Country":"Scotland","DevStatus":"Application Refused","count":166,"sum":5102.42},{"TechGroup":"Wind Onshore","Country":"Scotland","DevStatus":"Application Submitted","count":152,"sum":9619.19},{"TechGroup":"Wind Onshore","Country":"Scotland","DevStatus":"Application Withdrawn","count":129,"sum":3852.39},{"TechGroup":"Wind Onshore","Country":"Scotland","DevStatus":"Awaiting Construction","count":158,"sum":6098.88},{"TechGroup":"Wind Onshore","Country":"Scotland","DevStatus":"Decommissioned","count":2,"sum":24.0},{"TechGroup":"Wind Onshore","Country":"Scotland","DevStatus":"No Application Required","count":1,"sum":13.2},{"TechGroup":"Wind Onshore","Country":"Scotland","DevStatus":"Operational","count":348,"sum":10201.5},{"TechGroup":"Wind Onshore","Country":"Scotland","DevStatus":"Planning Permission Expired","count":35,"sum":418.1},{"TechGroup":"Wind Onshore","Country":"Scotland","DevStatus":"Revised","count":137,"sum":3853.85},{"TechGroup":"Wind Onshore","Country":"Scotland","DevStatus":"Under Construction","count":31,"sum":1976.8},{"TechGroup":"Wind Onshore","Country":"Wales","DevStatus":"Abandoned","count":5,"sum":105.5},{"TechGroup":"Wind Onshore","Country":"Wales","DevStatus":"Appeal Refused","count":16,"sum":305.2},{"TechGroup":"Wind Onshore","Country":"Wales","DevStatus":"Appeal Withdrawn","count":3,"sum":74.0},{"TechGroup":"Wind Onshore","Country":"Wales","DevStatus":"Application Refused","count":41,"sum":611.01},{"TechGroup":"Wind Onshore","Country":"Wales","DevStatus":"Application Submitted","count":21,"sum":603.23},{"TechGroup":"Wind Onshore","Country":"Wales","DevStatus":"Application Withdrawn","count":18,"sum":402.2},{"TechGroup":"Wind Onshore","Country":"Wales","DevStatus":"Awaiting Construction","count":24,"sum":643.67},{"TechGroup":"Wind Onshore","Country":"Wales","DevStatus":"Operational","count":72,"sum":1219.7},{"TechGroup":"Wind Onshore","Country":"Wales","DevStatus":"Planning Permission Expired","count":2,"sum":24.5},{"TechGroup":"Wind Onshore","Country":"Wales","DevStatus":"Revised","count":17,"sum":467.02},{"TechGroup":"Wind Onshore","Country":"Wales","DevStatus":"Under Construction","count":3,"sum":30.3}];
+
+  let currentMetric = 'GW';
+  let selectedCountry = 'ALL';
+  let selectedTech = 'ALL';
+
+  const nodeColors = {
+    'Battery Storage (BESS)': '#7C3AED',
+    'Solar PV': '#D97706',
+    'Wind Onshore': '#007D3F',
+    'Wind Offshore': '#0284C7',
+    'Biomass & Waste': '#854D0E',
+    'Hydro & Marine': '#0D9488',
+    'Other Low Carbon': '#64748B',
+
+    'Awaiting Construction (Backlog)': '#F59E0B',
+    'Live in Planning / Review': '#3B82F6',
+    'Operational (Connected)': '#10B981',
+    'Under Construction': '#059669',
+    'Refused / Withdrawn / Inactive': '#EF4444',
+    'Revised / Re-scoped': '#8B5CF6',
+
+    'England': '#1E293B',
+    'Scotland': '#0369A1',
+    'Wales': '#B91C1C',
+    'Northern Ireland': '#4B5563',
+    'Other/Offshore': '#6B7280',
+
+    'Connected Grid Asset': '#10B981',
+    'Committed Grid Queue / Build': '#F59E0B',
+    'Active Statutory Determination': '#3B82F6',
+    'Lapsed / Attrited Capacity': '#94A3B8'
+  };
+
+  function getColor(label) {
+    return nodeColors[label] || '#535A5F';
+  }
+
+  function setMetric(metric) {
+    currentMetric = metric;
+    document.getElementById('btn-metric-gw').classList.toggle('active', metric === 'GW');
+    document.getElementById('btn-metric-count').classList.toggle('active', metric === 'Count');
+    renderCurrentChart();
+  }
+
+  function onFilterChange() {
+    selectedCountry = document.getElementById('filter-country').value;
+    selectedTech = document.getElementById('filter-tech').value;
+    renderCurrentChart();
+  }
+
+  function mapStatusGate(s) {
+    if (s === 'Operational') return 'Operational (Connected)';
+    if (s === 'Under Construction') return 'Under Construction';
+    if (s === 'Awaiting Construction') return 'Awaiting Construction (Backlog)';
+    if (['Application Submitted', 'Appeal Lodged', 'No Application Required'].includes(s)) return 'Live in Planning / Review';
+    if (['Application Refused', 'Appeal Refused', 'Application Withdrawn', 'Appeal Withdrawn', 'Planning Permission Expired', 'Abandoned', 'Decommissioned'].includes(s)) return 'Refused / Withdrawn / Inactive';
+    if (s === 'Revised') return 'Revised / Re-scoped';
+    return 'Other Status';
+  }
+
+  function mapGridRealisation(sg) {
+    if (sg === 'Operational (Connected)') return 'Connected Grid Asset';
+    if (['Under Construction', 'Awaiting Construction (Backlog)'].includes(sg)) return 'Committed Grid Queue / Build';
+    if (['Live in Planning / Review', 'Revised / Re-scoped'].includes(sg)) return 'Active Statutory Determination';
+    return 'Lapsed / Attrited Capacity';
+  }
+
+  function buildOption1Trace() {
+    let filtered = rawDataOp1.filter(d => {
+      let matchCountry = (selectedCountry === 'ALL') || (d.Country === selectedCountry);
+      let matchTech = (selectedTech === 'ALL') || (d.TechGroup === selectedTech);
+      return matchCountry && matchTech;
+    });
+
+    let totalMW = filtered.reduce((acc, r) => acc + r.sum, 0);
+    let totalCount = filtered.reduce((acc, r) => acc + r.count, 0);
+    document.getElementById('active-flow-count').innerText = totalCount.toLocaleString();
+    document.getElementById('active-flow-gw').innerText = (totalMW / 1000).toFixed(1);
+
+    let linksMap = {};
+    filtered.forEach(row => {
+      let tech = row.TechGroup;
+      let statusGate = mapStatusGate(row.DevStatus);
+      let country = row.Country;
+      let grid = mapGridRealisation(statusGate);
+      let val = (currentMetric === 'GW') ? (row.sum / 1000.0) : row.count;
+
+      if (val <= 0) return;
+
+      let k1 = `${tech}|||${statusGate}`;
+      linksMap[k1] = (linksMap[k1] || 0) + val;
+
+      let k2 = `${statusGate}|||${country}`;
+      linksMap[k2] = (linksMap[k2] || 0) + val;
+
+      let k3 = `${country}|||${grid}`;
+      linksMap[k3] = (linksMap[k3] || 0) + val;
+    });
+
+    return createSankeyPayloadFromLinks(linksMap);
+  }
+
+  function createSankeyPayloadFromLinks(linksMap) {
+    let nodeIndices = {};
+    let nodeLabels = [];
+    let nodeColorsList = [];
+
+    function getNodeIdx(name) {
+      if (nodeIndices[name] === undefined) {
+        nodeIndices[name] = nodeLabels.length;
+        nodeLabels.push(name);
+        nodeColorsList.push(getColor(name));
+      }
+      return nodeIndices[name];
+    }
+
+    let sources = [];
+    let targets = [];
+    let values = [];
+    let linkColors = [];
+
+    for (let linkKey in linksMap) {
+      let parts = linkKey.split('|||');
+      let src = parts[0];
+      let tgt = parts[1];
+      let val = linksMap[linkKey];
+
+      let srcIdx = getNodeIdx(src);
+      let tgtIdx = getNodeIdx(tgt);
+
+      sources.push(srcIdx);
+      targets.push(tgtIdx);
+      values.push(Math.round(val * 100) / 100);
+
+      let baseHex = getColor(src);
+      linkColors.push(hexToRgba(baseHex, 0.35));
+    }
+
+    return {
+      type: 'sankey',
+      orientation: 'h',
+      arrangement: 'snap',
+      valueformat: (currentMetric === 'GW') ? '.2f' : '.0f',
+      valuesuffix: (currentMetric === 'GW') ? ' GW' : ' sites',
+      node: {
+        pad: 22,
+        thickness: 24,
+        line: { color: '#FFFFFF', width: 1.5 },
+        label: nodeLabels,
+        color: nodeColorsList,
+        hovertemplate: `<b>%{label}</b><br>Total Throughput: %{value}<extra></extra>`
+      },
+      link: {
+        source: sources,
+        target: targets,
+        value: values,
+        color: linkColors,
+        hovertemplate: `<b>%{source.label}</b> → <b>%{target.label}</b><br>Flow: %{value}<extra></extra>`
+      }
+    };
+  }
+
+  function hexToRgba(hex, alpha) {
+    let c = hex.replace('#', '');
+    if (c.length === 3) c = c.split('').map(x => x + x).join('');
+    let num = parseInt(c, 16);
+    let r = (num >> 16) & 255;
+    let g = (num >> 8) & 255;
+    let b = num & 255;
+    return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+  }
+
+  function renderCurrentChart() {
+    let trace = buildOption1Trace();
+
+    let layout = {
+      font: {
+        family: 'Inter, sans-serif',
+        size: 12,
+        color: '#1D1D1F'
+      },
+      margin: { l: 20, r: 20, t: 30, b: 30 },
+      paper_bgcolor: 'transparent',
+      plot_bgcolor: 'transparent'
+    };
+
+    let config = {
+      responsive: true,
+      displayModeBar: true,
+      displaylogo: false,
+      modeBarButtonsToRemove: ['lasso2d', 'select2d']
+    };
+
+    Plotly.react('plotly-flow-div', [trace], layout, config);
+  }
+
+  function downloadChartImage() {
+    Plotly.downloadImage('plotly-flow-div', {
+      format: 'png',
+      width: 1920,
+      height: 1080,
+      filename: `REPD_Q2_2026_Macro_Planning_Lifecycle_${currentMetric}`
+    });
+  }
+
+  window.addEventListener('DOMContentLoaded', () => {
+    renderCurrentChart();
+  });
+</script>
+
+</body>
+</html>
