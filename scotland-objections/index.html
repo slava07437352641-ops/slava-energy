@@ -572,6 +572,36 @@
             align-items: center;
             gap: 6px;
             padding: 6px 14px;
+            background: rgba(0, 0, 0, 0.05);
+            color: var(--text-primary) !important;
+            border: 1px solid rgba(0, 0, 0, 0.12);
+            border-radius: 980px;
+            font-size: 13px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .nav-back-pill:hover {
+            background: rgba(0, 0, 0, 0.09);
+            transform: scale(1.02);
+        }
+
+        [data-theme="dark"] .nav-back-pill {
+            background: rgba(255, 255, 255, 0.08);
+            border-color: rgba(255, 255, 255, 0.15);
+            color: #F7F1EA !important;
+        }
+
+        [data-theme="dark"] .nav-back-pill:hover {
+            background: rgba(255, 255, 255, 0.14);
+        }
+
+        .nav-primary-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 14px;
             background: #007D3F;
             color: #FFFFFF !important;
             border-radius: 980px;
@@ -581,7 +611,7 @@
             transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
         }
 
-        .nav-back-pill:hover {
+        .nav-primary-pill:hover {
             background: #009A4E;
             transform: scale(1.02);
         }
@@ -620,11 +650,11 @@
             </a>
 
             <div class="nav-actions">
-                <a href="#" class="nav-back-pill" id="scotlandResetBtn" title="Reset to All Scotland">
-                    Scotland
+                <a href="../index.html" class="nav-back-pill" title="Return to Macro Planning Lifecycle & Grid Delivery">
+                    ← Macro Lifecycle
                 </a>
-                <a href="../index.html" class="nav-back-pill" title="Open the macro planning lifecycle visualisation">
-                    Visualisation
+                <a href="#" class="nav-primary-pill" id="scotlandResetBtn" title="Reset map selection to All Scotland">
+                    Reset Map
                 </a>
                 <div class="nav-status-pill">
                     <div class="status-dot"></div>
@@ -640,14 +670,14 @@
                 <div class="brand-dot"></div>
                 Scotland Energy Consents · Community Voice
             </div>
-            <h1 class="header-title">Scotland renewable objections map</h1>
+            <h1 class="header-title">Scotland Renewable Objections Map</h1>
             <p class="header-subtitle">211 unique energy projects across 32 Scottish councils · community objections & developer responses</p>
         </div>
 
         <div class="controls-group">
             <div class="search-box">
                 <svg class="search-icon" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
-                <input type="text" id="searchInput" placeholder="Search noise, fire...">
+                <input type="text" id="searchInput" placeholder="Search by keyword, council, or project (e.g. noise, fire, peat)...">
             </div>
             <button class="theme-toggle-btn" id="themeToggleBtn" title="Toggle Light/Dark Theme">
                 <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>

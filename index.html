@@ -7,15 +7,19 @@
   <meta name="description" content="Executive intelligence hub for UK renewable energy planning lifecycles, grid delivery bottlenecks, and geospatial objection intelligence.">
   <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
   <link rel="stylesheet" href="assets/css/apple-portal.css">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22 width=%2232%22 height=%2232%22><rect width=%2232%22 height=%2232%22 rx=%228%22 fill=%22%23007D3F%22/><path d=%22M17 6L9 18h6l-2 8 10-12h-6l2-8z%22 fill=%22white%22/></svg>">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22 width=%2232%22 height=%2232%22><rect width=%2232%22 height=%2232%22 rx=%228%22 fill=%22%23007D3F%22/><path d=%22M17 6L9 18h6l-2 8 10-12h-6l2-8z%22 fill=%22white%22/></svg>">
 </head>
 <body>
 
   <!-- Apple Glass Navigation -->
   <header class="apple-nav">
     <a href="#" class="brand-wrapper">
+      <div class="brand-glyph">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+      </div>
       <div class="brand-text">
         <h1>slava.energy</h1>
+        <span>UK Renewables Intelligence</span>
       </div>
     </a>
     <div class="nav-actions">
@@ -29,35 +33,37 @@
   <div class="hero-wrapper">
     <!-- Hero Title Group -->
     <div class="hero-title-group">
+      <span class="eyebrow">Macro Flow Architecture</span>
       <h1 class="hero-headline">Macro Planning Lifecycle & Grid Delivery</h1>
+      <p class="hero-subhead">Tracing 398 GW of UK renewable pipeline from technology origin and statutory planning determinations to commercial grid connection.</p>
     </div>
 
     <!-- Apple-Style Bento KPI Grid -->
     <div class="kpi-bento">
       <div class="kpi-tile">
         <div class="kpi-label">Total Tracked Pipeline</div>
-        <div class="kpi-number">398.2 <span>GW</span></div>
-        <div class="kpi-caption">14,657 projects across UK</div>
+        <div class="kpi-number"><span id="kpi-val-pipeline">398.2</span> <span id="kpi-unit-pipeline">GW</span></div>
+        <div class="kpi-caption" id="kpi-caption-pipeline">14,657 projects across the UK</div>
       </div>
       <div class="kpi-tile gold">
         <div class="kpi-label">Awaiting Construction (Grid Queue)</div>
-        <div class="kpi-number">147.0 <span>GW</span></div>
-        <div class="kpi-caption">5,948 consented projects stalled</div>
+        <div class="kpi-number"><span id="kpi-val-awaiting">147.0</span> <span id="kpi-unit-awaiting">GW</span></div>
+        <div class="kpi-caption" id="kpi-caption-awaiting">5,948 consented projects stalled</div>
       </div>
       <div class="kpi-tile">
-        <div class="kpi-label">Operational Realised Assets</div>
-        <div class="kpi-number">58.6 <span>GW</span></div>
-        <div class="kpi-caption">3,132 grid-connected projects</div>
+        <div class="kpi-label">Realised Operational Assets</div>
+        <div class="kpi-number"><span id="kpi-val-operational">58.6</span> <span id="kpi-unit-operational">GW</span></div>
+        <div class="kpi-caption" id="kpi-caption-operational">3,132 grid-connected projects</div>
       </div>
       <div class="kpi-tile teal">
         <div class="kpi-label">Under Active Construction</div>
-        <div class="kpi-number">28.1 <span>GW</span></div>
-        <div class="kpi-caption">457 projects on-site buildout</div>
+        <div class="kpi-number"><span id="kpi-val-construction">28.1</span> <span id="kpi-unit-construction">GW</span></div>
+        <div class="kpi-caption" id="kpi-caption-construction">457 projects on-site buildout</div>
       </div>
       <div class="kpi-tile blue">
-        <div class="kpi-label">Live In Planning Review</div>
-        <div class="kpi-number">95.1 <span>GW</span></div>
-        <div class="kpi-caption">1,539 active statutory applications</div>
+        <div class="kpi-label">Live Planning Review</div>
+        <div class="kpi-number"><span id="kpi-val-planning">95.1</span> <span id="kpi-unit-planning">GW</span></div>
+        <div class="kpi-caption" id="kpi-caption-planning">1,539 active statutory applications</div>
       </div>
     </div>
 
@@ -69,7 +75,7 @@
           <p>Technology Origin → Statutory Planning Milestone → Jurisdiction / Territory → Commercial Realisation</p>
         </div>
         <div class="surface-tools">
-          <button class="btn-pill-action" onclick="resetChartView()" title="Reset zoom and node positions">
+          <button class="btn-pill-action" onclick="resetChartView()" title="Reset all filters and layout">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
             Reset View
           </button>
@@ -110,7 +116,7 @@
             </select>
           </div>
 
-          <a href="scotland-objections/index.html" class="scotland-deepdive-pill" id="scotland-deepdive-btn" style="display: none;" title="Explore 298 objections across 32 councils">
+          <a href="scotland-objections/index.html" class="scotland-deepdive-pill" id="scotland-deepdive-btn" style="display: none;" title="Explore 674 objections across 32 councils">
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
             Scotland Objections Map (32 Councils) &rarr;
           </a>
@@ -133,7 +139,7 @@
         <div class="insights-columns">
           <div class="insight-block">
             <strong>1. The 147 GW Delivery Chasm:</strong>
-            Over 71% of all consented clean energy capacity (147.0 GW across 5,948 projects) sits in <em>Awaiting Construction</em> status. The primary gatekeeper to Net Zero buildout is transmission connection queues (NESO TEC Register).
+            Over 71% of all consented clean energy capacity (147.0 GW across 5,948 projects) holds <em>Awaiting Construction</em> status. The primary gatekeeper to the Net Zero buildout is transmission connection queues (NESO TEC Register).
           </div>
           <div class="insight-block">
             <strong>2. BESS & Solar Surge:</strong>
@@ -141,7 +147,7 @@
           </div>
           <div class="insight-block">
             <strong>3. Regional Specialisation:</strong>
-            Scotland commands <strong>74.1% (45.4 GW)</strong> of all Onshore Wind pipeline, while England commands the majority of Solar PV and BESS capacity.
+            Scotland commands <strong>74.1% (45.4 GW)</strong> of the UK onshore wind pipeline, while England commands the majority of Solar PV and BESS capacity.
           </div>
         </div>
       </div>
@@ -150,8 +156,8 @@
     <!-- WebGIS Banner Direct Access -->
     <div class="webgis-banner">
       <div class="webgis-info">
-        <h3>Scotland Renewable Objections WebGIS Map</h3>
-        <p>Interactive geospatial intelligence platform cataloging community objections, ECU filings, and planning outcomes across all 32 Scottish council areas.</p>
+        <h3>Scotland Renewable Energy Objections WebGIS Map</h3>
+        <p>Interactive geospatial intelligence platform cataloguing community objections, ECU filings, and planning outcomes across all 32 Scottish council areas.</p>
       </div>
       <a href="scotland-objections/index.html" class="btn-webgis">Launch WebGIS Map ➔</a>
     </div>
@@ -236,6 +242,61 @@
       return 'Lapsed / Attrited Capacity';
     }
 
+    function updateBentoKPIs(filtered) {
+      const isGW = (currentMetric === 'GW');
+      const unit = isGW ? 'GW' : 'Sites';
+
+      // 1. Total Pipeline
+      const totalMW = filtered.reduce((acc, r) => acc + r.sum, 0);
+      const totalCount = filtered.reduce((acc, r) => acc + r.count, 0);
+      const totalVal = isGW ? (totalMW / 1000).toFixed(1) : totalCount.toLocaleString();
+
+      // 2. Awaiting Construction
+      const awaitRows = filtered.filter(r => r.DevStatus === 'Awaiting Construction');
+      const awaitMW = awaitRows.reduce((acc, r) => acc + r.sum, 0);
+      const awaitCount = awaitRows.reduce((acc, r) => acc + r.count, 0);
+      const awaitVal = isGW ? (awaitMW / 1000).toFixed(1) : awaitCount.toLocaleString();
+
+      // 3. Realised Operational Assets
+      const operRows = filtered.filter(r => r.DevStatus === 'Operational');
+      const operMW = operRows.reduce((acc, r) => acc + r.sum, 0);
+      const operCount = operRows.reduce((acc, r) => acc + r.count, 0);
+      const operVal = isGW ? (operMW / 1000).toFixed(1) : operCount.toLocaleString();
+
+      // 4. Under Active Construction
+      const constRows = filtered.filter(r => r.DevStatus === 'Under Construction');
+      const constMW = constRows.reduce((acc, r) => acc + r.sum, 0);
+      const constCount = constRows.reduce((acc, r) => acc + r.count, 0);
+      const constVal = isGW ? (constMW / 1000).toFixed(1) : constCount.toLocaleString();
+
+      // 5. Live In Planning Review
+      const planRows = filtered.filter(r => ['Application Submitted', 'Appeal Lodged', 'No Application Required'].includes(r.DevStatus));
+      const planMW = planRows.reduce((acc, r) => acc + r.sum, 0);
+      const planCount = planRows.reduce((acc, r) => acc + r.count, 0);
+      const planVal = isGW ? (planMW / 1000).toFixed(1) : planCount.toLocaleString();
+
+      // Set values and unit tags
+      document.getElementById('kpi-val-pipeline').innerText = totalVal;
+      document.getElementById('kpi-unit-pipeline').innerText = unit;
+      document.getElementById('kpi-caption-pipeline').innerText = isGW ? `${totalCount.toLocaleString()} projects across the UK` : `${(totalMW / 1000).toFixed(1)} GW clean power`;
+
+      document.getElementById('kpi-val-awaiting').innerText = awaitVal;
+      document.getElementById('kpi-unit-awaiting').innerText = unit;
+      document.getElementById('kpi-caption-awaiting').innerText = isGW ? `${awaitCount.toLocaleString()} consented projects stalled` : `${(awaitMW / 1000).toFixed(1)} GW consented in queue`;
+
+      document.getElementById('kpi-val-operational').innerText = operVal;
+      document.getElementById('kpi-unit-operational').innerText = unit;
+      document.getElementById('kpi-caption-operational').innerText = isGW ? `${operCount.toLocaleString()} grid-connected projects` : `${(operMW / 1000).toFixed(1)} GW supplying grid`;
+
+      document.getElementById('kpi-val-construction').innerText = constVal;
+      document.getElementById('kpi-unit-construction').innerText = unit;
+      document.getElementById('kpi-caption-construction').innerText = isGW ? `${constCount.toLocaleString()} projects on-site buildout` : `${(constMW / 1000).toFixed(1)} GW active installations`;
+
+      document.getElementById('kpi-val-planning').innerText = planVal;
+      document.getElementById('kpi-unit-planning').innerText = unit;
+      document.getElementById('kpi-caption-planning').innerText = isGW ? `${planCount.toLocaleString()} active statutory applications` : `${(planMW / 1000).toFixed(1)} GW under determination`;
+    }
+
     function buildOption1Trace() {
       let filtered = rawDataOp1.filter(d => {
         let matchCountry = (selectedCountry === 'ALL') || (d.Country === selectedCountry);
@@ -247,6 +308,8 @@
       let totalCount = filtered.reduce((acc, r) => acc + r.count, 0);
       document.getElementById('active-flow-count').innerText = totalCount.toLocaleString();
       document.getElementById('active-flow-gw').innerText = (totalMW / 1000).toFixed(1);
+
+      updateBentoKPIs(filtered);
 
       let linksMap = {};
       filtered.forEach(row => {
@@ -296,12 +359,15 @@
         let tgt = parts[1];
         let val = linksMap[linkKey];
 
+        let roundedVal = Math.round(val * 100) / 100;
+        if (roundedVal <= 0) continue; // Skip zero-value links to prevent Plotly rendering glitches
+
         let srcIdx = getNodeIdx(src);
         let tgtIdx = getNodeIdx(tgt);
 
         sources.push(srcIdx);
         targets.push(tgtIdx);
-        values.push(Math.round(val * 100) / 100);
+        values.push(roundedVal);
 
         let baseHex = getColor(src);
         linkColors.push(hexToRgba(baseHex, 0.32));
@@ -372,14 +438,38 @@
             if (pt.pointNumber !== undefined && trace.node && trace.node.label) {
               label = trace.node.label[pt.pointNumber] || label;
             }
-            if (label.includes('Scotland')) {
-              document.getElementById('filter-country').value = 'Scotland';
-              selectedCountry = 'Scotland';
+
+            const countries = ['England', 'Scotland', 'Wales', 'Northern Ireland'];
+            const techs = [
+              'Battery Storage (BESS)',
+              'Solar PV',
+              'Wind Onshore',
+              'Wind Offshore',
+              'Biomass & Waste',
+              'Hydro & Marine',
+              'Other Low Carbon'
+            ];
+
+            // If user clicked a country
+            let matchedCountry = countries.find(c => label.includes(c));
+            if (matchedCountry) {
+              document.getElementById('filter-country').value = matchedCountry;
+              selectedCountry = matchedCountry;
               const scotBtn = document.getElementById('scotland-deepdive-btn');
               if (scotBtn) {
-                scotBtn.style.display = 'inline-flex';
+                scotBtn.style.display = (matchedCountry === 'Scotland') ? 'inline-flex' : 'none';
               }
               renderCurrentChart();
+              return;
+            }
+
+            // If user clicked a technology
+            let matchedTech = techs.find(t => label.includes(t));
+            if (matchedTech) {
+              document.getElementById('filter-tech').value = matchedTech;
+              selectedTech = matchedTech;
+              renderCurrentChart();
+              return;
             }
           }
         });
