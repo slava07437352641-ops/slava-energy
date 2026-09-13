@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Public objections &amp; discussions &middot; slava.energy</title>
+  <meta name="description" content="A dated, searchable map of public renewable-energy objections and discussions across Scotland, drawn from community sources." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22 width=%2232%22 height=%2232%22><rect width=%2232%22 height=%2232%22 rx=%228%22 fill=%22%23C85A32%22/><path d=%22M17 6L9 18h6l-2 8 10-12h-6l2-8z%22 fill=%22%23F3ECDA%22/></svg>" />
+  <link rel="stylesheet" href="assets/vendor/maplibre-gl.css" />
+  <link rel="stylesheet" href="assets/css/public-discussions.css?v=20260913d" />
+</head>
+<body>
+  <nav class="pd-global-nav">
+    <a href="../index.html" class="pd-brand">slava.energy</a>
+    <div class="pd-nav-links">
+      <a href="../scotland-objections/index.html">Objections map</a>
+      <a href="./index.html" class="is-current" aria-current="page">Public discussions</a>
+      <a href="../index.html">Visualisation</a>
+    </div>
+  </nav>
+
+  <header class="pd-header">
+    <div class="pd-eyebrow"><span class="pd-dot"></span> Scotland &middot; Community Voices</div>
+    <h1>Public objections &amp; discussions</h1>
+  </header>
+
+  <section class="pd-controls">
+    <div class="pd-controls-row">
+      <input id="pd-search" type="search" class="pd-search" placeholder="Search title, summary, location, project, council&hellip;" autocomplete="off" />
+      <label class="pd-range-wrap">Show
+        <select id="pd-range" class="pd-range">
+          <option value="30d">last 30 days</option>
+          <option value="3m">last 3 months</option>
+          <option value="6m" selected>last 6 months</option>
+          <option value="1y">last year</option>
+          <option value="all">all time</option>
+        </select>
+      </label>
+      <span id="pd-count" class="pd-count">&mdash;</span>
+    </div>
+    <div id="pd-tech" class="pd-tech"></div>
+  </section>
+
+  <main class="pd-layout">
+    <aside class="pd-sidebar">
+      <div id="pd-cluster-banner" class="pd-cluster-banner" hidden>
+        <span id="pd-cluster-banner-text"></span>
+        <button id="pd-cluster-clear" type="button">&times; Clear</button>
+      </div>
+      <div id="pd-feed" class="pd-feed" aria-live="polite"></div>
+    </aside>
+
+    <div id="pd-map-wrap" class="pd-map-wrap">
+      <button id="pd-fit" class="pd-fit" type="button">Fit results</button>
+      <div id="pd-infra-toggle" class="pd-infra-toggle">
+        <label><input type="checkbox" data-infra="turbines"> Turbines</label>
+        <label><input type="checkbox" data-infra="substations"> Substations</label>
+        <label><input type="checkbox" data-infra="powerLines"> Power lines</label>
+      </div>
+      <div id="pd-map" class="pd-map"></div>
+      <div id="pd-detail" class="pd-detail-panel"></div>
+    </div>
+  </main>
+
+  <footer class="pd-footer">
+    <p>Drawn from several public community Facebook groups and pages across Scotland; content is not independently verified or endorsed.</p>
+    <p id="pd-footer-mirror-caveat" hidden>A small number of posts also show their original Facebook text, photos and named commenters, published individually with the site owner's review &mdash; see "Original post available" on those records.</p>
+    <p>For correction, privacy or removal requests: <a href="mailto:slava@atlasglobal.energy">slava@atlasglobal.energy</a>.</p>
+  </footer>
+
+  <script src="assets/vendor/maplibre-gl.js"></script>
+  <script type="module" src="assets/js/main.js?v=20260913d"></script>
+</body>
+</html>
