@@ -3,6 +3,12 @@
 
 import { renderFeed, scrollFeedTo } from "./feed.js";
 
+// Single source of truth for how many items the Recent News panel shows --
+// main.js imports this too, to exclude the same IDs from the main feed
+// below so no post is ever rendered twice on the page (see html-rules-v1.1
+// Rule 3, no duplicate posts).
+export const NEWS_PANEL_LIMIT = 4;
+
 /**
  * Load and render the news panel from news-index.json.
  * @param {string} dataPath - path to news-index.json (default: "data/news-index.json")
@@ -22,7 +28,7 @@ export async function loadAndRenderNews(dataPath = "data/news-index.json") {
     }
 
     const newsIndex = await response.json();
-    const records = (newsIndex.records || []).slice(0, 4);
+    const records = (newsIndex.records || []).slice(0, NEWS_PANEL_LIMIT);
 
     if (records.length === 0) {
       container.innerHTML = '<div class="pd-empty">No recent news available.</div>';

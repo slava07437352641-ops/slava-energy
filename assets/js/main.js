@@ -1,7 +1,14 @@
 // Bootstrap for the Public objections & discussions dashboard (Pilot v0.1).
-import { readState, writeState } from "./url-state.js?v=20260923a";
-import { applyAll, facetCounts, FACETS, TECH_CATEGORIES } from "./filters.js?v=20260923a";
-import { renderFeed, scrollFeedTo, renderDetail, renderMirror } from "./feed.js?v=20260923a";
+import { readState, writeState } from "./url-state.js?v=20260923b";
+import { applyAll, facetCounts, FACETS, TECH_CATEGORIES } from "./filters.js?v=20260923b";
+import { renderFeed, scrollFeedTo, renderDetail, renderMirror } from "./feed.js?v=20260923b";
+
+// Must match news.js's NEWS_PANEL_LIMIT -- kept as a separate constant
+// rather than a cross-module import so this file never depends on
+// news.js's auto-init side effect running exactly once (see html-rules-v1.1
+// Rule 3, no duplicate posts: the Recent News panel and the main feed below
+// must never show the same record).
+const NEWS_PANEL_LIMIT = 4;
 
 const els = {
   feed: document.getElementById("pd-feed"),
@@ -27,6 +34,19 @@ async function init() {
   const res = await fetch("data/discussions-index.json", { cache: "no-cache" });
   const index = await res.json();
   ALL = index.records;
+
+  // Exclude whatever the Recent News panel is showing (news.js, same
+  // NEWS_PANEL_LIMIT) so no record is ever rendered twice on the page.
+  try {
+    const nres = await fetch("data/news-index.json", { cache: "no-cache" });
+    if (nres.ok) {
+      const newsIndex = await nres.json();
+      const newsIds = new Set((newsIndex.records || []).slice(0, NEWS_PANEL_LIMIT).map((r) => r.id));
+      if (newsIds.size) ALL = ALL.filter((r) => !newsIds.has(r.id));
+    }
+  } catch {
+    // news panel data unavailable -- main feed just shows everything, no dedup needed
+  }
 
   // Manually-curated original-post mirrors (see data/mirror/README.md) -- opt-in
   // per record, never populated by an automated fetch.
