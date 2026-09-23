@@ -1,20 +1,15 @@
 // Bootstrap for the Public objections & discussions dashboard (Pilot v0.1).
-import { readState, writeState } from "./url-state.js?v=20260913d";
-import { applyAll, facetCounts, FACETS, TECH_CATEGORIES } from "./filters.js?v=20260913d";
-import { renderFeed, scrollFeedTo, renderDetail, renderMirror } from "./feed.js?v=20260913d";
-import { DiscussionMap } from "./map.js?v=20260913d";
+import { readState, writeState } from "./url-state.js?v=20260923a";
+import { applyAll, facetCounts, FACETS, TECH_CATEGORIES } from "./filters.js?v=20260923a";
+import { renderFeed, scrollFeedTo, renderDetail, renderMirror } from "./feed.js?v=20260923a";
 
 const els = {
   feed: document.getElementById("pd-feed"),
-  mapWrap: document.getElementById("pd-map-wrap"),
-  map: document.getElementById("pd-map"),
   detail: document.getElementById("pd-detail"),
   search: document.getElementById("pd-search"),
   tech: document.getElementById("pd-tech"),
   count: document.getElementById("pd-count"),
-  fit: document.getElementById("pd-fit"),
   range: document.getElementById("pd-range"),
-  infraToggle: document.getElementById("pd-infra-toggle"),
   clusterBanner: document.getElementById("pd-cluster-banner"),
   clusterBannerText: document.getElementById("pd-cluster-banner-text"),
   clusterClear: document.getElementById("pd-cluster-clear"),
@@ -24,7 +19,6 @@ const els = {
 let ALL = [];
 let MIRROR_IDS = new Set();
 let state = readState();
-let dmap;
 let clusterPickIds = null; // set of record ids when the user has clicked a map cluster that can't be zoomed apart
 
 init();
@@ -49,15 +43,6 @@ async function init() {
   // accuracy question, not a framing-at-scale one).
   els.footerMirrorCaveat.hidden = MIRROR_IDS.size === 0;
 
-  dmap = new DiscussionMap(els.map, {
-    onSelect: (id, opts) => select(id, opts),
-    onClusterOpen: (props) => showClusterPicks(props.map((p) => p.id)),
-  });
-  dmap.onMoveEnd((view) => {
-    state.view = view;
-    writeState(state);
-  });
-
   els.search.value = state.q;
   els.range.value = state.range;
   els.search.addEventListener("input", debounce(() => {
@@ -71,14 +56,9 @@ async function init() {
     clusterPickIds = null;
     apply();
   });
-  els.fit.addEventListener("click", () => dmap.fitResults());
   els.clusterClear.addEventListener("click", () => {
     clusterPickIds = null;
     apply();
-  });
-
-  els.infraToggle.querySelectorAll("input[data-infra]").forEach((cb) => {
-    cb.addEventListener("change", () => dmap.setInfraLayerVisible(cb.dataset.infra, cb.checked));
   });
 
   buildTechChips();
@@ -129,9 +109,6 @@ function apply({ initial = false } = {}) {
     renderFeed(els.feed, filtered.slice(0, 400), { selectedId: state.sel, onSelect: (id) => select(id), mirrorIds: MIRROR_IDS });
   }
 
-  dmap.setData(filtered);
-  if (!initial) dmap.autoFit();
-
   writeState(state);
 }
 
@@ -148,18 +125,17 @@ function select(id, { fromMap = false, silent = false } = {}) {
   const rec = ALL.find((r) => r.id === id);
   if (!rec) return;
   state.sel = id;
-  els.mapWrap.classList.add("pd-showing-detail");
+  document.body.classList.add("pd-showing-detail");
   renderDetail(els.detail, rec, {
     hasMirror: MIRROR_IDS.has(id),
     onBack: () => {
       state.sel = null;
-      els.mapWrap.classList.remove("pd-showing-detail");
+      document.body.classList.remove("pd-showing-detail");
       writeState(state);
       apply();
     },
   });
   if (MIRROR_IDS.has(id)) loadMirror(id);
-  dmap.select(id);
   // reflect selection in feed
   els.feed.querySelectorAll(".pd-card").forEach((c) => c.classList.toggle("is-selected", c.dataset.id === id));
   if (fromMap) scrollFeedTo(els.feed, id);

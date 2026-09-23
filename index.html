@@ -6,21 +6,17 @@
   <title>Public objections &amp; discussions &middot; slava.energy</title>
   <meta name="description" content="A dated, searchable map of public renewable-energy objections and discussions across Scotland, drawn from community sources." />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22 width=%2232%22 height=%2232%22><rect width=%2232%22 height=%2232%22 rx=%228%22 fill=%22%23C85A32%22/><path d=%22M17 6L9 18h6l-2 8 10-12h-6l2-8z%22 fill=%22%23F3ECDA%22/></svg>" />
-  <link rel="stylesheet" href="assets/vendor/maplibre-gl.css" />
-  <link rel="stylesheet" href="assets/css/public-discussions.css?v=20260913d" />
+  <link rel="stylesheet" href="assets/css/public-discussions.css?v=20260923a" />
 </head>
 <body>
   <nav class="pd-global-nav">
     <a href="../index.html" class="pd-brand">slava.energy</a>
     <div class="pd-nav-links">
-      <a href="../scotland-objections/index.html">Objections map</a>
       <a href="./index.html" class="is-current" aria-current="page">Public discussions</a>
-      <a href="../index.html">Visualisation</a>
     </div>
   </nav>
 
   <header class="pd-header">
-    <div class="pd-eyebrow"><span class="pd-dot"></span> Scotland &middot; Community Voices</div>
     <h1>Public objections &amp; discussions</h1>
   </header>
 
@@ -41,6 +37,13 @@
     <div id="pd-tech" class="pd-tech"></div>
   </section>
 
+  <section class="pd-news-panel" aria-label="Recent news">
+    <div class="pd-news-header">
+      <h2>Recent News</h2>
+    </div>
+    <div id="pd-news-feed" class="pd-news-feed" aria-live="polite"></div>
+  </section>
+
   <main class="pd-layout">
     <aside class="pd-sidebar">
       <div id="pd-cluster-banner" class="pd-cluster-banner" hidden>
@@ -49,18 +52,9 @@
       </div>
       <div id="pd-feed" class="pd-feed" aria-live="polite"></div>
     </aside>
-
-    <div id="pd-map-wrap" class="pd-map-wrap">
-      <button id="pd-fit" class="pd-fit" type="button">Fit results</button>
-      <div id="pd-infra-toggle" class="pd-infra-toggle">
-        <label><input type="checkbox" data-infra="turbines"> Turbines</label>
-        <label><input type="checkbox" data-infra="substations"> Substations</label>
-        <label><input type="checkbox" data-infra="powerLines"> Power lines</label>
-      </div>
-      <div id="pd-map" class="pd-map"></div>
-      <div id="pd-detail" class="pd-detail-panel"></div>
-    </div>
   </main>
+
+  <div id="pd-detail" class="pd-detail-panel"></div>
 
   <footer class="pd-footer">
     <p>Drawn from several public community Facebook groups and pages across Scotland; content is not independently verified or endorsed.</p>
@@ -68,7 +62,7 @@
     <p>For correction, privacy or removal requests: <a href="mailto:slava@atlasglobal.energy">slava@atlasglobal.energy</a>.</p>
   </footer>
 
-  <script src="assets/vendor/maplibre-gl.js"></script>
-  <script type="module" src="assets/js/main.js?v=20260913d"></script>
+  <script type="module" src="assets/js/news.js?v=20260923a"></script>
+  <script type="module" src="assets/js/main.js?v=20260923a"></script>
 </body>
 </html>
