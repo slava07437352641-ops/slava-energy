@@ -1,7 +1,7 @@
 // Render news panel from news-index.json (U4 of feat-daily-news-panel-plan.md)
 // Loads Scotland Against Spin and APR Scotland posts and displays them in the news panel.
 
-import { renderFeed, scrollFeedTo } from "./feed.js";
+import { renderFeed, scrollFeedTo, renderDetail } from "./feed.js";
 
 // Single source of truth for how many items the Recent News panel shows --
 // main.js imports this too, to exclude the same IDs from the main feed
@@ -54,6 +54,7 @@ export async function loadAndRenderNews(dataPath = "data/news-index.json") {
  */
 function renderNewsCards(container, records) {
   container.innerHTML = "";
+  const detailPanel = document.getElementById("pd-detail");
 
   for (const r of records) {
     const card = document.createElement("article");
@@ -74,6 +75,16 @@ function renderNewsCards(container, records) {
       </div>
       <div class="pd-card-source">Source: ${escapeHtml(r.source.label)}${mediaLabel}</div>
     `;
+
+    if (detailPanel) {
+      card.addEventListener("click", () => {
+        document.body.classList.add("pd-showing-detail");
+        renderDetail(detailPanel, r, {
+          hasMirror: false,
+          onBack: () => document.body.classList.remove("pd-showing-detail"),
+        });
+      });
+    }
 
     container.appendChild(card);
   }
