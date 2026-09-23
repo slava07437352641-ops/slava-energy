@@ -99,7 +99,7 @@ body {
 
 /* ---- layout ---- */
 .pd-layout {
-  padding: 16px 28px 28px; max-width: 900px; margin: 0 auto;
+  padding: 16px 28px 28px; max-width: 900px; margin: 0;
 }
 .pd-sidebar { display: flex; flex-direction: column; gap: 14px; }
 .pd-facets { display: flex; flex-direction: column; gap: 10px; }
