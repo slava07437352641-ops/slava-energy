@@ -43695,6 +43695,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -43707,7 +43710,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/27524586673810367/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27524542450481456",
@@ -44394,6 +44401,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -44406,7 +44416,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/27486966984239003/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27485652504370451",
@@ -45437,6 +45451,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -45453,7 +45470,11 @@
         "Onshore Wind"
       ],
       "contentFingerprint": "5dd1ea036191e84f1ae324305f624654fafa4deab4c4fd68ed7a3c52ad68f24a",
-      "bodyText": "Millions paid out to keep Shetland windfarm idle – even i...\nOBSERVER.CO.UK Millions paid out to keep Shetland windfarm idle – even i..."
+      "bodyText": "Millions paid out to keep Shetland windfarm idle – even i...\nOBSERVER.CO.UK Millions paid out to keep Shetland windfarm idle – even i...",
+      "photos": [
+        "media/facebook/27453590120910023/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27453198680949167",
@@ -45630,6 +45651,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -45655,7 +45679,11 @@
       "externalLinks": [
         "https://www.forres-gazette.co.uk/.../massive-message.../",
         "https://www.forres-gazette.co.uk/.../protest-in-findhorn.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/27446939694908399/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27445269355075433",
@@ -45705,6 +45733,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -45717,7 +45748,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/27444840821784953/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27444661945136174",
@@ -46302,6 +46337,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -46315,7 +46353,11 @@
       "bodyText": "UK energy company collapses into administration after £5.4m loss – all jobs gone\nEXPRESS.CO.UK UK energy company collapses into administration after £5.4m loss – all jobs gone",
       "externalLinks": [
         "https://www.express.co.uk/.../uk-energy-company.../amp..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/27415571764711859/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27413776511558051",
@@ -46379,6 +46421,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -46391,7 +46436,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/27410826648519704/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27410385201897182",
@@ -46795,6 +46844,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -46811,7 +46863,11 @@
       "categories": [
         "Onshore Wind"
       ],
-      "contentFingerprint": "6bb12e45060a4ccbd2f948616662b461141d121c24cd9a8d3975302f97942f59"
+      "contentFingerprint": "6bb12e45060a4ccbd2f948616662b461141d121c24cd9a8d3975302f97942f59",
+      "photos": [
+        "media/facebook/27388589547410081/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27388260460776323",
@@ -46886,6 +46942,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -46898,7 +46957,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/27384169987852037/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27382119561390413",
@@ -47200,6 +47263,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -47213,7 +47279,11 @@
       "bodyText": "Could we keep the lights on if someone tried to stop us?\nSCOTSMAN.COM Could we keep the lights on if someone tried to stop us?",
       "externalLinks": [
         "https://oeuk.org.uk/.../OEUK-Security-Resilience..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/27367854292816940/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27367783509490685",
