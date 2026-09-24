@@ -22,7 +22,7 @@ export async function loadAndRenderNews(dataPath = "data/news-index.json") {
   }
 
   try {
-    const response = await fetch(dataPath);
+    const response = await fetch(dataPath, { cache: "no-cache" });
     if (!response.ok) {
       throw new Error(`fetch failed: ${response.status} ${response.statusText}`);
     }

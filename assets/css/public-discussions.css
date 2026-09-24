@@ -146,7 +146,7 @@ body {
   font-size: 0.85rem; color: var(--text-secondary); margin: 0 0 8px; line-height: 1.45;
   display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden;
 }
-.pd-card-thumb { width: 100%; height: 140px; flex-shrink: 0; object-fit: cover; border-radius: 8px; margin-bottom: 8px; display: block; }
+.pd-card-thumb { width: 100%; height: 140px; flex-shrink: 0; object-fit: contain; background: var(--bg-paper-2); border-radius: 8px; margin-bottom: 8px; display: block; }
 .pd-card-meta { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 6px; max-height: 52px; overflow: hidden; }
 .pd-tag { font-size: 0.68rem; font-weight: 600; padding: 3px 8px; border-radius: 980px; background: var(--bg-paper-2); color: var(--text-muted); }
 .pd-tag--tech { background: rgba(78, 124, 89, 0.14); color: #3c5f47; }
@@ -168,7 +168,7 @@ body.pd-showing-detail .pd-detail-panel { display: block; }
 .pd-detail-summary { font-size: 0.95rem; color: var(--text-secondary); line-height: 1.55; }
 .pd-detail-body { font-size: 0.95rem; color: var(--text-primary); line-height: 1.6; white-space: pre-wrap; margin: 12px 0; }
 .pd-detail-photos { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0; }
-.pd-detail-photos img { max-width: 100%; max-height: 360px; border-radius: 10px; border: 1px solid var(--card-border); object-fit: cover; }
+.pd-detail-photos img { max-width: 100%; max-height: 360px; border-radius: 10px; border: 1px solid var(--card-border); object-fit: contain; background: var(--bg-paper-2); }
 .pd-project-panel { margin: 14px 0; border: 1px solid var(--card-border); border-radius: 10px; padding: 10px 12px; background: var(--card-bg); }
 .pd-project-panel summary { font-weight: 700; font-size: 0.85rem; cursor: pointer; }
 .pd-project-body { font-size: 0.82rem; color: var(--text-muted); margin-top: 8px; }
