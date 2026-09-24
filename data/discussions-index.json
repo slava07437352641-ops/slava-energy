@@ -35758,6 +35758,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -35775,7 +35778,11 @@
       "externalLinks": [
         "https://www.bordertelegraph.com/.../scottish-borders.../...",
         "https://www.bordertelegraph.com/.../26153467.bid-extend.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/27992697383665958/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27992612533674443",
@@ -35900,6 +35907,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -35912,7 +35922,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/27975795645356132/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27974411638827866",
@@ -35924,6 +35938,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -35937,7 +35954,11 @@
       "bodyText": "Danish island could be a blueprint for Scotland's future\nTHENATIONAL.SCOT Danish island could be a blueprint for Scotland's future",
       "externalLinks": [
         "https://www.theferret.scot/is-this-former-viking-outpost.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/27974411638827866/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27974289665506730",
@@ -35997,6 +36018,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -36011,7 +36035,11 @@
       "externalLinks": [
         "https://open.substack.com/.../uk-industrial-electricity...",
         "https://www.gov.uk/.../international-non-domestic-energy..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/27972984318970598/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27965079343094429",
@@ -36134,6 +36162,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -36146,7 +36177,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/27958938260375204/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27953905104211853",
@@ -36161,6 +36196,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -36178,7 +36216,11 @@
         "Onshore Wind"
       ],
       "contentFingerprint": "2fb8572fce73f90b087db9ee841b4fc7d8e81614a1d5fe2e9c8f1438633cf395",
-      "bodyText": "Plan to repower windfarm turbines as high as 46 double decker buses rejected\nUK.NEWS.YAHOO.COM Plan to repower windfarm turbines as high as 46 double decker buses rejected"
+      "bodyText": "Plan to repower windfarm turbines as high as 46 double decker buses rejected\nUK.NEWS.YAHOO.COM Plan to repower windfarm turbines as high as 46 double decker buses rejected",
+      "photos": [
+        "media/facebook/27953905104211853/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27952262444376119",
@@ -36632,6 +36674,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -36645,7 +36690,11 @@
       "bodyText": "Scottish Government calls for energy powers to be devolved to Holyrood\nSHETNEWS.CO.UK Scottish Government calls for energy powers to be devolved to Holyrood",
       "externalLinks": [
         "https://www.shetnews.co.uk/.../scottish-government-calls.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/27926268236975540/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27925786103690420",
@@ -36771,6 +36820,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -36783,7 +36835,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/27918576034411427/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27916154501320247",
@@ -37137,6 +37193,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -37149,7 +37208,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/27892407970361567/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27891826260419738",
@@ -37700,6 +37763,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -37712,7 +37778,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/27858682160400815/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27858666910402340",
@@ -38057,6 +38127,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -38070,7 +38143,11 @@
         "https://www.scotsman.com/topic/ed-miliband"
       ],
       "contentFingerprint": "e20850a3b3cec432f42571ae02c19b269fde33b3dcd9e9c34b46d195703032d3",
-      "bodyText": "MPs vote against supporting Rosebank and Jackdaw oil and gas fields\nSCOTSMAN.COM MPs vote against supporting Rosebank and Jackdaw oil and gas fields"
+      "bodyText": "MPs vote against supporting Rosebank and Jackdaw oil and gas fields\nSCOTSMAN.COM MPs vote against supporting Rosebank and Jackdaw oil and gas fields",
+      "photos": [
+        "media/facebook/27835135656088799/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27835026489433049",
@@ -38082,6 +38159,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -38094,7 +38174,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/27835026489433049/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27834349656167399",
@@ -38229,6 +38313,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -38241,7 +38328,11 @@
       "bodyText": "APH.GOV.AU www.aph.gov.au",
       "externalLinks": [
         "https://www.theguardian.com/.../toxic-pfa-forever..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/27821831287419236/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27821754157426949",
@@ -38331,6 +38422,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -38343,7 +38437,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/27814826128119752/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27813059778296387",
@@ -38606,6 +38704,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -38618,7 +38719,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/27795364816732550/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27795317430070622",
@@ -39047,6 +39152,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -39061,7 +39169,11 @@
         "https://www.scotsman.com/.../shetlands-energy-transition..."
       ],
       "contentFingerprint": "126825aa51b52e9f72959db789226e353cdbd4b1eff2066f73ee7924a2b8c5f9",
-      "bodyText": "Shetland's energy transition faces test as communities buffeted by cost of living\nSCOTSMAN.COM Shetland's energy transition faces test as communities buffeted by cost of living"
+      "bodyText": "Shetland's energy transition faces test as communities buffeted by cost of living\nSCOTSMAN.COM Shetland's energy transition faces test as communities buffeted by cost of living",
+      "photos": [
+        "media/facebook/27769112519357780/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27768932892709076",
@@ -39147,6 +39259,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -39159,7 +39274,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/27763081999960832/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27762910833311282",
@@ -39794,6 +39913,9 @@
         "summary": {
           "method": "article_meta_description",
           "url": "https://gallowaywithoutpylons.org/judicial-review"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -39812,7 +39934,11 @@
         "Grid infrastructure"
       ],
       "contentFingerprint": "66e1364074b6fab2ebde3cd2729d1533bd5e7568812890a4a06b6bf27f3ee0e4",
-      "summary": "FUND RAISING for the JUDICIAL REVIEW GALLOWAY WITHOUT PYLONS, BANK OF SCOTLAND 80-22-60 23761760 Cheques made payable to “Galloway Without Pylons” sent to High Lochenbreck, Laurieston, Castle Douglas, DG7 2PY…"
+      "summary": "FUND RAISING for the JUDICIAL REVIEW GALLOWAY WITHOUT PYLONS, BANK OF SCOTLAND 80-22-60 23761760 Cheques made payable to “Galloway Without Pylons” sent to High Lochenbreck, Laurieston, Castle Douglas, DG7 2PY…",
+      "photos": [
+        "media/facebook/27735199172749115/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27735191256083240",
@@ -39934,6 +40060,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -39948,7 +40077,11 @@
         "https://www.telegraph.co.uk/.../high-energy-costs-leave.../"
       ],
       "contentFingerprint": "72a2d9800e90f9f957bda3560ed699123d9ff5d5690e05381f375cc0fe97cc1a",
-      "bodyText": "High energy costs leave Britain £30bn poorer\nTELEGRAPH.CO.UK High energy costs leave Britain £30bn poorer"
+      "bodyText": "High energy costs leave Britain £30bn poorer\nTELEGRAPH.CO.UK High energy costs leave Britain £30bn poorer",
+      "photos": [
+        "media/facebook/27728430916759274/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27727647956837570",
@@ -39967,6 +40100,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -39992,7 +40128,11 @@
       },
       "location": "Inverness",
       "contentFingerprint": "a8d623d2b2df4739d02c31afec9f77e0f8acf1b05e7fb7d7f6773845c8b414ac",
-      "bodyText": "Controversial Nairnshire wind farm proposal to be discussed at public meeting tonight\nINVERNESS-COURIER.CO.UK Controversial Nairnshire wind farm proposal to be discussed at public meeting tonight"
+      "bodyText": "Controversial Nairnshire wind farm proposal to be discussed at public meeting tonight\nINVERNESS-COURIER.CO.UK Controversial Nairnshire wind farm proposal to be discussed at public meeting tonight",
+      "photos": [
+        "media/facebook/27727647956837570/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27722240070711692",
