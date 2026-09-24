@@ -20422,6 +20422,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -20438,7 +20441,11 @@
         "Data Centre"
       ],
       "contentFingerprint": "e87795214f560769cfd9b46eb75978b6739bed1836ba0c111c75bd6680d2ae80",
-      "bodyText": "Mandelson-linked banker and oligarch's son-in-law behind Scots data centres\nDAILYRECORD.CO.UK Mandelson-linked banker and oligarch's son-in-law behind Scots data centres"
+      "bodyText": "Mandelson-linked banker and oligarch's son-in-law behind Scots data centres\nDAILYRECORD.CO.UK Mandelson-linked banker and oligarch's son-in-law behind Scots data centres",
+      "photos": [
+        "media/facebook/28730473943221628/photo_1.jpeg"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28730188243250198",
@@ -20605,6 +20612,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -20625,7 +20635,11 @@
         "Traffic & access"
       ],
       "contentFingerprint": "449839489c2027dac9a8068ced7b9303deae15015b7220bd75f95161fad6daf1",
-      "bodyText": "Wind farms hit by huge delays over 'abnormal load' rule that only applies in Scotland\nHERALDSCOTLAND.COM Wind farms hit by huge delays over 'abnormal load' rule that only applies in Scotland"
+      "bodyText": "Wind farms hit by huge delays over 'abnormal load' rule that only applies in Scotland\nHERALDSCOTLAND.COM Wind farms hit by huge delays over 'abnormal load' rule that only applies in Scotland",
+      "photos": [
+        "media/facebook/28718697087732647/photo_1.jpeg"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28713367501598939",
@@ -20776,6 +20790,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -20790,7 +20807,11 @@
         "https://www.express.co.uk/latest/north-sea"
       ],
       "contentFingerprint": "683684689efa6b54198a1886bfb422bd6518cb6e12ed6cee0bf4d8e0bbfa9907",
-      "bodyText": "Andy Burnham issues bombshell statement after phone call with Donald Trump\nEXPRESS.CO.UK Andy Burnham issues bombshell statement after phone call with Donald Trump"
+      "bodyText": "Andy Burnham issues bombshell statement after phone call with Donald Trump\nEXPRESS.CO.UK Andy Burnham issues bombshell statement after phone call with Donald Trump",
+      "photos": [
+        "media/facebook/28706174818984874/photo_1.jpeg"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28706043055664717",
@@ -20830,6 +20851,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -20843,7 +20867,11 @@
       "bodyText": "Drax eyeing future growth as profit slumps\nENERGYVOICE.COM Drax eyeing future growth as profit slumps",
       "externalLinks": [
         "https://www.energyvoice.com/.../ofgem-pledges-crackdown.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/28705914065677616/photo_1.jpeg"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28701422152793474",
@@ -21169,6 +21197,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -21185,7 +21216,11 @@
       "bodyText": "Two new Scottish wind farms that will power 78,000 homes given green light\nSCOTSMAN.COM Two new Scottish wind farms that will power 78,000 homes given green light",
       "externalLinks": [
         "https://www.scotsman.com/.../how-reforms-hostility-to-net..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/28683631317905891/photo_1.jpeg"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28682770524658637",
@@ -21197,6 +21232,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -21210,7 +21248,11 @@
       "bodyText": "LONDONSTOCKEXCHANGE.COM London Stock Exchange | London Stock Exchange",
       "externalLinks": [
         "https://www.ofgem.gov.uk/.../proposed-data-centre..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/28682770524658637/photo_1.jpeg"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28682424838026539",
@@ -21318,6 +21360,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -21330,7 +21375,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/28673254662276890/photo_1.jpeg"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28672630079006015",
@@ -21665,6 +21714,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -21682,7 +21734,11 @@
       "externalLinks": [
         "https://www.deadlinenews.co.uk/.../scots-wind-farm.../",
         "https://www.deadlinenews.co.uk/.../major-renewable.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/28659088800360143/photo_1.jpeg"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28657766553825701",
@@ -21779,6 +21835,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -21795,7 +21854,11 @@
       "bodyText": "Glut of wind farm power adds nearly £1bn to household energy bills\nTELEGRAPH.CO.UK Glut of wind farm power adds nearly £1bn to household energy bills",
       "externalLinks": [
         "https://www.telegraph.co.uk/.../wasted-wind-power-costs.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/28653579370911086/photo_1.jpeg"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28650583647877325",
@@ -21807,6 +21870,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -21819,7 +21885,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/28650583647877325/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28647121148223575",
@@ -21834,6 +21904,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -21850,7 +21923,11 @@
       "bodyText": "Britain’s battery boom ‘risks overwhelming the grid’\nTELEGRAPH.CO.UK Britain’s battery boom ‘risks overwhelming the grid’",
       "externalLinks": [
         "https://www.telegraph.co.uk/.../burnham-new-energy.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/28647121148223575/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28647004884901868",
@@ -22094,6 +22171,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -22106,7 +22186,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/28625614537040903/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28624568200478870",
@@ -22507,6 +22591,9 @@
         "summary": {
           "method": "article_meta_description",
           "url": "https://hill-charter.scot/"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -22519,7 +22606,11 @@
         "https://hill-charter.scot/"
       ],
       "contentFingerprint": "87821ed3ab753ec7f3f5c9f3a833364622bdbbaa09036f17cd5a442a6a2a277d",
-      "summary": "Charter for the Open Hill"
+      "summary": "Charter for the Open Hill",
+      "photos": [
+        "media/facebook/28601479386121085/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28600787379523619",
@@ -22531,6 +22622,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -22543,7 +22637,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/28600787379523619/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28599973302938360",
@@ -22729,6 +22827,9 @@
       "provenance": {
         "title": {
           "method": "neutral"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -22740,7 +22841,11 @@
       "externalLinks": [
         "https://www.telegraph.co.uk/gift/445784fd406cf537"
       ],
-      "contentFingerprint": "779651001103ad18b6b971fcb06dfa7768fe8cc4857c87675acb9db71bf640e9"
+      "contentFingerprint": "779651001103ad18b6b971fcb06dfa7768fe8cc4857c87675acb9db71bf640e9",
+      "photos": [
+        "media/facebook/28592478140354543/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28591832557085768",
@@ -23015,6 +23120,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -23028,7 +23136,11 @@
       "bodyText": "Heat pump households face winter warmth rationing\nTELEGRAPH.CO.UK Heat pump households face winter warmth rationing",
       "externalLinks": [
         "https://www.telegraph.co.uk/.../heat-pump-households.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/28570084629260561/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28567062762896081",
@@ -23043,6 +23155,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -23059,7 +23174,11 @@
       "bodyText": "Humiliated SNP admits there is no community support for giant wind turbines\nSCOTTISHDAILYEXPRESS.CO.UK Humiliated SNP admits there is no community support for giant wind turbines",
       "externalLinks": [
         "https://www.scottishdailyexpress.co.uk/.../snp-plans-net..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/28567062762896081/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28564895473112810",
@@ -23160,6 +23279,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -23172,7 +23294,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/28554503234152034/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28554198924182465",
@@ -23292,6 +23418,9 @@
       "provenance": {
         "title": {
           "method": "neutral"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -23304,7 +23433,11 @@
         "https://marine.gov.scot/?q=node/25798",
         "https://marine.gov.scot/?q=node/25799"
       ],
-      "contentFingerprint": "d7049ea27179e80714f7f45088206cd451aa5af0ac1f86669d54606556919ae6"
+      "contentFingerprint": "d7049ea27179e80714f7f45088206cd451aa5af0ac1f86669d54606556919ae6",
+      "photos": [
+        "media/facebook/28543749521894072/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28543690945233263",
@@ -23808,6 +23941,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -23820,7 +23956,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/28519341227668235/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28519295544339470",
@@ -23873,6 +24013,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -23889,7 +24032,11 @@
       "bodyText": "Grid boss dismissed cover-up claims before launching investigation\nTELEGRAPH.CO.UK Grid boss dismissed cover-up claims before launching investigation",
       "externalLinks": [
         "https://archive.ph/.../grid-operator-to-investigate.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/28514763944792630/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28512959691639722",
@@ -23951,6 +24098,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -23964,7 +24114,11 @@
       "bodyText": "Oxford scientists debunk claims '2,700 people died in heatwaves' - 'Where are these heat deaths?'\nGBNEWS.COM Oxford scientists debunk claims '2,700 people died in heatwaves' - 'Where are these heat deaths?'",
       "externalLinks": [
         "https://www.gbnews.com/.../heatwave-england-wales-may..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/28508739938728364/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28508410165428008",
@@ -24221,6 +24375,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -24233,7 +24390,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/28489519220650436/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28487725534163138",
@@ -24334,6 +24495,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -24350,7 +24514,11 @@
       "bodyText": "Grid Expansion Chaos\nDAVIDTURVER.SUBSTACK.COM Grid Expansion Chaos",
       "externalLinks": [
         "https://substack.com/.../2741c063-89c3-42dd-8e60..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/28486448590957499/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28483131201289238",
@@ -24532,6 +24700,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -24549,7 +24720,11 @@
         "BESS"
       ],
       "contentFingerprint": "e7c4b2cb82f4beb6b10cde54e0f6c2b2de28de0f9332a8db82766e201394c6b9",
-      "bodyText": "Field wins consent for 200 MW Caithness battery storage project\nENERGYVOICE.COM Field wins consent for 200 MW Caithness battery storage project"
+      "bodyText": "Field wins consent for 200 MW Caithness battery storage project\nENERGYVOICE.COM Field wins consent for 200 MW Caithness battery storage project",
+      "photos": [
+        "media/facebook/28476494101952948/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28469002166035475",
@@ -24578,6 +24753,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -24590,7 +24768,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/28466565356279156/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28466325436303148",
@@ -24736,6 +24918,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -24752,7 +24937,11 @@
         "Onshore Wind"
       ],
       "contentFingerprint": "346ea76b5c8f9e814183d3f82b387b92fa1b0027fe9aef7b0e7ad082c169b80c",
-      "bodyText": "‘Wholly out of context’: Row over ‘permitted’ turbine plan close to Reay golf club\nJOHNOGROAT-JOURNAL.CO.UK ‘Wholly out of context’: Row over ‘permitted’ turbine plan close to Reay golf club"
+      "bodyText": "‘Wholly out of context’: Row over ‘permitted’ turbine plan close to Reay golf club\nJOHNOGROAT-JOURNAL.CO.UK ‘Wholly out of context’: Row over ‘permitted’ turbine plan close to Reay golf club",
+      "photos": [
+        "media/facebook/28461593493443009/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28461319610137064",
@@ -24813,6 +25002,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -24829,7 +25021,11 @@
       "bodyText": "Grid operator warns of energy crunch as heatwave strains network\nTELEGRAPH.CO.UK Grid operator warns of energy crunch as heatwave strains network",
       "externalLinks": [
         "https://www.telegraph.co.uk/.../grid-operator-scrambles.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/28460146446921047/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28459397426995949",
@@ -25051,6 +25247,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -25063,7 +25262,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/28446996068236085/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28446788688256823",
@@ -25247,6 +25450,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -25260,7 +25466,11 @@
         "https://archive.ph/EJt6v#selection-1579.0-1583.164"
       ],
       "contentFingerprint": "05f821e96af2f897715f5f8625d03f5bdb28b7f6ddbdddd3692e7ac8ca8478bd",
-      "bodyText": "ARCHIVE.PH archive.ph"
+      "bodyText": "ARCHIVE.PH archive.ph",
+      "photos": [
+        "media/facebook/28445343385068020/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28445323095070049",
@@ -25269,6 +25479,9 @@
       "provenance": {
         "title": {
           "method": "neutral"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -25280,7 +25493,11 @@
       "externalLinks": [
         "https://archive.ph/0nlp5#selection-2245.4-2249.102"
       ],
-      "contentFingerprint": "ccd62bf06e0b403f89fcfa0a9a3ee8b6fc04311ff0b588fd5fe45bc56c00a113"
+      "contentFingerprint": "ccd62bf06e0b403f89fcfa0a9a3ee8b6fc04311ff0b588fd5fe45bc56c00a113",
+      "photos": [
+        "media/facebook/28445323095070049/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28445223718413320",
@@ -25458,6 +25675,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -25475,7 +25695,11 @@
         "Landscape & visual"
       ],
       "contentFingerprint": "4260561f8cc477db8abb21a1648fa8150cf25532d313c2e08a0b5aa954463d50",
-      "bodyText": "East Lothian landscape guide to protect sensitive sites from energy developments\nEDINBURGHLIVE.CO.UK East Lothian landscape guide to protect sensitive sites from energy developments"
+      "bodyText": "East Lothian landscape guide to protect sensitive sites from energy developments\nEDINBURGHLIVE.CO.UK East Lothian landscape guide to protect sensitive sites from energy developments",
+      "photos": [
+        "media/facebook/28437746555827703/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28434558292813196",
@@ -25487,6 +25711,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -25499,7 +25726,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/28434558292813196/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28434266132842412",
@@ -25528,6 +25759,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -25543,7 +25777,11 @@
         "https://www.heraldscotland.com/topics/court-of-session..."
       ],
       "contentFingerprint": "d1b251d202cd13cab3cb9ccf7e940c8616594f5c9b61c3a72739b6049beafb44",
-      "bodyText": "Scottish Labour MPs call on UK Government to approve new oil and gas\nHERALDSCOTLAND.COM Scottish Labour MPs call on UK Government to approve new oil and gas"
+      "bodyText": "Scottish Labour MPs call on UK Government to approve new oil and gas\nHERALDSCOTLAND.COM Scottish Labour MPs call on UK Government to approve new oil and gas",
+      "photos": [
+        "media/facebook/28434177359517956/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28434064402862585",
@@ -25555,6 +25793,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -25568,7 +25809,11 @@
       "bodyText": "Soaring energy bills ‘risk factory closures’\nTELEGRAPH.CO.UK Soaring energy bills ‘risk factory closures’",
       "externalLinks": [
         "https://archive.ph/.../milibands-net-zero-blitz.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/28434064402862585/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28434004499535242",
@@ -25687,6 +25932,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -25711,7 +25959,11 @@
       "bodyText": "Turbine parts on the move through Wick again this week\nJOHNOGROAT-JOURNAL.CO.UK Turbine parts on the move through Wick again this week",
       "externalLinks": [
         "https://www.johnogroat-journal.co.uk/.../turbine-parts.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/28425727620362930/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28425475360388156",
@@ -25726,6 +25978,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -25742,7 +25997,11 @@
         "Onshore Wind"
       ],
       "contentFingerprint": "ad66b5727db088af6b585370ee3cf6927f45bc307ebbeed63605b0b07c85b6ad",
-      "bodyText": "Wind Farms in the UK (2026 Map and Guide)\nENERGYGUIDE.ORG.UK Wind Farms in the UK (2026 Map and Guide)"
+      "bodyText": "Wind Farms in the UK (2026 Map and Guide)\nENERGYGUIDE.ORG.UK Wind Farms in the UK (2026 Map and Guide)",
+      "photos": [
+        "media/facebook/28425475360388156/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28423354627266896",
@@ -25754,6 +26013,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -25766,7 +26028,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/28423354627266896/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28423298557272503",
@@ -25843,6 +26109,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -25859,7 +26128,11 @@
       "bodyText": "‘It’s smoke and mirrors’: hope turns to fear in Scottish village chosen for AI datacentre\nTHEGUARDIAN.COM ‘It’s smoke and mirrors’: hope turns to fear in Scottish village chosen for AI datacentre",
       "externalLinks": [
         "https://www.theguardian.com/.../scotland-lanarkshire..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/28422805607321798/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28422735347328824",
@@ -25938,6 +26211,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -25958,7 +26234,11 @@
       "externalLinks": [
         "https://www.eplanning.north-ayrshire.gov.uk/.../applicati...",
         "https://landuse.co.uk/.../luc-submits-eia-scoping.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/28422326750703017/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28419511170984575",
@@ -26034,6 +26314,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -26050,7 +26333,11 @@
       "bodyText": "Labour pressured council to back giant AI data centre\nTELEGRAPH.CO.UK Labour pressured council to back giant AI data centre",
       "externalLinks": [
         "https://www.telegraph.co.uk/.../nick-clegg-joins.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/28415318708070488/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28412116295057396",
@@ -26203,6 +26490,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -26219,7 +26509,11 @@
       "bodyText": "Grid Costs Set to Soar Even Higher\nDAVIDTURVER.SUBSTACK.COM Grid Costs Set to Soar Even Higher",
       "externalLinks": [
         "https://substack.com/.../2c7c2a5a-1e98-4562-b125..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/28410678118534547/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28404381562497536",
@@ -26231,6 +26525,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -26243,7 +26540,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/28404381562497536/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28403207055948320",
@@ -26389,6 +26690,9 @@
         "summary": {
           "method": "article_meta_description",
           "url": "https://www.ssen-transmission.co.uk/"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -26402,7 +26706,11 @@
         "https://www.ssen-transmission.co.uk/"
       ],
       "contentFingerprint": "3b8d9948d03b893b2a21fe94cc9c191c62feac7b58627e5ff44aa2bf7d531dfe",
-      "summary": "We are the owner and operator of the high voltage electricity transmission system for the north of Scotland, powering the clean energy transition and delivering a reliable, efficient network that creates lasting benefits for communities, the economy and the environment."
+      "summary": "We are the owner and operator of the high voltage electricity transmission system for the north of Scotland, powering the clean energy transition and delivering a reliable, efficient network that creates lasting benefits for communities, the economy and the environment.",
+      "photos": [
+        "media/facebook/28399892656279760/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28397389269863432",
