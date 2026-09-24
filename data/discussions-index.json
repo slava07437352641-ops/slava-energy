@@ -33800,6 +33800,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -33812,7 +33815,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/28098935413042154/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28095752736693755",
@@ -33930,6 +33937,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -33943,7 +33953,11 @@
         "https://www.scottishdailyexpress.co.uk/all-about/energy"
       ],
       "contentFingerprint": "ec6f8510b2cc2063bf153b335302e5b87ac9c6c019f925ff26dd4b31a71098f2",
-      "bodyText": "Humiliation for new SNP minister as he makes false statement in first speech\nSCOTTISHDAILYEXPRESS.CO.UK Humiliation for new SNP minister as he makes false statement in first speech"
+      "bodyText": "Humiliation for new SNP minister as he makes false statement in first speech\nSCOTTISHDAILYEXPRESS.CO.UK Humiliation for new SNP minister as he makes false statement in first speech",
+      "photos": [
+        "media/facebook/28092344707034558/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28092170983718597",
@@ -34189,6 +34203,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -34201,7 +34218,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/28076202061982156/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28075413162061046",
@@ -34243,6 +34264,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -34262,7 +34286,11 @@
       "bodyText": "Scottish wind farms set to pay £1bn to use UK grid while southern projects paid\nTHENATIONAL.SCOT Scottish wind farms set to pay £1bn to use UK grid while southern projects paid",
       "externalLinks": [
         "https://www.scotsman.com/.../transmission-charging-regime..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/28072522945683401/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28070356125900083",
@@ -34422,6 +34450,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -34439,7 +34470,11 @@
         "BESS"
       ],
       "contentFingerprint": "73c8b23bce9dd3a319ef68b236c7e5af78080efc8c84e07e7d4c279447e29840",
-      "bodyText": "Inverclyde councillors narrowly vote to oppose battery plant\nUK.NEWS.YAHOO.COM Inverclyde councillors narrowly vote to oppose battery plant"
+      "bodyText": "Inverclyde councillors narrowly vote to oppose battery plant\nUK.NEWS.YAHOO.COM Inverclyde councillors narrowly vote to oppose battery plant",
+      "photos": [
+        "media/facebook/28062384346697261/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28059592450309784",
@@ -34451,6 +34486,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -34463,7 +34501,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/28059592450309784/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28058697777065918",
@@ -35108,6 +35150,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -35127,7 +35172,11 @@
       "bodyText": "Potential for sections of overhead line proposed near Voe to be placed underground, SSEN says\nSHETNEWS.CO.UK Potential for sections of overhead line proposed near Voe to be placed underground, SSEN says",
       "externalLinks": [
         "https://www.shetnews.co.uk/.../potential-sections.../..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/28023396757262687/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28023381037264259",
@@ -35174,6 +35223,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -35186,7 +35238,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/28022727567329606/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28022253137377049",
@@ -35321,6 +35377,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -35333,7 +35392,11 @@
         "https://www.stopberwickbank.co.uk/object"
       ],
       "bodyText": "StunningEagle5868",
-      "contentFingerprint": "f5d19e22476f9f2b9a28cac606236788cde3a7ac6485f193661273e7b1730a22"
+      "contentFingerprint": "f5d19e22476f9f2b9a28cac606236788cde3a7ac6485f193661273e7b1730a22",
+      "photos": [
+        "media/facebook/28016079917994371/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28011088918493471",
@@ -35649,6 +35712,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -35673,7 +35739,11 @@
       "bodyText": "‘A box-ticking exercise’: residents says questions still need to be answered on wind farm plans\nINVERNESS-COURIER.CO.UK ‘A box-ticking exercise’: residents says questions still need to be answered on wind farm plans",
       "externalLinks": [
         "https://www.inverness-courier.co.uk/.../is-a-new-wind.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/27994322726836757/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27992697383665958",
