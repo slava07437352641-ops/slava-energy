@@ -32681,6 +32681,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -32693,7 +32696,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/28137471082521920/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28137334022535626",
@@ -32816,6 +32823,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -32832,7 +32842,11 @@
       "bodyText": "Energy grid expansion ‘four times costlier with underground cables’\nTHETIMES.COM Energy grid expansion ‘four times costlier with underground cables’",
       "externalLinks": [
         "https://www.thetimes.com/.../uk-is-now-an-electrostate..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/28133622046240157/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28133479352921093",
@@ -32908,6 +32922,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -32924,7 +32941,11 @@
       "bodyText": "Stop building wind farms, EDF boss urges Miliband\nTELEGRAPH.CO.UK Stop building wind farms, EDF boss urges Miliband",
       "externalLinks": [
         "https://archive.ph/.../milibands-green-energy-is-going.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/28132769559658739/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28132298873039141",
@@ -32939,6 +32960,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -32956,7 +32980,11 @@
         "Onshore Wind"
       ],
       "contentFingerprint": "d468c671afe573fb64e9eb34c9129b69e1436393ae16b6a18f7b6aa1edcf79c7",
-      "bodyText": "A Scottish wind turbine startup that thinks smaller is better\nSCOTSMAN.COM A Scottish wind turbine startup that thinks smaller is better"
+      "bodyText": "A Scottish wind turbine startup that thinks smaller is better\nSCOTSMAN.COM A Scottish wind turbine startup that thinks smaller is better",
+      "photos": [
+        "media/facebook/28132298873039141/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28130357489899946",
@@ -33013,6 +33041,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -33025,7 +33056,11 @@
         "https://www.linkedin.com/in/johnny-gowdy-25869084/"
       ],
       "contentFingerprint": "af5a3fec45b696d17a36683a30d43714f80104583a70b88394ffbafc211bbee1",
-      "bodyText": "LNKD.IN LinkedIn"
+      "bodyText": "LNKD.IN LinkedIn",
+      "photos": [
+        "media/facebook/28127382070197488/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28126645063604522",
@@ -33037,6 +33072,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -33049,7 +33087,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/28126645063604522/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28126396106962751",
@@ -33148,6 +33190,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -33161,7 +33206,11 @@
       "bodyText": "Massive Curriculum Changes Required for UK School Geography After Met Office Climate Projections Ruled “Implausible” - Watts Up With That?\nWATTSUPWITHTHAT.COM Massive Curriculum Changes Required for UK School Geography After Met Office Climate Projections Ruled “Implausible” - Watts Up With That?",
       "externalLinks": [
         "https://wattsupwiththat.com/.../massive-curriculum.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/28122209247381437/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28122088017393560",
@@ -33324,6 +33373,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -33336,7 +33388,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/28118492361086459/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28114343998167962",
@@ -33427,6 +33483,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -33439,7 +33498,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/28111173825151646/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28109904231945272",
@@ -33485,6 +33548,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -33498,7 +33564,11 @@
       "bodyText": "Mark Hodgson\nDemocracy Matters: route map to reform\nGOV.SCOT Democracy Matters: route map to reform",
       "externalLinks": [
         "https://www.parliament.scot/.../pe1864-increase-the..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/28107466035522425/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28106773288925033",
@@ -33567,6 +33637,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -33579,7 +33652,11 @@
       "bodyText": "RENEWS.BIZ renews.biz",
       "externalLinks": [
         "https://renews.biz/.../scottish-onshore-wind-forum-launches/"
-      ]
+      ],
+      "photos": [
+        "media/facebook/28105795125689516/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28105737485695280",
@@ -33594,6 +33671,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -33610,7 +33690,11 @@
       "bodyText": "More than half of clean energy schemes needed for Labour’s 2030 target offered grid connection\nTHEGUARDIAN.COM More than half of clean energy schemes needed for Labour’s 2030 target offered grid connection",
       "externalLinks": [
         "https://www.theguardian.com/.../renewable-energy-grid..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/28105737485695280/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28101507732784922",
