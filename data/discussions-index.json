@@ -26847,6 +26847,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -26859,7 +26862,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/28390258107243215/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28389321307336895",
@@ -27144,6 +27151,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -27156,7 +27166,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/28377993741802985/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28377933348475691",
@@ -27298,6 +27312,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -27310,7 +27327,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/28366511089617917/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28366427572959602",
@@ -27666,6 +27687,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -27679,7 +27703,11 @@
         "https://www.scotsman.com/topic/holyrood"
       ],
       "contentFingerprint": "f3475dc7c00acd545cf15228193987bb806aaf7639f7310d8e15d276abd3b10b",
-      "bodyText": "Andy Burnham promises to devolve more power in 'pitch to Scotland'\nSCOTSMAN.COM Andy Burnham promises to devolve more power in 'pitch to Scotland'"
+      "bodyText": "Andy Burnham promises to devolve more power in 'pitch to Scotland'\nSCOTSMAN.COM Andy Burnham promises to devolve more power in 'pitch to Scotland'",
+      "photos": [
+        "media/facebook/28353868670882159/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28353604784241881",
@@ -27691,6 +27719,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -27704,7 +27735,11 @@
       "bodyText": "Cost to rewire Great Britain’s electricity network could reach £90bn in 2030s\nTHEGUARDIAN.COM Cost to rewire Great Britain’s electricity network could reach £90bn in 2030s",
       "externalLinks": [
         "https://www.theguardian.com/.../great-britain-electricity..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/28353604784241881/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28353499864252373",
@@ -27788,6 +27823,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -27800,7 +27838,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/28353119050957121/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28345264931742533",
@@ -27815,6 +27857,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -27831,7 +27876,11 @@
       "categories": [
         "Onshore Wind"
       ],
-      "contentFingerprint": "53d61ce07a70ead61e20bd5f8372c23cd72a844faead2c0f3b67c87c87c0231f"
+      "contentFingerprint": "53d61ce07a70ead61e20bd5f8372c23cd72a844faead2c0f3b67c87c87c0231f",
+      "photos": [
+        "media/facebook/28345264931742533/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28343232741945752",
@@ -27888,6 +27937,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -27902,7 +27954,11 @@
       "externalLinks": [
         "https://www.deadlinenews.co.uk/.../aurora-energy.../",
         "https://www.deadlinenews.co.uk/.../man-in-court-over.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/28343015175300842/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28342001338735559",
@@ -28078,6 +28134,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -28091,7 +28150,11 @@
       "bodyText": "Miliband forces wind firms to back unions or lose subsidies\nTELEGRAPH.CO.UK Miliband forces wind firms to back unions or lose subsidies",
       "externalLinks": [
         "https://archive.ph/...//www.telegraph.co.uk/ed-miliband/"
-      ]
+      ],
+      "photos": [
+        "media/facebook/28336298882639138/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28336244669311226",
@@ -28294,6 +28357,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -28306,7 +28372,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/28323372083931818/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28320230830912610",
@@ -28439,6 +28509,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -28452,7 +28525,11 @@
       "bodyText": "Ofgem narrows long duration electricity storage (LDES) list to 16\nENERGYVOICE.COM Ofgem narrows long duration electricity storage (LDES) list to 16",
       "externalLinks": [
         "https://consult.ofgem.gov.uk/.../ldes-window-1-minded-to..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/28317644227837937/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28313561941579499",
@@ -28498,6 +28575,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -28511,7 +28591,11 @@
       "bodyText": "Net zero power station to be built on Loch Ness\nTELEGRAPH.CO.UK Net zero power station to be built on Loch Ness",
       "externalLinks": [
         "https://archive.ph/.../eastern-highlands-tick-every-box.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/28313262984942728/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28312469081688785",
@@ -28618,6 +28702,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -28632,7 +28719,11 @@
         "https://www.mirror.co.uk/.../heatwave-energy-power-supply..."
       ],
       "contentFingerprint": "25f9e0f9c17bada0925111ac892bbc36a19847f6bf77fcd1551a5d0686731d29",
-      "bodyText": "New power alert plea issued for these times on Friday evening\nMIRROR.CO.UK New power alert plea issued for these times on Friday evening"
+      "bodyText": "New power alert plea issued for these times on Friday evening\nMIRROR.CO.UK New power alert plea issued for these times on Friday evening",
+      "photos": [
+        "media/facebook/28307848008817559/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28307516375517389",
@@ -28644,6 +28735,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -28656,7 +28750,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/28307516375517389/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28306524958949864",
