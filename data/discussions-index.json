@@ -28836,6 +28836,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -28853,7 +28856,11 @@
       "externalLinks": [
         "https://www.telegraph.co.uk/.../hand-held-electric-fans.../",
         "https://www.telegraph.co.uk/.../this-is-the-worst.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/28305861949016165/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28298649939737366",
@@ -28865,6 +28872,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -28877,7 +28887,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/28298649939737366/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28297998073135886",
@@ -29035,6 +29049,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -29047,7 +29064,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/28294734720128888/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28294708233464870",
@@ -29147,6 +29168,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -29160,7 +29184,11 @@
       "bodyText": "Britain forced to rely on EU to avoid power shortages during heatwave\nTELEGRAPH.CO.UK Britain forced to rely on EU to avoid power shortages during heatwave",
       "externalLinks": [
         "https://archive.ph/.../06/23/heatwave-shuts-down-britain/"
-      ]
+      ],
+      "photos": [
+        "media/facebook/28294164373519256/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28293998896869137",
@@ -29204,6 +29232,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -29229,7 +29260,11 @@
       "bodyText": "Berwick Bank offshore wind farm proposal 'undermines confidence'\nHERALDSCOTLAND.COM Berwick Bank offshore wind farm proposal 'undermines confidence'",
       "externalLinks": [
         "https://www.heraldscotland.com/.../26166382.scotlands.../..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/28293904693545224/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28289653543970339",
@@ -29716,6 +29751,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -29728,7 +29766,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/28272455269023500/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28272391339029893",
@@ -29930,6 +29972,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -29949,7 +29994,11 @@
       "bodyText": "Planning application for “monstrous” fake 60m wind turbine was publicity stunt for EV charging\nFORECOURTTRADER.CO.UK Planning application for “monstrous” fake 60m wind turbine was publicity stunt for EV charging",
       "externalLinks": [
         "https://forecourttrader.co.uk/.../plann.../720427.article..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/28263062536629440/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28259879816947712",
@@ -30079,6 +30128,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -30091,7 +30143,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/28249233898012304/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28248196974782663",
@@ -30304,6 +30360,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -30316,7 +30375,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/28235079282761099/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28234866342782393",
@@ -30384,6 +30447,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -30400,7 +30466,11 @@
       "bodyText": "Project updates | Giant's Burn Wind Farm - Statkraft UK\nPROJECTS.STATKRAFT.CO.UK Project updates | Giant's Burn Wind Farm - Statkraft UK",
       "externalLinks": [
         "https://projects.statkraft.co.uk/giants.../project-updates/"
-      ]
+      ],
+      "photos": [
+        "media/facebook/28230422949893399/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28230186689917025",
@@ -30418,6 +30488,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -30437,7 +30510,11 @@
       "bodyText": "Britain will need up to £240bn of net zero upgrades\nTELEGRAPH.CO.UK Britain will need up to £240bn of net zero upgrades",
       "externalLinks": [
         "https://www.telegraph.co.uk/.../reeves-ramps-up-pylons.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/28230186689917025/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28227794806822880",
@@ -30769,6 +30846,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -30782,7 +30862,11 @@
       "bodyText": "The net zero bungle that has left Britain paying France to take our power\nTELEGRAPH.CO.UK The net zero bungle that has left Britain paying France to take our power",
       "externalLinks": [
         "https://www.telegraph.co.uk/.../british-households-pay.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/28222624104006617/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28222095907392770",
@@ -30984,6 +31068,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -31008,7 +31095,11 @@
       "bodyText": "Vessel carrying giant wind turbine blades spotted on the Clyde heading for Glasgow\nGREENOCKTELEGRAPH.CO.UK Vessel carrying giant wind turbine blades spotted on the Clyde heading for Glasgow",
       "externalLinks": [
         "https://www.greenocktelegraph.co.uk/loc.../greenock-news/..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/28201708862764808/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28201094222826272",
@@ -31269,6 +31360,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -31286,7 +31380,11 @@
         "Onshore Wind"
       ],
       "contentFingerprint": "9d93723712749122e2817976d6058b25a20c4332a449debb13a9133526ea4228",
-      "bodyText": "Renewable energy company sells all of North Sea windfarm shares at a discount\nHERALDSCOTLAND.COM Renewable energy company sells all of North Sea windfarm shares at a discount"
+      "bodyText": "Renewable energy company sells all of North Sea windfarm shares at a discount\nHERALDSCOTLAND.COM Renewable energy company sells all of North Sea windfarm shares at a discount",
+      "photos": [
+        "media/facebook/28196337159968645/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28196234379978923",
@@ -31298,6 +31396,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -31311,7 +31412,11 @@
       "bodyText": "UK will miss renewables community ownership goal\nENERGYVOICE.COM UK will miss renewables community ownership goal",
       "externalLinks": [
         "https://committees.parliament.uk/.../energy-security-and.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/28196234379978923/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28195677486701279",
@@ -31512,6 +31617,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -31524,7 +31632,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/28186525617616466/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28186195897649438",
@@ -32007,6 +32119,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -32019,7 +32134,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/28170778739191154/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28170764212525940",
@@ -32165,6 +32284,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -32179,7 +32301,11 @@
         "https://www.scotsman.com/.../north-sea-wind-oil-gas..."
       ],
       "contentFingerprint": "dcdd06e77d55257316c0a62c96e63186fb1bb89743a41db1cce3bf197911c315",
-      "bodyText": "OEUK call for North Sea energy assets to be deemed 'critical infrastructure'\nSCOTSMAN.COM OEUK call for North Sea energy assets to be deemed 'critical infrastructure'"
+      "bodyText": "OEUK call for North Sea energy assets to be deemed 'critical infrastructure'\nSCOTSMAN.COM OEUK call for North Sea energy assets to be deemed 'critical infrastructure'",
+      "photos": [
+        "media/facebook/28159023947033300/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28158613673740994",
@@ -32194,6 +32320,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -32211,7 +32340,11 @@
         "Onshore Wind"
       ],
       "contentFingerprint": "205f25b606e7d473c8830ab88d9fe72ff140b5bfe4fc7d86362143ff71a5d698",
-      "bodyText": "Iona residents oppose 91-turbine wind farm plan for seas near Staffa\nHERALDSCOTLAND.COM Iona residents oppose 91-turbine wind farm plan for seas near Staffa"
+      "bodyText": "Iona residents oppose 91-turbine wind farm plan for seas near Staffa\nHERALDSCOTLAND.COM Iona residents oppose 91-turbine wind farm plan for seas near Staffa",
+      "photos": [
+        "media/facebook/28158613673740994/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28158572767078418",
@@ -32245,6 +32378,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -32257,7 +32393,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/28158334277102267/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28158077153794646",
