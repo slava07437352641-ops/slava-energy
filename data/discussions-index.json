@@ -47394,6 +47394,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -47406,7 +47409,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/27362282590040777/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27361731220095914",
@@ -47551,6 +47558,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -47565,7 +47575,11 @@
         "https://www.telegraph.co.uk/.../green-investment-fund.../"
       ],
       "contentFingerprint": "e74e9299db7d1399a4c57a808366fb144b4258bcbd1891bbbb4feef12ff1b31e",
-      "bodyText": "Green investment fund to shut amid net zero backlash\nTELEGRAPH.CO.UK Green investment fund to shut amid net zero backlash"
+      "bodyText": "Green investment fund to shut amid net zero backlash\nTELEGRAPH.CO.UK Green investment fund to shut amid net zero backlash",
+      "photos": [
+        "media/facebook/27357205930548443/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27356944757241227",
@@ -47815,6 +47829,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -47827,7 +47844,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/27342529252016111/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27342020762066960",
@@ -48085,6 +48106,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -48106,7 +48130,11 @@
       "bodyText": "Golticlay blade lifter movements through Wick delayed until next week\nJOHNOGROAT-JOURNAL.CO.UK Golticlay blade lifter movements through Wick delayed until next week",
       "externalLinks": [
         "https://www.johnogroat-journal.co.uk/.../golticlay-blade.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/27328971073371929/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27328368136765556",
@@ -48140,6 +48168,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -48152,7 +48183,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/27326221130313590/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27325860493682987",
@@ -48203,6 +48238,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -48217,7 +48255,11 @@
         "https://www.telegraph.co.uk/.../oil-gas-hormuz-prices.../"
       ],
       "contentFingerprint": "596dd09fb2eb0bdacfd9b674e5470cee8fa3c5c4cbfd1d8116353cf5c0b69e9a",
-      "bodyText": "High oil and gas prices do not strengthen the case for net zero\nTELEGRAPH.CO.UK High oil and gas prices do not strengthen the case for net zero"
+      "bodyText": "High oil and gas prices do not strengthen the case for net zero\nTELEGRAPH.CO.UK High oil and gas prices do not strengthen the case for net zero",
+      "photos": [
+        "media/facebook/27325362313732805/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27325285147073855",
@@ -48325,6 +48367,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -48337,7 +48382,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/27320239444245092/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27319380324331004",
@@ -48356,6 +48405,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -48380,7 +48432,11 @@
       },
       "location": "Inverness",
       "contentFingerprint": "915e8128af271f193d2965fdc3102fbcbf371e2c16a58ccab8554f4b0d48761b",
-      "bodyText": "Is a new wind farm coming to Nairnshire?\nINVERNESS-COURIER.CO.UK Is a new wind farm coming to Nairnshire?"
+      "bodyText": "Is a new wind farm coming to Nairnshire?\nINVERNESS-COURIER.CO.UK Is a new wind farm coming to Nairnshire?",
+      "photos": [
+        "media/facebook/27319380324331004/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27317758481159855",
@@ -48463,6 +48519,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -48479,7 +48538,11 @@
       "bodyText": "Moray retains little as windfarm millions flow to foreign states, figures reveal\nNORTHERN-SCOT.CO.UK Moray retains little as windfarm millions flow to foreign states, figures reveal",
       "externalLinks": [
         "https://www.northern-scot.co.uk/.../council-seeks-legal.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/27314214754847561/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27307573585511678",
@@ -48530,6 +48593,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -48542,7 +48608,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/27306115102324193/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27305790772356626",
