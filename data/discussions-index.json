@@ -41981,6 +41981,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -41993,7 +41996,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/27623624943906539/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27620864077515959",
@@ -42166,6 +42173,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -42178,7 +42188,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/27608800188722348/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27607101368892230",
@@ -42585,6 +42599,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -42597,7 +42614,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/27587624894173211/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27586730217596012",
@@ -42774,6 +42795,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -42786,7 +42810,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/27576706028598431/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27575777142024653",
@@ -42922,6 +42950,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -42934,7 +42965,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/27563381903264177/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27561478320121202",
@@ -43066,6 +43101,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -43079,7 +43117,11 @@
       "bodyText": "SNP Energy Minister snubbed dozens of meetings with concerned energy campaigners\nSCOTTISHDAILYEXPRESS.CO.UK SNP Energy Minister snubbed dozens of meetings with concerned energy campaigners",
       "externalLinks": [
         "https://www.scottishdailyexpress.co.uk/.../snp-energy..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/27560831280185906/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27560674780201556",
@@ -43155,6 +43197,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -43171,7 +43216,11 @@
       "bodyText": "Save Caithness warns 200m turbines on Olrig Hill would be ‘unacceptable’\nJOHNOGROAT-JOURNAL.CO.UK Save Caithness warns 200m turbines on Olrig Hill would be ‘unacceptable’",
       "externalLinks": [
         "https://www.johnogroat-journal.co.uk/.../new-200m.../..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/27555285430740491/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27554776690791365",
@@ -43447,6 +43496,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -43463,7 +43515,11 @@
       "bodyText": "Seabirds are abandoning waters with wind turbines, and 256,000 have already vanished without a trace\nECOPORTAL.NET Seabirds are abandoning waters with wind turbines, and 256,000 have already vanished without a trace",
       "externalLinks": [
         "https://www.ecoportal.net/.../seabirds-avoid-wind.../20500/"
-      ]
+      ],
+      "photos": [
+        "media/facebook/27542265288709172/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27536559355946432",
@@ -43492,6 +43548,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -43504,7 +43563,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/27536444682624566/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27535506212718413",
@@ -43516,6 +43579,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -43529,7 +43595,11 @@
       "bodyText": "Now There's £585bn of Subsidies Galore\nDAVIDTURVER.SUBSTACK.COM Now There's £585bn of Subsidies Galore",
       "externalLinks": [
         "https://davidturver.substack.com/.../now-theres-585bn-of..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/27535506212718413/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27535145936087774",
