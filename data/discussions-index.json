@@ -51095,6 +51095,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -51108,7 +51111,11 @@
       "bodyText": "FELLING HAS STOPPED- VATTENFALL NOW UNDER POLICE INVESTIGATION — Wildcat Haven\nWILDCATHAVEN.COM FELLING HAS STOPPED- VATTENFALL NOW UNDER POLICE INVESTIGATION — Wildcat Haven",
       "externalLinks": [
         "https://www.wildcathaven.com/.../felling-has-stopped..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/27193164693619235/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27191735467095491",
@@ -51196,6 +51203,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -51212,7 +51222,11 @@
       "bodyText": "Highland port wins £30m investment as it targets windfarm work\nHERALDSCOTLAND.COM Highland port wins £30m investment as it targets windfarm work",
       "externalLinks": [
         "https://www.heraldscotland.com/.../scottish-government/..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/27190873933848311/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27186904354245269",
@@ -51644,6 +51658,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -51659,7 +51676,11 @@
       "bodyText": "RENEWS.BIZ renews.biz",
       "externalLinks": [
         "https://renews.biz/.../dunside-wind-farm-wins-planning.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/27174709995464705/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27174659345469770",
@@ -52659,6 +52680,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -52673,7 +52697,11 @@
         "https://www.telegraph.co.uk/.../bills-to-be-300-higher.../"
       ],
       "contentFingerprint": "ed1df5cf1ff97a4472492735f65bb18b658139bf9b2531275d821e2f668ac97c",
-      "bodyText": "EDF: Energy bills to be £300 higher for at least a year\nTELEGRAPH.CO.UK EDF: Energy bills to be £300 higher for at least a year"
+      "bodyText": "EDF: Energy bills to be £300 higher for at least a year\nTELEGRAPH.CO.UK EDF: Energy bills to be £300 higher for at least a year",
+      "photos": [
+        "media/facebook/27124586327143739/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27118852184383820",
@@ -53342,6 +53370,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -53355,7 +53386,11 @@
       "bodyText": "Wind industry chief urges Miliband to restart North Sea drilling\nTELEGRAPH.CO.UK Wind industry chief urges Miliband to restart North Sea drilling",
       "externalLinks": [
         "https://www.telegraph.co.uk/.../extra-100000-britons-out.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/27085602961042076/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27085567707712268",
@@ -53504,6 +53539,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -53517,7 +53555,11 @@
       "bodyText": "Ed Miliband's just turned a bad situation into a catastrophe\nEXPRESS.CO.UK Ed Miliband's just turned a bad situation into a catastrophe",
       "externalLinks": [
         "https://www.express.co.uk/.../rachel-reeves-heating-oil..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/27082800924655613/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27078784445057261",
@@ -53648,6 +53690,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -53663,7 +53708,11 @@
         "https://www.express.co.uk/latest/conservative-party"
       ],
       "contentFingerprint": "91e6b42d627264780d2a1c65ec4604b5129c20696ab6472825a4a91199e90808",
-      "bodyText": "Labour accused of eco-madness as Kemi Badenoch goes to war on net zero rules\nEXPRESS.CO.UK Labour accused of eco-madness as Kemi Badenoch goes to war on net zero rules"
+      "bodyText": "Labour accused of eco-madness as Kemi Badenoch goes to war on net zero rules\nEXPRESS.CO.UK Labour accused of eco-madness as Kemi Badenoch goes to war on net zero rules",
+      "photos": [
+        "media/facebook/27073314328937606/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27073171855618520",
@@ -53675,6 +53724,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -53688,7 +53740,11 @@
       "bodyText": "How to ease the pressure points stalling Scotland's energy future\nSCOTSMAN.COM How to ease the pressure points stalling Scotland's energy future",
       "externalLinks": [
         "https://www.scotsman.com/.../how-to-ease-the-pressure..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/27073171855618520/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27072998125635893",
@@ -53753,6 +53809,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -53769,7 +53828,11 @@
       "bodyText": "Ed Miliband's wind farms 'could cripple UK anti-missile systems'\nDAILYMAIL.CO.UK Ed Miliband's wind farms 'could cripple UK anti-missile systems'",
       "externalLinks": [
         "https://www.dailymail.co.uk/.../israel-hamas.../index.html"
-      ]
+      ],
+      "photos": [
+        "media/facebook/27072703305665375/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27069343876001318",
@@ -54027,6 +54090,9 @@
       "provenance": {
         "title": {
           "method": "neutral"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -54038,7 +54104,11 @@
       "externalLinks": [
         "https://scot.us20.list-manage.com/track/click"
       ],
-      "contentFingerprint": "dac8dd4a2dc1052f84d8b4987d93a3ebfc40fbabb6fd727db4b2463df13b7adc"
+      "contentFingerprint": "dac8dd4a2dc1052f84d8b4987d93a3ebfc40fbabb6fd727db4b2463df13b7adc",
+      "photos": [
+        "media/facebook/27055414390727600/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27055406124061760",
