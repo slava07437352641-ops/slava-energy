@@ -59215,6 +59215,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -59230,7 +59233,11 @@
       "bodyText": "Isle of Man Today",
       "externalLinks": [
         "https://www.iomtoday.co.im/.../wind-farm-would-have..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/26862451266690581/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26862408406694867",
@@ -59480,6 +59487,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -59495,7 +59505,11 @@
       "bodyText": "Scotland Against Spin’s take on “Onshore electricity generation – Electricity Act threshold”: the Scottish Government Consultation\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin’s take on “Onshore electricity generation – Electricity Act threshold”: the Scottish Government Consultation",
       "externalLinks": [
         "https://scotlandagainstspin.org/.../scotland-against.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/26852823814319993/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26852680247667683",
@@ -59876,6 +59890,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -59889,7 +59906,11 @@
       "bodyText": "Record January CfD Subsidies in 2026\nDAVIDTURVER.SUBSTACK.COM Record January CfD Subsidies in 2026",
       "externalLinks": [
         "https://davidturver.substack.com/.../record-january-cfd..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/26843018435300531/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26842602202008821",
@@ -60113,6 +60134,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -60126,7 +60150,11 @@
       "bodyText": "Miliband to ‘miss net zero targets unless he spends extra £75bn’\nTELEGRAPH.CO.UK Miliband to ‘miss net zero targets unless he spends extra £75bn’",
       "externalLinks": [
         "https://archive.ph/.../gas-glut-to-halve-prices-but.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/26828721980063510/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26828365763432465",
@@ -60193,6 +60221,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -60212,7 +60243,11 @@
         "Ecology"
       ],
       "contentFingerprint": "2713d44fa8dbea37ca0827809496e00772fd61099039c4782c91fc13df0932e7",
-      "bodyText": "Golden eagles face ‘unacceptable risk’ from wind turbine plans, charity says\nSTANDARD.CO.UK Golden eagles face ‘unacceptable risk’ from wind turbine plans, charity says"
+      "bodyText": "Golden eagles face ‘unacceptable risk’ from wind turbine plans, charity says\nSTANDARD.CO.UK Golden eagles face ‘unacceptable risk’ from wind turbine plans, charity says",
+      "photos": [
+        "media/facebook/26824485643820477/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26823624863906555",
@@ -60274,6 +60309,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -60287,7 +60325,11 @@
         "https://archive.ph/K0ZDr#selection-3463.0-3467.61"
       ],
       "contentFingerprint": "d9239ca8bd5b43565224adeb007cdcbaea5a84962c73de73ac2fb1fcf79dbfbb",
-      "bodyText": "Trump attacks Miliband over green energy deal with ‘loser’ Gavin Newsom\nTELEGRAPH.CO.UK Trump attacks Miliband over green energy deal with ‘loser’ Gavin Newsom"
+      "bodyText": "Trump attacks Miliband over green energy deal with ‘loser’ Gavin Newsom\nTELEGRAPH.CO.UK Trump attacks Miliband over green energy deal with ‘loser’ Gavin Newsom",
+      "photos": [
+        "media/facebook/26819854654283576/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26818532994415742",
@@ -60341,6 +60383,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -60356,7 +60401,11 @@
       "bodyText": "Scotland Against Spin’s take on “Onshore electricity generation – Electricity Act threshold”: the Scottish Government Consultation\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin’s take on “Onshore electricity generation – Electricity Act threshold”: the Scottish Government Consultation",
       "externalLinks": [
         "https://scotlandagainstspin.org/.../scotland-against.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/26815609044708137/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26814927138109661",
@@ -60575,6 +60624,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -60588,7 +60640,11 @@
       "bodyText": "AR7a Results Expose Government Lies\nDAVIDTURVER.SUBSTACK.COM AR7a Results Expose Government Lies",
       "externalLinks": [
         "https://davidturver.substack.com/.../ar7a-results-expose..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/26805306095738432/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26805050509097324",
@@ -60600,6 +60656,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -60615,7 +60674,11 @@
         "https://www.telegraph.co.uk/.../miliband-net-zero.../"
       ],
       "contentFingerprint": "3ecff6a656c6ff230542bc9e3d7a55c32b5349fcf9189410202a7555722b3df8",
-      "bodyText": "Miliband’s devastating net zero fanaticism is driving Britain over the edge\nTELEGRAPH.CO.UK Miliband’s devastating net zero fanaticism is driving Britain over the edge"
+      "bodyText": "Miliband’s devastating net zero fanaticism is driving Britain over the edge\nTELEGRAPH.CO.UK Miliband’s devastating net zero fanaticism is driving Britain over the edge",
+      "photos": [
+        "media/facebook/26805050509097324/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26804940679108307",
@@ -60630,6 +60693,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -60648,7 +60714,11 @@
         "Onshore Wind"
       ],
       "contentFingerprint": "91486a2216ce155c91118e2388d426d12e581a3ac4fd92db932083262230c63c",
-      "bodyText": "‘It makes no sense’: the battle over plans for a windfarm by the Yorkshire Dales\nTHEGUARDIAN.COM ‘It makes no sense’: the battle over plans for a windfarm by the Yorkshire Dales"
+      "bodyText": "‘It makes no sense’: the battle over plans for a windfarm by the Yorkshire Dales\nTHEGUARDIAN.COM ‘It makes no sense’: the battle over plans for a windfarm by the Yorkshire Dales",
+      "photos": [
+        "media/facebook/26804940679108307/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26804635155805526",
