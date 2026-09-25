@@ -66952,6 +66952,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -66968,7 +66971,11 @@
         "Onshore Wind"
       ],
       "contentFingerprint": "6b2832fa411d202de642371455187fa5e6f3aafd6c007b528aec70630a7e887a",
-      "bodyText": "'Common sense prevails,' campaigners claim as Skye wind farm plans rejected\nTHENATIONAL.SCOT 'Common sense prevails,' campaigners claim as Skye wind farm plans rejected"
+      "bodyText": "'Common sense prevails,' campaigners claim as Skye wind farm plans rejected\nTHENATIONAL.SCOT 'Common sense prevails,' campaigners claim as Skye wind farm plans rejected",
+      "photos": [
+        "media/facebook/26581532818115762/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26581119514823759",
@@ -67219,6 +67226,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -67236,7 +67246,11 @@
         "Onshore Wind"
       ],
       "contentFingerprint": "e4292fe5dc5648ffdcd467ca1c763f4ff5117a34605d47ce2f9874f4ad683dc0",
-      "bodyText": "Ministry of Defence objects to Borders wind farm over national security concerns\nSCOTSMAN.COM Ministry of Defence objects to Borders wind farm over national security concerns"
+      "bodyText": "Ministry of Defence objects to Borders wind farm over national security concerns\nSCOTSMAN.COM Ministry of Defence objects to Borders wind farm over national security concerns",
+      "photos": [
+        "media/facebook/26575679805367730/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26575612238707820",
@@ -67455,6 +67469,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -67475,7 +67492,11 @@
       "externalLinks": [
         "https://www.deadlinenews.co.uk/.../scottish-bird.../",
         "https://www.deadlinenews.co.uk/.../scots-wind-farm.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/26569179282684449/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26569069672695410",
@@ -67543,6 +67564,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -67562,7 +67586,11 @@
         "Planning / process"
       ],
       "contentFingerprint": "46f76a90b563965095c20245caba55d67ee4fb2850052c31a576a2970b5a7f3b",
-      "bodyText": "PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms\nPARLIAMENT.SCOT PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms"
+      "bodyText": "PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms\nPARLIAMENT.SCOT PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms",
+      "photos": [
+        "media/facebook/26568111756124535/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26568025116133199",
@@ -67910,6 +67938,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -67926,7 +67957,11 @@
       "bodyText": "Road to be closed for 4 weeks to widen junction ahead of turbine delivery north-west of Lybster\nJOHNOGROAT-JOURNAL.CO.UK Road to be closed for 4 weeks to widen junction ahead of turbine delivery north-west of Lybster",
       "externalLinks": [
         "https://www.johnogroat-journal.co.uk/.../promise-of.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/26558375813764796/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26557327330536311",
@@ -68133,6 +68168,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -68152,7 +68190,11 @@
         "Planning / process"
       ],
       "contentFingerprint": "46f76a90b563965095c20245caba55d67ee4fb2850052c31a576a2970b5a7f3b",
-      "bodyText": "PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms\nPARLIAMENT.SCOT PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms"
+      "bodyText": "PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms\nPARLIAMENT.SCOT PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms",
+      "photos": [
+        "media/facebook/26550236377912073/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26548899461379098",
@@ -68467,6 +68509,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -68488,7 +68533,11 @@
       },
       "location": "Glasgow",
       "contentFingerprint": "b6587d036d1bad1f2e11ca0e81754c15b7d1949f004f643f428c0c21dc6a1aeb",
-      "bodyText": "Historic village near Glasgow up in arms over 'greener' airport flight path\nSCOTTISHDAILYEXPRESS.CO.UK Historic village near Glasgow up in arms over 'greener' airport flight path"
+      "bodyText": "Historic village near Glasgow up in arms over 'greener' airport flight path\nSCOTTISHDAILYEXPRESS.CO.UK Historic village near Glasgow up in arms over 'greener' airport flight path",
+      "photos": [
+        "media/facebook/26539940568941654/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26539691528966558",
@@ -68588,6 +68637,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -68601,7 +68653,11 @@
       "bodyText": "Another Record Year for CfD Subsidies in 2025\nDAVIDTURVER.SUBSTACK.COM Another Record Year for CfD Subsidies in 2025",
       "externalLinks": [
         "https://davidturver.substack.com/.../another-record-year..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/26537900442479000/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26537694399166271",
