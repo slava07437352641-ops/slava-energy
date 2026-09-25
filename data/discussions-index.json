@@ -73312,6 +73312,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -73325,7 +73328,11 @@
         "https://www.scottishdailyexpress.co.uk/.../scotwind-700m..."
       ],
       "bodyText": "SNP Government banked £755m in seabed sell-off but won't say where it is going\nSCOTTISHDAILYEXPRESS.CO.UK SNP Government banked £755m in seabed sell-off but won't say where it is going",
-      "contentFingerprint": "1bfb1b554fbd62fbd59ffc233bf4c5717d4fc49f41f5f55fa05e3ded403655e6"
+      "contentFingerprint": "1bfb1b554fbd62fbd59ffc233bf4c5717d4fc49f41f5f55fa05e3ded403655e6",
+      "photos": [
+        "media/facebook/29332621506340199/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29357467817188901",
@@ -73380,6 +73387,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -73393,7 +73403,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
-      "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d"
+      "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
+      "photos": [
+        "media/facebook/29360738403528509/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29208031892132495",
@@ -73559,6 +73573,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -73567,11 +73584,15 @@
         "label": "Facebook · Scotland Against Spin",
         "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29392570393678643/"
       },
-      "thin": true,
+      "thin": false,
       "externalLinks": [
         "https://petition.parliament.uk/petitions/780321"
       ],
-      "contentFingerprint": "9e78c66af9d860a87225bb3ee5d46de4562f885d59bd1f1c91c869ef1070f9f6"
+      "contentFingerprint": "9e78c66af9d860a87225bb3ee5d46de4562f885d59bd1f1c91c869ef1070f9f6",
+      "photos": [
+        "media/facebook/29392570393678643/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29347803711488645",
@@ -73671,6 +73692,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -73684,7 +73708,11 @@
         "https://committees.parliament.uk/.../docu.../305189/default/"
       ],
       "bodyText": "COMMITTEES.PARLIAMENT.UK committees.parliament.uk",
-      "contentFingerprint": "a02c822736e4dc71602fa7e562ff4cd0560340d373aecb998d9d7b91696790c2"
+      "contentFingerprint": "a02c822736e4dc71602fa7e562ff4cd0560340d373aecb998d9d7b91696790c2",
+      "photos": [
+        "media/facebook/29337819012487115/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29320951674173849",
@@ -73718,6 +73746,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -73731,7 +73762,11 @@
         "https://www.bordertelegraph.com/.../scottish-borders.../..."
       ],
       "bodyText": "Campaigners urge residents to speak out on windfarm plans ahead of crunch deadline\nBORDERTELEGRAPH.COM Campaigners urge residents to speak out on windfarm plans ahead of crunch deadline",
-      "contentFingerprint": "76f9b72c6aabd8dce31a2a56832df2ec5f73e4aabbd94eea975b9b5333f801c0"
+      "contentFingerprint": "76f9b72c6aabd8dce31a2a56832df2ec5f73e4aabbd94eea975b9b5333f801c0",
+      "photos": [
+        "media/facebook/29323098557292494/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29373888878880128",
@@ -73829,6 +73864,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -73842,7 +73880,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
-      "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d"
+      "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
+      "photos": [
+        "media/facebook/29375397118729304/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29386125550989794",
@@ -74006,6 +74048,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -74019,7 +74064,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
-      "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d"
+      "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
+      "photos": [
+        "media/facebook/29210083498594001/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29319804817621868",
@@ -74163,6 +74212,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -74177,7 +74229,11 @@
         "https://www.heraldscotland.com/.../scottish-government/..."
       ],
       "bodyText": "Vital projects 'being cancelled' due to planning holdups, Swinney warned\nHERALDSCOTLAND.COM Vital projects 'being cancelled' due to planning holdups, Swinney warned",
-      "contentFingerprint": "cfa96f90bd7320eee3e2976063b542fe38312fdb37d7538a1624576ac99722d7"
+      "contentFingerprint": "cfa96f90bd7320eee3e2976063b542fe38312fdb37d7538a1624576ac99722d7",
+      "photos": [
+        "media/facebook/29387743534161329/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29347021731566843",

@@ -146,6 +146,37 @@
       "contentFingerprint": "29e000344caf9d22bcb3aa2ba296d6cf11797925459563840dc255d404bf9a5c"
     },
     {
+      "id": "29392570393678643",
+      "date": "2026-09-21",
+      "title": "Discussion shared in Scotland Against Spin, 21 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29392570393678643/"
+      },
+      "thin": false,
+      "externalLinks": [
+        "https://petition.parliament.uk/petitions/780321"
+      ],
+      "contentFingerprint": "9e78c66af9d860a87225bb3ee5d46de4562f885d59bd1f1c91c869ef1070f9f6",
+      "photos": [
+        "media/facebook/29392570393678643/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
       "id": "29380887524846930",
       "date": "2026-09-21",
       "title": "Discussion shared in Scotland Against Spin, 21 September 2026",
@@ -177,6 +208,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -190,7 +224,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
-      "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d"
+      "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
+      "photos": [
+        "media/facebook/29375397118729304/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29374600085475674",
@@ -213,32 +251,6 @@
       "thin": false,
       "bodyText": "Rural revolt over Scotland's green energy revolution as 200 councils demand inquiry\nHERALDSCOTLAND.COM Rural revolt over Scotland's green energy revolution as 200 councils demand inquiry",
       "contentFingerprint": "8ed32cd377ac1d4c019354e0d5e2a3300d6864f4852f5920d7eb8f2347807a70"
-    },
-    {
-      "id": "29387743534161329",
-      "date": "2026-09-21",
-      "title": "Discussion shared in Scotland Against Spin, 21 September 2026",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Scotland Against Spin",
-        "label": "Facebook · Scotland Against Spin",
-        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29387743534161329/"
-      },
-      "thin": false,
-      "externalLinks": [
-        "https://www.heraldscotland.com/.../26536943.cbi.../...",
-        "https://www.heraldscotland.com/.../scottish-government/..."
-      ],
-      "bodyText": "Vital projects 'being cancelled' due to planning holdups, Swinney warned\nHERALDSCOTLAND.COM Vital projects 'being cancelled' due to planning holdups, Swinney warned",
-      "contentFingerprint": "cfa96f90bd7320eee3e2976063b542fe38312fdb37d7538a1624576ac99722d7"
     }
   ]
 }
