@@ -2,6 +2,8 @@
 // Rule: OR within a filter group, AND between different groups.
 // Extensible: add a facet by adding one entry to FACETS.
 
+import { CANONICAL_BY_RAW, projectSearchTerms } from "./project-aliases.js";
+
 // Kept in sync BY HAND with build-discussions/derive/classify-technology.mjs's
 // own TECH_CATEGORIES -- this frontend copy drives only the chip list (see
 // main.js's buildTechChips()); the actual filter/count logic below matches
@@ -12,34 +14,46 @@
 export const TECH_CATEGORIES = ["Onshore Wind", "BESS", "OHL (Pylons)", "Substation", "Solar", "Hybrid", "Data Centre"];
 
 // Each facet: how to get the set of values a record has for that facet.
+// project's values are normalised through CANONICAL_BY_RAW so spelling
+// variants of an already-reviewed project (e.g. "Giants Burn Wind Farm" vs
+// "Giant's Burn Wind Farm") count as the same filter option.
 export const FACETS = {
   tech: (r) => r.categories || [],
   topic: (r) => r.topics || [],
   council: (r) => (r.council ? [r.council] : []),
+  project: (r) => (r.project ? [CANONICAL_BY_RAW[r.project] || r.project] : []),
 };
 
 function tokenize(s) {
   return (s || "")
     .toLowerCase()
     .normalize("NFKC")
+    .replace(/['’]/g, "") // drop apostrophes first so "Giant's" and "Giants" tokenize the same
     .replace(/[^\p{L}\p{N}\s]/gu, " ")
     .split(/\s+/)
     .filter(Boolean);
 }
 
 // Build a searchable text blob from the PUBLIC indexed fields only.
+// Includes bodyText (the captured post text) and, for records with a
+// reviewed project match, that project's known aliases -- so a search for
+// "berwick bank" also matches a record whose project field is stored as the
+// full canonical "Berwick Bank Offshore Wind Farm". This never infers a
+// project for a record that doesn't already have one; it only widens the
+// terms that match an existing, already-verified project value.
 export function searchBlob(r) {
   return [
     r.title,
     r.summary,
+    r.bodyText,
     r.location,
-    r.project,
     r.developer,
     r.council,
     r.authority,
     r.externalSource,
     ...(r.topics || []),
     ...(r.categories || []),
+    ...projectSearchTerms(r.project),
   ]
     .filter(Boolean)
     .join(" ");

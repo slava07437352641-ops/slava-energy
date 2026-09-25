@@ -4,9 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Public objections &amp; discussions &middot; slava.energy</title>
-  <meta name="description" content="A dated, searchable map of public renewable-energy objections and discussions across Scotland, drawn from community sources." />
+  <meta name="description" content="A dated, searchable record of public renewable-energy objections and discussions across Scotland, drawn from community sources." />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <!-- frame-ancestors and report-uri are ignored by the CSP spec when delivered via <meta> --
+       they need the response HEADER, which GitHub Pages does not let this repo set. See the
+       hosting note in the project report for the header-level fix (clickjacking protection). -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22 width=%2232%22 height=%2232%22><rect width=%2232%22 height=%2232%22 rx=%228%22 fill=%22%23C85A32%22/><path d=%22M17 6L9 18h6l-2 8 10-12h-6l2-8z%22 fill=%22%23F3ECDA%22/></svg>" />
-  <link rel="stylesheet" href="assets/css/public-discussions.css?v=20260923c" />
+  <link rel="stylesheet" href="assets/css/public-discussions.css?v=20260926a" />
 </head>
 <body>
   <nav class="pd-global-nav">
@@ -20,7 +25,7 @@
     <h1>Public objections &amp; discussions</h1>
   </header>
 
-  <section class="pd-controls">
+  <section class="pd-controls" role="search" aria-label="Search and filter discussions">
     <div class="pd-controls-row">
       <input id="pd-search" type="search" class="pd-search" placeholder="Search title, summary, location, project, council&hellip;" autocomplete="off" />
       <label class="pd-range-wrap">Show
@@ -32,25 +37,34 @@
           <option value="all">all time</option>
         </select>
       </label>
+      <label class="pd-range-wrap">Project
+        <select id="pd-project" class="pd-range"></select>
+      </label>
       <span id="pd-count" class="pd-count">&mdash;</span>
     </div>
     <div id="pd-tech" class="pd-tech"></div>
   </section>
 
-  <section class="pd-news-panel" aria-label="Recent posts">
+  <section id="pd-news-panel" class="pd-news-panel" aria-label="Recent posts">
     <div class="pd-news-header">
       <h2>Recent Posts</h2>
+      <p class="pd-news-scope">Most recent activity across all tracked community sources &mdash; not limited to one group.</p>
     </div>
     <div id="pd-news-feed" class="pd-news-feed" aria-live="polite"></div>
   </section>
 
-  <main class="pd-layout">
+  <div id="pd-loading" class="pd-status" role="status">Loading discussions&hellip;</div>
+  <div id="pd-error" class="pd-status pd-status--error" role="alert" hidden>
+    <p data-error-message>Could not load discussion data.</p>
+    <button id="pd-error-retry" type="button" class="pd-retry-btn">Retry</button>
+  </div>
+
+  <main id="pd-main" class="pd-layout" hidden>
     <aside class="pd-sidebar">
-      <div id="pd-cluster-banner" class="pd-cluster-banner" hidden>
-        <span id="pd-cluster-banner-text"></span>
-        <button id="pd-cluster-clear" type="button">&times; Clear</button>
-      </div>
       <div id="pd-feed" class="pd-feed" aria-live="polite"></div>
+      <div id="pd-load-more-wrap" class="pd-load-more-wrap" hidden>
+        <button id="pd-load-more" type="button" class="pd-retry-btn">Load more</button>
+      </div>
     </aside>
   </main>
 
@@ -62,7 +76,7 @@
     <p>For correction, privacy or removal requests: <a href="mailto:slava@atlasglobal.energy">slava@atlasglobal.energy</a>.</p>
   </footer>
 
-  <script type="module" src="assets/js/news.js?v=20260923c"></script>
-  <script type="module" src="assets/js/main.js?v=20260923c"></script>
+  <script type="module" src="assets/js/news.js?v=20260926a"></script>
+  <script type="module" src="assets/js/main.js?v=20260926a"></script>
 </body>
 </html>

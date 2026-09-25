@@ -81,6 +81,23 @@ function prettySource(name) {
 function truncate(s, n) {
   return s.length <= n ? s : s.slice(0, n).replace(/\s+\S*$/, "") + "…";
 }
+
+// Distinguishes a formal planning objection from a community discussion post.
+// A record is only ever labelled "Formal objection" when its source is an
+// official planning-portal type (e.g. a future "planning_portal" source) --
+// never inferred from wording, tone, or category. Every record currently in
+// this dataset comes from a Facebook community group (source.type ===
+// "facebook_group"), so today this always renders "Community discussion";
+// the check exists so a future official-source record renders correctly
+// without a code change here.
+const OFFICIAL_SOURCE_TYPES = new Set(["planning_portal", "official_consultation"]);
+function sourceVerification(record) {
+  const type = record.source?.type;
+  if (OFFICIAL_SOURCE_TYPES.has(type)) {
+    return { label: "Formal objection", cls: "pd-verify--formal" };
+  }
+  return { label: "Community discussion", cls: "pd-verify--community" };
+}
 // A card's preview line: prefer the AI summary when one was generated, else
 // fall back to the poster's own captured words (real archive content, just
 // never previously shown on the card) -- only omitted when neither exists.
@@ -110,13 +127,18 @@ export function renderFeed(container, records, { selectedId, onSelect, mirrorIds
     const card = document.createElement("article");
     card.className = "pd-card" + (r.id === selectedId ? " is-selected" : "");
     card.dataset.id = r.id;
+    card.tabIndex = 0;
+    card.setAttribute("role", "button");
+    card.setAttribute("aria-label", `Open discussion: ${r.title}`);
     const thumb = (r.photos && r.photos[0]) || r.previewImage;
+    const verify = sourceVerification(r);
     card.innerHTML = `
       ${mirrorIds?.has(r.id) ? `<span class="pd-tag pd-tag--featured">&#9733; ${mirrorBadgeLabel(mirrorIds.size)}</span>` : ""}
       ${thumb ? `<img class="pd-card-thumb" src="${safeUrl(thumb)}" alt="" loading="lazy">` : ""}
       <h3 class="pd-card-title">${escapeHtml(r.title)}</h3>
       ${cardExcerpt(r) ? `<p class="pd-card-summary">${escapeHtml(cardExcerpt(r))}</p>` : ""}
       <div class="pd-card-meta">
+        <span class="pd-verify ${verify.cls}">${verify.label}</span>
         ${(r.categories || []).map((c) => `<span class="pd-tag pd-tag--tech">${escapeHtml(c)}</span>`).join("")}
         ${(r.topics || []).slice(0, 3).map((t) => `<span class="pd-tag">${escapeHtml(t)}</span>`).join("")}
       </div>
@@ -128,6 +150,12 @@ export function renderFeed(container, records, { selectedId, onSelect, mirrorIds
       <div class="pd-card-source">Source: ${escapeHtml(r.source.label)}${r.mediaCount ? ` &middot; ${r.mediaCount} photo${r.mediaCount > 1 ? "s" : ""}` : ""}</div>
     `;
     card.addEventListener("click", () => onSelect(r.id));
+    card.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        onSelect(r.id);
+      }
+    });
     container.appendChild(card);
   }
 }
@@ -172,12 +200,24 @@ function detailTextNote(record, hasMirror) {
     </div>`;
 }
 
+// A record only carries a Project field when the enrichment pipeline
+// corroborated the match (see provenance.project.confidence in the data);
+// this is never guessed here. Absence is shown explicitly rather than
+// silently omitted, so a reader can tell "no project found" apart from
+// "project field not checked yet".
+function projectField(record) {
+  if (record.project) return field("Project", record.project);
+  return `<div class="pd-field pd-field--unverified"><span>Project</span> Not identified from this post</div>`;
+}
+
 export function renderDetail(panel, record, { onBack, hasMirror = false }) {
+  const verify = sourceVerification(record);
   panel.innerHTML = `
-    <button class="pd-back" type="button">&larr; Back to map</button>
+    <button class="pd-back" type="button">&larr; Back to list</button>
     <article class="pd-detail">
       <div class="pd-detail-date">${fmtHeader(record.date)}</div>
       <h2>${escapeHtml(record.title)}</h2>
+      <span class="pd-verify ${verify.cls}">${verify.label}</span>
       ${detailPhotos(record)}
       ${record.bodyText ? `<p class="pd-detail-body">${escapeHtml(record.bodyText)}</p>` : ""}
       ${record.summary ? `<p class="pd-detail-summary">${escapeHtml(record.summary)}</p>` : ""}
@@ -187,7 +227,7 @@ export function renderDetail(panel, record, { onBack, hasMirror = false }) {
         ${(record.topics || []).map((t) => `<span class="pd-tag">${escapeHtml(t)}</span>`).join("")}
       </div>
       ${field("Location", record.location)}
-      ${field("Project", record.project)}
+      ${projectField(record)}
       ${field("Developer", record.developer)}
       ${field("Council", record.council)}
       ${field("Authority", record.authority)}

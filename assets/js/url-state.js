@@ -6,11 +6,9 @@ const KEYS = {
   tech: "tech", // csv of technology categories
   topic: "topic", // csv of topics
   council: "council", // csv of councils
+  project: "project", // csv of reviewed project names
   range: "range", // 30d | 3m | 6m | 1y | all
   sel: "sel", // selected discussion id
-  z: "z",
-  lat: "lat",
-  lon: "lon", // map view
 };
 
 export function readState() {
@@ -21,12 +19,9 @@ export function readState() {
     tech: csv(KEYS.tech),
     topic: csv(KEYS.topic),
     council: csv(KEYS.council),
+    project: csv(KEYS.project),
     range: p.get(KEYS.range) || "6m",
     sel: p.get(KEYS.sel) || null,
-    view:
-      p.has(KEYS.lat) && p.has(KEYS.lon)
-        ? { lat: +p.get(KEYS.lat), lon: +p.get(KEYS.lon), zoom: p.has(KEYS.z) ? +p.get(KEYS.z) : 6 }
-        : null,
   };
 }
 
@@ -36,13 +31,9 @@ export function writeState(state, { replace = true } = {}) {
   if (state.tech?.length) p.set(KEYS.tech, state.tech.join(","));
   if (state.topic?.length) p.set(KEYS.topic, state.topic.join(","));
   if (state.council?.length) p.set(KEYS.council, state.council.join(","));
+  if (state.project?.length) p.set(KEYS.project, state.project.join(","));
   if (state.range && state.range !== "6m") p.set(KEYS.range, state.range);
   if (state.sel) p.set(KEYS.sel, state.sel);
-  if (state.view) {
-    p.set(KEYS.lat, state.view.lat.toFixed(4));
-    p.set(KEYS.lon, state.view.lon.toFixed(4));
-    p.set(KEYS.z, state.view.zoom.toFixed(1));
-  }
   const url = `${location.pathname}${p.toString() ? "?" + p.toString() : ""}`;
   history[replace ? "replaceState" : "pushState"](null, "", url);
 }

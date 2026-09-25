@@ -64,12 +64,14 @@ function renderNewsCards(container, records) {
     const thumb = (r.photos && r.photos[0]) || r.previewImage;
     const excerpt = cardExcerpt(r);
     const mediaLabel = r.mediaCount ? ` · ${r.mediaCount} photo${r.mediaCount > 1 ? "s" : ""}` : "";
+    const verify = sourceVerification(r);
 
     card.innerHTML = `
       ${thumb ? `<img class="pd-card-thumb" src="${safeUrl(thumb)}" alt="" loading="lazy">` : ""}
       <h3 class="pd-card-title">${escapeHtml(r.title)}</h3>
       ${excerpt ? `<p class="pd-card-summary">${escapeHtml(excerpt)}</p>` : ""}
       <div class="pd-card-meta">
+        <span class="pd-verify ${verify.cls}">${verify.label}</span>
         ${(r.categories || []).map((c) => `<span class="pd-tag pd-tag--tech">${escapeHtml(c)}</span>`).join("")}
         ${(r.topics || []).slice(0, 3).map((t) => `<span class="pd-tag">${escapeHtml(t)}</span>`).join("")}
       </div>
@@ -77,12 +79,22 @@ function renderNewsCards(container, records) {
     `;
 
     if (detailPanel) {
-      card.addEventListener("click", () => {
+      card.tabIndex = 0;
+      card.setAttribute("role", "button");
+      card.setAttribute("aria-label", `Open discussion: ${r.title}`);
+      const open = () => {
         document.body.classList.add("pd-showing-detail");
         renderDetail(detailPanel, r, {
           hasMirror: false,
           onBack: () => document.body.classList.remove("pd-showing-detail"),
         });
+      };
+      card.addEventListener("click", open);
+      card.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          open();
+        }
       });
     }
 
@@ -113,6 +125,18 @@ function cardExcerpt(r) {
   if (r.summary) return r.summary;
   if (r.bodyText) return truncate(r.bodyText.replace(/\s+/g, " ").trim(), 220);
   return "";
+}
+
+// Same rule as feed.js: only an official planning-source record is ever
+// labelled "Formal objection"; every record here is source.type ===
+// "facebook_group", so this always renders "Community discussion" today.
+const OFFICIAL_SOURCE_TYPES = new Set(["planning_portal", "official_consultation"]);
+function sourceVerification(record) {
+  const type = record.source?.type;
+  if (OFFICIAL_SOURCE_TYPES.has(type)) {
+    return { label: "Formal objection", cls: "pd-verify--formal" };
+  }
+  return { label: "Community discussion", cls: "pd-verify--community" };
 }
 
 // Auto-load news panel on DOM ready
