@@ -5,8 +5,8 @@
   --card-border: rgba(160, 130, 100, 0.28);
   --text-primary: #261A14;
   --text-secondary: #594436;
-  --text-muted: #8C7462;
-  --accent-terracotta: #C85A32;
+  --text-muted: #7A6555; /* darkened from #8C7462 -- WCAG AA 4.5:1 against all three paper tones */
+  --accent-terracotta: #B8532E; /* darkened from #C85A32 -- WCAG AA 4.5:1 both as text and as a white-text background */
   --accent-ochre: #C07018;
   --accent-sage: #4E7C59;
   --accent-plum: #7A354A;
@@ -73,6 +73,7 @@ body {
   border: 1px solid var(--card-border); background: transparent; color: var(--text-secondary); cursor: pointer;
 }
 .pd-chip.is-active { background: var(--accent-terracotta); color: #fff; border-color: var(--accent-terracotta); }
+.pd-chip:focus-visible, .pd-back:focus-visible { outline: 2px solid var(--accent-ochre); outline-offset: 2px; }
 .pd-chip[data-count]:not([data-tech=""])::after { content: " " attr(data-count); opacity: 0.6; font-weight: 500; }
 
 /* ---- news panel ---- */
@@ -96,6 +97,21 @@ body {
 .pd-news-feed .pd-card-source { margin-top: auto; }
 .pd-news-feed.is-empty { display: block; }
 .pd-news-feed .pd-empty { padding: 20px 16px; margin: 0; }
+.pd-news-scope { font-size: 0.78rem; color: var(--text-muted); margin: 2px 0 0; }
+
+/* ---- loading / error status ---- */
+.pd-status {
+  max-width: 1400px; margin: 0 auto; padding: 40px 28px; text-align: center;
+  color: var(--text-secondary); font-size: 0.92rem;
+}
+.pd-status[hidden] { display: none; }
+.pd-status--error { color: var(--accent-plum); }
+.pd-retry-btn {
+  margin-top: 12px; padding: 9px 20px; border-radius: 8px; border: 1px solid var(--accent-terracotta);
+  background: var(--accent-terracotta); color: #fff; font-weight: 700; font-size: 0.85rem; cursor: pointer;
+}
+.pd-retry-btn:hover { background: var(--accent-ochre); border-color: var(--accent-ochre); }
+.pd-retry-btn:focus-visible { outline: 2px solid var(--accent-ochre); outline-offset: 2px; }
 
 /* ---- layout ---- */
 .pd-layout {
@@ -115,16 +131,6 @@ body {
 }
 .pd-feed .pd-card { display: flex; flex-direction: column; }
 .pd-feed .pd-card-source { margin-top: auto; }
-.pd-cluster-banner {
-  display: flex; align-items: center; justify-content: space-between; gap: 8px;
-  background: var(--bg-paper-2); border: 1px solid var(--card-border); border-radius: 10px;
-  padding: 8px 12px; font-size: 0.8rem; color: var(--text-secondary);
-}
-.pd-cluster-banner[hidden] { display: none; }
-.pd-cluster-banner button {
-  background: none; border: none; color: var(--accent-terracotta); font-weight: 700;
-  font-size: 0.78rem; cursor: pointer; padding: 0; white-space: nowrap;
-}
 .pd-date-header {
   grid-column: 1 / -1;
   font-family: var(--font-serif); font-size: 0.86rem; font-weight: 700; color: var(--accent-plum);
@@ -138,6 +144,7 @@ body {
 }
 .pd-card:hover { border-color: var(--accent-ochre); }
 .pd-card.is-selected { border-color: var(--accent-terracotta); box-shadow: 0 0 0 1px var(--accent-terracotta); }
+.pd-card:focus-visible { outline: 2px solid var(--accent-ochre); outline-offset: 2px; border-color: var(--accent-ochre); }
 .pd-card-title {
   font-family: var(--font-serif); font-size: 1rem; line-height: 1.3; margin: 0 0 4px; color: var(--text-primary);
   display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden;
@@ -152,8 +159,25 @@ body {
 .pd-tag--tech { background: rgba(78, 124, 89, 0.14); color: #3c5f47; }
 .pd-field { font-size: 0.8rem; color: var(--text-secondary); line-height: 1.5; }
 .pd-field span { font-weight: 700; color: var(--text-muted); }
+.pd-field--unverified { color: var(--text-muted); font-style: italic; }
+
+/* source / verification labelling (requirement: distinguish a formal
+   planning objection from a community discussion post) */
+.pd-verify {
+  display: inline-block; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.02em;
+  padding: 3px 8px; border-radius: 980px; text-transform: uppercase;
+}
+/* text-muted itself is 4.5:1+ on a solid background, but composited onto this
+   badge's own translucent fill it drops to ~4.48:1 -- a dedicated, slightly
+   darker value keeps a real margin (5.2:1) rather than relying on a value
+   tuned for a different background. */
+.pd-verify--community { background: rgba(140, 116, 98, 0.16); color: #6F5B4C; }
+.pd-verify--formal { background: rgba(122, 53, 74, 0.14); color: var(--accent-plum); }
+.pd-detail > .pd-verify { margin-bottom: 12px; }
 .pd-card-source { font-size: 0.74rem; color: var(--text-muted); margin-top: 7px; }
 .pd-empty { text-align: center; color: var(--text-muted); padding: 40px 16px; font-size: 0.9rem; line-height: 1.6; }
+.pd-load-more-wrap { text-align: center; padding: 8px 0 4px; }
+.pd-load-more-wrap[hidden] { display: none; }
 
 .pd-detail-panel {
   position: fixed; inset: 0; z-index: 50; overflow-y: auto;
@@ -205,10 +229,13 @@ body.pd-showing-detail .pd-detail-panel { display: block; }
 .pd-mirror-removal { font-size: 0.76rem; color: var(--text-secondary); margin-top: 10px; }
 .pd-mirror-removal a { color: var(--accent-terracotta); }
 
-/* featured-mirror badge, on cards and in the mirror section itself */
+/* featured-mirror badge, on cards and in the mirror section itself.
+   --accent-ochre (used for borders/hover/focus rings) is only 3.16:1 as text
+   on this badge's own translucent fill, so it gets its own darker value here
+   rather than pulling every ochre usage down to a text-safe shade. */
 .pd-tag--featured {
   display: inline-block; margin-bottom: 6px;
-  background: rgba(192, 112, 24, 0.14); color: var(--accent-ochre); font-weight: 700;
+  background: rgba(192, 112, 24, 0.14); color: #8A4F11; font-weight: 700;
 }
 
 /* ---- footer ---- */
