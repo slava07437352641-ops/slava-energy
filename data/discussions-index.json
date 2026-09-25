@@ -65417,6 +65417,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -65436,7 +65439,11 @@
         "Planning / process"
       ],
       "contentFingerprint": "46f76a90b563965095c20245caba55d67ee4fb2850052c31a576a2970b5a7f3b",
-      "bodyText": "PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms\nPARLIAMENT.SCOT PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms"
+      "bodyText": "PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms\nPARLIAMENT.SCOT PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms",
+      "photos": [
+        "media/facebook/26634576679478042/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26634253712843672",
@@ -65658,6 +65665,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -65670,7 +65680,11 @@
         "https://scotlandagainstspin.org/2026/01/petition-hearing/"
       ],
       "contentFingerprint": "de9de8853791b355bbe90229ea55276f5886ada38ad40a91673b3ccd82c8491f",
-      "bodyText": "Petition Hearing\nSCOTLANDAGAINSTSPIN.ORG Petition Hearing"
+      "bodyText": "Petition Hearing\nSCOTLANDAGAINSTSPIN.ORG Petition Hearing",
+      "photos": [
+        "media/facebook/26625475823721461/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26624311573837886",
@@ -65699,6 +65713,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -65712,7 +65729,11 @@
         "https://archive.ph/8iQ4m"
       ],
       "contentFingerprint": "0cabd48c912b41bffb4109cced0bcaa6329d1a42836c23dc6b3bad16a670d7ba",
-      "bodyText": "Why even renewable energy firms are worried by speed of North Sea oil industry's decline\nSCOTSMAN.COM Why even renewable energy firms are worried by speed of North Sea oil industry's decline"
+      "bodyText": "Why even renewable energy firms are worried by speed of North Sea oil industry's decline\nSCOTSMAN.COM Why even renewable energy firms are worried by speed of North Sea oil industry's decline",
+      "photos": [
+        "media/facebook/26624234027178974/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26623546890581021",
@@ -66250,6 +66271,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -66263,7 +66287,11 @@
       "bodyText": "Industry sacrificed over net zero ideology, says Siemens Energy boss\nUK.FINANCE.YAHOO.COM Industry sacrificed over net zero ideology, says Siemens Energy boss",
       "externalLinks": [
         "https://www.telegraph.co.uk/.../us-ramps-up-pressure-on.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/26604389952496715/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26604376012498109",
@@ -66394,6 +66422,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -66413,7 +66444,11 @@
         "Planning / process"
       ],
       "contentFingerprint": "46f76a90b563965095c20245caba55d67ee4fb2850052c31a576a2970b5a7f3b",
-      "bodyText": "PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms\nPARLIAMENT.SCOT PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms"
+      "bodyText": "PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms\nPARLIAMENT.SCOT PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms",
+      "photos": [
+        "media/facebook/26595795120022865/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26595179446751099",
@@ -66600,6 +66635,9 @@
       "provenance": {
         "title": {
           "method": "neutral"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -66611,7 +66649,11 @@
       "externalLinks": [
         "https://euchanhead.object.now/"
       ],
-      "contentFingerprint": "c3b9e50c03da75b71319372125da0c79776fe482e51f2523a8aa0c46a9179d17"
+      "contentFingerprint": "c3b9e50c03da75b71319372125da0c79776fe482e51f2523a8aa0c46a9179d17",
+      "photos": [
+        "media/facebook/26589938913941819/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26589718063963904",
@@ -66795,6 +66837,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -66808,7 +66853,11 @@
       "bodyText": "Royal Mail tycoon takes £320m dividend after earning millions from wasted wind\nTELEGRAPH.CO.UK Royal Mail tycoon takes £320m dividend after earning millions from wasted wind",
       "externalLinks": [
         "https://www.telegraph.co.uk/.../royal-mail-faces-bleak.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/26585442844391426/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26585000261102351",
@@ -66820,6 +66869,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -66833,7 +66885,11 @@
       "bodyText": "SNP Energy Minister fails to mention energy in letters to constituents\nSCOTTISHDAILYEXPRESS.CO.UK SNP Energy Minister fails to mention energy in letters to constituents",
       "externalLinks": [
         "https://www.scottishdailyexpress.co.uk/.../humiliation..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/26585000261102351/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26582595868009457",
