@@ -70575,6 +70575,9 @@
       "provenance": {
         "title": {
           "method": "neutral"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -70587,7 +70590,11 @@
         "https://electroverse.substack.com/",
         "https://electroverse.info/"
       ],
-      "contentFingerprint": "ba6ccec97ca6903f12c38da8d403303220e8c9979d2c8bb43309f0434378675a"
+      "contentFingerprint": "ba6ccec97ca6903f12c38da8d403303220e8c9979d2c8bb43309f0434378675a",
+      "photos": [
+        "media/facebook/26475973178671727/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26473385575597154",
@@ -70616,6 +70623,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -70629,7 +70639,11 @@
       "bodyText": "Humiliation as SNP Energy Secretary no longer looking after huge energy projects\nSCOTTISHDAILYEXPRESS.CO.UK Humiliation as SNP Energy Secretary no longer looking after huge energy projects",
       "externalLinks": [
         "https://www.scottishdailyexpress.co.uk/.../scots..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/26471193949149650/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26470130865922625",
@@ -70949,6 +70963,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -70969,7 +70986,11 @@
         "Planning / process"
       ],
       "contentFingerprint": "40bf13e21a43274b20ecdc1bfe4a05de618a1e539d75dd42bc111a8255f1c012",
-      "bodyText": "Public inquiry into plans for East Lothian wind farm on historic Lammermuir Hills\nEDINBURGHLIVE.CO.UK Public inquiry into plans for East Lothian wind farm on historic Lammermuir Hills"
+      "bodyText": "Public inquiry into plans for East Lothian wind farm on historic Lammermuir Hills\nEDINBURGHLIVE.CO.UK Public inquiry into plans for East Lothian wind farm on historic Lammermuir Hills",
+      "photos": [
+        "media/facebook/26454238050845240/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26453498934252485",
@@ -71029,6 +71050,9 @@
       "provenance": {
         "title": {
           "method": "neutral"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -71041,7 +71065,11 @@
         "https://electroverse.substack.com/",
         "https://electroverse.info/"
       ],
-      "contentFingerprint": "ba6ccec97ca6903f12c38da8d403303220e8c9979d2c8bb43309f0434378675a"
+      "contentFingerprint": "ba6ccec97ca6903f12c38da8d403303220e8c9979d2c8bb43309f0434378675a",
+      "photos": [
+        "media/facebook/26452766034325775/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26452692504333128",
@@ -71050,6 +71078,9 @@
       "provenance": {
         "title": {
           "method": "neutral"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -71062,7 +71093,11 @@
         "https://electroverse.substack.com/",
         "https://electroverse.info/"
       ],
-      "contentFingerprint": "ba6ccec97ca6903f12c38da8d403303220e8c9979d2c8bb43309f0434378675a"
+      "contentFingerprint": "ba6ccec97ca6903f12c38da8d403303220e8c9979d2c8bb43309f0434378675a",
+      "photos": [
+        "media/facebook/26452692504333128/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26452365691032476",
@@ -71175,6 +71210,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -71196,7 +71234,11 @@
         "Grid infrastructure"
       ],
       "contentFingerprint": "c82b2f7c719ccec13eef403610db570f197bd3cff4997eb8263e615baa68c6e2",
-      "bodyText": "‘Milestone’ agreement paves way for battery energy storage systems in two Scottish locations\nSCOTSMAN.COM ‘Milestone’ agreement paves way for battery energy storage systems in two Scottish locations"
+      "bodyText": "‘Milestone’ agreement paves way for battery energy storage systems in two Scottish locations\nSCOTSMAN.COM ‘Milestone’ agreement paves way for battery energy storage systems in two Scottish locations",
+      "photos": [
+        "media/facebook/26450829651186080/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26450778251191220",
@@ -71433,6 +71475,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -71447,7 +71492,11 @@
         "https://www.heraldscotland.com/.../25743032.scotland.../"
       ],
       "contentFingerprint": "26baf71609a9ab3cee93d15c85b3e7864b5879a1c47b23440de6ada149f7b22b",
-      "bodyText": "Wind energy provides record electricity for Britain in 2025 - what about Scotland?\nHERALDSCOTLAND.COM Wind energy provides record electricity for Britain in 2025 - what about Scotland?"
+      "bodyText": "Wind energy provides record electricity for Britain in 2025 - what about Scotland?\nHERALDSCOTLAND.COM Wind energy provides record electricity for Britain in 2025 - what about Scotland?",
+      "photos": [
+        "media/facebook/26442643965337982/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26442532322015813",
@@ -71476,6 +71525,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -71489,7 +71541,11 @@
       "bodyText": "Billionaire hedge fund backer of green causes pays himself £60m\nTELEGRAPH.CO.UK Billionaire hedge fund backer of green causes pays himself £60m",
       "externalLinks": [
         "https://archive.ph/.../extinction-rebellion-funded.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/26442347528700959/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26442157738719938",
