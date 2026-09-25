@@ -1,0 +1,202 @@
+{
+  "generated": "2026-09-26",
+  "purpose": "Ambiguous repeated-content-fingerprint clusters needing human review. No record has been removed. Retention rule applied below; only clusters that fail it appear here.",
+  "retentionRule": [
+    "A shared contentFingerprint alone is never grounds for removal.",
+    "contentFingerprint == sha256(\"\") (empty bodyText) is excluded from duplicate analysis entirely -- it is a hashing artifact of posts with no captured text, not evidence of duplicate content. 227 records currently share this value.",
+    "Same fingerprint + different date = RETAIN both: a recurring/templated post shared again on a later date is a distinct real posting event (seen for a 90-record and a 37-record group of identical boilerplate text posted on ~87 and ~34 separate dates respectively).",
+    "Same fingerprint + different source (same or different date) = RETAIN both: shows the same story was independently shared into multiple community groups, which is itself meaningful signal.",
+    "Same fingerprint + same source + same date = AMBIGUOUS: most likely the archive pipeline captured one real post twice (e.g. via both a feed crawl and a permalink crawl). Listed below for manual review; not auto-merged or deleted."
+  ],
+  "summary": {
+    "totalRecordsInRepeatedGroups": 723,
+    "excludedAsEmptyContentArtifact": 227,
+    "genuineRepeatedContentGroups": 112,
+    "genuineRepeatedContentRecords": 496,
+    "safelyRetainedAsDistinctReshares": 460,
+    "ambiguousClusters": 18,
+    "ambiguousRecords": 36
+  },
+  "ambiguousClusters": [
+    {
+      "fingerprint": "46483c2e286988e9b2acbdff3812350d92521b1332bae414932e3e665b5f5c8d",
+      "source": "Not A Just Transition",
+      "date": "2026-09-11",
+      "ids": [
+        "1089956200101595",
+        "1089919723438576"
+      ],
+      "title": "Wind Energy's Absurd"
+    },
+    {
+      "fingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
+      "source": "Scotland Against Spin",
+      "date": "2026-06-25",
+      "ids": [
+        "28298649939737366",
+        "28294734720128888"
+      ],
+      "title": "Discussion shared in Scotland Against Spin, 25 June 2026"
+    },
+    {
+      "fingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
+      "source": "Scotland Against Spin",
+      "date": "2026-06-11",
+      "ids": [
+        "28126645063604522",
+        "28118492361086459"
+      ],
+      "title": "Discussion shared in Scotland Against Spin, 11 June 2026"
+    },
+    {
+      "fingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
+      "source": "Scotland Against Spin",
+      "date": "2026-09-21",
+      "ids": [
+        "29375397118729304",
+        "29388021057466910"
+      ],
+      "title": "Discussion shared in Scotland Against Spin, 21 September 2026"
+    },
+    {
+      "fingerprint": "b8dadc31b3f73050609688aa7029d15676cf86db04d7cb489db9d08484444844",
+      "source": "Scotland Against Spin",
+      "date": "2026-01-24",
+      "ids": [
+        "26599817882953922",
+        "26596228816646162"
+      ],
+      "title": "Discussion shared in Scotland Against Spin, 24 January 2026"
+    },
+    {
+      "fingerprint": "1d27bff595140f211733d0c94afdfb5c431983376e1d27a21ea3046cc48a6bb3",
+      "source": "Scotland Against Spin",
+      "date": "2026-08-19",
+      "ids": [
+        "28949522847983402",
+        "28948497084752645"
+      ],
+      "title": "Scottish Government - Energy Consents Unit - Application Details"
+    },
+    {
+      "fingerprint": "1d27bff595140f211733d0c94afdfb5c431983376e1d27a21ea3046cc48a6bb3",
+      "source": "Scotland Against Spin",
+      "date": "2026-02-13",
+      "ids": [
+        "26787993307469711",
+        "26787042527564789"
+      ],
+      "title": "Scottish Government - Energy Consents Unit - Application Details"
+    },
+    {
+      "fingerprint": "1d27bff595140f211733d0c94afdfb5c431983376e1d27a21ea3046cc48a6bb3",
+      "source": "Scotland Against Spin",
+      "date": "2026-01-29",
+      "ids": [
+        "26646760671592976",
+        "26645680135034363"
+      ],
+      "title": "Scottish Government - Energy Consents Unit - Application Details"
+    },
+    {
+      "fingerprint": "69a223d727a62c3a966b184459cd605520001eb80c8361df0731ba5d24356f32",
+      "source": "Environmentalists Against Wind Turbines",
+      "date": "2026-08-28",
+      "ids": [
+        "28098381163148641",
+        "28098379353148822"
+      ],
+      "title": "Ia802809.us.archive.org"
+    },
+    {
+      "fingerprint": "b4832ea41714ad25bc10a5e54661c4eccdcb6402326a688346b4b188bc230092",
+      "source": "Environmentalists Against Wind Turbines",
+      "date": "2026-08-21",
+      "ids": [
+        "27997561713230587",
+        "27997558506564241"
+      ],
+      "title": "JUDr.Marek G\u00e9ci \u2022 Za ob\u010danov, za Slovensko"
+    },
+    {
+      "fingerprint": "33610721208355b75ce5879d763e6a41bb824a4577c3dad99a5a93e0c8e72cf1",
+      "source": "Grampian Against Data Centres",
+      "date": "2026-06-17",
+      "ids": [
+        "1526620922507437",
+        "1526631109173085"
+      ],
+      "title": "Discussion shared in Grampian Against Data Centres, 17 June 2026"
+    },
+    {
+      "fingerprint": "33610721208355b75ce5879d763e6a41bb824a4577c3dad99a5a93e0c8e72cf1",
+      "source": "Grampian Against Data Centres",
+      "date": "2026-08-04",
+      "ids": [
+        "1567022838467245",
+        "1566872405148955"
+      ],
+      "title": "Discussion shared in Grampian Against Data Centres, 4 August 2026"
+    },
+    {
+      "fingerprint": "ceb6515c1b634e643cd67a52b2810cfd26af900c8849c1ca110e6d702905bf50",
+      "source": "Scotland Against Spin",
+      "date": "2026-03-24",
+      "ids": [
+        "27171820789086959",
+        "27170168709252167"
+      ],
+      "title": "Scotland Against Spin\u2019s take on \u201cOnshore electricity generation \u2013 Electricity Act threshold\u201d: the Scottish Government Consultation"
+    },
+    {
+      "fingerprint": "ceb6515c1b634e643cd67a52b2810cfd26af900c8849c1ca110e6d702905bf50",
+      "source": "Scotland Against Spin",
+      "date": "2026-03-10",
+      "ids": [
+        "27027841023484937",
+        "27025198993749140"
+      ],
+      "title": "Scotland Against Spin\u2019s take on \u201cOnshore electricity generation \u2013 Electricity Act threshold\u201d: the Scottish Government Consultation"
+    },
+    {
+      "fingerprint": "ceb6515c1b634e643cd67a52b2810cfd26af900c8849c1ca110e6d702905bf50",
+      "source": "Scotland Against Spin",
+      "date": "2026-03-01",
+      "ids": [
+        "26940987968836910",
+        "26940855092183531"
+      ],
+      "title": "Scotland Against Spin\u2019s take on \u201cOnshore electricity generation \u2013 Electricity Act threshold\u201d: the Scottish Government Consultation"
+    },
+    {
+      "fingerprint": "ba6ccec97ca6903f12c38da8d403303220e8c9979d2c8bb43309f0434378675a",
+      "source": "Scotland Against Spin",
+      "date": "2026-01-08",
+      "ids": [
+        "26452766034325775",
+        "26452692504333128"
+      ],
+      "title": "Discussion shared in Scotland Against Spin, 8 January 2026"
+    },
+    {
+      "fingerprint": "24dfd9ec5fb4cbba7e611c166db9800bcb3fb66ca7a33dd9e721ed5ba9c469cf",
+      "source": "Grampian Against Data Centres",
+      "date": "2026-08-31",
+      "ids": [
+        "1589930446176484",
+        "1590207576148771"
+      ],
+      "title": "Discussion shared in Grampian Against Data Centres, 31 August 2026"
+    },
+    {
+      "fingerprint": "d4744d8204c2007e82e7c89b9a9c81ef0fef03e03cbf9c4355c2f72de82138a3",
+      "source": "Grampian Against Data Centres",
+      "date": "2026-08-21",
+      "ids": [
+        "1581799760322886",
+        "1581820636987465"
+      ],
+      "title": "Discussion shared in Grampian Against Data Centres, 21 August 2026"
+    }
+  ]
+}

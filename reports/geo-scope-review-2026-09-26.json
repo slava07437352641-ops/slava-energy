@@ -1,0 +1,366 @@
+{
+  "generated": "2026-09-26",
+  "purpose": "Candidate records for human review of geographic scope (Scotland archive). This is NOT an exclusion list -- no record has been removed or hidden. Detection uses multiple corroborating place-name signals found in the post's own text (title/bodyText/summary/location), never a single blacklist keyword, because several matches are legitimate Scotland-relevant posts that merely reference another country or region for comparison (e.g. 'Scottish Government under fire as Wales looks to launch publicly owned...').",
+  "method": "Regex signal groups for Australia/Wales/non-Scottish-England place names, matched against title+bodyText+summary+location. Each candidate lists which signal(s) matched and the exact text so a reviewer can judge relevance without re-reading the whole post.",
+  "candidateCount": 32,
+  "candidates": [
+    {
+      "id": "1082107574219024",
+      "date": "2026-09-11",
+      "title": "Mynydd maen wind farms action group",
+      "source": "Communities B4 Power Companies",
+      "matchedSignals": {
+        "wales": [
+          "Senedd",
+          "Welsh"
+        ]
+      }
+    },
+    {
+      "id": "29206115378990813",
+      "date": "2026-09-08",
+      "title": "Scottish Government under fire as Wales looks to launch publicly owned energy firm",
+      "source": "Scotland Against Spin",
+      "matchedSignals": {
+        "wales": [
+          "Wales"
+        ]
+      }
+    },
+    {
+      "id": "28116617727991651",
+      "date": "2026-08-30",
+      "title": "Australia is going through an assett stripping phase. Your home is next. #australia",
+      "source": "Environmentalists Against Wind Turbines",
+      "matchedSignals": {
+        "australia": [
+          "Australia"
+        ]
+      }
+    },
+    {
+      "id": "28074229665563791",
+      "date": "2026-08-30",
+      "title": "Piss Off AusNet - Spud & Spa Region",
+      "source": "Environmentalists Against Wind Turbines",
+      "matchedSignals": {
+        "australia": [
+          "AusNet"
+        ]
+      }
+    },
+    {
+      "id": "28064611226525635",
+      "date": "2026-08-30",
+      "title": "Piss Off AusNet - Spud & Spa Region",
+      "source": "Environmentalists Against Wind Turbines",
+      "matchedSignals": {
+        "australia": [
+          "AusNet"
+        ]
+      }
+    },
+    {
+      "id": "28977480695187617",
+      "date": "2026-08-21",
+      "title": "Firefighters tackling blaze at Essex wind farm",
+      "source": "Scotland Against Spin",
+      "matchedSignals": {
+        "england_nonscot": [
+          "Essex"
+        ]
+      }
+    },
+    {
+      "id": "27955585150761577",
+      "date": "2026-08-17",
+      "title": "SAVE Australia with People Power",
+      "source": "Environmentalists Against Wind Turbines",
+      "matchedSignals": {
+        "australia": [
+          "Australia"
+        ]
+      }
+    },
+    {
+      "id": "27932554199731339",
+      "date": "2026-08-15",
+      "title": "Discussion shared in Scotland Against Spin, 15 August 2026",
+      "source": "Environmentalists Against Wind Turbines",
+      "matchedSignals": {
+        "australia": [
+          "Sydney"
+        ]
+      }
+    },
+    {
+      "id": "27914092768244149",
+      "date": "2026-08-14",
+      "title": "PARLIAMENT.NSW.GOV.AU Sign ePetition",
+      "source": "Environmentalists Against Wind Turbines",
+      "matchedSignals": {
+        "australia": [
+          "NSW"
+        ]
+      }
+    },
+    {
+      "id": "27892616217058471",
+      "date": "2026-08-12",
+      "title": "MAGA (Make Australia Great Again) Official page 2.0",
+      "source": "Environmentalists Against Wind Turbines",
+      "matchedSignals": {
+        "australia": [
+          "Australia"
+        ]
+      }
+    },
+    {
+      "id": "28791795183756170",
+      "date": "2026-08-07",
+      "title": "Wales takes major step towards clean energy with offshore wind approval",
+      "source": "Scotland Against Spin",
+      "matchedSignals": {
+        "wales": [
+          "Wales"
+        ]
+      }
+    },
+    {
+      "id": "28461319610137064",
+      "date": "2026-07-09",
+      "title": "Heartbreaking \u2014 iconic Welsh coastline to face wind turbine blight",
+      "source": "Scotland Against Spin",
+      "matchedSignals": {
+        "wales": [
+          "Welsh"
+        ]
+      }
+    },
+    {
+      "id": "28402750745993951",
+      "date": "2026-07-04",
+      "title": "Norfolk fishermen brace for summer of 'friction' as High Court order wreaks havoc",
+      "source": "Scotland Against Spin",
+      "matchedSignals": {
+        "england_nonscot": [
+          "Norfolk"
+        ]
+      }
+    },
+    {
+      "id": "28311028048499555",
+      "date": "2026-06-26",
+      "title": "National Trust opposes plans for giant windfarm on Yorkshire moorland",
+      "source": "Scotland Against Spin",
+      "matchedSignals": {
+        "england_nonscot": [
+          "Yorkshire"
+        ]
+      }
+    },
+    {
+      "id": "28016304507971912",
+      "date": "2026-06-03",
+      "title": "Duke of Norfolk criticises plans to build wind farm on edge of Yorkshire Dales",
+      "source": "Scotland Against Spin",
+      "matchedSignals": {
+        "england_nonscot": [
+          "Norfolk",
+          "Yorkshire"
+        ]
+      }
+    },
+    {
+      "id": "27770092759259756",
+      "date": "2026-05-15",
+      "title": "Renewable energy millions 'taken out of Wales and invested in Scotland'",
+      "source": "Scotland Against Spin",
+      "matchedSignals": {
+        "wales": [
+          "Wales"
+        ]
+      }
+    },
+    {
+      "id": "27744012595201106",
+      "date": "2026-05-13",
+      "title": "Kabeer Kher for Mid-Norfolk",
+      "source": "Scotland Against Spin",
+      "matchedSignals": {
+        "england_nonscot": [
+          "Norfolk"
+        ]
+      }
+    },
+    {
+      "id": "27630906846511682",
+      "date": "2026-05-04",
+      "title": "Offshore wind plans could push boats out, say Cornwall fishers",
+      "source": "Scotland Against Spin",
+      "matchedSignals": {
+        "england_nonscot": [
+          "Cornwall"
+        ]
+      }
+    },
+    {
+      "id": "27580113461591021",
+      "date": "2026-04-29",
+      "title": "Essex Suffolk Norfolk Pylons",
+      "source": "Scotland Against Spin",
+      "matchedSignals": {
+        "england_nonscot": [
+          "Essex",
+          "Norfolk",
+          "Suffolk"
+        ]
+      }
+    },
+    {
+      "id": "27478048865130815",
+      "date": "2026-04-21",
+      "title": "Welsh farmers launch landmark claim against \u2018intimidating\u2019 green pylon firm",
+      "source": "Scotland Against Spin",
+      "matchedSignals": {
+        "wales": [
+          "Welsh"
+        ]
+      }
+    },
+    {
+      "id": "27179155138353524",
+      "date": "2026-03-25",
+      "title": "Forestry England seeks options for Northumberland wind farm",
+      "source": "Scotland Against Spin",
+      "matchedSignals": {
+        "england_nonscot": [
+          "Northumberland"
+        ]
+      }
+    },
+    {
+      "id": "27168652969403741",
+      "date": "2026-03-24",
+      "title": "Discounted energy trial targeted at Scotland and Norfolk",
+      "source": "Scotland Against Spin",
+      "matchedSignals": {
+        "england_nonscot": [
+          "Norfolk"
+        ]
+      }
+    },
+    {
+      "id": "26961419183460455",
+      "date": "2026-03-03",
+      "title": "Developers behind Powys wind farm application asked for more details by planning inspectors",
+      "source": "Scotland Against Spin",
+      "matchedSignals": {
+        "wales": [
+          "Powys"
+        ]
+      }
+    },
+    {
+      "id": "26911062978496076",
+      "date": "2026-02-26",
+      "title": "The green power revolution causing earthquakes across Cornwall",
+      "source": "Scotland Against Spin",
+      "matchedSignals": {
+        "england_nonscot": [
+          "Cornwall"
+        ]
+      }
+    },
+    {
+      "id": "26804940679108307",
+      "date": "2026-02-15",
+      "title": "\u2018It makes no sense\u2019: the battle over plans for a windfarm by the Yorkshire Dales",
+      "source": "Scotland Against Spin",
+      "matchedSignals": {
+        "england_nonscot": [
+          "Yorkshire"
+        ]
+      }
+    },
+    {
+      "id": "26803900122545696",
+      "date": "2026-02-15",
+      "title": "Discussion shared in Scotland Against Spin, 15 February 2026",
+      "source": "Scotland Against Spin",
+      "matchedSignals": {
+        "wales": [
+          "Cardiff",
+          "Senedd"
+        ]
+      }
+    },
+    {
+      "id": "26800844939517881",
+      "date": "2026-02-14",
+      "title": "Hands Off Wales - Episode 7",
+      "source": "Scotland Against Spin",
+      "matchedSignals": {
+        "wales": [
+          "Wales"
+        ]
+      }
+    },
+    {
+      "id": "26670374239231619",
+      "date": "2026-02-01",
+      "title": "Windfarm developer faces Judicial Review over Powys pylon plans",
+      "source": "Scotland Against Spin",
+      "matchedSignals": {
+        "wales": [
+          "Powys"
+        ]
+      }
+    },
+    {
+      "id": "26571908439078200",
+      "date": "2026-01-21",
+      "title": "Kirkby Moor wind turbine catches fire",
+      "source": "Scotland Against Spin",
+      "matchedSignals": {
+        "england_nonscot": [
+          "Cumbria"
+        ]
+      }
+    },
+    {
+      "id": "26548899461379098",
+      "date": "2026-01-19",
+      "title": "Letter: Concerns over honesty in Powys wind farm planning process",
+      "source": "Scotland Against Spin",
+      "matchedSignals": {
+        "wales": [
+          "Powys"
+        ]
+      }
+    },
+    {
+      "id": "26531333743135670",
+      "date": "2026-01-17",
+      "title": "Update on Australian NetZero efforts - Climate Etc.",
+      "source": "Scotland Against Spin",
+      "matchedSignals": {
+        "australia": [
+          "Australian"
+        ]
+      }
+    },
+    {
+      "id": "26418663624402683",
+      "date": "2026-01-04",
+      "title": "Solar farm plans in East Yorkshire and Lincolnshire face critics",
+      "source": "Scotland Against Spin",
+      "matchedSignals": {
+        "england_nonscot": [
+          "Lincolnshire",
+          "Yorkshire"
+        ]
+      }
+    }
+  ]
+}
