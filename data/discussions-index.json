@@ -68715,6 +68715,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -68732,7 +68735,11 @@
         "Onshore Wind"
       ],
       "contentFingerprint": "252db47a99b9437527b274fd97be444a54ac6bae23f0a79f1b9ff50eacde972c",
-      "bodyText": "British wind farms could send power to Europe\nTELEGRAPH.CO.UK British wind farms could send power to Europe"
+      "bodyText": "British wind farms could send power to Europe\nTELEGRAPH.CO.UK British wind farms could send power to Europe",
+      "photos": [
+        "media/facebook/26534225106179867/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26533797492889295",
@@ -68974,6 +68981,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -68987,7 +68997,11 @@
         "https://www.scottishdailyexpress.co.uk/all-about/westminster"
       ],
       "contentFingerprint": "67f75ab17b7ee27327bf56b95f868a76732494620b636ad2a4188b2168c9522d",
-      "bodyText": "Labour told to ditch damaging North Sea windfall tax - by its own MPs\nSCOTTISHDAILYEXPRESS.CO.UK Labour told to ditch damaging North Sea windfall tax - by its own MPs"
+      "bodyText": "Labour told to ditch damaging North Sea windfall tax - by its own MPs\nSCOTTISHDAILYEXPRESS.CO.UK Labour told to ditch damaging North Sea windfall tax - by its own MPs",
+      "photos": [
+        "media/facebook/26528915770044134/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26528344856767892",
@@ -69067,6 +69081,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -69086,7 +69103,11 @@
         "Planning / process"
       ],
       "contentFingerprint": "46f76a90b563965095c20245caba55d67ee4fb2850052c31a576a2970b5a7f3b",
-      "bodyText": "PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms\nPARLIAMENT.SCOT PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms"
+      "bodyText": "PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms\nPARLIAMENT.SCOT PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms",
+      "photos": [
+        "media/facebook/26524122033856841/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26522337927368585",
@@ -69657,6 +69678,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -69674,7 +69698,11 @@
         "Onshore Wind"
       ],
       "contentFingerprint": "d394ebaa778e81e2d62a2ac262a0deb5c56b884e83b72c6b0dbc4d7ff725f2ea",
-      "bodyText": "Wind farm 'will push puffins to the brink of extinction'\nDAILYMAIL.CO.UK Wind farm 'will push puffins to the brink of extinction'"
+      "bodyText": "Wind farm 'will push puffins to the brink of extinction'\nDAILYMAIL.CO.UK Wind farm 'will push puffins to the brink of extinction'",
+      "photos": [
+        "media/facebook/26509752615293783/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26507033915565653",
@@ -70033,6 +70061,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -70046,7 +70077,11 @@
       "bodyText": "Miliband’s net zero zealotry will be Labour’s downfall\nTELEGRAPH.CO.UK Miliband’s net zero zealotry will be Labour’s downfall",
       "externalLinks": [
         "https://archive.ph/.../green-levies-are-to-blame-for.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/26492537380348640/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26492470043688707",
@@ -70080,6 +70115,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -70093,7 +70131,11 @@
       "bodyText": "Net zero costs will be worse than feared, report finds\nTELEGRAPH.CO.UK Net zero costs will be worse than feared, report finds",
       "externalLinks": [
         "https://www.telegraph.co.uk/.../net-zero-costs-will-be.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/26492173997051645/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26492116493724062",
@@ -70251,6 +70293,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -70264,7 +70309,11 @@
       "bodyText": "Miliband ‘to miss net zero targets by 15 years’\nTELEGRAPH.CO.UK Miliband ‘to miss net zero targets by 15 years’",
       "externalLinks": [
         "https://www.telegraph.co.uk/.../milibands-green.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/26484291961173182/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26484252601177118",
@@ -70276,6 +70325,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -70290,7 +70342,11 @@
       "externalLinks": [
         "https://www.express.co.uk/.../astonishing-11bn-tidal...",
         "https://www.express.co.uk/.../ed-miliband-in-denial..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/26484252601177118/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26484180587850986",
