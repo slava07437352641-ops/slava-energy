@@ -13,7 +13,7 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https: data:; style-src 'self'; script-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'self';" />
   <meta name="referrer" content="strict-origin-when-cross-origin" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22 width=%2232%22 height=%2232%22><rect width=%2232%22 height=%2232%22 rx=%228%22 fill=%22%23C85A32%22/><path d=%22M17 6L9 18h6l-2 8 10-12h-6l2-8z%22 fill=%22%23F3ECDA%22/></svg>" />
-  <link rel="stylesheet" href="assets/css/public-discussions.css?v=20260925a" />
+  <link rel="stylesheet" href="assets/css/public-discussions.css?v=20260926b" />
 </head>
 <body>
   <nav class="pd-global-nav">
@@ -27,7 +27,7 @@
     <h1>Public objections &amp; discussions</h1>
   </header>
 
-  <section class="pd-controls">
+  <section class="pd-controls" role="search" aria-label="Search and filter discussions">
     <div class="pd-controls-row">
       <input id="pd-search" type="search" class="pd-search" placeholder="Search post text, title, location, project, council&hellip;" autocomplete="off" />
       <label class="pd-range-wrap">Show
@@ -54,6 +54,9 @@
   <main class="pd-layout">
     <aside class="pd-sidebar">
       <div id="pd-feed" class="pd-feed" aria-live="polite"></div>
+      <div id="pd-load-more-wrap" class="pd-load-more-wrap" hidden>
+        <button id="pd-load-more" type="button" class="pd-retry">Load more</button>
+      </div>
     </aside>
   </main>
 
@@ -65,7 +68,7 @@
     <p>For correction, privacy or removal requests: <a href="mailto:slava@atlasglobal.energy">slava@atlasglobal.energy</a>.</p>
   </footer>
 
-  <script type="module" src="assets/js/news.js?v=20260925a"></script>
-  <script type="module" src="assets/js/main.js?v=20260925a"></script>
+  <script type="module" src="assets/js/news.js?v=20260926b"></script>
+  <script type="module" src="assets/js/main.js?v=20260926b"></script>
 </body>
 </html>

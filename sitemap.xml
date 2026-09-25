@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This site is a single client-rendered page (index.html) over a JSON data
+  file; individual discussion records are reached via client-side state
+  (?sel=<id>), not separate server-rendered URLs, so they have no meaningful
+  standalone content for a crawler to index without JavaScript execution.
+  The sitemap therefore lists only the one real crawlable URL.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://slava.it.com/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>

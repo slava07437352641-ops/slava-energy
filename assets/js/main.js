@@ -1,7 +1,7 @@
 // Bootstrap for the Public objections & discussions dashboard (Pilot v0.1).
-import { readState, writeState } from "./url-state.js?v=20260925a";
-import { applyAll, facetCounts, FACETS, TECH_CATEGORIES } from "./filters.js?v=20260925a";
-import { renderFeed, renderDetail, renderMirror } from "./feed.js?v=20260925a";
+import { readState, writeState } from "./url-state.js";
+import { applyAll, facetCounts, FACETS, TECH_CATEGORIES } from "./filters.js";
+import { renderFeed, renderDetail, renderMirror } from "./feed.js";
 
 // Must match news.js's NEWS_PANEL_LIMIT -- kept as a separate constant
 // rather than a cross-module import so this file never depends on
@@ -19,12 +19,17 @@ const els = {
   range: document.getElementById("pd-range"),
   footerMirrorCaveat: document.getElementById("pd-footer-mirror-caveat"),
   newsPanel: document.querySelector(".pd-news-panel"),
+  loadMoreWrap: document.getElementById("pd-load-more-wrap"),
+  loadMore: document.getElementById("pd-load-more"),
 };
+
+const PAGE_SIZE = 60;
 
 let ALL = [];
 let NEWS_IDS = new Set();
 let MIRROR_IDS = new Set();
 let state = readState();
+let visibleCount = PAGE_SIZE;
 
 init();
 
@@ -82,11 +87,18 @@ async function init() {
   els.search.addEventListener("input", debounce(() => {
     state.q = els.search.value.trim();
     state.sel = null;
+    visibleCount = PAGE_SIZE;
     apply();
   }, 180));
   els.range.addEventListener("change", () => {
     state.range = els.range.value;
+    visibleCount = PAGE_SIZE;
     apply();
+  });
+  els.loadMore?.addEventListener("click", () => {
+    visibleCount += PAGE_SIZE;
+    apply();
+    els.loadMore.focus();
   });
 
   buildTechChips();
@@ -95,6 +107,11 @@ async function init() {
   if (state.sel) select(state.sel, { silent: true });
 }
 
+// Single-select: clicking a chip REPLACES the current selection rather than
+// adding to it. The previous OR-multi-select behaviour meant clicking a
+// second chip left both showing active at once (reported live: Onshore
+// Wind + BESS both highlighted after clicking each in turn) -- clicking the
+// already-active chip, or "All", clears back to no filter.
 function buildTechChips() {
   els.tech.innerHTML =
     `<button class="pd-chip" data-tech="" type="button">All</button>` +
@@ -102,9 +119,10 @@ function buildTechChips() {
   els.tech.querySelectorAll(".pd-chip").forEach((b) => {
     b.addEventListener("click", () => {
       const v = b.dataset.tech;
-      if (!v) state.tech = [];
-      else state.tech = state.tech.includes(v) ? state.tech.filter((x) => x !== v) : [...state.tech, v];
+      if (!v || state.tech.includes(v)) state.tech = [];
+      else state.tech = [v];
       state.sel = null;
+      visibleCount = PAGE_SIZE;
       apply();
     });
   });
@@ -135,9 +153,24 @@ function apply({ initial = false } = {}) {
     }
   });
 
-  els.count.textContent = `${filtered.length.toLocaleString()} discussion${filtered.length === 1 ? "" : "s"}`;
+  const shown = filtered.slice(0, visibleCount);
+  const hasMore = filtered.length > shown.length;
 
-  renderFeed(els.feed, filtered.slice(0, 400), { selectedId: state.sel, onSelect: (id) => select(id), mirrorIds: MIRROR_IDS });
+  // The feed only ever rendered a flat 400-record slice with no indication
+  // more existed -- the header could say "2,317 discussions" while only 400
+  // were reachable. Now the count says "Showing N of Total" whenever a page
+  // boundary is actually hiding records, and a Load more control reveals
+  // the rest in place.
+  els.count.textContent = hasMore
+    ? `Showing ${shown.length.toLocaleString()} of ${filtered.length.toLocaleString()} discussion${filtered.length === 1 ? "" : "s"}`
+    : `${filtered.length.toLocaleString()} discussion${filtered.length === 1 ? "" : "s"}`;
+
+  renderFeed(els.feed, shown, { selectedId: state.sel, onSelect: (id) => select(id), mirrorIds: MIRROR_IDS });
+
+  if (els.loadMoreWrap) {
+    els.loadMoreWrap.hidden = !hasMore;
+    if (hasMore) els.loadMore.textContent = `Load more (${(filtered.length - shown.length).toLocaleString()} remaining)`;
+  }
 
   writeState(state);
 }

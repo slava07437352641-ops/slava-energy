@@ -5,8 +5,8 @@
   --card-border: rgba(160, 130, 100, 0.28);
   --text-primary: #261A14;
   --text-secondary: #594436;
-  --text-muted: #8C7462;
-  --accent-terracotta: #C85A32;
+  --text-muted: #7A6555; /* darkened from #8C7462 -- was failing WCAG AA 4.5:1 against all three paper tones */
+  --accent-terracotta: #B8532E; /* darkened from #C85A32 -- was failing 4.5:1 both as text and as a white-text background */
   --accent-ochre: #C07018;
   --accent-sage: #4E7C59;
   --accent-plum: #7A354A;
@@ -151,6 +151,8 @@ body {
   background: none; color: var(--accent-terracotta); font-weight: 700; font-size: 0.85rem; cursor: pointer;
 }
 .pd-retry:hover { background: var(--accent-terracotta); color: var(--bg-paper); }
+.pd-load-more-wrap { text-align: center; padding: 12px 0 4px; }
+.pd-load-more-wrap[hidden] { display: none; }
 
 .pd-detail-panel {
   position: fixed; inset: 0; z-index: 50; overflow-y: auto;
@@ -202,10 +204,13 @@ body.pd-showing-detail .pd-detail-panel { display: block; }
 .pd-mirror-removal { font-size: 0.76rem; color: var(--text-secondary); margin-top: 10px; }
 .pd-mirror-removal a { color: var(--accent-terracotta); }
 
-/* featured-mirror badge, on cards and in the mirror section itself */
+/* featured-mirror badge, on cards and in the mirror section itself.
+   --accent-ochre is only 3.16:1 as text on this badge's own translucent
+   fill, so it gets its own darker value rather than pulling every ochre
+   usage (borders, hover states) down to a text-safe shade. */
 .pd-tag--featured {
   display: inline-block; margin-bottom: 6px;
-  background: rgba(192, 112, 24, 0.14); color: var(--accent-ochre); font-weight: 700;
+  background: rgba(192, 112, 24, 0.14); color: #8A4F11; font-weight: 700;
 }
 
 /* ---- footer ---- */
