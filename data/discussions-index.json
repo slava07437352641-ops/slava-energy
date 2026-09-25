@@ -74289,6 +74289,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -74302,7 +74305,11 @@
         "https://notalotofpeopleknowthat.wordpress.com/.../britai.../"
       ],
       "bodyText": "Britain on ‘energy cliff’ after woke Net Zero drive left us exposed to Russia and China, ex-MI6 chief warns\nNOTALOTOFPEOPLEKNOWTHAT.WORDPRESS.COM Britain on ‘energy cliff’ after woke Net Zero drive left us exposed to Russia and China, ex-MI6 chief warns",
-      "contentFingerprint": "cb77f203866a578ae09e9aff9de9983bceefd573a05cf805c1deba1d7fb8dd70"
+      "contentFingerprint": "cb77f203866a578ae09e9aff9de9983bceefd573a05cf805c1deba1d7fb8dd70",
+      "photos": [
+        "media/facebook/29340696815532668/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29379003758368640",
@@ -74380,6 +74387,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -74393,7 +74403,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
-      "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d"
+      "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
+      "photos": [
+        "media/facebook/29388021057466910/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29333495136252836",
@@ -74493,6 +74507,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -74507,7 +74524,11 @@
         "https://www.scottishdailyexpress.co.uk/.../snps-ideology..."
       ],
       "bodyText": "SNP's ideology and stubbornness means Scotland is losing out on 1000s of jobs\nSCOTTISHDAILYEXPRESS.CO.UK SNP's ideology and stubbornness means Scotland is losing out on 1000s of jobs",
-      "contentFingerprint": "036d0da78997b22b22de793d93ab2c6750cc4755377cb8c5bad2e3c1d1b4b693"
+      "contentFingerprint": "036d0da78997b22b22de793d93ab2c6750cc4755377cb8c5bad2e3c1d1b4b693",
+      "photos": [
+        "media/facebook/29347440148191668/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29362604236675259",
@@ -74519,6 +74540,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -74533,7 +74557,11 @@
         "https://www.thecalifornian.com/.../moss.../77774101007/"
       ],
       "bodyText": "New fire breaks out at Moss Landing power plant amid EPA cleanup\nYAHOO.COM New fire breaks out at Moss Landing power plant amid EPA cleanup",
-      "contentFingerprint": "fdceaa602bf72ac2adf7b54b26ea5fd67d8aba90f49f4cc3ce33da807b04c015"
+      "contentFingerprint": "fdceaa602bf72ac2adf7b54b26ea5fd67d8aba90f49f4cc3ce33da807b04c015",
+      "photos": [
+        "media/facebook/29362604236675259/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29387580374177645",
@@ -75067,6 +75095,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -75080,7 +75111,11 @@
         "https://qz.com/mississippi-residents-sue-xai-spacex-data..."
       ],
       "bodyText": "QZ.COM Mississippi residents sue xAI and SpaceX over data center noise Three plaintiffs filed the class action on behalf of an estimated 10,000 residents near a gas-fired power plant in Southaven",
-      "contentFingerprint": "a1881f5e84ccd7d3bb4fff7c6802bbccd0d58efeccc4c226a9980c2ff04ed711"
+      "contentFingerprint": "a1881f5e84ccd7d3bb4fff7c6802bbccd0d58efeccc4c226a9980c2ff04ed711",
+      "photos": [
+        "media/facebook/1520726839763512/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "1533479405154922",
@@ -75533,6 +75568,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -75546,7 +75584,11 @@
         "https://petitions.parliament.scot/petitions/PE2233..."
       ],
       "bodyText": "Petition: Moratorium on planning applications for all hyperscale data centres until their environmental impacts have been fully assessed\nPETITIONS.PARLIAMENT.SCOT Petition: Moratorium on planning applications for all hyperscale data centres until their environmental impacts have been fully assessed",
-      "contentFingerprint": "e7ac08de91f74b83dac5062b1e7cc0fa054543369fc42806b3a82b62162e0a4e"
+      "contentFingerprint": "e7ac08de91f74b83dac5062b1e7cc0fa054543369fc42806b3a82b62162e0a4e",
+      "photos": [
+        "media/facebook/1588651849637677/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "1519096286593234",
@@ -75558,6 +75600,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -75571,7 +75616,11 @@
         "https://www.forbes.com/.../new-evidence-data-centers.../"
       ],
       "bodyText": "Data Centers May Cause Hotter Weather, New Study Suggests\nFORBES.COM Data Centers May Cause Hotter Weather, New Study Suggests",
-      "contentFingerprint": "d9b9b0702f3a6326b0b575918336234eb2e8fda358738c333bb877627d5f29c9"
+      "contentFingerprint": "d9b9b0702f3a6326b0b575918336234eb2e8fda358738c333bb877627d5f29c9",
+      "photos": [
+        "media/facebook/1519096286593234/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "1524605339375662",
@@ -75701,6 +75750,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -75714,7 +75766,11 @@
         "https://www.thenational.scot/.../26172833.un-report.../..."
       ],
       "bodyText": "AI data centres put pressure on communities' water supplies, UN team warns\nTHENATIONAL.SCOT AI data centres put pressure on communities' water supplies, UN team warns",
-      "contentFingerprint": "4ac69aea8e7575bd46a4a7c671a88cb9121f40b56646917bd0e1a65689ba1546"
+      "contentFingerprint": "4ac69aea8e7575bd46a4a7c671a88cb9121f40b56646917bd0e1a65689ba1546",
+      "photos": [
+        "media/facebook/1518762479959948/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "1590192342816961",
@@ -75816,6 +75872,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -75829,7 +75888,11 @@
         "https://fb.watch/J1BIlIY_zu/"
       ],
       "bodyText": "Coralie Aitken\nGrampain Against Data Centres - Stop Blackdog AI Data Centre",
-      "contentFingerprint": "e517d1508882bc0452abf7205e8e6379e80fc5a1d24a6aac37d417120ba9bca4"
+      "contentFingerprint": "e517d1508882bc0452abf7205e8e6379e80fc5a1d24a6aac37d417120ba9bca4",
+      "photos": [
+        "media/facebook/1578076680695194/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "1583992983436897",
@@ -76478,6 +76541,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -76491,7 +76557,11 @@
         "https://petitions.parliament.scot/petitions/PE2233"
       ],
       "bodyText": "Petition: Moratorium on planning applications for all hyperscale data centres until their environmental impacts have been fully assessed\nPETITIONS.PARLIAMENT.SCOT Petition: Moratorium on planning applications for all hyperscale data centres until their environmental impacts have been fully assessed",
-      "contentFingerprint": "e7ac08de91f74b83dac5062b1e7cc0fa054543369fc42806b3a82b62162e0a4e"
+      "contentFingerprint": "e7ac08de91f74b83dac5062b1e7cc0fa054543369fc42806b3a82b62162e0a4e",
+      "photos": [
+        "media/facebook/1562438555592340/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "1540305794472283",
@@ -77011,6 +77081,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -77024,7 +77097,11 @@
         "https://aprs.scot/news/tips-from-the-campaigners/"
       ],
       "bodyText": "Action to Protect Rural Scotland\nTips from the Campaigners - Action to Protect Rural Scotland\nAPRS.SCOT Tips from the Campaigners - Action to Protect Rural Scotland",
-      "contentFingerprint": "74285cce48e1cba214c9baca59143f9fa1a1f1c913108a5c2eb0796d5f1ce02a"
+      "contentFingerprint": "74285cce48e1cba214c9baca59143f9fa1a1f1c913108a5c2eb0796d5f1ce02a",
+      "photos": [
+        "media/facebook/1556970446139151/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "1589258899576972",
@@ -77489,6 +77566,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -77502,7 +77582,11 @@
         "https://x.com/John_F_kJr/status/2093051748550332872"
       ],
       "bodyText": "John F Kennedy Jr (@John_F_kJr) on X\nX.COM John F Kennedy Jr (@John_F_kJr) on X",
-      "contentFingerprint": "3aa40bd5d532ee401ebfcf0613737b696ee3db4322ab994a042b58d419213ef1"
+      "contentFingerprint": "3aa40bd5d532ee401ebfcf0613737b696ee3db4322ab994a042b58d419213ef1",
+      "photos": [
+        "media/facebook/1588699326299596/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "1559095932593269",
@@ -78327,6 +78411,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -78335,11 +78422,15 @@
         "label": "Facebook · Grampian Against Data Centres",
         "url": "https://www.facebook.com/groups/1517407306762132/posts/1577381207431408/"
       },
-      "thin": true,
+      "thin": false,
       "externalLinks": [
         "https://fb.watch/J1BIlIY_zu/"
       ],
-      "contentFingerprint": "22c971c3f53fbec310a27985efdd137cd297f33d985f0858b0f26a6e7d585489"
+      "contentFingerprint": "22c971c3f53fbec310a27985efdd137cd297f33d985f0858b0f26a6e7d585489",
+      "photos": [
+        "media/facebook/1577381207431408/photo_1.png"
+      ],
+      "mediaCount": 1
     }
   ]
 }
