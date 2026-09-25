@@ -23,6 +23,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -33,7 +36,11 @@
       },
       "thin": false,
       "bodyText": "Michael Shanks accused of 'rewriting history' over 'insulting' GB Energy claim\nTHENATIONAL.SCOT Michael Shanks accused of 'rewriting history' over 'insulting' GB Energy claim",
-      "contentFingerprint": "588ca260951d8910fd58c64a9ee5c07f1f9f012866f3d70a945f666f49b0f042"
+      "contentFingerprint": "588ca260951d8910fd58c64a9ee5c07f1f9f012866f3d70a945f666f49b0f042",
+      "photos": [
+        "media/facebook/29431966919738990/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29401791676089848",
@@ -45,6 +52,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -55,7 +65,39 @@
       },
       "thin": false,
       "bodyText": "Consumers’ electricity bills could fall if the government promoted time-varying prices | Institute for Fiscal Studies\nIFS.ORG.UK Consumers’ electricity bills could fall if the government promoted time-varying prices | Institute for Fiscal Studies",
-      "contentFingerprint": "d9c1b46dd02ed8f2dd10ba9e1fb17adab259e22eb0094cd233db9774b627b98a"
+      "contentFingerprint": "d9c1b46dd02ed8f2dd10ba9e1fb17adab259e22eb0094cd233db9774b627b98a",
+      "photos": [
+        "media/facebook/29401791676089848/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "29397207843214898",
+      "date": "2026-09-22",
+      "title": "Discussion shared in Scotland Against Spin, 22 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29397207843214898/"
+      },
+      "thin": false,
+      "contentFingerprint": "bff3d6185ccfa4f5d19dd923e67ed1a1ab665ba296278c409dcaa681295cd774",
+      "photos": [
+        "media/facebook/29397207843214898/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29401563436112672",
@@ -67,6 +109,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -77,7 +122,11 @@
       },
       "thin": false,
       "bodyText": "Ofgem wants to hit battery developers with £25m per GW fee\nENERGYVOICE.COM Ofgem wants to hit battery developers with £25m per GW fee",
-      "contentFingerprint": "b5e2072458a4e172f05b5932946b496d7a22ccde1487e5d95c594a72d1834b82"
+      "contentFingerprint": "b5e2072458a4e172f05b5932946b496d7a22ccde1487e5d95c594a72d1834b82",
+      "photos": [
+        "media/facebook/29401563436112672/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29401673002768382",
@@ -89,6 +138,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -99,7 +151,11 @@
       },
       "thin": false,
       "bodyText": "Pylons, wind farms and protest: Is Scotland ready for the green energy revolution?\nHERALDSCOTLAND.COM Pylons, wind farms and protest: Is Scotland ready for the green energy revolution?",
-      "contentFingerprint": "210a02abc0a7151600ed182de8b368cd4eeacaed779a50ffa98ed2e741e1b5c9"
+      "contentFingerprint": "210a02abc0a7151600ed182de8b368cd4eeacaed779a50ffa98ed2e741e1b5c9",
+      "photos": [
+        "media/facebook/29401673002768382/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29389004027368613",
@@ -111,6 +167,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -121,7 +180,11 @@
       },
       "thin": false,
       "bodyText": "Climate Impacts of Large Offshore Wind Farms\nSEALETTERS.SUBSTACK.COM Climate Impacts of Large Offshore Wind Farms",
-      "contentFingerprint": "e1b36542117cb868c2dc9edfbeddd1d190a93ada318db539149bb16e36d7aa8b"
+      "contentFingerprint": "e1b36542117cb868c2dc9edfbeddd1d190a93ada318db539149bb16e36d7aa8b",
+      "photos": [
+        "media/facebook/29389004027368613/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29392992550303094",
@@ -133,6 +196,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -143,7 +209,11 @@
       },
       "thin": false,
       "bodyText": "Fire destroys turbine at UK's largest onshore windfarm as safety cordon set up\nHERALDSCOTLAND.COM Fire destroys turbine at UK's largest onshore windfarm as safety cordon set up",
-      "contentFingerprint": "29e000344caf9d22bcb3aa2ba296d6cf11797925459563840dc255d404bf9a5c"
+      "contentFingerprint": "29e000344caf9d22bcb3aa2ba296d6cf11797925459563840dc255d404bf9a5c",
+      "photos": [
+        "media/facebook/29392992550303094/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29392570393678643",
@@ -186,6 +256,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -196,7 +269,11 @@
       },
       "thin": false,
       "bodyText": "#AffordableEnergy\n#climatechange\n#Hopetosaveourcountryside",
-      "contentFingerprint": "b694b395e06d1cea5d5ec16fd372f6ad0f5e6223bda9a5988e54dfc47229eff7"
+      "contentFingerprint": "b694b395e06d1cea5d5ec16fd372f6ad0f5e6223bda9a5988e54dfc47229eff7",
+      "photos": [
+        "media/facebook/29380887524846930/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29375397118729304",
@@ -229,28 +306,6 @@
         "media/facebook/29375397118729304/photo_1.png"
       ],
       "mediaCount": 1
-    },
-    {
-      "id": "29374600085475674",
-      "date": "2026-09-21",
-      "title": "Discussion shared in Scotland Against Spin, 21 September 2026",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Scotland Against Spin",
-        "label": "Facebook · Scotland Against Spin",
-        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29374600085475674/"
-      },
-      "thin": false,
-      "bodyText": "Rural revolt over Scotland's green energy revolution as 200 councils demand inquiry\nHERALDSCOTLAND.COM Rural revolt over Scotland's green energy revolution as 200 councils demand inquiry",
-      "contentFingerprint": "8ed32cd377ac1d4c019354e0d5e2a3300d6864f4852f5920d7eb8f2347807a70"
     }
   ]
 }

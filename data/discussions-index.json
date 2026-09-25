@@ -39,6 +39,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -52,7 +55,11 @@
         "Data Centre"
       ],
       "contentFingerprint": "fc43fbcac0d64df7dd971bf470566c52d1ba3ec3fad4b5d71a70b839562f5512",
-      "bodyText": "Public health expert issues major warning about Scotland's AI data centres\nTHENATIONAL.SCOT Public health expert issues major warning about Scotland's AI data centres"
+      "bodyText": "Public health expert issues major warning about Scotland's AI data centres\nTHENATIONAL.SCOT Public health expert issues major warning about Scotland's AI data centres",
+      "photos": [
+        "media/facebook/29262420503360300/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29261977930071224",
@@ -61,6 +68,9 @@
       "provenance": {
         "title": {
           "method": "neutral"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -69,8 +79,12 @@
         "label": "Facebook · Scotland Against Spin",
         "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29261977930071224/"
       },
-      "thin": true,
-      "contentFingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "thin": false,
+      "contentFingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "photos": [
+        "media/facebook/29261977930071224/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28289989033987852",
@@ -100,6 +114,9 @@
       "provenance": {
         "title": {
           "method": "neutral"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -111,7 +128,11 @@
       "externalLinks": [
         "https://www.facebook.com/share/r/1CDkrUmLd7/?mibextid=wwXIfr"
       ],
-      "contentFingerprint": "d7ddcfb3e2880a162e20b68c941cf1a541ef267cc7cec14757984df5001971ce"
+      "contentFingerprint": "d7ddcfb3e2880a162e20b68c941cf1a541ef267cc7cec14757984df5001971ce",
+      "photos": [
+        "media/facebook/28284576994529056/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "28284364791216943",
@@ -153,6 +174,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -170,7 +194,11 @@
         "Heritage"
       ],
       "contentFingerprint": "1a5ce3e1dccb1d46419ce14b4d8cdbac033abf121ac5668202e1bb0797958304",
-      "bodyText": "Cllr Cheryl Cottle-Hunkin for Torrington Rural\n17 серпня о 17:42\nPetition: Introduce urgent moratorium on AI Data Centres and BESS outside AI Growth Zones\nPETITION.PARLIAMENT.UK Petition: Introduce urgent moratorium on AI Data Centres and BESS outside AI Growth Zones"
+      "bodyText": "Cllr Cheryl Cottle-Hunkin for Torrington Rural\n17 серпня о 17:42\nPetition: Introduce urgent moratorium on AI Data Centres and BESS outside AI Growth Zones\nPETITION.PARLIAMENT.UK Petition: Introduce urgent moratorium on AI Data Centres and BESS outside AI Growth Zones",
+      "photos": [
+        "media/facebook/1600486635120865/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "1600448455124683",
@@ -241,6 +269,9 @@
       "provenance": {
         "title": {
           "method": "headline"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -249,7 +280,11 @@
         "label": "Facebook · Grampian Against Data Centres",
         "url": "https://www.facebook.com/groups/1517407306762132/posts/1600350458467816/"
       },
-      "contentFingerprint": "58046c082d811c60e27e4a001732cc68bac64d43cbac97d5ebd294a985c7ee46"
+      "contentFingerprint": "58046c082d811c60e27e4a001732cc68bac64d43cbac97d5ebd294a985c7ee46",
+      "photos": [
+        "media/facebook/1600350458467816/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "1600147931821402",
@@ -264,6 +299,9 @@
         },
         "topics": {
           "method": "keyword"
+        },
+        "photos": {
+          "method": "local_migrate"
         }
       },
       "source": {
@@ -278,7 +316,11 @@
       "topics": [
         "Grid infrastructure"
       ],
-      "contentFingerprint": "5a74ba44894edf2c10bf2aa67683ca92a470b6e7d0381159dae7a93c6672ed40"
+      "contentFingerprint": "5a74ba44894edf2c10bf2aa67683ca92a470b6e7d0381159dae7a93c6672ed40",
+      "photos": [
+        "media/facebook/1600147931821402/photo_1.jpg"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "1600143551821840",
@@ -290,6 +332,9 @@
         },
         "categories": {
           "method": "keyword"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -301,7 +346,11 @@
       "categories": [
         "Data Centre"
       ],
-      "contentFingerprint": "f5dde1eba8b151d43e56ee1861b70b939c0fa324556c67dceb699d12b008a289"
+      "contentFingerprint": "f5dde1eba8b151d43e56ee1861b70b939c0fa324556c67dceb699d12b008a289",
+      "photos": [
+        "media/facebook/1600143551821840/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "1090802206683661",
@@ -331,6 +380,9 @@
       "provenance": {
         "title": {
           "method": "headline"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -339,7 +391,11 @@
         "label": "Facebook · Communities B4 Power Companies",
         "url": "https://www.facebook.com/groups/221782186918238/posts/1082827727480342/"
       },
-      "contentFingerprint": "c01f86f1ccf6c074cbb90ee36494720f241d69d5874b929312f33eb424d9ce07"
+      "contentFingerprint": "c01f86f1ccf6c074cbb90ee36494720f241d69d5874b929312f33eb424d9ce07",
+      "photos": [
+        "media/facebook/1082827727480342/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "1082807437482371",
@@ -354,6 +410,9 @@
         },
         "topics": {
           "method": "keyword"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -371,7 +430,11 @@
         "Grid infrastructure",
         "Tourism"
       ],
-      "contentFingerprint": "4cdc6e6926e10cfb6980a1571e724e09590b78bba10e51ec72e556ae5fe9422d"
+      "contentFingerprint": "4cdc6e6926e10cfb6980a1571e724e09590b78bba10e51ec72e556ae5fe9422d",
+      "photos": [
+        "media/facebook/1082807437482371/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "1082312110865237",
@@ -73344,6 +73407,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -73352,8 +73418,12 @@
         "label": "Facebook · Scotland Against Spin",
         "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29357467817188901/"
       },
-      "thin": true,
-      "contentFingerprint": "7ae515f92050f04d57d9e14b71ffabc6b6d2ae5b262140f36a1241e1983753b2"
+      "thin": false,
+      "contentFingerprint": "7ae515f92050f04d57d9e14b71ffabc6b6d2ae5b262140f36a1241e1983753b2",
+      "photos": [
+        "media/facebook/29357467817188901/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29341398178795865",
@@ -73365,6 +73435,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -73375,7 +73448,11 @@
       },
       "thin": false,
       "bodyText": "Olrig wind farm ‘will still completely dominate our landscape’ despite lower turbines\nJOHNOGROAT-JOURNAL.CO.UK Olrig wind farm ‘will still completely dominate our landscape’ despite lower turbines",
-      "contentFingerprint": "7eccbc67915e83a6d49693521b08712527039aae605db5c8b46aadc67cde7cb8"
+      "contentFingerprint": "7eccbc67915e83a6d49693521b08712527039aae605db5c8b46aadc67cde7cb8",
+      "photos": [
+        "media/facebook/29341398178795865/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29360738403528509",
@@ -73441,6 +73518,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -73451,7 +73531,11 @@
       },
       "thin": false,
       "bodyText": "Climate Impacts of Large Offshore Wind Farms\nSEALETTERS.SUBSTACK.COM Climate Impacts of Large Offshore Wind Farms",
-      "contentFingerprint": "e1b36542117cb868c2dc9edfbeddd1d190a93ada318db539149bb16e36d7aa8b"
+      "contentFingerprint": "e1b36542117cb868c2dc9edfbeddd1d190a93ada318db539149bb16e36d7aa8b",
+      "photos": [
+        "media/facebook/29389004027368613/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29333962196206130",
@@ -73463,6 +73547,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -73473,7 +73560,11 @@
       },
       "thin": false,
       "bodyText": "Wind farm to get more tur­bines | The Herald\nPRESSREADER.COM Wind farm to get more tur­bines | The Herald",
-      "contentFingerprint": "55a5b1b2806bc9f20866b6f6b704768747da2104e49768bc356ff861a704b7ad"
+      "contentFingerprint": "55a5b1b2806bc9f20866b6f6b704768747da2104e49768bc356ff861a704b7ad",
+      "photos": [
+        "media/facebook/29333962196206130/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29374188345516848",
@@ -73485,6 +73576,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -73495,7 +73589,11 @@
       },
       "thin": false,
       "bodyText": "Mountain peatland restored by hand to help highland ecosystem\nSCOTSMAN.COM Mountain peatland restored by hand to help highland ecosystem",
-      "contentFingerprint": "9a4bed1f5c174090433b49b3c8402cb6ed23c071ad564665ad31bf8d38209341"
+      "contentFingerprint": "9a4bed1f5c174090433b49b3c8402cb6ed23c071ad564665ad31bf8d38209341",
+      "photos": [
+        "media/facebook/29374188345516848/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29392992550303094",
@@ -73507,6 +73605,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -73517,7 +73618,11 @@
       },
       "thin": false,
       "bodyText": "Fire destroys turbine at UK's largest onshore windfarm as safety cordon set up\nHERALDSCOTLAND.COM Fire destroys turbine at UK's largest onshore windfarm as safety cordon set up",
-      "contentFingerprint": "29e000344caf9d22bcb3aa2ba296d6cf11797925459563840dc255d404bf9a5c"
+      "contentFingerprint": "29e000344caf9d22bcb3aa2ba296d6cf11797925459563840dc255d404bf9a5c",
+      "photos": [
+        "media/facebook/29392992550303094/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29401791676089848",
@@ -73529,6 +73634,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -73539,7 +73647,11 @@
       },
       "thin": false,
       "bodyText": "Consumers’ electricity bills could fall if the government promoted time-varying prices | Institute for Fiscal Studies\nIFS.ORG.UK Consumers’ electricity bills could fall if the government promoted time-varying prices | Institute for Fiscal Studies",
-      "contentFingerprint": "d9c1b46dd02ed8f2dd10ba9e1fb17adab259e22eb0094cd233db9774b627b98a"
+      "contentFingerprint": "d9c1b46dd02ed8f2dd10ba9e1fb17adab259e22eb0094cd233db9774b627b98a",
+      "photos": [
+        "media/facebook/29401791676089848/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29325844170351266",
@@ -73551,6 +73663,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -73561,7 +73676,11 @@
       },
       "thin": false,
       "bodyText": "Council's £1.9 billion investments despite claim climate change is not man made\nDERBYTELEGRAPH.CO.UK Council's £1.9 billion investments despite claim climate change is not man made",
-      "contentFingerprint": "c6736613c1a371e203ac6bc2e3217f68dbec80564884f337b05c849cf92fe16a"
+      "contentFingerprint": "c6736613c1a371e203ac6bc2e3217f68dbec80564884f337b05c849cf92fe16a",
+      "photos": [
+        "media/facebook/29325844170351266/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29392570393678643",
@@ -73604,6 +73723,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -73614,7 +73736,11 @@
       },
       "thin": false,
       "bodyText": "Ross Greer hits out at 'confusion' after Holyrood vote on AI data centre moratorium\nTHENATIONAL.SCOT Ross Greer hits out at 'confusion' after Holyrood vote on AI data centre moratorium",
-      "contentFingerprint": "ebffb9b8004e719e790265c1bd2a8d42024d3ba571590468d51610cc0d4ea2c5"
+      "contentFingerprint": "ebffb9b8004e719e790265c1bd2a8d42024d3ba571590468d51610cc0d4ea2c5",
+      "photos": [
+        "media/facebook/29347803711488645/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29361340446801638",
@@ -73626,6 +73752,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -73636,7 +73765,11 @@
       },
       "thin": false,
       "bodyText": "How SNP's obsession with offshore wind is brewing up multi-billion-pound storm for consumers\nSCOTSMAN.COM How SNP's obsession with offshore wind is brewing up multi-billion-pound storm for consumers",
-      "contentFingerprint": "67ad9c68f090f0740c757775b7c6d6c058d5a16e10fe989f208793227a0695d7"
+      "contentFingerprint": "67ad9c68f090f0740c757775b7c6d6c058d5a16e10fe989f208793227a0695d7",
+      "photos": [
+        "media/facebook/29361340446801638/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29320598424209174",
@@ -73648,6 +73781,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -73658,7 +73794,11 @@
       },
       "thin": false,
       "bodyText": "Listening to communities the message from MSP during renewable energy Q&A\nBORDERTELEGRAPH.COM Listening to communities the message from MSP during renewable energy Q&A",
-      "contentFingerprint": "24c453238bad184a1694cd262bd05aad213925e7930f864d44b2d5fa83950a99"
+      "contentFingerprint": "24c453238bad184a1694cd262bd05aad213925e7930f864d44b2d5fa83950a99",
+      "photos": [
+        "media/facebook/29320598424209174/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29380887524846930",
@@ -73670,6 +73810,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -73680,7 +73823,11 @@
       },
       "thin": false,
       "bodyText": "#AffordableEnergy\n#climatechange\n#Hopetosaveourcountryside",
-      "contentFingerprint": "b694b395e06d1cea5d5ec16fd372f6ad0f5e6223bda9a5988e54dfc47229eff7"
+      "contentFingerprint": "b694b395e06d1cea5d5ec16fd372f6ad0f5e6223bda9a5988e54dfc47229eff7",
+      "photos": [
+        "media/facebook/29380887524846930/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29337819012487115",
@@ -73778,6 +73925,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -73788,7 +73938,11 @@
       },
       "thin": false,
       "bodyText": "Exclusive: North-east 'sleepwalking' into energy job crisis as renewables workforce shortfall revealed\nPRESSANDJOURNAL.CO.UK Exclusive: North-east 'sleepwalking' into energy job crisis as renewables workforce shortfall revealed",
-      "contentFingerprint": "621dc4e44d412938a86b6992bbb4f2057c62a2bcad5f6f5cf5e6dc567db9a75d"
+      "contentFingerprint": "621dc4e44d412938a86b6992bbb4f2057c62a2bcad5f6f5cf5e6dc567db9a75d",
+      "photos": [
+        "media/facebook/29373888878880128/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29361636560105360",
@@ -73800,6 +73954,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -73808,8 +73965,12 @@
         "label": "Facebook · Scotland Against Spin",
         "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29361636560105360/"
       },
-      "thin": true,
-      "contentFingerprint": "fc6585158b4d7d1f356df0536195050261bdb2febaa81be9cea007471f791087"
+      "thin": false,
+      "contentFingerprint": "fc6585158b4d7d1f356df0536195050261bdb2febaa81be9cea007471f791087",
+      "photos": [
+        "media/facebook/29361636560105360/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29397207843214898",
@@ -73821,6 +73982,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -73829,8 +73993,12 @@
         "label": "Facebook · Scotland Against Spin",
         "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29397207843214898/"
       },
-      "thin": true,
-      "contentFingerprint": "bff3d6185ccfa4f5d19dd923e67ed1a1ab665ba296278c409dcaa681295cd774"
+      "thin": false,
+      "contentFingerprint": "bff3d6185ccfa4f5d19dd923e67ed1a1ab665ba296278c409dcaa681295cd774",
+      "photos": [
+        "media/facebook/29397207843214898/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29324397417162608",
@@ -73896,6 +74064,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -73904,8 +74075,12 @@
         "label": "Facebook · Scotland Against Spin",
         "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29386125550989794/"
       },
-      "thin": true,
-      "contentFingerprint": "f7279cda351cb6061e3525daa69c00d3154feb27a5f4a5789b805f04c367346b"
+      "thin": false,
+      "contentFingerprint": "f7279cda351cb6061e3525daa69c00d3154feb27a5f4a5789b805f04c367346b",
+      "photos": [
+        "media/facebook/29386125550989794/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29361558230113193",
@@ -73917,6 +74092,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -73927,7 +74105,11 @@
       },
       "thin": false,
       "bodyText": "Could the SNP’s eco zealots get rid of our cows?\nNEWSPAPER.DAILYMAIL.COM Could the SNP’s eco zealots get rid of our cows?",
-      "contentFingerprint": "7d06cca812b03b900a7bc7a111dcb2f3a20a21de826013946606044468e504db"
+      "contentFingerprint": "7d06cca812b03b900a7bc7a111dcb2f3a20a21de826013946606044468e504db",
+      "photos": [
+        "media/facebook/29361558230113193/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29226682563600761",
@@ -73961,6 +74143,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -73971,7 +74156,11 @@
       },
       "thin": false,
       "bodyText": "Stirlingshire wind farm takes step closer as application brought to planners\nDAILYRECORD.CO.UK Stirlingshire wind farm takes step closer as application brought to planners",
-      "contentFingerprint": "83714d9cb23e24ca77c64ba2f95e3d3fca30644dbdda36906b965463bf1b3684"
+      "contentFingerprint": "83714d9cb23e24ca77c64ba2f95e3d3fca30644dbdda36906b965463bf1b3684",
+      "photos": [
+        "media/facebook/29323062750629408/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29431966919738990",
@@ -73983,6 +74172,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -73993,7 +74185,11 @@
       },
       "thin": false,
       "bodyText": "Michael Shanks accused of 'rewriting history' over 'insulting' GB Energy claim\nTHENATIONAL.SCOT Michael Shanks accused of 'rewriting history' over 'insulting' GB Energy claim",
-      "contentFingerprint": "588ca260951d8910fd58c64a9ee5c07f1f9f012866f3d70a945f666f49b0f042"
+      "contentFingerprint": "588ca260951d8910fd58c64a9ee5c07f1f9f012866f3d70a945f666f49b0f042",
+      "photos": [
+        "media/facebook/29431966919738990/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29401563436112672",
@@ -74005,6 +74201,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -74015,7 +74214,11 @@
       },
       "thin": false,
       "bodyText": "Ofgem wants to hit battery developers with £25m per GW fee\nENERGYVOICE.COM Ofgem wants to hit battery developers with £25m per GW fee",
-      "contentFingerprint": "b5e2072458a4e172f05b5932946b496d7a22ccde1487e5d95c594a72d1834b82"
+      "contentFingerprint": "b5e2072458a4e172f05b5932946b496d7a22ccde1487e5d95c594a72d1834b82",
+      "photos": [
+        "media/facebook/29401563436112672/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29335143709421312",
@@ -74027,6 +74230,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -74035,8 +74241,12 @@
         "label": "Facebook · Scotland Against Spin",
         "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29335143709421312/"
       },
-      "thin": true,
-      "contentFingerprint": "2a9a8dd731e1342db9e48b1591ddeddabd5ae1dfaa083090a0601eb35d73e753"
+      "thin": false,
+      "contentFingerprint": "2a9a8dd731e1342db9e48b1591ddeddabd5ae1dfaa083090a0601eb35d73e753",
+      "photos": [
+        "media/facebook/29335143709421312/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29210083498594001",
@@ -74080,6 +74290,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -74090,7 +74303,11 @@
       },
       "thin": false,
       "bodyText": "'Unlikely' all proposed Scottish AI data centres will be built\nSCOTSMAN.COM 'Unlikely' all proposed Scottish AI data centres will be built",
-      "contentFingerprint": "e1ee3d0023197e4398cce774bc730832566326ef702a58664017f8a790ec12de"
+      "contentFingerprint": "e1ee3d0023197e4398cce774bc730832566326ef702a58664017f8a790ec12de",
+      "photos": [
+        "media/facebook/29319804817621868/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29210121628590188",
@@ -74146,6 +74363,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -74156,7 +74376,11 @@
       },
       "thin": false,
       "bodyText": "Rural revolt over Scotland's green energy revolution as 200 councils demand inquiry\nHERALDSCOTLAND.COM Rural revolt over Scotland's green energy revolution as 200 councils demand inquiry",
-      "contentFingerprint": "8ed32cd377ac1d4c019354e0d5e2a3300d6864f4852f5920d7eb8f2347807a70"
+      "contentFingerprint": "8ed32cd377ac1d4c019354e0d5e2a3300d6864f4852f5920d7eb8f2347807a70",
+      "photos": [
+        "media/facebook/29374600085475674/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29364277263174623",
@@ -74168,6 +74392,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -74178,7 +74405,11 @@
       },
       "thin": false,
       "bodyText": "TRL-120-1 - Kintore To Tealing Ohl - Hearing - 23 September 2026\nYOUTUBE.COM TRL-120-1 - Kintore To Tealing Ohl - Hearing - 23 September 2026",
-      "contentFingerprint": "0a0718adf0d77e5bc36f257b5d730d12ed72b26ceaff192aa5e02ac6aea52dbe"
+      "contentFingerprint": "0a0718adf0d77e5bc36f257b5d730d12ed72b26ceaff192aa5e02ac6aea52dbe",
+      "photos": [
+        "media/facebook/29364277263174623/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29334221612846855",
@@ -74190,6 +74421,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -74200,7 +74434,11 @@
       },
       "thin": false,
       "bodyText": "Files reveal new details about GB Energy's Aberdeen headquarters\nTHENATIONAL.SCOT Files reveal new details about GB Energy's Aberdeen headquarters",
-      "contentFingerprint": "d5681be74381f0748f19caf335bf18283231e66b11e5fe24856ebe4d51a512a3"
+      "contentFingerprint": "d5681be74381f0748f19caf335bf18283231e66b11e5fe24856ebe4d51a512a3",
+      "photos": [
+        "media/facebook/29334221612846855/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29387743534161329",
@@ -74245,6 +74483,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -74255,7 +74496,11 @@
       },
       "thin": false,
       "bodyText": "North Kyle named project of the year at reNEWS awards | Other News | reNEWS\nRENEWS.BIZ North Kyle named project of the year at reNEWS awards | Other News | reNEWS",
-      "contentFingerprint": "628becdf03b104fae1fac98cd4ff1e53fd3d8736f4a264b269e699fcb0ef31a4"
+      "contentFingerprint": "628becdf03b104fae1fac98cd4ff1e53fd3d8736f4a264b269e699fcb0ef31a4",
+      "photos": [
+        "media/facebook/29347021731566843/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29387156800886669",
@@ -74267,6 +74512,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -74277,7 +74525,11 @@
       },
       "thin": false,
       "bodyText": "Burnham says UK must “believe in itself” to hit net zero - Energy Live News\nENERGYLIVENEWS.COM Burnham says UK must “believe in itself” to hit net zero - Energy Live News",
-      "contentFingerprint": "48599242b5617116229d5c80374a85022a150d379e0555f01d1fab64d5f69c12"
+      "contentFingerprint": "48599242b5617116229d5c80374a85022a150d379e0555f01d1fab64d5f69c12",
+      "photos": [
+        "media/facebook/29387156800886669/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29340696815532668",
@@ -74321,6 +74573,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -74331,7 +74586,11 @@
       },
       "thin": false,
       "bodyText": "www.rightmove.co.uk\nRIGHTMOVE.CO.UK www.rightmove.co.uk",
-      "contentFingerprint": "5c011075fe7e769638ea0b9bfe08185834c61fd24ea08ef401ac85de7b9adf3c"
+      "contentFingerprint": "5c011075fe7e769638ea0b9bfe08185834c61fd24ea08ef401ac85de7b9adf3c",
+      "photos": [
+        "media/facebook/29379003758368640/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29326857970249886",
@@ -74343,6 +74602,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -74353,7 +74615,11 @@
       },
       "thin": false,
       "bodyText": "MSPs reject Scottish Green bid to halt the construction of new AI data centres\nHOLYROOD.COM MSPs reject Scottish Green bid to halt the construction of new AI data centres",
-      "contentFingerprint": "789d9995cf34dc3d5d8765c2c712ca85bf2ee73989d76611f2013841a9b28925"
+      "contentFingerprint": "789d9995cf34dc3d5d8765c2c712ca85bf2ee73989d76611f2013841a9b28925",
+      "photos": [
+        "media/facebook/29326857970249886/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29333567036245646",
@@ -74365,6 +74631,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -74375,7 +74644,11 @@
       },
       "thin": false,
       "bodyText": "Germany’s wind turbine boom fuels AfD support\nTELEGRAPH.CO.UK Germany’s wind turbine boom fuels AfD support",
-      "contentFingerprint": "9abb7d97d989966e3c37ffb9da699bfd9585c8f31b922ee014269152fef70825"
+      "contentFingerprint": "9abb7d97d989966e3c37ffb9da699bfd9585c8f31b922ee014269152fef70825",
+      "photos": [
+        "media/facebook/29333567036245646/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29388021057466910",
@@ -74419,6 +74692,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -74429,7 +74705,11 @@
       },
       "thin": false,
       "bodyText": "‘People’s Power’ projects to give more control over local energy\nGOV.UK ‘People’s Power’ projects to give more control over local energy",
-      "contentFingerprint": "97db79e47a636d38243048b5fbf398cee17b59687b4ce54f2d05691b5a60d03c"
+      "contentFingerprint": "97db79e47a636d38243048b5fbf398cee17b59687b4ce54f2d05691b5a60d03c",
+      "photos": [
+        "media/facebook/29333495136252836/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29373053362297013",
@@ -74441,6 +74721,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -74451,7 +74734,11 @@
       },
       "thin": false,
       "bodyText": "Open Letter to Martin Lewis\nDAVIDTURVER.SUBSTACK.COM Open Letter to Martin Lewis",
-      "contentFingerprint": "3eb5d9cfd22379eeedb5e67f107fadc324e0157c1f0193d0e6b08b44bcb3ca4d"
+      "contentFingerprint": "3eb5d9cfd22379eeedb5e67f107fadc324e0157c1f0193d0e6b08b44bcb3ca4d",
+      "photos": [
+        "media/facebook/29373053362297013/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29333726976229652",
@@ -74463,6 +74750,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -74473,7 +74763,11 @@
       },
       "thin": false,
       "bodyText": "#AffordableEnergy\n#climatechange\n#Hopetosaveourcountryside\nNET ZERO The Government’s control",
-      "contentFingerprint": "79ae4f94910301850060bfd30c60ef9167dd7dd0eff5ec955469bf287c4d4fc3"
+      "contentFingerprint": "79ae4f94910301850060bfd30c60ef9167dd7dd0eff5ec955469bf287c4d4fc3",
+      "photos": [
+        "media/facebook/29333726976229652/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29320603537541996",
@@ -74485,6 +74779,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -74495,7 +74792,11 @@
       },
       "thin": false,
       "bodyText": "Message to Isle of Man before election\nYOUTUBE.COM Message to Isle of Man before election",
-      "contentFingerprint": "236b64c2de222464125687bf4bcb614141c1be667b800a3e5320822443647676"
+      "contentFingerprint": "236b64c2de222464125687bf4bcb614141c1be667b800a3e5320822443647676",
+      "photos": [
+        "media/facebook/29320603537541996/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29347440148191668",
@@ -74573,6 +74874,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -74583,7 +74887,11 @@
       },
       "thin": false,
       "bodyText": "Call to harness money from renewables and data centres to benefit Scots\nIRELAND-LIVE.IE Call to harness money from renewables and data centres to benefit Scots",
-      "contentFingerprint": "a15f73f4746c09ea2a2199b8f4d99423faf27a47741a90b169358c7724467638"
+      "contentFingerprint": "a15f73f4746c09ea2a2199b8f4d99423faf27a47741a90b169358c7724467638",
+      "photos": [
+        "media/facebook/29387580374177645/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29355184864083863",
@@ -74595,6 +74903,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -74605,7 +74916,11 @@
       },
       "thin": false,
       "bodyText": "Mark Hodgson\nWhat Price Solar?\nCLISCEP.COM What Price Solar?",
-      "contentFingerprint": "8f0d867c4c45942222c945556a45ecbb7397d5ba6d2512e9deee408a0826bd0b"
+      "contentFingerprint": "8f0d867c4c45942222c945556a45ecbb7397d5ba6d2512e9deee408a0826bd0b",
+      "photos": [
+        "media/facebook/29355184864083863/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "29401673002768382",
@@ -74617,6 +74932,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         }
       },
       "source": {
@@ -74627,7 +74945,11 @@
       },
       "thin": false,
       "bodyText": "Pylons, wind farms and protest: Is Scotland ready for the green energy revolution?\nHERALDSCOTLAND.COM Pylons, wind farms and protest: Is Scotland ready for the green energy revolution?",
-      "contentFingerprint": "210a02abc0a7151600ed182de8b368cd4eeacaed779a50ffa98ed2e741e1b5c9"
+      "contentFingerprint": "210a02abc0a7151600ed182de8b368cd4eeacaed779a50ffa98ed2e741e1b5c9",
+      "photos": [
+        "media/facebook/29401673002768382/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "1578793257290203",
