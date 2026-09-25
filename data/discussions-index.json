@@ -1,17 +1,16 @@
 {
-  "generated": "2026-09-14T15:21:09.024Z",
-  "archiveDir": "/Users/slava/Documents/Antigravity/proud-rutherford/build-discussions/enrich/sources-manifest.json",
+  "generated": "2026-09-25T20:30:04.000Z",
   "counts": {
-    "records": 3026,
-    "thin": 283,
-    "withMedia": 223,
+    "records": 3243,
+    "thin": 320,
+    "withMedia": 707,
     "withCategories": 746,
     "withTopics": 316,
     "withProject": 10,
     "withCoordinates": 95,
     "withSummary": 52,
-    "withBodyText": 328,
-    "withPhotos": 220,
+    "withBodyText": 1857,
+    "withPhotos": 707,
     "withPreviewImage": 64,
     "councils": 4,
     "matchReviewLogged": 2,
@@ -23,7 +22,7 @@
   },
   "dateRange": {
     "from": "2024-04-12",
-    "to": "2026-09-12"
+    "to": "2026-09-25"
   },
   "records": [
     {
@@ -89,7 +88,7 @@
     {
       "id": "28289989033987852",
       "date": "2026-09-12",
-      "title": "Discussion shared in Scotland Against Spin, 12 September 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 12 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -110,7 +109,7 @@
     {
       "id": "28284576994529056",
       "date": "2026-09-12",
-      "title": "Discussion shared in Scotland Against Spin, 12 September 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 12 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -766,7 +765,7 @@
     {
       "id": "28280927214894034",
       "date": "2026-09-11",
-      "title": "Discussion shared in Scotland Against Spin, 11 September 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 11 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -787,7 +786,7 @@
     {
       "id": "28278442715142484",
       "date": "2026-09-11",
-      "title": "Discussion shared in Scotland Against Spin, 11 September 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 11 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -962,7 +961,7 @@
     {
       "id": "1598931088609753",
       "date": "2026-09-11",
-      "title": "Discussion shared in Scotland Against Spin, 11 September 2026",
+      "title": "Discussion shared in Grampian Against Data Centres, 11 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -1705,7 +1704,7 @@
     {
       "id": "28251911607795595",
       "date": "2026-09-10",
-      "title": "Discussion shared in Scotland Against Spin, 10 September 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 10 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -1727,7 +1726,7 @@
     {
       "id": "28248250268161729",
       "date": "2026-09-10",
-      "title": "Discussion shared in Scotland Against Spin, 10 September 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 10 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -1888,7 +1887,7 @@
     {
       "id": "1088635243567024",
       "date": "2026-09-10",
-      "title": "Discussion shared in Scotland Against Spin, 10 September 2026",
+      "title": "Discussion shared in Not A Just Transition, 10 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -1909,7 +1908,7 @@
     {
       "id": "1088448883585660",
       "date": "2026-09-10",
-      "title": "Discussion shared in Scotland Against Spin, 10 September 2026",
+      "title": "Discussion shared in Not A Just Transition, 10 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -2096,7 +2095,7 @@
     {
       "id": "1088250410272174",
       "date": "2026-09-09",
-      "title": "Discussion shared in Scotland Against Spin, 9 September 2026",
+      "title": "Discussion shared in Not A Just Transition, 9 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -2125,7 +2124,7 @@
     {
       "id": "1088148243615724",
       "date": "2026-09-09",
-      "title": "Discussion shared in Scotland Against Spin, 9 September 2026",
+      "title": "Discussion shared in Not A Just Transition, 9 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -2288,7 +2287,7 @@
     {
       "id": "28218393597814063",
       "date": "2026-09-08",
-      "title": "Discussion shared in Scotland Against Spin, 8 September 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 8 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -2381,7 +2380,7 @@
     {
       "id": "1596438832192312",
       "date": "2026-09-08",
-      "title": "Discussion shared in Scotland Against Spin, 8 September 2026",
+      "title": "Discussion shared in Grampian Against Data Centres, 8 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -2800,7 +2799,7 @@
     {
       "id": "1596199255549603",
       "date": "2026-09-07",
-      "title": "Discussion shared in Scotland Against Spin, 7 September 2026",
+      "title": "Discussion shared in Grampian Against Data Centres, 7 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -2880,7 +2879,7 @@
     {
       "id": "1595554992280696",
       "date": "2026-09-07",
-      "title": "Discussion shared in Scotland Against Spin, 7 September 2026",
+      "title": "Discussion shared in Grampian Against Data Centres, 7 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -3274,7 +3273,7 @@
     {
       "id": "1595471842289011",
       "date": "2026-09-06",
-      "title": "Discussion shared in Scotland Against Spin, 6 September 2026",
+      "title": "Discussion shared in Grampian Against Data Centres, 6 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -3435,7 +3434,7 @@
     {
       "id": "1594972275672301",
       "date": "2026-09-06",
-      "title": "Discussion shared in Scotland Against Spin, 6 September 2026",
+      "title": "Discussion shared in Grampian Against Data Centres, 6 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -3499,7 +3498,7 @@
     {
       "id": "1594716932364502",
       "date": "2026-09-06",
-      "title": "Discussion shared in Scotland Against Spin, 6 September 2026",
+      "title": "Discussion shared in Grampian Against Data Centres, 6 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -3516,7 +3515,7 @@
     {
       "id": "1085392737224608",
       "date": "2026-09-06",
-      "title": "Discussion shared in Scotland Against Spin, 6 September 2026",
+      "title": "Discussion shared in Not A Just Transition, 6 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -3985,7 +3984,7 @@
     {
       "id": "28192742220379201",
       "date": "2026-09-05",
-      "title": "Discussion shared in Scotland Against Spin, 5 September 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 5 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -4110,7 +4109,7 @@
     {
       "id": "1594253525744176",
       "date": "2026-09-05",
-      "title": "Discussion shared in Scotland Against Spin, 5 September 2026",
+      "title": "Discussion shared in Grampian Against Data Centres, 5 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -4127,7 +4126,7 @@
     {
       "id": "1594243022411893",
       "date": "2026-09-05",
-      "title": "Discussion shared in Scotland Against Spin, 5 September 2026",
+      "title": "Discussion shared in Grampian Against Data Centres, 5 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -4695,7 +4694,7 @@
     {
       "id": "28181795224807234",
       "date": "2026-09-04",
-      "title": "Discussion shared in Scotland Against Spin, 4 September 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 4 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -4733,7 +4732,7 @@
     {
       "id": "28177684985218258",
       "date": "2026-09-04",
-      "title": "Discussion shared in Scotland Against Spin, 4 September 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 4 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -4751,7 +4750,7 @@
     {
       "id": "28171833919136698",
       "date": "2026-09-04",
-      "title": "Discussion shared in Scotland Against Spin, 4 September 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 4 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -4772,7 +4771,7 @@
     {
       "id": "28155752214078202",
       "date": "2026-09-04",
-      "title": "Discussion shared in Scotland Against Spin, 4 September 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 4 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -4871,7 +4870,7 @@
     {
       "id": "1593598962476299",
       "date": "2026-09-04",
-      "title": "Discussion shared in Scotland Against Spin, 4 September 2026",
+      "title": "Discussion shared in Grampian Against Data Centres, 4 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -4888,7 +4887,7 @@
     {
       "id": "1593590939143768",
       "date": "2026-09-04",
-      "title": "Discussion shared in Scotland Against Spin, 4 September 2026",
+      "title": "Discussion shared in Grampian Against Data Centres, 4 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -5699,7 +5698,7 @@
     {
       "id": "28173578195628937",
       "date": "2026-09-03",
-      "title": "Discussion shared in Scotland Against Spin, 3 September 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 3 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -5717,7 +5716,7 @@
     {
       "id": "28172494769070613",
       "date": "2026-09-03",
-      "title": "Discussion shared in Scotland Against Spin, 3 September 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 3 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -5841,7 +5840,7 @@
     {
       "id": "28155963054057118",
       "date": "2026-09-03",
-      "title": "Discussion shared in Scotland Against Spin, 3 September 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 3 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -5859,7 +5858,7 @@
     {
       "id": "28155426177444139",
       "date": "2026-09-03",
-      "title": "Discussion shared in Scotland Against Spin, 3 September 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 3 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -5904,7 +5903,7 @@
     {
       "id": "28150381637948593",
       "date": "2026-09-03",
-      "title": "Discussion shared in Scotland Against Spin, 3 September 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 3 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -5922,7 +5921,7 @@
     {
       "id": "28150083427978414",
       "date": "2026-09-03",
-      "title": "Discussion shared in Scotland Against Spin, 3 September 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 3 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -6474,7 +6473,7 @@
     {
       "id": "28163986553254768",
       "date": "2026-09-02",
-      "title": "Discussion shared in Scotland Against Spin, 2 September 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 2 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -6492,7 +6491,7 @@
     {
       "id": "28163357006651056",
       "date": "2026-09-02",
-      "title": "Discussion shared in Scotland Against Spin, 2 September 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 2 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -6510,7 +6509,7 @@
     {
       "id": "28163161220003968",
       "date": "2026-09-02",
-      "title": "Discussion shared in Scotland Against Spin, 2 September 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 2 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -6533,7 +6532,7 @@
     {
       "id": "28158287060491384",
       "date": "2026-09-02",
-      "title": "Discussion shared in Scotland Against Spin, 2 September 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 2 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -6571,7 +6570,7 @@
     {
       "id": "28156124444040979",
       "date": "2026-09-02",
-      "title": "Discussion shared in Scotland Against Spin, 2 September 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 2 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -6610,7 +6609,7 @@
     {
       "id": "28150770614576362",
       "date": "2026-09-02",
-      "title": "Discussion shared in Scotland Against Spin, 2 September 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 2 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -6631,7 +6630,7 @@
     {
       "id": "1592113299291532",
       "date": "2026-09-02",
-      "title": "Discussion shared in Scotland Against Spin, 2 September 2026",
+      "title": "Discussion shared in Grampian Against Data Centres, 2 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -6648,7 +6647,7 @@
     {
       "id": "1591785195991009",
       "date": "2026-09-02",
-      "title": "Discussion shared in Scotland Against Spin, 2 September 2026",
+      "title": "Discussion shared in Grampian Against Data Centres, 2 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -7118,7 +7117,7 @@
     {
       "id": "28145515108435246",
       "date": "2026-09-01",
-      "title": "Discussion shared in Scotland Against Spin, 1 September 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 1 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -7165,7 +7164,7 @@
     {
       "id": "28144027728583984",
       "date": "2026-09-01",
-      "title": "Discussion shared in Scotland Against Spin, 1 September 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 1 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -7187,7 +7186,7 @@
     {
       "id": "28143850521935038",
       "date": "2026-09-01",
-      "title": "Discussion shared in Scotland Against Spin, 1 September 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 1 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -7208,7 +7207,7 @@
     {
       "id": "28142903342029756",
       "date": "2026-09-01",
-      "title": "Discussion shared in Scotland Against Spin, 1 September 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 1 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -7225,7 +7224,7 @@
     {
       "id": "28142659635387460",
       "date": "2026-09-01",
-      "title": "Discussion shared in Scotland Against Spin, 1 September 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 1 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -7284,7 +7283,7 @@
     {
       "id": "28138692042450886",
       "date": "2026-09-01",
-      "title": "Discussion shared in Scotland Against Spin, 1 September 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 1 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -7382,7 +7381,7 @@
     {
       "id": "28135329586120465",
       "date": "2026-09-01",
-      "title": "Discussion shared in Scotland Against Spin, 1 September 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 1 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -7400,7 +7399,7 @@
     {
       "id": "28134832489503508",
       "date": "2026-09-01",
-      "title": "Discussion shared in Scotland Against Spin, 1 September 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 1 September 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -7875,7 +7874,7 @@
     {
       "id": "28133370802983010",
       "date": "2026-08-31",
-      "title": "Discussion shared in Scotland Against Spin, 31 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 31 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -7896,7 +7895,7 @@
     {
       "id": "28130202403299850",
       "date": "2026-08-31",
-      "title": "Discussion shared in Scotland Against Spin, 31 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 31 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -7939,7 +7938,7 @@
     {
       "id": "28129850406668383",
       "date": "2026-08-31",
-      "title": "Discussion shared in Scotland Against Spin, 31 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 31 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -7975,7 +7974,7 @@
     {
       "id": "28126274633692627",
       "date": "2026-08-31",
-      "title": "Discussion shared in Scotland Against Spin, 31 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 31 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -7996,7 +7995,7 @@
     {
       "id": "28123674173952673",
       "date": "2026-08-31",
-      "title": "Discussion shared in Scotland Against Spin, 31 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 31 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -8014,7 +8013,7 @@
     {
       "id": "28116704591316298",
       "date": "2026-08-31",
-      "title": "Discussion shared in Scotland Against Spin, 31 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 31 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -8179,7 +8178,7 @@
     {
       "id": "28122613090725448",
       "date": "2026-08-30",
-      "title": "Discussion shared in Scotland Against Spin, 30 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 30 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -8200,7 +8199,7 @@
     {
       "id": "28120540084266082",
       "date": "2026-08-30",
-      "title": "Discussion shared in Scotland Against Spin, 30 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 30 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -8221,7 +8220,7 @@
     {
       "id": "28118338131152944",
       "date": "2026-08-30",
-      "title": "Discussion shared in Scotland Against Spin, 30 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 30 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -8264,7 +8263,7 @@
     {
       "id": "28114739581512799",
       "date": "2026-08-30",
-      "title": "Discussion shared in Scotland Against Spin, 30 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 30 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -8282,7 +8281,7 @@
     {
       "id": "28112789135041177",
       "date": "2026-08-30",
-      "title": "Discussion shared in Scotland Against Spin, 30 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 30 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -8320,7 +8319,7 @@
     {
       "id": "28112151948438229",
       "date": "2026-08-30",
-      "title": "Discussion shared in Scotland Against Spin, 30 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 30 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -8377,7 +8376,7 @@
     {
       "id": "28091022983884459",
       "date": "2026-08-30",
-      "title": "Discussion shared in Scotland Against Spin, 30 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 30 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -8590,7 +8589,7 @@
     {
       "id": "28111467085173382",
       "date": "2026-08-29",
-      "title": "Discussion shared in Scotland Against Spin, 29 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 29 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -8608,7 +8607,7 @@
     {
       "id": "28106738932312864",
       "date": "2026-08-29",
-      "title": "Discussion shared in Scotland Against Spin, 29 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 29 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -8630,7 +8629,7 @@
     {
       "id": "28106460692340688",
       "date": "2026-08-29",
-      "title": "Discussion shared in Scotland Against Spin, 29 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 29 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -8685,7 +8684,7 @@
     {
       "id": "28104784005841690",
       "date": "2026-08-29",
-      "title": "Discussion shared in Scotland Against Spin, 29 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 29 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -8710,7 +8709,7 @@
     {
       "id": "28103763822610375",
       "date": "2026-08-29",
-      "title": "Discussion shared in Scotland Against Spin, 29 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 29 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -8728,7 +8727,7 @@
     {
       "id": "28102006312786126",
       "date": "2026-08-29",
-      "title": "Discussion shared in Scotland Against Spin, 29 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 29 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -8749,7 +8748,7 @@
     {
       "id": "28100917389561685",
       "date": "2026-08-29",
-      "title": "Discussion shared in Scotland Against Spin, 29 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 29 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -8766,7 +8765,7 @@
     {
       "id": "28100578002928957",
       "date": "2026-08-29",
-      "title": "Discussion shared in Scotland Against Spin, 29 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 29 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -8784,7 +8783,7 @@
     {
       "id": "28100261056293985",
       "date": "2026-08-29",
-      "title": "Discussion shared in Scotland Against Spin, 29 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 29 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -8802,7 +8801,7 @@
     {
       "id": "28032296986423726",
       "date": "2026-08-29",
-      "title": "Discussion shared in Scotland Against Spin, 29 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 29 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -8820,7 +8819,7 @@
     {
       "id": "28026479127005512",
       "date": "2026-08-29",
-      "title": "Discussion shared in Scotland Against Spin, 29 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 29 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -8837,7 +8836,7 @@
     {
       "id": "28017451094574982",
       "date": "2026-08-29",
-      "title": "Discussion shared in Scotland Against Spin, 29 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 29 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -9259,7 +9258,7 @@
     {
       "id": "28097908139862610",
       "date": "2026-08-28",
-      "title": "Discussion shared in Scotland Against Spin, 28 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 28 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -9306,7 +9305,7 @@
     {
       "id": "28089787894007968",
       "date": "2026-08-28",
-      "title": "Discussion shared in Scotland Against Spin, 28 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 28 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -9323,7 +9322,7 @@
     {
       "id": "28089673890686035",
       "date": "2026-08-28",
-      "title": "Discussion shared in Scotland Against Spin, 28 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 28 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -9364,7 +9363,7 @@
     {
       "id": "28088193027500788",
       "date": "2026-08-28",
-      "title": "Discussion shared in Scotland Against Spin, 28 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 28 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -9385,7 +9384,7 @@
     {
       "id": "28072724472380977",
       "date": "2026-08-28",
-      "title": "Discussion shared in Scotland Against Spin, 28 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 28 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -9441,7 +9440,7 @@
     {
       "id": "1078175897946292",
       "date": "2026-08-28",
-      "title": "Discussion shared in Scotland Against Spin, 28 August 2026",
+      "title": "Discussion shared in Not A Just Transition, 28 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -9675,7 +9674,7 @@
     {
       "id": "28086373921016032",
       "date": "2026-08-27",
-      "title": "Discussion shared in Scotland Against Spin, 27 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 27 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -9692,7 +9691,7 @@
     {
       "id": "28085418211111603",
       "date": "2026-08-27",
-      "title": "Discussion shared in Scotland Against Spin, 27 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 27 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -9734,7 +9733,7 @@
     {
       "id": "28083169261336498",
       "date": "2026-08-27",
-      "title": "Discussion shared in Scotland Against Spin, 27 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 27 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -9777,7 +9776,7 @@
     {
       "id": "28078910758429015",
       "date": "2026-08-27",
-      "title": "Discussion shared in Scotland Against Spin, 27 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 27 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -9804,7 +9803,7 @@
     {
       "id": "28074757185511039",
       "date": "2026-08-27",
-      "title": "Discussion shared in Scotland Against Spin, 27 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 27 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -9826,7 +9825,7 @@
     {
       "id": "28074477635538994",
       "date": "2026-08-27",
-      "title": "Discussion shared in Scotland Against Spin, 27 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 27 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -9894,7 +9893,7 @@
     {
       "id": "28073771098942981",
       "date": "2026-08-27",
-      "title": "Discussion shared in Scotland Against Spin, 27 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 27 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -10272,7 +10271,7 @@
     {
       "id": "28061543510165740",
       "date": "2026-08-26",
-      "title": "Discussion shared in Scotland Against Spin, 26 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 26 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -10289,7 +10288,7 @@
     {
       "id": "28060462376940520",
       "date": "2026-08-26",
-      "title": "Discussion shared in Scotland Against Spin, 26 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 26 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -10307,7 +10306,7 @@
     {
       "id": "28052783164375108",
       "date": "2026-08-26",
-      "title": "Discussion shared in Scotland Against Spin, 26 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 26 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -10641,7 +10640,7 @@
     {
       "id": "28054132164240208",
       "date": "2026-08-25",
-      "title": "Discussion shared in Scotland Against Spin, 25 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 25 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -10662,7 +10661,7 @@
     {
       "id": "28053622787624479",
       "date": "2026-08-25",
-      "title": "Discussion shared in Scotland Against Spin, 25 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 25 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -10683,7 +10682,7 @@
     {
       "id": "28053374014316023",
       "date": "2026-08-25",
-      "title": "Discussion shared in Scotland Against Spin, 25 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 25 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -10735,7 +10734,7 @@
     {
       "id": "28051622494491175",
       "date": "2026-08-25",
-      "title": "Discussion shared in Scotland Against Spin, 25 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 25 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -10795,7 +10794,7 @@
     {
       "id": "28050777931242298",
       "date": "2026-08-25",
-      "title": "Discussion shared in Scotland Against Spin, 25 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 25 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -10817,7 +10816,7 @@
     {
       "id": "28050620664591358",
       "date": "2026-08-25",
-      "title": "Discussion shared in Scotland Against Spin, 25 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 25 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -11125,7 +11124,7 @@
     {
       "id": "28046616931658398",
       "date": "2026-08-24",
-      "title": "Discussion shared in Scotland Against Spin, 24 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 24 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -11204,7 +11203,7 @@
     {
       "id": "28044387445214680",
       "date": "2026-08-24",
-      "title": "Discussion shared in Scotland Against Spin, 24 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 24 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -11256,7 +11255,7 @@
     {
       "id": "28041294995523925",
       "date": "2026-08-24",
-      "title": "Discussion shared in Scotland Against Spin, 24 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 24 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -11273,7 +11272,7 @@
     {
       "id": "28041262252193866",
       "date": "2026-08-24",
-      "title": "Discussion shared in Scotland Against Spin, 24 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 24 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -11294,7 +11293,7 @@
     {
       "id": "28040195545633870",
       "date": "2026-08-24",
-      "title": "Discussion shared in Scotland Against Spin, 24 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 24 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -11312,7 +11311,7 @@
     {
       "id": "28039174049069353",
       "date": "2026-08-24",
-      "title": "Discussion shared in Scotland Against Spin, 24 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 24 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -11337,7 +11336,7 @@
     {
       "id": "28037955649191193",
       "date": "2026-08-24",
-      "title": "Discussion shared in Scotland Against Spin, 24 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 24 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -11355,7 +11354,7 @@
     {
       "id": "28037313642588727",
       "date": "2026-08-24",
-      "title": "Discussion shared in Scotland Against Spin, 24 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 24 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -11394,7 +11393,7 @@
     {
       "id": "28034566999530058",
       "date": "2026-08-24",
-      "title": "Discussion shared in Scotland Against Spin, 24 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 24 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -11412,7 +11411,7 @@
     {
       "id": "28022575197395905",
       "date": "2026-08-24",
-      "title": "Discussion shared in Scotland Against Spin, 24 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 24 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -11433,7 +11432,7 @@
     {
       "id": "1074714048292477",
       "date": "2026-08-24",
-      "title": "Discussion shared in Scotland Against Spin, 24 August 2026",
+      "title": "Discussion shared in Not A Just Transition, 24 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -11684,7 +11683,7 @@
     {
       "id": "28034380156215409",
       "date": "2026-08-23",
-      "title": "Discussion shared in Scotland Against Spin, 23 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 23 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -11702,7 +11701,7 @@
     {
       "id": "28031283286525096",
       "date": "2026-08-23",
-      "title": "Discussion shared in Scotland Against Spin, 23 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 23 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -12025,7 +12024,7 @@
     {
       "id": "28023167624003329",
       "date": "2026-08-22",
-      "title": "Discussion shared in Scotland Against Spin, 22 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 22 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -12047,7 +12046,7 @@
     {
       "id": "28020634610923297",
       "date": "2026-08-22",
-      "title": "Discussion shared in Scotland Against Spin, 22 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 22 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -12064,7 +12063,7 @@
     {
       "id": "28020622440924514",
       "date": "2026-08-22",
-      "title": "Discussion shared in Scotland Against Spin, 22 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 22 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -12081,7 +12080,7 @@
     {
       "id": "28020530630933695",
       "date": "2026-08-22",
-      "title": "Discussion shared in Scotland Against Spin, 22 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 22 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -12098,7 +12097,7 @@
     {
       "id": "28020308824289209",
       "date": "2026-08-22",
-      "title": "Discussion shared in Scotland Against Spin, 22 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 22 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -12116,7 +12115,7 @@
     {
       "id": "28018937564426335",
       "date": "2026-08-22",
-      "title": "Discussion shared in Scotland Against Spin, 22 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 22 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -12145,7 +12144,7 @@
     {
       "id": "28018209674499124",
       "date": "2026-08-22",
-      "title": "Discussion shared in Scotland Against Spin, 22 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 22 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -12166,7 +12165,7 @@
     {
       "id": "28017958507857574",
       "date": "2026-08-22",
-      "title": "Discussion shared in Scotland Against Spin, 22 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 22 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -12225,7 +12224,7 @@
     {
       "id": "28017052147948210",
       "date": "2026-08-22",
-      "title": "Discussion shared in Scotland Against Spin, 22 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 22 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -12242,7 +12241,7 @@
     {
       "id": "28016358218017603",
       "date": "2026-08-22",
-      "title": "Discussion shared in Scotland Against Spin, 22 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 22 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -12260,7 +12259,7 @@
     {
       "id": "28015853364734755",
       "date": "2026-08-22",
-      "title": "Discussion shared in Scotland Against Spin, 22 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 22 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -12285,7 +12284,7 @@
     {
       "id": "28011674315152660",
       "date": "2026-08-22",
-      "title": "Discussion shared in Scotland Against Spin, 22 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 22 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -12307,7 +12306,7 @@
     {
       "id": "28010982698555155",
       "date": "2026-08-22",
-      "title": "Discussion shared in Scotland Against Spin, 22 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 22 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -12753,7 +12752,7 @@
     {
       "id": "28010753148578110",
       "date": "2026-08-21",
-      "title": "Discussion shared in Scotland Against Spin, 21 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 21 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -12774,7 +12773,7 @@
     {
       "id": "28010200721966686",
       "date": "2026-08-21",
-      "title": "Discussion shared in Scotland Against Spin, 21 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 21 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -12827,7 +12826,7 @@
     {
       "id": "28002017209451704",
       "date": "2026-08-21",
-      "title": "Discussion shared in Scotland Against Spin, 21 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 21 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -12899,7 +12898,7 @@
     {
       "id": "28001367626183329",
       "date": "2026-08-21",
-      "title": "Discussion shared in Scotland Against Spin, 21 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 21 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -12920,7 +12919,7 @@
     {
       "id": "27999881342998624",
       "date": "2026-08-21",
-      "title": "Discussion shared in Scotland Against Spin, 21 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 21 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -12942,7 +12941,7 @@
     {
       "id": "27999789989674426",
       "date": "2026-08-21",
-      "title": "Discussion shared in Scotland Against Spin, 21 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 21 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -12965,7 +12964,7 @@
     {
       "id": "27998697526450339",
       "date": "2026-08-21",
-      "title": "Discussion shared in Scotland Against Spin, 21 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 21 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -13017,7 +13016,7 @@
     {
       "id": "27992478220405603",
       "date": "2026-08-21",
-      "title": "Discussion shared in Scotland Against Spin, 21 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 21 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -13039,7 +13038,7 @@
     {
       "id": "27992151867104905",
       "date": "2026-08-21",
-      "title": "Discussion shared in Scotland Against Spin, 21 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 21 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -13056,7 +13055,7 @@
     {
       "id": "27990366803950078",
       "date": "2026-08-21",
-      "title": "Discussion shared in Scotland Against Spin, 21 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 21 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -13077,7 +13076,7 @@
     {
       "id": "27989724577347634",
       "date": "2026-08-21",
-      "title": "Discussion shared in Scotland Against Spin, 21 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 21 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -13321,7 +13320,7 @@
     {
       "id": "27998282793158479",
       "date": "2026-08-20",
-      "title": "Discussion shared in Scotland Against Spin, 20 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 20 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -13377,7 +13376,7 @@
     {
       "id": "27997016749951750",
       "date": "2026-08-20",
-      "title": "Discussion shared in Scotland Against Spin, 20 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 20 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -13398,7 +13397,7 @@
     {
       "id": "27993218396998252",
       "date": "2026-08-20",
-      "title": "Discussion shared in Scotland Against Spin, 20 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 20 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -13423,7 +13422,7 @@
     {
       "id": "27992332670420158",
       "date": "2026-08-20",
-      "title": "Discussion shared in Scotland Against Spin, 20 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 20 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -13440,7 +13439,7 @@
     {
       "id": "27991378703848888",
       "date": "2026-08-20",
-      "title": "Discussion shared in Scotland Against Spin, 20 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 20 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -13457,7 +13456,7 @@
     {
       "id": "27991346443852114",
       "date": "2026-08-20",
-      "title": "Discussion shared in Scotland Against Spin, 20 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 20 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -13519,7 +13518,7 @@
     {
       "id": "27990321660621259",
       "date": "2026-08-20",
-      "title": "Discussion shared in Scotland Against Spin, 20 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 20 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -13579,7 +13578,7 @@
     {
       "id": "27987652967554795",
       "date": "2026-08-20",
-      "title": "Discussion shared in Scotland Against Spin, 20 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 20 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -13597,7 +13596,7 @@
     {
       "id": "27987548550898570",
       "date": "2026-08-20",
-      "title": "Discussion shared in Scotland Against Spin, 20 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 20 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -13615,7 +13614,7 @@
     {
       "id": "27987442610909164",
       "date": "2026-08-20",
-      "title": "Discussion shared in Scotland Against Spin, 20 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 20 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -13633,7 +13632,7 @@
     {
       "id": "27984135387906553",
       "date": "2026-08-20",
-      "title": "Discussion shared in Scotland Against Spin, 20 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 20 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -13654,7 +13653,7 @@
     {
       "id": "27983820947937997",
       "date": "2026-08-20",
-      "title": "Discussion shared in Scotland Against Spin, 20 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 20 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -13674,7 +13673,7 @@
     {
       "id": "27956076004045825",
       "date": "2026-08-20",
-      "title": "Discussion shared in Scotland Against Spin, 20 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 20 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -13955,7 +13954,7 @@
     {
       "id": "27986300167690075",
       "date": "2026-08-19",
-      "title": "Discussion shared in Scotland Against Spin, 19 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 19 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -13995,7 +13994,7 @@
     {
       "id": "27981430391510386",
       "date": "2026-08-19",
-      "title": "Discussion shared in Scotland Against Spin, 19 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 19 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -14041,7 +14040,7 @@
     {
       "id": "27979447231708702",
       "date": "2026-08-19",
-      "title": "Discussion shared in Scotland Against Spin, 19 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 19 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -14062,7 +14061,7 @@
     {
       "id": "27978316641821761",
       "date": "2026-08-19",
-      "title": "Discussion shared in Scotland Against Spin, 19 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 19 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -14123,7 +14122,7 @@
     {
       "id": "27977658891887536",
       "date": "2026-08-19",
-      "title": "Discussion shared in Scotland Against Spin, 19 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 19 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -14145,7 +14144,7 @@
     {
       "id": "27977599238560168",
       "date": "2026-08-19",
-      "title": "Discussion shared in Scotland Against Spin, 19 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 19 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -14167,7 +14166,7 @@
     {
       "id": "27974312022222223",
       "date": "2026-08-19",
-      "title": "Discussion shared in Scotland Against Spin, 19 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 19 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -14191,7 +14190,7 @@
     {
       "id": "27968852026101556",
       "date": "2026-08-19",
-      "title": "Discussion shared in Scotland Against Spin, 19 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 19 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -14209,7 +14208,7 @@
     {
       "id": "27967805966206162",
       "date": "2026-08-19",
-      "title": "Discussion shared in Scotland Against Spin, 19 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 19 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -14231,7 +14230,7 @@
     {
       "id": "27965588373094588",
       "date": "2026-08-19",
-      "title": "Discussion shared in Scotland Against Spin, 19 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 19 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -14423,7 +14422,7 @@
     {
       "id": "27973011152352310",
       "date": "2026-08-18",
-      "title": "Discussion shared in Scotland Against Spin, 18 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 18 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -14441,7 +14440,7 @@
     {
       "id": "27970419129278179",
       "date": "2026-08-18",
-      "title": "Discussion shared in Scotland Against Spin, 18 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 18 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -14488,7 +14487,7 @@
     {
       "id": "27963461626640596",
       "date": "2026-08-18",
-      "title": "Discussion shared in Scotland Against Spin, 18 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 18 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -14506,7 +14505,7 @@
     {
       "id": "27962279403425485",
       "date": "2026-08-18",
-      "title": "Discussion shared in Scotland Against Spin, 18 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 18 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -14524,7 +14523,7 @@
     {
       "id": "1069987305431818",
       "date": "2026-08-18",
-      "title": "Discussion shared in Scotland Against Spin, 18 August 2026",
+      "title": "Discussion shared in Not A Just Transition, 18 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -14769,7 +14768,7 @@
     {
       "id": "27960248016961957",
       "date": "2026-08-17",
-      "title": "Discussion shared in Scotland Against Spin, 17 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 17 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -14819,7 +14818,7 @@
     {
       "id": "27955823104071115",
       "date": "2026-08-17",
-      "title": "Discussion shared in Scotland Against Spin, 17 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 17 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -14877,7 +14876,7 @@
     {
       "id": "27954330420887050",
       "date": "2026-08-17",
-      "title": "Discussion shared in Scotland Against Spin, 17 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 17 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -14902,7 +14901,7 @@
     {
       "id": "27938167539170005",
       "date": "2026-08-17",
-      "title": "Discussion shared in Scotland Against Spin, 17 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 17 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -14941,7 +14940,7 @@
     {
       "id": "1068953682201847",
       "date": "2026-08-17",
-      "title": "Discussion shared in Scotland Against Spin, 17 August 2026",
+      "title": "Discussion shared in Not A Just Transition, 17 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -14962,7 +14961,7 @@
     {
       "id": "1068946998869182",
       "date": "2026-08-17",
-      "title": "Discussion shared in Scotland Against Spin, 17 August 2026",
+      "title": "Discussion shared in Not A Just Transition, 17 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -15258,7 +15257,7 @@
     {
       "id": "27947341938252565",
       "date": "2026-08-16",
-      "title": "Discussion shared in Scotland Against Spin, 16 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 16 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -15324,7 +15323,7 @@
     {
       "id": "27944309248555834",
       "date": "2026-08-16",
-      "title": "Discussion shared in Scotland Against Spin, 16 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 16 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -15342,7 +15341,7 @@
     {
       "id": "27944270041893088",
       "date": "2026-08-16",
-      "title": "Discussion shared in Scotland Against Spin, 16 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 16 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -15390,7 +15389,7 @@
     {
       "id": "27941632215490204",
       "date": "2026-08-16",
-      "title": "Discussion shared in Scotland Against Spin, 16 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 16 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -15539,7 +15538,7 @@
     {
       "id": "27937915119195247",
       "date": "2026-08-15",
-      "title": "Discussion shared in Scotland Against Spin, 15 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 15 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -15563,7 +15562,7 @@
     {
       "id": "27937287155924710",
       "date": "2026-08-15",
-      "title": "Discussion shared in Scotland Against Spin, 15 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 15 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -15584,7 +15583,7 @@
     {
       "id": "27937278572592235",
       "date": "2026-08-15",
-      "title": "Discussion shared in Scotland Against Spin, 15 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 15 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -15605,7 +15604,7 @@
     {
       "id": "27934675956185830",
       "date": "2026-08-15",
-      "title": "Discussion shared in Scotland Against Spin, 15 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 15 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -15658,7 +15657,7 @@
     {
       "id": "27932554199731339",
       "date": "2026-08-15",
-      "title": "Discussion shared in Scotland Against Spin, 15 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 15 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -15679,7 +15678,7 @@
     {
       "id": "27931242746529151",
       "date": "2026-08-15",
-      "title": "Discussion shared in Scotland Against Spin, 15 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 15 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -15713,7 +15712,7 @@
     {
       "id": "27926596553660437",
       "date": "2026-08-15",
-      "title": "Discussion shared in Scotland Against Spin, 15 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 15 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -15752,7 +15751,7 @@
     {
       "id": "27925595107093915",
       "date": "2026-08-15",
-      "title": "Discussion shared in Scotland Against Spin, 15 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 15 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -15790,7 +15789,7 @@
     {
       "id": "27925563323763760",
       "date": "2026-08-15",
-      "title": "Discussion shared in Scotland Against Spin, 15 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 15 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -15883,7 +15882,7 @@
     {
       "id": "27909553792031380",
       "date": "2026-08-15",
-      "title": "Discussion shared in Scotland Against Spin, 15 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 15 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -15908,7 +15907,7 @@
     {
       "id": "27904767105843382",
       "date": "2026-08-15",
-      "title": "Discussion shared in Scotland Against Spin, 15 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 15 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -16315,7 +16314,7 @@
     {
       "id": "27924576460529113",
       "date": "2026-08-14",
-      "title": "Discussion shared in Scotland Against Spin, 14 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 14 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -16389,7 +16388,7 @@
     {
       "id": "27923295417323884",
       "date": "2026-08-14",
-      "title": "Discussion shared in Scotland Against Spin, 14 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 14 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -16407,7 +16406,7 @@
     {
       "id": "27920526280934131",
       "date": "2026-08-14",
-      "title": "Discussion shared in Scotland Against Spin, 14 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 14 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -16431,7 +16430,7 @@
     {
       "id": "27919525081034251",
       "date": "2026-08-14",
-      "title": "Discussion shared in Scotland Against Spin, 14 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 14 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -16452,7 +16451,7 @@
     {
       "id": "27919355171051242",
       "date": "2026-08-14",
-      "title": "Discussion shared in Scotland Against Spin, 14 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 14 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -16477,7 +16476,7 @@
     {
       "id": "27919106764409416",
       "date": "2026-08-14",
-      "title": "Discussion shared in Scotland Against Spin, 14 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 14 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -16498,7 +16497,7 @@
     {
       "id": "27919090297744396",
       "date": "2026-08-14",
-      "title": "Discussion shared in Scotland Against Spin, 14 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 14 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -16559,7 +16558,7 @@
     {
       "id": "27918798017773624",
       "date": "2026-08-14",
-      "title": "Discussion shared in Scotland Against Spin, 14 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 14 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -16594,7 +16593,7 @@
     {
       "id": "27917636171223142",
       "date": "2026-08-14",
-      "title": "Discussion shared in Scotland Against Spin, 14 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 14 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -16611,7 +16610,7 @@
     {
       "id": "27917560294564063",
       "date": "2026-08-14",
-      "title": "Discussion shared in Scotland Against Spin, 14 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 14 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -16632,7 +16631,7 @@
     {
       "id": "27917491747904251",
       "date": "2026-08-14",
-      "title": "Discussion shared in Scotland Against Spin, 14 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 14 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -16671,7 +16670,7 @@
     {
       "id": "27916794761307283",
       "date": "2026-08-14",
-      "title": "Discussion shared in Scotland Against Spin, 14 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 14 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -16688,7 +16687,7 @@
     {
       "id": "27916341914685901",
       "date": "2026-08-14",
-      "title": "Discussion shared in Scotland Against Spin, 14 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 14 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -16709,7 +16708,7 @@
     {
       "id": "27916011404718952",
       "date": "2026-08-14",
-      "title": "Discussion shared in Scotland Against Spin, 14 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 14 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -16771,7 +16770,7 @@
     {
       "id": "27913729871613772",
       "date": "2026-08-14",
-      "title": "Discussion shared in Scotland Against Spin, 14 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 14 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -16789,7 +16788,7 @@
     {
       "id": "27912997131687046",
       "date": "2026-08-14",
-      "title": "Discussion shared in Scotland Against Spin, 14 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 14 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -16811,7 +16810,7 @@
     {
       "id": "27912979181688841",
       "date": "2026-08-14",
-      "title": "Discussion shared in Scotland Against Spin, 14 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 14 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -16833,7 +16832,7 @@
     {
       "id": "27912389541747805",
       "date": "2026-08-14",
-      "title": "Discussion shared in Scotland Against Spin, 14 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 14 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -16983,7 +16982,7 @@
     {
       "id": "27911369218516504",
       "date": "2026-08-13",
-      "title": "Discussion shared in Scotland Against Spin, 13 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 13 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -17005,7 +17004,7 @@
     {
       "id": "27911303035189789",
       "date": "2026-08-13",
-      "title": "Discussion shared in Scotland Against Spin, 13 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 13 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -17044,7 +17043,7 @@
     {
       "id": "27908656568787769",
       "date": "2026-08-13",
-      "title": "Discussion shared in Scotland Against Spin, 13 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 13 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -17065,7 +17064,7 @@
     {
       "id": "27907009382285821",
       "date": "2026-08-13",
-      "title": "Discussion shared in Scotland Against Spin, 13 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 13 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -17105,7 +17104,7 @@
     {
       "id": "27906122379041188",
       "date": "2026-08-13",
-      "title": "Discussion shared in Scotland Against Spin, 13 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 13 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -17170,7 +17169,7 @@
     {
       "id": "27905065109146915",
       "date": "2026-08-13",
-      "title": "Discussion shared in Scotland Against Spin, 13 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 13 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -17195,7 +17194,7 @@
     {
       "id": "27904837285836364",
       "date": "2026-08-13",
-      "title": "Discussion shared in Scotland Against Spin, 13 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 13 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -17212,7 +17211,7 @@
     {
       "id": "27902343416085751",
       "date": "2026-08-13",
-      "title": "Discussion shared in Scotland Against Spin, 13 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 13 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -17229,7 +17228,7 @@
     {
       "id": "27901526389500787",
       "date": "2026-08-13",
-      "title": "Discussion shared in Scotland Against Spin, 13 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 13 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -17272,7 +17271,7 @@
     {
       "id": "27899894989663927",
       "date": "2026-08-13",
-      "title": "Discussion shared in Scotland Against Spin, 13 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 13 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -17319,7 +17318,7 @@
     {
       "id": "27889785484008211",
       "date": "2026-08-13",
-      "title": "Discussion shared in Scotland Against Spin, 13 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 13 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -17561,7 +17560,7 @@
     {
       "id": "27899610356359057",
       "date": "2026-08-12",
-      "title": "Discussion shared in Scotland Against Spin, 12 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 12 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -17579,7 +17578,7 @@
     {
       "id": "27898219933164766",
       "date": "2026-08-12",
-      "title": "Discussion shared in Scotland Against Spin, 12 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 12 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -17600,7 +17599,7 @@
     {
       "id": "27898044216515671",
       "date": "2026-08-12",
-      "title": "Discussion shared in Scotland Against Spin, 12 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 12 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -17667,7 +17666,7 @@
     {
       "id": "27893316473655112",
       "date": "2026-08-12",
-      "title": "Discussion shared in Scotland Against Spin, 12 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 12 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -17689,7 +17688,7 @@
     {
       "id": "27892796433707116",
       "date": "2026-08-12",
-      "title": "Discussion shared in Scotland Against Spin, 12 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 12 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -17748,7 +17747,7 @@
     {
       "id": "27889318204054939",
       "date": "2026-08-12",
-      "title": "Discussion shared in Scotland Against Spin, 12 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 12 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -17917,7 +17916,7 @@
     {
       "id": "27872724899047603",
       "date": "2026-08-12",
-      "title": "Discussion shared in Scotland Against Spin, 12 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 12 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -18235,7 +18234,7 @@
     {
       "id": "27885477484439011",
       "date": "2026-08-11",
-      "title": "Discussion shared in Scotland Against Spin, 11 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 11 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -18253,7 +18252,7 @@
     {
       "id": "27885415841111842",
       "date": "2026-08-11",
-      "title": "Discussion shared in Scotland Against Spin, 11 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 11 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -18295,7 +18294,7 @@
     {
       "id": "27884312697888823",
       "date": "2026-08-11",
-      "title": "Discussion shared in Scotland Against Spin, 11 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 11 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -18412,7 +18411,7 @@
     {
       "id": "27880627211590705",
       "date": "2026-08-11",
-      "title": "Discussion shared in Scotland Against Spin, 11 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 11 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -18433,7 +18432,7 @@
     {
       "id": "27880491148270978",
       "date": "2026-08-11",
-      "title": "Discussion shared in Scotland Against Spin, 11 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 11 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -18451,7 +18450,7 @@
     {
       "id": "27880251841628242",
       "date": "2026-08-11",
-      "title": "Discussion shared in Scotland Against Spin, 11 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 11 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -18500,7 +18499,7 @@
     {
       "id": "27878670461786380",
       "date": "2026-08-11",
-      "title": "Discussion shared in Scotland Against Spin, 11 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 11 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -18518,7 +18517,7 @@
     {
       "id": "27878385751814851",
       "date": "2026-08-11",
-      "title": "Discussion shared in Scotland Against Spin, 11 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 11 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -18556,7 +18555,7 @@
     {
       "id": "27874105112242915",
       "date": "2026-08-11",
-      "title": "Discussion shared in Scotland Against Spin, 11 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 11 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -18574,7 +18573,7 @@
     {
       "id": "27862730790047014",
       "date": "2026-08-11",
-      "title": "Discussion shared in Scotland Against Spin, 11 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 11 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -18873,7 +18872,7 @@
     {
       "id": "27868987149421378",
       "date": "2026-08-10",
-      "title": "Discussion shared in Scotland Against Spin, 10 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 10 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -18894,7 +18893,7 @@
     {
       "id": "27868246102828816",
       "date": "2026-08-10",
-      "title": "Discussion shared in Scotland Against Spin, 10 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 10 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -18916,7 +18915,7 @@
     {
       "id": "27863752109944882",
       "date": "2026-08-10",
-      "title": "Discussion shared in Scotland Against Spin, 10 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 10 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -20004,7 +20003,7 @@
     {
       "id": "27801012632885497",
       "date": "2026-08-05",
-      "title": "Discussion shared in Scotland Against Spin, 5 August 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 5 August 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -28167,7 +28166,7 @@
     {
       "id": "27394419606878137",
       "date": "2026-06-29",
-      "title": "Discussion shared in Scotland Against Spin, 29 June 2026",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 29 June 2026",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -73329,7 +73328,7 @@
     {
       "id": "7427395324007194",
       "date": "2024-04-12",
-      "title": "Discussion shared in Scotland Against Spin, 12 April 2024",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 12 April 2024",
       "provenance": {
         "title": {
           "method": "neutral"

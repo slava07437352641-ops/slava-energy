@@ -1,7 +1,7 @@
 // Render news panel from news-index.json (U4 of feat-daily-news-panel-plan.md)
 // Loads Scotland Against Spin and APR Scotland posts and displays them in the news panel.
 
-import { renderFeed, scrollFeedTo, renderDetail } from "./feed.js";
+import { renderDetail, verificationLine, makeCardKeyboardAccessible } from "./feed.js";
 
 // Single source of truth for how many items the Recent News panel shows --
 // main.js imports this too, to exclude the same IDs from the main feed
@@ -73,17 +73,19 @@ function renderNewsCards(container, records) {
         ${(r.categories || []).map((c) => `<span class="pd-tag pd-tag--tech">${escapeHtml(c)}</span>`).join("")}
         ${(r.topics || []).slice(0, 3).map((t) => `<span class="pd-tag">${escapeHtml(t)}</span>`).join("")}
       </div>
-      <div class="pd-card-source">Source: ${escapeHtml(r.source.label)}${mediaLabel}</div>
+      <div class="pd-card-source">${verificationLine(r)}${mediaLabel}</div>
     `;
 
     if (detailPanel) {
-      card.addEventListener("click", () => {
+      const open = () => {
         document.body.classList.add("pd-showing-detail");
         renderDetail(detailPanel, r, {
           hasMirror: false,
           onBack: () => document.body.classList.remove("pd-showing-detail"),
         });
-      });
+      };
+      card.addEventListener("click", open);
+      makeCardKeyboardAccessible(card, r.title, open);
     }
 
     container.appendChild(card);

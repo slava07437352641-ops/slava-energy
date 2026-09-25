@@ -1,7 +1,7 @@
 // Bootstrap for the Public objections & discussions dashboard (Pilot v0.1).
-import { readState, writeState } from "./url-state.js?v=20260923c";
-import { applyAll, facetCounts, FACETS, TECH_CATEGORIES } from "./filters.js?v=20260923c";
-import { renderFeed, scrollFeedTo, renderDetail, renderMirror } from "./feed.js?v=20260923c";
+import { readState, writeState } from "./url-state.js?v=20260925a";
+import { applyAll, facetCounts, FACETS, TECH_CATEGORIES } from "./filters.js?v=20260925a";
+import { renderFeed, renderDetail, renderMirror } from "./feed.js?v=20260925a";
 
 // Must match news.js's NEWS_PANEL_LIMIT -- kept as a separate constant
 // rather than a cross-module import so this file never depends on
@@ -17,32 +17,46 @@ const els = {
   tech: document.getElementById("pd-tech"),
   count: document.getElementById("pd-count"),
   range: document.getElementById("pd-range"),
-  clusterBanner: document.getElementById("pd-cluster-banner"),
-  clusterBannerText: document.getElementById("pd-cluster-banner-text"),
-  clusterClear: document.getElementById("pd-cluster-clear"),
   footerMirrorCaveat: document.getElementById("pd-footer-mirror-caveat"),
+  newsPanel: document.querySelector(".pd-news-panel"),
 };
 
 let ALL = [];
+let NEWS_IDS = new Set();
 let MIRROR_IDS = new Set();
 let state = readState();
-let clusterPickIds = null; // set of record ids when the user has clicked a map cluster that can't be zoomed apart
 
 init();
 
 async function init() {
-  const res = await fetch("data/discussions-index.json", { cache: "no-cache" });
-  const index = await res.json();
+  els.feed.innerHTML = `<div class="pd-empty">Loading discussions&hellip;</div>`;
+
+  let index;
+  try {
+    const res = await fetch("data/discussions-index.json", { cache: "no-cache" });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    index = await res.json();
+  } catch {
+    els.feed.innerHTML = `
+      <div class="pd-empty">
+        Discussions could not be loaded. Check your connection and try again.<br>
+        <button id="pd-retry" type="button" class="pd-retry">Retry</button>
+      </div>`;
+    document.getElementById("pd-retry")?.addEventListener("click", init);
+    return;
+  }
   ALL = index.records;
 
-  // Exclude whatever the Recent News panel is showing (news.js, same
-  // NEWS_PANEL_LIMIT) so no record is ever rendered twice on the page.
+  // Track whatever the Recent News panel is showing (news.js, same
+  // NEWS_PANEL_LIMIT) so the default browse view can exclude it (no record
+  // rendered twice on the page). ALL itself stays the full dataset --
+  // search must still be able to find these records; only the panel is
+  // hidden while searching (see apply()), not removed from the dataset.
   try {
     const nres = await fetch("data/news-index.json", { cache: "no-cache" });
     if (nres.ok) {
       const newsIndex = await nres.json();
-      const newsIds = new Set((newsIndex.records || []).slice(0, NEWS_PANEL_LIMIT).map((r) => r.id));
-      if (newsIds.size) ALL = ALL.filter((r) => !newsIds.has(r.id));
+      NEWS_IDS = new Set((newsIndex.records || []).slice(0, NEWS_PANEL_LIMIT).map((r) => r.id));
     }
   } catch {
     // news panel data unavailable -- main feed just shows everything, no dedup needed
@@ -68,16 +82,10 @@ async function init() {
   els.search.addEventListener("input", debounce(() => {
     state.q = els.search.value.trim();
     state.sel = null;
-    clusterPickIds = null;
     apply();
   }, 180));
   els.range.addEventListener("change", () => {
     state.range = els.range.value;
-    clusterPickIds = null;
-    apply();
-  });
-  els.clusterClear.addEventListener("click", () => {
-    clusterPickIds = null;
     apply();
   });
 
@@ -97,15 +105,25 @@ function buildTechChips() {
       if (!v) state.tech = [];
       else state.tech = state.tech.includes(v) ? state.tech.filter((x) => x !== v) : [...state.tech, v];
       state.sel = null;
-      clusterPickIds = null;
       apply();
     });
   });
 }
 
 function apply({ initial = false } = {}) {
-  const filtered = applyAll(ALL, state).sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
-  const counts = facetCounts(ALL, state);
+  const isSearching = state.q.trim().length > 0;
+  // The default browse view excludes whatever Recent Posts is showing (so
+  // nothing renders twice on the page) -- but that panel is hidden the
+  // moment a search is active, so the exclusion no longer serves its
+  // purpose then and would otherwise make the newest posts unsearchable.
+  const pool = isSearching ? ALL : ALL.filter((r) => !NEWS_IDS.has(r.id));
+  const filtered = applyAll(pool, state).sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
+  const counts = facetCounts(pool, state);
+
+  // Recent Posts is a fixed, unfiltered curated panel -- it never reacts to
+  // search, so leaving it visible while searching makes real (possibly rare)
+  // matches easy to miss below it. Hide it whenever a search is active.
+  if (els.newsPanel) els.newsPanel.hidden = isSearching;
 
   // tech chip active states
   els.tech.querySelectorAll(".pd-chip").forEach((b) => {
@@ -119,29 +137,12 @@ function apply({ initial = false } = {}) {
 
   els.count.textContent = `${filtered.length.toLocaleString()} discussion${filtered.length === 1 ? "" : "s"}`;
 
-  if (clusterPickIds) {
-    const picks = filtered.filter((r) => clusterPickIds.has(r.id));
-    els.clusterBanner.hidden = false;
-    els.clusterBannerText.textContent = `Showing ${picks.length} discussion${picks.length === 1 ? "" : "s"} at this map point`;
-    renderFeed(els.feed, picks, { selectedId: state.sel, onSelect: (id) => select(id), mirrorIds: MIRROR_IDS });
-  } else {
-    els.clusterBanner.hidden = true;
-    renderFeed(els.feed, filtered.slice(0, 400), { selectedId: state.sel, onSelect: (id) => select(id), mirrorIds: MIRROR_IDS });
-  }
+  renderFeed(els.feed, filtered.slice(0, 400), { selectedId: state.sel, onSelect: (id) => select(id), mirrorIds: MIRROR_IDS });
 
   writeState(state);
 }
 
-// A map cluster whose members share the same (or near-identical) coordinate
-// can never be zoomed apart -- list its posts in the sidebar so they can be
-// picked directly instead. Cleared by any new search/filter/range change.
-function showClusterPicks(ids) {
-  clusterPickIds = new Set(ids);
-  state.sel = null;
-  apply();
-}
-
-function select(id, { fromMap = false, silent = false } = {}) {
+function select(id, { silent = false } = {}) {
   const rec = ALL.find((r) => r.id === id);
   if (!rec) return;
   state.sel = id;
@@ -158,7 +159,6 @@ function select(id, { fromMap = false, silent = false } = {}) {
   if (MIRROR_IDS.has(id)) loadMirror(id);
   // reflect selection in feed
   els.feed.querySelectorAll(".pd-card").forEach((c) => c.classList.toggle("is-selected", c.dataset.id === id));
-  if (fromMap) scrollFeedTo(els.feed, id);
   if (!silent) writeState(state);
 }
 

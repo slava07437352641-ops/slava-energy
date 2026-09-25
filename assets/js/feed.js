@@ -78,6 +78,20 @@ const PRETTY_SOURCE = {
 function prettySource(name) {
   return PRETTY_SOURCE[name] || name;
 }
+
+// Every record's provenance/verification status, computed from source.type --
+// see item #4 of the 2026-09-25 brief: "call something a formal objection
+// only when an official planning source supports that label." Every record
+// today comes from source.type "facebook_group", so this always reads
+// "Community discussion" for now; it reads "Formal objection" automatically
+// the day a record from a real official planning source is added, with no
+// template change needed here.
+export function verificationLine(r) {
+  const isOfficial = Boolean(r.source?.type) && r.source.type !== "facebook_group";
+  const kind = isOfficial ? "Formal objection" : "Community discussion";
+  const status = isOfficial ? "via an official planning source" : "not independently verified";
+  return `${kind} &middot; ${escapeHtml(r.source.label)} &middot; ${status}`;
+}
 function truncate(s, n) {
   return s.length <= n ? s : s.slice(0, n).replace(/\s+\S*$/, "") + "…";
 }
@@ -88,6 +102,22 @@ function cardExcerpt(r) {
   if (r.summary) return r.summary;
   if (r.bodyText) return truncate(r.bodyText.replace(/\s+/g, " ").trim(), 220);
   return "";
+}
+
+// Cards are plain <article>s activated by a click handler, which a
+// keyboard-only or screen-reader user can't reach at all. Making a card a
+// real interactive control (focusable, announced as a button, Enter/Space
+// activates it) is the minimum for item #7 of the 2026-09-25 brief.
+export function makeCardKeyboardAccessible(card, title, onActivate) {
+  card.tabIndex = 0;
+  card.setAttribute("role", "button");
+  card.setAttribute("aria-label", title);
+  card.addEventListener("keydown", (e) => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      onActivate();
+    }
+  });
 }
 
 export function renderFeed(container, records, { selectedId, onSelect, mirrorIds }) {
@@ -125,9 +155,10 @@ export function renderFeed(container, records, { selectedId, onSelect, mirrorIds
       ${field("Developer", r.developer)}
       ${field("Council", r.council)}
       ${field("Authority", r.authority)}
-      <div class="pd-card-source">Source: ${escapeHtml(r.source.label)}${r.mediaCount ? ` &middot; ${r.mediaCount} photo${r.mediaCount > 1 ? "s" : ""}` : ""}</div>
+      <div class="pd-card-source">${verificationLine(r)}${r.mediaCount ? ` &middot; ${r.mediaCount} photo${r.mediaCount > 1 ? "s" : ""}` : ""}</div>
     `;
     card.addEventListener("click", () => onSelect(r.id));
+    makeCardKeyboardAccessible(card, r.title, () => onSelect(r.id));
     container.appendChild(card);
   }
 }
@@ -174,7 +205,7 @@ function detailTextNote(record, hasMirror) {
 
 export function renderDetail(panel, record, { onBack, hasMirror = false }) {
   panel.innerHTML = `
-    <button class="pd-back" type="button">&larr; Back to map</button>
+    <button class="pd-back" type="button">&larr; Back to results</button>
     <article class="pd-detail">
       <div class="pd-detail-date">${fmtHeader(record.date)}</div>
       <h2>${escapeHtml(record.title)}</h2>
@@ -187,13 +218,13 @@ export function renderDetail(panel, record, { onBack, hasMirror = false }) {
         ${(record.topics || []).map((t) => `<span class="pd-tag">${escapeHtml(t)}</span>`).join("")}
       </div>
       ${field("Location", record.location)}
-      ${field("Project", record.project)}
+      ${record.project ? field("Project", record.project) : `<div class="pd-field pd-field--unknown"><span>Project</span> not identified</div>`}
       ${field("Developer", record.developer)}
       ${field("Council", record.council)}
       ${field("Authority", record.authority)}
       ${field("Status", record.developmentStatus)}
       <div class="pd-detail-source">
-        Source: ${escapeHtml(record.source.label)} &middot;
+        ${verificationLine(record)} &middot;
         <a href="${safeUrl(record.source.url)}" target="_blank" rel="noopener">View original post &#8599;</a>
       </div>
       ${

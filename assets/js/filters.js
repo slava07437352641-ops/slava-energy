@@ -18,6 +18,18 @@ export const FACETS = {
   council: (r) => (r.council ? [r.council] : []),
 };
 
+// Reviewed aliases for records that already carry a verified `project` field
+// (10 of 3,243) -- covers real spelling variants found in the data itself,
+// e.g. two records for the same project spelled "Giant's Burn Wind Farm" and
+// "Giants Burn Wind Farm". Never used to attribute a project to a record
+// that doesn't already have one -- see item #3 of the 2026-09-25 brief:
+// "do not infer project matches; identify records whose project is unknown
+// or unverified" instead.
+const PROJECT_ALIASES = {
+  "Giant's Burn Wind Farm": ["Giants Burn Wind Farm", "Giants Burn"],
+  "Giants Burn Wind Farm": ["Giant's Burn Wind Farm", "Giant's Burn"],
+};
+
 function tokenize(s) {
   return (s || "")
     .toLowerCase()
@@ -32,6 +44,7 @@ export function searchBlob(r) {
   return [
     r.title,
     r.summary,
+    r.bodyText,
     r.location,
     r.project,
     r.developer,
@@ -40,6 +53,7 @@ export function searchBlob(r) {
     r.externalSource,
     ...(r.topics || []),
     ...(r.categories || []),
+    ...(PROJECT_ALIASES[r.project] || []),
   ]
     .filter(Boolean)
     .join(" ");
