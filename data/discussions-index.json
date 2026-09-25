@@ -56024,6 +56024,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -56040,7 +56043,11 @@
       "bodyText": "Workers died at wind farm after improper use of explosives, finds report\nRECHARGENEWS.COM Workers died at wind farm after improper use of explosives, finds report",
       "externalLinks": [
         "https://www.rechargenews.com/.../workers-died.../2-1-1955458"
-      ]
+      ],
+      "photos": [
+        "media/facebook/26981511918117848/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26981039984831708",
@@ -56338,6 +56345,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -56353,7 +56363,11 @@
       "bodyText": "Scotland Against Spin’s take on “Onshore electricity generation – Electricity Act threshold”: the Scottish Government Consultation\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin’s take on “Onshore electricity generation – Electricity Act threshold”: the Scottish Government Consultation",
       "externalLinks": [
         "https://scotlandagainstspin.org/.../scotland-against.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/26969516199317420/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26967685439500496",
@@ -56863,6 +56877,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -56880,7 +56897,11 @@
         "Onshore Wind"
       ],
       "contentFingerprint": "292ff59ca13f02c0955f4aa5f53a11aa272ad4f04cc6a5ccf1f8560c8721f43b",
-      "bodyText": "Ready-to-build wind farm ‘loses out to speculative projects’\nTHETIMES.COM Ready-to-build wind farm ‘loses out to speculative projects’"
+      "bodyText": "Ready-to-build wind farm ‘loses out to speculative projects’\nTHETIMES.COM Ready-to-build wind farm ‘loses out to speculative projects’",
+      "photos": [
+        "media/facebook/26947796788156028/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26947429971526043",
@@ -57054,6 +57075,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -57067,7 +57091,11 @@
       "bodyText": "Labour's Energy Bill Shell Game\nDAVIDTURVER.SUBSTACK.COM Labour's Energy Bill Shell Game",
       "externalLinks": [
         "https://davidturver.substack.com/.../labours-energy-bill..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/26939276852341355/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26938849442384096",
@@ -57143,6 +57171,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -57158,7 +57189,11 @@
       "bodyText": "Scotland Against Spin’s take on “Onshore electricity generation – Electricity Act threshold”: the Scottish Government Consultation\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin’s take on “Onshore electricity generation – Electricity Act threshold”: the Scottish Government Consultation",
       "externalLinks": [
         "https://scotlandagainstspin.org/.../scotland-against.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/26934206072848433/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26933813436221030",
@@ -57173,6 +57208,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -57189,7 +57227,11 @@
       "bodyText": "Miliband deal opens door to Chinese investment in UK wind farms\nTELEGRAPH.CO.UK Miliband deal opens door to Chinese investment in UK wind farms",
       "externalLinks": [
         "https://archive.ph/.../miliband-to-visit-china-amid-wind.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/26933813436221030/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26931889739746733",
@@ -57290,6 +57332,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -57309,7 +57354,11 @@
       "bodyText": "How SNP's rejection of Loch Lomond Flamingo Land reveals their hypocrisy over windfarms\nSCOTSMAN.COM How SNP's rejection of Loch Lomond Flamingo Land reveals their hypocrisy over windfarms",
       "externalLinks": [
         "https://www.dailymail.co.uk/.../40m-tourist-trap-best..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/26928969563372084/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26925958233673217",
@@ -57358,6 +57407,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -57373,7 +57425,11 @@
       "bodyText": "Scotland Against Spin’s take on “Onshore electricity generation – Electricity Act threshold”: the Scottish Government Consultation\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin’s take on “Onshore electricity generation – Electricity Act threshold”: the Scottish Government Consultation",
       "externalLinks": [
         "https://scotlandagainstspin.org/.../scotland-against.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/26922856867316687/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26922723593996681",
@@ -57474,6 +57530,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -57487,7 +57546,11 @@
       "bodyText": "France cashes in on Britain’s net zero blitz through £10bn deal\nTELEGRAPH.CO.UK France cashes in on Britain’s net zero blitz through £10bn deal",
       "externalLinks": [
         "https://archive.ph/.../france-strengthens-grip-on.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/26919790754289965/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26919506297651744",
@@ -57790,6 +57853,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -57803,7 +57869,11 @@
       "bodyText": "New Peer-Reviewed Study: Infrasound Causes \\\nWINDCONCERNS.COM New Peer-Reviewed Study: Infrasound Causes \\",
       "externalLinks": [
         "https://www.windconcerns.com/peer-reviewed-study.../..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/26909592228643151/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26909251882010519",
