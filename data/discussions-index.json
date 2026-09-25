@@ -60773,6 +60773,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -60786,7 +60789,11 @@
       "bodyText": "Starmer surrenders to EU net zero rules\nTELEGRAPH.CO.UK Starmer surrenders to EU net zero rules",
       "externalLinks": [
         "https://archive.ph/.../starmer-to-push-britain-into.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/26801418432793865/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26800844939517881",
@@ -60931,6 +60938,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -60951,7 +60961,11 @@
         "Landscape & visual"
       ],
       "contentFingerprint": "6c9897c9566c10097e5ac279d204942b1ede10666369e9c9c5639ff3926a99b7",
-      "bodyText": "SNP Government overrules council to approve wind farm in special landscape area\nSCOTTISHDAILYEXPRESS.CO.UK SNP Government overrules council to approve wind farm in special landscape area"
+      "bodyText": "SNP Government overrules council to approve wind farm in special landscape area\nSCOTTISHDAILYEXPRESS.CO.UK SNP Government overrules council to approve wind farm in special landscape area",
+      "photos": [
+        "media/facebook/26790586640543711/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26790034780598897",
@@ -61156,6 +61170,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -61170,7 +61187,11 @@
         "https://www.theguardian.com/politics/tonyblair"
       ],
       "contentFingerprint": "5d1fe73310b277d22298fc2500d0e65e56e50da0d3befc2194e220c01d3f3a0e",
-      "bodyText": "Tony Blair’s thinktank accuses Ed Miliband of driving up energy prices\nTHEGUARDIAN.COM Tony Blair’s thinktank accuses Ed Miliband of driving up energy prices"
+      "bodyText": "Tony Blair’s thinktank accuses Ed Miliband of driving up energy prices\nTHEGUARDIAN.COM Tony Blair’s thinktank accuses Ed Miliband of driving up energy prices",
+      "photos": [
+        "media/facebook/26785562244379484/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26784913934444315",
@@ -61345,6 +61366,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -61357,7 +61381,11 @@
         "https://scotlandagainstspin.org/2026/02/petition-update-10/"
       ],
       "contentFingerprint": "248929e0e8d8c05754808f4f92ee73844740d499ef42370f7cb30fd1cb8d256e",
-      "bodyText": "Mark Dolan\nPetition update\nSCOTLANDAGAINSTSPIN.ORG Petition update"
+      "bodyText": "Mark Dolan\nPetition update\nSCOTLANDAGAINSTSPIN.ORG Petition update",
+      "photos": [
+        "media/facebook/26778319505103758/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26777433938525648",
@@ -61880,6 +61908,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -61894,7 +61925,11 @@
       "externalLinks": [
         "https://www.scottishparliament.tv/.../meeting-of-the...",
         "https://www.parliament.scot/.../citizen-participation-and..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/26759057047030004/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26758781807057528",
@@ -62027,6 +62062,9 @@
         "summary": {
           "method": "article_meta_description",
           "url": "https://view.officeapps.live.com/op/view.aspx"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -62040,7 +62078,11 @@
         "https://view.officeapps.live.com/op/view.aspx"
       ],
       "contentFingerprint": "75d022a071df6b12f08314c1bfcde9e035d62ca546bb0be61c7e20e040fa3846",
-      "summary": "Microsoft 365 (formerly Office 365) subscriptions offer a suite of productivity tools and cloud services with world-class security and powerful AI. Try for free."
+      "summary": "Microsoft 365 (formerly Office 365) subscriptions offer a suite of productivity tools and cloud services with world-class security and powerful AI. Try for free.",
+      "photos": [
+        "media/facebook/26756728587262850/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26752948137640895",
@@ -62094,6 +62136,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -62110,7 +62155,11 @@
       "bodyText": "New German Law Could Force Green Energy Developers to Fund Grid Links | OilPrice.com\nOILPRICE.COM New German Law Could Force Green Energy Developers to Fund Grid Links | OilPrice.com",
       "externalLinks": [
         "https://www.reuters.com/.../germany-wants-renewables.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/26752578381011204/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26752495221019520",
@@ -62204,6 +62253,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -62217,7 +62269,11 @@
         "https://scotlandagainstspin.org/.../update-on-our.../"
       ],
       "contentFingerprint": "7c0ee18645aa44a51b9bccaf24348522093e00d7574e3243d7bcd83e772d5b22",
-      "bodyText": "Update on our Petition to the Scottish Parliament\nSCOTLANDAGAINSTSPIN.ORG Update on our Petition to the Scottish Parliament"
+      "bodyText": "Update on our Petition to the Scottish Parliament\nSCOTLANDAGAINSTSPIN.ORG Update on our Petition to the Scottish Parliament",
+      "photos": [
+        "media/facebook/26750204671248575/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26749188624683513",
