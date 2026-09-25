@@ -48719,6 +48719,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -48732,7 +48735,11 @@
       "bodyText": "Coal Not Cold\nDAVIDTURVER.SUBSTACK.COM Coal Not Cold",
       "externalLinks": [
         "https://substack.com/.../38888b32-d3d3-4301-b2ed..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/27303229832612720/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27296192813316422",
@@ -48941,6 +48948,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -48953,7 +48963,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/27286049914330712/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27284239541178416",
@@ -49203,6 +49217,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -49215,7 +49232,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/27270894155846288/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27270625649206472",
@@ -49584,6 +49605,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -49597,7 +49621,11 @@
         "https://www.telegraph.co.uk/gift/48d6129829dfb9e4"
       ],
       "contentFingerprint": "616eb2d460a1b989fa5619f4d7ec20cf5baad982c620ee0db678cbc382b99ca8",
-      "bodyText": "Miliband: Drink cold tea to save energy\nTELEGRAPH.CO.UK Miliband: Drink cold tea to save energy"
+      "bodyText": "Miliband: Drink cold tea to save energy\nTELEGRAPH.CO.UK Miliband: Drink cold tea to save energy",
+      "photos": [
+        "media/facebook/27257791277156576/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27257116827224021",
@@ -49609,6 +49637,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -49621,7 +49652,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/27257116827224021/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27256563027279401",
@@ -49777,6 +49812,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -49790,7 +49828,11 @@
       "bodyText": "£3bn of contracts signed on fourth England to Scotland electricity ‘superhighway’ | New Civil Engineer\nNEWCIVILENGINEER.COM £3bn of contracts signed on fourth England to Scotland electricity ‘superhighway’ | New Civil Engineer",
       "externalLinks": [
         "https://www.newcivilengineer.com/.../3bn-of-contracts..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/27246851141583923/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27246213381647699",
@@ -49831,6 +49873,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -49843,7 +49888,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/27245936121675425/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27245828431686194",
@@ -50005,6 +50054,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -50017,7 +50069,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/27238368589098845/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27237638075838563",
@@ -50291,6 +50347,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -50303,7 +50362,11 @@
         "https://scotlandagainstspin.org/"
       ],
       "contentFingerprint": "017a9ccab2044721e508480d90f14cbe4528cee593919c8867d6873eb627930d",
-      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin"
+      "bodyText": "Scotland Against Spin\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin",
+      "photos": [
+        "media/facebook/27225516807050690/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27225328383736199",
@@ -50452,6 +50515,9 @@
         "summary": {
           "method": "article_meta_description",
           "url": "https://www.ruralwater.scot/"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -50465,7 +50531,11 @@
         "https://www.ruralwater.scot/"
       ],
       "contentFingerprint": "07306911629d275bf90983d67cbae6693da7ab687d786e655374b0404dbed310",
-      "summary": "A Digital Hub with comprehensive information about Scotland"
+      "summary": "A Digital Hub with comprehensive information about Scotland",
+      "photos": [
+        "media/facebook/27214963698106001/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27214272114841826",
