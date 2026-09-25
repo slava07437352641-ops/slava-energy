@@ -57981,6 +57981,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -58000,7 +58003,11 @@
       "bodyText": "Councillors asked to object to Walkerburn windfarm amid golden eagle concerns\nPEEBLESSHIRENEWS.COM Councillors asked to object to Walkerburn windfarm amid golden eagle concerns",
       "externalLinks": [
         "https://www.bordertelegraph.com/.../scottish-borders.../..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/26904413675827673/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26904015409200833",
@@ -58244,6 +58251,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -58257,7 +58267,11 @@
         "https://www.dpea.scotland.gov.uk/CaseDetails.aspx?ID=125822"
       ],
       "contentFingerprint": "55518f3288f00c2c924d3ac55ab34199ca5427bcd7428392f019f00c130528b1",
-      "bodyText": "Flamingo Land: Plans for controversial resort at Loch Lomond rejected\nBBC.CO.UK Flamingo Land: Plans for controversial resort at Loch Lomond rejected"
+      "bodyText": "Flamingo Land: Plans for controversial resort at Loch Lomond rejected\nBBC.CO.UK Flamingo Land: Plans for controversial resort at Loch Lomond rejected",
+      "photos": [
+        "media/facebook/26899379649664409/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26899305559671818",
@@ -58464,6 +58478,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -58479,7 +58496,11 @@
         "https://www.heraldscotland.com/.../25074444.john.../..."
       ],
       "contentFingerprint": "7ebda5154775b15587d35ca3782b9920d14a5dff473fc24e133b7a01ff46a7d2",
-      "bodyText": "SNP Government problems mount as offshore wind bubble bursts\nHERALDSCOTLAND.COM SNP Government problems mount as offshore wind bubble bursts"
+      "bodyText": "SNP Government problems mount as offshore wind bubble bursts\nHERALDSCOTLAND.COM SNP Government problems mount as offshore wind bubble bursts",
+      "photos": [
+        "media/facebook/26890955263840181/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26890852030517171",
@@ -58548,6 +58569,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -58561,7 +58585,11 @@
       "bodyText": "Zambians pay price amid Copperbelt mining boom\nDW.COM Zambians pay price amid Copperbelt mining boom",
       "externalLinks": [
         "https://www.dw.com/.../zambians-pay-price-amid.../a-76018569"
-      ]
+      ],
+      "photos": [
+        "media/facebook/26890421397226901/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26890311083904599",
@@ -58687,6 +58715,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -58702,7 +58733,11 @@
       "bodyText": "Scotland Against Spin’s take on “Onshore electricity generation – Electricity Act threshold”: the Scottish Government Consultation\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin’s take on “Onshore electricity generation – Electricity Act threshold”: the Scottish Government Consultation",
       "externalLinks": [
         "https://scotlandagainstspin.org/.../scotland-against.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/26884529824482725/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26884102144525493",
@@ -58752,6 +58787,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -58764,7 +58802,11 @@
         "https://forms.cloud.microsoft/Pages/ResponsePage.aspx..."
       ],
       "contentFingerprint": "6040a23467bccc40cbe0042ebe55d8438276166fd1e1b664f94a5ae80cc3be8d",
-      "bodyText": "FORMS.CLOUD.MICROSOFT forms.cloud.microsoft"
+      "bodyText": "FORMS.CLOUD.MICROSOFT forms.cloud.microsoft",
+      "photos": [
+        "media/facebook/26883638421238532/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26883348777934163",
@@ -58875,6 +58917,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -58888,7 +58933,11 @@
       "bodyText": "Net zero blamed as British factories pay nearly twice as much as France for electricity\nTELEGRAPH.CO.UK Net zero blamed as British factories pay nearly twice as much as France for electricity",
       "externalLinks": [
         "https://archive.ph/.../reeves-energy-bill-discount.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/26874971338771907/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26872819425653765",
@@ -58940,6 +58989,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -58953,7 +59005,11 @@
       "bodyText": "Electricity Productivity Data Shows we are Falling Down the Energy Cliff\nDAVIDTURVER.SUBSTACK.COM Electricity Productivity Data Shows we are Falling Down the Energy Cliff",
       "externalLinks": [
         "https://davidturver.substack.com/.../electricity..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/26871557729113268/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26871463055789402",
@@ -58993,6 +59049,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -59012,7 +59071,11 @@
       "bodyText": "Two new turbines could be added to under-construction Golticlay wind farm in Caithness\nJOHNOGROAT-JOURNAL.CO.UK Two new turbines could be added to under-construction Golticlay wind farm in Caithness",
       "externalLinks": [
         "https://www.johnogroat-journal.co.uk/.../promise-of.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/26870903272512047/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26866038146331893",
@@ -59024,6 +59087,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -59038,7 +59104,11 @@
         "https://archive.ph/Trh9N#selection-3365.0-3377.1"
       ],
       "contentFingerprint": "eb3570109f81ceb11ec0ad91cd096bb9f8acc17c833f590723bf3850c6485054",
-      "bodyText": "Miliband’s net zero obsession ‘puts Britain at risk of Russia attack’\nTELEGRAPH.CO.UK Miliband’s net zero obsession ‘puts Britain at risk of Russia attack’"
+      "bodyText": "Miliband’s net zero obsession ‘puts Britain at risk of Russia attack’\nTELEGRAPH.CO.UK Miliband’s net zero obsession ‘puts Britain at risk of Russia attack’",
+      "photos": [
+        "media/facebook/26866038146331893/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26864991896436518",
