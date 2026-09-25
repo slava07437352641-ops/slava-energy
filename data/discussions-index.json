@@ -54287,6 +54287,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -54300,7 +54303,11 @@
       "bodyText": "Iran war is a wake-up call for Miliband, says Ratcliffe\nTELEGRAPH.CO.UK Iran war is a wake-up call for Miliband, says Ratcliffe",
       "externalLinks": [
         "https://www.telegraph.co.uk/.../iran-war-wake-up-call.../..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/27044064165195956/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27037998239135882",
@@ -54312,6 +54319,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -54327,7 +54337,11 @@
         "https://uk.rwe.com/.../dow.../creachan/creachan-brochure.pdf"
       ],
       "contentFingerprint": "6c3430d6e0363dc646b73aad46581462184b81f2d3f68e20cbec6ba8c309f46c",
-      "bodyText": "‘We will be totally surrounded’\nROSS-SHIREJOURNAL.CO.UK ‘We will be totally surrounded’"
+      "bodyText": "‘We will be totally surrounded’\nROSS-SHIREJOURNAL.CO.UK ‘We will be totally surrounded’",
+      "photos": [
+        "media/facebook/27037998239135882/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27037283145874058",
@@ -54450,6 +54464,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -54462,7 +54479,11 @@
         "https://l.la-croix.com/M2X"
       ],
       "contentFingerprint": "90113f1a5386d3e600f0e13fa0c1c553610d0352b91acc36daef5e4d5f79e82b",
-      "thin": true
+      "thin": false,
+      "photos": [
+        "media/facebook/27034401719495534/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27034388892830150",
@@ -54571,6 +54592,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -54585,7 +54609,11 @@
       "externalLinks": [
         "https://archive.ph/.../britain-is-exposed-to-rising.../",
         "https://archive.ph/.../net-zero-answer-middle-east.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/27030675079868198/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27030075849928121",
@@ -54898,6 +54926,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -54914,7 +54945,11 @@
       "bodyText": "Report Shows Wind Turbines Are The Biggest Driver of Offshore Claims\nCLAIMSJOURNAL.COM Report Shows Wind Turbines Are The Biggest Driver of Offshore Claims",
       "externalLinks": [
         "https://axiscapital.foleon.com/.../key-findings-summary"
-      ]
+      ],
+      "photos": [
+        "media/facebook/27024647577137615/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27024583647144008",
@@ -55248,6 +55283,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -55263,7 +55301,11 @@
       "bodyText": "Scotland Against Spin’s take on “Onshore electricity generation – Electricity Act threshold”: the Scottish Government Consultation\nSCOTLANDAGAINSTSPIN.ORG Scotland Against Spin’s take on “Onshore electricity generation – Electricity Act threshold”: the Scottish Government Consultation",
       "externalLinks": [
         "https://scotlandagainstspin.org/.../scotland-against.../..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/27007467402188966/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27006264765642563",
@@ -55333,6 +55375,9 @@
       "provenance": {
         "title": {
           "method": "neutral"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -55344,7 +55389,11 @@
       "externalLinks": [
         "https://archive.ph/faGmy"
       ],
-      "contentFingerprint": "229c21d4f7fc3d6687f9438cdf24d8967831ac6d3d0692cf88f743dc7e9ac7d7"
+      "contentFingerprint": "229c21d4f7fc3d6687f9438cdf24d8967831ac6d3d0692cf88f743dc7e9ac7d7",
+      "photos": [
+        "media/facebook/27005616912374015/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27001459002789806",
@@ -55356,6 +55405,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -55369,7 +55421,11 @@
       "bodyText": "Labour poised to raise energy bills to save Britain’s factories\nTELEGRAPH.CO.UK Labour poised to raise energy bills to save Britain’s factories",
       "externalLinks": [
         "https://archive.ph/.../britain-is-exposed-to-rising.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/27001459002789806/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "27000921802843526",
@@ -55799,6 +55855,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -55812,7 +55871,11 @@
       "bodyText": "Miliband must reopen the North Sea, Octopus boss says\nTELEGRAPH.CO.UK Miliband must reopen the North Sea, Octopus boss says",
       "externalLinks": [
         "https://archive.ph/.../24/miliband-north-sea-denmark-drill/"
-      ]
+      ],
+      "photos": [
+        "media/facebook/26983097654625941/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26982330274702679",
@@ -55851,6 +55914,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -55872,7 +55938,11 @@
       "externalLinks": [
         "https://www.johnogroat-journal.co.uk/.../first-turbine.../",
         "https://www.ssen-transmission.co.uk/.../strathy-wood.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/26982261354709571/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26982169274718779",
