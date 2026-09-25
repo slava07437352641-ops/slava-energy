@@ -104,7 +104,7 @@ function buildTechChips() {
 }
 
 function apply({ initial = false } = {}) {
-  const filtered = applyAll(ALL, state);
+  const filtered = applyAll(ALL, state).sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
   const counts = facetCounts(ALL, state);
 
   // tech chip active states

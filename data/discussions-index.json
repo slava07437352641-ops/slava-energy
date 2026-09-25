@@ -78753,6 +78753,93 @@
         "media/facebook/1577381207431408/photo_1.png"
       ],
       "mediaCount": 1
+    },
+    {
+      "id": "29431417873127228",
+      "date": "2026-09-24",
+      "title": "Discussion shared in Scotland Against Spin, 24 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29431417873127228/"
+      },
+      "thin": false,
+      "bodyText": "Here in the UK, it was revealed that a small power plant was knocked offline for four days by hackers linked to Iran.\nThe government, in response, put the country's energy sector on high alert for cyber-attacks in the coming decade.\nElsewhere, NATO tracked and confronted Russian submarines training to sever the undersea cables that carry Britain's power and data.\nThree major interventions which all reinforce the same warning: energy infrastructure is being tested, and not always by accident.\nENERGYVOICE.COM Attacks on energy infrastructure will happen",
+      "contentFingerprint": "97724cc1c485234bc3be8b4a1fa53b9876cc9aaf3216ee5379388b552e3fff0d",
+      "photos": [
+        "media/facebook/29431417873127228/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "29431597109775971",
+      "date": "2026-09-24",
+      "title": "Discussion shared in Scotland Against Spin, 24 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29431597109775971/"
+      },
+      "thin": false,
+      "bodyText": "“Mr Lyon, who previously worked in the oil and gas industry, says Britain is running its electricity grid “very close to the margins”, pointing to a recent incident when the country was “one generating station away from a national blackout” over summer this year.\nHe says based on his experience, “We would never run the grid this way. We would never run this close to the margins that they run them at.” Adding the incident occurred when, on a warm summer evening, the wind dropped and Britain was buying coal-generated power from the Netherlands at £1,500 per megawatt hour.\nTELEGRAPH.CO.UK Britain's energy grid is 'one failure away' from blackout",
+      "contentFingerprint": "1cd3c0e30f0d5cefea271a07efb5dd61750dc45af3d58f8a01bbd854e33d848c",
+      "photos": [
+        "media/facebook/29431597109775971/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "29445114865090862",
+      "date": "2026-09-25",
+      "title": "Discussion shared in Scotland Against Spin, 25 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29445114865090862/"
+      },
+      "thin": false,
+      "bodyText": "The Labour government has made “no detailed assessment” of how much China owns of a “key part of the UK'S energy system” – despite blocking a major Chinese wind turbine project for national security reasons.\nIt comes after ministers blocked the £1.5 billion Ming Yang turbine factory in the Highlands earlier this year because of national security concerns about the firm.\nThe SNP said the recent “revelation” showed the Ming Yang decision was “entirely political”.\nSNP Energy spokesperson Graham Leadbitter questioned why Chinese firms were allowed to invest in battery storage, but not allowed to open a factory in the Highlands.\nSCOTSMAN.COM UK government has 'no detailed assessment' of Chinese battery storage ownership",
+      "contentFingerprint": "f32748308d5bacebf24f0d3ddf3a0c1c80ae8ddd3e8e4eb8b5ec18e59cb760a1",
+      "photos": [
+        "media/facebook/29445114865090862/photo_1.png"
+      ],
+      "mediaCount": 1
     }
   ]
 }
