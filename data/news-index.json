@@ -1,12 +1,15 @@
 {
-  "generated": "2026-09-14T15:21:09.024Z",
+  "generated": "2026-09-25T20:25:29.494Z",
   "sourceFilter": [
-    "Scotland Against Spin",
-    "APR Scotland"
+    "Communities B4 Power Companies",
+    "Environmentalists Against Wind Turbines",
+    "Grampian Against Data Centres",
+    "Not A Just Transition",
+    "Scotland Against Spin"
   ],
   "counts": {
-    "records": 10,
-    "Scotland Against Spin": 10
+    "Scotland Against Spin": 10,
+    "records": 10
   },
   "dateRange": {
     "from": "2026-09-21",
