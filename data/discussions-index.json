@@ -63631,6 +63631,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -63644,7 +63647,11 @@
       "bodyText": "Miliband’s battery subsidies are the next net zero gold rush\nTELEGRAPH.CO.UK Miliband’s battery subsidies are the next net zero gold rush",
       "externalLinks": [
         "https://archive.ph/.../miliband-unveils-new-subsidies.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/26692897786979264/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26692001233735586",
@@ -63662,6 +63669,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -63682,7 +63692,11 @@
         "Planning / process"
       ],
       "contentFingerprint": "46f76a90b563965095c20245caba55d67ee4fb2850052c31a576a2970b5a7f3b",
-      "bodyText": "PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms\nPARLIAMENT.SCOT PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms"
+      "bodyText": "PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms\nPARLIAMENT.SCOT PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms",
+      "photos": [
+        "media/facebook/26692001233735586/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26690870940515282",
@@ -63947,6 +63961,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -63961,7 +63978,11 @@
       "externalLinks": [
         "https://www.canarymedia.com/.../bonkers-doi-letter-halts...",
         "https://www.canarymedia.com/.../american-offshore-wind..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/26683431757925867/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26681689818100061",
@@ -64108,6 +64129,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -64128,7 +64152,11 @@
         "Planning / process"
       ],
       "contentFingerprint": "46f76a90b563965095c20245caba55d67ee4fb2850052c31a576a2970b5a7f3b",
-      "bodyText": "PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms\nPARLIAMENT.SCOT PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms"
+      "bodyText": "PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms\nPARLIAMENT.SCOT PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms",
+      "photos": [
+        "media/facebook/26675851525350557/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26675550948713948",
@@ -64276,6 +64304,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -64296,7 +64327,11 @@
         "Planning / process"
       ],
       "contentFingerprint": "46f76a90b563965095c20245caba55d67ee4fb2850052c31a576a2970b5a7f3b",
-      "bodyText": "PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms\nPARLIAMENT.SCOT PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms"
+      "bodyText": "PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms\nPARLIAMENT.SCOT PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms",
+      "photos": [
+        "media/facebook/26666394619629581/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26666354256300284",
@@ -64392,6 +64427,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -64409,7 +64447,11 @@
         "Onshore Wind"
       ],
       "contentFingerprint": "9461a96edd2c5b2cf19155405cb67de799b589e1432d5a653efc343903270724",
-      "bodyText": "Princes' pals provoke storm over moorland wind farm plan\nDAILYMAIL.CO.UK Princes' pals provoke storm over moorland wind farm plan"
+      "bodyText": "Princes' pals provoke storm over moorland wind farm plan\nDAILYMAIL.CO.UK Princes' pals provoke storm over moorland wind farm plan",
+      "photos": [
+        "media/facebook/26662596003342776/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26662397386695971",
@@ -64460,6 +64502,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -64473,7 +64518,11 @@
       "bodyText": "When freezing weather hits, you’d be mad to rely on renewables\nTELEGRAPH.CO.UK When freezing weather hits, you’d be mad to rely on renewables",
       "externalLinks": [
         "https://www.telegraph.co.uk/.../largest-ice-storm-decade.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/26662121073390269/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26656918493910527",
@@ -64596,6 +64645,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -64610,7 +64662,11 @@
       "externalLinks": [
         "https://www.parliament.scot/.../pe1864/pe1864_pppppp.pdf",
         "https://www.parliament.scot/.../pe1864/pe1864_qqqqqq.pdf"
-      ]
+      ],
+      "photos": [
+        "media/facebook/26656372607298449/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26654805107455199",
@@ -64926,6 +64982,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -64945,7 +65004,11 @@
         "Planning / process"
       ],
       "contentFingerprint": "46f76a90b563965095c20245caba55d67ee4fb2850052c31a576a2970b5a7f3b",
-      "bodyText": "PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms\nPARLIAMENT.SCOT PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms"
+      "bodyText": "PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms\nPARLIAMENT.SCOT PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms",
+      "photos": [
+        "media/facebook/26647490404853336/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26646870001582043",
@@ -65207,6 +65270,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -65221,7 +65287,11 @@
       "externalLinks": [
         "https://www.equinor.com/.../20260115-empire-wind-granted...",
         "https://cleantechnica.com/.../4-of-the-5-wind-power.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/26642612398674470/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26639440302325013",
