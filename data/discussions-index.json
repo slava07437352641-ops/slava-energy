@@ -62367,6 +62367,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -62380,7 +62383,11 @@
       "bodyText": "‘Prepare for blackouts’: Miliband’s net zero revolution is a hacker’s dream\nTELEGRAPH.CO.UK ‘Prepare for blackouts’: Miliband’s net zero revolution is a hacker’s dream",
       "externalLinks": [
         "https://www.telegraph.co.uk/.../miliband-battery.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/26746854971583545/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26746771401591902",
@@ -62417,6 +62424,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -62433,7 +62443,11 @@
       "categories": [
         "Onshore Wind"
       ],
-      "contentFingerprint": "0a5acab5368c93211266460e912df4c4ec0bb5d8a50dd8e1c50449bc14fb89bb"
+      "contentFingerprint": "0a5acab5368c93211266460e912df4c4ec0bb5d8a50dd8e1c50449bc14fb89bb",
+      "photos": [
+        "media/facebook/26739197149015994/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26738898002379242",
@@ -62509,6 +62523,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -62522,7 +62539,11 @@
       "bodyText": "Scroby Sands Lights the Fuse of the Decommissioning Timebomb\nDAVIDTURVER.SUBSTACK.COM Scroby Sands Lights the Fuse of the Decommissioning Timebomb",
       "externalLinks": [
         "https://davidturver.substack.com/.../scroby-sands-lights..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/26737236679212041/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26737200245882351",
@@ -62700,6 +62721,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -62720,7 +62744,11 @@
         "Planning / process"
       ],
       "contentFingerprint": "46f76a90b563965095c20245caba55d67ee4fb2850052c31a576a2970b5a7f3b",
-      "bodyText": "PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms\nPARLIAMENT.SCOT PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms"
+      "bodyText": "PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms\nPARLIAMENT.SCOT PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms",
+      "photos": [
+        "media/facebook/26728538716748504/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26727956546806721",
@@ -62762,6 +62790,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -62778,7 +62809,11 @@
       "bodyText": "The tiny village battling the German windfarm giant\nTELEGRAPH.CO.UK The tiny village battling the German windfarm giant",
       "externalLinks": [
         "https://www.telegraph.co.uk/.../wind-farms-knock-8pc.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/26727581240177585/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26727130090222700",
@@ -62815,6 +62850,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -62832,7 +62870,11 @@
       "externalLinks": [
         "https://www.telegraph.co.uk/.../orsted-sues-us.../",
         "https://www.telegraph.co.uk/.../uk-biggest-windfarm.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/26722961823972860/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26721410767461299",
@@ -63041,6 +63083,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -63061,7 +63106,11 @@
         "Planning / process"
       ],
       "contentFingerprint": "46f76a90b563965095c20245caba55d67ee4fb2850052c31a576a2970b5a7f3b",
-      "bodyText": "PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms\nPARLIAMENT.SCOT PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms"
+      "bodyText": "PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms\nPARLIAMENT.SCOT PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms",
+      "photos": [
+        "media/facebook/26712997848302591/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26712212078381168",
@@ -63267,6 +63316,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -63287,7 +63339,11 @@
       "externalLinks": [
         "https://www.theguardian.com/.../pennines-delight-drone...",
         "https://www.theguardian.com/.../wetland-bird-survey..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/26703116095957433/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26701678496101193",
