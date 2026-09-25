@@ -71560,6 +71560,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -71577,7 +71580,11 @@
       "externalLinks": [
         "https://www.telegraph.co.uk/.../wasted-wind-power-costs.../",
         "https://uk.finance.yahoo.com/.../scotland-biggest..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/26442157738719938/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26439087572360288",
@@ -72077,6 +72084,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -72093,7 +72103,11 @@
       "bodyText": "Miliband faces High Court challenge over solar farm\nTELEGRAPH.CO.UK Miliband faces High Court challenge over solar farm",
       "externalLinks": [
         "https://www.telegraph.co.uk/.../ed-miliband-approves.../..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/26413415234927522/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26413321134936932",
@@ -72264,6 +72278,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -72276,7 +72293,11 @@
         "HTTPS://WWW.SPENERGYNETWORKS.CO.UK"
       ],
       "bodyText": "SP Energy Networks\nWhat matters most to you?\nHTTPS://WWW.SPENERGYNETWORKS.CO.UK What matters most to you?",
-      "contentFingerprint": "a136e3e24b9e7f567ad2e891ad4a41b87f9166dfb114f8e70ed108e56d037a26"
+      "contentFingerprint": "a136e3e24b9e7f567ad2e891ad4a41b87f9166dfb114f8e70ed108e56d037a26",
+      "photos": [
+        "media/facebook/26409025788699800/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26409010272034685",
@@ -72411,6 +72432,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -72424,7 +72448,11 @@
         "https://www.dailymail.co.uk/news/labour/index.html"
       ],
       "contentFingerprint": "620a5feac7450d7fbdbe4329df287271abf11dbe7f193e74217670d8975c2db3",
-      "bodyText": "Net zero backlash as campaigners warn slave labour must not be used to produce green technology\nMSN.COM Net zero backlash as campaigners warn slave labour must not be used to produce green technology"
+      "bodyText": "Net zero backlash as campaigners warn slave labour must not be used to produce green technology\nMSN.COM Net zero backlash as campaigners warn slave labour must not be used to produce green technology",
+      "photos": [
+        "media/facebook/26401093652826347/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26401039736165072",
@@ -72525,6 +72553,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -72538,7 +72569,11 @@
         "https://archive.ph/bqrii"
       ],
       "contentFingerprint": "3a9d74e61b9f971c3abd2742ed06c5c928b084c7a1edd974085a58119f53c1cb",
-      "bodyText": "Swinney warned net zero would increase fuel poverty despite renewables bills vow\nSCOTSMAN.COM Swinney warned net zero would increase fuel poverty despite renewables bills vow"
+      "bodyText": "Swinney warned net zero would increase fuel poverty despite renewables bills vow\nSCOTSMAN.COM Swinney warned net zero would increase fuel poverty despite renewables bills vow",
+      "photos": [
+        "media/facebook/26393674230234956/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26392821340320245",
@@ -72823,6 +72858,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -72837,7 +72875,11 @@
         "https://www.scotsman.com/.../snp-scottish-government..."
       ],
       "contentFingerprint": "f988b75071b9e579c33db9690f2ed7acce6ee00aab834ea713cd456a9f7ca39f",
-      "bodyText": "SNP 'taking sufficient time' to publish energy strategy despite three-year wait\nSCOTSMAN.COM SNP 'taking sufficient time' to publish energy strategy despite three-year wait"
+      "bodyText": "SNP 'taking sufficient time' to publish energy strategy despite three-year wait\nSCOTSMAN.COM SNP 'taking sufficient time' to publish energy strategy despite three-year wait",
+      "photos": [
+        "media/facebook/26376767991925580/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26376502521952127",
@@ -73066,6 +73108,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -73085,7 +73130,11 @@
       "bodyText": "PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms\nPARLIAMENT.SCOT PE1864 Increase the ability of communities to influence planning decisions for onshore windfarms",
       "externalLinks": [
         "https://scotlandagainstspin.org/.../overwhelmed.../"
-      ]
+      ],
+      "photos": [
+        "media/facebook/26363303253272054/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26361770010092045",
@@ -73122,6 +73171,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "facebook_post_screenshot"
         }
       },
       "source": {
@@ -73138,7 +73190,11 @@
       "bodyText": "SNP Ministers force through dozens of wind farm plans in affront to democracy\nSCOTTISHDAILYEXPRESS.CO.UK SNP Ministers force through dozens of wind farm plans in affront to democracy",
       "externalLinks": [
         "https://www.scottishdailyexpress.co.uk/.../humiliated-snp..."
-      ]
+      ],
+      "photos": [
+        "media/facebook/26361427653459614/photo_1.png"
+      ],
+      "mediaCount": 1
     },
     {
       "id": "26358601583742221",
