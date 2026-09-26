@@ -1,7 +1,7 @@
 // Bootstrap for the Public objections & discussions dashboard (Pilot v0.1).
-import { readState, writeState } from "./url-state.js?v=20260926a";
-import { applyAll, facetCounts, FACETS, TECH_CATEGORIES } from "./filters.js?v=20260926a";
-import { renderFeed, renderDetail, renderMirror } from "./feed.js?v=20260926a";
+import { readState, writeState } from "./url-state.js?v=20260926b";
+import { applyAll, facetCounts, tokenize, FACETS, TECH_CATEGORIES } from "./filters.js?v=20260926b";
+import { renderFeed, renderDetail, renderMirror } from "./feed.js?v=20260926b";
 
 // Must match news.js's NEWS_PANEL_LIMIT -- kept as a separate constant
 // rather than a cross-module import so this file never depends on
@@ -9,6 +9,10 @@ import { renderFeed, renderDetail, renderMirror } from "./feed.js?v=20260926a";
 // Rule 3, no duplicate posts: the Recent News panel and the main feed below
 // must never show the same record).
 const NEWS_PANEL_LIMIT = 4;
+
+// How many cards render per "page" of results, and how many more a Load
+// More click reveals -- see BATCH_SIZE usage in apply()/select() below.
+const BATCH_SIZE = 50;
 
 const els = {
   feed: document.getElementById("pd-feed"),
@@ -25,6 +29,21 @@ let ALL = [];
 let NEWS_IDS = new Set();
 let MIRROR_IDS = new Set();
 let state = readState();
+// Tracks the range the user had selected before a search auto-switched the
+// dropdown to "all time", so clearing the search can restore it (see
+// apply()'s edge-triggered transition below). Starts equal to the range
+// read from the URL/default, same as state.range itself.
+let savedRange = state.range;
+// Forced false (not derived from the initial state.q) so the very first
+// apply() call always evaluates the empty->non-empty transition fresh --
+// this matters for a shared URL that already has a query in it (e.g.
+// ?q=turbine&range=6m): without this, wasSearching would start already
+// "true" and the transition guard would never fire, leaving the dropdown
+// showing "6m" while results actually cover all time (effectiveRange in
+// filters.js doesn't need this fix -- it's re-derived every filter call --
+// but the dropdown's displayed value would otherwise lag on first paint).
+let wasSearching = false;
+let batchLimit = BATCH_SIZE;
 
 init();
 
@@ -82,10 +101,15 @@ async function init() {
   els.search.addEventListener("input", debounce(() => {
     state.q = els.search.value.trim();
     state.sel = null;
+    batchLimit = BATCH_SIZE;
     apply();
   }, 180));
   els.range.addEventListener("change", () => {
+    // A manual change while not searching is also the range to restore to
+    // once a future search ends (see apply()'s edge-triggered transition).
     state.range = els.range.value;
+    savedRange = els.range.value;
+    batchLimit = BATCH_SIZE;
     apply();
   });
 
@@ -108,13 +132,39 @@ function buildTechChips() {
       if (!v) state.tech = [];
       else state.tech = state.tech.length === 1 && state.tech[0] === v ? [] : [v];
       state.sel = null;
+      batchLimit = BATCH_SIZE;
       apply();
     });
   });
 }
 
 function apply({ initial = false } = {}) {
-  const isSearching = state.q.trim().length > 0;
+  // Guard on tokenize().length, not state.q.trim().length: a punctuation-only
+  // query (e.g. "?") tokenizes to nothing and must not be treated as an
+  // active search -- matchesSearch already ignores it, and treating it as
+  // "searching" here would needlessly flip the range to all-time and hide
+  // Recent Posts for a query that matches everything anyway.
+  const isSearching = tokenize(state.q).length > 0;
+
+  // Edge-triggered range auto-switch (fires only on the empty<->non-empty
+  // transition, never on every keystroke, so narrowing the range back down
+  // mid-search stays possible): starting a search remembers whatever range
+  // was active and switches to all-time, so search reliably covers the
+  // whole archive; clearing the search restores it. filters.js's
+  // effectiveRange() applies the same "all-time while searching" rule to
+  // the actual filtering -- this block only keeps the dropdown's displayed
+  // value honest about what's happening, per state.range.
+  if (isSearching && !wasSearching) {
+    savedRange = state.range;
+    state.range = "all";
+    els.range.value = "all";
+  } else if (!isSearching && wasSearching) {
+    state.range = savedRange;
+    els.range.value = state.range;
+  }
+  wasSearching = isSearching;
+  els.range.classList.toggle("is-auto", isSearching);
+
   // The default browse view excludes whatever Recent Posts is showing (so
   // nothing renders twice on the page) -- but that panel is hidden the
   // moment a search is active, so the exclusion no longer serves its
@@ -138,9 +188,23 @@ function apply({ initial = false } = {}) {
     }
   });
 
-  els.count.textContent = `${filtered.length.toLocaleString()} discussion${filtered.length === 1 ? "" : "s"}`;
+  const shown = Math.min(batchLimit, filtered.length);
+  els.count.textContent =
+    `${filtered.length.toLocaleString()} discussion${filtered.length === 1 ? "" : "s"}` +
+    (isSearching ? " · all dates" : "") +
+    (filtered.length > shown ? ` (showing ${shown})` : "");
 
-  renderFeed(els.feed, filtered.slice(0, 400), { selectedId: state.sel, onSelect: (id) => select(id), mirrorIds: MIRROR_IDS });
+  renderFeed(els.feed, filtered.slice(0, batchLimit), {
+    selectedId: state.sel,
+    onSelect: (id) => select(id),
+    mirrorIds: MIRROR_IDS,
+    query: state.q,
+    totalCount: filtered.length,
+    onLoadMore: () => {
+      batchLimit += BATCH_SIZE;
+      apply();
+    },
+  });
 
   writeState(state);
 }

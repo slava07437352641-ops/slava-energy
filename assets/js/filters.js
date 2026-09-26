@@ -30,7 +30,7 @@ const PROJECT_ALIASES = {
   "Giants Burn Wind Farm": ["Giant's Burn Wind Farm", "Giant's Burn"],
 };
 
-function tokenize(s) {
+export function tokenize(s) {
   return (s || "")
     .toLowerCase()
     .normalize("NFKC")
@@ -86,9 +86,21 @@ export function withinRange(record, range, now = new Date()) {
   return (now - d) / 86400000 <= days;
 }
 
+// A search must reliably cover the entire archive, not just whatever the
+// date-range dropdown happens to be set to -- so once a query is active,
+// filtering behaves as "all time" regardless of the dropdown's own value
+// (the dropdown itself is kept in sync with this by main.js's apply()).
+// Guards on tokenize().length, not state.q.trim().length, so a
+// punctuation-only query (e.g. "?") -- which matchesSearch treats as no
+// query at all -- doesn't spuriously widen the range too.
+export function effectiveRange(state) {
+  return tokenize(state.q).length > 0 ? "all" : state.range;
+}
+
 export function applyAll(records, state, now = new Date()) {
+  const range = effectiveRange(state);
   return records.filter(
-    (r) => withinRange(r, state.range, now) && matchesFacets(r, state) && matchesSearch(r, state.q)
+    (r) => withinRange(r, range, now) && matchesFacets(r, state) && matchesSearch(r, state.q)
   );
 }
 
@@ -99,8 +111,9 @@ export function facetCounts(records, state, now = new Date()) {
   const out = {};
   for (const facet of Object.keys(FACETS)) {
     const others = { ...state, [facet]: [] };
+    const range = effectiveRange(others);
     const pool = records.filter(
-      (r) => withinRange(r, others.range, now) && matchesFacets(r, others) && matchesSearch(r, others.q)
+      (r) => withinRange(r, range, now) && matchesFacets(r, others) && matchesSearch(r, others.q)
     );
     const counts = {};
     for (const r of pool) for (const v of FACETS[facet](r)) counts[v] = (counts[v] || 0) + 1;

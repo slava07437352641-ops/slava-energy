@@ -65,7 +65,10 @@ body {
 }
 .pd-search:focus { outline: 2px solid var(--accent-ochre); outline-offset: 1px; }
 .pd-range-wrap { font-size: 0.82rem; color: var(--text-muted); display: inline-flex; align-items: center; gap: 6px; }
-.pd-range { padding: 8px 10px; border: 1px solid var(--card-border); border-radius: 10px; background: var(--card-bg); font: inherit; color: var(--text-primary); }
+.pd-range { padding: 8px 10px; border: 1px solid var(--card-border); border-radius: 10px; background: var(--card-bg); font: inherit; color: var(--text-primary); transition: border-color 0.2s, background-color 0.2s; }
+/* A search auto-switches this to "all time" (see main.js's apply()) -- this
+   highlight is the control staying honest about that, not decoration. */
+.pd-range.is-auto { border-color: var(--accent-ochre); background: rgba(192, 112, 24, 0.08); }
 .pd-count { font-size: 0.85rem; font-weight: 600; color: var(--text-secondary); }
 .pd-tech { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
 .pd-chip {
@@ -131,16 +134,22 @@ body {
 .pd-card.is-selected { border-color: var(--accent-terracotta); box-shadow: 0 0 0 1px var(--accent-terracotta); }
 .pd-card-title {
   font-family: var(--font-serif); font-size: 1rem; line-height: 1.3; margin: 0 0 4px; color: var(--text-primary);
-  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden;
+  display: flex; align-items: center; flex-wrap: wrap; gap: 6px;
 }
 .pd-card-summary {
   font-size: 0.85rem; color: var(--text-secondary); margin: 0 0 8px; line-height: 1.45;
+}
+/* Plain-browse excerpts (no query, no <mark>) keep the clamp -- it's only
+   the search-result case below that drops it. */
+.pd-card-summary.pd-clamp {
   display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden;
 }
+.pd-card-summary mark { background: rgba(200, 90, 50, 0.22); color: var(--text-primary); border-radius: 3px; padding: 0 2px; font-weight: 700; }
 .pd-card-thumb { width: 100%; height: 140px; flex-shrink: 0; object-fit: contain; background: var(--bg-paper-2); border-radius: 8px; margin-bottom: 8px; display: block; }
 .pd-card-meta { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 6px; max-height: 52px; overflow: hidden; }
 .pd-tag { font-size: 0.68rem; font-weight: 600; padding: 3px 8px; border-radius: 980px; background: var(--bg-paper-2); color: var(--text-muted); }
 .pd-tag--tech { background: rgba(78, 124, 89, 0.14); color: #3c5f47; }
+.pd-tag--exact { background: rgba(200, 90, 50, 0.16); color: var(--accent-terracotta); }
 .pd-field { font-size: 0.8rem; color: var(--text-secondary); line-height: 1.5; }
 .pd-field span { font-weight: 700; color: var(--text-muted); }
 .pd-field--unknown { color: var(--text-muted); font-style: italic; }
@@ -151,6 +160,13 @@ body {
   background: none; color: var(--accent-terracotta); font-weight: 700; font-size: 0.85rem; cursor: pointer;
 }
 .pd-retry:hover { background: var(--accent-terracotta); color: var(--bg-paper); }
+.pd-loadmore-wrap { grid-column: 1 / -1; text-align: center; padding: 18px 0 4px; }
+.pd-loadmore {
+  padding: 10px 22px; border-radius: 980px; border: 1px solid var(--accent-terracotta);
+  background: none; color: var(--accent-terracotta); font-weight: 700; font-size: 0.85rem; cursor: pointer;
+}
+.pd-loadmore:hover { background: var(--accent-terracotta); color: #fff; }
+.pd-loadmore:focus-visible { outline: 2px solid var(--accent-ochre); outline-offset: 2px; }
 
 .pd-detail-panel {
   position: fixed; inset: 0; z-index: 50; overflow-y: auto;

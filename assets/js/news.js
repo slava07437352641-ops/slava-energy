@@ -67,7 +67,7 @@ function renderNewsCards(container, records) {
     card.innerHTML = `
       ${thumb ? `<img class="pd-card-thumb" src="${safeUrl(thumb)}" alt="" loading="lazy">` : ""}
       <h3 class="pd-card-title">${escapeHtml(r.title)}</h3>
-      ${excerpt ? `<p class="pd-card-summary">${escapeHtml(excerpt)}</p>` : ""}
+      ${excerpt ? `<p class="pd-card-summary pd-clamp">${escapeHtml(excerpt)}</p>` : ""}
       <div class="pd-card-meta">
         ${(r.categories || []).map((c) => `<span class="pd-tag pd-tag--tech">${escapeHtml(c)}</span>`).join("")}
         ${(r.topics || []).slice(0, 3).map((t) => `<span class="pd-tag">${escapeHtml(t)}</span>`).join("")}

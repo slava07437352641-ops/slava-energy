@@ -103,6 +103,78 @@ function cardExcerpt(r) {
   if (r.bodyText) return truncate(r.bodyText.replace(/\s+/g, " ").trim(), 220);
   return "";
 }
+function escapeRegExp(s) {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+// Same tokenizer as filters.js's search predicate, duplicated rather than
+// imported to keep feed.js's only dependency on filters.js's public API
+// (no reach into an unexported helper) -- must stay in sync if that one changes.
+function tokenizeForHighlight(s) {
+  return (s || "")
+    .toLowerCase()
+    .normalize("NFKC")
+    .replace(/[^\p{L}\p{N}\s]/gu, " ")
+    .split(/\s+/)
+    .filter(Boolean);
+}
+// A card's preview line while a search is active: centred on the first
+// matched term (rather than always the post's first 220 characters, which
+// may not even contain the match) and with matches safely highlighted --
+// escape the raw text FIRST, then wrap the escaped, matched substrings in
+// <mark>, so a query can never inject markup.
+function searchExcerpt(r, query) {
+  const terms = tokenizeForHighlight(query).filter((t) => t.length > 1);
+  const text = (r.summary || r.bodyText || "").replace(/\s+/g, " ").trim();
+  if (!text) return "";
+  if (terms.length === 0) return escapeHtml(truncate(text, 220));
+
+  const lower = text.toLowerCase();
+  let firstIdx = -1;
+  for (const t of terms) {
+    const i = lower.indexOf(t);
+    if (i >= 0 && (firstIdx === -1 || i < firstIdx)) firstIdx = i;
+  }
+  let start = 0;
+  let end = Math.min(text.length, 180);
+  if (firstIdx >= 0) {
+    start = Math.max(0, firstIdx - 50);
+    end = Math.min(text.length, start + 180);
+  }
+  // Trim both edges back to a whole-word boundary before adding the "…"
+  // markers -- same cleanup truncate() already does for the plain-excerpt
+  // case, just applied at both ends here. Without it, a window can end
+  // mid-word (or immediately after a <mark>-wrapped word with no breathing
+  // room), which reads as a broken cut rather than a clean truncation,
+  // especially where the browser's own line-clamp ellipsis is unreliable
+  // right after an inline element.
+  if (start > 0) {
+    const firstSpace = text.slice(start).search(/\s/);
+    if (firstSpace > 0) start += firstSpace + 1;
+  }
+  if (end < text.length) {
+    end = start + (text.slice(start, end).replace(/\s+\S*$/, "").length || end - start);
+  }
+  let windowed = text.slice(start, end);
+  if (start > 0) windowed = "…" + windowed;
+  if (end < text.length) windowed = windowed + "…";
+
+  let safe = escapeHtml(windowed);
+  const pattern = new RegExp("(" + [...terms].sort((a, b) => b.length - a.length).map(escapeRegExp).join("|") + ")", "gi");
+  return safe.replace(pattern, "<mark>$1</mark>");
+}
+// Whether a record contains the query as a literal phrase (not just all its
+// words scattered anywhere) -- used to badge, never to reorder: sort stays
+// strictly by date (see main.js's apply()), so an exact match is flagged,
+// not promoted.
+function isExactPhraseMatch(r, query) {
+  const q = (query || "").trim().toLowerCase();
+  if (tokenizeForHighlight(q).length < 2) return false; // single-word queries have no "phrase" to distinguish
+  const blob = [r.title, r.summary, r.bodyText, r.location, r.project, r.developer, r.council, r.authority]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+  return blob.includes(q);
+}
 
 // Cards are plain <article>s activated by a click handler, which a
 // keyboard-only or screen-reader user can't reach at all. Making a card a
@@ -120,10 +192,12 @@ export function makeCardKeyboardAccessible(card, title, onActivate) {
   });
 }
 
-export function renderFeed(container, records, { selectedId, onSelect, mirrorIds }) {
+export function renderFeed(container, records, { selectedId, onSelect, mirrorIds, query = "", totalCount, onLoadMore }) {
   container.innerHTML = "";
   if (records.length === 0) {
-    container.innerHTML = `<div class="pd-empty">No discussions match the current search and filters.<br>Try widening the date range or clearing a filter.</div>`;
+    container.innerHTML = query.trim()
+      ? `<div class="pd-empty">No discussions match <b>&ldquo;${escapeHtml(query.trim())}&rdquo;</b>.<br>Try a different word, or clear the search to browse recent posts.</div>`
+      : `<div class="pd-empty">No discussions match the current search and filters.<br>Try widening the date range or clearing a filter.</div>`;
     return;
   }
 
@@ -141,11 +215,13 @@ export function renderFeed(container, records, { selectedId, onSelect, mirrorIds
     card.className = "pd-card" + (r.id === selectedId ? " is-selected" : "");
     card.dataset.id = r.id;
     const thumb = (r.photos && r.photos[0]) || r.previewImage;
+    const isSearchCard = Boolean(query.trim());
+    const excerpt = isSearchCard ? searchExcerpt(r, query) : escapeHtml(cardExcerpt(r));
     card.innerHTML = `
       ${mirrorIds?.has(r.id) ? `<span class="pd-tag pd-tag--featured">&#9733; ${mirrorBadgeLabel(mirrorIds.size)}</span>` : ""}
       ${thumb ? `<img class="pd-card-thumb" src="${safeUrl(thumb)}" alt="" loading="lazy">` : ""}
-      <h3 class="pd-card-title">${escapeHtml(r.title)}</h3>
-      ${cardExcerpt(r) ? `<p class="pd-card-summary">${escapeHtml(cardExcerpt(r))}</p>` : ""}
+      <h3 class="pd-card-title">${escapeHtml(r.title)}${isExactPhraseMatch(r, query) ? `<span class="pd-tag pd-tag--exact">Exact match</span>` : ""}</h3>
+      ${excerpt ? `<p class="pd-card-summary${isSearchCard ? "" : " pd-clamp"}">${excerpt}</p>` : ""}
       <div class="pd-card-meta">
         ${(r.categories || []).map((c) => `<span class="pd-tag pd-tag--tech">${escapeHtml(c)}</span>`).join("")}
         ${(r.topics || []).slice(0, 3).map((t) => `<span class="pd-tag">${escapeHtml(t)}</span>`).join("")}
@@ -160,6 +236,15 @@ export function renderFeed(container, records, { selectedId, onSelect, mirrorIds
     card.addEventListener("click", () => onSelect(r.id));
     makeCardKeyboardAccessible(card, r.title, () => onSelect(r.id));
     container.appendChild(card);
+  }
+
+  if (typeof totalCount === "number" && totalCount > records.length && onLoadMore) {
+    const wrap = document.createElement("div");
+    wrap.className = "pd-loadmore-wrap";
+    const remaining = totalCount - records.length;
+    wrap.innerHTML = `<button class="pd-loadmore" type="button">Load ${Math.min(50, remaining)} more (${remaining.toLocaleString()} remaining)</button>`;
+    wrap.querySelector("button").addEventListener("click", onLoadMore);
+    container.appendChild(wrap);
   }
 }
 
