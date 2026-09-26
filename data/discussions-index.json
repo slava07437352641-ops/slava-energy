@@ -1,16 +1,16 @@
 {
   "generated": "2026-09-26T11:25:31.000Z",
   "counts": {
-    "records": 3296,
+    "records": 3314,
     "thin": 320,
-    "withMedia": 760,
+    "withMedia": 778,
     "withCategories": 746,
     "withTopics": 316,
     "withProject": 10,
     "withCoordinates": 95,
     "withSummary": 52,
-    "withBodyText": 1910,
-    "withPhotos": 760,
+    "withBodyText": 1928,
+    "withPhotos": 778,
     "withPreviewImage": 64,
     "councils": 4,
     "matchReviewLogged": 2,
@@ -80374,6 +80374,528 @@
       "contentFingerprint": "a064d4d55eca421a0fffbea4ab3bf8b68fe81125e8c5a894f1b8b3c100c269f3",
       "photos": [
         "media/facebook/1652110306522119/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "29461004566835225",
+      "date": "2026-09-26",
+      "title": "Discussion shared in Scotland Against Spin, 26 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29461004566835225/"
+      },
+      "thin": false,
+      "bodyText": "“For those following our wind turbine saga in the Isle of Man you may be interested to know that I've been elected to our parliament having won a seat in the general election for Arbory, Castletown & Malew as an i[ndependent]...”",
+      "contentFingerprint": "38eecbf1faa6939ccb9dc0d469fb73b4267a0117d32b85ff538cfa5379f86b20",
+      "photos": [
+        "media/facebook/29461004566835225/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "29459112390357776",
+      "date": "2026-09-26",
+      "title": "Discussion shared in Scotland Against Spin, 26 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29459112390357776/"
+      },
+      "thin": false,
+      "bodyText": "“GB Energy has been branded a 'money-pit' and accused of 'draining taxpayers' cash' after recording a loss in its first year. The accounts, which run up to March 31 of this year, revea[l]...”",
+      "contentFingerprint": "97d6e971ce227f683b7388ff5658a8b7edcde3da73bd6e8a54be22c60401c2fd",
+      "photos": [
+        "media/facebook/29459112390357776/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "28324253247228097",
+      "date": "2026-09-26",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 26 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/28324253247228097/"
+      },
+      "thin": false,
+      "bodyText": "“Cheap power they say. 🤔” — post with original audio, on the cost of wind-generated power.",
+      "contentFingerprint": "cf2926812e538f2969f506e885818ae79e4d795fad8e17cc76e2a8bfa184bd0b",
+      "photos": [
+        "media/facebook/28324253247228097/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1611901987312663",
+      "date": "2026-09-25",
+      "title": "Discussion shared in Grampian Against Data Centres, 25 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Grampian Against Data Centres",
+        "label": "Facebook · Grampian Against Data Centres",
+        "url": "https://www.facebook.com/groups/1517407306762132/posts/1611901987312663/"
+      },
+      "thin": false,
+      "bodyText": "“INTRODUCING OBJECTNOW SUPPORT. Getting help from ObjectNow is changing.” Update on the ObjectNow support platform for objectors.",
+      "contentFingerprint": "7f0378806e624120d949f0e84dfe3cb2a019d897bd2a259e77ce56ac84ce3cd8",
+      "photos": [
+        "media/facebook/1611901987312663/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1611030354066493",
+      "date": "2026-09-25",
+      "title": "Discussion shared in Grampian Against Data Centres, 25 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Grampian Against Data Centres",
+        "label": "Facebook · Grampian Against Data Centres",
+        "url": "https://www.facebook.com/groups/1517407306762132/posts/1611030354066493/"
+      },
+      "thin": false,
+      "bodyText": "Shared via Action to Protect Rural Scotland (photos) — community campaign update relevant to the Blackdog AI data centre objection.",
+      "contentFingerprint": "7d3656932a0645039d7355d04207fe9fa05325e05977ec2790384ca82f0882c7",
+      "photos": [
+        "media/facebook/1611030354066493/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1607995154370013",
+      "date": "2026-09-25",
+      "title": "Discussion shared in Grampian Against Data Centres, 25 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Grampian Against Data Centres",
+        "label": "Facebook · Grampian Against Data Centres",
+        "url": "https://www.facebook.com/groups/1517407306762132/posts/1607995154370013/"
+      },
+      "thin": false,
+      "bodyText": "“Our Votes are the only power we have!” — with a comment thread discussing disruptive protest tactics.",
+      "contentFingerprint": "b131f008eacdb064581281a17efae70a8b3ed627ddb232eeece19ebe8594c1e6",
+      "photos": [
+        "media/facebook/1607995154370013/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1609537880882407",
+      "date": "2026-09-24",
+      "title": "Discussion shared in Grampian Against Data Centres, 24 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Grampian Against Data Centres",
+        "label": "Facebook · Grampian Against Data Centres",
+        "url": "https://www.facebook.com/groups/1517407306762132/posts/1609537880882407/"
+      },
+      "thin": false,
+      "bodyText": "“THINK ABOUT IT. Has anyone stopped to ask whether this is really just an AI race.. or whether we're [being sold something else]...”",
+      "contentFingerprint": "dc2f49c0305c4cc8a41e6e3a35848ebca89614bdd764766105ab7e1b929aa518",
+      "photos": [
+        "media/facebook/1609537880882407/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1093961483033633",
+      "date": "2026-09-26",
+      "title": "Discussion shared in Communities B4 Power Companies, 26 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Communities B4 Power Companies",
+        "label": "Facebook · Communities B4 Power Companies",
+        "url": "https://www.facebook.com/groups/221782186918238/posts/1093961483033633/"
+      },
+      "thin": false,
+      "bodyText": "“Brilliant round up by WEA. Remember SSEN only scope in what they think they ca[n get away with]...”",
+      "contentFingerprint": "72c2f8f542a9aa9432fe14eb525539151de5d7a7234d01e531f776626a28155c",
+      "photos": [
+        "media/facebook/1093961483033633/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1090293056733809",
+      "date": "2026-09-26",
+      "title": "Discussion shared in Communities B4 Power Companies, 26 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Communities B4 Power Companies",
+        "label": "Facebook · Communities B4 Power Companies",
+        "url": "https://www.facebook.com/groups/221782186918238/posts/1090293056733809/"
+      },
+      "thin": false,
+      "bodyText": "“Let's have a quick look at the political history and justification for renewab[les policy in Scotland]...”",
+      "contentFingerprint": "e1d0ac2cb000622a84ef17368ebd1f59ea78c580dde16d191f97b5a82942f9f5",
+      "photos": [
+        "media/facebook/1090293056733809/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1094090949687353",
+      "date": "2026-09-25",
+      "title": "Discussion shared in Communities B4 Power Companies, 25 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Communities B4 Power Companies",
+        "label": "Facebook · Communities B4 Power Companies",
+        "url": "https://www.facebook.com/groups/221782186918238/posts/1094090949687353/"
+      },
+      "thin": false,
+      "bodyText": "“********New Community Thread 25th September 2026********* Rather than have a da[ily churn of separate posts]...” — admin-pinned community discussion thread.",
+      "contentFingerprint": "587b8103aa84ae3e01d6c65bea77670e70f1dda52e5b529b7fe0d2d109d35b6b",
+      "photos": [
+        "media/facebook/1094090949687353/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1092647939831654",
+      "date": "2026-09-26",
+      "title": "Discussion shared in Communities B4 Power Companies, 26 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Communities B4 Power Companies",
+        "label": "Facebook · Communities B4 Power Companies",
+        "url": "https://www.facebook.com/groups/221782186918238/posts/1092647939831654/"
+      },
+      "thin": false,
+      "bodyText": "“Hi all — Banff today, 3–7pm. If you're nearby, this is a good chance to look a[t the proposals]...” Shared via Save the Deveron Valley (#SaveTheDeveronValley, #Banff, #Whitehills, #BoyndieBay).",
+      "contentFingerprint": "a7f653ce4704127e3a2b2fb5923e5e1aef9524e3dcc08172ef6b56f18a091d1c",
+      "photos": [
+        "media/facebook/1092647939831654/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1088674540228994",
+      "date": "2026-09-20",
+      "title": "Discussion shared in Communities B4 Power Companies, 20 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Communities B4 Power Companies",
+        "label": "Facebook · Communities B4 Power Companies",
+        "url": "https://www.facebook.com/groups/221782186918238/posts/1088674540228994/"
+      },
+      "thin": false,
+      "bodyText": "“Mumbling waffle. This is bloody terrifying. These people should be nowhere near [decision-making on energy policy]...”",
+      "contentFingerprint": "b2ad6ffb3c8bec1b1e26d66c5c7cc142ea47a0c9708370575eb51f0d56029b16",
+      "photos": [
+        "media/facebook/1088674540228994/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1094098466353268",
+      "date": "2026-09-26",
+      "title": "Discussion shared in Communities B4 Power Companies, 26 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Communities B4 Power Companies",
+        "label": "Facebook · Communities B4 Power Companies",
+        "url": "https://www.facebook.com/groups/221782186918238/posts/1094098466353268/"
+      },
+      "thin": false,
+      "bodyText": "“Now Miliband has removed the community veto in England the vultures are circli[ng]...”",
+      "contentFingerprint": "96afa48e9d685d5e11b8c3119de222c0e40d5c1a5cb9c013955d6709f4784fa2",
+      "photos": [
+        "media/facebook/1094098466353268/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1092567253173056",
+      "date": "2026-09-24",
+      "title": "Discussion shared in Communities B4 Power Companies, 24 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Communities B4 Power Companies",
+        "label": "Facebook · Communities B4 Power Companies",
+        "url": "https://www.facebook.com/groups/221782186918238/posts/1092567253173056/"
+      },
+      "thin": false,
+      "bodyText": "“SSEN thought their quietly scoped out topics would go unnoticed. They stupidly [didn't reckon on scrutiny]...”",
+      "contentFingerprint": "2c22507451e42758e51a4909478612b7ba5acbee485f2e00b59a600623b19990",
+      "photos": [
+        "media/facebook/1092567253173056/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1093886396374475",
+      "date": "2026-09-25",
+      "title": "Discussion shared in Communities B4 Power Companies, 25 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Communities B4 Power Companies",
+        "label": "Facebook · Communities B4 Power Companies",
+        "url": "https://www.facebook.com/groups/221782186918238/posts/1093886396374475/"
+      },
+      "thin": false,
+      "bodyText": "“Let's welcome our new members!” — admin post welcoming new members including Andy Troup, Borders Wind Farm Watch, and others.",
+      "contentFingerprint": "63ba94e2936a691685d6fac91c016492f0e0c89b850cc5df5c61f496176fc6a8",
+      "photos": [
+        "media/facebook/1093886396374475/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1092161886546926",
+      "date": "2026-09-25",
+      "title": "Discussion shared in Communities B4 Power Companies, 25 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Communities B4 Power Companies",
+        "label": "Facebook · Communities B4 Power Companies",
+        "url": "https://www.facebook.com/groups/221782186918238/posts/1092161886546926/"
+      },
+      "thin": false,
+      "bodyText": "Shared YouTube video: “UK Wastes $54 Million in ONE DAY Switching Off Wind Farms and Paying Gas Instead.”",
+      "contentFingerprint": "79af7bcd9a314914e26eaf9126ec5b26ce2b9eda2762aa0384e0a3d6f0df97fa",
+      "photos": [
+        "media/facebook/1092161886546926/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1092186379877810",
+      "date": "2026-09-24",
+      "title": "Discussion shared in Communities B4 Power Companies, 24 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Communities B4 Power Companies",
+        "label": "Facebook · Communities B4 Power Companies",
+        "url": "https://www.facebook.com/groups/221782186918238/posts/1092186379877810/"
+      },
+      "thin": false,
+      "bodyText": "“He can sod right off…..” Shared Independent article: “Build data centres next to Scotland's [wind farms, minister suggests]...”",
+      "contentFingerprint": "9dfaaeb682768d4fbeb603a52d1b1ebe32819ed6d1a1a3b511e966ba02bfae0a",
+      "photos": [
+        "media/facebook/1092186379877810/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1092670733162708",
+      "date": "2026-09-25",
+      "title": "Discussion shared in Communities B4 Power Companies, 25 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Communities B4 Power Companies",
+        "label": "Facebook · Communities B4 Power Companies",
+        "url": "https://www.facebook.com/groups/221782186918238/posts/1092670733162708/"
+      },
+      "thin": false,
+      "bodyText": "“Has anyone full text please” — shared via Net Zero Watch (#CostOfNetZero): “We are witnessing a wave of deindust[rialisation]...”",
+      "contentFingerprint": "44293a30ef31d21b4b413c75ea8728fb05103d1a430b116edabbab2edcdd0d72",
+      "photos": [
+        "media/facebook/1092670733162708/photo_1.png"
       ],
       "mediaCount": 1
     }
