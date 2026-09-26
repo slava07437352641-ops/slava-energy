@@ -1,7 +1,7 @@
 // Bootstrap for the Public objections & discussions dashboard (Pilot v0.1).
-import { readState, writeState } from "./url-state.js?v=20260925b";
-import { applyAll, facetCounts, FACETS, TECH_CATEGORIES } from "./filters.js?v=20260925b";
-import { renderFeed, renderDetail, renderMirror } from "./feed.js?v=20260925b";
+import { readState, writeState } from "./url-state.js?v=20260926a";
+import { applyAll, facetCounts, FACETS, TECH_CATEGORIES } from "./filters.js?v=20260926a";
+import { renderFeed, renderDetail, renderMirror } from "./feed.js?v=20260926a";
 
 // Must match news.js's NEWS_PANEL_LIMIT -- kept as a separate constant
 // rather than a cross-module import so this file never depends on
@@ -102,8 +102,11 @@ function buildTechChips() {
   els.tech.querySelectorAll(".pd-chip").forEach((b) => {
     b.addEventListener("click", () => {
       const v = b.dataset.tech;
+      // Mutually exclusive, like a radio group: picking a category replaces
+      // whatever was selected rather than adding to it. Clicking the
+      // already-active one clears back to "All".
       if (!v) state.tech = [];
-      else state.tech = state.tech.includes(v) ? state.tech.filter((x) => x !== v) : [...state.tech, v];
+      else state.tech = state.tech.length === 1 && state.tech[0] === v ? [] : [v];
       state.sel = null;
       apply();
     });
