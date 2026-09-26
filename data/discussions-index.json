@@ -1,16 +1,16 @@
 {
   "generated": "2026-09-26T11:25:31.000Z",
   "counts": {
-    "records": 3258,
+    "records": 3296,
     "thin": 320,
-    "withMedia": 722,
+    "withMedia": 760,
     "withCategories": 746,
     "withTopics": 316,
     "withProject": 10,
     "withCoordinates": 95,
     "withSummary": 52,
-    "withBodyText": 1872,
-    "withPhotos": 722,
+    "withBodyText": 1910,
+    "withPhotos": 760,
     "withPreviewImage": 64,
     "councils": 4,
     "matchReviewLogged": 2,
@@ -79272,6 +79272,1108 @@
       "contentFingerprint": "d2721933b0cc3b0677ee975b0b6013cbc368e7537b840f8783eda0a2d380b5b1",
       "photos": [
         "media/facebook/29444791285123220/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1116519347715548",
+      "date": "2026-09-26",
+      "title": "Discussion shared in Mey BESS Action Group, 26 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Mey BESS Action Group",
+        "label": "Facebook · Mey BESS Action Group",
+        "url": "https://www.facebook.com/groups/711813121519508/posts/1116519347715548/"
+      },
+      "thin": false,
+      "bodyText": "Repost from Scotland Against Spin: UK spends twice as much on renewable energy subsidies as comparable countries, per new analysis.",
+      "contentFingerprint": "eb8a94402939210eb0f27c74cacc9e51564da25b9524b775320e1d52d756e054",
+      "photos": [
+        "media/facebook/1116519347715548/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1096351363065680",
+      "date": "2026-09-03",
+      "title": "Discussion shared in Mey BESS Action Group, 3 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Mey BESS Action Group",
+        "label": "Facebook · Mey BESS Action Group",
+        "url": "https://www.facebook.com/groups/711813121519508/posts/1096351363065680/"
+      },
+      "thin": false,
+      "bodyText": "Warning shared about lithium battery thermal runaway fire risk, relevant to the proposed BESS site.",
+      "contentFingerprint": "3cb6ab97a66c4913b2d8786c6325837174a4c777f07a1b97d44f048e04ae3d6e",
+      "photos": [
+        "media/facebook/1096351363065680/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1116470511053765",
+      "date": "2026-09-26",
+      "title": "Discussion shared in Mey BESS Action Group, 26 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Mey BESS Action Group",
+        "label": "Facebook · Mey BESS Action Group",
+        "url": "https://www.facebook.com/groups/711813121519508/posts/1116470511053765/"
+      },
+      "thin": false,
+      "bodyText": "“No matter how far you have gone on the wrong road, you can still turn around.” Repost of an Advance Australia video on energy policy reversal, shared into the group.",
+      "contentFingerprint": "96a5ec7d2efb054be2a322eac67c78f9cbe841da8607b6cae59e9370868011d1",
+      "photos": [
+        "media/facebook/1116470511053765/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1116447854389364",
+      "date": "2026-09-26",
+      "title": "Discussion shared in Mey BESS Action Group, 26 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Mey BESS Action Group",
+        "label": "Facebook · Mey BESS Action Group",
+        "url": "https://www.facebook.com/groups/711813121519508/posts/1116447854389364/"
+      },
+      "thin": false,
+      "bodyText": "“Couldn't make it up! The former boss of a failed community energy company has been hired to lead the government's £1 billion local power plan, prompting outrage.”",
+      "contentFingerprint": "61d73859ad547dd41a9f9f6b6ee63bf60ee0bd159e8af286ac9e42a02315c2eb",
+      "photos": [
+        "media/facebook/1116447854389364/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1112206938146789",
+      "date": "2026-09-22",
+      "title": "Discussion shared in Mey BESS Action Group, 22 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Mey BESS Action Group",
+        "label": "Facebook · Mey BESS Action Group",
+        "url": "https://www.facebook.com/groups/711813121519508/posts/1112206938146789/"
+      },
+      "thin": false,
+      "bodyText": "Repost from Communities B4 Power Companies: “Call me a cynic if you like but is this a thinly veiled pla[n]...” regarding SNP proposals affecting local councils.",
+      "contentFingerprint": "711152a36e71235b5e436b205b0e0613f8a8b2d2a92c351dd7d303ce123009a0",
+      "photos": [
+        "media/facebook/1112206938146789/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1097247262976090",
+      "date": "2026-09-05",
+      "title": "Discussion shared in Mey BESS Action Group, 5 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Mey BESS Action Group",
+        "label": "Facebook · Mey BESS Action Group",
+        "url": "https://www.facebook.com/groups/711813121519508/posts/1097247262976090/"
+      },
+      "thin": false,
+      "bodyText": "Shared Northern Times article: an Irish state-backed energy giant announces it is moving forward with a Sutherland wind farm project.",
+      "contentFingerprint": "eaae2ecaf1f2c5d443bd26e29829abccd861e91983452180a512654b3580a5d1",
+      "photos": [
+        "media/facebook/1097247262976090/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1097233952977421",
+      "date": "2026-09-04",
+      "title": "Discussion shared in Mey BESS Action Group, 4 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Mey BESS Action Group",
+        "label": "Facebook · Mey BESS Action Group",
+        "url": "https://www.facebook.com/groups/711813121519508/posts/1097233952977421/"
+      },
+      "thin": false,
+      "bodyText": "“Our planning consultant has written to the Scottish government this morning in the strongest possible terms” regarding the Highland Council report on the Spittal-Beauly overhead line proposal.",
+      "contentFingerprint": "d7fe42907b1bdedcc2435763b5a2fb4af96d910a9834ca55ee87b454caece7a2",
+      "photos": [
+        "media/facebook/1097233952977421/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1115551564478993",
+      "date": "2026-09-25",
+      "title": "Discussion shared in Mey BESS Action Group, 25 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Mey BESS Action Group",
+        "label": "Facebook · Mey BESS Action Group",
+        "url": "https://www.facebook.com/groups/711813121519508/posts/1115551564478993/"
+      },
+      "thin": false,
+      "bodyText": "“The UK currently holds only 42 days of diesel in its emergency stockpiles.” Comparison to Italy (347 days) and other countries, raising energy security concerns.",
+      "contentFingerprint": "28b373212aae128237edb06e9ac192bd3b686b3917b754e028c7c8799c054a8a",
+      "photos": [
+        "media/facebook/1115551564478993/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1114982384535911",
+      "date": "2026-09-25",
+      "title": "Discussion shared in Mey BESS Action Group, 25 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Mey BESS Action Group",
+        "label": "Facebook · Mey BESS Action Group",
+        "url": "https://www.facebook.com/groups/711813121519508/posts/1114982384535911/"
+      },
+      "thin": false,
+      "bodyText": "“Whilst At Forss park this week busting clays and a wee walk around. Seeing was believing!” — video post from a member.",
+      "contentFingerprint": "c6117eb18e0f281b2ebe20c823d779feb1ad2a7ce21d9fc9e58597f18514e2b9",
+      "photos": [
+        "media/facebook/1114982384535911/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1114664041234412",
+      "date": "2026-09-25",
+      "title": "Discussion shared in Mey BESS Action Group, 25 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Mey BESS Action Group",
+        "label": "Facebook · Mey BESS Action Group",
+        "url": "https://www.facebook.com/groups/711813121519508/posts/1114664041234412/"
+      },
+      "thin": false,
+      "bodyText": "“I hope Tony (Anthony Shaw) won't mind me reiterating something he said elsewhere today. He appears to agree with me that Highland Council really have very little interest in r[esidents' concerns]...”",
+      "contentFingerprint": "0d253f4e89ffe12adb4d4dc4105420d0c51c3da94ebdfe28446a4033ac13b843",
+      "photos": [
+        "media/facebook/1114664041234412/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1114359447931538",
+      "date": "2026-09-24",
+      "title": "Discussion shared in Mey BESS Action Group, 24 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Mey BESS Action Group",
+        "label": "Facebook · Mey BESS Action Group",
+        "url": "https://www.facebook.com/groups/711813121519508/posts/1114359447931538/"
+      },
+      "thin": false,
+      "bodyText": "“Our very ability to keep the lights on and maintain critical infrastructure is under threat.” Quoting Sir Richard Dearlove, former head of MI6, on UK energy/infrastructure security (via The Spectator).",
+      "contentFingerprint": "0f8ee7b4caee30751768a91f3069980959794a37b36d19b38e5e971c4b4bf30c",
+      "photos": [
+        "media/facebook/1114359447931538/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1112775874756562",
+      "date": "2026-09-23",
+      "title": "Discussion shared in Mey BESS Action Group, 23 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Mey BESS Action Group",
+        "label": "Facebook · Mey BESS Action Group",
+        "url": "https://www.facebook.com/groups/711813121519508/posts/1112775874756562/"
+      },
+      "thin": false,
+      "bodyText": "“My thanks to Martin Williams at The Herald for covering this important issue” — shared from Councillor Helen Crawford (Aird & Loch Ness Ward), Herald Scotland “Rural rev[olt]” article.",
+      "contentFingerprint": "ee2b2ab8ece74ccae1b7e805853d7c82050b52d35a746c461e6291d6cb5455a3",
+      "photos": [
+        "media/facebook/1112775874756562/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1112218934812256",
+      "date": "2026-09-22",
+      "title": "Discussion shared in Mey BESS Action Group, 22 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Mey BESS Action Group",
+        "label": "Facebook · Mey BESS Action Group",
+        "url": "https://www.facebook.com/groups/711813121519508/posts/1112218934812256/"
+      },
+      "thin": false,
+      "bodyText": "“Delusional? / Desperate? Andy Burnham has spoken on the UK's Net Zero targets in a rare statement on our energy and sustain[ability policy]” — shared via Save This Land.",
+      "contentFingerprint": "f90840ba77cdd729a7659b1c214148117f39a48b225d3e43d638c5af9e66f105",
+      "photos": [
+        "media/facebook/1112218934812256/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1112209414813208",
+      "date": "2026-09-22",
+      "title": "Discussion shared in Mey BESS Action Group, 22 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Mey BESS Action Group",
+        "label": "Facebook · Mey BESS Action Group",
+        "url": "https://www.facebook.com/groups/711813121519508/posts/1112209414813208/"
+      },
+      "thin": false,
+      "bodyText": "“My FOI has discovered that the #northeast energy sector could end up 'sleepwalking' into a workforce crisis as a striking shortfall is exposed for prospect[ive workers].” Reference to Liam Kerr MSP.",
+      "contentFingerprint": "7b92ac26690c5d5a351739c90f58d301ab0e57f36afe53f0bdd23c918f91923e",
+      "photos": [
+        "media/facebook/1112209414813208/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1109644511736365",
+      "date": "2026-09-19",
+      "title": "Discussion shared in Mey BESS Action Group, 19 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Mey BESS Action Group",
+        "label": "Facebook · Mey BESS Action Group",
+        "url": "https://www.facebook.com/groups/711813121519508/posts/1109644511736365/"
+      },
+      "thin": false,
+      "bodyText": "Repost from Scotland Against Spin: “The SNP's 'ideological' block on nuclear power means tha[t]...” energy generation options are being limited.",
+      "contentFingerprint": "c748b44255a6121ff03aa82613335decf564f4dcd3d2f929fae0b1cae2fd987b",
+      "photos": [
+        "media/facebook/1109644511736365/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1107074248660058",
+      "date": "2026-09-19",
+      "title": "Discussion shared in Mey BESS Action Group, 19 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Mey BESS Action Group",
+        "label": "Facebook · Mey BESS Action Group",
+        "url": "https://www.facebook.com/groups/711813121519508/posts/1107074248660058/"
+      },
+      "thin": false,
+      "bodyText": "Repost from Communities B4 Power Companies: “Extensive coverage in the Inverness Courier today regarding the Convention. No doubt it will be in other publications too. Well done!” with link to an urgent-call-for article.",
+      "contentFingerprint": "228d070a678d12beece642a12f249bff6c7eb04159110246ccf75b83efd67c1d",
+      "photos": [
+        "media/facebook/1107074248660058/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1106090788758404",
+      "date": "2026-09-19",
+      "title": "Discussion shared in Mey BESS Action Group, 19 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Mey BESS Action Group",
+        "label": "Facebook · Mey BESS Action Group",
+        "url": "https://www.facebook.com/groups/711813121519508/posts/1106090788758404/"
+      },
+      "thin": false,
+      "bodyText": "Repost from Communities B4 Power Companies: “It's a global disease. Building unnecessary turbines to swi[tch off constantly]...”",
+      "contentFingerprint": "5ebb8700b2f429e1ab19c6ed109db4ee6a55c16582c91dcafe43d3fde464eadd",
+      "photos": [
+        "media/facebook/1106090788758404/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1105777412123075",
+      "date": "2026-09-19",
+      "title": "Discussion shared in Mey BESS Action Group, 19 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Mey BESS Action Group",
+        "label": "Facebook · Mey BESS Action Group",
+        "url": "https://www.facebook.com/groups/711813121519508/posts/1105777412123075/"
+      },
+      "thin": false,
+      "bodyText": "Repost from Scotland Against Spin: “Wind farm owners have been accused of pushing up househo[ld bills]...”",
+      "contentFingerprint": "be118a373fbc61b07269dacfade7a901f0655300cfb9c8969070cb87ec21db41",
+      "photos": [
+        "media/facebook/1105777412123075/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1101919292508887",
+      "date": "2026-09-12",
+      "title": "Discussion shared in Mey BESS Action Group, 12 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Mey BESS Action Group",
+        "label": "Facebook · Mey BESS Action Group",
+        "url": "https://www.facebook.com/groups/711813121519508/posts/1101919292508887/"
+      },
+      "thin": false,
+      "bodyText": "Shared from Wind Energy's Absurd: “Scotland is being rewired before our eyes. The engineering plans are pub[lished]...” on transmission infrastructure buildout.",
+      "contentFingerprint": "fc82cc11ca1e04be1e7a940e480f7b3c28f721ad455c2d69475eaa4af2bbfe33",
+      "photos": [
+        "media/facebook/1101919292508887/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1101796102521206",
+      "date": "2026-09-12",
+      "title": "Discussion shared in Mey BESS Action Group, 12 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Mey BESS Action Group",
+        "label": "Facebook · Mey BESS Action Group",
+        "url": "https://www.facebook.com/groups/711813121519508/posts/1101796102521206/"
+      },
+      "thin": false,
+      "bodyText": "“IMPORTANT: 'The alternative is building more infrastructure at a significant cost, mean[ing]...” — shared commentary on grid infrastructure cost tradeoffs.",
+      "contentFingerprint": "0dc94ea367cbcd135253f70c72f6b8a30a4bc74f6f8fa73a0cfd5b2ef71e8bc3",
+      "photos": [
+        "media/facebook/1101796102521206/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1101470972553719",
+      "date": "2026-09-12",
+      "title": "Discussion shared in Mey BESS Action Group, 12 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Mey BESS Action Group",
+        "label": "Facebook · Mey BESS Action Group",
+        "url": "https://www.facebook.com/groups/711813121519508/posts/1101470972553719/"
+      },
+      "thin": false,
+      "bodyText": "Shared Ross-shire Journal article: “Councillors to consider controversial powerline plans at two-day meeting.”",
+      "contentFingerprint": "b9f2bbef8c8427bdacd58260009f13ca1114bea0e5a249ea6b8df2229fb402b2",
+      "photos": [
+        "media/facebook/1101470972553719/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1100731332627683",
+      "date": "2026-09-12",
+      "title": "Discussion shared in Mey BESS Action Group, 12 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Mey BESS Action Group",
+        "label": "Facebook · Mey BESS Action Group",
+        "url": "https://www.facebook.com/groups/711813121519508/posts/1100731332627683/"
+      },
+      "thin": false,
+      "bodyText": "Shared Herald article: “New figures show Britain spent almost £1 billion in six months paying Scottish wind farms to switch off while gas stations in England switched on.”",
+      "contentFingerprint": "7cd965d1ca7f3bc7b66e4fa4a9fde54e329c9ceb748635ebf0db37b653422481",
+      "photos": [
+        "media/facebook/1100731332627683/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1100630515971098",
+      "date": "2026-09-12",
+      "title": "Discussion shared in Mey BESS Action Group, 12 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Mey BESS Action Group",
+        "label": "Facebook · Mey BESS Action Group",
+        "url": "https://www.facebook.com/groups/711813121519508/posts/1100630515971098/"
+      },
+      "thin": false,
+      "bodyText": "Repost from Scotland Against Spin: “Ministers have relied for years on research by academics [with industry ties]...” regarding renewable-energy policy advice.",
+      "contentFingerprint": "371e9a793755b3c4d9a9c1a27fbae6753a36f9a92495f54b9f7eb5e9da986c59",
+      "photos": [
+        "media/facebook/1100630515971098/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1090007047033445",
+      "date": "2026-09-05",
+      "title": "Discussion shared in Mey BESS Action Group, 5 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Mey BESS Action Group",
+        "label": "Facebook · Mey BESS Action Group",
+        "url": "https://www.facebook.com/groups/711813121519508/posts/1090007047033445/"
+      },
+      "thin": false,
+      "bodyText": "“SSEN's subcontractor J Murphy has, prematurely and in indecent haste, submitted an application to The Highland Council for a 500 bed workers' village in Pennyland, Thurso.”",
+      "contentFingerprint": "a30bdf6e7c6a56b63e9e3c6baba84db3c9ae30a8513b2ec5c7cb0307d7cd9489",
+      "photos": [
+        "media/facebook/1090007047033445/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1766302204444047",
+      "date": "2026-09-19",
+      "title": "Discussion shared in 7000 Acres Group, 19 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "7000 Acres Group",
+        "label": "Facebook · 7000 Acres Group",
+        "url": "https://www.facebook.com/groups/7000a/posts/1766302204444047/"
+      },
+      "thin": false,
+      "bodyText": "“They are test drilling around Marton, the security guard says it's for West Burton 3 and 4 and starts building next year.” Comment thread discusses resident engagement with the planning process.",
+      "contentFingerprint": "8c5062cbc0c65141734a9f67a40536e241d5484e1ea89ac967611271065da20f",
+      "photos": [
+        "media/facebook/1766302204444047/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "2003766693656737",
+      "date": "2026-09-23",
+      "title": "Discussion shared in Better Cable Route (Strathpeffer & Contin), 23 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Better Cable Route (Strathpeffer & Contin)",
+        "label": "Facebook · Better Cable Route (Strathpeffer & Contin)",
+        "url": "https://www.facebook.com/groups/1166472997386115/posts/2003766693656737/"
+      },
+      "thin": false,
+      "bodyText": "“Beautiful day at Kinellan, Strathpeffer. But for how much longer? These are two views that SSEN want to march their monster pylons right through. From Spittal to Beauly, places we kn[ow and love]...”",
+      "contentFingerprint": "f93d3c68aebdf8795e1301a82f37a61b32140a3887f1b19c891896714331fd9f",
+      "photos": [
+        "media/facebook/2003766693656737/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "2002439143789492",
+      "date": "2026-09-22",
+      "title": "Discussion shared in Better Cable Route (Strathpeffer & Contin), 22 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Better Cable Route (Strathpeffer & Contin)",
+        "label": "Facebook · Better Cable Route (Strathpeffer & Contin)",
+        "url": "https://www.facebook.com/groups/1166472997386115/posts/2002439143789492/"
+      },
+      "thin": false,
+      "bodyText": "“From supporting wildlife and wellbeing to attracting visitors from around the world, Highland's dark skies play an important role in our communities. We're inviting residents [to have their say]...”",
+      "contentFingerprint": "67871bc7cd1f5a7f90aba66ffe924bbbb87e71c76960973491d7b8b827e522ca",
+      "photos": [
+        "media/facebook/2002439143789492/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1984229405610466",
+      "date": "2026-09-05",
+      "title": "Discussion shared in Better Cable Route (Strathpeffer & Contin), 5 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Better Cable Route (Strathpeffer & Contin)",
+        "label": "Facebook · Better Cable Route (Strathpeffer & Contin)",
+        "url": "https://www.facebook.com/groups/1166472997386115/posts/1984229405610466/"
+      },
+      "thin": false,
+      "bodyText": "“There's nothing sustainable or progressive about our current direction of travel.” Shared via HOPE for Britain's countryside.",
+      "contentFingerprint": "f28abd3c74785dd92c268fee8f78fb54b3dcf2936f90565fbcabe8b3515a5e1e",
+      "photos": [
+        "media/facebook/1984229405610466/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1996011497765590",
+      "date": "2026-09-19",
+      "title": "Discussion shared in Better Cable Route (Strathpeffer & Contin), 19 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Better Cable Route (Strathpeffer & Contin)",
+        "label": "Facebook · Better Cable Route (Strathpeffer & Contin)",
+        "url": "https://www.facebook.com/groups/1166472997386115/posts/1996011497765590/"
+      },
+      "thin": false,
+      "bodyText": "“Time to put our money where our mouths are! Please donate whatever you can towards the costs of contesting SSEN's proposals for th[e cable route]...” — fundraising appeal from admin Helen Smith.",
+      "contentFingerprint": "4bcc2583d6b94d0dd8f8a5174ba80118deb373f4b3baf719dce7e621ad19fa57",
+      "photos": [
+        "media/facebook/1996011497765590/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1995659817800758",
+      "date": "2026-09-19",
+      "title": "Discussion shared in Better Cable Route (Strathpeffer & Contin), 19 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Better Cable Route (Strathpeffer & Contin)",
+        "label": "Facebook · Better Cable Route (Strathpeffer & Contin)",
+        "url": "https://www.facebook.com/groups/1166472997386115/posts/1995659817800758/"
+      },
+      "thin": false,
+      "bodyText": "“It's crunch time... Do you love the Highlands? Can you help?” — fundraising appeal from admin Dan Bailey.",
+      "contentFingerprint": "4facdd34852a31891301f4ca48ab412051c1310daaea84806126f9a0953d5fea",
+      "photos": [
+        "media/facebook/1995659817800758/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1993895811310492",
+      "date": "2026-09-12",
+      "title": "Discussion shared in Better Cable Route (Strathpeffer & Contin), 12 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Better Cable Route (Strathpeffer & Contin)",
+        "label": "Facebook · Better Cable Route (Strathpeffer & Contin)",
+        "url": "https://www.facebook.com/groups/1166472997386115/posts/1993895811310492/"
+      },
+      "thin": false,
+      "bodyText": "“The plot keeps thickening as the costs of this folly continue to go up and up. We need a pause and reset now.”",
+      "contentFingerprint": "970d1e8c51168d8f23937eacc62e3757d8b24942ddeae33576018eaf2579a531",
+      "photos": [
+        "media/facebook/1993895811310492/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1993227138044026",
+      "date": "2026-09-12",
+      "title": "Discussion shared in Better Cable Route (Strathpeffer & Contin), 12 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Better Cable Route (Strathpeffer & Contin)",
+        "label": "Facebook · Better Cable Route (Strathpeffer & Contin)",
+        "url": "https://www.facebook.com/groups/1166472997386115/posts/1993227138044026/"
+      },
+      "thin": false,
+      "bodyText": "“Please object and write to your MSPs. Demand a fair energy system for Scotland.” Link to act.ourpower.scot MSP write-in campaign.",
+      "contentFingerprint": "82823dfee828c06fe487c76bb7985f3d4c77b9672f0514c6e64ba4a1442dc9f1",
+      "photos": [
+        "media/facebook/1993227138044026/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1992191451480928",
+      "date": "2026-09-19",
+      "title": "Discussion shared in Better Cable Route (Strathpeffer & Contin), 19 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Better Cable Route (Strathpeffer & Contin)",
+        "label": "Facebook · Better Cable Route (Strathpeffer & Contin)",
+        "url": "https://www.facebook.com/groups/1166472997386115/posts/1992191451480928/"
+      },
+      "thin": false,
+      "bodyText": "“Not even 8am and that dreadful noise is hammering away in the woods across from us at Jamestown.” Resident complaint about construction/works noise.",
+      "contentFingerprint": "d5aded9375026e50ba935cc7b5d0f5977cb1579c06ee61c027c9e7c591181c91",
+      "photos": [
+        "media/facebook/1992191451480928/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1992167341483339",
+      "date": "2026-09-12",
+      "title": "Discussion shared in Better Cable Route (Strathpeffer & Contin), 12 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Better Cable Route (Strathpeffer & Contin)",
+        "label": "Facebook · Better Cable Route (Strathpeffer & Contin)",
+        "url": "https://www.facebook.com/groups/1166472997386115/posts/1992167341483339/"
+      },
+      "thin": false,
+      "bodyText": "“There is a detailed and well researched piece in The Herald today on the subject of the RTPI accepting sponsorship from SSE[N]...”",
+      "contentFingerprint": "330b63a07c2bbc2b2900a26da1ee4fbbac507d7231f75582b70470dc0bd202eb",
+      "photos": [
+        "media/facebook/1992167341483339/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1991406624892744",
+      "date": "2026-09-12",
+      "title": "Discussion shared in Better Cable Route (Strathpeffer & Contin), 12 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Better Cable Route (Strathpeffer & Contin)",
+        "label": "Facebook · Better Cable Route (Strathpeffer & Contin)",
+        "url": "https://www.facebook.com/groups/1166472997386115/posts/1991406624892744/"
+      },
+      "thin": false,
+      "bodyText": "Shared John O'Groat Journal/Highland News article: “Campaign groups opposed to new pylons insist 'the Highlands are worth protecting'.”",
+      "contentFingerprint": "8ef205c36b80ff04bf1c09f540944f0723a0c4c11c8961019c2a8c6bf63d381f",
+      "photos": [
+        "media/facebook/1991406624892744/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1988308191869254",
+      "date": "2026-09-05",
+      "title": "Discussion shared in Better Cable Route (Strathpeffer & Contin), 5 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Better Cable Route (Strathpeffer & Contin)",
+        "label": "Facebook · Better Cable Route (Strathpeffer & Contin)",
+        "url": "https://www.facebook.com/groups/1166472997386115/posts/1988308191869254/"
+      },
+      "thin": false,
+      "bodyText": "“The hydrogen economy was supposed to soak up lots of Scotla[nd's renewable output]...” — shared via Save Kerloch.",
+      "contentFingerprint": "80893fcd91b58bd07ef5d343b40f63fa5d08a0d5a196df88c2aba6c1b6cb04b4",
+      "photos": [
+        "media/facebook/1988308191869254/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1983010739065666",
+      "date": "2026-09-05",
+      "title": "Discussion shared in Better Cable Route (Strathpeffer & Contin), 5 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Better Cable Route (Strathpeffer & Contin)",
+        "label": "Facebook · Better Cable Route (Strathpeffer & Contin)",
+        "url": "https://www.facebook.com/groups/1166472997386115/posts/1983010739065666/"
+      },
+      "thin": false,
+      "bodyText": "“Excellent letter from the Highland Council... An update - as we have previously mentioned roads can't be closed under [the current proposals]...” Signed by multiple community councils.",
+      "contentFingerprint": "089532ae4e5818896c43c183db44b61214e0809310096464bd5dc2b636a86c7d",
+      "photos": [
+        "media/facebook/1983010739065666/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1652110306522119",
+      "date": "2026-09-20",
+      "title": "Discussion shared in Thirsk Against Battery Storage, 20 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Thirsk Against Battery Storage",
+        "label": "Facebook · Thirsk Against Battery Storage",
+        "url": "https://www.facebook.com/groups/1117445326655289/posts/1652110306522119/"
+      },
+      "thin": false,
+      "bodyText": "“Let's keep our finest view. Don't damage it with batteries, a massive transmission substation and a 275kV customer substation.” Reference to James Herriot's “finest view in England” (All Creatures Great and Small).",
+      "contentFingerprint": "a064d4d55eca421a0fffbea4ab3bf8b68fe81125e8c5a894f1b8b3c100c269f3",
+      "photos": [
+        "media/facebook/1652110306522119/photo_1.png"
       ],
       "mediaCount": 1
     }

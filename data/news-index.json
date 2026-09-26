@@ -1,20 +1,28 @@
 {
-  "generated": "2026-09-26T11:25:31.000Z",
+  "generated": "2026-09-26T12:54:53.000Z",
   "sourceFilter": [
     "Scotland Against Spin",
     "Environmentalists Against Wind Turbines",
     "Grampian Against Data Centres",
     "Communities B4 Power Companies",
-    "Not A Just Transition"
+    "Not A Just Transition",
+    "Mey BESS Action Group",
+    "7000 Acres Group",
+    "Better Cable Route (Strathpeffer & Contin)",
+    "Thirsk Against Battery Storage"
   ],
   "selection": "round-robin per source (most recent first within each), not pure global recency",
   "counts": {
-    "records": 10,
-    "Scotland Against Spin": 2,
-    "Environmentalists Against Wind Turbines": 2,
+    "records": 18,
+    "Scotland Against Spin": 3,
+    "Environmentalists Against Wind Turbines": 3,
     "Grampian Against Data Centres": 2,
     "Communities B4 Power Companies": 2,
-    "Not A Just Transition": 2
+    "Not A Just Transition": 2,
+    "Mey BESS Action Group": 2,
+    "7000 Acres Group": 1,
+    "Better Cable Route (Strathpeffer & Contin)": 2,
+    "Thirsk Against Battery Storage": 1
   },
   "dateRange": {
     "from": "2026-09-12",
@@ -167,6 +175,122 @@
       "mediaCount": 1
     },
     {
+      "id": "1116519347715548",
+      "date": "2026-09-26",
+      "title": "Discussion shared in Mey BESS Action Group, 26 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Mey BESS Action Group",
+        "label": "Facebook · Mey BESS Action Group",
+        "url": "https://www.facebook.com/groups/711813121519508/posts/1116519347715548/"
+      },
+      "thin": false,
+      "bodyText": "Repost from Scotland Against Spin: UK spends twice as much on renewable energy subsidies as comparable countries, per new analysis.",
+      "contentFingerprint": "eb8a94402939210eb0f27c74cacc9e51564da25b9524b775320e1d52d756e054",
+      "photos": [
+        "media/facebook/1116519347715548/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1766302204444047",
+      "date": "2026-09-19",
+      "title": "Discussion shared in 7000 Acres Group, 19 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "7000 Acres Group",
+        "label": "Facebook · 7000 Acres Group",
+        "url": "https://www.facebook.com/groups/7000a/posts/1766302204444047/"
+      },
+      "thin": false,
+      "bodyText": "“They are test drilling around Marton, the security guard says it's for West Burton 3 and 4 and starts building next year.” Comment thread discusses resident engagement with the planning process.",
+      "contentFingerprint": "8c5062cbc0c65141734a9f67a40536e241d5484e1ea89ac967611271065da20f",
+      "photos": [
+        "media/facebook/1766302204444047/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "2003766693656737",
+      "date": "2026-09-23",
+      "title": "Discussion shared in Better Cable Route (Strathpeffer & Contin), 23 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Better Cable Route (Strathpeffer & Contin)",
+        "label": "Facebook · Better Cable Route (Strathpeffer & Contin)",
+        "url": "https://www.facebook.com/groups/1166472997386115/posts/2003766693656737/"
+      },
+      "thin": false,
+      "bodyText": "“Beautiful day at Kinellan, Strathpeffer. But for how much longer? These are two views that SSEN want to march their monster pylons right through. From Spittal to Beauly, places we kn[ow and love]...”",
+      "contentFingerprint": "f93d3c68aebdf8795e1301a82f37a61b32140a3887f1b19c891896714331fd9f",
+      "photos": [
+        "media/facebook/2003766693656737/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1652110306522119",
+      "date": "2026-09-20",
+      "title": "Discussion shared in Thirsk Against Battery Storage, 20 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Thirsk Against Battery Storage",
+        "label": "Facebook · Thirsk Against Battery Storage",
+        "url": "https://www.facebook.com/groups/1117445326655289/posts/1652110306522119/"
+      },
+      "thin": false,
+      "bodyText": "“Let's keep our finest view. Don't damage it with batteries, a massive transmission substation and a 275kV customer substation.” Reference to James Herriot's “finest view in England” (All Creatures Great and Small).",
+      "contentFingerprint": "a064d4d55eca421a0fffbea4ab3bf8b68fe81125e8c5a894f1b8b3c100c269f3",
+      "photos": [
+        "media/facebook/1652110306522119/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
       "id": "29459069733695375",
       "date": "2026-09-26",
       "title": "Discussion shared in Scotland Against Spin, 26 September 2026",
@@ -302,6 +426,120 @@
         "media/facebook/1090802206683661/photo_1.jpg"
       ],
       "contentFingerprint": "46483c2e286988e9b2acbdff3812350d92521b1332bae414932e3e665b5f5c8d"
+    },
+    {
+      "id": "1116470511053765",
+      "date": "2026-09-26",
+      "title": "Discussion shared in Mey BESS Action Group, 26 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Mey BESS Action Group",
+        "label": "Facebook · Mey BESS Action Group",
+        "url": "https://www.facebook.com/groups/711813121519508/posts/1116470511053765/"
+      },
+      "thin": false,
+      "bodyText": "“No matter how far you have gone on the wrong road, you can still turn around.” Repost of an Advance Australia video on energy policy reversal, shared into the group.",
+      "contentFingerprint": "96a5ec7d2efb054be2a322eac67c78f9cbe841da8607b6cae59e9370868011d1",
+      "photos": [
+        "media/facebook/1116470511053765/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "2002439143789492",
+      "date": "2026-09-22",
+      "title": "Discussion shared in Better Cable Route (Strathpeffer & Contin), 22 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Better Cable Route (Strathpeffer & Contin)",
+        "label": "Facebook · Better Cable Route (Strathpeffer & Contin)",
+        "url": "https://www.facebook.com/groups/1166472997386115/posts/2002439143789492/"
+      },
+      "thin": false,
+      "bodyText": "“From supporting wildlife and wellbeing to attracting visitors from around the world, Highland's dark skies play an important role in our communities. We're inviting residents [to have their say]...”",
+      "contentFingerprint": "67871bc7cd1f5a7f90aba66ffe924bbbb87e71c76960973491d7b8b827e522ca",
+      "photos": [
+        "media/facebook/2002439143789492/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "29445114865090862",
+      "date": "2026-09-25",
+      "title": "Discussion shared in Scotland Against Spin, 25 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29445114865090862/"
+      },
+      "thin": false,
+      "bodyText": "The Labour government has made “no detailed assessment” of how much China owns of a “key part of the UK'S energy system” – despite blocking a major Chinese wind turbine project for national security reasons.\nIt comes after ministers blocked the £1.5 billion Ming Yang turbine factory in the Highlands earlier this year because of national security concerns about the firm.\nThe SNP said the recent “revelation” showed the Ming Yang decision was “entirely political”.\nSNP Energy spokesperson Graham Leadbitter questioned why Chinese firms were allowed to invest in battery storage, but not allowed to open a factory in the Highlands.\nSCOTSMAN.COM UK government has 'no detailed assessment' of Chinese battery storage ownership",
+      "contentFingerprint": "f32748308d5bacebf24f0d3ddf3a0c1c80ae8ddd3e8e4eb8b5ec18e59cb760a1",
+      "photos": [
+        "media/facebook/29445114865090862/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "28284576994529056",
+      "date": "2026-09-12",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 12 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/28284576994529056/"
+      },
+      "externalLinks": [
+        "https://www.facebook.com/share/r/1CDkrUmLd7/?mibextid=wwXIfr"
+      ],
+      "contentFingerprint": "d7ddcfb3e2880a162e20b68c941cf1a541ef267cc7cec14757984df5001971ce",
+      "photos": [
+        "media/facebook/28284576994529056/photo_1.png"
+      ],
+      "mediaCount": 1
     }
   ]
 }
