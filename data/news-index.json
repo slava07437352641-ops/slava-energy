@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-25T20:30:04.000Z",
+  "generated": "2026-09-26T07:04:55.000Z",
   "sourceFilter": [
     "Scotland Against Spin",
     "Environmentalists Against Wind Turbines",
@@ -17,10 +17,155 @@
     "Not A Just Transition": 2
   },
   "dateRange": {
-    "from": "2026-09-11",
-    "to": "2026-09-25"
+    "from": "2026-09-12",
+    "to": "2026-09-26"
   },
   "records": [
+    {
+      "id": "29458475507088131",
+      "date": "2026-09-26",
+      "title": "Discussion shared in Scotland Against Spin, 26 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29458475507088131/"
+      },
+      "thin": false,
+      "bodyText": "The UK government has paid almost twice as much to turn off windfarms in Scotland as it plans to spend on developing small modular nuclear reactors by the end of this decade, industry leaders have said.\nThe Nuclear Industry Association said ministers plan to invest £2.8 billion in the technology, compared with£5.1bn in so called constraint payments that have been made since 2021.\nSome £1.04bn was forked out in constraint payments this year up until the end of August. This is up from £648 min the same period last year.\nThe UK Government wants to open small modular reactors in Scotland, potentially at former nuclear sites such as Torness, Hunterston, and Dounreay. All of these sites already have grid transmission connections. But this has been blocked by the Scottish government which holds planning powers.\nSCOTSMAN.COM 'UK spends twice as much switching off windfarms as it does on nuclear reactors'",
+      "contentFingerprint": "4ac23c48569b175a4a84231f3c806fae741c72529d25e5c10a0abfb394714c28",
+      "photos": [
+        "media/facebook/29458475507088131/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "28453721440947943",
+      "date": "2026-09-24",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 24 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/28453721440947943/"
+      },
+      "thin": false,
+      "bodyText": "Wind Turbines- The Real Risks",
+      "contentFingerprint": "0bf998d3c8fe138714deeb2be293e2577f6dd01e8ef0edcd2aa2c2ccffd12335",
+      "photos": [
+        "media/facebook/28453721440947943/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1607477157755146",
+      "date": "2026-09-21",
+      "title": "Discussion shared in Grampian Against Data Centres, 21 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Grampian Against Data Centres",
+        "label": "Facebook · Grampian Against Data Centres",
+        "url": "https://www.facebook.com/groups/1517407306762132/posts/1607477157755146/"
+      },
+      "thin": false,
+      "bodyText": "The biggest data centers in America were told to switch to backup generators after PJM, the nation's largest grid operator, warned of an imminent reliability issue.",
+      "contentFingerprint": "35d2eb2939f7bb8d8d9f37e41d061e0c0e5d4942b2c813c9410bd652974ea958",
+      "photos": [
+        "media/facebook/1607477157755146/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1093589589737489",
+      "date": "2026-09-25",
+      "title": "Discussion shared in Communities B4 Power Companies, 25 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Communities B4 Power Companies",
+        "label": "Facebook · Communities B4 Power Companies",
+        "url": "https://www.facebook.com/groups/221782186918238/posts/1093589589737489/"
+      },
+      "thin": false,
+      "bodyText": "I get bored of the relentless drone by many about how Scotland is producing energy for England, which of course it does, but that favour flows north too. And east, and west.\nIt is called a 'national grid'.\nThe evidence shows England having a greater installed capacity and producing more of everything renewable. I came across this site, but it is from 2024. My argument now, and always has been, is WHO will Scotland export all this surplus energy to if their nearest neighbour is producing twice as much already, and building nuclear?\nIf anyone has more up to date stats, please advise, including actual TWh installed capacity and output for 2025-6. Installed capacity does not mean actual production, especially as so much production in Scotland is curtailed.\nThanks!\nhttps://assets.publishing.service.gov.uk/media/68da6dc6ef1c2f72bc1e4b72/Regional_renewable_electricity_in_2024.pdf",
+      "contentFingerprint": "f25babd680d430b94d7caf3e328ef886a70b4870022d7f6248ccff40815eb2e6",
+      "photos": [
+        "media/facebook/1093589589737489/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1102355808861634",
+      "date": "2026-09-25",
+      "title": "Discussion shared in Not A Just Transition, 25 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Not A Just Transition",
+        "label": "Facebook · Not A Just Transition",
+        "url": "https://www.facebook.com/groups/427061409724414/posts/1102355808861634/"
+      },
+      "thin": false,
+      "bodyText": "INTRODUCING OBJECTNOW SUPPORT\nGetting help from ObjectNow is changing. We wanted something simpler. More organised. More secure. And considerably more useful than simply giving you another way to send us an email. So we built it.\nA completely new ObjectNow Support Centre, bringing together direct support, secure document sharing and our growing planning Knowledge Base in one place.\nThe new ObjectNow Support Centre. It's live now.\nhttps://support.object.now",
+      "contentFingerprint": "ce60f3a4b48c09246c83ef7315bbcb36b806d9112ad34bb67a991e3717a5dccc",
+      "photos": [
+        "media/facebook/1102355808861634/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
     {
       "id": "29445114865090862",
       "date": "2026-09-25",
@@ -155,147 +300,6 @@
       "mediaCount": 1,
       "photos": [
         "media/facebook/1090802206683661/photo_1.jpg"
-      ],
-      "contentFingerprint": "46483c2e286988e9b2acbdff3812350d92521b1332bae414932e3e665b5f5c8d"
-    },
-    {
-      "id": "29431966919738990",
-      "date": "2026-09-24",
-      "title": "Discussion shared in Scotland Against Spin, 24 September 2026",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Scotland Against Spin",
-        "label": "Facebook · Scotland Against Spin",
-        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29431966919738990/"
-      },
-      "thin": false,
-      "bodyText": "Michael Shanks accused of 'rewriting history' over 'insulting' GB Energy claim\nTHENATIONAL.SCOT Michael Shanks accused of 'rewriting history' over 'insulting' GB Energy claim",
-      "contentFingerprint": "588ca260951d8910fd58c64a9ee5c07f1f9f012866f3d70a945f666f49b0f042",
-      "photos": [
-        "media/facebook/29431966919738990/photo_1.png"
-      ],
-      "mediaCount": 1
-    },
-    {
-      "id": "28284576994529056",
-      "date": "2026-09-12",
-      "title": "Discussion shared in Environmentalists Against Wind Turbines, 12 September 2026",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Environmentalists Against Wind Turbines",
-        "label": "Facebook · Environmentalists Against Wind Turbines",
-        "url": "https://www.facebook.com/groups/835899539823505/posts/28284576994529056/"
-      },
-      "externalLinks": [
-        "https://www.facebook.com/share/r/1CDkrUmLd7/?mibextid=wwXIfr"
-      ],
-      "contentFingerprint": "d7ddcfb3e2880a162e20b68c941cf1a541ef267cc7cec14757984df5001971ce",
-      "photos": [
-        "media/facebook/28284576994529056/photo_1.png"
-      ],
-      "mediaCount": 1
-    },
-    {
-      "id": "1600448455124683",
-      "date": "2026-09-12",
-      "title": "Is this what could happen in Scotland, hope not!",
-      "provenance": {
-        "title": {
-          "method": "headline"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Grampian Against Data Centres",
-        "label": "Facebook · Grampian Against Data Centres",
-        "url": "https://www.facebook.com/groups/1517407306762132/posts/1600448455124683/"
-      },
-      "contentFingerprint": "a4a2256cc46db9f0fec1f9443df917d9a731d3939a7fdb25e7bc7c9b871cd732",
-      "bodyText": "Culture Collective\n19год",
-      "mediaCount": 1,
-      "photos": [
-        "media/facebook/1600448455124683/photo_1.jpg"
-      ]
-    },
-    {
-      "id": "1082807437482371",
-      "date": "2026-09-12",
-      "title": "Why not use these",
-      "provenance": {
-        "title": {
-          "method": "headline"
-        },
-        "categories": {
-          "method": "keyword"
-        },
-        "topics": {
-          "method": "keyword"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Communities B4 Power Companies",
-        "label": "Facebook · Communities B4 Power Companies",
-        "url": "https://www.facebook.com/groups/221782186918238/posts/1082807437482371/"
-      },
-      "categories": [
-        "Onshore Wind",
-        "OHL (Pylons)"
-      ],
-      "topics": [
-        "Ecology",
-        "Grid infrastructure",
-        "Tourism"
-      ],
-      "contentFingerprint": "4cdc6e6926e10cfb6980a1571e724e09590b78bba10e51ec72e556ae5fe9422d",
-      "photos": [
-        "media/facebook/1082807437482371/photo_1.png"
-      ],
-      "mediaCount": 1
-    },
-    {
-      "id": "1089956200101595",
-      "date": "2026-09-11",
-      "title": "Wind Energy's Absurd",
-      "provenance": {
-        "title": {
-          "method": "headline"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Not A Just Transition",
-        "label": "Facebook · Not A Just Transition",
-        "url": "https://www.facebook.com/groups/427061409724414/posts/1089956200101595/"
-      },
-      "mediaCount": 1,
-      "photos": [
-        "media/facebook/1089956200101595/photo_1.jpg"
       ],
       "contentFingerprint": "46483c2e286988e9b2acbdff3812350d92521b1332bae414932e3e665b5f5c8d"
     }

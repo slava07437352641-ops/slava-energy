@@ -1,16 +1,16 @@
 {
-  "generated": "2026-09-25T20:30:04.000Z",
+  "generated": "2026-09-26T07:04:55.000Z",
   "counts": {
-    "records": 3243,
+    "records": 3253,
     "thin": 320,
-    "withMedia": 707,
+    "withMedia": 717,
     "withCategories": 746,
     "withTopics": 316,
     "withProject": 10,
     "withCoordinates": 95,
     "withSummary": 52,
-    "withBodyText": 1857,
-    "withPhotos": 707,
+    "withBodyText": 1867,
+    "withPhotos": 717,
     "withPreviewImage": 64,
     "councils": 4,
     "matchReviewLogged": 2,
@@ -22,7 +22,7 @@
   },
   "dateRange": {
     "from": "2024-04-12",
-    "to": "2026-09-25"
+    "to": "2026-09-26"
   },
   "records": [
     {
@@ -78837,6 +78837,296 @@
       "contentFingerprint": "f32748308d5bacebf24f0d3ddf3a0c1c80ae8ddd3e8e4eb8b5ec18e59cb760a1",
       "photos": [
         "media/facebook/29445114865090862/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "29458475507088131",
+      "date": "2026-09-26",
+      "title": "Discussion shared in Scotland Against Spin, 26 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29458475507088131/"
+      },
+      "thin": false,
+      "bodyText": "The UK government has paid almost twice as much to turn off windfarms in Scotland as it plans to spend on developing small modular nuclear reactors by the end of this decade, industry leaders have said.\nThe Nuclear Industry Association said ministers plan to invest £2.8 billion in the technology, compared with£5.1bn in so called constraint payments that have been made since 2021.\nSome £1.04bn was forked out in constraint payments this year up until the end of August. This is up from £648 min the same period last year.\nThe UK Government wants to open small modular reactors in Scotland, potentially at former nuclear sites such as Torness, Hunterston, and Dounreay. All of these sites already have grid transmission connections. But this has been blocked by the Scottish government which holds planning powers.\nSCOTSMAN.COM 'UK spends twice as much switching off windfarms as it does on nuclear reactors'",
+      "contentFingerprint": "4ac23c48569b175a4a84231f3c806fae741c72529d25e5c10a0abfb394714c28",
+      "photos": [
+        "media/facebook/29458475507088131/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "29453105667625115",
+      "date": "2026-09-25",
+      "title": "Discussion shared in Scotland Against Spin, 25 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29453105667625115/"
+      },
+      "thin": false,
+      "bodyText": "An investigation has been launched after a landslide occurred on the site of a wind farm in Co Donegal.\nThe incident occurred at Drumnahough Wind Farm located 13kms outside Letterkenny.\nConstruction on the €120 million project, being constructed by SSE and FuturEnergy Ireland, began earlier this year.\nDONEGALDAILY.COM Investigation launched after landslide at Donegal wind farm site - Donegal Daily",
+      "contentFingerprint": "a62ceb994b133cbca0ac4c44115f4b4985692721004c89c5fb12a07eae226839",
+      "photos": [
+        "media/facebook/29453105667625115/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "29452633121005703",
+      "date": "2026-09-25",
+      "title": "Discussion shared in Scotland Against Spin, 25 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29452633121005703/"
+      },
+      "thin": false,
+      "bodyText": "A very warm welcome to our new members. Please take a look at our website for more information about the group.\nhttps://scotlandagainstspin.org/\nWe look forward to having your support with our next round of consultations/campaigns, coming soon.\nMany thanks",
+      "contentFingerprint": "fc71bdffa2e3f5d8a52280b92b42e9c477a94e8eb047bbec87ef351c29e96446",
+      "photos": [
+        "media/facebook/29452633121005703/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "29448681981400817",
+      "date": "2026-09-25",
+      "title": "Discussion shared in Scotland Against Spin, 25 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29448681981400817/"
+      },
+      "thin": false,
+      "bodyText": "Just part of what there not telling you. #AffordableEnergy #climatechange #Hopetosaveourcountryside\n£180 BILLION — GENERATION\n£70 BILLION — TRANSMISSION\n£1.9 BILLION — GRID CONSTRAINT COSTS IN ONE YEAR\nBritain is undertaking an enormous transformation of its electricity system — but where is the complete, independent assessment of the total cost, infrastructure, land and consequences?\nThat is the question behind Petition 780321.\nPETITION 780321: https://petition.parliament.uk/petitions/780321\nRead the evidence: https://hopetosaveourcountryside.com/2026/09/25/the-chaos-and-carnage-of-the-ideological-dream/\nRead the evidence. Read the petition. Decide for yourself.",
+      "contentFingerprint": "21b16860bd4772dd91c1c42c9fc8f44c01252e089dc7c903294ac0cf9513e6ec",
+      "photos": [
+        "media/facebook/29448681981400817/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "29447590474843301",
+      "date": "2026-09-25",
+      "title": "Discussion shared in Scotland Against Spin, 25 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29447590474843301/"
+      },
+      "thin": false,
+      "bodyText": "All doing nothing not a penny being made 🤷‍♂️ 10mph south west wind what the hell is going on 🤦‍♂️🤦‍♂️🤦‍♂️",
+      "contentFingerprint": "ee6def7e61ee94eb5aaadcd86addbefb4e56303f7475bcc4451a2bc56cb78ea6",
+      "photos": [
+        "media/facebook/29447590474843301/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "29447279554874393",
+      "date": "2026-09-25",
+      "title": "Discussion shared in Scotland Against Spin, 25 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29447279554874393/"
+      },
+      "thin": false,
+      "bodyText": "THE operational life of the proposed Overhill Wind Farm near Dalmellington could be extended by 10 years under plans recommended for approval by East Ayrshire Council planners.\nThe development, brought forward by Energiekontor UK Ltd, was granted consent on appeal in 2023 and would comprise 10 turbines with a maximum blade tip height of 180 metres on a 669.5-hectare site north of the B741 near Dalmellington.\nAlthough it is not yet operational, two separate planning applications are due to be considered by East Ayrshire Council's planning committee, with both seeking permission to extend the wind farm's operational lifespan from 25 years to 35 years, meaning the development could continue generating renewable electricity for an additional decade before decommissioning.\nAYRADVERTISER.COM Operational life of wind farm near Dalmellington could increase by a decade",
+      "contentFingerprint": "f9e8651f2f3ad3af93d47a49e8bae0b441db82b98c9e663f89f1ec5625960370",
+      "photos": [
+        "media/facebook/29447279554874393/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "28453721440947943",
+      "date": "2026-09-24",
+      "title": "Discussion shared in Environmentalists Against Wind Turbines, 24 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/28453721440947943/"
+      },
+      "thin": false,
+      "bodyText": "Wind Turbines- The Real Risks",
+      "contentFingerprint": "0bf998d3c8fe138714deeb2be293e2577f6dd01e8ef0edcd2aa2c2ccffd12335",
+      "photos": [
+        "media/facebook/28453721440947943/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1607477157755146",
+      "date": "2026-09-21",
+      "title": "Discussion shared in Grampian Against Data Centres, 21 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Grampian Against Data Centres",
+        "label": "Facebook · Grampian Against Data Centres",
+        "url": "https://www.facebook.com/groups/1517407306762132/posts/1607477157755146/"
+      },
+      "thin": false,
+      "bodyText": "The biggest data centers in America were told to switch to backup generators after PJM, the nation's largest grid operator, warned of an imminent reliability issue.",
+      "contentFingerprint": "35d2eb2939f7bb8d8d9f37e41d061e0c0e5d4942b2c813c9410bd652974ea958",
+      "photos": [
+        "media/facebook/1607477157755146/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1093589589737489",
+      "date": "2026-09-25",
+      "title": "Discussion shared in Communities B4 Power Companies, 25 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Communities B4 Power Companies",
+        "label": "Facebook · Communities B4 Power Companies",
+        "url": "https://www.facebook.com/groups/221782186918238/posts/1093589589737489/"
+      },
+      "thin": false,
+      "bodyText": "I get bored of the relentless drone by many about how Scotland is producing energy for England, which of course it does, but that favour flows north too. And east, and west.\nIt is called a 'national grid'.\nThe evidence shows England having a greater installed capacity and producing more of everything renewable. I came across this site, but it is from 2024. My argument now, and always has been, is WHO will Scotland export all this surplus energy to if their nearest neighbour is producing twice as much already, and building nuclear?\nIf anyone has more up to date stats, please advise, including actual TWh installed capacity and output for 2025-6. Installed capacity does not mean actual production, especially as so much production in Scotland is curtailed.\nThanks!\nhttps://assets.publishing.service.gov.uk/media/68da6dc6ef1c2f72bc1e4b72/Regional_renewable_electricity_in_2024.pdf",
+      "contentFingerprint": "f25babd680d430b94d7caf3e328ef886a70b4870022d7f6248ccff40815eb2e6",
+      "photos": [
+        "media/facebook/1093589589737489/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1102355808861634",
+      "date": "2026-09-25",
+      "title": "Discussion shared in Not A Just Transition, 25 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Not A Just Transition",
+        "label": "Facebook · Not A Just Transition",
+        "url": "https://www.facebook.com/groups/427061409724414/posts/1102355808861634/"
+      },
+      "thin": false,
+      "bodyText": "INTRODUCING OBJECTNOW SUPPORT\nGetting help from ObjectNow is changing. We wanted something simpler. More organised. More secure. And considerably more useful than simply giving you another way to send us an email. So we built it.\nA completely new ObjectNow Support Centre, bringing together direct support, secure document sharing and our growing planning Knowledge Base in one place.\nThe new ObjectNow Support Centre. It's live now.\nhttps://support.object.now",
+      "contentFingerprint": "ce60f3a4b48c09246c83ef7315bbcb36b806d9112ad34bb67a991e3717a5dccc",
+      "photos": [
+        "media/facebook/1102355808861634/photo_1.png"
       ],
       "mediaCount": 1
     }
