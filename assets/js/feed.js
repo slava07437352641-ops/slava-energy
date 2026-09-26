@@ -155,7 +155,7 @@ export function renderFeed(container, records, { selectedId, onSelect, mirrorIds
       ${field("Developer", r.developer)}
       ${field("Council", r.council)}
       ${field("Authority", r.authority)}
-      <div class="pd-card-source">${verificationLine(r)}${r.mediaCount ? ` &middot; ${r.mediaCount} photo${r.mediaCount > 1 ? "s" : ""}` : ""}</div>
+      <div class="pd-card-source">Source: Facebook</div>
     `;
     card.addEventListener("click", () => onSelect(r.id));
     makeCardKeyboardAccessible(card, r.title, () => onSelect(r.id));

@@ -1,7 +1,7 @@
 // Bootstrap for the Public objections & discussions dashboard (Pilot v0.1).
-import { readState, writeState } from "./url-state.js?v=20260925a";
-import { applyAll, facetCounts, FACETS, TECH_CATEGORIES } from "./filters.js?v=20260925a";
-import { renderFeed, renderDetail, renderMirror } from "./feed.js?v=20260925a";
+import { readState, writeState } from "./url-state.js?v=20260925b";
+import { applyAll, facetCounts, FACETS, TECH_CATEGORIES } from "./filters.js?v=20260925b";
+import { renderFeed, renderDetail, renderMirror } from "./feed.js?v=20260925b";
 
 // Must match news.js's NEWS_PANEL_LIMIT -- kept as a separate constant
 // rather than a cross-module import so this file never depends on
