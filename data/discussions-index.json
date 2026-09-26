@@ -1,16 +1,16 @@
 {
-  "generated": "2026-09-26T07:04:55.000Z",
+  "generated": "2026-09-26T11:25:31.000Z",
   "counts": {
-    "records": 3253,
+    "records": 3258,
     "thin": 320,
-    "withMedia": 717,
+    "withMedia": 722,
     "withCategories": 746,
     "withTopics": 316,
     "withProject": 10,
     "withCoordinates": 95,
     "withSummary": 52,
-    "withBodyText": 1867,
-    "withPhotos": 717,
+    "withBodyText": 1872,
+    "withPhotos": 722,
     "withPreviewImage": 64,
     "councils": 4,
     "matchReviewLogged": 2,
@@ -79127,6 +79127,151 @@
       "contentFingerprint": "ce60f3a4b48c09246c83ef7315bbcb36b806d9112ad34bb67a991e3717a5dccc",
       "photos": [
         "media/facebook/1102355808861634/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "29438799902389025",
+      "date": "2026-09-24",
+      "title": "Discussion shared in Scotland Against Spin, 24 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29438799902389025/"
+      },
+      "thin": false,
+      "bodyText": "Nobody ever built a wind farm with wind. An energy transition is always a project that uses its current energy source to build its replacement while keeping everyone fed and warm. Every turbine, panel, pylon and battery is made, moved, installed and replaced with the help of cheap oil.\nCAPX.CO Net Zero can't help Britain escape the energy trap",
+      "contentFingerprint": "d6c639c8ad3ccb490c5582445ab4e5f46c9897a1f64ab91a556c5d0436f474c6",
+      "photos": [
+        "media/facebook/29438799902389025/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "29439707685631580",
+      "date": "2026-09-25",
+      "title": "Discussion shared in Scotland Against Spin, 25 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29439707685631580/"
+      },
+      "thin": false,
+      "bodyText": "CWP on their high horse again.\nCWP Energy has warned that £60bn of private investment could be at risk due to restrictions on onshore wind development around the Eskdalemuir seismic array in Scotland.\nThe developer suggested £10bn could be unlocked by onshore wind farms if government and Ministry of Defence rules were to be relaxed, claiming a further £50bn could be attracted through capital investments from AI and data centre companies.\nThe opportunity could support more than 10,000 jobs across the energy and technology sectors and enable around 6GW of new renewable-energy capacity, with shovel-ready projects that have grid connections and finance in place ready to be delivered by 2030, according to CWP.\nThe UK government is currently assessing industry feedback to a consultation earlier this year on a new approach to managing interference from wind turbines on the Eskdalemuir array.\nThe facility in the Scottish Borders monitors for seismic activity as part of the Comprehensive Nuclear Test Ban Treaty and is safeguarded by the Ministry of Defence.\nWind farms are excluded from a 10km zone around the station and are subject to a noise budget – currently full – if seeking to be built within a 50km consultation zone, to avoid impacting its monitoring capabilities.\nCWP said the MoD's existing approach to managing interference has acted as a barrier to investment in southern Scotland and northern England for the last 20 years.\nRENEWS.BIZ CWP claims £60bn at risk due to Eskdalemuir rules | Onshore Wind | reNEWS",
+      "contentFingerprint": "8d6b543b5eed67729343c37f4e16123ef4cf16c7a6b8ad14f136dab713ded648",
+      "photos": [
+        "media/facebook/29439707685631580/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "29459069733695375",
+      "date": "2026-09-26",
+      "title": "Discussion shared in Scotland Against Spin, 26 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29459069733695375/"
+      },
+      "thin": false,
+      "bodyText": "Herald letters\nUKRAINE fired more than 1,000 drones at Russia, and Russia retaliated using drones to attack Ukraine's southern city of Zaporizhzhia.\nThis made me think about the greenhouse gases created by wars all around the world. Why have politicians and those of a green disposition never told us the volume of emissions created by the Russian war against Ukraine, and the emissions that will be created in rebuilding the shattered infrastructure?\nThen, of course, there is mother nature, with her volcanoes, earthquakes, tsunamis, hurricanes and more. All emitting greenhouse gases which puny mankind can never control. No figure has been put on that either. What about music and sporting events? Do politicians really believe people will believe that buying an EV and a heat pump, and cycling to work and eating less meat, will save the planet?\nMeanwhile, most of the rest of the world is still harvesting and using fossil fuels to drive their economies.\nClark Cross, Linlithgow.",
+      "contentFingerprint": "b5a3290d46de7aeecbc27ddc5f472f3599675d3fe9c845c0c54a0dec0b92d3cf",
+      "photos": [
+        "media/facebook/29459069733695375/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "29445018035100545",
+      "date": "2026-09-25",
+      "title": "Discussion shared in Scotland Against Spin, 25 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29445018035100545/"
+      },
+      "thin": false,
+      "bodyText": "The boss of Great British Energy has defended the state-owned company's job creation record after claims its impact on Aberdeen has been oversold.\nChief executive Dan McGrail said the firm was recruiting about \"two people a week\" for its Aberdeen-based HQ and the total would eventually rise to around 300.\nBBC.CO.UK GB Energy boss defends Aberdeen job creation record",
+      "contentFingerprint": "340a7419e5683f6a2f6bb4be3b38d708fcbe47f431e10841c370bb4a19282717",
+      "photos": [
+        "media/facebook/29445018035100545/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "29444791285123220",
+      "date": "2026-09-25",
+      "title": "Discussion shared in Scotland Against Spin, 25 September 2026",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29444791285123220/"
+      },
+      "thin": false,
+      "bodyText": "The self-professed champion of green energy has relaxed his militant net zero views\nYou can read the story in full here\nTELEGRAPH.CO.UK 'Maverick' tycoon Dale Vince bamboozles his climate comrades",
+      "contentFingerprint": "d2721933b0cc3b0677ee975b0b6013cbc368e7537b840f8783eda0a2d380b5b1",
+      "photos": [
+        "media/facebook/29444791285123220/photo_1.png"
       ],
       "mediaCount": 1
     }
