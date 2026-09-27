@@ -1,16 +1,16 @@
 {
-  "generated": "2026-09-26T20:59:09.000Z",
+  "generated": "2026-09-27T22:53:56.000Z",
   "counts": {
-    "records": 3314,
+    "records": 3324,
     "thin": 320,
-    "withMedia": 778,
+    "withMedia": 791,
     "withCategories": 746,
     "withTopics": 316,
     "withProject": 10,
     "withCoordinates": 95,
     "withSummary": 52,
-    "withBodyText": 1928,
-    "withPhotos": 778,
+    "withBodyText": 1938,
+    "withPhotos": 788,
     "withPreviewImage": 64,
     "councils": 4,
     "matchReviewLogged": 2,
@@ -22,7 +22,7 @@
   },
   "dateRange": {
     "from": "2024-04-12",
-    "to": "2026-09-26"
+    "to": "2026-09-27"
   },
   "records": [
     {
@@ -80896,6 +80896,296 @@
       "contentFingerprint": "44293a30ef31d21b4b413c75ea8728fb05103d1a430b116edabbab2edcdd0d72",
       "photos": [
         "media/facebook/1092670733162708/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "29476897721912576",
+      "date": "2026-09-27",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29476897721912576/"
+      },
+      "thin": false,
+      "bodyText": "One of America’s most prominent industrialists has launched a withering attack on Britain’s “absurd” energy policy, branding the pursuit of net zero an “abject failure”.\nUnable to compete with global rivals because of sky-high energy prices, UK manufacturers spanning the entire industrial base are shutting down operations or leaving altogether, billionaire Peter Huntsman warned.  The full story can be read here https://archive.ph/Oa2BF#selection-3477.0-3481.211\nhttps://www.telegraph.co.uk/.../uk-net-zero-strategy.../\nTELEGRAPH.CO.UK UK’s net zero strategy is an ‘abject failure’, says chemicals plant boss",
+      "contentFingerprint": "8c51e8e90dd770fe2eca539492b96057cde8ded147cf6fd50fb3b721ff60081e",
+      "photos": [
+        "media/facebook/29476897721912576/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "29470962429172772",
+      "date": "2026-09-27",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29470962429172772/"
+      },
+      "thin": false,
+      "bodyText": "WHEN an official from the UK’s grid operator appeared at Holyrood’s energy committee last week, he quietly revealed that Scotland may have more AI data centres on the books than previously understood.\nMartyn Day, the SNP MSP for Linlithgow, had put it to Matt Magill, a director at the National Energy System Operator (NESO), that there were “around 20 AI data centres in the pipeline”. Magill corrected him.\n“There are closer to 30 in Scotland at the moment,” he said. “It is about 9.7 gigawatts (GW).”\nThis sparked a question: where and what are these extra potential data centres?\nAround two dozen projects have so far been identified through planning documents and public announcements by Action to Protect Rural Scotland, with analysis by the countryside charity putting the potential electricity demand of the known projects at around 7.3GW.\nTHENATIONAL.SCOT Inside Scotland’s hidden pipeline of ‘phantom’ hyperscale data centres",
+      "contentFingerprint": "29d3a7bd935577237d2dd15cc47f8e4c888fe727058d19b7ea77ac6117f8e609",
+      "photos": [
+        "media/facebook/29470962429172772/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "29470416399227375",
+      "date": "2026-09-27",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29470416399227375/"
+      },
+      "thin": false,
+      "bodyText": "With promises of creating thousands of employment opportunities and finally giving the public a stake in green power, a row over jobs numbers risks GB Energy being used as a tool to criticise the UK Labour government. But with the organisation’s Aberdeen headquarters officially opening this week, questions have been raised over what the body can achieve for Scotland’s net zero and renewables future.\nGB Energy’s base is located at the Marischal Square development, which sparked a public backlash when it was constructed. Sitting above a branch of Costa coffee and overlooking the closed Illicit Still pub, the flagship headquarters does not even have a sign visible to the public. You wouldn’t know it was there.\nSCOTSMAN.COM What will GB Energy actually do for Scotland's renewables future?",
+      "contentFingerprint": "1a8ea335c7c897fa42ff9ba58bd0bf525f0796cc972a4e58a52fbac5bb484d0e",
+      "photos": [
+        "media/facebook/29470416399227375/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "29469951812607167",
+      "date": "2026-09-27",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29469951812607167/"
+      },
+      "thin": false,
+      "bodyText": "This article refers to Rachel's post dated 17 September which you can find in our Featured Posts at the top of the page.  (She was invited to attend the meeting at Westminster.)  It can also be found on our website. https://scotlandagainstspin.org/.../inquiry-report-into.../\nThe Energy Security and Net Zero Committee has been busy over the summer producing [a new report](https://substack.com/.../bee34ace-b6e4-46b4-bbc5...) entitled “Zero sum game: How the UK can reframe the energy transition”. The report neatly illustrates that the authorities are becoming increasingly concerned about the rising opposition to Net Zero. Indeed, one of the main recommendations of the report is that the phrase Net Zero be dropped because it has become “a lightning rod for opposition to climate action”.  https://davidturver.substack.com/.../esnz-calls-for-more...\nDAVIDTURVER.SUBSTACK.COM davidturver.substack.com",
+      "contentFingerprint": "61005f3c58d690dcbc997903c1a18564403a69847ac69394280c04e55b233bf9",
+      "photos": [
+        "media/facebook/29469951812607167/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "29466028849666130",
+      "date": "2026-09-26",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29466028849666130/"
+      },
+      "thin": false,
+      "bodyText": "Comment from the ferret whom I trust \nDoes SAS have any verified commentary on this\nTHEFERRET.SCOT Boss of SNP-backed wind firm named in bribery scandal",
+      "contentFingerprint": "b0fb7025b0d18d1641fa34e24f3ac4ebf1d41f19985fdddf88ccdeba94bb1762",
+      "photos": [
+        "media/facebook/29466028849666130/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "28494693620184058",
+      "date": "2026-09-27",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/28494693620184058/"
+      },
+      "thin": false,
+      "bodyText": "On January 1, 2019, the F/V Mistress sank 50 feet from Block Island Wind Turbine #1\n#REOPENTHEINVESTIGATION\nhttps://www.cbsnews.com/.../fv-mistress-shipwreck-found.../",
+      "contentFingerprint": "9cdd9d0de152512413a946516fdb06723a73f4397329a1e045a71809054c446a",
+      "photos": [
+        "media/facebook/28494693620184058/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "28437025632617524",
+      "date": "2026-09-27",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/28437025632617524/"
+      },
+      "thin": false,
+      "bodyText": "Vineyard Wind: 800 MW doesn’t mean 800 MW 24/7.\nVineyard Wind is often described as an 800 MW project capable of powering around 400,000 homes. But there is an important distinction between nameplate capacity and actual electricity production.\nWind turbines only generate electricity when wind conditions allow, and output can also be affected by maintenance and other operating factors. So an 800 MW nameplate capacity does not mean 800 MW is continuously available around the clock.\nThe real question is: how much electricity will the project actually deliver over an entire year, and how does that compare with the “400,000 homes” figure? \nAre capacity figures sometimes misunderstood as actual, continuous power production?\n#VineyardWind #WindPower #RenewableEnergy #EnergyDebate",
+      "contentFingerprint": "41170c441e91d326f6c6d913f20c2422d63480e802543fc61a622584ada77b31",
+      "photos": [
+        "media/facebook/28437025632617524/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "28489652294021524",
+      "date": "2026-09-27",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/28489652294021524/"
+      },
+      "thin": false,
+      "bodyText": "132 klm wind----damage.",
+      "contentFingerprint": "4ccaa07659c85e23979df030f3e00aca38e80992fb60fd172b6b1e03be85e381",
+      "photos": [
+        "media/facebook/28489652294021524/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "28487084914278262",
+      "date": "2026-09-26",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/28487084914278262/"
+      },
+      "thin": false,
+      "bodyText": "Explanation of why a Coast Guard MH-60 helicopter with wind turbine spacing at 1/2 mile\nBlock Island Boat Found After 7 Years \n[https://www.cbsnews.com/.../fv-mistress-shipwreck-found.../](https://www.cbsnews.com/.../fv-mistress-shipwreck-found.../)",
+      "contentFingerprint": "98a08a7e0056b4645b32c5623099fd0d86fed6020ed9fc56ac2272052dafd7b7",
+      "photos": [
+        "media/facebook/28487084914278262/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "28483836134603140",
+      "date": "2026-09-26",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/28483836134603140/"
+      },
+      "thin": false,
+      "bodyText": "BLOCK ISLAND WIND TURBINES HALF-MILE SPACING\nSEPTEMBER 26, 2026\nhttps://www.windtaskforce.org/.../block-island-wind...\nThe commercial fishing vessel F/V Mistress sank in rough weather near Block Island, Rhode Island, shortly after midnight on January 1, 2019, resulting in the tragic deaths of two crew members.\nIn a \"targeted\" dive, seven years after it sank, a shipwreck believed to be the commercial fishing vessel F/V Mistress was discovered in September 2026, resting just 50 feet from the base of turbine No. 1 at the Block Island Wind Farm.\nCoast Guard records confirm that an MH-60 Jayhawk helicopter abandoned its aerial search for the commercial fishing vessel F/V Mistress on January 1, 2019, due to the proximity to the Block Island wind turbines. The MH-60 is fully instrument-rated, leveraging a digital glass cockpit with advanced GPS (RNAV), TACAN, and Instrument Landing Systems (ILS) to navigate safely through dense clouds and zero-visibility conditions.\nThe community and local maritime groups had long-standing radar concerns that 500-foot commercial wind turbines—spaced just a half-mile apart—create clutter and \"ghost readings\" that severely hinder search and rescue (SAR) electronics during heavy storms.\nThe approval and environmental assessment of the Block Island Wind Farm—including the layouts, navigation pathways, and the specific 1/2 mile spacing between turbines—involved a collaborative review by federal and state agencies\nThe primary regulatory bodies responsible for reviewing and approving the project layouts and spacing were:\nFederal Agencies:\nU.S. Army Corps of Engineers (USACE): environment\nUS Coast Guard: safety, radar, vessel transit zones\nBureau of Ocean Energy Management BOEM ): transmission right-of-way\nNational Oceanic and Atmospheric Administration (NOAA): adverse impacts, spacing turbines\nFederal Aviation Administration (FAA): Aviation safety\nRhode Island State Agencies:\nRhode Island Coastal Resources Management Council (CRMC): lead permitting agency\nRhode Island Department of Environmental Management RIDEM: Local coast impacts\nNote: # Long before construction of the Block Island wind project, on October 7, 2008, a meeting was held at the Hyannis Marina in Massachusetts regarding Cape Wind. The meeting involved the fishing industry addressing marine radar interference and the need for turbine spacing of two to three nautical miles. The Block Island turbines were in operation by 2016.\nOffshore wind submarine cables can sell for up to $1000.00 per foot. Wind turbine advocates, politicians, and construction companies wanted the project to proceed with 1/2 mile spacing rather than two or more nautical miles.\n#Follow the money",
+      "contentFingerprint": "b4e7ea65d14d860348b0fd5be9f5d34ec695dc0a773376f9cefde9072d6528e4",
+      "photos": [
+        "media/facebook/28483836134603140/photo_1.png"
       ],
       "mediaCount": 1
     }
