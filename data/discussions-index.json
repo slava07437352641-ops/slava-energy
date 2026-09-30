@@ -1,16 +1,16 @@
 {
-  "generated": "2026-09-30T20:32:53.000Z",
+  "generated": "2026-09-30T21:01:32.000Z",
   "counts": {
-    "records": 3360,
+    "records": 3364,
     "thin": 320,
-    "withMedia": 827,
+    "withMedia": 831,
     "withCategories": 746,
     "withTopics": 316,
     "withProject": 10,
     "withCoordinates": 95,
     "withSummary": 52,
-    "withBodyText": 1973,
-    "withPhotos": 824,
+    "withBodyText": 1977,
+    "withPhotos": 828,
     "withPreviewImage": 64,
     "councils": 4,
     "matchReviewLogged": 2,
@@ -82230,6 +82230,122 @@
       "contentFingerprint": "2cbcafabcd0ae221e74cdec5bd2599c34bf0ea37154b48f587ff92ba1981ca1d",
       "photos": [
         "media/facebook/1118643160836500/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1140082518683335",
+      "date": "2026-09-30",
+      "title": "Suffolk Energy Action Solutions (SEAS)",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Suffolk Energy Action Solutions (SEAS)",
+        "label": "Facebook Page · Suffolk Energy Action Solutions (SEAS)",
+        "url": "https://www.facebook.com/reel/2123445558529484"
+      },
+      "thin": false,
+      "bodyText": "📰📰 𝗔 𝗚𝗥𝗘𝗔𝗧 𝗕𝗥𝗜𝗧𝗜𝗦𝗛 𝗚𝗥𝗜𝗗 - 𝗚𝗘𝗧𝗧𝗜𝗡𝗚 𝗧𝗛𝗘 𝗡𝗘𝗧𝗪𝗢𝗥𝗞 𝗥𝗜𝗚𝗛𝗧 📰📰\nAndy Burnham’s announcement of a new Great British Grid puts an important issue firmly on the national agenda: Britain needs a smarter, more strategic approach to electricity infrastructure.\nThe key question is not whether we need clean energy - we absolutely do. It is how we connect that energy in a way that delivers value for consumers while protecting communities, landscapes and our natural environment.\nSEAS has consistently argued for a more integrated approach, including offshore grid connections and greater use of existing infrastructure and brownfield locations where appropriate.\nA genuinely strategic Great British Grid could provide an opportunity to look beyond individual projects and consider the network as a whole — reducing unnecessary infrastructure, improving resilience and ensuring that investment delivers maximum benefit.\nWe welcome the focus on better coordination, faster connections and value for consumers.\n#greatbritishgrid #energyinfrastructure #energynews #suffolkenergyactionsolutions See less\n5\n3\n1\n44\n6\n2",
+      "contentFingerprint": "8f56fb6225da439846cbd144c4397aaa92544931a9ef2928395f380fcf44a2a8",
+      "photos": [
+        "media/facebook/1140082518683335/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1438822595048839",
+      "date": "2026-09-30",
+      "title": "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
+        "label": "Facebook · Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
+        "url": "https://www.facebook.com/groups/1367957378802028/posts/1438822595048839/"
+      },
+      "thin": false,
+      "bodyText": "A DPO is more than a name on your GDPR documents.\nA Data Protection Officer can play an important role in helping an organisation manage its UK GDPR and data protection responsibilities.\nThat can include advising the business, monitoring compliance, supporting DPIAs, working with the ICO and providing independent data protection oversight.\nBut remember: the organisation remains responsible for its compliance.\nThe right DPO support should be active, practical and accessible, not simply a name on a policy.\n Does your business have a DPO, or are you unsure whether you need one?\nComment “DPO” if you want to understand your options.\n Save this for your next GDPR review.  \n Share it with a business owner who needs to see it.\nNeed DPO support? Talk to Fortis.\n fortis-dpc.com  \n hi@fortis-dpc.com  \n +44 7808 144334\n#DPO  #GDPRCompliance  #DataProtectionUK  #UKGDPR  #GDPRForBusiness",
+      "contentFingerprint": "12b6024ec27640a7e9d3cf4db005d4a7d7b53497994f163e39c5937fa636bbe6",
+      "photos": [
+        "media/facebook/1438822595048839/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1438459861751779",
+      "date": "2026-09-29",
+      "title": "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
+        "label": "Facebook · Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
+        "url": "https://www.facebook.com/groups/1367957378802028/posts/1438459861751779/"
+      },
+      "thin": false,
+      "bodyText": "AI data centres are a scam. A real estate bubble, pyramid selling style, for large language model AI hyper scaling  by unnecessary giant data centre build out for AI LLM products that don't even have a proven business case. Essentially it is crap product, the loans will come to repayment in the next couple of years and governments, ie the tax payer, will be left picking up the bill while the investors like Clegg escape with the profits. \nA mass distraction from the work we need to do, like renewables developments. Data centres competing and winning rare and competitive grid connections, like Alverdiscott grid connection in North Devon, pursued to build the largest data centre in Europe when that valuable rare grid connection should be used for green energy build out.\nScam, scam, scam and politicians too stupid or invested to care. \nBS of the highest order.\n'Nscale operates five datacentres in Europe and has a further 12 under different phases of construction including in the US. The Guardian revealed this year that one Nscale project in Loughton, Essex, is an undeveloped scrapyard.'\nTHEGUARDIAN.COM Nick Clegg could make £30m windfall from datacentre startup Nscale flotation",
+      "contentFingerprint": "18e3268d7bdbd5b0e39dcb7b9d028ecd2378a8de7ebab0f134e164e784133bd5",
+      "photos": [
+        "media/facebook/1438459861751779/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1813753316331582",
+      "date": "2026-09-30",
+      "title": "Essex Suffolk Norfolk Pylons",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Essex Suffolk Norfolk Pylons",
+        "label": "Facebook · Essex Suffolk Norfolk Pylons",
+        "url": "https://www.facebook.com/groups/pylonseastanglia/posts/1813753316331582/"
+      },
+      "thin": false,
+      "bodyText": "Something going on in fields off Lion road Palsgrave too",
+      "contentFingerprint": "97d4d26651ece21c43610be55ccd00dbe0014e8e13a06ddd06fe98918912d9ac",
+      "photos": [
+        "media/facebook/1813753316331582/photo_1.png"
       ],
       "mediaCount": 1
     }
