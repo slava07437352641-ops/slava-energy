@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-30T20:19:47.000Z",
+  "generated": "2026-09-30T20:32:53.000Z",
   "sourceFilter": [
     "Scotland Against Spin",
     "Environmentalists Against Wind Turbines",
@@ -78,35 +78,6 @@
       "contentFingerprint": "78dadc0815a79bd360ff281f4f09b8f59a3e343339039084af7175cca8640486",
       "photos": [
         "media/facebook/29511781315090883/photo_1.png"
-      ],
-      "mediaCount": 1
-    },
-    {
-      "id": "29510992631836418",
-      "date": "2026-09-30",
-      "title": "Scotland Against Spin",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Scotland Against Spin",
-        "label": "Facebook · Scotland Against Spin",
-        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29510992631836418/"
-      },
-      "thin": false,
-      "bodyText": "A six-turbine wind farm near Sanquhar has been approved by Dumfries and Galloway Council.\nRowancraig wind farm, proposed by Koehler Renewable Energy UK (KRE UK), was given the green light by the council’s planning committee on Wednesday, September 30.\nThe development is planned for Barr Moor, south of Kirkconnel and Kelloholm and around 4km south-west of Sanquhar.\nThe six turbines will each stand up to 180 metres tall and are expected to generate up to 36MW of electricity.\nHERALDSCOTLAND.COM Six-turbine Rowancraig wind farm approved in Dumfries and Galloway",
-      "contentFingerprint": "1432f32f725be144c79ebf5489c8b1fea4438e02bd3cb2cee81ef0365130dadd",
-      "photos": [
-        "media/facebook/29510992631836418/photo_1.png"
       ],
       "mediaCount": 1
     },
@@ -542,6 +513,35 @@
       "contentFingerprint": "89c9f296bcaa4580aa001a4f19be3ab3d8d25f8cdfe8bce444543cdc759f7463",
       "photos": [
         "media/facebook/29501565729445775/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "29501516866117328",
+      "date": "2026-09-29",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29501516866117328/"
+      },
+      "thin": false,
+      "bodyText": "A proposed wind farm with blade heights twice the height of London’s Big Ben poses a risk to the Scottish Borders Golden Eagle population, councillors will be told next week.\nWhen members of the council’s Planning and Building Standards Committee meet on Monday, October 5, they will be recommended to raise a formal objection to the construction and operation of a wind farm comprising up to 13 turbines each with tips up to a maximum of 200m on land to the north of Glentress Forest in Innerleithen.\nLeithenwater Wind Energy Hub is earmarked for a tract of forestry and moorland located on elevated ground above the Tweed Valley on the western edge of the Moorfoot Hills.\nAs the relevant local authority, Scottish Borders Council (SBC) is a consultee on the application with the final decision resting with the Scottish Government’s Energy Consents Unit.\nMIDLOTHIANVIEW.COM Borders councillors set to object to 200m wind turbines over golden eagle concerns - Midlothian View",
+      "contentFingerprint": "daf0c465262f2d78973cd168a8f2c3e05927f5e2745a9beb8ff5c84e753ffec0",
+      "photos": [
+        "media/facebook/29501516866117328/photo_1.png"
       ],
       "mediaCount": 1
     }
