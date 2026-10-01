@@ -1,16 +1,16 @@
 {
-  "generated": "2026-10-01T09:08:00.000Z",
+  "generated": "2026-10-01T12:17:15.000Z",
   "counts": {
-    "records": 3377,
+    "records": 3391,
     "thin": 320,
-    "withMedia": 844,
+    "withMedia": 858,
     "withCategories": 746,
     "withTopics": 316,
     "withProject": 10,
     "withCoordinates": 95,
     "withSummary": 52,
-    "withBodyText": 1989,
-    "withPhotos": 841,
+    "withBodyText": 2002,
+    "withPhotos": 855,
     "withPreviewImage": 64,
     "councils": 4,
     "matchReviewLogged": 2,
@@ -22,7 +22,7 @@
   },
   "dateRange": {
     "from": "2024-04-12",
-    "to": "2026-09-30"
+    "to": "2026-10-01"
   },
   "records": [
     {
@@ -82723,6 +82723,412 @@
       "contentFingerprint": "e43e34dd34b9e620b5940facec1e4b5eb32d62a674fc75b9dcc2366bfdd3b174",
       "photos": [
         "media/facebook/1386023633689878/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "29519799140955767",
+      "date": "2026-10-01",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29519799140955767/"
+      },
+      "thin": false,
+      "bodyText": "A planned data centre in North Ayrshire would have a \"horrendous\" impact on heritage and biodiversity, protesters have warned.\nA small demonstration by the Reject Hunterston Data Centre campaign took place on Wednesday outside the Park Hotel in Kilmarnock.\nEneus Energy, the firm behind the plans for the data centre, had a stall at a B2B event within the hotel.\nThe campaigners held up \"no data centre\" signs outside the venue.\nNEWS.SKY.COM Hunterston Data Centre would have 'horrendous' impact in North Ayrshire, protesters warn",
+      "contentFingerprint": "0ed7265cfcef06d59f9235d7c512aae0b1b8f1fa4ad74af5e32daae3319ebfb6",
+      "photos": [
+        "media/facebook/29519799140955767/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "29519546984314316",
+      "date": "2026-10-01",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29519546984314316/"
+      },
+      "thin": false,
+      "bodyText": "New oil and gas projects are a “no-brainer” that pose “no contradiction” to the net zero agenda, according to the head of [EDF Energy](https://www.theguardian.com/business/edf).\nSimone Rossi has joined a string of renewables leaders in making the case for more North Sea production as the government prepares to decide on two projects there.  https://www.theguardian.com/.../uk-gas-and-oil-climate...\nTHEGUARDIAN.COM New UK gas and oil projects are a ‘no-brainer’, says EDF boss",
+      "contentFingerprint": "75e8bce988b8ecb172a77e10476b2017c417a6be35c8a14b18b0dbc6db0ce411",
+      "photos": [
+        "media/facebook/29519546984314316/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "29519444014324613",
+      "date": "2026-10-01",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29519444014324613/"
+      },
+      "thin": false,
+      "bodyText": "Scottish ministers have been accused of being too slow to release a £500 million fund into renewables projects and having no clear plan beyond the end of the decade.\nAudit Scotland said less than a third of the fund has so far been spent and is putting the supply chain at risk.\nDAILYBUSINESSGROUP.CO.UK £500m wind investment fund 'at risk of failure' – Daily Business",
+      "contentFingerprint": "48ee51fe5d8131f1ea27803563a99a0e7f78fc1a0bf138aee43ed42a6da2ab76",
+      "photos": [
+        "media/facebook/29519444014324613/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "29519407237661624",
+      "date": "2026-10-01",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29519407237661624/"
+      },
+      "thin": false,
+      "bodyText": "I'm sure everyone will have a view on this!\nCAITHNESS-BUSINESS.CO.UK We Pay Wind Farms to Switch Off — So Why Not Put the Electricity Users Beside Them?",
+      "contentFingerprint": "6f5e6474b3632e22fdcd0a2e0a65991e7c7a772fd4d3cadd9e7bed07cad94910",
+      "photos": [
+        "media/facebook/29519407237661624/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "29514705728131775",
+      "date": "2026-09-30",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29514705728131775/"
+      },
+      "thin": false,
+      "bodyText": "This is exactly what is happening with Whitelee repowering at the moment - \"Fourth is the grid connection, often the hardest constraint of all. A repowered site keeps an existing connection, which helps, but any uplift in capacity is treated as a new request under the current connections reform: assessed, queued and tested against the Clean Power capacity limits for the relevant period, much like a new project. For Scotland, the headroom for onshore wind after 2030 is tightly capped, so the timing of a connection can decide whether a project is viable.\"  Hopefully they won't get a connection!  And the same applies to Neilston and Middleton wind farms which will both be up for repowering shortly.  Hopefully both of those will also encounter problems with Glasgow airport if they try to increase the height.\nUK.NEWS.YAHOO.COM Existing sites are the future for Scotland’s wind power, say MFMac",
+      "contentFingerprint": "116c881321b611db3f1962d83d1ca0aa3e62f42b819a8784c3839aaeb56fa3dd",
+      "photos": [
+        "media/facebook/29514705728131775/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1617202856782576",
+      "date": "2026-10-01",
+      "title": "Grampian Against Data Centres",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Grampian Against Data Centres",
+        "label": "Facebook · Grampian Against Data Centres",
+        "url": "https://www.facebook.com/groups/1517407306762132/posts/1617202856782576/"
+      },
+      "thin": false,
+      "bodyText": "NEW: Plans for an immense data centre campus in Scotland, which would be the largest in the world if approved, have been condemned as 'reckless' \n 'This is one of the most seriously concerning data centre applications to date'",
+      "contentFingerprint": "da7bf4be3092252ad1c45f66c15b69ee7bb37bd4c6fad7d678cfb2199ad0de7b",
+      "photos": [
+        "media/facebook/1617202856782576/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1616902886812573",
+      "date": "2026-09-30",
+      "title": "Grampian Against Data Centres",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Grampian Against Data Centres",
+        "label": "Facebook · Grampian Against Data Centres",
+        "url": "https://www.facebook.com/groups/1517407306762132/posts/1616902886812573/"
+      },
+      "thin": false,
+      "bodyText": "If so many states in America have put a stop to these data centres, why can't we? Stand strong together and surely we can get them banned also.",
+      "contentFingerprint": "164d43cc313f52bb32c5beb8d3f5aeb77fce34d0e8dd3024a195317447826c2d",
+      "photos": [
+        "media/facebook/1616902886812573/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1616892550146940",
+      "date": "2026-09-30",
+      "title": "Grampian Against Data Centres",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Grampian Against Data Centres",
+        "label": "Facebook · Grampian Against Data Centres",
+        "url": "https://www.facebook.com/groups/1517407306762132/posts/1616892550146940/"
+      },
+      "thin": false,
+      "bodyText": "The real title should be Grampian Against AI Mass Surveillance Centres because that is the real purpose of these centres and it is important for people to know and to remember that.",
+      "contentFingerprint": "3fae67ed8797ebf8678ccf55404fa43cdfc2e8cc9518660d8764fac35a411919",
+      "photos": [
+        "media/facebook/1616892550146940/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1616876840148511",
+      "date": "2026-09-30",
+      "title": "Grampian Against Data Centres",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Grampian Against Data Centres",
+        "label": "Facebook · Grampian Against Data Centres",
+        "url": "https://www.facebook.com/groups/1517407306762132/posts/1616876840148511/"
+      },
+      "thin": false,
+      "bodyText": "",
+      "contentFingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "photos": [
+        "media/facebook/1616876840148511/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1616876836815178",
+      "date": "2026-09-30",
+      "title": "Grampian Against Data Centres",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Grampian Against Data Centres",
+        "label": "Facebook · Grampian Against Data Centres",
+        "url": "https://www.facebook.com/groups/1517407306762132/posts/1616876836815178/"
+      },
+      "thin": false,
+      "bodyText": "This page was created to rise awareness of the AI Data Centres and their possible impact on local communities. In particular, the proposed hyperscale AI data centre at Blackdog. \nWe are working closely with Action to Protect Rural Scotland and Friends of the Earth. \nhttps://gaadc.com",
+      "contentFingerprint": "fe27b7ba4ad94f33fbe65208be5ebd38e6a4c9fec8e4902e81198365f8689260",
+      "photos": [
+        "media/facebook/1616876836815178/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "28537225242597562",
+      "date": "2026-10-01",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/28537225242597562/"
+      },
+      "thin": false,
+      "bodyText": "Wind Turbine Spacing 2 Nautical Miles, Cape Wind, October 7, 2008\nRadar Interference & Clutter\nhttps://pdftolink.app/.../f944ec92-ccdb-480b-9c9e...",
+      "contentFingerprint": "f46bfb4c0c738c70324b8ee81ecc7ceec779af66aa3ed38c874dc8f7f0bb2d25",
+      "photos": [
+        "media/facebook/28537225242597562/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "28529415060045247",
+      "date": "2026-10-01",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/28529415060045247/"
+      },
+      "thin": false,
+      "bodyText": "This isn’t a one-off.\nAnother broken night, with repeated waking, ear pain, a strange feeling in my head and feeling off balance.\nThis morning, there was barely any wind around our home, yet the mechanical humming and growling from the turbines could still be heard.\nFor those living nearby, this isn't simply about seeing turbines in the distance. It's about what people experience inside their own homes.\nI believe these concerns deserve proper, independent investigation and objective measurements under the exact conditions being reported.\nWhat do you think?\nShould independent measurements of noise, low-frequency sound and infrasound be carried out inside homes near wind turbines?\n Yes — investigate properly\n No — more evidence is needed\n I’m interested to hear both sides",
+      "contentFingerprint": "ad7533537524bdc68b8556204dbd23fcd5b93cd081d09634c644c916f1b8d651",
+      "photos": [
+        "media/facebook/28529415060045247/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1107250361705512",
+      "date": "2026-09-30",
+      "title": "Not A Just Transition",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Not A Just Transition",
+        "label": "Facebook · Not A Just Transition",
+        "url": "https://www.facebook.com/groups/427061409724414/posts/1107250361705512/"
+      },
+      "thin": false,
+      "bodyText": "Great news.....power of solid argument.....keep it up !!\nA MAJOR WIN FOR THE CAMPAIGN!\nScottish Government Reporters have postponed 12 Necessary Wayleave hearings linked to SSEN’s overhead line proposals after accepting there is “significant overlap” between the issues raised in those cases and the agricultural evidence heard last week.\nThis is a clear win for us!\nIt shows that the evidence put forward by farmers, landowners and their agents is cutting through and that the Reporters recognise the importance of the Agricultural Operations hearing and the serious impacts these proposals would have on working farms and rural businesses.\nThis is also a real setback for SSEN!\nThe company wanted to keep these wayleave cases moving, but the Reporters have now accepted that the issues raised by objectors are too important to be rushed and cannot be dealt with in isolation from the wider Section 37 process.\nThe 12 cases handled by Ian Thornton-Kemsley of Galbraith’s relate to cases where the same concerns are being raised as in the Section 37 hearings, but the same issues apply much more widely across other Necessary Wayleave cases being handled for farmers by other land agents.\nAnd this did not happen by chance!\nIt happened because people engaged, wrote and submitted evidence, turned up, spoke up and made it impossible for the agricultural impacts to be ignored.\nThe message is simple:\n- Our campaign is making a difference!\n- SSEN has been delayed again!\n- The strength of objectors’ evidence has been recognised!\n- And the importance of protecting farming businesses and rural land use has been firmly acknowledged!\nThis is a serious and important result for the campaign and proof that scrutiny and pressure work.\n@everyone",
+      "contentFingerprint": "31012fb2d5db5a2f1c0443c53f4b663ce508c294ff452f1ba22147938f663bd4",
+      "photos": [
+        "media/facebook/1107250361705512/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1098697202560061",
+      "date": "2026-09-30",
+      "title": "Communities B4 Power Companies",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Communities B4 Power Companies",
+        "label": "Facebook · Communities B4 Power Companies",
+        "url": "https://www.facebook.com/groups/221782186918238/posts/1098697202560061/"
+      },
+      "thin": false,
+      "bodyText": "NO MORE DARK SKIES?\nDue to the proposed height of these turbines, if the development goes ahead, they would require aviation lighting, including red lights.\n No more uninterrupted dark skies.\n Red lights visible across the countryside.\n Another change to the character of our rural landscape.\nOur countryside. Our night skies. Our homes.\nI was just organising my pics of Neilston aviation lights for use in objections and came across this one.  I don't think I've posted it before.",
+      "contentFingerprint": "5897ee313d93075c45418bc79a9b456151bc678e5483d545bf4955be12d2e083",
+      "photos": [
+        "media/facebook/1098697202560061/photo_1.png"
       ],
       "mediaCount": 1
     }
