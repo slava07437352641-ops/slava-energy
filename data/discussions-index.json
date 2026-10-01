@@ -1,16 +1,16 @@
 {
-  "generated": "2026-09-30T21:01:32.000Z",
+  "generated": "2026-10-01T08:47:31.000Z",
   "counts": {
-    "records": 3364,
+    "records": 3365,
     "thin": 320,
-    "withMedia": 831,
+    "withMedia": 832,
     "withCategories": 746,
     "withTopics": 316,
     "withProject": 10,
     "withCoordinates": 95,
     "withSummary": 52,
-    "withBodyText": 1977,
-    "withPhotos": 828,
+    "withBodyText": 1978,
+    "withPhotos": 829,
     "withPreviewImage": 64,
     "councils": 4,
     "matchReviewLogged": 2,
@@ -22,7 +22,7 @@
   },
   "dateRange": {
     "from": "2024-04-12",
-    "to": "2026-09-30"
+    "to": "2026-10-01"
   },
   "records": [
     {
@@ -82346,6 +82346,35 @@
       "contentFingerprint": "97d4d26651ece21c43610be55ccd00dbe0014e8e13a06ddd06fe98918912d9ac",
       "photos": [
         "media/facebook/1813753316331582/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1814270869613160",
+      "date": "2026-10-01",
+      "title": "Essex Suffolk Norfolk Pylons",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Essex Suffolk Norfolk Pylons",
+        "label": "Facebook · Essex Suffolk Norfolk Pylons",
+        "url": "https://www.facebook.com/groups/pylonseastanglia/posts/1814270869613160/"
+      },
+      "thin": false,
+      "bodyText": "Any land owners who have had paperwork for terms of entry would be wise to sign these as time is nearly up for what little compensation they are paying.no signature no money but they are going to enter property and do as they please and there is nothing going to stop them.at least we will get a bit of money which is no where near enough but it's better than a kick in the nuts.it annoys the hell out of me but there is sod all I can do and not looking foreward to having part of a wood removed,brick kiln grove at Bunwell for anyone interested along with lots of hedgeing,trees etc and land going to get ruined and will never get it right in my lifetime.seems they have finished negotiations,which from my point of veiw has never happened.there is zero flexibility on their part either and the bullying continues.seems uk powernetworks are doing similar but looking foreward to fighting them next week.",
+      "contentFingerprint": "1ab62e607cddaa973b977433fa22d02e64f4c554b36778761780b48daddfe257",
+      "photos": [
+        "media/facebook/1814270869613160/photo_1.png"
       ],
       "mediaCount": 1
     }
