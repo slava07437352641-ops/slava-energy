@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-01T08:47:31.000Z",
+  "generated": "2026-10-01T08:57:16.000Z",
   "sourceFilter": [
     "Scotland Against Spin",
     "Environmentalists Against Wind Turbines",
@@ -17,104 +17,17 @@
   "selection": "strict global recency (most recent records first, across all tracked sources)",
   "counts": {
     "records": 18,
-    "Essex Suffolk Norfolk Pylons": 2,
-    "Communities B4 Power Companies": 9,
     "Scotland Against Spin": 5,
-    "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)": 1,
-    "Suffolk Energy Action Solutions (SEAS)": 1
+    "Communities B4 Power Companies": 8,
+    "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)": 2,
+    "Suffolk Energy Action Solutions (SEAS)": 1,
+    "Environmentalists Against Wind Turbines": 2
   },
   "dateRange": {
-    "from": "2026-09-30",
-    "to": "2026-10-01"
+    "from": "2026-09-29",
+    "to": "2026-09-30"
   },
   "records": [
-    {
-      "id": "1814270869613160",
-      "date": "2026-10-01",
-      "title": "Essex Suffolk Norfolk Pylons",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Essex Suffolk Norfolk Pylons",
-        "label": "Facebook · Essex Suffolk Norfolk Pylons",
-        "url": "https://www.facebook.com/groups/pylonseastanglia/posts/1814270869613160/"
-      },
-      "thin": false,
-      "bodyText": "Any land owners who have had paperwork for terms of entry would be wise to sign these as time is nearly up for what little compensation they are paying.no signature no money but they are going to enter property and do as they please and there is nothing going to stop them.at least we will get a bit of money which is no where near enough but it's better than a kick in the nuts.it annoys the hell out of me but there is sod all I can do and not looking foreward to having part of a wood removed,brick kiln grove at Bunwell for anyone interested along with lots of hedgeing,trees etc and land going to get ruined and will never get it right in my lifetime.seems they have finished negotiations,which from my point of veiw has never happened.there is zero flexibility on their part either and the bullying continues.seems uk powernetworks are doing similar but looking foreward to fighting them next week.",
-      "contentFingerprint": "1ab62e607cddaa973b977433fa22d02e64f4c554b36778761780b48daddfe257",
-      "photos": [
-        "media/facebook/1814270869613160/photo_1.png"
-      ],
-      "mediaCount": 1
-    },
-    {
-      "id": "1098654185897696",
-      "date": "2026-09-30",
-      "title": "Communities B4 Power Companies",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Communities B4 Power Companies",
-        "label": "Facebook · Communities B4 Power Companies",
-        "url": "https://www.facebook.com/groups/221782186918238/posts/1098654185897696/"
-      },
-      "thin": false,
-      "bodyText": "Let's welcome our new members!\nMartina Sommer,\nBert Charlton,\nBerry Bingel,\nKaren Darvell,\nSuhani Joshi,\nRobert Grant,\nElaine Montgomery,\nPete Keel,\nPeter Chisholm,\nKathryn Whitfield",
-      "contentFingerprint": "0ed7bcfd430552a989f67a1f1773b4cb9d2d3b256e2c21ef9558ba721a15b88f",
-      "photos": [
-        "media/facebook/1098654185897696/photo_1.png"
-      ],
-      "mediaCount": 1
-    },
-    {
-      "id": "1813753316331582",
-      "date": "2026-09-30",
-      "title": "Essex Suffolk Norfolk Pylons",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Essex Suffolk Norfolk Pylons",
-        "label": "Facebook · Essex Suffolk Norfolk Pylons",
-        "url": "https://www.facebook.com/groups/pylonseastanglia/posts/1813753316331582/"
-      },
-      "thin": false,
-      "bodyText": "Something going on in fields off Lion road Palsgrave too",
-      "contentFingerprint": "97d4d26651ece21c43610be55ccd00dbe0014e8e13a06ddd06fe98918912d9ac",
-      "photos": [
-        "media/facebook/1813753316331582/photo_1.png"
-      ],
-      "mediaCount": 1
-    },
     {
       "id": "29511781315090883",
       "date": "2026-09-30",
@@ -547,6 +460,93 @@
       "contentFingerprint": "b296108b27c99d083b0fe2d0842201f0d8e627db6ae1bb16c25b700e70a549d2",
       "photos": [
         "media/facebook/29506537835615231/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "28523671193952967",
+      "date": "2026-09-29",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/28523671193952967/"
+      },
+      "thin": false,
+      "bodyText": "Consequences of the Triumph of the Elitist Climate Agenda of CO2 Reduction:\nAn Analysis from the Skeptical Perspective\nAbstract\nFrom the skeptical climate perspective, the claim that CO2 is a pollutant that must be eliminated at any cost is scientifically weak and politically instrumentalized. CO2 is the gas of life, the basis of photosynthesis and of the planetary greening observed over the last four decades. Imposing sanctions, carbon taxes, consumption limits, and Net Zero targets through coercion would not save the planet but would trigger a cascade of negative consequences of economic, energetic, food-related, social, geopolitical, and cultural nature. This essay develops, in depth, all the bad things that would happen if that agenda were to triumph completely.\nIntroduction\nThe official narrative presents decarbonization as inevitable and morally superior. However, climate science is far more uncertain than admitted: climate sensitivity is lower than modeled, models have systematically overestimated warming, and there is no empirical evidence of an ongoing climate crisis attributable to anthropogenic CO2 (Koonin, 2021; Lomborg, 2020). CO2 has risen from 280 ppm to 420 ppm and, far from being a poison, has fertilized the planet, increasing agricultural productivity by more than 15% (Idso, 2022; CO2 Coalition, 2023). The agenda that seeks to sanction its emission starts from a categorical error: confusing an essential trace gas with pollution.\n1. ECONOMIC CONSEQUENCES: DEINDUSTRIALIZATION AND IMPOVERISHMENT\nThe first effect of the total triumph of the agenda would be accelerated deindustrialization in the West. The evidence is already visible: more than 40,000 industrial jobs lost in Canada, closure of steel mills in Germany and the UK, and flight of investment to China and India (Energy News Beat, 2024). By artificially making reliable energy more expensive through carbon taxes, emissions trading, and subsidies for intermittent renewables, competitiveness is destroyed. The GDP of the most decarbonized economies shows structural deceleration: the UK went from 2.6% to 1.4% growth and Germany from 2.8% to 0.9% between 1985-1994 and 2015-2024 (BusinessWorld, 2024).\nSanctions and consumption restrictions would generate persistent inflation and stagflation. Energy is a universal input; if it rises, everything rises. The forced transition is top-down Keynesian climate socialism that adds scarcity, inflation, and impoverishment (Lacalle, 2023, cited in Tomorrow's Affairs, 2023). SMEs, unable to absorb regulatory costs and carbon audits, would go bankrupt, concentrating the market in mega-corporations that can afford ESG consultancies. It is green crony capitalism.\nThe final result is a massive transfer of wealth from the common citizen and the middle class to financial elites who control green funds, carbon credits, and patents for so-called clean technologies.\n2. ENERGY CONSEQUENCES: ENERGY POVERTY AND GRID FRAGILITY\nImposing Net Zero means replacing dense, cheap, and dispatchable sources (gas, coal, nuclear) with diffuse and intermittent sources (solar and wind). That does not effectively reduce emissions, but it destroys reliability. Germany and California already experience blackouts and electricity prices 3 to 4 times higher than the U.S. average (Epstein, 2022).\nEnergy poverty would skyrocket. When electricity goes from $0.08/kWh to $0.35/kWh, poor families must choose between eating or heating. Studies on energy poverty show direct correlation with lower agricultural productivity, school dropout, and health deterioration (Gonzalez-Eguino, 2015; MDPI, 2023). The elitist agenda turns energy, once an abundant good, into a rationed luxury.\nMoreover, the grid becomes fragile: overdemand in winter, weather dependence, need for backup with lithium batteries whose mining is highly polluting and controlled by China. Paradoxically, to “save the planet” ecosystems in Africa and Latin America are devastated to extract cobalt, lithium, and nickel.\n3. SOCIAL CONSEQUENCES: CONTROL, INEQUALITY, AND LOSS OF FREEDOMS\nReducing consumption by force requires measuring and punishing consumption. Hence the systems of personal carbon footprint, climate passports, coercive 15-minute cities, restrictions on flights, meat, and private cars. What is sold as “sustainability” is, in practice, a digital rationing system managed by unelected elites (World Economic Forum, central banks, Big Tech).\nTwo classes would be created: a hyper-mobile elite that buys carbon offsets and continues to fly in private jets, and an immobilized mass that must ask permission to travel, eat meat, or turn on heating. The discourse of climate justice produces climate injustice: the poorest in the Global South are condemned to remain without cheap energy, without fertilizers and without mechanization, perpetuating their underdevelopment (CO2 Coalition, 2023).\nCollective mental health also suffers. Eco-anxiety induced in children and young people, telling them the world is ending, generates paralysis, guilt, and rejection of having children. It is a profoundly anti-human agenda.\n4. FOOD AND AGRICULTURAL CONSEQUENCES: LESS CO2, LESS FOOD\nThis is the most ignored and most serious consequence. CO2 is aerial fertilizer. Greenhouse enrichment experiments show yield increases of 20-40% in wheat, rice, and tomato at 800 ppm (Idso, 2022). NASA confirms global greening of the planet over the last 35 years precisely because of extra CO2 (Zhu et al., 2016). Reducing CO2 to 280 ppm would condemn agriculture to lose productivity.\nNitrogen reduction policies, as imposed in the Netherlands and Sri Lanka, already caused agricultural collapse and massive protests. Banning nitrogen fertilizers derived from natural gas and sanctioning livestock reduces food supply, makes animal protein more expensive, and pushes hundreds of millions into food insecurity. It is not accidental: less meat consumption is an explicit goal of the agenda.\nIf the agenda triumphs, eating meat will be a privilege for the rich, the diet will be based on lab ultra-processed foods patented by the same corporations that finance climate alarmism, and food sovereignty will disappear.\n5. GEOPOLITICAL CONSEQUENCES: HANDING POWER TO CHINA AND LOSS OF SOVEREIGNTY\nThe West cannot manufacture solar panels, turbines, batteries, or semiconductors without China. China controls 80% of polysilicon refining, 75% of lithium battery manufacturing, and 60% of wind turbine production (International Energy Agency, 2023). Imposing forced decarbonization is deindustrializing Europe and the U.S. to reindustrialize China. It is geopolitical suicide.\nFurthermore, national sovereignty is eroded. Climate targets are imposed via treaties, IMF and World Bank conditionalities, and ESG metrics that dictate from outside what a country can produce. Mexico and Latin America would be pressured not to exploit their own hydrocarbons, remaining as reserves of “environmental services” so Europe can clean its conscience, while buying U.S. gas at a premium price.\n6. PARADOXICAL ENVIRONMENTAL CONSEQUENCES: A MORE FRAGILE PLANET\nParadoxically, the “green” agenda is environmentally destructive. A wind farm requires 300 times more materials than an equivalent gas plant (Epstein, 2014). Millions of tons of concrete, steel, non-recyclable fiberglass, and rare earths are needed. Forests in Germany are cut down to install wind turbines. Deserts are covered with panels that alter albedo and kill migratory birds.\nReducing CO2 would not cool the climate in a measurable way — even if the U.S. reached zero emissions tomorrow, the effect on temperature in 2100 would be 0.1°C according to the IPCC’s own models (Lomborg, 2020) — but it would impoverish the planet and make it more vulnerable to extreme cold, which kills 10 times more people than heat.\n7. CONCLUSION: THE HUMAN COST OF A FALSE VIRTUE\nIf the elitist agenda of sanctions and CO2 reduction were to triumph completely, we would not get a cooler planet. We would get a poorer, hungrier, more unequal, more controlled, and more China-dependent planet. We would get blackouts, inflation, industrial unemployment, agricultural collapse, loss of basic freedoms, and a climate priestly caste that decides who can consume and who cannot, while it remains exempt.\nClimate skepticism does not deny climate change — climate has always changed — it denies that CO2 is the climate control knob and that impoverishing humanity is the solution. History shows that human prosperity has always depended on cheap, dense, and abundant energy. Replacing it with expensive, diffuse, and rationed energy is a return to pre-modernism, but with carbon-tracking apps.\nTrue progress is not Net Zero. It is more energy for more people, more food thanks to more CO2, more wealth to adapt to any climate, as humanity has always done.\nReferences\nBusinessWorld. (2024, March 15). Economic basis of net zero is zero, redux. BusinessWorld Online. https://www.bworldonline.com\nCO2 Coalition. (2023). Why net-zero policies risk human catastrophe and carbon dioxide doesn't. https://co2coalition.org\nEnergy News Beat. (2024, February 10). The global energy crisis, and how did we get here? Net zero policies and deindustrialization. https://energynewsbeat.substack.com\nEpstein, A. (2014). The moral case for fossil fuels. Portfolio/Penguin.\nEpstein, A. (2022). Fossil future: Why global human flourishing requires more oil, coal, and natural gas—not less. Portfolio.\nGonzalez-Eguino, M. (2015). Energy poverty: An overview. Renewable and Sustainable Energy Reviews, 47, 377–385. https://doi.org/10.1016/j.rser.2015.03.013\nIdso, C. D. (2022). The many benefits of atmospheric CO2 enrichment. CO2 Science. https://www.co2science.org\nInternational Energy Agency. (2023). Energy technology perspectives 2023. IEA. https://www.iea.org/reports/energy-technology-perspectives-2023\nKoonin, S. E. (2021). Unsettled: What climate science tells us, what it doesn't, and why it matters. BenBella Books.\nLomborg, B. (2020). False alarm: How climate change panic costs us trillions, hurts the poor, and fails to fix the planet. Basic Books.\nMoore, P. (2021). Fake invisible catastrophes and threats of doom. Ecosense Environmental.\nTomorrow's Affairs. (2023, June 12). Climate socialism and net zero inflation: Interview with Daniel Lacalle. https://tomorrowsaffairs.com\nZhu, Z., Piao, S., Myneni, R. B., Huang, M., Zeng, Z., Canadell, J. G., ... & Zeng, N. (2016). Greening of the Earth and its drivers. Nature Climate Change, 6(\n, 791–795. https://doi.org/10.1038/nclimate3004\nNATURE.COM Greening of the Earth and its drivers - Nature Climate Change",
+      "contentFingerprint": "f900d40718edb48ed3a88b19744847bfe8e772fee94098cdf057692f6b8d0f07",
+      "photos": [
+        "media/facebook/28523671193952967/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "28523232243996862",
+      "date": "2026-09-29",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/28523232243996862/"
+      },
+      "thin": false,
+      "bodyText": "Missing MV/Mistress located at Block Island turbine #1 - [Green Oceans](https://www.boston.com/.../crews-in-ri-find-shipwreck.../) is now calling on federal authorities to secure the site and reopen the marine-casualty case. The group is specifically asking investigators to review whether the nearby wind turbines impacted the original search-and-rescue radar or played any role in the vessel's demise. 2019 logs show that a responding rescue helicopter had to turn back after 37 minutes due to low visibility and proximity to the wind turbines.\n[https://www.morningstar.com/.../fv-mistress-shipwreck...](https://www.morningstar.com/.../fv-mistress-shipwreck...)",
+      "contentFingerprint": "7e0570afab785597c5d5a38fca25f6f9b9acbbf4e8508532e0ef5c3cb72fabad",
+      "photos": [
+        "media/facebook/28523232243996862/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1438459861751779",
+      "date": "2026-09-29",
+      "title": "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
+        "label": "Facebook · Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
+        "url": "https://www.facebook.com/groups/1367957378802028/posts/1438459861751779/"
+      },
+      "thin": false,
+      "bodyText": "AI data centres are a scam. A real estate bubble, pyramid selling style, for large language model AI hyper scaling  by unnecessary giant data centre build out for AI LLM products that don't even have a proven business case. Essentially it is crap product, the loans will come to repayment in the next couple of years and governments, ie the tax payer, will be left picking up the bill while the investors like Clegg escape with the profits. \nA mass distraction from the work we need to do, like renewables developments. Data centres competing and winning rare and competitive grid connections, like Alverdiscott grid connection in North Devon, pursued to build the largest data centre in Europe when that valuable rare grid connection should be used for green energy build out.\nScam, scam, scam and politicians too stupid or invested to care. \nBS of the highest order.\n'Nscale operates five datacentres in Europe and has a further 12 under different phases of construction including in the US. The Guardian revealed this year that one Nscale project in Loughton, Essex, is an undeveloped scrapyard.'\nTHEGUARDIAN.COM Nick Clegg could make £30m windfall from datacentre startup Nscale flotation",
+      "contentFingerprint": "18e3268d7bdbd5b0e39dcb7b9d028ecd2378a8de7ebab0f134e164e784133bd5",
+      "photos": [
+        "media/facebook/1438459861751779/photo_1.png"
       ],
       "mediaCount": 1
     }
