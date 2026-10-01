@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-01T08:57:16.000Z",
+  "generated": "2026-10-01T09:08:00.000Z",
   "sourceFilter": [
     "Scotland Against Spin",
     "Environmentalists Against Wind Turbines",
@@ -12,14 +12,16 @@
     "Thirsk Against Battery Storage",
     "Suffolk Energy Action Solutions (SEAS)",
     "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
-    "Essex Suffolk Norfolk Pylons"
+    "Essex Suffolk Norfolk Pylons",
+    "Scottish Electricity Generating Stations"
   ],
   "selection": "strict global recency (most recent records first, across all tracked sources)",
   "counts": {
     "records": 18,
     "Scotland Against Spin": 5,
     "Communities B4 Power Companies": 8,
-    "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)": 2,
+    "Scottish Electricity Generating Stations": 1,
+    "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)": 1,
     "Suffolk Energy Action Solutions (SEAS)": 1,
     "Environmentalists Against Wind Turbines": 2
   },
@@ -257,6 +259,35 @@
       "contentFingerprint": "0cbf7c7e3c6228b65d4cfaf8c5b303e0f8c7af35b48a36156a721cb2cea7c5f3",
       "photos": [
         "media/facebook/1098361129260335/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1389789376646637",
+      "date": "2026-09-30",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1389789376646637/"
+      },
+      "thin": false,
+      "bodyText": "Amazon has agreed a power purchase agreement (PPA) with developer Statkraft for the Mossy Hill wind farm on the outskirts of Lerwick.\nAmazon has agreed to take the generation of 36MW of renewable electricity from the wind farm, which is expected to become operational in 2030.\nThe company said the agreement builds on its long-term investment in renewable energy projects in Scotland, and its wider carbon-free energy portfolio across the UK.\nLocated just outside Lerwick, Mossy Hill will be an eight turbine onshore wind farm – with the turbines expected to be delivered in 2029.\nAmazon said it has now invested in more than 50 carbon-free energy projects across the UK, including wind farms and solar installations, representing more than 1 gigawatt (GW) of capacity.\nIt said this was enough to power the equivalent of more than 1.3 million households per year.\nLast year Amazon announced their plan to invest £40 billion in the UK by 2027, and the transition to a lower-carbon economy is a part of how we’re putting that commitment to work.\nThe agreement gives Statkraft the certainty to move the project forward.— in Lerwick.",
+      "contentFingerprint": "055be0534be8f92d94bddc9d28ce48fc2cd12e1778ca76bebe5e4f144822af65",
+      "photos": [
+        "media/facebook/1389789376646637/photo_1.png"
       ],
       "mediaCount": 1
     },
@@ -518,35 +549,6 @@
       "contentFingerprint": "7e0570afab785597c5d5a38fca25f6f9b9acbbf4e8508532e0ef5c3cb72fabad",
       "photos": [
         "media/facebook/28523232243996862/photo_1.png"
-      ],
-      "mediaCount": 1
-    },
-    {
-      "id": "1438459861751779",
-      "date": "2026-09-29",
-      "title": "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
-        "label": "Facebook · Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
-        "url": "https://www.facebook.com/groups/1367957378802028/posts/1438459861751779/"
-      },
-      "thin": false,
-      "bodyText": "AI data centres are a scam. A real estate bubble, pyramid selling style, for large language model AI hyper scaling  by unnecessary giant data centre build out for AI LLM products that don't even have a proven business case. Essentially it is crap product, the loans will come to repayment in the next couple of years and governments, ie the tax payer, will be left picking up the bill while the investors like Clegg escape with the profits. \nA mass distraction from the work we need to do, like renewables developments. Data centres competing and winning rare and competitive grid connections, like Alverdiscott grid connection in North Devon, pursued to build the largest data centre in Europe when that valuable rare grid connection should be used for green energy build out.\nScam, scam, scam and politicians too stupid or invested to care. \nBS of the highest order.\n'Nscale operates five datacentres in Europe and has a further 12 under different phases of construction including in the US. The Guardian revealed this year that one Nscale project in Loughton, Essex, is an undeveloped scrapyard.'\nTHEGUARDIAN.COM Nick Clegg could make £30m windfall from datacentre startup Nscale flotation",
-      "contentFingerprint": "18e3268d7bdbd5b0e39dcb7b9d028ecd2378a8de7ebab0f134e164e784133bd5",
-      "photos": [
-        "media/facebook/1438459861751779/photo_1.png"
       ],
       "mediaCount": 1
     }

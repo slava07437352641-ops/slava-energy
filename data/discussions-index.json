@@ -1,16 +1,16 @@
 {
-  "generated": "2026-10-01T08:57:16.000Z",
+  "generated": "2026-10-01T09:08:00.000Z",
   "counts": {
-    "records": 3362,
+    "records": 3377,
     "thin": 320,
-    "withMedia": 829,
+    "withMedia": 844,
     "withCategories": 746,
     "withTopics": 316,
     "withProject": 10,
     "withCoordinates": 95,
     "withSummary": 52,
-    "withBodyText": 1975,
-    "withPhotos": 826,
+    "withBodyText": 1989,
+    "withPhotos": 841,
     "withPreviewImage": 64,
     "councils": 4,
     "matchReviewLogged": 2,
@@ -82288,6 +82288,441 @@
       "contentFingerprint": "18e3268d7bdbd5b0e39dcb7b9d028ecd2378a8de7ebab0f134e164e784133bd5",
       "photos": [
         "media/facebook/1438459861751779/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1389789376646637",
+      "date": "2026-09-30",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1389789376646637/"
+      },
+      "thin": false,
+      "bodyText": "Amazon has agreed a power purchase agreement (PPA) with developer Statkraft for the Mossy Hill wind farm on the outskirts of Lerwick.\nAmazon has agreed to take the generation of 36MW of renewable electricity from the wind farm, which is expected to become operational in 2030.\nThe company said the agreement builds on its long-term investment in renewable energy projects in Scotland, and its wider carbon-free energy portfolio across the UK.\nLocated just outside Lerwick, Mossy Hill will be an eight turbine onshore wind farm – with the turbines expected to be delivered in 2029.\nAmazon said it has now invested in more than 50 carbon-free energy projects across the UK, including wind farms and solar installations, representing more than 1 gigawatt (GW) of capacity.\nIt said this was enough to power the equivalent of more than 1.3 million households per year.\nLast year Amazon announced their plan to invest £40 billion in the UK by 2027, and the transition to a lower-carbon economy is a part of how we’re putting that commitment to work.\nThe agreement gives Statkraft the certainty to move the project forward.— in Lerwick.",
+      "contentFingerprint": "055be0534be8f92d94bddc9d28ce48fc2cd12e1778ca76bebe5e4f144822af65",
+      "photos": [
+        "media/facebook/1389789376646637/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1388580053434236",
+      "date": "2026-09-29",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1388580053434236/"
+      },
+      "thin": false,
+      "bodyText": "The £1bn Orkney link project is connecting the archipelago to the UK transmission network for the first time. \nSSEN Transmission’s link project is connecting the archipelago to the electricity transmission network for the first time, with the remote project shaping the construction of two substations.\nOrkney’s exposed location off the north coast of mainland Scotland has given it access to abundant renewable energy resources, in particular wind, wave and tidal.\nOver the years, it has also become a hub for renewable energy innovation, as it hosted the UK’s first grid-connected wind turbine in 1951 and became home to the European Marine Energy Centre in 2003. The islands now have an established onshore wind presence and are also an important location for the next generation of renewable marine energy technologies.\nHowever, until now, Orkney’s ability to export electricity has been constrained by limited transmission grid capacity. The under-construction Orkney-Caithness 220kV link is expected to change this.\nThe electricity transmission scheme involves a new high-voltage alternating current link between Finstown in Orkney and Dounreay in Caithness. It is also part of SSEN Transmission’s wider infrastructure investment programme in electricity transmission upgrades across the north of Scotland, representing around £29bn of investment.\nThe transmission link will enable the connection of 220MW of new renewable energy, and importantly, extend the electricity transmission network to Orkney for the first time, making it the last of Scotland’s three main island groups to be connected to the grid.\nThe full scheme consists of a new-build substation at Finstown; approximately 14km of underground onshore cable from Finstown to the landfall site at Warebeth; approximately 53km of subsea cable crossing the Pentland Firth to Dounreay; and around 800m of underground cable from the Dounreay landfall to a second new-build substation at Dounreay West, alongside modifications to the existing Dounreay substation.\nOfgem confirmed the project’s Final Needs Case in July 2023, and by 2024, all planning consents were secured.\nContract specifics\nIn 2024, under a disaggregated contracting model, the Siemens Energy and Bam UK & Ireland joint venture (JV) was chosen to design and build the two substations, with support from various in-house design functions as well as BT Bell as a civil design partner.\nRJ McLeod is responsible for the underground cable civil works and horizontal directional drilling landfall works, supported by fellow OCU Group firm McCormack Drilling, while Nexans is manufacturing and installing the cable system.\nOrcadian businesses, including BDS, R S Merriman, Orkney Aggregates, Orkney Research Centre for Archaeology, Aquatera, Orkney Builders, Casey Construction and Leask Marine have been employed to help deliver crucial services to the project. At Dounreay, Global Infrastructure is leading the delivery of the civil engineering works, working with a range of local supply chain partners, including John Gunn & Sons and G&A Barnie.\nOn the substation side, the Siemens Energy and Bam JV is working under two separate contracts – one for Finstown and one for Dounreay – structured around a pre-construction phase (Part A) and a delivery phase (Part \nA long-standing joint venture with Bam and partnership with SSEN Transmission, dating back to 2013. The close relationship with SSEN Transmission, allows for some early  early contractor involvement (ECI). \nPart A is effectively the ECI, where the design is developed and support SSEN Transmission with planning-related deliverables, with a view to an early and successful start to Part B in terms of the construction phase. It’s all about landing in Part B with as much of the design in place as possible, as well as a whole host of project deliverables ranging from construction phase plans through to environmental plans.\nThe Orkney-Caithness link is also one of largest substation contracts globally and is a “showpiece project” in the UK, drawing international attention.\nThe scheme consists of two new-build substations at Finstown and Dounreay West, alongside modifications to the existing Dounreay substation\nConstruction complexity\nThe Siemens Energy and Bam JV began main construction works on the substation sites in September 2024 at Dounreay and in October 2024 at Finstown.\nBoth new substations are designed for a C5 coastal environment, classified as highly corrosive under ISO 12944, which sets out standards for corrosion protection. As a result, and to fit in with the existing agricultural structures in the area, the high voltage mechanical and electrical equipment supplied by Siemens Energy will be housed in a number of new buildings – eight at Finstown and five at the Dounreay West site, plus one at the existing Dounreay substation site.\nThat’s quite different from a standard substation build, where a lot of this equipment would be outside. The buildings cover a lot of space and constrain the way contractors are allowed to build the substations, so it’s a more complex job.\nOn Orkney, the ground engineering on the project has turned into quite a success story.\nTo accommodate the 250m-by-250m level substation platform at Finstown, the project team undertook significant earthworks, with drilling and blasting carried out by Bam Ground Engineering. To reduce the visual impact of the substation, excavated and blasted material is being used to create additional landscaping and landform around the site.\nAt Finstown, approximately 260,000m³ of material was generated from the site, of which 85,000m³ comprised drilled and blasted rock. Around 92% of the blasted material has been reprocessed for reuse on site.\nIn addition to sustainability benefits, the reuse of material at Finstown has helped address local concerns. The team recognised that the island’s road network would face pressure from transporting large volumes of imported material, which could also have caused concerns during the public consultation process.\nThe same approach could not be replicated at Dounreay West, where the ground contained argillaceous material.\nAt Dounreay, we’ve reused where we can in terms of landscaping bunds and tried to minimise the amount of that material going off-site, but it just unfortunately was not suitable for reuse.\nThe project team also tackled some initial issues with limited concrete supply capacity on Orkney and worked closely with Orkney Aggregates to overcome these prior to commencement of works on site.\nThe Siemens Energy and Bam JV considered lower-carbon concrete options, but the remote location made it difficult to secure and transport an alternative product. The team therefore opted for a standard ordinary Portland cement mix for the in-situ reinforced concrete foundations supporting most of the equipment and buildings. Some of the smaller bases, including those for CCTV and lighting columns, are built on precast concrete foundations.\nFrom a design perspective, Siemens Energy confirmed the building foundations required careful coordination.\nBe casting ground-bearing ring beams directly on the rockhead which are deep enough to allow access for the numerous site services we have running across site, plus all of the HV cable entries. Making all those below-ground foundations and services work together has been a bit of a challenge within the design.\nSome of the project’s most complex foundations are those for the two synchronous condensers (syncons) to be installed at Finstown, which have strict temperature-control requirements.\nThe syncons will play an important role in enhancing grid stability and represent a first for both the Siemens Energy and Bam JV and the SSEN Transmission system.\nWorkforce logistics\nOrkney has a population of only around 22,000 people. At peak we could accommodate up to 300 people on the Finstown substation site. For a single project, that’s a notable increase relative to the local population.\nThe project has therefore invested in high-standard temporary accommodation and welfare facilities, which required significant planning and close collaboration with Orkney Islands Council before they could be installed. The resulting accommodation camp was a major undertaking during the early stages of the project. It includes a subsidised canteen, gym, reading room, recreational area, pool and games room, and even a cinema room.\nBy creating a village on site, around 200 people staying there at the moment and it’s fully catered, designed to almost hotel standards in terms of the regulations applied.\nTravel has also required careful coordination with Loganair, which meant the project team did not need to charter dedicated aircraft.\nThe high voltage mechanical and electrical equipment will be housed in a number of new buildings – eight at Finstown and five at the Dounreay West site, plus one at the existing Dounreay substation site\nOrkney’s changeable weather conditions, while a boon from a renewable energy generation perspective, have also had an impact on the construction works.\nThe buildings are up now and clad in their entirety, and finishing off the last of the FRC [formwork, reinforcement and concrete] works inside. \nEnvironmental and heritage constraints have also shaped the project. Finstown is located close to the Heart of Neolithic Orkney World Heritage Site, which includes the Ring of Brodgar. Lowering the substation into the landscape and creating substantial landscape bunds were key considerations.\nAt the Dounreay substation, cable route and landfall sites, proximity to the Dounreay nuclear power station, which is in the process of being decommissioned, added regulatory complexity.\nWorking collaboratively with the Scottish Environment Protection Agency and other stakeholders, to secure the necessary permits for the project.\nAt the end of August 2026, earthworks are complete at both sites, building frames are up, with structural foundations nearing completion, and internal reinforced concrete structures are largely in place.\nProgress at the existing Dounreay site is slightly behind the two new-build sites due to the additional constraints of working within a live substation environment. This has also included the demolition of part of an existing building.\nThe emphasis is very much on getting the buildings up, because the critical path revolves around allowing Siemens Energy to start with the installation of its equipment.\nSiemens Energy is starting to ramp up activities on the sites. Once the civil works are completed by around April 2027, Bam is expected to effectively hand over running of the sites to Siemens Energy, and the focus will then shift predominantly to HV primary works.\nThe project is currently on track to energise in 2028— in Orkney Islands.",
+      "contentFingerprint": "fc7b4757b7f67861fe92db44621d96cdd2e799f4fe96c8fe9e7781a4335f4493",
+      "photos": [
+        "media/facebook/1388580053434236/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1388515373440704",
+      "date": "2026-09-29",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1388515373440704/"
+      },
+      "thin": false,
+      "bodyText": "RWE has confirmed completion of construction of its latest Scottish onshore wind farm, Enoch Hill, located near New Cumnock in East Ayrshire. Farrans were the main civil engineering contractor on the project.\nCommissioning of the turbines was completed in May this year, when Enoch Hill became the second new onshore wind farm to be constructed by RWE in Scotland in 2026 – it followed hot on the heels of Camster II in Caithness, which was completed in April also by Farrans. \nTogether, both projects add 106 MWs of new, clean and secure generation capacity to RWE’s existing operational portfolio in Scotland – the company currently operates nine onshore wind farms with a combined maximum installed capacity of 229 MWs.\nThe 70 MW Enoch Hill project was consented in September 2019, with construction starting in June 2023 and first electricity generated in April 2026. The project consists of a mix of Nordex’s N133/4.8 turbines and its N117/3600 Delta4000 turbines. The wind farm will be capable of providing enough electricity to power around 68,000 typical UK homes.\nThroughout the construction of the project, RWE, Farrans and Nordex, placed a strong emphasis on using the local supply chain. Over 38% of Farrans’ construction spend was directed towards suppliers located within 20 miles of the site, and a further 23% of spend went to suppliers within 50 miles. 68% of all subcontracts were awarded to local suppliers, with more than 26% of all subcontracted spend retained in the region.— at Enoch Hill (berg i Storbritannien).",
+      "contentFingerprint": "228d1a0473ebc2d3f9771c06fda0e0d37c6eb95157f6cbd7fd03ed59cd51faac",
+      "photos": [
+        "media/facebook/1388515373440704/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1388490760109832",
+      "date": "2026-09-29",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1388490760109832/"
+      },
+      "thin": false,
+      "bodyText": "Nant Hydro Power Station is a conventional station  constructed as a detached element within the Cruachan pumped storage project. First commissioned in 1963, it is of 15MW capacity and has a fall of 564ft (172m). Council Argyll And Bute Parish Kilchrenan And Dalavich\nNant is a relatively small station with an operating capacity of 15MW and was one of the last stations commissioned by NoSHEB. The station uses water from Loch Nant, which comes through a tunnel to a surge shaft above the station where additional water from other catchments is also piped in. Water then enters a pressure tunnel to reach the turbine. Nant power station is a relatively small underground station, with the powerhouse blasted from solid bedrock. It is amongst the deepest of the under ground stations in Scotland. The interior of the station is predominantly standard for this type as is the large arched access tunnel portal. \nThe Nant reservoir is also topped up from the Sior lochs via a burn with an additional pipeline above the Sior lochs from the Muasdale side into Loch Nant (comment from Snus )\nLoch Awe\nA loch and reservoir in Argyll and Bute to the southeast of Oban, Loch Awe stretches for 23 miles (37 km) from northeast to southwest and is the longest freshwater loch in Scotland. It receives the Orchy and Strae rivers in the northeast as well as numerous short streams which flow in from all sides. The loch drains through the Pass of Brander, via a northwestern arm and the River Awe, into Loch Etive, operating a hydro-electric power station en route, while its waters also serve the pumped-storage power station at Cruachan to the north. In addition to numerous ancient crannogs there are the remains of Inishail Chapel and the two former Campbell strongholds of Kilchurn and Finharn. Close to the shores of Loch Awe are a number small settlements including Lochawe, Port Sonachan, Ford, Dalavich, Inverinan and Taychreggan\nNant is a small station, capacity 15MW. The Nant dam, 1220ft long and 93ft high, considerably enlarged loch Nant. From an intake tower on the South shore of Loch Nant, water is led by tunnel to the underground Nant power station, operating under a head of 535ft. The Fionain aqueduct and tunnel system, 5 miles long, captures water from the slopes above Loch Awe and leads it into the surge shaft, providing additional water for the turbine..\nThe dam and water intake lie a long way up a private road behind a locked gate which I have yet to successfully pentrate! Thus, the only image of this part of the scheme is from archival material.\nDrilldown to high-resolution imagery IS available online for this site - click on any image, a high-resolution version will open in a new window\nNant, commisioned towards the end of 1963, was one of the last conventional hydro stations to be built by the Hydro Board.\nNant is a small station, capacity 15MW. The Nant dam, 1220ft long and 93ft high, considerably enlarged Loch Nant. From an intake tower on the South shore of Loch Nant, water is led by tunnel to the underground Nant power station, operating under a head of 535ft. The Fionain aqueduct and tunnel system, 5 miles long, captures water from the slopes above Loch Awe and leads it into the surge shaft, providing additional water for the turbine.\nNant dam provides the required storage capacity for the conventional high head hydro section of the Awe scheme. The dam is of mass gravity type with a fixed spillway. The dam is designed to prevent the loss of water out of the catchment over a separate watershed. The associated intake gatehouse is located further up the loch. Water from the dam is used in a cascade running through Nant and Inverawe Power Stations. Nant Dam is a reasonably standard example of a mass concrete gravity dam. The dam occupies a wide section of upper Glen Nant. It is of standard design and has no significant landscape contribution. — at Loch Nant.— at Loch Nant.",
+      "contentFingerprint": "002529aee1fa74a6a3a3cb971ebf2fee870a8c712ee479eb1ffe225b49b69f5a",
+      "photos": [
+        "media/facebook/1388490760109832/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1388441820114726",
+      "date": "2026-09-28",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1388441820114726/"
+      },
+      "thin": false,
+      "bodyText": "Hydrogen is often described using colour labels that indicate its production pathway and, broadly, its associated carbon emissions. These colours are industry conventions rather than different forms of the hydrogen molecule itself—the product is still H₂.\n1. \n Grey hydrogen\nProduced mainly from natural gas through steam methane reforming (SMR) without capturing the resulting CO₂.\nEngineering point: Mature and widely used, but the process has significant direct and indirect CO₂ emissions.\n2. \n Blue hydrogen\nProduced from natural gas, commonly through SMR or autothermal reforming (ATR), with carbon capture applied to part of the resulting CO₂.\nEngineering point: Its emissions depend strongly on capture rate, methane leakage, energy requirements, and how captured CO₂ is handled.\n3. \n Green hydrogen\nProduced by electrolysis of water using renewable electricity, such as solar or wind power.\nEngineering point: Operational emissions can be very low when the electricity supply is genuinely renewable.\n4. \n Brown hydrogen\nTraditionally refers to hydrogen produced through coal gasification, particularly from lignite/brown coal.\nEngineering point: Coal gasification produces syngas containing mainly H₂ and CO, followed by processing such as water-gas shift and purification.\n5. \n Black hydrogen\nProduced through coal gasification, traditionally associated with bituminous or other higher-rank coal.\nEngineering point: Without carbon capture, substantial CO₂ emissions are associated with the process.\n6. \n Turquoise hydrogen\nProduced through methane pyrolysis, where natural gas is thermally decomposed into hydrogen and solid carbon.\nEngineering point: Unlike SMR, carbon is produced primarily as a solid rather than directly as CO₂. The overall emissions depend on the energy source and process efficiency.\n7. \n Pink hydrogen\nProduced through water electrolysis powered by nuclear electricity.\nEngineering point: The electricity source is nuclear rather than renewable, so its lifecycle emissions depend on the nuclear power system.\n8. \n Yellow hydrogen\nUsually refers to hydrogen produced through electrolysis using grid electricity.\nEngineering point: Its carbon intensity depends on the electricity mix supplying the electrolyzer.\n9. \n White hydrogen\nRefers to naturally occurring geological hydrogen found underground.\nEngineering point: Unlike manufactured hydrogen, the hydrogen occurs naturally and may potentially be extracted from geological formations where economically and technically feasible.\n Main production pathways\nNatural gas → SMR/ATR → H₂\n Grey | \n Blue\nNatural gas → Methane pyrolysis → H₂ + solid carbon\n Turquoise\nCoal → Gasification → Syngas → H₂\n Brown | \n Black\nWater → Electrolysis → H₂ + O₂\n Green | \n Pink | \n Yellow\nGeological formations → Natural H₂\n White\n Engineering takeaway\nThe colour does not describe a different type of hydrogen molecule. It describes the production route and energy/carbon characteristics associated with producing H₂. For engineering comparisons, the important parameters are the feedstock, energy source, process efficiency, CO₂ capture, methane leakage, lifecycle emissions, water consumption, and hydrogen purity.",
+      "contentFingerprint": "157d5fe9f76d87c6b857749ad158affbaefa42bf4dc4c4c51d5cf5194c872c60",
+      "photos": [
+        "media/facebook/1388441820114726/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1388415443450697",
+      "date": "2026-09-28",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1388415443450697/"
+      },
+      "thin": false,
+      "bodyText": "Statkraft announces sale of portfolio, including Shetland projects, to Kentron Green Nordic AS. The renewables giant has announced the sale of of its UK hydrogen portfolio - including projects at Tagdale and Scatsta.\nKentron Green Ad Nordic AS - a Norwegian-owned company with a presence in the UK.\nKentron is part of the group currently developing a portfolio of windfarms and green ammonia projects, including Neptun Glomfjord Green Ammonia and Neptun Tromsø.\nMeanwhile, Statkraft's share in Grenian Hydrogen has been sold to Foresight and Progressive Energy, the existing partners in its joint venture. The move means that the Statlraft hydrogen divestment process announced last year is now complete in the UK market.\nStatkraft said they are pleased to have completed the divestment process for our UK green hydrogen projects, which will allow these schemes to be taken forward into construction and operation under new ownership.\nMarket activities related to hydrogen will continue to be part of Statkraft's portfolio, and the UK will continue to play a key role in helping the global business reach its ambitious investment goals for solar, onshore wind, hydropower, and grid stability services.\nIt follows talks around a proposed green ammonia plant at Tagdale and a a green hydrogen facility at the council-owned site near Scatsta Airport in the North Mainland.— in Shetland.",
+      "contentFingerprint": "d33bd1893b29a2fbf0b5a0b41c625a24c0e0c3ca9490078b788f5dfa39ff8d20",
+      "photos": [
+        "media/facebook/1388415443450697/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1388399376785637",
+      "date": "2026-09-28",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1388399376785637/"
+      },
+      "thin": false,
+      "bodyText": "",
+      "contentFingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "photos": [
+        "media/facebook/1388399376785637/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1388404646785110",
+      "date": "2026-09-28",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1388404646785110/"
+      },
+      "thin": false,
+      "bodyText": "A significant milestone has been ticked off in the development of a major offshore wind farm.\nA second 85km offshore export cable has been installed at Inch Cape Offshore Wind Farm in the North Sea.\nEnergy from the development, which will feature 74 turbines off the coast of Angus, will be brought onshore via a substation on part of the former Cockenzie Power Station site in East Lothian.\nThe second of two 220kV three-phase export cables was installed in three 28-kilometre sections by Enshore Subsea.\nIt required two offshore joints which were carried out by jointing specialists and was buried in the seabed using hybrid trenching vehicle ENS1100, with some final rock placement to come.\nThe two parallel cables will transmit power from the 1.1 GW substation platform to its new onshore substation at Cockenzie then onto the national grid. \nThe cables will be energised over the coming weeks in advance of first power toward the end of this year.\nThe completion of this crucial  link between the offshore and onshore supstations is another major achievement for the project and testament to the excellent collaboration between the Inch Cape team and contractors, particularly Orient Cable and Enshore Subsea.\nThe successful finalisation of this scope builds on the solid progress as they enter the next phases of offshore construction.\nInch Cape recently completed its monopile and transition piece installation and current offshore activity, includes array cable laying and jacket foundation pin pile installation.\nThe components for the project's 15 MW turbines are being delivered to the Port of Dundee in advance of tower assembly and offshore installation.\nThe project remains on track for full commercial operations next year— at Cockenzie.",
+      "contentFingerprint": "b155fce7f0603c261b9f7a395f50c7b742e970ca582c1b949014729aebd74ee6",
+      "photos": [
+        "media/facebook/1388404646785110/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1388286153463626",
+      "date": "2026-09-28",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1388286153463626/"
+      },
+      "thin": false,
+      "bodyText": "Subsea Micropiles is investing in a new manufacturing facility in Montrose, creating over 80 jobs - and SSE is planning to base its offshore wind operations at the Port, creating around 100 more.\nGreat news for Scotland's industrial future.— in Montrose.",
+      "contentFingerprint": "3d1cad299b6e6abb50f7ddb9da7162b64cfc19a542a17e79f72986112e3963df",
+      "photos": [
+        "media/facebook/1388286153463626/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1387549366870638",
+      "date": "2026-09-28",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1387549366870638/"
+      },
+      "thin": false,
+      "bodyText": "Developers behind what would be one of the largest renewable energy schemes in Angus have lodged their solar and battery storage plan with the Scottish Government.\nThe Craigo and Glenskinno scheme would have a combined capacity of 120MW, split equally between a solar park and battery energy storage system on land near Montrose. The total site covers 493 acres, with solar panels proposed across 316 acres. News of the development first emerged in 2024. It would have a lifespan of 40 years.\nBritish Solar Renewables (BSR) has now submitted proposals to the Scottish Government's Energy Consents Unit. It considers renewables schemes in excess of 50MW capacity. BSR's submission follows a range of public consultations, in late 2024.\nThe applicants say the detailed plan lodged with the ECU reflects changes made in response to the consultation process. Those include the complete removal of seven 89.5-metre wind turbines from the overall scheme.\nThere has also been a reduction in the total solar area and increased distances between panels and properties. Battery storage units have been redistributed across the site.\nThe company say approval of the project could deliver a £420,000 community fund for the local area.— in Montrose.",
+      "contentFingerprint": "64130cdef5fb10fec59676a04da9257e20d9aba9cc99d12284f6dd542a653d0e",
+      "photos": [
+        "media/facebook/1387549366870638/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1387536180205290",
+      "date": "2026-09-28",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1387536180205290/"
+      },
+      "thin": false,
+      "bodyText": "Ever wondered how we keep the lights on using solar and wind power, even when the sun sets or the breeze stops?\nThis breakdown reveals the inner workings of a Utility-Scale Battery Energy Storage System (BESS). \nThese high-tech containers are part the of clean energy transition, acting as giant power banks for the electrical grid. \nFrom individual lithium-ion battery cells packed into modules, all the way up to advanced thermal management, fire suppression, and power conversion systems. Every component plays a vital role in storing excess renewable energy and discharging it exactly when it's needed most. \nThis technology supports a more reliable, stable, and sustainable power grid for the future.",
+      "contentFingerprint": "6421a59536963af3e437e678556348dc726de379014e7840a0a8cba9ccc4ab27",
+      "photos": [
+        "media/facebook/1387536180205290/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1387519123540329",
+      "date": "2026-09-27",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1387519123540329/"
+      },
+      "thin": false,
+      "bodyText": "A scaled-back application for a 13 turbine, 93.6 MW energy development, 14km southeast of Aberfeldy, has been submitted collaboratively between Lanarkshire-based Muirhall Energy Ltd and Scone Estates.\nThe North Logiealmond Wind Farm proposal has been reduced in scope from an initial 20 turbine plan, with 6 turbines also scaled back to 180m in size following opposition to the original vision.\nNow applicants have pledged a potential stake of up to 10% for community groups to share in the financial benefits of the energy project, should planners give the green light.\nAn economic report by Biggar Economics on behalf of the scheme outlined potential gains to the Perthshire economy of £11.9m during the development and construction phase, with a further £1.3m a year when operational.\nNon-domestic rates income has been estimated at £1.2m per year while Muirhall Energy has pledged an inflated £7000 per MW investment into a local community fund, netting £655 000 annually for local projects, if the windfarm proceeds.\nHowever, it is the offer of a share in ownership, prior to construction, which is relatively novel, ‘creating sustainable income streams that can be used to support community development.’\nIn the supporting documentation, Muirhall say it has already completed a successful ownership arrangement (5%) at the 10-turbine Crossdykes Wind Farm in Dumfries and Galloway. The local beneficiary group chose to offload their 5% stake when the wind farm was sold in 2022.\nRepresentations can be made to Scottish Government until 22nd November, with previous objections raised by Amulree and Glen Quaich residents and NatureScot, who voiced concerns for ‘potential effects on the River Tay National Scenic Area’.\nThe Dunkeld and Birnam Community Council voiced its concerns over the cumulative impact of energy schemes earmarked for the local area.\nThe project, should it go ahead will create 20 jobs, with 10 being local and businesses in the surrounding area will be given a tendering advantage when applying for construction contracts. Scone Estates are partners and want to see local economic benefits.\nOverall, it is estimated the project will save 119 000 tonnes of carbon per year over its lifespan but the decision by Scottish Government is still to be confirmed.\nA previous application for a similar number of smaller turbines in the area was rejected in 2008, on landscape and visual grounds.\nThe new plans can be viewed at Bankfoot Church Centre, Birnam Arts and Chapelhill Hall.— in Aberfeldy.",
+      "contentFingerprint": "1f57d2b47dbc3cc6ed369657e866a21f5b3861a9b486b22813a78213ffb626e1",
+      "photos": [
+        "media/facebook/1387519123540329/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1387466816878893",
+      "date": "2026-09-27",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1387466816878893/"
+      },
+      "thin": false,
+      "bodyText": "Buchanan Community Hydro \nToday's weather was great for the hydro, but possibly less so for a site visit!  Despite that we had a good number of people who braved the weather to come and find out about how Buchanan Community Hydro 100Kw scheme works, and also find out a bit more about the Local Energy Club.",
+      "contentFingerprint": "2ba60b4c11aedd1902d98009fe3bda8e1421d1f9bf52b102a235acc55af3f835",
+      "photos": [
+        "media/facebook/1387466816878893/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1386021360356772",
+      "date": "2026-09-26",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1386021360356772/"
+      },
+      "thin": false,
+      "bodyText": "Does anybody know what sort of rough costs this wood would have if it had a WTL and or if just sold...??\nLet's assume it's mostly pallets and \"clean wood\" but just looking for some general guidance if anybody would know?\nFor clarity it's Seater Landfill Cairhness run by HC.\nSepa complicit in the corruption and subsequent coverup with all illegalities. But am exposing this on behalf of a large group of silenced whistleblowers.\nAppreciate any messages or comments in strictest confidence.\nThis would account for about a week of waste wood.\nMy guess is domestic WRC is mixed with Commercial but the cash for tipping is out of hand and has been for 20 odd years.\nCheers all!",
+      "contentFingerprint": "f3a08f292c0622fa58b5ec2a7edc151ddee3d9a1d5a7df7d9e0dff5c03e460f1",
+      "photos": [
+        "media/facebook/1386021360356772/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1386023633689878",
+      "date": "2026-09-26",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1386023633689878/"
+      },
+      "thin": false,
+      "bodyText": "The delivery of a 505km electricity transmission connection between Scotland and England, contains hidden challenges - but it also offers valuable lessons for future projects engaged in enhancing the UK's clean energy transmission capacity.\nLabelled as the largest ever single investment in the UK transmission system, at £4.3bn Eastern Green Link 2 (EGL2) is part of a portfolio of projects that will support the country's energy transition by providing additional capacity to transmit renewable energy produced in Scottish wind farms, hydro stations and solar farms. It will also make an important contribution to energy security across the UK.\nEGL2 will connect Peterhead on the northeast coast of Scotland to Wren Hall in Drax, North Yorkshire, using 505km of 2GW, high voltage direct current (HVDC) cable - with 436km of the cable to be laid offshore and the remainder onshore.\nIt is being delivered by the first joint venture between National Grid Electricity Transmission – which owns and manages the electricity transmission network in England and Wales – and SSEN Transmission, which does the same in the North of Scotland.\nThe project also involves the construction of a 525kV bi- pole converter station at each end of the electrical transmission connection, which will convert electricity between alternating current (AC) and direct current (DC).\nThe electricity generated by renewable sources will be sent through the AC network to the Peterhead Converter Station, where it will be converted to DC and transmitted via the HVDC subsea and onshore cables.\nOnce it reaches the converter station at Wren Hall, it will be converted back to AC and introduced into the wider transmission network.\nThe use of HVDC is that there are minimal electrical transmission losses, between Peterhead and Drax compared to an equivalent AC connection. For long distance routes, a DC connection is particularly efficient.\nThe bi-pole technology provides advantages compared to more traditional converter stations (Hitachi Energy –  provided the technology). It offers better redundancy and resilience. If there is an issue on one side of the converter stations, they can still operate at 50% capacity.\nThe project started in earnest in 2019, alongside EGL1.\nHigh level development work, identified the efficient options to provide additional capacity at appropriate points on the electricity network in Scotland and England.\nSystem design studies, identified Peterhead and Drax connection points for the EGL2 project. More detailed system studies and a significant amount of development studies,\nIdentified potential cable routes and locations for the converter stations.\nIn terms of the subsea cable routes, the project team initially carried out a desktop study to gather information on the geological conditions of the seabed. This identified a broad route corridor that was then surveyed in 2020, and used that to finesse the final route selection.\nThis work was carried out simultaneously with the EGL1 project, driving efficiencies and ensuring the same information at the same time. Survey data which identified a route corridor was used to inform the overall cable contract, tender specification and marine cable contract.\nIn early 2024, a consortium between Bam UK & Ireland and Hitachi Energy was awarded the contract to carry out engineering works and supply technology for the two for stations with Mott MacDonald providing design services.\nThe Prysmian Group was appointed to design, manufacture and install the HVDC cable, while Balfour Beatty was subcontracted by Prysmian to install the onshore underground cable. With the Peterhead converter station being near the coast, only 1km of onshore cables needs to be installed to Sandford Bay where the subsea cable's journey will commence. In England, 68km of onshore cable will be installed between Bridlington in Yorkshire – the southernmost location of the subsea cable – and the Wren Hall converter station site.\nConverter stations\nBam contractor has been working with SSEN Transmission on the construction of substations for over a decade. On this project, it is responsible for the buildings and surrounding infrastructure, as well as the installation of the specialist HVDC equipment.\nDespite Bam's experience in the sector, this project has challenges because of the major influence of the electrical design on the civil works. In addition, the converter stations' designs are not identical, as each client has specified desired outcomes, leading to nuances in the design.\nHitachi Energy has offered the technology in other projects before, for example the Dogger Bank Wind Farm, however each project is unique because of the grid connections as well as client requirements. \nAs the size of equipment impacts the size of the buildings, electrical design had to precede civil works design. Even number of years into the project, the finalised design, is  getting more and more mature.\nCarrying out construction works while design is still not finalised is challenging, highlighting the need for collaboration between the teams to ensure that construction works can be carried out in a timely manner.\nBam's team was mobilised on the two sites in September 2024, with earthworks carried out until April 2025. The earthworks had to be really well thought through in terms of water run-off and coping with that, especially during the winter.\nPeterhead was a conventional cut and fill. Wren Hall is in a flood plain, so the first thing to do was@ a 4m-high platform that will provide the base for the converter station and remove any risk of future flooding.\nHe says that for the rest of 2025, the team focused primarily on piling, drainage and foundations, with Mott MacDonald assisting in the rationalisation of various design elements.\nSlipform construction of both transformer buildings has been completed, with continuous concrete pours which took up to 12 days. At one point over 100 people on each shift for this element of the works. Getting these elements completed was really good start to 2026.\nThe works for the rest of the year focus on structural steel and cladding for the buildings, which are up to 28m high. By the second quarter of 2027 to the site will welcome the first of Hitachi Energy's equipment.\nOffshore work\nMore surveys were carried out over the years to verify the desktop study's results of the marine cable route and refine it. In addition to Unexploded Ordnance surveys, further surveys were commissioned to gather more detail about the seabed, for example the existence of boulder fields.\nGeotechinal surveys at the bottom of the ocean to determine the integrity of the ground. The trench to lay the cable into the seabed, will be approx 1.2m deep.\nIn very soft ground conditions, you'll use either a plough or blowout technology to blow the sand away when you bury the cable. In harder conditions, particularly in boulder areas, you may actually have to lay the cable on the surface and then place rock protection on top to shield that cable from any form of damage.\nThe installation of the offshore cable in 2028 will be one of the project's most challenging works. Working in the North Sea throughout the winter of 27/28 will be a challenge.\nThe project team is currently finalising the horizontal directional drill in Sandford Bay near the Peterhead Converter Station, which will extend 1.2km into the ocean. In preparation for the drilling, sheet piling was carried out to allow the entry pit to be excavated, and two steel casings were installed.\nOnce completed, the process will be repeated in Bridlington. On the English side of the project, there will also be a number of small horizontal drills to take the cable under roads, canals and railways.\nEGL2 is expected to be operational in 2029. EGL1 a joint venture project being delivered by National Grid and Scottish Power – is a 196km electricity link that will run from the Torness area in East Lothian to Hawthorn Pit in County Durham, and is also currently in construction.",
+      "contentFingerprint": "e43e34dd34b9e620b5940facec1e4b5eb32d62a674fc75b9dcc2366bfdd3b174",
+      "photos": [
+        "media/facebook/1386023633689878/photo_1.png"
       ],
       "mediaCount": 1
     }
