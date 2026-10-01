@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-01T12:17:15.000Z",
+  "generated": "2026-10-01T12:33:37.000Z",
   "counts": {
     "records": 3391,
     "thin": 320,
     "withMedia": 858,
-    "withCategories": 746,
+    "withCategories": 821,
     "withTopics": 316,
     "withProject": 10,
     "withCoordinates": 95,
@@ -73437,6 +73437,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -73451,7 +73454,10 @@
       "photos": [
         "media/facebook/29341398178795865/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "29360738403528509",
@@ -73520,6 +73526,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -73534,7 +73543,10 @@
       "photos": [
         "media/facebook/29389004027368613/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "29333962196206130",
@@ -73549,6 +73561,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -73563,7 +73578,10 @@
       "photos": [
         "media/facebook/29333962196206130/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "29374188345516848",
@@ -73607,6 +73625,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -73621,7 +73642,10 @@
       "photos": [
         "media/facebook/29392992550303094/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "29401791676089848",
@@ -73725,6 +73749,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -73739,7 +73766,10 @@
       "photos": [
         "media/facebook/29347803711488645/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "29361340446801638",
@@ -73895,6 +73925,9 @@
         },
         "photos": {
           "method": "facebook_post_screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -73912,7 +73945,10 @@
       "photos": [
         "media/facebook/29323098557292494/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "29373888878880128",
@@ -74145,6 +74181,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -74159,7 +74198,10 @@
       "photos": [
         "media/facebook/29323062750629408/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "29431966919738990",
@@ -74292,6 +74334,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -74306,7 +74351,10 @@
       "photos": [
         "media/facebook/29319804817621868/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "29210121628590188",
@@ -74394,6 +74442,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -74408,7 +74459,10 @@
       "photos": [
         "media/facebook/29364277263174623/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "OHL (Pylons)"
+      ]
     },
     {
       "id": "29334221612846855",
@@ -74604,6 +74658,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -74618,7 +74675,10 @@
       "photos": [
         "media/facebook/29326857970249886/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "29333567036245646",
@@ -74633,6 +74693,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -74647,7 +74710,10 @@
       "photos": [
         "media/facebook/29333567036245646/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "29388021057466910",
@@ -74876,6 +74942,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -74890,7 +74959,10 @@
       "photos": [
         "media/facebook/29387580374177645/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "29355184864083863",
@@ -74934,6 +75006,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -74948,7 +75023,11 @@
       "photos": [
         "media/facebook/29401673002768382/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "OHL (Pylons)",
+        "Onshore Wind"
+      ]
     },
     {
       "id": "1578793257290203",
@@ -78824,6 +78903,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -78838,7 +78920,11 @@
       "photos": [
         "media/facebook/29445114865090862/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "BESS",
+        "Onshore Wind"
+      ]
     },
     {
       "id": "29458475507088131",
@@ -78853,6 +78939,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -78867,7 +78956,10 @@
       "photos": [
         "media/facebook/29458475507088131/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "29453105667625115",
@@ -78882,6 +78974,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -78896,7 +78991,10 @@
       "photos": [
         "media/facebook/29453105667625115/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "29452633121005703",
@@ -78998,6 +79096,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -79012,7 +79113,10 @@
       "photos": [
         "media/facebook/29447279554874393/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "28453721440947943",
@@ -79027,6 +79131,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -79041,7 +79148,10 @@
       "photos": [
         "media/facebook/28453721440947943/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "1607477157755146",
@@ -79056,6 +79166,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -79070,7 +79183,10 @@
       "photos": [
         "media/facebook/1607477157755146/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "1093589589737489",
@@ -79143,6 +79259,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -79157,7 +79276,11 @@
       "photos": [
         "media/facebook/29438799902389025/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "OHL (Pylons)",
+        "Onshore Wind"
+      ]
     },
     {
       "id": "29439707685631580",
@@ -79172,6 +79295,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -79186,7 +79312,11 @@
       "photos": [
         "media/facebook/29439707685631580/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre",
+        "Onshore Wind"
+      ]
     },
     {
       "id": "29459069733695375",
@@ -79752,6 +79882,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -79766,7 +79899,10 @@
       "photos": [
         "media/facebook/1106090788758404/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "1105777412123075",
@@ -79781,6 +79917,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -79795,7 +79934,10 @@
       "photos": [
         "media/facebook/1105777412123075/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "1101919292508887",
@@ -80013,6 +80155,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -80027,7 +80172,10 @@
       "photos": [
         "media/facebook/2003766693656737/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "OHL (Pylons)"
+      ]
     },
     {
       "id": "2002439143789492",
@@ -80361,6 +80509,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -80375,7 +80526,10 @@
       "photos": [
         "media/facebook/1652110306522119/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Substation"
+      ]
     },
     {
       "id": "29461004566835225",
@@ -80390,6 +80544,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -80404,7 +80561,10 @@
       "photos": [
         "media/facebook/29461004566835225/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "29459112390357776",
@@ -80506,6 +80666,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -80520,7 +80683,10 @@
       "photos": [
         "media/facebook/1611030354066493/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "1607995154370013",
@@ -80796,6 +80962,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -80810,7 +80979,10 @@
       "photos": [
         "media/facebook/1093886396374475/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "1092161886546926",
@@ -80825,6 +80997,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -80839,7 +81014,10 @@
       "photos": [
         "media/facebook/1092161886546926/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "1092186379877810",
@@ -80854,6 +81032,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -80868,7 +81049,11 @@
       "photos": [
         "media/facebook/1092186379877810/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre",
+        "Onshore Wind"
+      ]
     },
     {
       "id": "1092670733162708",
@@ -80941,6 +81126,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -80955,7 +81143,10 @@
       "photos": [
         "media/facebook/29470962429172772/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "29470416399227375",
@@ -81057,6 +81248,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -81071,7 +81265,10 @@
       "photos": [
         "media/facebook/28494693620184058/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "28437025632617524",
@@ -81086,6 +81283,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -81100,7 +81300,10 @@
       "photos": [
         "media/facebook/28437025632617524/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "28489652294021524",
@@ -81144,6 +81347,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -81158,7 +81364,10 @@
       "photos": [
         "media/facebook/28487084914278262/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "28483836134603140",
@@ -81173,6 +81382,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -81187,7 +81399,10 @@
       "photos": [
         "media/facebook/28483836134603140/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "29511781315090883",
@@ -81231,6 +81446,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -81245,7 +81463,10 @@
       "photos": [
         "media/facebook/29507500055519009/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "29507028718899476",
@@ -81260,6 +81481,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -81274,7 +81498,12 @@
       "photos": [
         "media/facebook/29507028718899476/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "BESS",
+        "Hybrid",
+        "Onshore Wind"
+      ]
     },
     {
       "id": "29506608832274798",
@@ -81289,6 +81518,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -81303,7 +81535,10 @@
       "photos": [
         "media/facebook/29506608832274798/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "29506537835615231",
@@ -81318,6 +81553,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -81332,7 +81570,10 @@
       "photos": [
         "media/facebook/29506537835615231/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "29501565729445775",
@@ -81376,6 +81617,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -81390,7 +81634,10 @@
       "photos": [
         "media/facebook/29501516866117328/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "29497934499808898",
@@ -81434,6 +81681,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -81448,7 +81698,10 @@
       "photos": [
         "media/facebook/29494110640191284/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "29493965236872491",
@@ -81521,6 +81774,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -81535,7 +81791,11 @@
       "photos": [
         "media/facebook/29493178253617856/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre",
+        "Onshore Wind"
+      ]
     },
     {
       "id": "29489537367315278",
@@ -81579,6 +81839,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -81593,7 +81856,10 @@
       "photos": [
         "media/facebook/29488742940728054/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "29487613887507626",
@@ -81695,6 +81961,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -81709,7 +81978,10 @@
       "photos": [
         "media/facebook/29481626051439743/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "29480953761506972",
@@ -81753,6 +82025,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -81767,7 +82042,11 @@
       "photos": [
         "media/facebook/28523671193952967/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind",
+        "Solar"
+      ]
     },
     {
       "id": "28523232243996862",
@@ -81782,6 +82061,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -81796,7 +82078,10 @@
       "photos": [
         "media/facebook/28523232243996862/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "28518550407798379",
@@ -81811,6 +82096,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -81825,7 +82113,10 @@
       "photos": [
         "media/facebook/28518550407798379/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "28511377558515664",
@@ -81840,6 +82131,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -81854,7 +82148,10 @@
       "photos": [
         "media/facebook/28511377558515664/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "28505729005747186",
@@ -81869,6 +82166,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -81883,7 +82183,10 @@
       "photos": [
         "media/facebook/28505729005747186/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "1098484602581321",
@@ -81956,6 +82259,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -81970,7 +82276,10 @@
       "photos": [
         "media/facebook/1098402605922854/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "1098286129267835",
@@ -81985,6 +82294,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -81999,7 +82311,10 @@
       "photos": [
         "media/facebook/1098286129267835/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "1098284702601311",
@@ -82014,6 +82329,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -82028,7 +82346,10 @@
       "photos": [
         "media/facebook/1098284702601311/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "BESS"
+      ]
     },
     {
       "id": "1098301395932975",
@@ -82043,6 +82364,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -82057,7 +82381,10 @@
       "photos": [
         "media/facebook/1098301395932975/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "OHL (Pylons)"
+      ]
     },
     {
       "id": "1098361129260335",
@@ -82188,6 +82515,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -82202,7 +82532,12 @@
       "photos": [
         "media/facebook/1118643160836500/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "BESS",
+        "Hybrid",
+        "Onshore Wind"
+      ]
     },
     {
       "id": "1140082518683335",
@@ -82275,6 +82610,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -82289,7 +82627,10 @@
       "photos": [
         "media/facebook/1438459861751779/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "1389789376646637",
@@ -82304,6 +82645,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -82318,7 +82662,11 @@
       "photos": [
         "media/facebook/1389789376646637/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind",
+        "Solar"
+      ]
     },
     {
       "id": "1388580053434236",
@@ -82333,6 +82681,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -82347,7 +82698,11 @@
       "photos": [
         "media/facebook/1388580053434236/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind",
+        "Substation"
+      ]
     },
     {
       "id": "1388515373440704",
@@ -82362,6 +82717,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -82376,7 +82734,10 @@
       "photos": [
         "media/facebook/1388515373440704/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "1388490760109832",
@@ -82391,6 +82752,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -82405,7 +82769,10 @@
       "photos": [
         "media/facebook/1388490760109832/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "1388441820114726",
@@ -82449,6 +82816,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -82463,7 +82833,10 @@
       "photos": [
         "media/facebook/1388415443450697/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "1388399376785637",
@@ -82507,6 +82880,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -82521,7 +82897,11 @@
       "photos": [
         "media/facebook/1388404646785110/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind",
+        "Substation"
+      ]
     },
     {
       "id": "1388286153463626",
@@ -82565,6 +82945,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -82579,7 +82962,13 @@
       "photos": [
         "media/facebook/1387549366870638/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "BESS",
+        "Hybrid",
+        "Onshore Wind",
+        "Solar"
+      ]
     },
     {
       "id": "1387536180205290",
@@ -82594,6 +82983,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -82608,7 +83000,10 @@
       "photos": [
         "media/facebook/1387536180205290/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "BESS"
+      ]
     },
     {
       "id": "1387519123540329",
@@ -82623,6 +83018,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -82637,7 +83035,10 @@
       "photos": [
         "media/facebook/1387519123540329/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "1387466816878893",
@@ -82710,6 +83111,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -82724,7 +83128,12 @@
       "photos": [
         "media/facebook/1386023633689878/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind",
+        "Solar",
+        "Substation"
+      ]
     },
     {
       "id": "29519799140955767",
@@ -82739,6 +83148,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -82753,7 +83165,10 @@
       "photos": [
         "media/facebook/29519799140955767/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "29519546984314316",
@@ -82826,6 +83241,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -82840,7 +83258,10 @@
       "photos": [
         "media/facebook/29519407237661624/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "29514705728131775",
@@ -82855,6 +83276,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -82869,7 +83293,10 @@
       "photos": [
         "media/facebook/29514705728131775/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "1617202856782576",
@@ -82884,6 +83311,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -82898,7 +83328,10 @@
       "photos": [
         "media/facebook/1617202856782576/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "1616902886812573",
@@ -82913,6 +83346,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -82927,7 +83363,10 @@
       "photos": [
         "media/facebook/1616902886812573/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "1616892550146940",
@@ -83000,6 +83439,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -83014,7 +83456,10 @@
       "photos": [
         "media/facebook/1616876836815178/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "28537225242597562",
@@ -83029,6 +83474,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -83043,7 +83491,10 @@
       "photos": [
         "media/facebook/28537225242597562/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "28529415060045247",
@@ -83058,6 +83509,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -83072,7 +83526,10 @@
       "photos": [
         "media/facebook/28529415060045247/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "1107250361705512",
@@ -83087,6 +83544,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -83101,7 +83561,10 @@
       "photos": [
         "media/facebook/1107250361705512/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "OHL (Pylons)"
+      ]
     },
     {
       "id": "1098697202560061",
@@ -83116,6 +83579,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -83130,7 +83596,10 @@
       "photos": [
         "media/facebook/1098697202560061/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     }
   ]
 }
