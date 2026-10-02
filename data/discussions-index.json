@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-02T17:57:26.000Z",
+  "generated": "2026-10-02T18:06:21.000Z",
   "counts": {
     "records": 3423,
     "thin": 320,
     "withMedia": 890,
-    "withCategories": 833,
+    "withCategories": 877,
     "withTopics": 316,
     "withProject": 10,
     "withCoordinates": 95,
@@ -16458,6 +16458,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -16471,7 +16474,10 @@
         "media/facebook/27919355171051242/photo_1.jpg"
       ],
       "bodyText": "#WindTurbine",
-      "contentFingerprint": "e6579a412e3d23e01b37a76bb3d48ebd417efb41d6107fc76f0b246f42cbe848"
+      "contentFingerprint": "e6579a412e3d23e01b37a76bb3d48ebd417efb41d6107fc76f0b246f42cbe848",
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "27919106764409416",
@@ -16504,6 +16510,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -16517,7 +16526,10 @@
         "media/facebook/27919090297744396/photo_1.jpg"
       ],
       "bodyText": "#WindTurbine",
-      "contentFingerprint": "4def18abd94a1a38834d944f6ee8269528590568f900ca151a0f0c0b88057a44"
+      "contentFingerprint": "4def18abd94a1a38834d944f6ee8269528590568f900ca151a0f0c0b88057a44",
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "27918885094431583",
@@ -29297,6 +29309,9 @@
         },
         "photos": {
           "method": "facebook_post_screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -29326,7 +29341,10 @@
       "photos": [
         "media/facebook/28293904693545224/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "28289653543970339",
@@ -52243,6 +52261,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -52257,7 +52278,10 @@
       "authority": "Marine Scotland",
       "location": "5km off the west coast of Lewis (N2)",
       "developmentStatus": "Application Submitted",
-      "contentFingerprint": "79679e99f7a068a21968128088866d75f60b7ff422eda2d242d8e98f8f5e6037"
+      "contentFingerprint": "79679e99f7a068a21968128088866d75f60b7ff422eda2d242d8e98f8f5e6037",
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "27147677348167970",
@@ -74156,6 +74180,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -74166,7 +74193,10 @@
       },
       "thin": false,
       "bodyText": "Eurus takes steps to prevent bird strikes at Japanese wind farm\nRENEWABLESNOW.COM Eurus takes steps to prevent bird strikes at Japanese wind farm",
-      "contentFingerprint": "bdacae1c1a9825d3fcb4a884acce337486484f66276fd636d6e41777e31c0dc2"
+      "contentFingerprint": "bdacae1c1a9825d3fcb4a884acce337486484f66276fd636d6e41777e31c0dc2",
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "29323062750629408",
@@ -74366,6 +74396,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -74376,7 +74409,10 @@
       },
       "thin": false,
       "bodyText": "Wind farm component deliveries to continue this week\nCUMNOCKCHRONICLE.COM Wind farm component deliveries to continue this week",
-      "contentFingerprint": "449697219dd8f934f26a0bb39a7748b275c623370fae856a2511510275b1ef63"
+      "contentFingerprint": "449697219dd8f934f26a0bb39a7748b275c623370fae856a2511510275b1ef63",
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "29206656888936662",
@@ -74388,6 +74424,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -74398,7 +74437,10 @@
       },
       "thin": false,
       "bodyText": "WIN-130-11 - Killean Wind Farm - Pre Examination Meeting\nYOUTUBE.COM WIN-130-11 - Killean Wind Farm - Pre Examination Meeting",
-      "contentFingerprint": "9d05d8191164fcbb09403e9c3cdf6b1c7622c9b92d55b479aa2e04e234911fb2"
+      "contentFingerprint": "9d05d8191164fcbb09403e9c3cdf6b1c7622c9b92d55b479aa2e04e234911fb2",
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "29374600085475674",
@@ -75039,6 +75081,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -75049,7 +75094,10 @@
       },
       "thin": false,
       "bodyText": "Friends of the Earth Scotland\nNational Meeting: International Resistance to Data Centres\nACT.FOE.SCOT National Meeting: International Resistance to Data Centres",
-      "contentFingerprint": "df847f075765c2cdf756d7b794411f25303294cbcbc8dc8cf7850d7f078392d3"
+      "contentFingerprint": "df847f075765c2cdf756d7b794411f25303294cbcbc8dc8cf7850d7f078392d3",
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "1556480192854843",
@@ -75179,6 +75227,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -75189,7 +75240,10 @@
       },
       "thin": false,
       "bodyText": "Hyperscale Data Centre Campaigner day\nAction to Protect Rural Scotland",
-      "contentFingerprint": "337a4952d13bc4f33293262e16bba7071a4ddd88d62390269a246b9f23e1b79d"
+      "contentFingerprint": "337a4952d13bc4f33293262e16bba7071a4ddd88d62390269a246b9f23e1b79d",
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "1588441042992091",
@@ -75401,6 +75455,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -75415,7 +75472,10 @@
       "photos": [
         "media/facebook/1571357838033745/photo_1.jpg"
       ],
-      "contentFingerprint": "ea23791c370d72da117117a6c823c20c4120ee1bf1976203325fa953d7e6da71"
+      "contentFingerprint": "ea23791c370d72da117117a6c823c20c4120ee1bf1976203325fa953d7e6da71",
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "1578357967333732",
@@ -75498,6 +75558,9 @@
         },
         "photos": {
           "method": "facebook_post_screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -75515,7 +75578,10 @@
       "photos": [
         "media/facebook/1520726839763512/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "1533479405154922",
@@ -75598,6 +75664,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -75608,7 +75677,10 @@
       },
       "thin": false,
       "bodyText": "Hayley Beeson\nGrampain Against Data Centres - Stop Blackdog AI Data Centre",
-      "contentFingerprint": "fae093dd89070f4e4f6dcb5be67a8607f7886870cb44de5f7baed73b47e4a6d1"
+      "contentFingerprint": "fae093dd89070f4e4f6dcb5be67a8607f7886870cb44de5f7baed73b47e4a6d1",
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "1588254769677385",
@@ -75691,6 +75763,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -75701,7 +75776,10 @@
       },
       "thin": false,
       "bodyText": "'I can't drink the water' - life next to a US data centre\nBBC.CO.UK 'I can't drink the water' - life next to a US data centre",
-      "contentFingerprint": "07006fb35c60e5026fe7007fcb0dc68da979b4386ec17af0fedcfac475a86f10"
+      "contentFingerprint": "07006fb35c60e5026fe7007fcb0dc68da979b4386ec17af0fedcfac475a86f10",
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "1590021812834014",
@@ -75822,6 +75900,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -75832,7 +75913,10 @@
       },
       "thin": false,
       "bodyText": "Say NO to AI Data Centres in Scotland",
-      "contentFingerprint": "d4744d8204c2007e82e7c89b9a9c81ef0fef03e03cbf9c4355c2f72de82138a3"
+      "contentFingerprint": "d4744d8204c2007e82e7c89b9a9c81ef0fef03e03cbf9c4355c2f72de82138a3",
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "1583568516812677",
@@ -75844,6 +75928,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -75854,7 +75941,11 @@
       },
       "thin": false,
       "bodyText": "Petition: Introduce urgent moratorium on AI Data Centres and BESS outside AI Growth Zones\nPETITION.PARLIAMENT.UK Petition: Introduce urgent moratorium on AI Data Centres and BESS outside AI Growth Zones",
-      "contentFingerprint": "c5d4c4c7e8c055b58ef91eedbff161060b00e6b0890242ce7c8f4410b2f35fad"
+      "contentFingerprint": "c5d4c4c7e8c055b58ef91eedbff161060b00e6b0890242ce7c8f4410b2f35fad",
+      "categories": [
+        "BESS",
+        "Data Centre"
+      ]
     },
     {
       "id": "1578942720608590",
@@ -75917,6 +76008,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -75931,7 +76025,10 @@
       "photos": [
         "media/facebook/1586874733148722/photo_1.jpg"
       ],
-      "contentFingerprint": "1acc2b6ab97f316e147b32918b6d28e51b2b78d672ac014d41947f83399a794f"
+      "contentFingerprint": "1acc2b6ab97f316e147b32918b6d28e51b2b78d672ac014d41947f83399a794f",
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "1580011930501669",
@@ -75971,6 +76068,9 @@
         },
         "photos": {
           "method": "facebook_post_screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -75988,7 +76088,10 @@
       "photos": [
         "media/facebook/1588651849637677/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "1519096286593234",
@@ -76003,6 +76106,9 @@
         },
         "photos": {
           "method": "facebook_post_screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -76020,7 +76126,10 @@
       "photos": [
         "media/facebook/1519096286593234/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "1524605339375662",
@@ -76153,6 +76262,9 @@
         },
         "photos": {
           "method": "facebook_post_screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -76170,7 +76282,10 @@
       "photos": [
         "media/facebook/1518762479959948/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "1590192342816961",
@@ -76182,6 +76297,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -76192,7 +76310,10 @@
       },
       "thin": false,
       "bodyText": "Philip Wark\nSay NO to Cockenzie Data Centre",
-      "contentFingerprint": "266bffae87955ddafff5ef21a10da2d0fcb6b3055fc8e27a90e3f3813948dec3"
+      "contentFingerprint": "266bffae87955ddafff5ef21a10da2d0fcb6b3055fc8e27a90e3f3813948dec3",
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "1590230832813112",
@@ -76225,6 +76346,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -76235,7 +76359,10 @@
       },
       "thin": false,
       "bodyText": "Firm secures £300m for data centre rollout in Scotland’s AI Growth Zone\nNEWS.STV.TV Firm secures £300m for data centre rollout in Scotland’s AI Growth Zone",
-      "contentFingerprint": "825d89543f8b5f77cf58981933ab6886d9ea9547c5f7e791f7e23715de343be7"
+      "contentFingerprint": "825d89543f8b5f77cf58981933ab6886d9ea9547c5f7e791f7e23715de343be7",
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "1560807795755416",
@@ -76275,6 +76402,9 @@
         },
         "photos": {
           "method": "facebook_post_screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -76292,7 +76422,10 @@
       "photos": [
         "media/facebook/1578076680695194/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "1583992983436897",
@@ -76422,6 +76555,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -76432,7 +76568,10 @@
       },
       "thin": false,
       "bodyText": "Fiona Crombie\nSay NO to Cockenzie Data Centre",
-      "contentFingerprint": "e3275fb27010f25f53bfa5411d9652a762358697bdd67264727e6ca9bd9e2a7b"
+      "contentFingerprint": "e3275fb27010f25f53bfa5411d9652a762358697bdd67264727e6ca9bd9e2a7b",
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "1590220179480844",
@@ -76444,6 +76583,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -76454,7 +76596,10 @@
       },
       "thin": false,
       "bodyText": "Lioslaith Rose\nRavenscraig Locals Against Mega Datacentres",
-      "contentFingerprint": "fcd758b8375c7ee0ce0645f9ae1542fd54aa0b8ed1e3bfd15851a72b3e00885b"
+      "contentFingerprint": "fcd758b8375c7ee0ce0645f9ae1542fd54aa0b8ed1e3bfd15851a72b3e00885b",
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "1578221367347392",
@@ -76634,6 +76779,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -76644,7 +76792,10 @@
       },
       "thin": false,
       "bodyText": "Exposing The Dark Side of America's AI Data Center Explosion | View From Above | Business Insider\nYOUTUBE.COM Exposing The Dark Side of America's AI Data Center Explosion | View From Above | Business Insider",
-      "contentFingerprint": "f94db5ccceccfbd65071b1dd49a281033a94453e4f01d97244067472406cd0bd"
+      "contentFingerprint": "f94db5ccceccfbd65071b1dd49a281033a94453e4f01d97244067472406cd0bd",
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "1589572112878984",
@@ -76843,6 +76994,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -76857,7 +77011,10 @@
       "photos": [
         "media/facebook/1555063929663136/photo_1.jpg"
       ],
-      "contentFingerprint": "e25c9e81baeb115bf3b87b6dd5752deb2095c7eb5f9212f478cee27833b3a31e"
+      "contentFingerprint": "e25c9e81baeb115bf3b87b6dd5752deb2095c7eb5f9212f478cee27833b3a31e",
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "1532598228576373",
@@ -76944,6 +77101,9 @@
         },
         "photos": {
           "method": "facebook_post_screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -76961,7 +77121,10 @@
       "photos": [
         "media/facebook/1562438555592340/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "1540305794472283",
@@ -77067,6 +77230,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -77077,7 +77243,10 @@
       },
       "thin": false,
       "bodyText": "ps://www.newsweek.com/teachers-asked-to-turn-off-lights-in-county-packed-with-data-centers-12145698",
-      "contentFingerprint": "12130ba80c397412a3aaf66531d2fda7d103b740dfa1eff22a7aad3fd293e92f"
+      "contentFingerprint": "12130ba80c397412a3aaf66531d2fda7d103b740dfa1eff22a7aad3fd293e92f",
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "1548375093665353",
@@ -77114,6 +77283,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -77124,7 +77296,10 @@
       },
       "thin": false,
       "bodyText": "Stop hyper-scale data centres in Scotland\nGREENS.SCOT Stop hyper-scale data centres in Scotland",
-      "contentFingerprint": "babba6a0071fdc77e8449493d53da74371b2c1502706957f3181523bd1d9c0ab"
+      "contentFingerprint": "babba6a0071fdc77e8449493d53da74371b2c1502706957f3181523bd1d9c0ab",
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "1574110347758494",
@@ -77190,6 +77365,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -77200,7 +77378,10 @@
       },
       "thin": false,
       "bodyText": "Stop AI Data Centres in Scotland Protest",
-      "contentFingerprint": "8afa40bf94de13603ac755e36a2a67d94798d2d6aaa34c8b2c264dd604d57379"
+      "contentFingerprint": "8afa40bf94de13603ac755e36a2a67d94798d2d6aaa34c8b2c264dd604d57379",
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "1590222566147272",
@@ -77212,6 +77393,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -77222,7 +77406,10 @@
       },
       "thin": false,
       "bodyText": "Mary Ferrie\nRavenscraig Locals Against Mega Datacentres",
-      "contentFingerprint": "8701cacd56546c921b0db35856aa68c6034d23d30a60a5b804833743d8668d7c"
+      "contentFingerprint": "8701cacd56546c921b0db35856aa68c6034d23d30a60a5b804833743d8668d7c",
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "1536849394817923",
@@ -77538,6 +77725,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -77548,7 +77738,10 @@
       },
       "thin": false,
       "bodyText": "Say NO to AI Data Centres in Scotland",
-      "contentFingerprint": "d4744d8204c2007e82e7c89b9a9c81ef0fef03e03cbf9c4355c2f72de82138a3"
+      "contentFingerprint": "d4744d8204c2007e82e7c89b9a9c81ef0fef03e03cbf9c4355c2f72de82138a3",
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "1556205509548978",
@@ -77581,6 +77774,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -77596,7 +77792,10 @@
         "media/facebook/1578381130664749/photo_1.jpg",
         "media/facebook/1578381130664749/photo_2.jpg"
       ],
-      "contentFingerprint": "755c98998de09a829b7d799242d0e05fd290ab406b909b7a8d52b936eae13875"
+      "contentFingerprint": "755c98998de09a829b7d799242d0e05fd290ab406b909b7a8d52b936eae13875",
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "1585027893333406",
@@ -77630,6 +77829,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -77640,7 +77842,10 @@
       },
       "thin": false,
       "bodyText": "Hyperscale Data Centre Campaigner day\nAction to Protect Rural Scotland",
-      "contentFingerprint": "337a4952d13bc4f33293262e16bba7071a4ddd88d62390269a246b9f23e1b79d"
+      "contentFingerprint": "337a4952d13bc4f33293262e16bba7071a4ddd88d62390269a246b9f23e1b79d",
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "1564142872088575",
@@ -77897,6 +78102,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -77907,7 +78115,11 @@
       },
       "thin": false,
       "bodyText": "Petition: Introduce urgent moratorium on AI Data Centres and BESS outside AI Growth Zones\nPETITION.PARLIAMENT.UK Petition: Introduce urgent moratorium on AI Data Centres and BESS outside AI Growth Zones",
-      "contentFingerprint": "c5d4c4c7e8c055b58ef91eedbff161060b00e6b0890242ce7c8f4410b2f35fad"
+      "contentFingerprint": "c5d4c4c7e8c055b58ef91eedbff161060b00e6b0890242ce7c8f4410b2f35fad",
+      "categories": [
+        "BESS",
+        "Data Centre"
+      ]
     },
     {
       "id": "1558527722650090",
@@ -78083,6 +78295,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -78097,7 +78312,10 @@
       "photos": [
         "media/facebook/1522009896301873/photo_1.jpg"
       ],
-      "contentFingerprint": "2f5757218bf72ce9d36508e8700ed20b5f751a73955d1f2b0051e71f37db0918"
+      "contentFingerprint": "2f5757218bf72ce9d36508e8700ed20b5f751a73955d1f2b0051e71f37db0918",
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "1578302574005938",
@@ -78109,6 +78327,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -78119,7 +78340,10 @@
       },
       "thin": false,
       "bodyText": "Margaret Simpson\nGrampain Against Data Centres - Stop Blackdog AI Data Centre",
-      "contentFingerprint": "0c968630a966122612142413d57a0b357b50bef341ece0caa757d80d25fe58fd"
+      "contentFingerprint": "0c968630a966122612142413d57a0b357b50bef341ece0caa757d80d25fe58fd",
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "1588594042976791",
@@ -78438,6 +78662,9 @@
         },
         "bodyText": {
           "method": "content_before_first_comment"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -78448,7 +78675,10 @@
       },
       "thin": false,
       "bodyText": "‘Dizziness, nausea, vertigo, and sleep disruption’: The undetectable hum of AI data centers is making local residents sick – imperceptible noise from cooling systems, backup generators, and gas turbines can be heard for miles\nTECHRADAR.COM ‘Dizziness, nausea, vertigo, and sleep disruption’: The undetectable hum of AI data centers is making local residents sick – imperceptible noise from cooling systems, backup generators, and gas turbines can be heard for miles",
-      "contentFingerprint": "23d31fc69410e73644163db463116c514cec663ec08e9330ca55cfceb51bace3"
+      "contentFingerprint": "23d31fc69410e73644163db463116c514cec663ec08e9330ca55cfceb51bace3",
+      "categories": [
+        "Data Centre"
+      ]
     },
     {
       "id": "1586875883148607",
@@ -79447,6 +79677,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -79461,7 +79694,10 @@
       "photos": [
         "media/facebook/1096351363065680/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "BESS"
+      ]
     },
     {
       "id": "1116470511053765",
@@ -79563,6 +79799,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -79577,7 +79816,10 @@
       "photos": [
         "media/facebook/1097247262976090/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "1097233952977421",
@@ -79592,6 +79834,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -79606,7 +79851,10 @@
       "photos": [
         "media/facebook/1097233952977421/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "OHL (Pylons)"
+      ]
     },
     {
       "id": "1115551564478993",
@@ -80010,6 +80258,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -80024,7 +80275,10 @@
       "photos": [
         "media/facebook/1101470972553719/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "OHL (Pylons)"
+      ]
     },
     {
       "id": "1100731332627683",
@@ -80039,6 +80293,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -80053,7 +80310,10 @@
       "photos": [
         "media/facebook/1100731332627683/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
     },
     {
       "id": "1100630515971098",
@@ -80422,6 +80682,9 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
@@ -80436,7 +80699,10 @@
       "photos": [
         "media/facebook/1991406624892744/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "categories": [
+        "OHL (Pylons)"
+      ]
     },
     {
       "id": "1988308191869254",
