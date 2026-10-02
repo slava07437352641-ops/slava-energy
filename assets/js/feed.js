@@ -288,6 +288,29 @@ function detailTextNote(record, hasMirror) {
     </div>`;
 }
 
+// Posts captured from 2 Oct 2026 carry record.links = [{text, url}]: the real address behind each URL shown in the post
+// (Facebook abbreviates long ones). Turn exactly those spans of the text into live links; everything else stays plain
+// text, and records without `links` (all older posts) render exactly as before.
+function linkifiedBody(record) {
+  const text = record.bodyText || "";
+  const links = Array.isArray(record.links) ? record.links.filter((l) => l && l.text && l.url) : [];
+  if (!links.length) return escapeHtml(text);
+  let out = "";
+  let i = 0;
+  while (i < text.length) {
+    let best = null;
+    for (const l of links) {
+      const at = text.indexOf(l.text, i);
+      if (at !== -1 && (best === null || at < best.at || (at === best.at && l.text.length > best.l.text.length))) best = { at, l };
+    }
+    if (!best) break;
+    out += escapeHtml(text.slice(i, best.at)) +
+      `<a href="${escapeHtml(safeUrl(best.l.url))}" target="_blank" rel="noopener noreferrer">${escapeHtml(best.l.text)}</a>`;
+    i = best.at + best.l.text.length;
+  }
+  return out + escapeHtml(text.slice(i));
+}
+
 export function renderDetail(panel, record, { onBack, hasMirror = false }) {
   panel.innerHTML = `
     <button class="pd-back" type="button">&larr; Back to results</button>
@@ -295,7 +318,7 @@ export function renderDetail(panel, record, { onBack, hasMirror = false }) {
       <div class="pd-detail-date">${fmtHeader(record.date)}</div>
       <h2>${escapeHtml(record.title)}</h2>
       ${detailPhotos(record)}
-      ${record.bodyText ? `<p class="pd-detail-body">${escapeHtml(record.bodyText)}</p>` : ""}
+      ${record.bodyText ? `<p class="pd-detail-body">${linkifiedBody(record)}</p>` : ""}
       ${record.summary ? `<p class="pd-detail-summary">${escapeHtml(record.summary)}</p>` : ""}
       ${detailTextNote(record, hasMirror)}
       <div class="pd-card-meta">

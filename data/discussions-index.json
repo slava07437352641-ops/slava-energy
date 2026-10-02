@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-02T11:45:15.000Z",
+  "generated": "2026-10-02T12:00:31.000Z",
   "counts": {
     "records": 3423,
     "thin": 320,
@@ -84304,7 +84304,13 @@
       "photos": [
         "media/facebook/29531366753132339/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://watt-logic.com/2026/10/01/us-diesel-export-ban/",
+          "url": "https://watt-logic.com/2026/10/01/us-diesel-export-ban/"
+        }
+      ]
     },
     {
       "id": "1815286192844961",
@@ -84537,7 +84543,13 @@
       "photos": [
         "media/facebook/1815349216171992/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://naturalengland.blog.gov.uk/.../my-first-day-at.../",
+          "url": "https://naturalengland.blog.gov.uk/2026/10/01/my-first-day-at-natural-england-sustainable-development-for-people-and-nature/"
+        }
+      ]
     },
     {
       "id": "1100205989075849",
@@ -84566,7 +84578,17 @@
       "photos": [
         "media/facebook/1100205989075849/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://www.highland.gov.uk/.../south-planning.../4",
+          "url": "https://www.highland.gov.uk/councillors-committees/south-planning-applications-committee-wards-11-21/4"
+        },
+        {
+          "text": "https://www.highland.gov.uk/councillors",
+          "url": "https://www.highland.gov.uk/councillors"
+        }
+      ]
     },
     {
       "id": "1440937214837377",
