@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-02T12:00:31.000Z",
+  "generated": "2026-10-02T17:57:26.000Z",
   "sourceFilter": [
     "Scotland Against Spin",
     "Environmentalists Against Wind Turbines",
@@ -66,6 +66,12 @@
       "mediaCount": 1,
       "categories": [
         "Data Centre"
+      ],
+      "links": [
+        {
+          "text": "THEGUARDIAN.COM Recent lobbyist for Palantir had key role in helping Andy Burnham become PM",
+          "url": "https://www.theguardian.com/technology/2026/oct/02/lobbyist-palantir-martha-dalton-andy-burnham"
+        }
       ]
     },
     {
@@ -175,6 +181,12 @@
       "mediaCount": 1,
       "categories": [
         "OHL (Pylons)"
+      ],
+      "links": [
+        {
+          "text": "THENATIONAL.SCOT Highland activists hit out at Andy Burnham’s GB Grid plan",
+          "url": "https://www.thenational.scot/news/26599406.highland-activists-hit-andy-burnhams-gb-grid-plan/"
+        }
       ]
     },
     {
@@ -309,7 +321,13 @@
       "photos": [
         "media/facebook/29532071919728489/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "ENERGYVOICE.COM SSE hires 87 graduates for jobs across Scotland",
+          "url": "https://www.energyvoice.com/renewables-energy-transition/grid-retail/604630/sse-hires-87-graduates-for-jobs-across-scotland/"
+        }
+      ]
     },
     {
       "id": "1815286192844961",
@@ -375,6 +393,10 @@
       ],
       "mediaCount": 1,
       "links": [
+        {
+          "text": "WATT-LOGIC.COM Will the US ban diesel exports? - Watt-Logic",
+          "url": "https://watt-logic.com/2026/10/01/us-diesel-export-ban/"
+        },
         {
           "text": "https://watt-logic.com/2026/10/01/us-diesel-export-ban/",
           "url": "https://watt-logic.com/2026/10/01/us-diesel-export-ban/"

@@ -1,7 +1,7 @@
 // Bootstrap for the Public objections & discussions dashboard (Pilot v0.1).
 import { readState, writeState } from "./url-state.js?v=20260926b";
 import { applyAll, facetCounts, tokenize, FACETS, TECH_CATEGORIES } from "./filters.js?v=20260926b";
-import { renderFeed, renderDetail, renderMirror } from "./feed.js?v=20261002a";
+import { renderFeed, renderDetail, renderMirror } from "./feed.js?v=20261002b";
 
 // Must match news.js's NEWS_PANEL_LIMIT -- kept as a separate constant
 // rather than a cross-module import so this file never depends on
@@ -111,6 +111,16 @@ async function init() {
     savedRange = els.range.value;
     batchLimit = BATCH_SIZE;
     apply();
+  });
+
+  // The Recent Posts panel (news.js) asks for a post by id. Open it through the same path as a click in the list, so it
+  // is marked as selected and gets its own address (?sel=<id>) in the address bar there too.
+  document.addEventListener("pd:open-post", (e) => {
+    const id = e.detail && e.detail.id;
+    if (id && ALL.some((r) => r.id === id)) {
+      e.preventDefault();
+      select(id);
+    }
   });
 
   buildTechChips();

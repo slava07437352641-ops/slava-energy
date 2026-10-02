@@ -189,6 +189,10 @@ body.pd-showing-detail .pd-detail-panel { display: block; }
 .pd-detail-source { font-size: 0.82rem; margin-top: 14px; }
 .pd-detail-source a, .pd-detail-links a { color: var(--accent-terracotta); }
 .pd-detail-links { font-size: 0.78rem; color: var(--text-muted); margin-top: 6px; }
+.pd-detail-permalink { font-size: 0.8rem; color: var(--text-muted); margin-top: 10px; }
+.pd-permalink { color: var(--accent-terracotta); overflow-wrap: anywhere; }
+.pd-copylink { margin-left: 6px; background: none; border: 1px solid var(--card-border); border-radius: 8px; color: var(--accent-terracotta); font-weight: 700; font-size: 0.76rem; padding: 3px 10px; cursor: pointer; }
+.pd-copylink:hover { border-color: var(--accent-terracotta); }
 .pd-detail-note { font-size: 0.76rem; color: var(--text-muted); font-style: italic; margin-top: 18px; line-height: 1.5; }
 
 /* Nothing was captured for this post (no text, photo, or summary) -- a

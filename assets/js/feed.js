@@ -312,6 +312,9 @@ function linkifiedBody(record) {
 }
 
 export function renderDetail(panel, record, { onBack, hasMirror = false }) {
+  // Every post has its own permanent address: this page + ?sel=<post id> (url-state.js opens that post on load).
+  // Only `sel` is kept, so the link never carries the visitor's current search or filters.
+  const permalink = `${location.origin}${location.pathname}?sel=${encodeURIComponent(record.id)}`;
   panel.innerHTML = `
     <button class="pd-back" type="button">&larr; Back to results</button>
     <article class="pd-detail">
@@ -335,6 +338,11 @@ export function renderDetail(panel, record, { onBack, hasMirror = false }) {
         ${verificationLine(record)} &middot;
         <a href="${safeUrl(record.source.url)}" target="_blank" rel="noopener">View original post &#8599;</a>
       </div>
+      <div class="pd-detail-permalink">
+        Link to this post:
+        <a class="pd-permalink" href="${escapeHtml(permalink)}">${escapeHtml(permalink.replace(/^https?:\/\//, ""))}</a>
+        <button class="pd-copylink" type="button">Copy link</button>
+      </div>
       ${
         (record.externalLinks || []).length
           ? `<div class="pd-detail-links">Referenced: ${record.externalLinks
@@ -345,6 +353,22 @@ export function renderDetail(panel, record, { onBack, hasMirror = false }) {
       <div id="pd-mirror-slot"></div>
     </article>`;
   panel.querySelector(".pd-back").addEventListener("click", onBack);
+  const copyBtn = panel.querySelector(".pd-copylink");
+  copyBtn.addEventListener("click", async () => {
+    try {
+      await navigator.clipboard.writeText(permalink);
+      copyBtn.textContent = "Link copied";
+    } catch {
+      // Clipboard blocked: select the address so the visitor can copy it by hand.
+      const range = document.createRange();
+      range.selectNodeContents(panel.querySelector(".pd-permalink"));
+      const sel = window.getSelection();
+      sel.removeAllRanges();
+      sel.addRange(range);
+      copyBtn.textContent = "Press Ctrl/Cmd+C";
+    }
+    setTimeout(() => { copyBtn.textContent = "Copy link"; }, 2200);
+  });
 }
 
 // Renders a curated original-post mirror (data/mirror/<id>.json -- see
