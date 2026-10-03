@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-03T10:54:57.000Z",
+  "generated": "2026-10-03T15:24:26.000Z",
   "sourceFilter": [
     "Scotland Against Spin",
     "Environmentalists Against Wind Turbines",
@@ -20,19 +20,252 @@
   "selection": "strict global recency (most recent records first, across all tracked sources)",
   "counts": {
     "records": 18,
-    "Scotland Against Spin": 4,
-    "Scottish Electricity Generating Stations": 8,
-    "Environmentalists Against Wind Turbines": 1,
-    "Suffolk Energy Action Solutions (SEAS)": 1,
-    "Grampian Against Data Centres": 2,
+    "Not A Just Transition": 1,
+    "Environmentalists Against Wind Turbines": 2,
+    "Scottish Electricity Generating Stations": 7,
+    "Essex Suffolk Norfolk Pylons": 1,
+    "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)": 1,
     "Communities B4 Power Companies": 1,
-    "Worth Valley against Walshaw Moor Wind Farm": 1
+    "Scotland Against Spin": 4,
+    "Suffolk Energy Action Solutions (SEAS)": 1
   },
   "dateRange": {
     "from": "2026-10-02",
     "to": "2026-10-03"
   },
   "records": [
+    {
+      "id": "1110004428096772",
+      "date": "2026-10-03",
+      "title": "Not A Just Transition",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Not A Just Transition",
+        "label": "Facebook · Not A Just Transition",
+        "url": "https://www.facebook.com/groups/427061409724414/posts/1110004428096772/"
+      },
+      "thin": false,
+      "bodyText": "land\n        Italy bans ground-mounted solar panels on agricultural land, but includes major exceptions for agrivoltaics and EU-funded recovery projects.\nKey Details of the Ban\n• The Rule: The Italian government approved a decree-law stopping new conventional ground-mounted photovoltaic (PV) systems on land zoned as agricultural. It also prevents expanding existing ground installations on farmland.\n• The Goal: Agriculture Minister Francesco Lollobrigida stated the policy aims to stop the \"wild installation\" of solar panels and protect food production and productive rural land.\n• The Constitutional Status: Italy’s Constitutional Court upheld the legitimacy of the regional and national agricultural land restrictions, ruling that protecting farmland does not violate EU law or the constitution.\nMain Exemptions\nThe",
+      "contentFingerprint": "a799ca7ecc5522f6f2f9d32e79ea5622d30770822619da61a5d4ce8fa33705a4",
+      "photos": [
+        "media/facebook/1110004428096772/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Solar"
+      ]
+    },
+    {
+      "id": "28569121469407939",
+      "date": "2026-10-03",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/28569121469407939/"
+      },
+      "thin": false,
+      "bodyText": "COAST GUARD DUAL INVESTIGATIONS INCLUDING F/V MISTRESS BLOCK ISLAND\nOCTOBER 3, 2026\nhttps://www.windtaskforce.org/.../coast-guard-dual...\nThe Coast Guard is being asked to reopen the investigation of the F/V Mistress\nA wreck believed to be the F/V Mistress, which sank in 2019 with two fishermen lost, has been located about 50 feet from a Block Island Wind ocean turbine. The Coast Guard eventually closed its initial inquiry without locating the hull, declaring the wreck \"lost.\"\n.\nA privately funded underwater exploration, sponsored by the ocean advocacy nonprofit Green Oceans, located the vessel in a \"targeted\" dive. Divers documented what are strongly presumed to be human remains near the trawler's wheelhouse.\n.\nBelow are two US Coast Guard MH-60 Jayhawk helicopter rescue attempts in similar situations.\n.\nThe first failed attempt at the Block Island wind turbines on January 1, 2019.\n.\nThe second was a successful attempt 60 miles off the coast of Maine on November 14, 2018\n.\nThe difference between the two rescue attempts is that Block Island has five 600-foot turbines, including the blades.\n.\n--------------------------------------------------------------------------\n--------------------------------------------------------------------------------\nFailed Rescue 2019\n.\nCoast Guard searches for 2 missing fishermen near Block Island, RI - not found\n.\nBlock Island Wind Farm Rescue Attempt: January 1, 2019 F/V Mistress\n.\nAn MH-60 Jayhawk helicopter crew from Air Station Cape Cod arrived on scene. It began searching but encountered low visibility and unsafe weather conditions and, after 37 minutes, was forced to return to base.\nA 45-foot response boat from Station Point Judith also launched but was forced to turn around due to weather.\nWind speeds: 30 knots (around 35 mph)\n.\nCoast Guard Report:\nhttps://content.govdelivery.com/.../USD.../bulletins/225ad4b\n'\nThere is no publicly available helicopter video of the Coast Guard's attempt to rescue the F/V Mistress.\n------------------------------------------------------------------------------------------\n------------------------------------------------------------------------------------------\nSuccessful Rescue 2018\n.\nCoast Guard rescues 4 fishermen 60 miles off Maine coast\nAn HC-144 Ocean Sentry aircraft and an MH-60 Jayhawk helicopter were used in the search\nU.S. Coast Guard bulletin at 11/14/2018 05:48 PM EST\n.\n20-foot waves\nCoast Guard Report\nhttps://content.govdelivery.com/.../USD.../bulletins/21b7672\n.\nVideo of rescue: copy and paste into browser\nhttps://www.dvidshub.net/.../coast-guard-rescues-4...",
+      "contentFingerprint": "40e8f7fe2ba282b8c23919bcfeb0ca34bb82370831ed307238448e938c554c17",
+      "photos": [
+        "media/facebook/28569121469407939/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://www.windtaskforce.org/.../coast-guard-dual...",
+          "url": "https://www.windtaskforce.org/profiles/blogs/coast-guard-dual-investigations-including-f-v-mistress-block"
+        },
+        {
+          "text": "https://content.govdelivery.com/.../USD.../bulletins/225ad4b",
+          "url": "https://content.govdelivery.com/accounts/USDHSCG/bulletins/225ad4b"
+        },
+        {
+          "text": "https://content.govdelivery.com/.../USD.../bulletins/21b7672",
+          "url": "https://content.govdelivery.com/accounts/USDHSCG/bulletins/21b7672"
+        },
+        {
+          "text": "https://www.dvidshub.net/.../coast-guard-rescues-4...",
+          "url": "https://www.dvidshub.net/video/640450/coast-guard-rescues-4-fishermen-60-miles-off-maine-coast"
+        }
+      ],
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "1392889173003324",
+      "date": "2026-10-03",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1392889173003324/"
+      },
+      "thin": false,
+      "bodyText": "CONON VALLEY HYDRO ELECTRIC SCHEME, VAICH DAM,\nWilliamson and Partners (engineers for North of Scotland Hydro Electric Board technical panel), 1957. Large turfed rubble dam with control tower to left (W) and 2 large spill towers near to upstream face. Mass rubble fill to downstream face with turf over; coursed random rubble to upstream face; concrete piers and walls to spill towers. Battered downstream face with concrete parapet to top. Additional concrete weirs and lined spillway channel adjacent to downstream face.\nVaich Dam is an excellent example of the innovation in dam design in response to local conditions and materials by the North of Scotland Hydro Electric Board (NoSHEB) during their development of hydro electric schemes in the Highlands. It provides key storage capacity for Conon Valley hydro electric scheme, which is one of the major post-war hydro electric developments by the North of Scotland Hydro Electric Board (NoSHEB). The dam is technically unusual, constructed predominantly from rubble fill, either side of a vertical concrete wall which is waterproof. As a consequence the dam cannot spill in the conventional manner as this would erode the downstream face, so large spill towers have been constructed adjacent to the upstream face, acting like large drains to allow water to spill into them and exit to the downstream side of the dam when water levels are high. The use of rubble fill instead of mass concrete saved a significant outlay in both time and money during the construction of the dam, which was consequently able to use tunnel spoil from the nearby shaft dug through to Glascarnoch Dam for the bulk of construction.\nConon Valley was one of a large number of schemes developed in Scotland by the North of Scotland Hydro Electric Board (NoSHEB), formed after 1943 as a nationalised body to oversee the development of Scotland's resources for water power. The scheme played a key role in the realisation of the social agenda of NoSHEB by providing power to a remote community. Power generated on schemes in the southern Highlands, such as Tummel was exported via the grid to the central belt, the profit from which subsidised the provision of power to remote north Highland communities and stimulated economic regeneration. Under the leadership of eminent chairman Sir Tom Johnston the board undertook developments throughout Highland Scotland and his aspirations saw the development of schemes in locations such as Loch Dubh near Ullapool and Storr Lochs on Skye. Johnstone's social aspirations and wider wishes to reinvigorate the economy of the Highlands ensured that schemes in remote areas formed a key part of the NoSHEB development plan.\nAll of the developments carried out by NoSHEB were subject to parliamentary approval and objections on the grounds of scenic amenity were common. In order to meet these objections the board appointed a panel of architectural advisers which included Reginald Fairlie (1883-1952), James Shearer (1881-1962) and Harold Ogle Tarbolton (1869-1947), appointed in 1943. Initially the role of the panel was to adjudicate on competition entries for designs, but by 1947 it had become one of designers. The panel had little control over the functional form of the buildings, as they left this to engineers, but they did influence the appearance and the style of the designs. The rigid views on the roles of engineers and architects during the design process resulted in the development of a style which can be characterised as vernacular modernism. This style is characteristic of many NoSHEB buildings and is a direct product of the strict role which engineers and architects played in the design process and of the increasing desire to harmonise buildings with the landscape.\nThe design of Vaich Dam is typical of Williamson and Partners approach, with an innovative solution designed specifically to suit the requirements of a particular site. Their design allowed for the use of local materials and minimised the need for concrete thus saving significant amounts of time and labour in building a concrete batching plant and bringing materials to site. Williamson was a prominent engineer who specialised in the design of dams following his work on the Galloway Hydro Electric scheme, in the 1930s. He acted as one of the chief engineering advisors to NoSHEB and was the lead engineer for a number of schemes. Following his death in 1953 Williamson and Partners continued in the role as engineering advisors to NoSHEB building on the expertise developed during their long association with the development of hydro power.\nVaich Power Station is located at the end of the tunnel feeding Loch Glascarnoch.",
+      "contentFingerprint": "c66845219be9a27042b1171662003cf96aa967d099012f03e983750475be30ba",
+      "photos": [
+        "media/facebook/1392889173003324/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1816360546070859",
+      "date": "2026-10-03",
+      "title": "Essex Suffolk Norfolk Pylons",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Essex Suffolk Norfolk Pylons",
+        "label": "Facebook · Essex Suffolk Norfolk Pylons",
+        "url": "https://www.facebook.com/groups/pylonseastanglia/posts/1816360546070859/"
+      },
+      "thin": false,
+      "bodyText": "Just thought I'd say what our own situation is at present. Our property includes 2 acres through which the drive to our house runs. NG will demolish all the trees/bushes we've grown over the last 40 years. The site is undulating and there is a water course one side and a high-pressure gas main the other, but NG have never said exactly how they're going to deal with the difficult terrain. Their draft Heads of Terms doesn't treat our property as residential and contains errors in measurements.\nNG won't guarantee to keep our drive open and available for us to get to and from our house. Further, we are likely to get power cuts due to an electricity cable passing over the land and UK Power Networks won't agree to supply us with a generator. The power cuts will render us incommunicado because the nearby mobile telephone mast was removed earlier this year and we are reliant on wifi calling which is reliant on our router which is reliant on electricity.\nSo we will have no legal vehicular or pedestrian access to our house and at times no telephone contact with the outside world. To go anywhere or get a mobile phone signal we’d be forced to climb though thorn hedges and trespass some distance on foot over other people’s land.\nSo basically we’re up s*** creek!",
+      "contentFingerprint": "c93f6612cad01284398e9418da4b25ce9ee6e6103bb18249ff7cf9653591dc83",
+      "photos": [
+        "media/facebook/1816360546070859/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1441789308085501",
+      "date": "2026-10-03",
+      "title": "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
+        "label": "Facebook · Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
+        "url": "https://www.facebook.com/groups/1367957378802028/posts/1441789308085501/"
+      },
+      "thin": false,
+      "bodyText": "Data centres are 'essential infrastructure' my arse.\nUnless mass surveillance is essential infrastructure, I don't think so. Where is the consent? Where is the social contract? Where is democracy?\nEllison, The Blair Institute's biggest donor.\n'While the systems are ostensibly used to maintain security and public safety, the real aim is often social control. Larry Ellison, CEO of Oracle – a powerful tech giant that works closely with the Trump administration – has said: “Citizens will be on their best behavior because we’re constantly recording and reporting.” The chilling effects are the point.'\nEllison also said at the world government conference in Dubai last year we need to digitalise and integrate NHS data to optimise its potential. To run AI and train models on.\nThis government said we need mass data centre build out in the UK for health data and defence. Normal storage of electronic records doesn't need massive data centres. It uses the existing cloud storage fine. Only AI training models need mass data build out.\nSo you want data centres for exploiting our health data and mass population surveillance which is being called 'defence'. Er no thanks.\nTHEGUARDIAN.COM AI surveillance is being supercharged – and it will chill social progress | Bruce Schneier and Jon Penney",
+      "contentFingerprint": "76d822f44ac4e572edc8edc7e9936c1cef718e63f64766b1ebd60c76493aa61b",
+      "photos": [
+        "media/facebook/1441789308085501/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "THEGUARDIAN.COM AI surveillance is being supercharged – and it will chill social progress | Bruce Schneier and Jon Penney",
+          "url": "https://www.theguardian.com/commentisfree/2026/jul/06/ai-surveillance-policy"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1101134415649673",
+      "date": "2026-10-03",
+      "title": "Communities B4 Power Companies",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Communities B4 Power Companies",
+        "label": "Facebook · Communities B4 Power Companies",
+        "url": "https://www.facebook.com/groups/221782186918238/posts/1101134415649673/"
+      },
+      "thin": false,
+      "bodyText": "https://www.farminguk.com/.../farmer-escapes-injury-after...\nFARMINGUK.COM Farmer escapes injury after autosteer crash into pylon - FarmingUK News",
+      "contentFingerprint": "214a018ce2f248dc5fa0805ac9b23a9be86e5b1bd46a81726e7ddadc5f7425a0",
+      "photos": [
+        "media/facebook/1101134415649673/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://www.farminguk.com/.../farmer-escapes-injury-after...",
+          "url": "https://www.farminguk.com/news/farmer-escapes-injury-after-autosteer-crash-into-pylon_51691.html"
+        },
+        {
+          "text": "FARMINGUK.COM Farmer escapes injury after autosteer crash into pylon - FarmingUK News",
+          "url": "https://www.farminguk.com/news/farmer-escapes-injury-after-autosteer-crash-into-pylon_51691.html"
+        }
+      ],
+      "categories": [
+        "OHL (Pylons)"
+      ]
+    },
     {
       "id": "29545265911742423",
       "date": "2026-10-03",
@@ -434,202 +667,6 @@
       "categories": [
         "Onshore Wind"
       ]
-    },
-    {
-      "id": "1618756193293909",
-      "date": "2026-10-02",
-      "title": "Grampian Against Data Centres",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Grampian Against Data Centres",
-        "label": "Facebook · Grampian Against Data Centres",
-        "url": "https://www.facebook.com/groups/1517407306762132/posts/1618756193293909/"
-      },
-      "thin": false,
-      "bodyText": "",
-      "contentFingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "photos": [
-        "media/facebook/1618756193293909/photo_1.png"
-      ],
-      "mediaCount": 1
-    },
-    {
-      "id": "1392067416418833",
-      "date": "2026-10-02",
-      "title": "Scottish Electricity Generating Stations",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Scottish Electricity Generating Stations",
-        "label": "Facebook · Scottish Electricity Generating Stations",
-        "url": "https://www.facebook.com/groups/443369301288654/posts/1392067416418833/"
-      },
-      "thin": false,
-      "bodyText": "ScottishPower Renewables are planning for turbine deliveries for the Arecleoch Windfarm Extension, to commence in mid-October 2026 and are expected to continue for around four months.\nDeliveries will be carried out under police escort along the route shown in the attached plan.\nEfforts are being made to minimise disruption and keep local communities informed throughout the delivery programme. Residents can find further details in the attached route map.",
-      "contentFingerprint": "76911fd24db0be2f20fc7a1faa9ebf74fb04a72f1b8872df12456e182514c28c",
-      "photos": [
-        "media/facebook/1392067416418833/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "categories": [
-        "Onshore Wind"
-      ]
-    },
-    {
-      "id": "1392056679753240",
-      "date": "2026-10-02",
-      "title": "Scottish Electricity Generating Stations",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Scottish Electricity Generating Stations",
-        "label": "Facebook · Scottish Electricity Generating Stations",
-        "url": "https://www.facebook.com/groups/443369301288654/posts/1392056679753240/"
-      },
-      "thin": false,
-      "bodyText": "Clatteringshaws Dam was built in the early 1930s as part of the Galloway Hydro-Electric Scheme. Its main job was to hold back water from the River Dee and send it through a tunnel nearly two miles long to Glenlee Power Station, where it drops almost 380 feet before driving the turbines. The dam is made of solid concrete and curves gently across the valley, designed not just for strength but to sit well in the landscape. It was built from the upstream side using steam cranes on rails, with concrete mixed on site.\nThe work was carried out by James Williamson, with Sir Alexander Gibb as consulting engineer and Merz and McLellan handling the electrical design. Around 1,500 men were employed across the whole scheme during peak construction. The total cost of the entire Galloway Hydro-Electric Scheme was about £3M, which made it one of the most cost-effective hydro projects in Britain at the time.\nBefore the loch was formed, the area now under water was known as Raploch Moss, a deep, peaty moor where the River Dee wandered through deep channels. It was quiet land, rich in natural history and memory. In 1307, Robert the Bruce fought and won a battle here against English forces. The original Bruce’s Stone, marking the spot where he is said to have rested after the fight, stood on the moss itself. When the dam was built and the loch rose, the stone was submerged. A new memorial was placed on the shore near the visitor centre, where it still stands today.\nClatteringshaws is the largest dam in the scheme and holds back millions of gallons of water. Its foundations were driven twenty feet into solid granite, and the control tower still stands watch over the loch. Though the visitor centre is now closed, the path to Bruce’s Stone remains, leading through a landscape shaped by both legend and engineering.— at Clatteringshaws Dam.",
-      "contentFingerprint": "0d5813e26b5d8b79cde8110d91bdf6d274e6adc13a64ed8c7a6337d91dc790d6",
-      "photos": [
-        "media/facebook/1392056679753240/photo_1.png"
-      ],
-      "mediaCount": 1
-    },
-    {
-      "id": "1100496922380089",
-      "date": "2026-10-02",
-      "title": "Communities B4 Power Companies",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Communities B4 Power Companies",
-        "label": "Facebook · Communities B4 Power Companies",
-        "url": "https://www.facebook.com/groups/221782186918238/posts/1100496922380089/"
-      },
-      "thin": false,
-      "bodyText": "Remember the saga of SSEN wanting to use our steep, twisting glen road, past a primary school, to bring construction traffic for ground investigation works? \nThey wrote to use with a few days notice of when we shouldn't be using our own road. \nWe pounced and stopped them.\nA little bird has told me that they had already given a contractor the job of hacking down our trees to facilitate them bringing their industrial garbage up here. He has now been told the job's not a good 'un and isn't happy - allegedly. \nAnd the landowner who had agreed for them to use their access providing they strengthened a bridge, now has a pile of dumped aggregate because they aren't doing that job for them now. This is the same landowner who has TWICE tried to get a wind farm here despite being told by the community it wasn't wanted. \nWhy aren't these landowners more community spirited? \nWhy must they wring every corporate penny they can out of the environment? Why don't they talk to the people whose lives they want to affect forever?",
-      "contentFingerprint": "6c0f9ca42bc6a4f05da1f221e530dbdbc3361eff492b4169b38d4e0357d375f2",
-      "photos": [
-        "media/facebook/1100496922380089/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "categories": [
-        "Onshore Wind"
-      ]
-    },
-    {
-      "id": "1401736818198425",
-      "date": "2026-10-02",
-      "title": "Worth Valley against Walshaw Moor Wind Farm",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Worth Valley against Walshaw Moor Wind Farm",
-        "label": "Facebook · Worth Valley against Walshaw Moor Wind Farm",
-        "url": "https://www.facebook.com/groups/735756034796510/posts/1401736818198425/"
-      },
-      "thin": false,
-      "bodyText": "FREE GARDEN BOARDS, BANNERS, CAR STICKERS, WINDOW STICKERS AND BASEBALL CAPS!\nA kind person has covered the cost of our current stock of garden boards, banners, car stickers, window stickers and baseball caps. If you would like something please go to our form here https://form.typeform.com/to/GvsXrdNm and complete it, IGNORING THE PRICES!\nWe are still selling our great t-shirts, hoodies and tote bags at COST PRICE here: https://stop-calderdale-energy-park.teemill.com/",
-      "contentFingerprint": "00b02ecd30457d642bfa41fff83264d2c57b39419eaa7e86e3fbc5dd7531d539",
-      "photos": [
-        "media/facebook/1401736818198425/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "links": [
-        {
-          "text": "https://form.typeform.com/to/GvsXrdNm",
-          "url": "https://form.typeform.com/to/GvsXrdNm"
-        },
-        {
-          "text": "https://stop-calderdale-energy-park.teemill.com/",
-          "url": "https://stop-calderdale-energy-park.teemill.com/"
-        }
-      ]
-    },
-    {
-      "id": "1618581736644688",
-      "date": "2026-10-02",
-      "title": "Grampian Against Data Centres",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Grampian Against Data Centres",
-        "label": "Facebook · Grampian Against Data Centres",
-        "url": "https://www.facebook.com/groups/1517407306762132/posts/1618581736644688/"
-      },
-      "thin": false,
-      "bodyText": "Hello everyone\nFor the past wee while I have been experiencing a reduction in the amount of heat I am getting in my rooms and the amount of hot water I am getting, before it starts to run cold.   \nWhen I turn on the central heating it no longer stays on for hours and feels as warm as it should, it only stays at the constant temperature for a couple of minutes before it starts feeling it is cooling down again.  The gas boiler engineer was at my flat yesterday due to my boiler experiencing low pressure.  He fixed that but I am still experiencing these issues.\nAre these signs of the fuel shortages we are always being told are coming?    Are we going to tolerate living in increasingly cold properties now with less hot water available, which is needed for so many things.\nCan people comment on this and let me know if this is an issue I individually am experiencing, or if anyone else is experiencing these things now.",
-      "contentFingerprint": "5e646bca5a51b8cbe3091b66dcb6373289dc7726979ea786324a58d162918818",
-      "photos": [
-        "media/facebook/1618581736644688/photo_1.png"
-      ],
-      "mediaCount": 1
     }
   ]
 }
