@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-02T18:06:21.000Z",
+  "generated": "2026-10-03T09:56:25.000Z",
   "sourceFilter": [
     "Scotland Against Spin",
     "Environmentalists Against Wind Turbines",
@@ -19,65 +19,23 @@
   "selection": "strict global recency (most recent records first, across all tracked sources)",
   "counts": {
     "records": 18,
-    "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)": 1,
-    "Communities B4 Power Companies": 2,
-    "Essex Suffolk Norfolk Pylons": 2,
-    "Scotland Against Spin": 5,
-    "Environmentalists Against Wind Turbines": 3,
-    "Scottish Electricity Generating Stations": 3,
-    "Grampian Against Data Centres": 1,
+    "Scotland Against Spin": 4,
+    "Scottish Electricity Generating Stations": 8,
+    "Environmentalists Against Wind Turbines": 1,
+    "Suffolk Energy Action Solutions (SEAS)": 1,
+    "Grampian Against Data Centres": 2,
+    "Communities B4 Power Companies": 1,
     "Worth Valley against Walshaw Moor Wind Farm": 1
   },
   "dateRange": {
-    "from": "2026-10-01",
-    "to": "2026-10-02"
+    "from": "2026-10-02",
+    "to": "2026-10-03"
   },
   "records": [
     {
-      "id": "1440937214837377",
-      "date": "2026-10-02",
-      "title": "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
-        "label": "Facebook · Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
-        "url": "https://www.facebook.com/groups/1367957378802028/posts/1440937214837377/"
-      },
-      "thin": false,
-      "bodyText": "We need an end to tech billionaires lobbying our government and CIA linked Palantir having defence and NHS data contracts. We need tech sovereignty with a new public internet server, not dependent on US surveillance monster Google. The UK should rejoin the EU, who have better data privacy and who have expressed a wish for a public owned tech sector of independent internet, cloud services, etc to give tech sovereignty, and lead on a new European alternative publicly owned tech sector with strict data privacy law at the heart of it to stop the mass surveillance operation the UK tech oligarchs have imposed on the internet users of the world.\nWe need a moratorium on hyper scaling, the massive data centres the tech companies insist we need for their large language models eg ChatGPT, but whose finances are shaky, opaque and circular and whose product has an unproven business case. These massive data centres should not have essential infrastructure planning status in the UK. There is no evidence they are essential infrastructure and plenty of evidence to the contrary. Our limited grid connections should be prioritised for the green energy projects we need for energy sovereignty and lower bills and not given over to these hyper scale data centres that will destroy the environment. We need a moratorium on all new hyper scale data centres in the UK and an independent review to produce a UK Sovereign Data Strategy.\nOur country needs the undue influence of tech oligarchs out of our politics. We do not want to head down the route of the US where Trump is in the pocket of the tech oligarchs.\nReform is bank rolled by crypto and has Palantir's Thiel grooming his future leaders by James Orr (Cambridge University).\nClean up politics. Get the tech billionaires influence out of it and take back control.\nTHEGUARDIAN.COM Recent lobbyist for Palantir had key role in helping Andy Burnham become PM",
-      "contentFingerprint": "226f7f42068bd096d49041e716585b18962f8df614372b8571fdc9742cdea06c",
-      "photos": [
-        "media/facebook/1440937214837377/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "categories": [
-        "Data Centre"
-      ],
-      "links": [
-        {
-          "text": "THEGUARDIAN.COM Recent lobbyist for Palantir had key role in helping Andy Burnham become PM",
-          "url": "https://www.theguardian.com/technology/2026/oct/02/lobbyist-palantir-martha-dalton-andy-burnham"
-        }
-      ]
-    },
-    {
-      "id": "1100205989075849",
-      "date": "2026-10-02",
-      "title": "Communities B4 Power Companies",
+      "id": "29545265911742423",
+      "date": "2026-10-03",
+      "title": "Scotland Against Spin",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -91,32 +49,28 @@
       },
       "source": {
         "type": "facebook_group",
-        "name": "Communities B4 Power Companies",
-        "label": "Facebook · Communities B4 Power Companies",
-        "url": "https://www.facebook.com/groups/221782186918238/posts/1100205989075849/"
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29545265911742423/"
       },
       "thin": false,
-      "bodyText": "You may wish to highlight your concerns on the GEE application  to the South Planning Applications Committee members. The list of who sits on the committee and will thus consider the application next week, can be found at:\nhttps://www.highland.gov.uk/.../south-planning.../4\nContact details for all councillors is available at:\nhttps://www.highland.gov.uk/councillors\nWhilst we hope they will listen, consider and represent the significant concerns of their local communities......there is no harm in encouraging them!",
-      "contentFingerprint": "ad806045e34469fe68b2eb3c333c6069b3476e8d610397d584d5c3547198551c",
+      "bodyText": "A POWERFUL union boss has warned that the energy ministry is becoming ‘the department for P45s’ due to jobs being lost to Net Zero.\nGary Smith, the head of the GMB union, launched a scathing attack on the Government’s policy, which he said was closing factories and driving workingclass voters to Reform UK.\nAt Labour’s party conference he warned ‘economics, engineering and the electorate’ would ‘put paid to’ Labour’s energy agenda; and that renewables had to be backed up by gas when ‘the wind didn’t blow and the sun didn’t shine’.\nIn a withering critique of the Government’s energy policy, Mr Smith told a Tony Blair Institute event: ‘Our members who work in manufacturing in the Midlands are not against Net Zero or technology. But they are against what is happening to them with this energy policy because it is closing factories.\nPRESSREADER.COM Net Zero is des­troy­ing jobs, union boss warns | Scottish Daily Mail",
+      "contentFingerprint": "19b12920dbdc74daa9050525ad2bd69f3c9d83169f520f81cacf3952e02ce5e7",
       "photos": [
-        "media/facebook/1100205989075849/photo_1.png"
+        "media/facebook/29545265911742423/photo_1.png"
       ],
       "mediaCount": 1,
       "links": [
         {
-          "text": "https://www.highland.gov.uk/.../south-planning.../4",
-          "url": "https://www.highland.gov.uk/councillors-committees/south-planning-applications-committee-wards-11-21/4"
-        },
-        {
-          "text": "https://www.highland.gov.uk/councillors",
-          "url": "https://www.highland.gov.uk/councillors"
+          "text": "PRESSREADER.COM Net Zero is des­troy­ing jobs, union boss warns | Scottish Daily Mail",
+          "url": "https://pressreader.com/article/281552297796836"
         }
       ]
     },
     {
-      "id": "1815349216171992",
-      "date": "2026-10-02",
-      "title": "Essex Suffolk Norfolk Pylons",
+      "id": "29545130325089315",
+      "date": "2026-10-03",
+      "title": "Scotland Against Spin",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -130,27 +84,21 @@
       },
       "source": {
         "type": "facebook_group",
-        "name": "Essex Suffolk Norfolk Pylons",
-        "label": "Facebook · Essex Suffolk Norfolk Pylons",
-        "url": "https://www.facebook.com/groups/pylonseastanglia/posts/1815349216171992/"
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29545130325089315/"
       },
       "thin": false,
-      "bodyText": "Today we welcome Neil Hornby as Chief Executive of Natural England.\nIn his first blog, Neil sets out a clear vision: a Natural England that continues to be ambitious for nature recovery, grounded in science and evidence, and focused on working in partnership to support growth, health and security.\nFrom strategic planning to landscape-scale nature recovery, Neil highlights the opportunity to achieve better outcomes for both people and nature.\nRead his first reflections and priorities for the months ahead: https://naturalengland.blog.gov.uk/.../my-first-day-at.../",
-      "contentFingerprint": "d9b47b157d5f3b4d74e94340db50c84bc4e1b4613d32cda903e8d13f7ef77d99",
+      "bodyText": "Herald letters\nWE face the worst financial crisis ever, with energy costs forecast to rise a further 16% in January. On top of diesel rising to over £2 per litre, many more families will move into energy poverty status, unable to pay bills. Under these extreme circumstances, we should approve all gas and oil development applications in the North Sea, to increase our self-sufficiency.\nAlso, winter fuel payments should increase by at least 200%.\nDennis Forbes Grattan, Aberdeen.",
+      "contentFingerprint": "eaba59c9f202d68627710c2dbed972f44c59f27c0faf45eac404e9a71fd1bb5a",
       "photos": [
-        "media/facebook/1815349216171992/photo_1.png"
+        "media/facebook/29545130325089315/photo_1.png"
       ],
-      "mediaCount": 1,
-      "links": [
-        {
-          "text": "https://naturalengland.blog.gov.uk/.../my-first-day-at.../",
-          "url": "https://naturalengland.blog.gov.uk/2026/10/01/my-first-day-at-natural-england-sustainable-development-for-people-and-nature/"
-        }
-      ]
+      "mediaCount": 1
     },
     {
-      "id": "29532738716328476",
-      "date": "2026-10-02",
+      "id": "29540286818906999",
+      "date": "2026-10-03",
       "title": "Scotland Against Spin",
       "provenance": {
         "title": {
@@ -170,29 +118,23 @@
         "type": "facebook_group",
         "name": "Scotland Against Spin",
         "label": "Facebook · Scotland Against Spin",
-        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29532738716328476/"
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29540286818906999/"
       },
       "thin": false,
-      "bodyText": "ACTIVISTS battling massive pylon and transmission line developments across the Scottish Highlands – as well as expected huge incoming energy bills for homes and businesses – are challenging Prime Minister Andy Burnham’s new proposal for a UK Governmentcontrolled energy system called GB Grid. They demand a pause to projects and the launch of public inquiries.\n“The devil will be in the details,” said Dan Bailey of Highland-based Better Cable Route on Burnham’s Labour Conference announcement to establish the new body alongside GB Energy in Aberdeen to speed up grid connections and increase competition among private sector operators.\n“But we still hear far too little about the communities at the sharp end of the green transition,” Bailey added.\nBetter Cable Route relied on a September National Audit Office (NAO) report to describe what it termed “delays, chaos and secrecy”. This showed that some 64 of 88 grid projects won’t be delivered by the UK Government’s own 2030 clean power deadline. The National Electricity System Operator (Neso) dismissed such language as “misleading”.\nTHENATIONAL.SCOT Highland activists hit out at Andy Burnham’s GB Grid plan",
-      "contentFingerprint": "d35944b5f9a7f5baaf4a7e6a613ffb04221796eda83877cbe4ed7b55994e71be",
+      "bodyText": "Since the commencement of the Bess site at Cockenzie I haven’t seen the Buzzards , this Summer it’s really sad \n.",
+      "contentFingerprint": "2befd0297ee27e7c6b67aeea51a80b4ee5e8c97d2fdfda628858f2dfc23a25ff",
       "photos": [
-        "media/facebook/29532738716328476/photo_1.png"
+        "media/facebook/29540286818906999/photo_1.png"
       ],
       "mediaCount": 1,
       "categories": [
-        "OHL (Pylons)"
-      ],
-      "links": [
-        {
-          "text": "THENATIONAL.SCOT Highland activists hit out at Andy Burnham’s GB Grid plan",
-          "url": "https://www.thenational.scot/news/26599406.highland-activists-hit-andy-burnhams-gb-grid-plan/"
-        }
+        "BESS"
       ]
     },
     {
-      "id": "29532460939689587",
-      "date": "2026-10-02",
-      "title": "Scotland Against Spin",
+      "id": "1392396983052543",
+      "date": "2026-10-03",
+      "title": "Scottish Electricity Generating Stations",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -209,203 +151,24 @@
       },
       "source": {
         "type": "facebook_group",
-        "name": "Scotland Against Spin",
-        "label": "Facebook · Scotland Against Spin",
-        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29532460939689587/"
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1392396983052543/"
       },
       "thin": false,
-      "bodyText": "Herald letters\nTHIS has to be one of the biggest (and cruellest) jokes perpetrated on the population of Great Britain in recent times.\nOur country’s landscape and seascape have been desecrated by the construction of increasingly massive wind turbines, many of which do not operate for anything other than a fraction of the time they could be operational.\nThis is either because the wind\nisn’t blowing sufficiently or because there is no means of storing the output.\nHaving had our countryside desecrated, we’re asked to pay to compensate the generators of wind produced electricity for their production which cannot be used, and have to use electricity produced by burning gas, most of which is imported, as our governments refuse to sanction the drilling of our offshore gas reserves. The result is that British businesses and consumers pay the highest price in Europe for the electricity they consume. A cost which increased by 4% yesterday, and is forecast by Cornwall Insight to increase further by a huge 16% in January 2027.\nThe situation is, frankly, quite ridiculous and completely untenable.\nIt demonstrates how incapable our governments are of running the country sensibly.\nBob Hamilton, Strathaven, South Lanarkshire.",
-      "contentFingerprint": "3d95b3f497749120460be4f30ef249fde40a399edb4e899e39bef77940914e8b",
+      "bodyText": "Revera Energy's Hunterston battery storage project reached financial close on 24 September 2026 as a 400 MW/800 MWh non-recourse deal backed by four banks and anchored by bp and Danske Commodities, revealing the five-pillar financing template now defining bankable UK large-scale BESS.\nThe senior debt came from Santander, Barclays, Commonwealth Bank of Australia and NatWest, on a non-recourse basis, with bp and Danske Commodities underpinning the revenue side of the structure.\nA close of this scale carries weight in the current UK energy picture. Scotland is deploying large-scale battery storage faster than almost anywhere else in Britain, driven by a grid that needs more flexibility as wind capacity climbs, and a 400 MW/800 MWh transmission-connected asset reaching close on structured offtake tells you something concrete about how far lender appetite for merchant storage has moved.\nThe Hunterston battery storage project in North Ayrshire, roughly 50 km south-west of Glasgow. At full output it can discharge for two hours, and it connects directly to the transmission network rather than the local distribution grid.\nThe final investment decision came in June 2026. Financial close followed three months later, and a notice to proceed went out immediately, meaning construction has already begun on site.\nConstruction now underway. Commercial operations targeted for Q3 2028.\nThe composition of that lending group is the read for anyone tracking the sector. When four separate institutional lenders will syndicate non-recourse debt against a single battery asset, it signals that structured storage has crossed from speculative bet into a financing class banks treat as genuinely bankable infrastructure. \nA non-recourse structure only works if the revenue risk has been dealt with elsewhere. \nOn Hunterston, two commercial arrangements do that heavy lifting, and understanding them is the difference between reading this as an announcement and reading it as a template.\nStart with bp. Under a long-term tolling structure, bp takes on responsibility for optimising the battery and carries the exposure to wholesale and ancillary-service prices. In effect, bp pays for the right to use the asset’s capacity while absorbing the volatility of the merchant market.\nThat shifts a large slice of price risk off the project company and onto a highly rated counterparty. Lenders can then size their debt against relatively stable contracted revenue rather than against income that swings with the power market.\nThen comes Danske Commodities, which handles optimisation and trading under a long-term revenue-floor arrangement. A revenue floor guarantees a minimum level of income over a set period, with any upside shared between the project and the optimiser.\nThe floor narrows the range of possible cash-flow outcomes. That lets the banks model debt-service coverage with more confidence, because even if wholesale arbitrage underperforms, a contracted minimum still services the debt.\nGrasping how battery storage earns money across Dynamic Containment, the Balancing Mechanism, wholesale arbitrage and Capacity Market payments is the foundation for reading why a revenue floor and tolling structure carry so much weight with lenders evaluating debt-service coverage.\nTwo more parties complete the picture. Sungrow supplies the battery units and provides long-term servicing, taking on technology and performance risk under warranty. OCU Group acts as balance-of-plant contractor and long-term operations and maintenance provider.\nDanske Commodities Optimisation and trading, revenue-floor arrangement Downside revenue risk via contracted floor\nSungrow Battery supply and long-term servicing , Technology and performance risk\nOCU Group Balance-of-plant contractor and O&M Construction and operational risk\nThe financing logic Each risk sits with the party best placed to manage it: market risk with the trader and the energy major, technology risk with the OEM, construction and operational risk with the contractor. The project does not depend on any single revenue channel being right.\nThat is the point for anyone assessing other BESS deals. If wholesale arbitrage disappoints, the floor holds the debt; the tolling-plus-floor combination is what moved four banks to lend. It gives you a checklist for judging whether the next project has the contractual architecture lenders actually require.\nHunterston does not stand alone. It is the second of Revera’s UK transmission-connected battery projects to reach financial close in 2026, following Windyhill, a 200 MW/400 MWh system at Bearsden near Glasgow that closed in February 2026.\nA third project is already queued. Kincardine, a 400 MW/800 MWh system in Fife, is targeting construction start in Q1 2027.\nBehind that cadence sits Carlyle Group, the institutional equity backer for the portfolio. Carlyle’s involvement is why the capital keeps flowing at this pace, and it explains how Revera can run multiple large projects through development, financing and construction in parallel rather than one at a time.\nPlatform-scale BESS investment is not unique to Scotland: France is deploying a comparable portfolio-aggregation model in 2026, with institutional equity backers funding multi-asset development programmes under a structure that shares several features with the Carlyle-backed Revera approach.— at Hunterston.",
+      "contentFingerprint": "13e7755dda3de0889890cff4e9e5b898a388692e838761452d14326b3ba6450e",
       "photos": [
-        "media/facebook/29532460939689587/photo_1.png"
+        "media/facebook/1392396983052543/photo_1.png"
       ],
       "mediaCount": 1,
       "categories": [
-        "Onshore Wind"
+        "BESS"
       ]
     },
     {
-      "id": "28543996205253799",
+      "id": "1392338949725013",
       "date": "2026-10-02",
-      "title": "Environmentalists Against Wind Turbines",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Environmentalists Against Wind Turbines",
-        "label": "Facebook · Environmentalists Against Wind Turbines",
-        "url": "https://www.facebook.com/groups/835899539823505/posts/28543996205253799/"
-      },
-      "thin": false,
-      "bodyText": "On January 1, 2019, the F/V Mistress sank near Block Island with three fishermen aboard. Two men never made it home.\nSeven years later, a wreck believed to be the Mistress was located just 50 feet from Block Island Wind Turbine #1, along with suspected human remains.\nThe discovery raises important questions about what happened that night—and whether the original investigation should be revisited.\n Should authorities reopen the investigation?\n YES — answers are still needed\n Investigate the circumstances further\n Remember the two fishermen\n#REOPENTHEINVESTIGATION #FVMistress #BlockIsland #RhodeIsland",
-      "contentFingerprint": "ed124e631380cea507e463106b51f683a9e69ca5b29ef0817e720b5e5c100b8d",
-      "photos": [
-        "media/facebook/28543996205253799/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "categories": [
-        "Onshore Wind"
-      ]
-    },
-    {
-      "id": "28543178205335599",
-      "date": "2026-10-02",
-      "title": "Environmentalists Against Wind Turbines",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Environmentalists Against Wind Turbines",
-        "label": "Facebook · Environmentalists Against Wind Turbines",
-        "url": "https://www.facebook.com/groups/835899539823505/posts/28543178205335599/"
-      },
-      "thin": false,
-      "bodyText": "Hi! I'm new to this group. I recently joined because I am an Environmental Scientist & cattle farmer opposed to wind turbines having lived in both northern & southern hemispheres.",
-      "contentFingerprint": "422d8bedea75bf0e051f0736ffbed6828463e465b0ae9ae05837106d2e7684c3",
-      "photos": [
-        "media/facebook/28543178205335599/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "categories": [
-        "Onshore Wind"
-      ]
-    },
-    {
-      "id": "29532071919728489",
-      "date": "2026-10-02",
-      "title": "Scotland Against Spin",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Scotland Against Spin",
-        "label": "Facebook · Scotland Against Spin",
-        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29532071919728489/"
-      },
-      "thin": false,
-      "bodyText": "A bit premature....\nSSE has hired 87 graduates for roles based around Scotland, after it announced plans to create 100 jobs in Montrose.\nThe graduate programme will see the majority of the new employees work with SSEN Transmission, which is working on building out the electricity network in the north of Scotland.\nAs a result, the SSEN jobs will be based primarily in Inverness, Aberdeen, Glasgow and the company’s head office in Perth.\nENERGYVOICE.COM SSE hires 87 graduates for jobs across Scotland",
-      "contentFingerprint": "696de33293206ab3f95ffc8085ae8bb3da222f518c59ab008e21bb5c83a4578c",
-      "photos": [
-        "media/facebook/29532071919728489/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "links": [
-        {
-          "text": "ENERGYVOICE.COM SSE hires 87 graduates for jobs across Scotland",
-          "url": "https://www.energyvoice.com/renewables-energy-transition/grid-retail/604630/sse-hires-87-graduates-for-jobs-across-scotland/"
-        }
-      ]
-    },
-    {
-      "id": "1815286192844961",
-      "date": "2026-10-02",
-      "title": "Essex Suffolk Norfolk Pylons",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Essex Suffolk Norfolk Pylons",
-        "label": "Facebook · Essex Suffolk Norfolk Pylons",
-        "url": "https://www.facebook.com/groups/pylonseastanglia/posts/1815286192844961/"
-      },
-      "thin": false,
-      "bodyText": "“More than 300 incidents of farm machinery contacting overhead power lines happen each year in Saskatchewan”",
-      "contentFingerprint": "5033308dc69e63f6336afe57342431005b3f601bb126dfb924abcb33ed757a7f",
-      "photos": [
-        "media/facebook/1815286192844961/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "categories": [
-        "OHL (Pylons)"
-      ]
-    },
-    {
-      "id": "29531366753132339",
-      "date": "2026-10-02",
-      "title": "Scotland Against Spin",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Scotland Against Spin",
-        "label": "Facebook · Scotland Against Spin",
-        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29531366753132339/"
-      },
-      "thin": false,
-      "bodyText": "Will the US ban diesel exports?\nWHAT WOULD A BAN MEAN FOR THE UK?\nRetaining domestic refining capacity and maximising domestic crude oil production reduces our dependence on imported energy in a world of growing energy nationalism. Britain should formulate its energy policy on the assumption that other countries will act in their own national interests, and start doing the same.\nhttps://watt-logic.com/2026/10/01/us-diesel-export-ban/\nWATT-LOGIC.COM Will the US ban diesel exports? - Watt-Logic",
-      "contentFingerprint": "d39e258110b7226220adfd8c4ec39e62064e3f6dd98ad120173272e839a4a1cf",
-      "photos": [
-        "media/facebook/29531366753132339/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "links": [
-        {
-          "text": "WATT-LOGIC.COM Will the US ban diesel exports? - Watt-Logic",
-          "url": "https://watt-logic.com/2026/10/01/us-diesel-export-ban/"
-        },
-        {
-          "text": "https://watt-logic.com/2026/10/01/us-diesel-export-ban/",
-          "url": "https://watt-logic.com/2026/10/01/us-diesel-export-ban/"
-        }
-      ]
-    },
-    {
-      "id": "1391287276496847",
-      "date": "2026-10-01",
       "title": "Scottish Electricity Generating Stations",
       "provenance": {
         "title": {
@@ -422,19 +185,258 @@
         "type": "facebook_group",
         "name": "Scottish Electricity Generating Stations",
         "label": "Facebook · Scottish Electricity Generating Stations",
-        "url": "https://www.facebook.com/groups/443369301288654/posts/1391287276496847/"
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1392338949725013/"
       },
       "thin": false,
-      "bodyText": "The renewables' share of global electricity generation in 2025. Of that, 15% was from hydropower, 8% from wind and 7% from solar.\nWith total global renewable electricity generation capacity growing nearly 7-fold in the past 25 years, renewables are becoming a bigger part of our lives.",
-      "contentFingerprint": "b169807de92a5a6c88a097e7758d347244acad18745391863f7592c3a0172ac1",
+      "bodyText": "Some photos of the Hydro scheme construction around Fort William & Lochaber. The dates on these are between 1925 & 1928......so they have been hidden in storage for nearly 100 years!!\nThe Lochaber hydroelectric scheme is a hydroelectric power generation project constructed in the Lochaber area of the western Scottish Highlands after the First World War. Like its predecessors at Kinlochleven and Foyers, it was designed to provide electricity for aluminium production, this time at Fort William.\nWater is collected from the River Spean catchment, plus the headwaters of the River Spey and some smaller watercourses. It contains two main reservoirs Loch Treig and Laggan Reservoir, and 18 miles (29 km) of tunnels excavated through the hillside.\nThe scheme was originally built between 1924 and 1943 by the British Aluminium Company. This company was bought by Canadian-based Alcan in 1982 which was subsequently bought by Rio Tinto in 2008. Rio Tinto Alcan then sold the scheme to GFG Alliance in November 2016.\nThe hydro scheme has a catchment area of 303 square miles (780 km2), including the headwaters of the River Spey, the River Spean and River Treig, and the northern flanks of the Grey Corries and Ben Nevis. There are two principle reservoirs, Loch Treig and Loch Laggan (which was extended as Laggan Reservoir), both with a top water level of about 820 feet (250 m) above sea level. These reservoirs are linked by a 2¾ mile (4.4 km) long, 15 feet (4.6 m) diameter low pressure tunnel, which collects water from three intermediate streams.\nFrom Loch Treig, a main pressure tunnel 15 miles (24 km) long was driven around the Ben Nevis massif. This has a horseshoe shaped cross-section, with an equivalent diameter of 15 feet 2 inches (4.6 m), and lined with concrete to reduce friction. This tunnel also collects water from a further eleven burns along the way. It was, until 1970, the longest water-carrying tunnel in the world. Steel penstocks then convey the water down the western flank of Ben Nevis to the power house below.\nTurbines in the power house generate electricity to power the adjacent aluminium smelting plant. The power house and smelter are located to the northeast of Fort William, on the eastern bank of the River Lochy, into which the tailrace discharges.\nThe scheme was expanded to increase output to meet demand for aluminium in World War II. Floodwaters of the Spey are captured by Spey Dam and diverted via an open cut to Loch Crunachdan then through a tunnel to Loch Laggan. In addition, the River Mashie (a tributary of the Spey) is diverted via an aqueduct and tunnel into the River Pattack, which flows into Loch Laggan.\nThe scheme was initially designed by engineer Charles Meik but after his death in 1923, the scheme's realisation was left to William Halcrow, by then a partner in the firm founded by Meik's father Thomas Meik.\nThe project was finally sanctioned by Parliament in 1921, but construction did not start until 1924. Given the scale of construction, it was undertaken in three main phases:\n• The works to the west of Loch Treig, including the pressure tunnel, intake, powerhouse, and smelter.\n•’The Treig and Laggan dams, plus connecting tunnel and intakes.\n• The Spey dam, Crunachdan cut and tunnel, plus the River Mashie diversion and Strathmashie tunnel.\nOver 3,000 men were employed during the peak of construction.\nA narrow-gauge railway was used in construction and subsequent maintenance of phases 1 and 2, see Lochaber Narrow Gauge Railway for details.\nStage 1 – downstream of Loch Treig\nThe first stage of construction took five years, from 1924 to 1930, and cost around £3m.\nThe main challenge was the pressure tunnel from Loch Treig under the Ben Nevis massif, which commenced in summer 1926. The tunnel was dug by hand through the solid rock, with compressed air drills used to bore holes for the explosive charges. Initially liquid oxygen based explosives were used, but despite being safer their use was complicated, so gelignite was used instead. The final stage of construction, was to connect the tunnel to Loch Treig, having dug to a point about 20 feet (6 m) from the bottom of the loch and 100 feet (30 m) below the surface. On 3 January 1930, a charge of 1.5 tons of specially prepared gelignite was detonated to blast out the remaining section of rock.\nTo facilitate construction, work progressed in both directions from 11 intermediate points: four vertical shafts and seven horizontal adits, giving a total of 23 working faces including the western portal above Fort William. These intermediate points were located close to watercourses, which were later captured by a series of dams and contributed around 16% of the total water for the scheme.\nThe power station and smelter were completed by the end of 1929, initially equipped with five 6,800 kW generators, connected to Pelton turbines. The turbines sat in a deep rock excavation, as close to sea level as possible to maximise the head of the scheme.\nOn 30 December 1929, the first aluminium was cast, powered only by the waters from the side streams.\nStage 2 – Treig and Laggan Dams\nA Supplementary Act of Parliament was obtained in July 1930 extending the time to complete the second stage of the scheme. Work started early the following year and the civil engineering works on the Treig and Laggan dams plus connecting tunnel were completed by 1934.\nThree years later, following a period of slack demand for aluminium, the power station was upgraded. Three additional pipes were installed on the hillside above the power station. These were 69 inches (1.8 m) in diameter, delivered in 30 feet (9.1 m) long sections, and welded together in-situ. Five additional Pelton turbines and generators were installed, each rated at 7,000 kW.\nA dam was built approximately 1/4 mile (400 m) downstream of Loch Treig, raising the top water level by 35 feet (11 m) to 819 feet (250 m) OD. This significantly increased the storage available, with 7,838 million cubic feet (221.9 million m3) available above the lowest draw-down level of 695 feet (212 m) OD. The dam also increased the head of the hydro scheme, providing more power.\nThe dam is rock-filled with a central concrete core-wall keyed into the bedrock. The exposed part of the dam is 40 feet (12 m) high and 380 feet (120 m) wide, while the core wall has a crest length of 675 feet (206 m) and maximum depth of 122 feet (37 m). Both upstream and downstream faces have a slope of 3:1, with the spillway protected by reinforced concrete, cast in-situ.\nConstruction of the reservoir also necessitated diverting 1.5 miles (2.4 km) of the West Highland Line along the shores of Loch Treig.\nLaggan Dam was constructed at a constriction in the valley approximately 4.5 miles (7 km) downstream of Loch Laggan creating Laggan Reservoir. This is linked to Loch Laggan by a short section of the River Spean, which was dredged to make use of the storage capacity in the loch. While the downstream dam site required a larger dam than an alternative location upstream it had several advantages:\nA shorter tunnel to Loch Treig, with a smaller diameter for an equivalent capacity,\nIncreased storage capacity in Laggan Reservoir, including dead storage below the tunnel invert level for the accumulation of sediment, and\nRemoving the need for an aqueduct to divert the Roughburn.\nThe dam is a massive concrete gravity structure, 700 feet (210 m) long and 130 feet (40 m) high. In plan, the dam has a slight curve with a radius of 2,000 feet (610 m), although it does not function as an arched dam. The dam has a plain spillway along its length, together with six siphons to increase the flood flow capacity.\nLaggan Reservoir has a usable storage of 1,480 million cubic feet (42 million m3), between a top water level of 820 feet (250 m) OD and maximum drawdown level of 804 feet (245 m). The level of Loch Laggan was not raised by the dam, as this would have required significant diversion of the adjacent A86 road and would have also inundated valuable property.\nAs with the main pressure tunnel downstream of Loch Treig, the tunnel between Laggan Reservoir was driven through rock and lined with concrete. Again, it was constructed from multiple faces with three intermediate adits, which were then used to collect water from streams. The tunnel is approximately 14 feet (4.3 m) in diameter with a flattened invert, and has a fall of 15 feet (4.6 m) over the 2.75 miles (4.4 km) length.\nStage 3 – Spey Dam and Mashie diversion\nThe third and final phase of the scheme was undertaken between 1941 and 1943, and further enlarged the catchment of Loch Laggan by harnessing the headwaters of the River Spey. The work was supervised by Syril Minchin Roberts, a partner in Sir William Halcrow and Partners. It was constructed by Balfour Beatty, with assistance from the 1st Tunnelling Company of the Canadian Army. Many of these Canadian soldiers were ex-miners from Kirkland Lake.\nThe Spey Dam was constructed in 1942–1943, just downstream of the confluence of the River Markie. The main structure is a concrete gravity dam, 943 feet (287 m) long and 57 feet (17 m) high. It has a spillway 93 metres (305 ft) long at a crest level of 268.2 metres (880 ft) OD, and a mass fill section to the north, approximately 2 metres (6.6 ft) higher. The dam incorporates a fish pass at the southern side.\nWater impounded by the dam flows westwards through a cut into Loch Crunachdan, against the natural flow of water. It then passes through a tunnel approximately 2 miles (3 km) long which discharges into the eastern end of Loch Laggan. The maximum abstraction from the Spey is 776 cubic feet per second (22.0 m3/s), although the average for 2020–2022 was just 14 m3/s. The tunnel was constructed in 1941, completed at the end of December.\nA smaller dam was constructed across the River Mashie, a tributary of the Spey, just upstream of the A86 road. Water is transferred via an aqueduct and two smaller tunnels to the River Pattack, the main inflow to Loch Laggan. The maximum abstraction is 11.3 m3/s (400 cu ft/s).\nIn 2008, Rio Tinto Alcan awarded a contract worth €30m for the upgrade of the hydroelectric turbines to Andritz Tech Hydro. This was to replace the original twelve turbines, which were horizontal-axis twin-jet Pelton wheel machines driving two DC generators with a total capacity of 72 MW. Five new horizontal-axis Francis turbines driving AC generators were installed by 2012, each rated at 17.3 MW giving a 20% increase in power output.\nFollowing the closure of Rio Tinto/Alcan's other UK smelters at Invergordon (1981), Kinlochleven (2000), Anglesey (2009) and Lynemouth (2012) the hydro-electric scheme and smelter at Fort William was operated by Rio Tinto Alcan. Under threat of closure the smelter was put up for sale in 2016. GFG Alliance, which incorporates SIMEC and the Liberty House Group, as the successful bidder, bought the Lochaber Smelter for £330 million. It announced plans to expand the factory and produce car parts such as alloy wheels. This was later dropped, replaced by plans for an aluminium recycling facility announced in November 2020.\nOn 3 April 2021, it came to light that the Jahama Highland Estates (formerly the \"Alcan Estate\") had been purchased in 2016 as part of the Rio Tinto Mines deal for the Lochaber aluminium plant, because the furnace requires so much power that the smelter is located near a hydroelectric plant, which drains the basin of the 114,000 acre Estate. Alcan designed all their smelters that way. The Estate includes the north face of Ben Nevis. According to reports, the Scottish Government mandated that the Estate never be split from the hydro plant and aluminium smelter, but Gupta ignored them and placed ownership of the Estate in a company that is domiciled on the Isle of Man. The 2016 deal was worth £330 million and was guaranteed by the UK Chancellor of the Exchequer. Conservative finance spokesperson Murdo Fraser was critical about the alleged breach of the Scottish Government agreement and urged the Scottish Government to \"take whatever steps are necessary to protect public funds\".— at Lochaber Smelter.",
+      "contentFingerprint": "96ceabb3c7669b77478e74d14c5a1419b1ca4a2014a101b338dff5fe0064dcb4",
       "photos": [
-        "media/facebook/1391287276496847/photo_1.png"
+        "media/facebook/1392338949725013/photo_1.png"
       ],
       "mediaCount": 1
     },
     {
-      "id": "1617948850041310",
-      "date": "2026-10-01",
+      "id": "1392276486397926",
+      "date": "2026-10-02",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1392276486397926/"
+      },
+      "thin": false,
+      "bodyText": "Alba Energy is the representative organisation for independent hydro-electric producers in Scotland. Founded in 1998 to support the development of so-called \"Small Hydro\" (100kW - 5MW) schemes in the Scottish uplands, the number of sites has increased from 36 to more than 400, with an overall capacity of 222 MW (of which Alba represents 180MW). 85% of all hydropower in the UK is generated in Scotland: engineered, built and financed by Scots. It represents rural enterprise at its most innovative: the longest lasting, most efficient, least intermittent, least obtrusive and most ecologically beneficial renewable energy source of them all.\nOnce construction is complete, a hydro scheme has an average 80-100 year lifespan, requiring replacement only of machine parts. Alba members provide various examples of both run-of-river and storage schemes. One example of a 500kW storage hydro scheme, capable of producing the electricity required by 800 average households, makes the landholding in which it is built carbon negative in the long-term. Predominantly constructed in upland and wetland areas, such schemes complement wider peatland and nature recovery projects better than any other renewable energy source. Buckny Hydro in Perthshire, operated by Riemore Estate in partnership with CRF Hydro, is currently underway with a £2 million storage development that will hold back 315,000 cubic metres of water in a depleted wetland. As a condition of the development the surrounding peatland is being restored. This will form part of a wetland-moorland-woodland plan that would not have been possible without the hydro development. The new storage capacity will also act as flood mitigation for the village of Butterstone below, able to hold back water in a naturally-formed glacial reservoir at the onset of a red precipitation warning. The combination of clean, long-duration electricity generation with biodiversity uplift and carbon capture renders Small Hydro – proportionately – the most successful, all-round, local, carbon-footprint reducing technology. Although developed and built locally, producing just a modest share of the national energy mix, hydro schemes at this scale nevertheless represent an estimated offset in Scotland of between 1.5-2 million tonnes of carbon every decade.\nIn order to deliver the environmental and economic benefits of hydropower, it is essential to fight the corner of a small industry. Alba Energy connects members with each other to share information, experience and advice to cover operational issues: from grid connections to energy markets to spare parts. But the key challenges have been those of public policy. Alba has provided the advice and inspiration to transform the development of run-of-river schemes into storage schemes – as described in the case of Buckny Hydro – or has pioneered local energy security and pricing, in the case of Inver's hydro-solar colocation scheme in Jura. Three policy battles Alba has fought have been with SEPA, SSE and the Scottish Assessor. SEPA's attempt to impose unjustified charges on hydro schemes was significantly ameliorated by dogged engagement with the agency; SSE's habit of imposing arbitrary outages was rationalised through engagement with Scottish Government and SSE; but most significant of all has been Alba's 13-year legal challenge to the Scottish Assessor's imposition of extraordinary increases to Rateable Values for hydro schemes in the 2010, 2017, 2023 and 2026 valuations. This required no fewer than three committee hearings (all successful) and two verdicts at the Lands Valuation Court, culminating in a final hearing last year at the Upper Tribunal before Lord Young. Now the biggest case in ratings history, a successful verdict could save the sector more than £100 million of punitive and unjustified taxation over the course of a decade.Success in battles against irrational public policy does not merely save money; it paves the way to new development. Failure at the Upper Tribunal will mean hundreds of schemes shutting down, but success will mean the continuation of the small hydro sector beyond the life of the Feed-in-Tariff system. \nOver the last 13 years, Alba has been able to raise a million pounds for the legal case, thanks to the enterprise and solidarity of its membership. By fighting this battle against a regressive Scottish Assessor, Alba – if successful – will have paved the way for future innovations, such as storage developments (allowing for controlled export during peak demand), colocation of hydro and solar (allowing for continuous generation in both hot and wet conditions) and local energy pricing to provide residents and nearby businesses with cheaper electricity prices. There is also the potential for the development of new schemes through a modification of the UK Government's Contracts for Difference (CfD) system. CfD is currently prejudiced against hydro, but that problem may be resolved through targeted lobbying. To this end, Alba is working with our partners at the British Hydropower Association to advocate for the policy shifts that will allow both new development and local pricing. The great goal of locally produced energy is to produce local pricing – to make the political case that the environmental benefits of renewable energy can also be benefits to the consumer, driving the argument beyond the current crisis in Net Zero policies.\nBuckny Hydro System, Butterstone Village\nPlanning Ref. No: 12/01087/FLL. The planning application for the formation of a run of river hydro scheme, powerhouse and associated works at Buckny Burn by Butterstone. \nThe project is a run of river scheme that would operate without storage and according to the flow of the burn. Water is abstracted via a weir structure downstream of Dubh Loch into the pipeline before being passed through a 500Kw capacity turbine which generates over 1750 MW hours of energy per year. The abstracted water is returned into the burn at Butterstone Village.\nAccess to the site for construction traffic was along the A923 into Butterstone village before entering the existing estate road network. The element of development to the west of the Buckny Burn was accessed via the road to Riemore and Riechip, while the eastern side was accessed via the road to Craigton.\nPermanent tracks were proposed to allow long-term maintenance to the intake and turbine house. A turning area is located at the header tank, which allows access for maintenance. The proposal did not require permanent access to the pipe bridge in the Den of Riechip as there is an existing logging track to this location at low level alongside the burn. However, a temporary access track to enable construction traffic to enter this area wax installed. Following construction the temporary access was removed and the land reinstated.\nThe intake weir consists of a low concrete weir spanning the river below the Dubh Loch. The intake is predominantly buried and constructed using reinforced concrete. The right bank (when looking downstream) rises steeply from the channel, while the left bank is shallower and requires the formation of a new 1.5m high flood bund to tie the top of the wing walls of the intake weir to the natural ground level further upstream thereby reducing the extent of pasture that would be flooded. The bund was constructed using earth recycled from elsewhere on site, and would contain an impermeable membrane to prevent seepage.\nThe abstracted water would flow through the unpressurised intake (feeder) pipe for approximately 450m towards the header tank. From the header tank, a pressurised pipeline (penstock), would route water towards the turbine house. The gravity pipe and penstock have nominal diameters of 900mm and 850mm respectively and buried in a trench between 1650mm and 2500mm deep by 1000mm wide, providing capacity to backfill using locally excavated materials to a depth of 800mm or more. The pipe material selected is continuously welded High Performance Polyethylene (HPPE). The pipe has flexibility which allows this to be routed round obstacles. The use of concrete thrust blocks will secure the pipeline where it cannot be anchored to the bedrock. Due to the undulation of the pipe route valves are required at high points and washout valves will be required at low points, this means manhole covers will be visible at these points. A pipe bridge is constructed to enable the penstock to cross the valley. The pipe is  self-supporting ductile iron in this section with concrete abutments partially submerged on either side of the river bank resulting in the pipe being suspended over the watercourse.\nThe turbine house is located on the eastern bank of the watercourse. It is located within the valley floor and has a steep embankment to the rear (eastern elevation) of the turbine house. The building has a concrete foundation to support the turbine while the exterior will be clad in larch with mineral fibre panels to the roof. The closest dwelling is around 45 metres to the south of the Turbine House.\nThe tailrace returns water to the watercourse from the turbine house. Water flows from the turbine house through 30m of buried pipe before being discharged through a concrete headwall into an open channel spillway within the left bank of the Buckny Burn. The outfall structure is contained within a treated timber post and rail fence for safety. Locked screening will be positioned on the headwall to prevent fish and small mammals from travelling up the tailrace and into the turbine house.\nScottish and Southern Energy (SSE) has provided a grid connection point. The connection is on the opposite side of the river where there is an existing overhead line. This will be reached by burying the cable using directional drilling.\nBuckny Hydro Limited operates a 500Kw run-of- river hydropower scheme in Riemore Estate, Perthshire, Scotland, which was commissioned in 2014. The project employs  a Newmills turbine with a vertically installed twin-jet Pelton wheel, designed for high-head efficiency. The site is focused on sustainable energy generation and local habitat restoration.\nKey details regarding the project include:\nLocation: Riemore Estate, Dunkeld, Perthshire, Scotland.\nCapacity: 500 kW.\nTechnology: Vertically installed twin-jet Pelton turbine (Newmills).\nOperator/Owner: Buckny Hydro Limited.\nStatus: Operational (commissioned 2014).\nA 2024 planning application to add a storage capability to the hydro scheme through the expansion of Dubh Loch. This would allow the ability for the scheme to generate on demand without the constraint of flow availability in the burn. The existing weir & penstock intake would be replaced with larger structure upstream. — in Butterstone, Perth and Kinross.— in Butterstone, Perth and Kinross.",
+      "contentFingerprint": "55dbda560ad713fdafc75d10efc85731130aeb4f59e83a0010ef0f91d8ca1a34",
+      "photos": [
+        "media/facebook/1392276486397926/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "OHL (Pylons)"
+      ]
+    },
+    {
+      "id": "1392233453068896",
+      "date": "2026-10-02",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1392233453068896/"
+      },
+      "thin": false,
+      "bodyText": "The new dam at Buckny Hydro nears completion",
+      "contentFingerprint": "5d280461ef07163f5e8472df6fa0b459bcf99181924456873bc597e244c33789",
+      "photos": [
+        "media/facebook/1392233453068896/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "28559182757068477",
+      "date": "2026-10-02",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/28559182757068477/"
+      },
+      "thin": false,
+      "bodyText": "Congressman Seth Magaziner (D) RI, a wind advocate, said this week he would not call for the U.S. Coast Guard to reopen an investigation into the sinking of the F/V Mistress\n\nhttps://www.independentri.com/.../article_b4598767-82eb...",
+      "contentFingerprint": "04e9016159f6080c7b83204b0d34b4b77e9d7383112e15009525bafc6608d03b",
+      "photos": [
+        "media/facebook/28559182757068477/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://www.independentri.com/.../article_b4598767-82eb...",
+          "url": "https://www.independentri.com/news/article_b4598767-82eb-4af6-908e-11d4058b6938.html"
+        }
+      ]
+    },
+    {
+      "id": "29538740769061604",
+      "date": "2026-10-02",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29538740769061604/"
+      },
+      "thin": false,
+      "bodyText": "So that's meant to make it alright then?\n\"Lower-carbon concrete, recycled reinforcing steel and on-site concrete production\"\nRENEWS.BIZ Vattenfall completes Clashindarroch 2 foundations | Onshore Wind | reNEWS",
+      "contentFingerprint": "86ebaaaf344bbf3da0fbd55f68e6f6ec773e190155fcaa2426e79a4911b322eb",
+      "photos": [
+        "media/facebook/29538740769061604/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "RENEWS.BIZ Vattenfall completes Clashindarroch 2 foundations | Onshore Wind | reNEWS",
+          "url": "https://www.renews.biz/onshore-wind/vattenfall-completes-clashindarroch-2-foundations/"
+        }
+      ],
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "1392170376408537",
+      "date": "2026-10-02",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1392170376408537/"
+      },
+      "thin": false,
+      "bodyText": "Orrin power station receives water via tunnel and pipe from Orrin dam some 5KM to the South East. The station houses a single 18MW turbine. It is located on a steeply sloping site, the turbine hall oversails the tailrace and is built into the hillside with a single storey section to the rear adjacent to a large transformer station connecting the station to the grid. A good example of a smaller power station forming a component of a larger scheme.\nThe design of the station is characteristic of this period with large windows to the turbine hall and relatively limited architectural detailing. The site is narrow and steeply sloping which has resulted in some changes from the characteristic design features. The turbine hall is very tall and narrow and has a shallow pitched roof with a recessed ashlar panel and small windows to the centre of the gable end over a large teak vehicular access door. The advanced flat roofed block built into the hillside to the rear of the turbine hall has a panel of ashlar with relief carving.\nThe construction of Orrin dam marked the last phase in the development of the Conon Hydro Electric scheme and brought in a further catchment on the Orrin River. \nThe dam is of a mass gravity type and is some 300 meters long. Water from the outlet is transferred by a 5km lined tunnel and steel pipeway through to Orrin power station (see separate item). The dam includes a particularly unusual fish pass housed in the central buttressed section of the dam. The pass is composed of four adjacent Borland lift type passes which all exit into the dam at different levels. This is to accommodate the large fluctuations in water level which characterise this dam. A small subsidiary dam is located to the East of the main section, separated by a small hill and is rubble fill with a turfed downstream face. This is a large-scale dam which occupies a dominant position at the top of a large valley in an upland area. The prominent walkway\nspans the fixed spillway on large concrete piers. The large central buttress flanked by concrete gate control towers is a dramatic feature and houses an unusual four level fish pass. \nThe last stage of development involved the construction of two dams separated by a small hill, to create Loch Orrin which feeds the Orrin Power Station on the south shore of Loch Achonachie in Strath Conon. \nFish ladders are found on several of the dams, with one of particular sophistication at Orrin. The stations are run by Scottish & Southern Energy Plc.\nThe Conon scheme total electricity generating capacity is 116 MW.— at Orrin Dam.",
+      "contentFingerprint": "fac3c1ce998a09d4bc5c59b87547f4166341b08c5ccbbb7b59d7e9dc0f20b521",
+      "photos": [
+        "media/facebook/1392170376408537/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1142599978431589",
+      "date": "2026-10-02",
+      "title": "Suffolk Energy Action Solutions (SEAS)",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Suffolk Energy Action Solutions (SEAS)",
+        "label": "Facebook Page · Suffolk Energy Action Solutions (SEAS)",
+        "url": "https://www.facebook.com/SuffolkEnergyActionSolutions/posts/1142599978431589/"
+      },
+      "thin": false,
+      "bodyText": "SEAS UPDATE 245 - Featuring OFGEM SUBMISSION, GB GRID & TELL YOUR STORY.\nRead the newsletter now by visiting the link below \nhttps://us14.campaign-archive.com/... \n#newsletter #seasupdate #update #energynews",
+      "contentFingerprint": "cc2496d243661c9eae2dc196bd24f79dbb411506d94d34cef95b53925c58506f",
+      "photos": [
+        "media/facebook/1142599978431589/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://us14.campaign-archive.com/...",
+          "url": "https://us14.campaign-archive.com/?u=06a29fcfc31e27244d0a4320f&id=86e0d18497"
+        }
+      ]
+    },
+    {
+      "id": "1392082223084019",
+      "date": "2026-10-02",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1392082223084019/"
+      },
+      "thin": false,
+      "bodyText": "Nicol of Skene is carrying out HDD and trackway works as part of the 33kV connection for the Golticlay Wind Farm in Caithness.\nWorking alongside McGowan Infrastructure, the team was appointed to design and construct five Horizontal Directional Drilling (HDD) crossings for the new 33kV export cable circuit.\nThe scope of works included:\n• Two trenchless crossings beneath the A9 Trunk Road\n• A watercourse crossing within a Site of Special Scientific Interest (SSSI)\n• Two utility-congested minor road crossings\nA Ditch Witch AT120 drilling rig was used to complete the crossings, whilst the Extreme-Mat trackway system provided stable access across challenging ground conditions and helped reduce rutting and the overall construction footprint.\nThe five crossings were successfully completed as part of the project, supporting the connection of the 62.7MW Golticlay Wind Farm to the grid and helping deliver the infrastructure required for one of Scotland's latest renewable energy developments.— in Lybster.",
+      "contentFingerprint": "6deaae8d4e182f282f57d82bb64b15e20dce87fd2f8b77ac422c3f026a49da38",
+      "photos": [
+        "media/facebook/1392082223084019/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "1618756193293909",
+      "date": "2026-10-02",
       "title": "Grampian Against Data Centres",
       "provenance": {
         "title": {
@@ -451,48 +453,19 @@
         "type": "facebook_group",
         "name": "Grampian Against Data Centres",
         "label": "Facebook · Grampian Against Data Centres",
-        "url": "https://www.facebook.com/groups/1517407306762132/posts/1617948850041310/"
+        "url": "https://www.facebook.com/groups/1517407306762132/posts/1618756193293909/"
       },
       "thin": false,
-      "bodyText": "SUPPORT THE RAIL WORKERS!! DROP CAF!!\nThe Scottish Gov must now listen to the Scottish civil society and trade union movement and remove CAF from the ScotRail procurement process.\nPublic money should not reward companies involved in Israeli land theft. And workers should not be expected to facilitate that complicity.\nWrite to Stephen Flynn and the managing director of ScotRail here.\nhttps://actionnetwork.org/letters/caf-scotrail\n#boycottdivestsanction",
-      "contentFingerprint": "2d4c8e1d71eb2caeb77e2c1c86cbbdc324fb8a420836d51828b662dc1728b1d8",
+      "bodyText": "",
+      "contentFingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "photos": [
-        "media/facebook/1617948850041310/photo_1.png"
+        "media/facebook/1618756193293909/photo_1.png"
       ],
       "mediaCount": 1
     },
     {
-      "id": "1099748189121629",
-      "date": "2026-10-01",
-      "title": "Communities B4 Power Companies",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Communities B4 Power Companies",
-        "label": "Facebook · Communities B4 Power Companies",
-        "url": "https://www.facebook.com/groups/221782186918238/posts/1099748189121629/"
-      },
-      "thin": false,
-      "bodyText": "If you have read the Officers report for the Glen Earrach Pumped Storage Hydro scheme, there is one obvious question – why has it recommended that the Council 'RAISE NO OBJECTION'?\nWell, the Officer has scrutinised the consultation responses, which include:\nGlen Urquhart Community Council objects \nStratherrick and Foyers Community Council objects\nStrathnairn Community Council objects \nHighland Council Ecology Officer objects \nHighland Council Landscape Officer objects \nNatureScot objects \nJacobite Loch Ness Cruises objects\nNess District Salmon Fishery Board (NDSFB) objects\nRoyal Society for the Protection of Birds (RSPB) objects\nThe Woodland Trust objects\nBugLife objects\nMountaineering Scotland objects\n85% of public respondents object\nInterestingly, the following responses were not covered in the Officers report:\nHighlands Rewilding objects\nPlantlife Scotland objects\nWild Trout Trust objects\nSave Loch Ness objects\nAnd thus, the Officer has recommended ‘RAISE NO OBJECTION’\nAny questions?",
-      "contentFingerprint": "67f29a6ada5ce5a581c0d48bebb4803edd2eae09aa23eab0586b486af4e435c0",
-      "photos": [
-        "media/facebook/1099748189121629/photo_1.png"
-      ],
-      "mediaCount": 1
-    },
-    {
-      "id": "1391212143171027",
-      "date": "2026-10-01",
+      "id": "1392067416418833",
+      "date": "2026-10-02",
       "title": "Scottish Electricity Generating Stations",
       "provenance": {
         "title": {
@@ -512,13 +485,13 @@
         "type": "facebook_group",
         "name": "Scottish Electricity Generating Stations",
         "label": "Facebook · Scottish Electricity Generating Stations",
-        "url": "https://www.facebook.com/groups/443369301288654/posts/1391212143171027/"
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1392067416418833/"
       },
       "thin": false,
-      "bodyText": "Paderewski vessel at the Energy Yard at North Sutor. Voltaire Vessel is to the rear behind it. \nWind turbine generator components for Doggar Bank 2 offshore wind project. \nThe Energy Yard at North Sutor is located on the Nigg Peninsula in Easter Ross, Scotland, overlooking the entrance to the Cromarty Firth. \nIt sits on the high ground of the North Sutor headland, right next to the historic, scheduled North Sutor Coastal Artillery Battery ruins. From this elevated coastal site, it directly overlooks the massive Nigg Energy Park fabrication yard situated at the base of the hill along the water.— in Nigg, Highland, United Kingdom.",
-      "contentFingerprint": "2ceddd3fb3f91aa21cc98fb99f009a751d571af91c180ad4ef244a2cb7d936c7",
+      "bodyText": "ScottishPower Renewables are planning for turbine deliveries for the Arecleoch Windfarm Extension, to commence in mid-October 2026 and are expected to continue for around four months.\nDeliveries will be carried out under police escort along the route shown in the attached plan.\nEfforts are being made to minimise disruption and keep local communities informed throughout the delivery programme. Residents can find further details in the attached route map.",
+      "contentFingerprint": "76911fd24db0be2f20fc7a1faa9ebf74fb04a72f1b8872df12456e182514c28c",
       "photos": [
-        "media/facebook/1391212143171027/photo_1.png"
+        "media/facebook/1392067416418833/photo_1.png"
       ],
       "mediaCount": 1,
       "categories": [
@@ -526,66 +499,8 @@
       ]
     },
     {
-      "id": "1401024538269653",
-      "date": "2026-10-01",
-      "title": "Worth Valley against Walshaw Moor Wind Farm",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Worth Valley against Walshaw Moor Wind Farm",
-        "label": "Facebook · Worth Valley against Walshaw Moor Wind Farm",
-        "url": "https://www.facebook.com/groups/735756034796510/posts/1401024538269653/"
-      },
-      "thin": false,
-      "bodyText": "Great to see our campaign supporter Cathy the Curlew aka Matt Trevelyan on Sam and Ade Go Birding on Channel 5.",
-      "contentFingerprint": "f879a38cf6bb1fb1150ef7b9f1f753be9dc7ff6e4da1567a4b33955be10db242",
-      "photos": [
-        "media/facebook/1401024538269653/photo_1.png"
-      ],
-      "mediaCount": 1
-    },
-    {
-      "id": "29526709653598049",
-      "date": "2026-10-01",
-      "title": "Scotland Against Spin",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Scotland Against Spin",
-        "label": "Facebook · Scotland Against Spin",
-        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29526709653598049/"
-      },
-      "thin": false,
-      "bodyText": "So today we had aggregate delivered by a company also delivering to the Arecleoch extension. The driver told me he is often delivering a special type of sand there which has to be used due to the heat that the cables generate!",
-      "contentFingerprint": "b30e6f963c592fe9b389015d4d1fc984bbc7103bf3db8a4655bae0af1f5c7ba7",
-      "photos": [
-        "media/facebook/29526709653598049/photo_1.png"
-      ],
-      "mediaCount": 1
-    },
-    {
-      "id": "1391180279840880",
-      "date": "2026-10-01",
+      "id": "1392056679753240",
+      "date": "2026-10-02",
       "title": "Scottish Electricity Generating Stations",
       "provenance": {
         "title": {
@@ -602,20 +517,55 @@
         "type": "facebook_group",
         "name": "Scottish Electricity Generating Stations",
         "label": "Facebook · Scottish Electricity Generating Stations",
-        "url": "https://www.facebook.com/groups/443369301288654/posts/1391180279840880/"
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1392056679753240/"
       },
       "thin": false,
-      "bodyText": "Powering a greener Scotland, 2025/26 has been a record breaking year for renewable energy generation by Scottish Water and Scottish Water Horizons!\nBetween solar, hydro and wind projects, enough green energy was generated to power over 24,000 average UK homes\nSaving over 11,500 tonnes of carbon and delivering millions of pounds of benefits\nCheck out the slides below for some key facts from a record breaking year",
-      "contentFingerprint": "a2d77fa596f9acf2552d066e25d7387619ef4a51211dc0f1c60762727c61b803",
+      "bodyText": "Clatteringshaws Dam was built in the early 1930s as part of the Galloway Hydro-Electric Scheme. Its main job was to hold back water from the River Dee and send it through a tunnel nearly two miles long to Glenlee Power Station, where it drops almost 380 feet before driving the turbines. The dam is made of solid concrete and curves gently across the valley, designed not just for strength but to sit well in the landscape. It was built from the upstream side using steam cranes on rails, with concrete mixed on site.\nThe work was carried out by James Williamson, with Sir Alexander Gibb as consulting engineer and Merz and McLellan handling the electrical design. Around 1,500 men were employed across the whole scheme during peak construction. The total cost of the entire Galloway Hydro-Electric Scheme was about £3M, which made it one of the most cost-effective hydro projects in Britain at the time.\nBefore the loch was formed, the area now under water was known as Raploch Moss, a deep, peaty moor where the River Dee wandered through deep channels. It was quiet land, rich in natural history and memory. In 1307, Robert the Bruce fought and won a battle here against English forces. The original Bruce’s Stone, marking the spot where he is said to have rested after the fight, stood on the moss itself. When the dam was built and the loch rose, the stone was submerged. A new memorial was placed on the shore near the visitor centre, where it still stands today.\nClatteringshaws is the largest dam in the scheme and holds back millions of gallons of water. Its foundations were driven twenty feet into solid granite, and the control tower still stands watch over the loch. Though the visitor centre is now closed, the path to Bruce’s Stone remains, leading through a landscape shaped by both legend and engineering.— at Clatteringshaws Dam.",
+      "contentFingerprint": "0d5813e26b5d8b79cde8110d91bdf6d274e6adc13a64ed8c7a6337d91dc790d6",
       "photos": [
-        "media/facebook/1391180279840880/photo_1.png"
+        "media/facebook/1392056679753240/photo_1.png"
       ],
       "mediaCount": 1
     },
     {
-      "id": "28546448055008614",
-      "date": "2026-10-01",
-      "title": "Environmentalists Against Wind Turbines",
+      "id": "1100496922380089",
+      "date": "2026-10-02",
+      "title": "Communities B4 Power Companies",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Communities B4 Power Companies",
+        "label": "Facebook · Communities B4 Power Companies",
+        "url": "https://www.facebook.com/groups/221782186918238/posts/1100496922380089/"
+      },
+      "thin": false,
+      "bodyText": "Remember the saga of SSEN wanting to use our steep, twisting glen road, past a primary school, to bring construction traffic for ground investigation works? \nThey wrote to use with a few days notice of when we shouldn't be using our own road. \nWe pounced and stopped them.\nA little bird has told me that they had already given a contractor the job of hacking down our trees to facilitate them bringing their industrial garbage up here. He has now been told the job's not a good 'un and isn't happy - allegedly. \nAnd the landowner who had agreed for them to use their access providing they strengthened a bridge, now has a pile of dumped aggregate because they aren't doing that job for them now. This is the same landowner who has TWICE tried to get a wind farm here despite being told by the community it wasn't wanted. \nWhy aren't these landowners more community spirited? \nWhy must they wring every corporate penny they can out of the environment? Why don't they talk to the people whose lives they want to affect forever?",
+      "contentFingerprint": "6c0f9ca42bc6a4f05da1f221e530dbdbc3361eff492b4169b38d4e0357d375f2",
+      "photos": [
+        "media/facebook/1100496922380089/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "1401736818198425",
+      "date": "2026-10-02",
+      "title": "Worth Valley against Walshaw Moor Wind Farm",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -629,15 +579,54 @@
       },
       "source": {
         "type": "facebook_group",
-        "name": "Environmentalists Against Wind Turbines",
-        "label": "Facebook · Environmentalists Against Wind Turbines",
-        "url": "https://www.facebook.com/groups/835899539823505/posts/28546448055008614/"
+        "name": "Worth Valley against Walshaw Moor Wind Farm",
+        "label": "Facebook · Worth Valley against Walshaw Moor Wind Farm",
+        "url": "https://www.facebook.com/groups/735756034796510/posts/1401736818198425/"
       },
       "thin": false,
-      "bodyText": "Magaziner: No need to reopen investigation into sunken fishing vessel: \nCongressman Magaziner (D-RI) is an outspoken advocate for the offshore wind industry \n[https://www.independentri.com/.../article_b4598767-82eb...](https://www.independentri.com/.../article_b4598767-82eb...)",
-      "contentFingerprint": "c2a49069e1c944868018ea419375039a9a3dce194ca3674bcc649caa7b632400",
+      "bodyText": "FREE GARDEN BOARDS, BANNERS, CAR STICKERS, WINDOW STICKERS AND BASEBALL CAPS!\nA kind person has covered the cost of our current stock of garden boards, banners, car stickers, window stickers and baseball caps. If you would like something please go to our form here https://form.typeform.com/to/GvsXrdNm and complete it, IGNORING THE PRICES!\nWe are still selling our great t-shirts, hoodies and tote bags at COST PRICE here: https://stop-calderdale-energy-park.teemill.com/",
+      "contentFingerprint": "00b02ecd30457d642bfa41fff83264d2c57b39419eaa7e86e3fbc5dd7531d539",
       "photos": [
-        "media/facebook/28546448055008614/photo_1.png"
+        "media/facebook/1401736818198425/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://form.typeform.com/to/GvsXrdNm",
+          "url": "https://form.typeform.com/to/GvsXrdNm"
+        },
+        {
+          "text": "https://stop-calderdale-energy-park.teemill.com/",
+          "url": "https://stop-calderdale-energy-park.teemill.com/"
+        }
+      ]
+    },
+    {
+      "id": "1618581736644688",
+      "date": "2026-10-02",
+      "title": "Grampian Against Data Centres",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Grampian Against Data Centres",
+        "label": "Facebook · Grampian Against Data Centres",
+        "url": "https://www.facebook.com/groups/1517407306762132/posts/1618581736644688/"
+      },
+      "thin": false,
+      "bodyText": "Hello everyone\nFor the past wee while I have been experiencing a reduction in the amount of heat I am getting in my rooms and the amount of hot water I am getting, before it starts to run cold.   \nWhen I turn on the central heating it no longer stays on for hours and feels as warm as it should, it only stays at the constant temperature for a couple of minutes before it starts feeling it is cooling down again.  The gas boiler engineer was at my flat yesterday due to my boiler experiencing low pressure.  He fixed that but I am still experiencing these issues.\nAre these signs of the fuel shortages we are always being told are coming?    Are we going to tolerate living in increasingly cold properties now with less hot water available, which is needed for so many things.\nCan people comment on this and let me know if this is an issue I individually am experiencing, or if anyone else is experiencing these things now.",
+      "contentFingerprint": "5e646bca5a51b8cbe3091b66dcb6373289dc7726979ea786324a58d162918818",
+      "photos": [
+        "media/facebook/1618581736644688/photo_1.png"
       ],
       "mediaCount": 1
     }
