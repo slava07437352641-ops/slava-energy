@@ -1,16 +1,16 @@
 {
-  "generated": "2026-10-03T15:48:20.000Z",
+  "generated": "2026-10-04T09:44:47.000Z",
   "counts": {
-    "records": 3450,
+    "records": 3465,
     "thin": 320,
-    "withMedia": 917,
-    "withCategories": 890,
+    "withMedia": 932,
+    "withCategories": 898,
     "withTopics": 316,
     "withProject": 10,
     "withCoordinates": 95,
     "withSummary": 52,
-    "withBodyText": 2059,
-    "withPhotos": 914,
+    "withBodyText": 2073,
+    "withPhotos": 929,
     "withPreviewImage": 64,
     "councils": 4,
     "matchReviewLogged": 2,
@@ -22,7 +22,7 @@
   },
   "dateRange": {
     "from": "2024-04-12",
-    "to": "2026-10-03"
+    "to": "2026-10-04"
   },
   "records": [
     {
@@ -85852,6 +85852,528 @@
         "OHL (Pylons)",
         "Substation"
       ]
+    },
+    {
+      "id": "29558337407101940",
+      "date": "2026-10-04",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29558337407101940/"
+      },
+      "thin": false,
+      "bodyText": "How much!? That says it all about the ridiculous amount of money being made by people in this industry.\nMAKE A BOOKING\n£3550.00 - Non-Member\n£2850.00 - Member\nhttps://www.scottishrenewables.com/events/298-sgea26\nSCOTTISHRENEWABLES.COM The Scottish Green Energy Awards 2026",
+      "contentFingerprint": "c414fc50f51fbae717d0e3508ae6c73e3d8a34393ece81320db5ec6de76638dd",
+      "photos": [
+        "media/facebook/29558337407101940/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "SCOTTISHRENEWABLES.COM The Scottish Green Energy Awards 2026",
+          "url": "https://www.scottishrenewables.com/events/298-sgea26"
+        },
+        {
+          "text": "https://www.scottishrenewables.com/events/298-sgea26",
+          "url": "https://www.scottishrenewables.com/events/298-sgea26"
+        }
+      ]
+    },
+    {
+      "id": "29557615243840823",
+      "date": "2026-10-04",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29557615243840823/"
+      },
+      "thin": false,
+      "bodyText": "\"From the satellite images, we've seen that nature sites which should be preserved have also been logged,\" she added, explaining that the size of the clear-cut area was comparable to 420 football fields.\"\nUK.FINANCE.YAHOO.COM Finnish town braces for change from Google data centres",
+      "contentFingerprint": "f294c105a97af8a4e62dc5d5b87d475d0556985b961873570002c77e3135ff8e",
+      "photos": [
+        "media/facebook/29557615243840823/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "UK.FINANCE.YAHOO.COM Finnish town braces for change from Google data centres",
+          "url": "https://uk.finance.yahoo.com/news/finnish-town-braces-change-google-025627054.html"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "29551739207761760",
+      "date": "2026-10-03",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29551739207761760/"
+      },
+      "thin": false,
+      "bodyText": "LOCAL Green councillor Alex Armitage says he is “disgusted at the way Shetland’s renewable resources are being passed around by huge corporations”.\nThe councillor, who represents the Shetland South ward, was commenting after it was announced that business giant Amazon had signed a power purchase agreement with Statkraft for its planned eight-turbine wind farm on the outskirts of Lerwick.\nhttps://www.shetnews.co.uk/2026/10/03/like-huge-game-monopoly-green/\nSHETNEWS.CO.UK Like a ‘huge game of Monopoly’: Green councillor not impressed by Amazon wind farm agreement",
+      "contentFingerprint": "514c4f6a7a705a2f6183d45bdbd9465ea02635fc5797cea6de584717fccf939c",
+      "photos": [
+        "media/facebook/29551739207761760/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "SHETNEWS.CO.UK Like a ‘huge game of Monopoly’: Green councillor not impressed by Amazon wind farm agreement",
+          "url": "https://www.shetnews.co.uk/2026/10/03/like-huge-game-monopoly-green/"
+        },
+        {
+          "text": "https://www.shetnews.co.uk/2026/10/03/like-huge-game-monopoly-green/",
+          "url": "https://www.shetnews.co.uk/2026/10/03/like-huge-game-monopoly-green/"
+        }
+      ],
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "1393258042966437",
+      "date": "2026-10-03",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1393258042966437/"
+      },
+      "thin": false,
+      "bodyText": "Cruachan Power Station is pump storage hydro that’s uses electricity from the grid to pump water to the upper reservior from Loch Awe, during periods of low demand. The process is reversed to generate electricity at periods of high demand and the site is currently being updated to increase capacity to 480 MW.\nBasically a giant water battery hidden in a Scottish mountain, and it's been doing it since the 1960s.\nThis form of long term storage is required to balance the electricity network going forward and plans have been submitted to add 8-10GW of pump storage capacity over the next 10 years. All the new proposed sites located in Scotland.— at Cruachan Dam.",
+      "contentFingerprint": "66a01f5607f5fd6bd92d0e886f833c5a94f5a242046472e21b6cb8cc0c4cae27",
+      "photos": [
+        "media/facebook/1393258042966437/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1393242259634682",
+      "date": "2026-10-03",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1393242259634682/"
+      },
+      "thin": false,
+      "bodyText": "SSEN Transmission has reached a milestone in its Spittal to Peterhead subsea cable link project, with the main construction compounds at both the northern and southern ends of the route now established and operational.\nThe Caithness location is at Bower Quarry.",
+      "contentFingerprint": "922ae3df6ca2861e7b6b4e482a9d9160bb47b2cb5a57b62f2925cff5a7ba3bc1",
+      "photos": [
+        "media/facebook/1393242259634682/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1393212016304373",
+      "date": "2026-10-03",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1393212016304373/"
+      },
+      "thin": false,
+      "bodyText": "Clarke Energy partnership with Trina Storage and Temporis Capital Across Three BESS Projects.\nTheir Boat of Garten BESS is now connected to the grid, marking the latest milestone ithis this collaboration.\nWhat started with Boat of Garten has expanded to include the Fraserburgh and newly signed Bramley projects, together representing more than 290MWh of battery energy storage capacity across the UK.\nBeyond delivering projects, this partnership is focused on long-term asset performance. By combining Trina Storage's evolving Elementa platform with Clarke Energy's project delivery expertise and lifecycle support capabilities, helping investors maximise value throughout the operational life of their assets.\nThe project has a maximum input & output capacity of 49.9 MW with a total storage capacity of 100 MWh. The site is located adjacent to the existing SSEN substation.— at Boat of Garten.",
+      "contentFingerprint": "8998f0700ff58cc1c553da5d0bd74daefbeff2e67ff098a0ed7e2e420069906b",
+      "photos": [
+        "media/facebook/1393212016304373/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "BESS",
+        "Substation"
+      ]
+    },
+    {
+      "id": "1393197636305811",
+      "date": "2026-10-03",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1393197636305811/"
+      },
+      "thin": false,
+      "bodyText": "Wind and solar save UK from gas imports worth £5.9bn during Middle East war. \nThe UK has avoided the need for gas imports worth £5.9bn since the start of the Hormuz crisis as a result of record generation from wind and solar. \nWhile gas prices are surging to levels not seen since the 2022 energy crisis, the UK has been generating record amounts of power from wind and solar, up 14% year-on-year.\nThis unprecedented clean-power generation is directly cutting the need for gas-fired electricity, which is down by nearly 10% year-on-year in 2026 to date.\nIn total, wind and solar have generated a record 41% share of the UK’s electricity needs in 2026 to date, compared with 25% from gas.\nThe figure below shows that wind and solar has avoided the need for UK gas imports worth £5.9bn, since the outbreak of war between the US and Iran in February 2026.\nThese avoided gas imports would have required the UK to secure the equivalent of more than 100 additional tanker deliveries of liquefied natural gas (LNG).\nThe £1.3bn import saving in September 2026 to date is the result of record wind and solar output, at nearly 10 terawatt hours (TWh), combined with surging gas prices.\nWholesale gas prices in the UK have remained elevated ever since Russia cut off supplies to Europe in the wake of its invasion of Ukraine in 2022.\nGas averaged 90p per therm from 2023 until the start of this year, roughly three times above 2019 prices, before the Covid and Ukraine crises.\nSince the outbreak of war in the Middle East in March, gas prices have climbed higher still, averaging 134p per therm or nearly four times the level seen in 2019.\nIn September 2026 to date, gas prices have averaged 189p per therm, reaching their highest level since the global energy crisis in 2022.",
+      "contentFingerprint": "43f64b63d424bf6df4cf78d39eb1535da2dfc644a50c573398edd9950e31c07d",
+      "photos": [
+        "media/facebook/1393197636305811/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1393070192985222",
+      "date": "2026-10-03",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1393070192985222/"
+      },
+      "thin": false,
+      "bodyText": "Batteries are good, no matter which side of the fence you sit on. Here is the latest update from Australian.\nAustralian NEM Batteries (Blue) are scaling up so fast, gas is being pushed out and capping renewable curtailment (Purple).\nContext: Gas is a minor form of energy (GWh) in the NEM, despite having 12.7GW of capacity or 57% vs coal. Yet gas only produces 3.3% vs coal 49.7%. Why? Gas is at least 3x the cost.\nResult: Average wholesale prices (what the retailers pay) have fallen consistently. \nOn the 7th of September, grid batteries surpassed all peaking gas output (OCGT, Reciprocating, Steam) on a rolling 365 day basis.\nIn the next few days approximately a month since passing peaking gas (Brown), batteries will reach a new milestone >4,000 GWh rolling 365 days and overtake CCGT (Orange).\nCCGT will also fall below the same point 4,000GWh for the first time since July 2001.\nIn the next 12 months, batteries will supply >6,000GWh, likely more than all gas.\nBattery & Storage – 15x in 4 years.\nBattery Discharging: 0.23M → 3.99M MWh (17x, YoY +216%).\nThanks to Andrew Klactus for this article and graph.",
+      "contentFingerprint": "19e1d355d10a393bddda40d5264fe63bdfe470a64914f63d7ac21dd56e89ec1d",
+      "photos": [
+        "media/facebook/1393070192985222/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1101996118896836",
+      "date": "2026-10-04",
+      "title": "Communities B4 Power Companies",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Communities B4 Power Companies",
+        "label": "Facebook · Communities B4 Power Companies",
+        "url": "https://www.facebook.com/groups/221782186918238/posts/1101996118896836/"
+      },
+      "thin": false,
+      "bodyText": "Coming to the UK?\nEURONEWS.COM Video. World's tallest wind turbine rises to 365 metres in Germany",
+      "contentFingerprint": "1378f1496a1d134d9083b0d44e7a6fe9de28eb984b8627e9f2487764e44308e2",
+      "photos": [
+        "media/facebook/1101996118896836/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "EURONEWS.COM Video. World's tallest wind turbine rises to 365 metres in Germany",
+          "url": "https://www.euronews.com/video/2026/10/02/worlds-tallest-wind-turbine-rises-to-365-metres-in-germany"
+        }
+      ],
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "1101313835631731",
+      "date": "2026-10-03",
+      "title": "Communities B4 Power Companies",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Communities B4 Power Companies",
+        "label": "Facebook · Communities B4 Power Companies",
+        "url": "https://www.facebook.com/groups/221782186918238/posts/1101313835631731/"
+      },
+      "thin": false,
+      "bodyText": "If ever there was a carefully timed and crafted front page article! \nSo, the construction of a new Quay in Inverness will apparently:\n“roughly align with the construction of the hydro schemes proposed for the great Glen, which is understood to commence within the next 18 months”\n“A number of proposed and consented large hydro schemes are expected to be constructed in coming years, with associated material requirements, movements of which could add pressure to the local road network. The barge berth will facilitate and promote the use of the Caledonian Canal…..”\n“The proposal will also open up the opportunity to utilise the canal for its historic function as a means of commercial logistics.” \n“It is expected that once these schemes have been built, the barges will be handed over to the Scottish Canals to operate a legacy freight service connecting the east and west coasts, repurposing the Caledonian Canal to its original purpose of freight movement.”\nSome people might remember a public meeting where Glen Earrach told us all there would be no use of barges along the Caledonia Canal!",
+      "contentFingerprint": "6e483731a0184f64696bcc329c293fd38e54697918f336095f72a85754afe1f5",
+      "photos": [
+        "media/facebook/1101313835631731/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1530727082417920",
+      "date": "2026-10-03",
+      "title": "Wind Energy's Absurd",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Wind Energy's Absurd",
+        "label": "Facebook Page · Wind Energy's Absurd",
+        "url": "https://www.facebook.com/WindEnergysAbsurd/posts/1530727082417920/"
+      },
+      "thin": false,
+      "bodyText": "We've been waiting all day to post this.  The GMB General Secretary Gary Smith has laid into the Government in The Times.  That's no surprise to us as he has never been afraid of coming out in defence of his union members, formerly as  the Union's Scotland Secretary, where he would swing a wrecking ball with equal ease at the Westminster or the Scottish Government on the subjects of net zero and renewables. We have many of his quotes in our archives.\nAnd he's still battling.\nThe reason we've had this in our pending tray is because we were waiting for confirmation from Kathryn Porter that there was no transcript or recording of a Labour Conference fringe debate - she, Dale Vince, Gary Smith and Amjad Bseisu of EnQuest,  Sadly, Kathryn doesn't believe that there was either.\nSo we are just contenting ourselves with the Times piece.\n𝐒𝐦𝐢𝐭𝐡 𝐝𝐞𝐬𝐜𝐫𝐢𝐛𝐞𝐝 𝐭𝐡𝐞 𝐃𝐞𝐩𝐚𝐫𝐭𝐦𝐞𝐧𝐭 𝐟𝐨𝐫 𝐄𝐧𝐞𝐫𝐠𝐲 𝐒𝐞𝐜𝐮𝐫𝐢𝐭𝐲 𝐚𝐧𝐝 𝐍𝐞𝐭 𝐙𝐞𝐫𝐨 𝐚𝐬 “𝐛𝐚𝐬𝐢𝐜𝐚𝐥𝐥𝐲 𝐭𝐡𝐞 𝐦𝐢𝐧𝐢𝐬𝐭𝐫𝐲 𝐟𝐨𝐫 𝐏𝟒𝟓𝐬” 𝐚𝐧𝐝 𝐬𝐚𝐢𝐝: “𝐖𝐞 𝐚𝐫𝐞 [𝐮𝐬𝐢𝐧𝐠] 𝐬𝐭𝐢𝐜𝐤𝐢𝐧𝐠-𝐩𝐥𝐚𝐬𝐭𝐞𝐫 𝐩𝐨𝐥𝐢𝐭𝐢𝐜𝐬 𝐚𝐥𝐥 𝐭𝐡𝐞 𝐭𝐢𝐦𝐞.” 𝐇𝐞 𝐚𝐝𝐝𝐞𝐝: “𝐈𝐭’𝐬 𝐧𝐨𝐭 𝐜𝐫𝐞𝐝𝐢𝐛𝐥𝐞. 𝐁𝐚𝐭𝐬𝐡𝐢𝐭 𝐜𝐫𝐚𝐳𝐲.”\nhttps://www.thetimes.com/.../union-leader-labour-energy...\n'Labour’s energy policy is “crazy” and the department overseeing net zero is “basically the ministry for P45s”, one of Britain’s most powerful union leaders has said, as he urged ministers to approve new North Sea oil and gas projects or lose out on billions in investment. \nGary Smith, the GMB general secretary, accused the government of relying on “sticking-plaster politics” while companies struggled with high energy costs and warned that rising energy bills would create a raft of fresh strikes across the public and private sector.\nSmith described the Department for Energy Security and Net Zero as “basically the ministry for P45s” and said: “We are [using] sticking-plaster politics all the time.” He added: “It’s not credible. Batshit crazy.”\nHe warned a fresh rise in bills could trigger a new wave of strikes. He said: “The last time we had the spike in inflation, we had a spike in industrial unrest. That wasn’t driven by ideology. All that was driven by pure economics, housing economics.”\nSmith’s intervention came as ministers prepared to decide on whether to approve drilling in the Rosebank oilfield and Jackdaw gasfield, off the coast of Scotland. \nThe decisions rest with Miatta Fahnbulleh, the energy secretary, and it is widely expected that Jackdaw will be approved while the fate of Rosebank is less certain. However, industry sources believe both will go ahead, although the announcements will be delayed for political reasons as the Holborn & St Pancras by-election takes place next week.\nAndy Burnham, the prime minister, said in his speech to Labour Party conference in Liverpool this week that he would be “pragmatic” in relation to North Sea oil and gas “as we build a bridge to a clean energy future as we confront the climate crisis”. Michael Shanks, the energy minister, said a decision would be reached in the near future and the government was going through the evidence “piece by piece”.\nIn an interview with The Times, Smith warned rejecting either project would damage confidence in Britain as a place to invest.\nHe said: “If they do not do this, it will damage hugely the government’s credibility, and it will massively damage investment because that infrastructure, as I understand it, is ready to go — billions of investment. And if it does not now happen, who in their right mind is going to put money into this country?”\nSmith went further and backed additional North Sea exploration beyond Rosebank and Jackdaw while Britain remained reliant on imported oil and gas.\nThe developments were previously approved under the Conservatives but consent was overturned by the courts in January last year, after judges ruled environmental assessments had failed to take account of the emissions created when the oil and gas was eventually burnt. Developers have since submitted fresh assessments and new government decisions are required before production can begin.\nAsked whether ministers should permit more exploration, Smith said: “Yeah, absolutely. As long as we are importing, it is more energy-intensive and more carbon-intensive. It doesn’t make any sense in terms of environment and zero sense in terms of the economy.”\nNew figures this week showed domestic energy production fell by 5.8 per cent in the three months to June compared with the same period a year earlier. Total UK energy production in 2025 was at a record low and was 68 per cent below its 1999 peak.\nSharon Graham, the general secretary of Unite, backed the sites. She told The Times: “We shouldn’t be letting go of one rope before we have got hold of another. Jackdaw is gas. We are going to be able to consume that, we need it and I think we need to go ahead and it should be done.\n“We will run out of what’s in the North Sea,  but there’s a lot of time still left in there. We need the time to transition into the industries that we should transition into. \n“For me, of course I’m going to be jobs, jobs, jobs. But equally it’s about the security of the country as well. Until we have got the industries in place, we need to look at what we need. We’re almost cutting our nose off to spite our face. We are literally saying we are cutting this out when we’ve got absolutely nothing to replace it with.”\nSmith said it did not make sense to focus on electricity when Britain’s homes were overwhelmingly reliant on gas.\nHe said: “Four times as much energy goes down the gas pipes as the electricity cables because we heat our homes with gas. If you want to transfer that energy usage, you’ve got to dig the cables up and make them four times bigger. You’re going to have to rewire all the way back to the transmission line.”\nMeanwhile, households and businesses face fresh energy bill spikes driven by the war in Iran. \nThe household price cap rose by 4 per cent to £1,723 for a typical dual-fuel household on Thursday, while Cornwall Insight has forecast a further 16 per cent rise in January to £1,999, an increase of £276. The consultancy has also estimated that business energy costs have risen by about 25 per cent since February.\nSmith said: “When they say it’s going to be cheaper, I keep saying two things: when and how? Because it’s not.”\nThe Department for Energy Security and Net Zero was contacted for comment.'",
+      "contentFingerprint": "318697f6427bb2cd20d592c009776a2b387ae8203930e75d542348266f06e694",
+      "photos": [
+        "media/facebook/1530727082417920/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://www.thetimes.com/.../union-leader-labour-energy...",
+          "url": "https://www.thetimes.com/uk/politics/article/union-leader-labour-energy-policy-north-sea-drilling-block-crazy-hpc7x7wsn"
+        }
+      ],
+      "categories": [
+        "OHL (Pylons)"
+      ]
+    },
+    {
+      "id": "28574551788864907",
+      "date": "2026-10-04",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/28574551788864907/"
+      },
+      "thin": false,
+      "bodyText": "US Coast Guard located debris of the missing Latitude Air Ambulance jet in the ocean, approximately 12 to 13 nautical miles south of Nantucket Island.\nThe search coincided with the Vineyard Wind offshore wind farm.",
+      "contentFingerprint": "8feae096159a2a0dea571c7a1e26b61186719db46f41e103a2510a178cbd10ab",
+      "photos": [
+        "media/facebook/28574551788864907/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "28572758732377546",
+      "date": "2026-10-03",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/28572758732377546/"
+      },
+      "thin": false,
+      "bodyText": "Hi! I'm new to this group. I recently joined because I have been worried about the environmental damage of turbines and would like to understand your arguments better",
+      "contentFingerprint": "9a18c9d2911a960d4f2f88475c2120a7dd232517e33d12f5fb9ee3e0ae02e03c",
+      "photos": [
+        "media/facebook/28572758732377546/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "28571341949185891",
+      "date": "2026-10-03",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/28571341949185891/"
+      },
+      "thin": false,
+      "bodyText": "Some interesting facts\nThe medical air ambulance, operated by Latitude Air Ambulance, was en route from Bermuda to Boston Logan International Airport when the FAA reported losing contact around 2:00 AM on Saturday, October 3, 2026\nAir traffic control lost contact with the Gulfstream G100 (tail #C-GRJP) in the waters off the coast of Nantucket, Massachusetts, specifically concentrated around 13 nautical miles south of Nantucket Island\nOffshore wind turbines are located approximately 13 to 15 nautical miles south of Nantucket Island. This area is home to Vineyard Wind 1, the United States' first utility-scale commercial offshore wind farm.",
+      "contentFingerprint": "5eb28f11e4075c5f390898bc2ab825e712abb0d2cfa572dc3c9513e1daf734a0",
+      "photos": [
+        "media/facebook/28571341949185891/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "1619641849872010",
+      "date": "2026-10-03",
+      "title": "Grampian Against Data Centres",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Grampian Against Data Centres",
+        "label": "Facebook · Grampian Against Data Centres",
+        "url": "https://www.facebook.com/groups/1517407306762132/posts/1619641849872010/"
+      },
+      "thin": false,
+      "bodyText": "",
+      "contentFingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "photos": [
+        "media/facebook/1619641849872010/photo_1.png"
+      ],
+      "mediaCount": 1
     }
   ]
 }
