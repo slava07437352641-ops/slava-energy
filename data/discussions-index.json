@@ -1,16 +1,16 @@
 {
-  "generated": "2026-10-04T09:44:47.000Z",
+  "generated": "2026-10-05T09:01:53.000Z",
   "counts": {
-    "records": 3465,
+    "records": 3482,
     "thin": 320,
-    "withMedia": 932,
-    "withCategories": 898,
+    "withMedia": 949,
+    "withCategories": 909,
     "withTopics": 316,
     "withProject": 10,
     "withCoordinates": 95,
     "withSummary": 52,
-    "withBodyText": 2073,
-    "withPhotos": 929,
+    "withBodyText": 2090,
+    "withPhotos": 946,
     "withPreviewImage": 64,
     "councils": 4,
     "matchReviewLogged": 2,
@@ -22,7 +22,7 @@
   },
   "dateRange": {
     "from": "2024-04-12",
-    "to": "2026-10-04"
+    "to": "2026-10-05"
   },
   "records": [
     {
@@ -86374,6 +86374,655 @@
         "media/facebook/1619641849872010/photo_1.png"
       ],
       "mediaCount": 1
+    },
+    {
+      "id": "29571223349146679",
+      "date": "2026-10-05",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29571223349146679/"
+      },
+      "thin": false,
+      "bodyText": "Herald letters\nIS it any wonder that the Chinese owners of the Grangemouth plant cannot operate at a profit when energy costs, driven by Holyrood net zero policies, are three times those in the EU?\nWhen are politicians going to accept that a policy of decarbonisation only results in deindustrialisation? This leads to a loss of jobs and higher import bills for fuel, cars and buses.\nSurely it is time for Holyrood to realise that net zero has failed, especially when the use of floating wind farm technology will add 14p/unit to the price of electricity.\nA revised policy of decarbonisation, focused on being as low as economically viable, needs to be adopted urgently before there are no high energy business units left in Scotland.\nIan Moir, Castle Douglas.",
+      "contentFingerprint": "2cb6746167e8e4ca1aae1d76f063da250e68ddfff600c6aa1a2b50bc93037d4c",
+      "photos": [
+        "media/facebook/29571223349146679/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "29570885062513841",
+      "date": "2026-10-05",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29570885062513841/"
+      },
+      "thin": false,
+      "bodyText": "The Scottish Greens want the First Minister to consult the public on national planning guidance for AI hyperscale data centres.\nScottish Green MSP Patrick Har vie has written to johns winney urging him to open a public consultation on the issue.\nThe Greens say the electricity from hyperscale data centres threatens to derail Scotland’s progress to decarbonise. Current proposals would equal around twice Scotland’s peak electricity demand.\nFurther planning applications for AI hyperscale data centres are continuing to emerge. Just last week, an application was lodged for a colossal site at Chapelcross in Dumfries and Galloway.\nIf approved, the data centre would have a capacity of 1GW – bigger than any other data centre in the world.\nSCOTSMAN.COM Greens urge Scottish Government to consult public on AI data centre guidance",
+      "contentFingerprint": "2aa1031ebf6cfc51333df90aa3f339360fa8002da8886c0ea33ddb7916dd1153",
+      "photos": [
+        "media/facebook/29570885062513841/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "SCOTSMAN.COM Greens urge Scottish Government to consult public on AI data centre guidance",
+          "url": "https://www.scotsman.com/news/politics/greens-urge-scottish-government-to-consult-public-on-ai-data-centre-guidance-9264483"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "29570810662521281",
+      "date": "2026-10-05",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29570810662521281/"
+      },
+      "thin": false,
+      "bodyText": "A bid has been launched to bypass the SNP's \"luddite\" ban in nuclear power and deliver a huge jobs boost for Scotland. The Nationalists have positioned themselves firmly against nuclear, despite the potential for it to[ help the UK reach net zero.](https://www.scottishdailyexpress.co.uk/.../snp-force...)\nhttps://www.scottishdailyexpress.co.uk/.../bid-bypass...\nSCOTTISHDAILYEXPRESS.CO.UK Bid to bypass SNP's ban on nuclear energy to power up Scotland's economy",
+      "contentFingerprint": "01bd404532df4812e048746edfc53627105097e8638b371a19db17ceca3d6234",
+      "photos": [
+        "media/facebook/29570810662521281/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://www.scottishdailyexpress.co.uk/.../snp-force...",
+          "url": "https://www.scottishdailyexpress.co.uk/news/politics/snp-force-farmers-cut-sheep-37676259"
+        },
+        {
+          "text": "https://www.scottishdailyexpress.co.uk/.../bid-bypass...",
+          "url": "https://www.scottishdailyexpress.co.uk/news/politics/bid-bypass-snps-luddite-ban-37733730"
+        },
+        {
+          "text": "SCOTTISHDAILYEXPRESS.CO.UK Bid to bypass SNP's ban on nuclear energy to power up Scotland's economy",
+          "url": "https://www.scottishdailyexpress.co.uk/news/politics/bid-bypass-snps-luddite-ban-37733730"
+        }
+      ]
+    },
+    {
+      "id": "29570546939214320",
+      "date": "2026-10-05",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29570546939214320/"
+      },
+      "thin": false,
+      "bodyText": "The Harker electrical substation south of Carlisle doesn’t look like much, but it is one of Britain’s most expensive wiring failures.\nThis unglamorous tangle of metalwork and cables should help take electricity from [Scottish wind farms](https://www.telegraph.co.uk/.../wind-farms-accused.../) to England’s cities.\nInstead, it has become part of a “£1bn bottleneck”, so badly connected that only 60pc of Scotland’s renewable output reaches consumers.\nThat weakness forces thousands of Scottish turbines to sit uselessly in the wind – switched off because their electricity cannot reach customers – while owners claim millions in compensation for lost sales.\nFurther south, gas-fired power stations must ramp up to replace missing power, and they too must be paid.\nThese “constraint payments” added £1.9bn to energy bills last year, and will exceed £2bn this year. Such payments are a key part of the £47 added to the average annual domestic power bill in such “balancing payments”.  Full story can be read here https://archive.ph/RmMX6\nhttps://www.telegraph.co.uk/.../the-failing-substation.../\nTELEGRAPH.CO.UK The failing substation that explains Britain’s power crisis",
+      "contentFingerprint": "107e863d1061c67d322120870d56ce1002ffdfd062fa36fea158485fb4addbe5",
+      "photos": [
+        "media/facebook/29570546939214320/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://www.telegraph.co.uk/.../wind-farms-accused.../",
+          "url": "https://www.telegraph.co.uk/business/2026/09/13/wind-farms-accused-pushing-up-bills-exploiting-loophole/"
+        },
+        {
+          "text": "https://archive.ph/RmMX6",
+          "url": "https://archive.ph/RmMX6"
+        },
+        {
+          "text": "https://www.telegraph.co.uk/.../the-failing-substation.../",
+          "url": "https://www.telegraph.co.uk/business/2026/10/05/the-failing-substation-that-explains-britains-power-crisis/"
+        },
+        {
+          "text": "TELEGRAPH.CO.UK The failing substation that explains Britain’s power crisis",
+          "url": "https://www.telegraph.co.uk/business/2026/10/05/the-failing-substation-that-explains-britains-power-crisis/"
+        }
+      ],
+      "categories": [
+        "Onshore Wind",
+        "Substation"
+      ]
+    },
+    {
+      "id": "29565969286338752",
+      "date": "2026-10-05",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29565969286338752/"
+      },
+      "thin": false,
+      "bodyText": "You may remember this.... when The Highland Council (THC) stated:\n'Entirely separate from the planning process, the Charter does not pre-determine planning decisions but sets commitments that where a development is approved, it delivers tangible community benefit and a legacy for communities'.\nNot as separate as THC, may have wanted you to believe, as it has crept into the Officers report, which states:\n\"Community Wealth Building Team do not object to the application. They note the applicant is one of the signatories of the Highland Social Value Charter, and they are closely engaged with the company regarding its ongoing commitments and community benefit proposals\".\nIt is worth noting that according to advice from the Scottish Government, community benefit arrangements sit outside the planning process and cannot be used as a material consideration to approve or reject a planning application. \nSeems THC Officer has gone a little off script! But getting back on script, he does note 'No Objection' from the following:\nBritish Telecom (BT) Group \nHealth and Safety Executive \nHighlands and Islands Airports \nJoint Radio Company \nNational Air Traffic Control Services \nNetwork Rail \nOffice for Nuclear Regulation \nScottish Gas Networks \nDo these explain the recommendation for 'No Objection' or is there something else....?\nHIGHLAND.GOV.UK Glen Earrach Energy signs Social Value Charter, pledging Scotland's largest Community Wealth Fund – Highland Council",
+      "contentFingerprint": "93d44cc8430f87c5ac4a7e5791d73256e465cd710ca916b8feb05e8722d3d3df",
+      "photos": [
+        "media/facebook/29565969286338752/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "HIGHLAND.GOV.UK Glen Earrach Energy signs Social Value Charter, pledging Scotland's largest Community Wealth Fund – Highland Council",
+          "url": "https://www.highland.gov.uk/news/article/17245/glen-earrach-energy-signs-social-value-charter-pledging-scotland-s-largest-community-wealth-fund"
+        }
+      ]
+    },
+    {
+      "id": "29565154403086907",
+      "date": "2026-10-04",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29565154403086907/"
+      },
+      "thin": false,
+      "bodyText": "Updated cumulative impact map\nHere’s the updated map showing the growing number of windfarms and proposed  developments in our area.\nWith Dunscroft and Wind’s Eye both adding huge turbines to the landscape, the cumulative impact on our countryside and the people who live here cannot be ignored.\nHow much is too much?",
+      "contentFingerprint": "385d3577c94c85afcba315e2c95622212c52e1534d7f0e76d65a00e1e627f3ab",
+      "photos": [
+        "media/facebook/29565154403086907/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "29564784056457275",
+      "date": "2026-10-04",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29564784056457275/"
+      },
+      "thin": false,
+      "bodyText": "Mark Hodgson covering the Compulsory Purchase consultation. The article he refers to about the Terns was also covered by the Express here https://scotlandagainstspin.org/.../shock-as-scots.../\nhttps://cliscep.com/2026/10/04/winds-of-change/\nCLISCEP.COM Winds of Change",
+      "contentFingerprint": "8f0736f9dc4e498a72abb27bdc17ec64a8e7886ccf321006d20dd5ec5a24b097",
+      "photos": [
+        "media/facebook/29564784056457275/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://scotlandagainstspin.org/.../shock-as-scots.../",
+          "url": "https://scotlandagainstspin.org/2025/06/shock-as-scots-farmer-threatened-with-losing-his-land-for-wind-farm-300-miles-away-scottish-daily-express/"
+        },
+        {
+          "text": "https://cliscep.com/2026/10/04/winds-of-change/",
+          "url": "https://cliscep.com/2026/10/04/winds-of-change/"
+        },
+        {
+          "text": "CLISCEP.COM Winds of Change",
+          "url": "https://cliscep.com/2026/10/04/winds-of-change/"
+        }
+      ]
+    },
+    {
+      "id": "29564522499816764",
+      "date": "2026-10-04",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29564522499816764/"
+      },
+      "thin": false,
+      "bodyText": "A High Court judge has compared court objectors against a €175 million wind farm in Co Kilkenny to “the dogged Japanese soldier still fighting World War II in the Philippine jungle, decades after everyone else has admitted defeat”.\nIRISHTIMES.COM Judge compares wind farm objectors to ‘dogged Japanese soldier’ still fighting second World War",
+      "contentFingerprint": "46f962078aa2666e3e5d7b583c586fdadb971f25d64cb56091e78bec7ebd9aef",
+      "photos": [
+        "media/facebook/29564522499816764/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "IRISHTIMES.COM Judge compares wind farm objectors to ‘dogged Japanese soldier’ still fighting second World War",
+          "url": "https://www.irishtimes.com/crime-law/courts/2026/10/04/judge-compares-wind-farm-objectors-to-dogged-japanese-soldier-still-fighting-second-world-war/"
+        }
+      ],
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "29559317840337230",
+      "date": "2026-10-04",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29559317840337230/"
+      },
+      "thin": false,
+      "bodyText": "ALIGN   -  UK Gov's   new digital  tool for England only.  Has  ScotGov already got one like this?\nMHCLGDIGITAL.BLOG.GOV.UK ALIGN: a new national infrastructure spatial tool for evidence-based planning and growth decisions – MHCLG Digital",
+      "contentFingerprint": "a639b9f198c8d5c8773142aea5156099dbdfb9ed980e843df15d4fc7a071bd1d",
+      "photos": [
+        "media/facebook/29559317840337230/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "MHCLGDIGITAL.BLOG.GOV.UK ALIGN: a new national infrastructure spatial tool for evidence-based planning and growth decisions – MHCLG Digital",
+          "url": "https://mhclgdigital.blog.gov.uk/2026/09/29/align-a-new-national-infrastructure-spatial-tool-for-evidence-based-planning-and-growth-decisions/"
+        }
+      ]
+    },
+    {
+      "id": "1394162636209311",
+      "date": "2026-10-05",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1394162636209311/"
+      },
+      "thin": false,
+      "bodyText": "Resently completed reinstatement project at Whitehillock Substation, Keith.— in Keith.",
+      "contentFingerprint": "09eed4c5fc9e9798f08b1875c2f33f4980bc33d089c355a2d189b271f42d8f80",
+      "photos": [
+        "media/facebook/1394162636209311/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Substation"
+      ]
+    },
+    {
+      "id": "1394119872880254",
+      "date": "2026-10-04",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1394119872880254/"
+      },
+      "thin": false,
+      "bodyText": "How to build a foundation base for an onshore wind turbine generator. This base was recently completed on a project near Wick",
+      "contentFingerprint": "253657c729df4642f55152093609053905416730249ff956d921250dd56fcead",
+      "photos": [
+        "media/facebook/1394119872880254/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "1442777414653357",
+      "date": "2026-10-04",
+      "title": "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
+        "label": "Facebook · Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
+        "url": "https://www.facebook.com/groups/1367957378802028/posts/1442777414653357/"
+      },
+      "thin": false,
+      "bodyText": "We need more numbers this time; we need to show them how many of us oppose this. Turn up for ten minutes, turn up late, - anything is better than nothing - leave work early, bring the kids. Yes, it's last-minute notice again and it's more difficult for some than for others but sacrifices must be made - look at what's at stake, after all. Tell people. Many aren't on FB or even online.\nEMERGENCY FLASH PEACEFUL PROTEST: TDC Full Council Meeting Monday 5th October \nA last-minute \"Extraordinary Full Council Meeting\" has been called for tomorrow evening at 6:00 PM at Caddsdown Business Support Centre, Clovelly Road, Bideford, EX39 3BE\nWe cannot let this slip under the radar. We're in this for the long haul, and we need to show up in full force!\nWhen: Tomorrow | Gather at 5:30 PM (Meeting starts at 6:00 PM)\nWhere: Caddsdown Centre, Bideford\nBring your signs, bring your voices, and bring a neighbour. Let’s make ourselves heard - see you there!",
+      "contentFingerprint": "731772363ef047afb7023d635e80ec527b4171ed4c860eb30ec23e27626b9fcc",
+      "photos": [
+        "media/facebook/1442777414653357/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1442742461323519",
+      "date": "2026-10-04",
+      "title": "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
+        "label": "Facebook · Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
+        "url": "https://www.facebook.com/groups/1367957378802028/posts/1442742461323519/"
+      },
+      "thin": false,
+      "bodyText": "There is no evidence we need these massive data centres, hyper scaling, which are used only for large language models (LLMs) that scrape the whole internet. The LLM boom is built on a circular, precarious shady financial bubble which is set to collapse in the next couple of years in echos of the financial crash. (see Ez Zitron and Steve Eisman, the latter predicted the 2008 crash). Hyperscale data centres are over 100 times the size of the usual data centres that serve our current data needs. LLMs don't have the future promised; they are a real estate speculative bubble. \nOur government says we need the hyper scale data centres for health and defence purposes. Let me translate. Health data processing needs relate to your government digitalising and integrating your NHS precious private data (the single electronic health record that you the tax payer are being billed 21 billion to implement). Ellison, the Blair INstitute's largest donor (300 million in 18 months) told Blair at interview at the world government conference in Dubai last year, that NHS data needs to be fully digitalised and integrated for optimisation of AI training and development. The government will become data controller of this integrated complete record (rather than current GP surgeries and hospital trusts that are data controller) in order to facilitate the tech billionaire's access. The good news is you the tax payer are funding open access to your private data.\nMost countries, US included, have private health systems so they will not be able to obtain or integrate that data). But good news. You the public are paying for the digitalisation and integration of your healthcare data for tech billionaire access and development. You can have their hyper scale data centres built in your nature reserves to run it on. And of course the mass AI surveillance processing underway as well. I guess that is being called defence. It's all in the mainstream news if you bother looking. Articles listed on my Facebook page. Have a read of Surveillance capitalism. Prof Shoshana Zuboff.\nThe UK is already the 3rd biggest data centre hub in the world. Building hyper scale data centres for tech billionaires to develop AI on doesn't benefit our electorate. It benefits the tech companies. Their shite products that don't have a future business model will instead be sold to governments like ours to 'integrate' and underpin our public services. So they can both scrape data and sell us shite tech we don't need. And the only ones stupid enough to pay for shite products are governments. Because its not their money (it's the tax payers), there's no competition to expose the defects in what they provide, they can't go bust (they're the government) and the politicians get the backhanders, future job roles and silver tongued lobbyists in their ears.\nLook at Musk and all his government contracts.\nThe Devon data centre is proposed to be over 800 acres of countryside in a Unesco nature site. Draining energy, local water; producing noise, light and heat pollution. The minimal jobs provided will be super short term during build out then none. \nThe AI bubble, the hyper scaling of data centres, the funding of a fully digitalised integrated health record. Mass surveillance, surveillance capitalism. It is all scam scam scam and we are the mugs.\nINDEPENDENT.CO.UK Data-centre nimbys are holding Britain back",
+      "contentFingerprint": "8ab0325036ada27e7a37709f019207552ca34a99bcfa7ec5cbb06dfcf7e3eda5",
+      "photos": [
+        "media/facebook/1442742461323519/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "INDEPENDENT.CO.UK Data-centre nimbys are holding Britain back",
+          "url": "https://www.independent.co.uk/voices/data-centres-ai-tech-nimby-planning-jobs-b3054982.html"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1620526609783534",
+      "date": "2026-10-04",
+      "title": "Grampian Against Data Centres",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Grampian Against Data Centres",
+        "label": "Facebook · Grampian Against Data Centres",
+        "url": "https://www.facebook.com/groups/1517407306762132/posts/1620526609783534/"
+      },
+      "thin": false,
+      "bodyText": "Council shake-up\nWhat it really means...\nLearning from experience: Northern Ireland was the test bed. Back in 2015, 11 \"super-councils\" were formed. The outcome?\n1) less localised services such as social care; more travel and less availability\n2) councillors and staff were making decisions in areas they knew nothing about\n3) processes took longer\n4) accessibility to officers/offices became more difficult\n5) larger developments that should have been made by the government were taken by these councils \n6) local development plans were not updated when they transpired\n7) Any information that was captured as environmental assessments became more difficult to access\n local tailored environmental assessments no longer took place and sites were categorised under sporadic and irrelevant data capturing\n9) increase in rates\nMost of us have experienced very poor standard of service from EDC and this move will not give us any improvement. Why are they doing this now? \nBecause data centres are their focus for \"growth\". The huge investment (and even bigger return on investment nationally and through export of data and nuclear power) will be brought under Glasgow's budget. Less accountability for impacts and direct profiteering. In NI, the reason was to bury high grade nuclear waste in the council areas. (research Geological Disposal Facility white paper 2014). There seems to be a common denominator; nuclear. Is this why they are threatening war? If we are perceived to be in a threat of war, nuclear development has a carte blanche. A very different kind of nuclear war this time.. one that is based on perception of threat; \"my weapon is bigger than yours\" scenario so try not to buy into their narrative.\nGlasgow City Council have already laid plans in their CDP (city development plan) no.2 to build 30k new houses over the next 10 years along the Clyde (do we really need 30k new houses? So many buildings are sitting empty!) and to build  Economic Development Areas for jobs and growth. It specifically lists digital and technology as key sectors to attract investment.\nWhat this means?  There is already the foundation plan to build and to create more energy to supply the \"new houses\" invest in \"technology\" and create income from the \"investment\" (see below) with monies from increased business rates and increase in council tax revenue from new house owners.  \n So who is making decisions on where our money will go? As GCC is in debt and the pension fund is in surplus, GCC are being held to ransom to pay into the pension fund and create as much income as possible. It is the Trustees of the pension fund who have a fiduciary duty to get best returns for members, not to invest in Glasgow because Glasgow wants it. \nPlease look up the word \"fiduciary\", it is important!\nWho are the Trustees who are and will be making decisions on our behalf if we allow this extension?\nIt's not a private trust with trustees - it's a COUNCIL COMMITTEE\nStrathclyde Pension Fund Committee:\n- Convener / Chair: Cllr Richard Bell - also Glasgow City Treasurer\n- Vice Convener: Cllr Martha Wardrop\n- Members: Jill Brown, Elaine Gallagher, Allan Gow, Greg Hepburn, Malcolm Mitchell, Catherine Vallis\nMembership is political: 8 councillors, currently SNP 4, Labour 2, Green 2. Quorum is 3. They meet quarterly in City Chambers, Glasgow.\nThey are the ones with legal power to appoint/fire investment managers, set investment strategy, and decide divestment. The day-to-day investing is done by staff - Chief Investment Officer Jacqueline Gillies, Chief Finance Officer Shona MacLean  and OUTSOURCED(!) to managers like BlackRock, L&G, Baillie Gifford.\nNB. Black rock owns 6.94% of Microsoft and 5.7% of Amazon. So you work for the council, you pay into your pension fund, Blackrock then holds the money and votes without your input on Microsoft and Amazon's landlord status (they are 2 of the 7  who are the big tech investors) in ai data centre development. \nThere's also a broader Pension Board with employer reps (like South Lanarkshire Council) and trade unions (UNISON, Unite, GMB) who scrutinise, but they don't make investment decisions.\nSo, if Glasgow's expansion works, business rates go up. More council tax from 30k homes. That makes the council employers more solvent, so they pay less emergency top-ups into Strathclyde. That leaves more of Strathclyde's £31bn to be invested long-term - which, as we now know,, mostly ends up in Microsoft and Amazon anyway, who then build data centres back in Scotland.\nSo council expansion creates the power and land conditions where US companies might decide to build, using partly your pension money to do it.\nSo if you wanted to ask \"why are you investing in Microsoft/Amazon/data centres\" - Richard Bell's committee is the address. Or maybe any Strathclyde pension holders or union members could write a letter to the Committee saying that they do NOT CONSENT to any investment \nin data centres nor any nuclear plans. \nIt seems that we have got this far because they have made so many layers and have split us up so working together is more difficult to have any meaningful influence. \nBut with knowledge and taking back our sovereignty we CAN make a difference.",
+      "contentFingerprint": "99c15321591473a61ab519efad265be63f7bf93fc7369806485dc79487caabb4",
+      "photos": [
+        "media/facebook/1620526609783534/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1620465793122949",
+      "date": "2026-10-04",
+      "title": "Grampian Against Data Centres",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Grampian Against Data Centres",
+        "label": "Facebook · Grampian Against Data Centres",
+        "url": "https://www.facebook.com/groups/1517407306762132/posts/1620465793122949/"
+      },
+      "thin": false,
+      "bodyText": "Rapid expansion of artificial intelligence is creating enormous demand for new data centers across the United States, but many projects planned for 2026 are facing delays or cancellations before construction begins.\nCommunities near proposed facilities have raised concerns about rising electricity demand, heavy water consumption, land clearing, noise, and pressure on local infrastructure. In some areas, residents and environmental organizations have challenged projects through public campaigns, regulatory reviews, and legal action. Power limitations, water availability, and lengthy permitting processes have also created obstacles for developers.\nTechnology companies argue that additional data center capacity is necessary to support AI tools, cloud computing, and digital services. Developers are also exploring renewable energy, improved cooling systems, and more efficient equipment to reduce resource demands.\nThe growing delays highlight a larger challenge for the AI industry: expanding digital infrastructure while addressing local concerns about electricity, water, land, and environmental impacts. As AI adoption continues, community involvement and infrastructure planning will remain important factors in determining where new data centers are built.\n#fblifestyle #Polarbear #AIDataCenters #Technology #Infrastructure",
+      "contentFingerprint": "a41b363004c5969ab29e8e2e747737b59fd67791613bf5599dcaf4bf02fe7523",
+      "photos": [
+        "media/facebook/1620465793122949/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1785376622536605",
+      "date": "2026-10-04",
+      "title": "7000 Acres Group",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "7000 Acres Group",
+        "label": "Facebook · 7000 Acres Group",
+        "url": "https://www.facebook.com/groups/7000a/posts/1785376622536605/"
+      },
+      "thin": false,
+      "bodyText": "ROOFTOP SOLAR IS BOOMING\nWe keep being told that we need more and more large-scale solar developments because we need more renewable energy.\nBut while all the attention is on huge solar farms, something rather interesting is already happening on our rooftops.\nIn 2025, 269,000 new solar installations were completed in the UK, the highest annual total on record.\nAround 255,000 of those were rooftop installations.\nThat's roughly 95%.\nA new rooftop solar system was being installed around every two minutes.\nYes you read that right every 2 minutes! \nEvery suitable roof that is used for solar is generating electricity without taking another acre of farmland.\nHomes are doing it.\nBusinesses are doing it.\nWarehouses, schools and public buildings can do it.\nMaybe rooftop solar alone can't provide everything the country needs.\nBut surely, before we cover thousands more acres of productive farmland with industrial-scale solar developments, we should be asking whether we are making the best possible use of the enormous amount of roof space we already have?\nAnd there is another part of this conversation that too often gets forgotten.\nOur local distribution networks need investment anyway as electricity demand grows.\nSo why aren't we having a much bigger conversation about rooftop solar, local generation, battery storage and strengthening the distribution network alongside the billions being spent on new transmission infrastructure?\nThe argument is not about being anti solar. It's about putting it in the right places, at the right scale, and looking at the whole energy system rather than one project at a time.\nRooftop solar is already proving that people and businesses are willing to play their part.\nPerhaps we should be making it easier for more of them to do exactly that.\nRight energy. Right place. Right scale.\nwww.lincsland.co.uk\nSource: Department for Energy Security and Net Zero, UK solar deployment figures.",
+      "contentFingerprint": "47337c407ee4ef188bbc9dfed6b1128c380811ad94a2f6c6d43b133412fd1e16",
+      "photos": [
+        "media/facebook/1785376622536605/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "www.lincsland.co.uk",
+          "url": "http://www.lincsland.co.uk/"
+        }
+      ],
+      "categories": [
+        "BESS",
+        "Solar"
+      ]
+    },
+    {
+      "id": "1403982554640518",
+      "date": "2026-10-05",
+      "title": "Worth Valley against Walshaw Moor Wind Farm",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Worth Valley against Walshaw Moor Wind Farm",
+        "label": "Facebook · Worth Valley against Walshaw Moor Wind Farm",
+        "url": "https://www.facebook.com/groups/735756034796510/posts/1403982554640518/"
+      },
+      "thin": false,
+      "bodyText": "Please vote and please share\nWe could win one of 10 grants of £5,000 with your vote.\nWe’re delighted to share that Curlew Action is taking part in the Movement for Good Animal and Wildlife Special Draw, and we’d love your support!\nThis funding could make a real difference to our work protecting curlews and the landscapes they depend on, helping us continue our mission to secure a future for these remarkable birds.\nCurlews need our help. Their haunting calls are an iconic sound of the British countryside, but their numbers have declined dramatically. Together, we can help give them a future.\nFind out more here: https://movementforgood.com/draws/special",
+      "contentFingerprint": "323e1bd352cfd249426c2d471e0c08eeed4aa3aae82f8e5484eeb5bbdbee146e",
+      "photos": [
+        "media/facebook/1403982554640518/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://movementforgood.com/draws/special",
+          "url": "https://movementforgood.com/draws/special"
+        }
+      ]
     }
   ]
 }
