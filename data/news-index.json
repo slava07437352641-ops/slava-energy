@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-08T09:00:36.000Z",
+  "generated": "2026-10-12T19:49:32.000Z",
   "sourceFilter": [
     "Scotland Against Spin",
     "Environmentalists Against Wind Turbines",
@@ -15,26 +15,28 @@
     "Essex Suffolk Norfolk Pylons",
     "Scottish Electricity Generating Stations",
     "Worth Valley against Walshaw Moor Wind Farm",
-    "Wind Energy's Absurd"
+    "Wind Energy's Absurd",
+    "Rural Scotland (APRS)"
   ],
   "selection": "strict global recency (most recent records first, across all tracked sources)",
   "counts": {
     "records": 18,
-    "Grampian Against Data Centres": 2,
-    "Scotland Against Spin": 7,
     "Scottish Electricity Generating Stations": 6,
-    "Environmentalists Against Wind Turbines": 1,
-    "Communities B4 Power Companies": 2
+    "Environmentalists Against Wind Turbines": 5,
+    "Wind Energy's Absurd": 4,
+    "Essex Suffolk Norfolk Pylons": 1,
+    "Mey BESS Action Group": 1,
+    "Scotland Against Spin": 1
   },
   "dateRange": {
-    "from": "2026-10-07",
-    "to": "2026-10-08"
+    "from": "2026-10-12",
+    "to": "2026-10-12"
   },
   "records": [
     {
-      "id": "1623829292786599",
-      "date": "2026-10-08",
-      "title": "Grampian Against Data Centres",
+      "id": "1401289292163312",
+      "date": "2026-10-12",
+      "title": "Scottish Electricity Generating Stations",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -51,113 +53,27 @@
       },
       "source": {
         "type": "facebook_group",
-        "name": "Grampian Against Data Centres",
-        "label": "Facebook · Grampian Against Data Centres",
-        "url": "https://www.facebook.com/groups/1517407306762132/posts/1623829292786599/"
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1401289292163312/"
       },
       "thin": false,
-      "bodyText": "Water infrastructure is becoming a real concern as data centers expand. When Cheyenne, Wyoming traced a rare bacterium to wastewater from a contractor working on Meta's facility, the city revoked discharge privileges and took its reclaimed-water system offline for months of cleaning and investigation.\nThe contamination didn't reach residential drinking water, but it exposed something larger. As these massive facilities multiply, communities are starting to ask harder questions about cooling water, wastewater management, and what gets dumped into local systems after construction.\nIt's a reminder that industrial growth has real consequences for water quality and availability. What happens upstream affects everyone downstream.",
-      "contentFingerprint": "3267dfb1b07ee2763de6d81f6fb632070d834b6da2638be916b139bb19264cbb",
+      "bodyText": "Interesting post from Pat Murray.\nThe Times published an article on the cost of curtailing wind power, their third article on the topic in the past few months, based on data from Octopus Energy.\nThe headline numbers are indeed large; £1.5B year-to-date, and rising.\nBut the headline is misleading; £1.28B of that £1.5B, or about 85%, has gone to paying gas turbines near cities to turn on, instead of paying wind turbines to turn off.\nConstraint costs should be minimised, all else equal, but there's quite a bit under the hood. Let's break it down.\nThe economics of wind\nWind and solar economics differ meaningfully from carbon power in 2 important ways:\nNo marginal cost: the cost of a wind and solar farm is nearly all upfront; the marginal cost of producing an additional unit of power is effectively zero\nHigh covariance: within a (European- sized) country, the amount of solar or wind across the country goes up and down in unison\nTogether, this means that the more renewables we have, the more likely it is that we produce too much energy at a given time.\nIs this a problem?\nNot necessarily. If it's cheap enough to build wind and solar farms, you could imagine a lowest-cost energy system driven by overbuilt renewables, where a wind farm operating at a low capacity factor is still more cost-efficient than alternatives like firing up a gas power plant.\nThis is what we're starting to see in continental Europe; increased solar curtailment, where total generation at times exceeds total demand.\nThe UK situation is a bit different. Here, much of the wind generation is in Scotland, but most of the demand is in England. And the transmission capacity to bring that Scottish wind to English consumers is constrained, because generation has grown faster than network capacity. (Separating generation from transmission expansion was a deliberate policy decision, and likely the right one historically).\nThe obvious solution is to build more cables to increase that capacity. And hey, the UK is doing so; the Eastern Green Links are a series of 4 transmission lines from Scotland to England, coming online from 2029-2034, which should more than double the capacity across this constraint.\nThese cost a pretty penny, about £13B in total. They're all offshore, which costs ~5x the on-land equivalent, but reduces community objections, permitting delays, and the like. Ofgem's analysis suggests they're good value-for-money.\nWe can also soak up the excess wind in Scotland (through batteries, EVs, industrial processes, etc.) and reduce demand in England when there isn't much cheap generation available. This is part of what flexibility companies like Axle do.\nSo what's the big deal?\nUnsurprisingly for energy, this is a small fight within a larger battle.\nGreat Britain has one national market for wholesale electricity; that means that a MWh generated in northern Scotland gets paid the same as one generated in London. The wind curtailment issue highlights a shortcoming of that approach: wind developers want to build wherever it's windiest, so it's up to the central planners to approve & plan for the generation and transmission that's in the best interest of the system.\nAn alternative is locational pricing; different prices in different parts of the country, which create a price signal to, say, build more generation close to consumer.\nEconomists love this, but most others don't; it creates winners and losers, and would be a very large and disruptive (read: expensive) change to the structure of the energy market.\nLast year, the government considered locational pricing, which opened up a pitched battle within industry. The government ruled against it.\nSupporters are using wind curtailment to continue fighting this battle, and in the process providing (misleading) ammunition for the 'net zero is bad' crowd.\nAs always, the truth hides beyond the headlines.",
+      "contentFingerprint": "0181781f33f1f7652eecc84c186bbe8266da544ab8fd40e8351d60e5ed0b5b59",
       "photos": [
-        "media/facebook/1623829292786599/photo_1.png"
+        "media/facebook/1401289292163312/photo_1.png"
       ],
       "mediaCount": 1,
       "categories": [
-        "Data Centre"
+        "OHL (Pylons)",
+        "Onshore Wind",
+        "Solar"
       ]
     },
     {
-      "id": "29612338195035194",
-      "date": "2026-10-08",
-      "title": "Scotland Against Spin",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Scotland Against Spin",
-        "label": "Facebook · Scotland Against Spin",
-        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29612338195035194/"
-      },
-      "thin": false,
-      "bodyText": "TWO [Holyrood](https://www.thenational.scot/topics/holyrood/?ref=au) committees are preparing to “dig into the details” behind [planned hyperscale data centres](https://www.thenational.scot/.../26172431.interactive.../...).\nWith growing concern from both communities and environmental campaigners about such proposed developments, MSPs on both the Climate Action Committee and the Economy Committee are both to launch investigations into the issue.\nThe committees will be working together to gather evidence on the impacts of potential hyperscale data centre construction and operation in Scotland.  \nhttps://www.thenational.scot/.../26616329.holyrood.../\nTHENATIONAL.SCOT Holyrood launches probe into 20-plus AI data centres planned across Scotland",
-      "contentFingerprint": "bdcdbb5bba24143346afaa72fa502e5a5fdbbd0e32c4423c9791c6319570c04c",
-      "photos": [
-        "media/facebook/29612338195035194/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "links": [
-        {
-          "text": "https://www.thenational.scot/topics/holyrood/?ref=au",
-          "url": "https://www.thenational.scot/topics/holyrood/?ref=au"
-        },
-        {
-          "text": "https://www.thenational.scot/.../26172431.interactive.../...",
-          "url": "https://www.thenational.scot/news/26172431.interactive-map-shows-rise-ai-data-centres-across-scotland/?ref=ed_direct"
-        },
-        {
-          "text": "https://www.thenational.scot/.../26616329.holyrood.../",
-          "url": "https://www.thenational.scot/news/26616329.holyrood-investigating-wave-ai-data-centres/"
-        },
-        {
-          "text": "THENATIONAL.SCOT Holyrood launches probe into 20-plus AI data centres planned across Scotland",
-          "url": "https://www.thenational.scot/news/26616329.holyrood-investigating-wave-ai-data-centres/"
-        }
-      ],
-      "categories": [
-        "Data Centre"
-      ]
-    },
-    {
-      "id": "29612282751707405",
-      "date": "2026-10-08",
-      "title": "Scotland Against Spin",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Scotland Against Spin",
-        "label": "Facebook · Scotland Against Spin",
-        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29612282751707405/"
-      },
-      "thin": false,
-      "bodyText": "Herald letters\nI DON’T know if Chris Allan (Letters, October 3) discussing the threat to golden eagles from wind turbines intended to be frivolous. It certainly came across as such. I’d go as far as describing it as facetious.\nThe use of phrases such as “a rabbit taking a leak” and “sliced and diced” certainly suggest he isn’t taking the matter seriously.\nWhilst a golden eagle’s eyesight may well be good enough to spot a rabbit two miles away, the tip of a rotor blade, which might be travelling at anything from 120 to 180mph, would be much more difficult to see and avoid.\nThe golden eagle is a rare and precious part of our natural heritage and should be cherished as such. The death of even one bird is one too many. Everything possibly should be done to mitigate risk.\nDavid Clark, Tarbolton.",
-      "contentFingerprint": "798a7536ee2cb32995e784c0a0e4b149b0e0f1079d398145d4e0333b5c649ba3",
-      "photos": [
-        "media/facebook/29612282751707405/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "categories": [
-        "Onshore Wind"
-      ]
-    },
-    {
-      "id": "29611992065069807",
-      "date": "2026-10-08",
-      "title": "Scotland Against Spin",
+      "id": "28693392173647534",
+      "date": "2026-10-12",
+      "title": "Environmentalists Against Wind Turbines",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -171,132 +87,21 @@
       },
       "source": {
         "type": "facebook_group",
-        "name": "Scotland Against Spin",
-        "label": "Facebook · Scotland Against Spin",
-        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29611992065069807/"
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/28693392173647534/"
       },
       "thin": false,
-      "bodyText": "This is the problem,  scaremongering probably sponsored by the Duke of Roxburgh paid for from the Fallago WF community benefit.\nIf you are not able to make the screening in Yetholm on the 8th October, the film will be shown again in Kelso on the 28th October. No need to book, just come along on the night.",
-      "contentFingerprint": "4ed6835182eb177cfd91283b5e09cbc1a67232e9f2aaca2f7b7fee2ecd9bbffd",
+      "bodyText": "educate yourself and help us end it. come to our November 7 forum  (Smoke and Mirrors) at the SLO Botanical Gardens at 2pm.",
+      "contentFingerprint": "1ca08ad282c7e6906cfd99650a5a9af9f02a8caa2b9a9447bffc4d1f56b88f33",
       "photos": [
-        "media/facebook/29611992065069807/photo_1.png"
+        "media/facebook/28693392173647534/photo_1.png"
       ],
       "mediaCount": 1
     },
     {
-      "id": "29611949888407358",
-      "date": "2026-10-08",
-      "title": "Scotland Against Spin",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Scotland Against Spin",
-        "label": "Facebook · Scotland Against Spin",
-        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29611949888407358/"
-      },
-      "thin": false,
-      "bodyText": "Scotland’s First Minister John Swinney has urged the UK government to take the brakes off key policy decisions to facilitate the “world leading ambitions” of the country’s floating offshore wind industry.\nRENEWS.BIZ FOW26: Swinney takes aim at London | Offshore Wind | reNEWS",
-      "contentFingerprint": "3c1c7e7ee8736e2dcebf6be50f70bc88a152398a7bf21d205fd42ee085794999",
-      "photos": [
-        "media/facebook/29611949888407358/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "links": [
-        {
-          "text": "RENEWS.BIZ FOW26: Swinney takes aim at London | Offshore Wind | reNEWS",
-          "url": "https://www.renews.biz/offshore-wind/fow26-swinney-takes-aim-at-london/"
-        }
-      ]
-    },
-    {
-      "id": "29611115751824105",
-      "date": "2026-10-08",
-      "title": "Scotland Against Spin",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Scotland Against Spin",
-        "label": "Facebook · Scotland Against Spin",
-        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29611115751824105/"
-      },
-      "thin": false,
-      "bodyText": "Researchers at the University of Aberdeen have helped uncover how offshore wind farms affect ocean mixing and temperature, with new findings showing that impacts depend strongly on local environmental conditions.\nABDN.AC.UK Study reveals influence of offshore wind farms on ocean temperatures",
-      "contentFingerprint": "aee8f1d880902d03bef2de5a444c661c9cb9013568e35d9ab44e6dac77b47b45",
-      "photos": [
-        "media/facebook/29611115751824105/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "links": [
-        {
-          "text": "ABDN.AC.UK Study reveals influence of offshore wind farms on ocean temperatures",
-          "url": "https://www.abdn.ac.uk/news/26266/"
-        }
-      ],
-      "categories": [
-        "Onshore Wind"
-      ]
-    },
-    {
-      "id": "1396945449264363",
-      "date": "2026-10-08",
-      "title": "Scottish Electricity Generating Stations",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Scottish Electricity Generating Stations",
-        "label": "Facebook · Scottish Electricity Generating Stations",
-        "url": "https://www.facebook.com/groups/443369301288654/posts/1396945449264363/"
-      },
-      "thin": false,
-      "bodyText": "Kilbraur Wind Farm\nA twenty-seven turbine wind farm within the valley of the Scottarie Burn, 7 miles (11 km) west northwest of Brora in E Sutherland, Kilbraur Wind Farm was built in two phases 2006-08 and 2009-11. \nThe first phase comprised 19 German-built Nordex turbines which, together with their support towers, were delivered by sea to Invergordon and then moved to site by road. Each is 70m (230 feet) in height, with blades which are 90m (295 feet) in diameter, giving a total height to blade tip of 115m (377 feet). \nThe first phase also necessitated the construction of 4½ miles (7.5 km) of access road, some sections of which were built on bed-rock while others float on top of deep peat formations. \nA second phase, costing £29 million, brought a further eight turbines mounted on 80m (262 feet) towers, but with the same blade dimensions, giving a total height to blade tip of 125m (410 feet). All of the installed turbines produce 2.5 MW of electricity, giving the site a total peak generation capacity of 67.5 MW.\nThe project was developed by RDC Scotland and West Coast Energy Ltd., with work undertaken by contractors Tulloch Civil Engineering Ltd. and R.J. McLeod Ltd. \nThe wind farm is owned and operated by Kilbraur Wind Energy Ltd., which is a subsidiary of Falck Renewables (now Nadara). Kilbraur Wind Energy Co-operative was established in 2008 to allow local people to invest in the project and a community trust fund also distributes grants to support local projects.— at Kilbraur.",
-      "contentFingerprint": "51c62faeaa4b32d5bb564a92922d1b0af0c10c5c18db2da14278adecdca2bea0",
-      "photos": [
-        "media/facebook/1396945449264363/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "categories": [
-        "Onshore Wind"
-      ]
-    },
-    {
-      "id": "1396926719266236",
-      "date": "2026-10-08",
+      "id": "1401274478831460",
+      "date": "2026-10-12",
       "title": "Scottish Electricity Generating Stations",
       "provenance": {
         "title": {
@@ -313,19 +118,19 @@
         "type": "facebook_group",
         "name": "Scottish Electricity Generating Stations",
         "label": "Facebook · Scottish Electricity Generating Stations",
-        "url": "https://www.facebook.com/groups/443369301288654/posts/1396926719266236/"
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1401274478831460/"
       },
       "thin": false,
-      "bodyText": "Rosyth Dockyard Power Station (Commissioned 1912)\nPower Station (Building No 333), Rosyth Dockyard, A Category B Listed Building in Rosyth, Fife\nSummary Category B\nGroup Category Details 100000019\nDate Added 19/12/2006\nLocal Authority Fife\nPlanning Authority Fife\nBurgh Dunfermline\nNGR NT 09970 82330\nCoordinates 309970, 682330\nConstruction by Easton Gibb and Son Ltd of Westminster for Royal Navy, 1910-15. 3-storey and attic/single storey with false attic and 2-storey and attic/single storey and attic and 2-storey; also with concealed basement; overall L-plan power station; comprising 3-storey and attic/single storey and attic main block.  \nBuilding interior consists of steel-framed roof-trusses to main block, which is largely open to roof. Brown glazed tiled dado to ground floor; white glazed bricks to arched basement. Formerly contained steam turbines (since removed). Retains original crane (inscribed 'Marshall Fleming & Co, Motherwell' and dated '1914').\nThe Rosyth Dockyard, Basin and the Pumping Station, the @power station was the earliest building to be completed on the site (it is shown nearing completion in a photograph dated 1912). One of the key buildings at the dockyard, it would have supplied power to the whole complex, including to any ships stationed there. It remains one of the dockyard's landmarks, despite having lost its original industrial chimney, which also served as a clocktower. It is amongst the earliest non-public electric power stations remaining in Scotland. Rosyth dockyard is the largest facility used by the Royal Navy outside southern England. It constitutes the only newlybuilt naval dockyard in the UK since the Napoleonic era.\nThe decision to construct a major naval base facing Germany was announced in 1903. Subsequently the Admiralty purchased 285 acres of foreshore and 1184 acres of inland around Rosyth. Operations did not begin however until March 1909, with Messrs Easton Gibb and Son Ltd of Westminster appointed as contractors. It was intended as a support and heavy repair base for warships of the Grand Fleet.\nAt the outbreak of the First World War very little of the work had been completed. Work was underway on the main basin and the tidal basin to the east had been constructed (although its entrance was obstructed by a clay dam); the generating station and pumping station had been built but were only in the process of being equipped. More manpower was sent to speed up the construction process and the dockyard was officially opened by George V in June 1915. The main basin however was not entirely completed and flooded to full depth until September. Between March 1916 and the Armistice, 78 capital ships (dreadnoughts, superdreadnoughts and battle cruisers), 82 light cruisers and 37 small craft were docked and refitted at Rosyth. The yard's value soon became apparent, when a number of damaged warships were towed in for repair following an engagement with the German High Seas Fleet off Jutland in June 1916.\nThe design and building of the electricity generating station became an early priority. As soon as the plant was commissioned, its power could be used both during the construction period and later for Naval operational use.\nThe provision of Naval repair facilities were to be of the highest standard. The workshops were to be comprehensive and able to undertake all types of ship repair and reconstruction following damage of warships in battle. The workshops would provide the best mechanical cutting and turning lathes available and these had to be supplied by reliable electric power. To service these excellent facilities there was the need to build a correspondingly excellent generating station. The contract specification for the generating plant was as follows:\nFive separate engines will be provided, each rated 250 horse-power, each with its own dynamo giving an output rating of 175 Kw at 550 volts. When working at full power a total horse-power of 1,250 would ɓprovide 875 Kw of electricity.\nWith this multiple power plant it would be possible to maintain supply should any unit fail or be under maintenance.The combined output from this central generating plant was considered generous when first proposed. However, soon other generating stations in the United Kingdom would soon outstrip the total electric capacity of Rosyth.\nThe decision to use coke as the primary source of power resulted in the engine fuel being water gas. This does not give the highest calorific value of the alternatives, but it is easy to produce and relatively cheap. This is a gas made up of carbon monoxide and hydrogen, C+ H₂0 CO + H2\nThe five driving engines were to be powered using this fuel by a method known as the Suction Gas process. The gas was obtained by passing steam over incandescent coke. When ignited in the cylinders the exhaust gases were carbon dioxide and water. The reason for the name of suction gas arose from the engine cylinders directly sucking the gas from the adjoining coke firebox. The engine ran on the four stroke principle conceived in 1876, ironically by the German inventor Nicolaus August Otto. The actual units installed were listed as \"National, twin cylinder, suction gas engines, running on the Otto principle\". The ignition sparks were created by low tension magnetos. How these big engines were started is a mystery. The cranking mechanism would not have been manual and was probably driven by a small separate engine, using a belt lying round a clutched pulley.\nDuring the construction of the generating station, a fire broke out on 11th June 1910. The cause was in the timber shuttering and a large fire resulted. It would be some weeks before replacement parts to the metal coke stoves were available.\nThe dockyard was run down after the Armistice and closed to naval use between 1928 and 1935. However during this period at least one dry dock was used for breaking up ships salvaged by Cox and Danks after scuttling in Scapa Flow. It came back into full operation during the Second World War. After the war it was kept operational to support forces deployed to counter the Northern and Baltic fleets of the Soviet Navy. In the late 1960's it was designated a major refitting base for the Polaris (strategic ballistic missile) nuclear submarine fleet.\nThis is an extract from a Dockyard history which may be of interest:\n1955 -Rosyth Dockyard stopped generating its own electricity supply in the Generating Station. After that date, high voltage AC was imported from the National Grid and transformed down to suit the various levels of supply required around the Yard and aboard ship (ie 440V/415V 3 phase 50 & 60 Hz, 115V single phase 50 & 60 Hz and Direct Current). The frequency of the shore supply remained at National Grid level of 50 Hz and was changed to 60 Hz by synchronising machinery for supply to ships. Ships under refit did not use their own generators to produce electricity and this was supplied from the Dockyard and known as the shore supply..\nFollowing the end of the Cold War, operational ships and the majority of uniformed personnel were withdrawn between 1993 and 1996. The dockyard was transferred to commercial management in 1987 and sold to Babcock in 1997 (with limited guarantee of naval contracts). It continues in use as a working dockyard on both naval and commercial contracts.\nPower Station Coordinates\nLatitude: 56.0254 / 56°1'31\"N\nLongitude: -3.4461 / 3°26'45\"W— in Rosyth, Fife.",
-      "contentFingerprint": "10e4c7896acc6340f5eef3c5bfeee0b651c7581995d97a8cea8fe4e1609c96a1",
+      "bodyText": "Liverpool Bay is now home to the world’s first offshore platform dedicated to carbon capture and storage and will service a controversial multi-billion pound carbon capture project. \nThis will enable CO2 emissions captured as part of the multi-billion pound HyNet project to be  stored indefinitely in rock in depleted gas fields in the Irish Sea.\nThis platform was delivered in less than 18 months from contract award following an accelerated programme integrating engineering, procurement, construction, and commissioning.\nCalled Douglas CCS, it comprises 1,885-tonne topside facilities, a supporting jacket structure weighing 1,755 tonnes and eight foundation piles with a combined weight of 730 tonnes, which secure the structure to the seabed.\nHyNet, which comprises a consortium of businesses, will produce hydrogen for industrial use by burning natural gas at a facility being built at the Stanlow oil refinery in Ellesmere Port.\nInstead of being released into the atmosphere, the CO2 produced by the gas will be captured and sent to Liverpool Bay via a pipeline through North Wales. It is being backed by billions of pounds of Government cash and will likely be operational in 2028.\nCarbon capture and storage (CCS) is a controversial method and some experts doubt it is achievable to the required standard at this scale and is merely a way to prolong the use of fossil fuels.\nEven more controversial than HyNet is the £5bn Peak Cluster project, also being heavily backed by the Government. This will see the building of a 125-mile CCS pipeline to carry CO2 from cement and lime producers in Derbyshire and Staffordshire.\nSimilar to HyNet, Peak Cluster will store the CO2 emissions under the Irish Sea. In Wirral there has been huge public opposition to the pipeline which campaigners claim will cause significant environmental damage to the peninsula’s rural landscape. However, this new platform is not part of Peak Cluster.\nInstallation of Douglas CCS forms part of a wider construction programme that is progressing across the entire Liverpool Bay CCS network, which is now approximately 50% complete.\nAround 60% of the overall project expenditure from the investment is delivered through UK-based supply chains, supporting more than 2,000 jobs during construction and approximately 200 to 300 long-term roles over more than 25 years of operation.\nEni CCUS Holding is based in London and is owned jointly by Italian outfit Eni and Global Infrastructure Partners, part of BlackRock.— in Liverpool Bay.",
+      "contentFingerprint": "1e8a4d454e26321852bfe0ab0b316e9a21606c47a54776f24ac46d7f444fec0f",
       "photos": [
-        "media/facebook/1396926719266236/photo_1.png"
+        "media/facebook/1401274478831460/photo_1.png"
       ],
       "mediaCount": 1
     },
     {
-      "id": "1396923809266527",
-      "date": "2026-10-08",
+      "id": "1401248825500692",
+      "date": "2026-10-12",
       "title": "Scottish Electricity Generating Stations",
       "provenance": {
         "title": {
@@ -345,51 +150,28 @@
         "type": "facebook_group",
         "name": "Scottish Electricity Generating Stations",
         "label": "Facebook · Scottish Electricity Generating Stations",
-        "url": "https://www.facebook.com/groups/443369301288654/posts/1396923809266527/"
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1401248825500692/"
       },
       "thin": false,
-      "bodyText": "Sanquhar 2 Wind Farm\nAs part of the project delivery there was a requirement to construct 11 cable joint bays to connect the HV cables across the windfarm site.\nAnother successful works package delivered by Vaillant & Co. Ltd— in Sanquhar.",
-      "contentFingerprint": "b28085e0da6679a31f261f3cdbd3c1662eff9d89bad1daccd801083dbd01589b",
+      "bodyText": "The developer of a windfarm in Eday (Orkney) says it will be offering land for community use is one option being considered by GreenPower, which is looking into how islanders will benefit from its proposed Neven Point Wind Farm.\nThe Alloa-based renewable energy company provided the update as further information as been lodged with the local authority’s planning team. GreenPower is looking to build five turbines, up to 180 metres, near Greentoft.\nLast year, interviews with a number of residents who had strong concerns about the Neven Point development, claiming it threatened the fabric of life in the island.\nThe planning application for the windfarm was submitted in June 2025. In the months since, dozens of objections have been lodged with Orkney Islands Council’s planning department.\nEday Community Council said in its submission last year that it is maintaining a neutral stance on whether the development should go ahead.\nThe Neven Point Wind Farm project is located on Greentoft Farm land on the southern edge of Eday and was initially mooted in 2018 as a 10- turbine proposal. \nFollowing initial feasibility work, the design was reduced to an 8-turbine proposal, and a Scoping Report setting out the proposed scope of environmental survey work was submitted to Orkney Islands Council in 2019.\nPlanning for the proposed wind farm was submitted in June 2025 and can be viewed on the Orkney Islands Council website under the application reference: 25/203/ТРРМАЈ. А number of clarifications and supporting documents were submitted in September 2026 at the request of Orkney Islands Council. These documents are available below and can also be accessed on the Orkney Islands Council website using the same application reference\n£156,000 and £195,000 per year in community benefit for the operational lifetime of the project. The exact amount will depend on the total capacity of turbines installed.\nTo facilitate the wind farm's construction, we propose building a separate landing point adjacent to the existing pier. This ensures that the existing pier and ferry service will be able to operate as usual.\nPlanning for the proposed landing point (reference 25/302/PPMAJ), and a marine licence application (00011446), were both submitted in September 2025. The planning application can be viewed on the Orkney Islands Council website and the marine licence application can be accessed via the Marine.gov.scot website.\nShould you have any questions or @quire any further information then please contact us\nThe project will provided between £156,000 and £195,000 per year in community benefit for the operational lifetime of the project. The exact amount will depend on the total capacity of turbines installed.\nTo facilitate the wind farm's construction, they propose building a separate landing point adjacent to the existing pier. This ensures that the existing pier and ferry service will be able to operate as usual.\nPlanning for the proposed landing point (reference 25/302/PPMAJ), and a marine licence application (00011446), were both submitted in September 2025.— in Eday.",
+      "contentFingerprint": "25b5f7aaec4ff66c6d4df2a7640b90be0508d6a2eb389a4b72a2d8f1c7f5e1be",
       "photos": [
-        "media/facebook/1396923809266527/photo_1.png"
+        "media/facebook/1401248825500692/photo_1.png"
       ],
       "mediaCount": 1,
+      "links": [
+        {
+          "text": "Marine.gov.scot",
+          "url": "http://marine.gov.scot/"
+        }
+      ],
       "categories": [
         "Onshore Wind"
       ]
     },
     {
-      "id": "1396918195933755",
-      "date": "2026-10-08",
-      "title": "Scottish Electricity Generating Stations",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Scottish Electricity Generating Stations",
-        "label": "Facebook · Scottish Electricity Generating Stations",
-        "url": "https://www.facebook.com/groups/443369301288654/posts/1396918195933755/"
-      },
-      "thin": false,
-      "bodyText": "Electricity generation per person in the United Kingdom has fallen by a third from its early-2000s peak.\nGlobally, electricity generation per person has grown by more than 50% this century.\nIn the United Kingdom, things have moved in the opposite direction. Its generation per person peaked in 2003 and has fallen by more than a third since then.\nYou can see this in the chart, which shows generation per person since 1920. Today, levels are back to where they were in the late 1960s.\nSome of that decline is a change in electricity imports, rather than demand: net imports have increased from 1% of electricity demand in 2010 to 9% in 2025. But it's still true that the UK consumes much less electricity than it used to.\nThe most common explanation is deindustrialization: as the economy shifted from manufacturing to services, electricity demand fell. That's part of the explanation, but far from all of it.\nSectoral data from the International Energy Agency confirms that electricity consumption in industry has fallen by one-quarter since 2005 (more if we calculate this per person). But residential and commercial electricity use has fallen by just as much.\nDeindustrialization has reduced demand, but improvements in energy efficiency - such as the shift from incandescent to LED lightbulbs and the introduction of efficiency standards for appliances - have played an important role too.",
-      "contentFingerprint": "650a5b3e82b29a33215ef6e517d701449df5d8eb953d16249fcdfb407393ada2",
-      "photos": [
-        "media/facebook/1396918195933755/photo_1.png"
-      ],
-      "mediaCount": 1
-    },
-    {
-      "id": "28626410487012370",
-      "date": "2026-10-07",
+      "id": "28692764097043675",
+      "date": "2026-10-12",
       "title": "Environmentalists Against Wind Turbines",
       "provenance": {
         "title": {
@@ -409,22 +191,69 @@
         "type": "facebook_group",
         "name": "Environmentalists Against Wind Turbines",
         "label": "Facebook · Environmentalists Against Wind Turbines",
-        "url": "https://www.facebook.com/groups/835899539823505/posts/28626410487012370/"
+        "url": "https://www.facebook.com/groups/835899539823505/posts/28692764097043675/"
       },
       "thin": false,
-      "bodyText": "Coast Guard & Sinking of F/V Mistress January 1, 2019 & MP 4 Video\nThe U.S. Coast Guard (USCG) is legally mandated to investigate the sinking of the F/V Mistress. Under 46 U.S.C. § 6301 and 46 CFR Part 4, the Coast Guard has a strict statutory requirement to investigate any reportable \"marine casualty\" occurring on the navigable waters of the United States\nBecause the January 1, 2019 sinking of the 52-foot commercial fishing vessel resulted in both the total loss of the boat and the loss of life, it automatically met the legal criteria for a Serious Marine Incident (SMI).\nWhile the initial mandate was technically satisfied, a major shift occurred in September 2026. The nonprofit group Green Oceans located the wreckage 92 feet underwater—just 50 feet from Turbine 1 of the Block Island Wind Farm—and discovered what are believed to be human remains\nWhile the law mandates that the Coast Guard conduct an investigation, it leaves the decision to reopen a closed case to agency discretion. Maritime advocates and the families of the victims are actively arguing that the discovery of new forensic evidence and potential human remains legally obligates the Coast Guard to reopen the file, recover the remains for DNA testing, and thoroughly re-examine how the nearby wind turbines impacted the initial search-and-rescue radar and flight operations",
-      "contentFingerprint": "d3a20f7391ce2c553f1fc534d872d5e9f2477536d91e6bc70f474272fc45d96c",
+      "bodyText": "HAUNTING CLUES EMERGE KILLING TWO FISHERMEN\nIN 7-YEAR FISHING BOAT MYSTERY AFTER WRECKAGE FOUND OFF ISLAND\nTHE FISHING BOAT SANK IN 2019 — KILLING TWO FISHERMEN\nhttps://www.foxnews.com/.../haunting-clues-emerge-7-year...\nBy Andrea Margolis Fox News\nPublished October 12, 2026 8:00am EDT\nAn organization believes it has found the wreckage of a fishing boat that sank over seven years ago — potentially solving a mystery surrounding the deaths of two fishermen.\nGreen Oceans, a Rhode Island-based environmental organization, announced the discovery of what it believes is the F/V Mistress in the waters off Block Island in September.\nThe vessel sank Jan. 1, 2019, according to the organization.\nTwo fishermen died in the incident, and the U.S. Coast Guard searched for the vessel following the sinking but never located the wreckage.\nThe F/V Mistress was discovered approximately 92 feet underwater, just 50 feet from the base of a wind turbine at the Block Island Wind Farm, according to Green Oceans.\nGreen Oceans announced the discovery of what it believes is the F/V Mistress, a fishing boat that disappeared more than seven years ago. (Green Oceans)\nThe organization reported that \"apparent human remains\" were also found at the site.\nMichael Lombardi, president of Green Oceans, told Fox News Digital his organization began searching for the vessel after receiving tips from two contractors who had previously worked near turbine No. 1 at the Block Island Wind Farm.\nOne contractor reported hearing rumors of underwater wreckage — while another claimed to have personally spotted wreckage while conducting survey work at the site.\nLombardi said he later reviewed the Coast Guard's original accident report and plotted GPS coordinates associated with distress calls and other key details, which pointed investigators toward the turbine.\n\"Once plotted on a map, it became obvious where the search area should be focused, and it coincided perfectly with turbine 1,\" Lombardi said.\nThe F/V Mistress, seen above, sank on Jan. 1, 2019 — prompting a Coast Guard search that failed to locate the vessel's wreckage. (Green Oceans)\nWhen asked by Fox News Digital how confident he was that the wreck was the F/V Mistress, Lombardi replied, \"100%.\"\nHe added, \"The dive team studied images of the vessel prior to diving the site and were focused on finding key identifying features.\n… One striking item was the net drum. It has several unique features.\"\nTim Diaz, who survived the sinking, confirmed that the net drum belonged to the Mistress, according to Lombardi.\nDiaz built the equipment himself.\nThe mystery isn't over — and Lombardi said there is still some \"uncertainty\" about what happened in the vessel's final moments, though he said it was undoubtedly in distress.\nThe wreckage believed to belong to the F/V Mistress, seen above at right, was discovered just 50 feet from the base of an offshore wind turbine, shown at left. (Green Oceans)\n\"Based on the orientation of the wreckage on the bottom, there is reason to investigate whether an avoidance maneuver to starboard was made in an attempt to avoid a collision with the turbine,\" he said.\n\"With the hull full of water, this maneuver could have ultimately caused the vessel to roll and then sink.\"\nLombardi said he hopes federal authorities will reopen the investigation to determine whether the two fishermen who died remain within the wreckage or were swept out to sea and whether such a maneuver contributed to the sinking.\n\"The USCG and all agencies involved do tremendous work to protect mariners out on the water,\" Lombardi said, adding that he hopes the discovery will help answer lingering questions about the tragedy.\nGreen Oceans hopes federal authorities will reopen the investigation into the F/V Mistress following the discovery of suspected wreckage near an offshore wind turbine. (Green Oceans)\nAs Green Oceans focuses on the environmental and maritime safety impacts of offshore wind development, Lombardi said the discovery could have implications for future permitting decisions.\n\"Had this accident been fully investigated in 2019, while having the vessel wreckage, the offshore wind permitting landscape would have been quite different with regard to safety considerations along the continental shelf,\" he said.",
+      "contentFingerprint": "e55406c789e81fd07a5132c6d94539226da01435dc14c99942e666c30bd1609e",
       "photos": [
-        "media/facebook/28626410487012370/photo_1.png"
+        "media/facebook/28692764097043675/photo_1.png"
       ],
       "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://www.foxnews.com/.../haunting-clues-emerge-7-year...",
+          "url": "https://www.foxnews.com/travel/haunting-clues-emerge-7-year-fishing-boat-mystery-wreckage-found-island"
+        }
+      ],
       "categories": [
         "Onshore Wind"
       ]
     },
     {
-      "id": "1396777965947778",
-      "date": "2026-10-07",
+      "id": "1539259441564684",
+      "date": "2026-10-12",
+      "title": "Wind Energy's Absurd",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Wind Energy's Absurd",
+        "label": "Facebook Page · Wind Energy's Absurd",
+        "url": "https://www.facebook.com/WindEnergysAbsurd/posts/1539259441564684"
+      },
+      "thin": false,
+      "bodyText": "Using graphics from a post showing the size of foundations, and Kype Muir wind farm, Shane Oxer has detail on what would befall Hope Moor.\nWhatever you do, please don't click on to the link under the foundation photos.  We did - we took the punishment so you didn't have to.  We don't believe that we have ever seen so much unadulterated nonsense in one place, ever before - and we've seen a good bit of it.\nLyndsey Ward and other folk whose names we know - and a handful whom we don't -  did go in and try to put forward the facts of life - to absolutely no avail.  \nhttps://hopetosaveourcountryside.com/.../greed-or.../...",
+      "contentFingerprint": "784805738073179448beefbb55550a13a2fee9c98a11c41b7b360c576f639c9c",
+      "photos": [
+        "media/facebook/1539259441564684/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://hopetosaveourcountryside.com/.../greed-or.../...",
+          "url": "https://hopetosaveourcountryside.com/2026/10/12/greed-or-environment-what-hope-moor-stands-to-lose/"
+        }
+      ],
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "1401172058841702",
+      "date": "2026-10-12",
       "title": "Scottish Electricity Generating Stations",
       "provenance": {
         "title": {
@@ -441,20 +270,20 @@
         "type": "facebook_group",
         "name": "Scottish Electricity Generating Stations",
         "label": "Facebook · Scottish Electricity Generating Stations",
-        "url": "https://www.facebook.com/groups/443369301288654/posts/1396777965947778/"
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1401172058841702/"
       },
       "thin": false,
-      "bodyText": "The changing shape of global electricity production",
-      "contentFingerprint": "9e5672a996dc7dc7c003efa6d3f1a8bfb9324171b2bcc46efe68bc9eec5753cc",
+      "bodyText": "Eastern Green Link 1 (EGL1), a joint venture between National Grid Electricity Transmission and SP Transmission, part of SP Energy Networks, will see the creation of a 525kV, 2GW HVDC subsea transmission cable from Torness in East Lothian, Scotland to Hawthorn Pit in County Durham, England, enabling the transmission of renewable green energy to power more than two million homes.\nEGL1 reached another significant milestone in the development of a new subsea electricity superhighway by awarding the Prysmian Group a £750m contract to deliver the UK's first 525kV HVDC electricity transmission cable. \nGE Vernova's Grid Solutions business and MYTILINEOS Energy & Metals have also been awarded a £1bn contract to supply and construct two HVDC converter stations, one at each end of the link.\nThe UK is transforming the electricity grid - the largest overhaul in generations to help deliver a cleaner, greener and more secure energy system for the future. This means multi-billion investments in new electricity transmission projects across the country.\nThis upgrade, which will help move more clean energy from where it is generated to where it is needed and play a major role in the UK moving towards its net zero target, includes six subsea links between Scotland and England of which this joint project is the first.— at Torness.",
+      "contentFingerprint": "f53993c6a26ff4b465cfb78dae8733b1dec8234fb994cfa0789419efa1c60ec2",
       "photos": [
-        "media/facebook/1396777965947778/photo_1.png"
+        "media/facebook/1401172058841702/photo_1.png"
       ],
       "mediaCount": 1
     },
     {
-      "id": "1623438732825655",
-      "date": "2026-10-07",
-      "title": "Grampian Against Data Centres",
+      "id": "1539225008234794",
+      "date": "2026-10-12",
+      "title": "Wind Energy's Absurd",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -471,171 +300,31 @@
       },
       "source": {
         "type": "facebook_group",
-        "name": "Grampian Against Data Centres",
-        "label": "Facebook · Grampian Against Data Centres",
-        "url": "https://www.facebook.com/groups/1517407306762132/posts/1623438732825655/"
+        "name": "Wind Energy's Absurd",
+        "label": "Facebook Page · Wind Energy's Absurd",
+        "url": "https://www.facebook.com/WindEnergysAbsurd/posts/1539225008234794"
       },
       "thin": false,
-      "bodyText": "The Scottish Parliament has launched a survey for the public on data centres please take the time to fill this out and share with friends and family.\n@everyone\nYOURVIEWS.PARLIAMENT.SCOT Hyperscale Data Centres - Short Survey - Scottish Parliament - Citizen Space",
-      "contentFingerprint": "8b540be3954f046e1b2857f4a8e67d72d0262245de1a854916dcf75fcccdee99",
+      "bodyText": "This was one of the images accompanying one of our posts about the renewed threat to Barningham Moor in County Durham, this time by Fred Olsen - the Hope Moor wind farm.  \nThe lady referred to is the late MaryElizabeth Mann, as she was known to all her many anti-industrial wind campaigner friends across the UK (no solar, BESS or any of the other infrastructure threats in the days, nearly 30 years ago, when she took up her sword and fought - although had there been, we are sure that she'd have fought as valiantly now as then.)\nThe sword has been picked up by many, including Shane Oxer and Suzy Wilson who are known to our page.  Lord Botham (Sir Ian Botham) and Alan Hinkes, the accomplished mountaineer, have joined the voices trying to protect moorland and yesterday, a walk took place across the moor.\nShane has written about it - 'Hope Moor: The Day People Stood on the Land and Said No'.\n'Mary Mann carried the old fight. Lord Botham has helped give the new fight a national voice. The people who gathered on the moor showed that the spirit of resistance is alive on the land itself.\nFor Barningham. For Hope Moor. For the views across the Pennines and beyond  For the North. For England’s living landscape.\nStand up. Speak out. Defend the moors.\nBecause the land remembers — and so must we.'\nWe believe that our late friend MaryElizabeth would have cheered the walkers on and been so proud of them. \nhttps://hopetosaveourcountryside.com/.../hope-moor.../...",
+      "contentFingerprint": "5df6fe420aaefe4de57a401822863ee9466e65ab1975a8f2442a5597e59f64e5",
       "photos": [
-        "media/facebook/1623438732825655/photo_1.png"
+        "media/facebook/1539225008234794/photo_1.png"
       ],
       "mediaCount": 1,
       "links": [
         {
-          "text": "YOURVIEWS.PARLIAMENT.SCOT Hyperscale Data Centres - Short Survey - Scottish Parliament - Citizen Space",
-          "url": "https://yourviews.parliament.scot/329/hyper-scale-data-centres-short-survey/"
+          "text": "https://hopetosaveourcountryside.com/.../hope-moor.../...",
+          "url": "https://hopetosaveourcountryside.com/2026/10/12/hope-moor-the-day-people-stood-on-the-land-and-said-no/"
         }
       ],
       "categories": [
-        "Data Centre"
-      ]
-    },
-    {
-      "id": "29606509875618026",
-      "date": "2026-10-07",
-      "title": "Scotland Against Spin",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Scotland Against Spin",
-        "label": "Facebook · Scotland Against Spin",
-        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29606509875618026/"
-      },
-      "thin": false,
-      "bodyText": "Three-quarters of people in Scotland say offshore wind farms should only be built where they do not harm nature , according to a new poll.\nThe polling, commissioned by RSPB, found that there was strong support for offshore wind within Scotland, but only alongside strong protections for nature.\nAlmost eight in 10 people (79%) said they were more likely to support offshore wind farms away from important wildlife sites. Three in five people said that they thought [Berwick Bank](https://www.heraldscotland.com/.../26222117.berwick.../...), an offshore wind farm off the east coast of Scotland, should only go ahead if its impacts are significantly reduced.\nAedan Smith, head of policy and advocacy for RSPB Scotland, said: \"These results show people across Scotland support renewable energy, but not at the expense of our most important wildlife.   You can read the full story here https://archive.ph/fBXjq\nhttps://www.heraldscotland.com/.../26610748.three.../\nHERALDSCOTLAND.COM Three-quarters of Scots say offshore wind farms must not harm nature",
-      "contentFingerprint": "d55b2a7a267cb3e7500757fd13d42b02034c5ce1426f0a4ef1b51a39cd5da4d3",
-      "photos": [
-        "media/facebook/29606509875618026/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "links": [
-        {
-          "text": "https://www.heraldscotland.com/.../26222117.berwick.../...",
-          "url": "https://www.heraldscotland.com/news/26222117.berwick-bank-wind-farm-seabird-plan-sets-dangerous-precedent/?ref=ed_direct"
-        },
-        {
-          "text": "https://archive.ph/fBXjq",
-          "url": "https://archive.ph/fBXjq"
-        },
-        {
-          "text": "https://www.heraldscotland.com/.../26610748.three.../",
-          "url": "https://www.heraldscotland.com/news/26610748.three-quarters-scots-want-nature-safe-wind-farms/"
-        },
-        {
-          "text": "HERALDSCOTLAND.COM Three-quarters of Scots say offshore wind farms must not harm nature",
-          "url": "https://www.heraldscotland.com/news/26610748.three-quarters-scots-want-nature-safe-wind-farms/"
-        }
-      ],
-      "categories": [
+        "BESS",
         "Onshore Wind"
       ]
     },
     {
-      "id": "1105086135254501",
-      "date": "2026-10-07",
-      "title": "Communities B4 Power Companies",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Communities B4 Power Companies",
-        "label": "Facebook · Communities B4 Power Companies",
-        "url": "https://www.facebook.com/groups/221782186918238/posts/1105086135254501/"
-      },
-      "thin": false,
-      "bodyText": "You may have seen the news....the Glen Earrach Pumped Storage Hydro (PSH) scheme is to face no objection from the Highland Council.\nFollowing some debate at the Highland Council South Planning Applications Committee meeting today, councillors voted 6-6 when it came to deciding whether or not to raise an objection to the scheme.\nOur local councillors for the Aird and Loch Ness Ward were also split, taking opposing sides in the debate. Councillor David Fraser raised a motion to object, whereas Councillor Chris Ballance put forward an amendment to raise no objection, but proposed a further two planning conditions.\nThe casting vote fell to committee chairman Councillor Paul Oldham (Nairn and Cawdor, SNP) who chose to raise no objection to the plans and it was given the green light to proceed. \nTo help understand the opposing positions of our councillors (and the views expressed by others), we recommend you watch the meeting and following debate: https://highland.public-i.tv/core/portal/home\nEqually, should you have any questions, you may wish to initially raise these with the relevant councillor(s) participating in the meeting. Contacts can be found at: https://www.highland.gov.uk/councillors\nThe scheme still requires the approval of the Energy Consents Unit. If approved, no works can currently commence until applications for the grid connection and the required Dochfour weir upgrades have also been approved.\nThere is still much to do, and we will reconvene tomorrow, with more analysis, insights and updates - so advance apologies for more FB posts!\nhttps://www.inverness-courier.co.uk/.../controversial.../\nINVERNESS-COURIER.CO.UK Controversial Loch Ness hydro scheme to face no objection from council",
-      "contentFingerprint": "328ed8de010e388897861f64a5ffbd30598d4087b41970c3d8365fb1f109468d",
-      "photos": [
-        "media/facebook/1105086135254501/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "links": [
-        {
-          "text": "https://highland.public-i.tv/core/portal/home",
-          "url": "https://highland.public-i.tv/core/portal/home"
-        },
-        {
-          "text": "https://www.highland.gov.uk/councillors",
-          "url": "https://www.highland.gov.uk/councillors"
-        },
-        {
-          "text": "https://www.inverness-courier.co.uk/.../controversial.../",
-          "url": "https://www.inverness-courier.co.uk/news/controversial-loch-ness-hydro-scheme-to-face-no-objection-fr-446907/"
-        },
-        {
-          "text": "INVERNESS-COURIER.CO.UK Controversial Loch Ness hydro scheme to face no objection from council",
-          "url": "https://www.inverness-courier.co.uk/news/controversial-loch-ness-hydro-scheme-to-face-no-objection-fr-446907/"
-        }
-      ]
-    },
-    {
-      "id": "1104911201938661",
-      "date": "2026-10-07",
-      "title": "Communities B4 Power Companies",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Communities B4 Power Companies",
-        "label": "Facebook · Communities B4 Power Companies",
-        "url": "https://www.facebook.com/groups/221782186918238/posts/1104911201938661/"
-      },
-      "thin": false,
-      "bodyText": "YOUTUBE.COM BESS Fire on Prince Edward Island: LFP (LiFePO₄) Fire",
-      "contentFingerprint": "e2686a843325075dbe85850393f9128fe57de594045fdcbb3d5782bbde78a191",
-      "photos": [
-        "media/facebook/1104911201938661/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "links": [
-        {
-          "text": "YOUTUBE.COM BESS Fire on Prince Edward Island: LFP (LiFePO₄) Fire",
-          "url": "https://youtu.be/hXY9Cdkd2C8?si=BptFVv3HqekzIFgn"
-        }
-      ],
-      "categories": [
-        "BESS"
-      ]
-    },
-    {
-      "id": "1396699372622304",
-      "date": "2026-10-07",
+      "id": "1401079868850921",
+      "date": "2026-10-12",
       "title": "Scottish Electricity Generating Stations",
       "provenance": {
         "title": {
@@ -655,22 +344,323 @@
         "type": "facebook_group",
         "name": "Scottish Electricity Generating Stations",
         "label": "Facebook · Scottish Electricity Generating Stations",
-        "url": "https://www.facebook.com/groups/443369301288654/posts/1396699372622304/"
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1401079868850921/"
       },
       "thin": false,
-      "bodyText": "Power giant SSEN has been asked to investigate alternative locations for a new substation proposed for Yell, Shetland.",
-      "contentFingerprint": "dce12f64e23be76e41d00bc228d65fc3fa14d4a18f4b06bce99c8325726ba9d2",
+      "bodyText": "The radar station built in 2009 at the site of the former Kincardine Power Station to supplement coverage over Glasgow and eliminate potential turbine interference following the construction Whitelee Scotland's largest onshore wind farm, Eaglesham in East Renfrewshire— at Kincardine power station.",
+      "contentFingerprint": "ee487372d8def781e4589880d9977b8e71c82ed9134be0585b97d671324ee05b",
       "photos": [
-        "media/facebook/1396699372622304/photo_1.png"
+        "media/facebook/1401079868850921/photo_1.png"
       ],
       "mediaCount": 1,
       "categories": [
-        "Substation"
+        "Onshore Wind"
       ]
     },
     {
-      "id": "29605064742429206",
-      "date": "2026-10-07",
+      "id": "1824627411910839",
+      "date": "2026-10-12",
+      "title": "Essex Suffolk Norfolk Pylons",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Essex Suffolk Norfolk Pylons",
+        "label": "Facebook · Essex Suffolk Norfolk Pylons",
+        "url": "https://www.facebook.com/groups/pylonseastanglia/posts/1824627411910839/"
+      },
+      "thin": false,
+      "bodyText": "This might be interesting on Wed:\nEnergy Security and Net Zero Committee\nHouse of Commons\nOral evidence in Parliament: Secretary of State Miatta Fahnbulleh faces ESNZ questions on the energy transition, energy resilience, energy bills and more\nOn Wednesday 14th October the Energy Security and Net Zero Committee will question new Secretary of State for Energy Security and Net Zero Miatta Fahnbulleh for the first time.\nThe session comes at a critical moment in the UK’s energy transition, as energy costs once again rising under pressure from geopolitical events continue to drive a national affordability crisis.\nJust before Party conferences the Committee published a report on building UK public support for the energy transition, and is also expected shortly to make its final report on the cost of energy in the UK.\nAreas of questioning to the Secretary of State and Permanent Secretary will likely include:\nSupport for the energy transition among the UK public\nThe costs and complexity of building out a renewable-ready national grid and storage capacity\nHistorically high energy prices and Government plans for relief\nRisks to energy infrastructure in the new geopolitical reality and Government defences against them\nUK priorities and action at COP 31 in November\nWhy did the Warm Homes Plan take so long – and why will it take another two years to set up the new Warm Homes Agency the Committee called for?\nWednesday the 14th October starting at 3pm:\nRt Hon Miatta Fahnbulleh MP, Secretary of State at Department for Energy Security and Net Zero\nJonathan Brearley, Permanent Secretary at Department for Energy Security and Net Zero",
+      "contentFingerprint": "999ebfe1d9f49a98026bed5b6d946848891932f0fa84105b926f4f832a4e9735",
+      "photos": [
+        "media/facebook/1824627411910839/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1131680972866052",
+      "date": "2026-10-12",
+      "title": "Mey BESS Action Group",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Mey BESS Action Group",
+        "label": "Facebook · Mey BESS Action Group",
+        "url": "https://www.facebook.com/groups/711813121519508/posts/1131680972866052/"
+      },
+      "thin": false,
+      "bodyText": "Please consider submitting an objection to Charleston Energy Park (Barrock) - details available in latest https://www.savecaithness.org/ newsletter or on site home page\nSAVECAITHNESS.ORG savecaithness.org",
+      "contentFingerprint": "14b99b195f733bad0e36c7daa5f0aab09743a811db971e63b77526fb4b3010b1",
+      "photos": [
+        "media/facebook/1131680972866052/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://www.savecaithness.org/",
+          "url": "https://www.savecaithness.org/"
+        },
+        {
+          "text": "SAVECAITHNESS.ORG savecaithness.org",
+          "url": "https://www.savecaithness.org/"
+        }
+      ]
+    },
+    {
+      "id": "28689033354083416",
+      "date": "2026-10-12",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/28689033354083416/"
+      },
+      "thin": false,
+      "bodyText": "Rep Seth Magaziner (D-RI) an advocate for the offshore wind industry\n\"would not call for the U.S. Coast Guard to reopen an investigation into the sinking of the F/V Mistress.\"\nCongressman Seth Magaziner (D-1) said this week he would not call for the U.S. Coast Guard to reopen an investigation into the sinking of the F/V Mistress. A local offshore wind opponent organization claims some of the ship’s debris rests near a Block Island wind turbine.\nhttps://www.independentri.com/news/article_b4598767-82eb-4af6-908e-11d4058b6938.html",
+      "contentFingerprint": "23aacfe2875fbcf3f4cf1a6f487078345297bc57db7b093bce598f14e75992ca",
+      "photos": [
+        "media/facebook/28689033354083416/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://www.independentri.com/news/article_b4598767-82eb-4af6-908e-11d4058b6938.html",
+          "url": "https://www.independentri.com/news/article_b4598767-82eb-4af6-908e-11d4058b6938.html"
+        }
+      ],
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "28655574444095974",
+      "date": "2026-10-12",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/28655574444095974/"
+      },
+      "thin": false,
+      "bodyText": "100% against the wind farms.Climate change is normal, we always had it and always will.",
+      "contentFingerprint": "a65732a799ccd5919dd81e4318c23d838fcc0f39820484212574168d28087c26",
+      "photos": [
+        "media/facebook/28655574444095974/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "28657103500609735",
+      "date": "2026-10-12",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/28657103500609735/"
+      },
+      "thin": false,
+      "bodyText": "you \n \n      I am in favour of having a healthy environment, but 100000% against wind farms and solar panels replacing nature. Man made climate change is one of the biggest hoax that has ever been invented!!!",
+      "contentFingerprint": "60e514e70c3e471a376e66760369dd8e08e2a9bde7404bb5fdb3ce7bccd61095",
+      "photos": [
+        "media/facebook/28657103500609735/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind",
+        "Solar"
+      ]
+    },
+    {
+      "id": "1400971055528469",
+      "date": "2026-10-12",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1400971055528469/"
+      },
+      "thin": false,
+      "bodyText": "This is inside SeAH (South Korean) Wind's enormous factory at Teesworks - the biggest monopile manufacturing facility in the world.\nThey're already making the giant steel foundations that support offshore wind turbines, with some measuring more than 100 metres long and weighing over 2,000 tonnes.\nIt's a £900million investment bringing skilled manufacturing jobs back to the banks of the Tees.\nThis does raise the question why the Chinese WTG manufacturer proposal to create 1500 jobs at a new manufacturing plant based at Ardersier, was blocked by the current UK Labour government.— at Ardersier Highlands.",
+      "contentFingerprint": "442a38effe2e5e5f9f0c92fdc8f7a1f20ba3f8232bfa4436918be0903a9a4061",
+      "photos": [
+        "media/facebook/1400971055528469/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "1539008044923157",
+      "date": "2026-10-12",
+      "title": "Wind Energy's Absurd",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Wind Energy's Absurd",
+        "label": "Facebook Page · Wind Energy's Absurd",
+        "url": "https://www.facebook.com/WindEnergysAbsurd/posts/1539008044923157"
+      },
+      "thin": false,
+      "bodyText": "RAPID  - Rushing Approval, Prioritising Infrastructure Delivery (WEA's acronym)\nRAPID  - The Routing and Planning through Interoperable Data (SSEN's acronym)\nWe already have SSEN attempting to rule the Northern half of the Scottish roost by leaning on Reporters to rush through the OHLs and associated infrastructure.\nA reminder here of one example;  what Paul Reid, SSEN's KC said at the Beauly-Peterhead OHL Ornithology hearing:\nThe applicant would take any delay to that timetable very seriously and accordingly I should make clear that should the timetable be departed from, the applicant will request full written reasons for that, along with, and in addition to, the reasons which have already ben requested and which remain awaited for the agricultural decision.\nWhat we said in one of the paragraphs of the summary of the close of the B-P OHL hearing, on Conditions:\nRosie Leven then ran through the timetable. When she'd finished, PR complained about the time frame. Rosie Leven so nicely put him in his place - and the matter into perspective - by saying that additional information meant that the timescale envisaged might not be met but they were very much trying to ensure that the overall timescale is met.\nThen we've got the last part of SSEN's disgraceful e mail of 22 September to Rhoda Banfro, The Highland Council solicitor who had asked for four extra days for the Council's closing submission to be presented:\nFor the avoidance of doubt, the Applicant expects Reporters to adhere to the 3 December date for submitting their Report.\nAnd, finally, we have all the e mails from the planning consultant Ian Kelly to the DPEA referring to the haste at which the infrastructure PLIs are being conducted.\nThis is part of just one:\nThe public perception in respect of these cases is already poor as a totally unseemly and unjustified haste is applied to the cases, largely to satisfy the time requirements of SSEN (there being no statutory requirements), and in the circumstances where the objectors, but seemingly nobody else, can see that there is absolutely no up to date justification of any sort for the expenditure of billions of pounds of bill payers' monies on infrastructure for which there is no need.\nSo, that's the background to why we say that SSEN are attempting to push the Reporters forward.\nAnd now we have RAPID, announced by SSEN last week.  a joint initiative to accelerate grid development from around five years to two. The initiative has secured more than £450,000 from Ofgem's Strategic Innovation Fund to move into its next development phase.\nSSEN Transmission is leading the initiative, and it brings together SPEN Transmission,  National Grid Electricity Transmission, NESO and Arup.\nThe next phase will run for six months and develop a common digital framework connecting engineering, planning, consenting and land information.\nRAPID brings together transmission network operators, the system operator and industry partners to tackle a challenge we all share. By developing a more consistent approach to how data is structured, shared and used, we believe there is a real opportunity to significantly speed up the development of the infrastructure needed to unlock new clean energy projects. Brant Wilson, Senior Manager of Innovation at SSEN Transmission\nWait a wee minute!  If NESO is still developing its strategic picture of what is needed and where, as follows, how do we ensure that the drive to accelerate infrastructure delivery remains aligned with that evolving picture? \nSSEP - Strategic Spatial Energy Plan -  where generation and storage should be located across Great Britain.\nAutumn 2027 for the final plan. Draft plan and environmental report consultation expected in early 2027. \nRESP - Regional Energy Strategic Plan - what energy system Scotland and each other region will need, taking a whole-system view. \n2028 for the first full plans. The transitional RESP (tRESP) was published on 30January 2026. The final RESP methodology is now due by the end of 2026, subject to approval. \nCSNP - Centralised Strategic Network Plan - what networks are needed to transport energy around Great Britain, including electricity, gas and hydrogen. 15 December 2028 for the first published plan. Ofgem has formally revised the timetable to align with the delayed SSEP\nWe say:\nSSEN has much to say about development and delivery, but where, in this account, are the communities who will live with the infrastructure?\nhttps://www.ssen-transmission.co.uk/.../industry-wide.../",
+      "contentFingerprint": "15d4ca355395a2b8e653d996c3cfadedb83d852426681c3f878ff75fc749de6d",
+      "photos": [
+        "media/facebook/1539008044923157/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://www.ssen-transmission.co.uk/.../industry-wide.../",
+          "url": "https://www.ssen-transmission.co.uk/news/news--views/2026/10/industry-wide-innovation-project-targets-faster-delivery-of-clean-energy-infrastructure/"
+        }
+      ],
+      "categories": [
+        "OHL (Pylons)"
+      ]
+    },
+    {
+      "id": "1538873608269934",
+      "date": "2026-10-12",
+      "title": "Wind Energy's Absurd",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Wind Energy's Absurd",
+        "label": "Facebook Page · Wind Energy's Absurd",
+        "url": "https://www.facebook.com/WindEnergysAbsurd/posts/1538873608269934"
+      },
+      "thin": false,
+      "bodyText": "We're reprising our image of five days ago which introduced the post and link that the Dogger Bank project was seeking a third exemption from the transmission licensing rules. \nThe Times had a piece yesterday about delays to CfD take-up, starting with Dogger Bank, but going on to cover Seagreen (which Kathryn Porter and other energy experts have covered repeatedly).\nSSE gets a special mention:\nThe ability to delay contract start dates was designed to accommodate commissioning problems such as those seen at Dogger Bank A. But SSE is among developers who have also controversially delayed contract start dates purely to cash in on higher market prices. \nWe have so much in the archives about gaming of the system, delays to CfD start dates being just one.  And who suffers?  Consumers who are forced to pay market prices and not the contracted CfD ones.\nFrom 2017 - a joint paper by Professor Gordon Hughes, Dr John Constable and Dr Capell Aris:\nWe introduced it thus:\nProf Gordon Hughes and Drs Capell Aris and John Constable, in a report for GWPF, pull out the teeth of the weasels and their other sock puppets - the gormless media - and the pollie parrots - one by one and without anaesthetic - because of the false hysteria and misinformation which has surrounded the offshore strike prices.\nWe've put a link to that report at the end.  It ended  with:\nContrary to media exaggerations, the low CfD prices are commercial speculation, not the dawn of a new age for offshore wind and renewables.\nThe Government did close the 'delay' loophole in 2023, but any project awarded a CfD before then can just carry on.  \nIn September, we had yet another post on gaming of the system.  David Turver was quoted:\nThe ability to delay the start of CfDs was originally intended to help developers manage the risk of construction delays.\nBut in some cases, the wind farms have been built already and they are simply choosing not to activate the contracts so they can get higher merchant power prices. \nAnd that same piece quoted an energy executive as saying that developers are 'making out like bandits' - an expression first used, we believe, by Matt Ridley and John Constable in 2017.\nhttps://www.thetimes.com/business/companies-markets/article/dogger-wind-farm-north-sea-energy-dwcnsltqd?utm_source=Sailthru&utm_medium=email&utm_campaign=Daily%20Briefing%20-%20Monday%20October%2012th%202026&utm_term=audience_DAILY_BRIEFING\n'The world’s largest offshore wind farm is struggling with serious construction problems that threaten to further delay promised cheap power for consumers.\nThe Dogger Bank project in the North Sea got the go-ahead in 2019 with a contract locking in a record-low price for the electricity it would generate for 15 years.\nMore than 80 miles off the coast of Yorkshire, it was originally scheduled to start delivering cheap power as early as 2023 but has repeatedly delayed its contract start dates after the failure of two turbine blades triggered “cascading” problems. \nIt is still grappling with “unforeseen and significant technical issues with the installation, remediation and commissioning of wind turbines”, according to a government document.\nDogger Bank is due to comprise 277 turbines with a total capacity of 3.6 gigawatts, expected to generate enough clean energy to power the equivalent of six million homes. It is co-owned by SSE, the FTSE 100 energy group, Equinor, the Norwegian state oil and gas group, and the offshore wind company Vargronn of Norway. \nThe wind farm is being built in three stages. Dogger Bank A has a contract priced at £55.01 per megawatt-hour (MWh) today, which would be cheaper than any operational UK offshore wind farm, and roughly a third of wholesale market prices, which have risen to £162.50/MWh. Dogger Bank B and C have contracts at £57.92/MWh.\nWhen the project was approved the government said it would mean renewables generating “below market prices and without additional subsidy on bills” for the first time. \nHowever, it is not clear when this promised cheap power will now materialise.\nAlthough Dogger Bank A generated electricity from its first turbine in 2023 it suffered a big setback the following year with two separate blade failures that forced it to slow construction work. It is still suffering “continuing knock-on impacts from the 2024 blade failure events and subsequent remediation programme”, including “ongoing technical defects and resource constraints”, according to the government document published last week.\nPower that is being generated during the commissioning period continues to be sold at high prevailing market prices.\nThe first chunk of Dogger Bank A is required to activate its fixed-price contract by November 30 or risk contract cancellation, but it is not clear whether the project will meet required conditions to do so. It is unlikely to be in the government’s interest to cancel the contract, however, given the desire for cheap power to cut soaring energy bills. \nThe entire Dogger Bank wind farm is scheduled to be supplying power at its guaranteed prices by the middle of next year, but developers could exercise the right to delay the contract start dates for some of the subsequent phases to as late as 2029 without risking cancellation.\nThe ability to delay contract start dates was designed to accommodate commissioning problems such as those seen at Dogger Bank A. But SSE is among developers who have also controversially delayed contract start dates purely to cash in on higher market prices. \nIts Seagreen wind farm, off the Angus coast in Scotland, which also has a contract priced at £57.92/MWh, was fully operational in October 2023 yet has repeatedly opted to delay its contract start date. Promised cheap power from that project is now not expected until at least the end of March and could yet be delayed further. \nA spokesperson for Dogger Bank Wind Farm said: “While some construction delays have previously been reported on Dogger Bank A, we’re maintaining commissioning momentum. We expect the project to be substantially all available for generation by the end of 2026, with final commissioning work continuing into 2027. As a project of unprecedented scale, Dogger Bank A will be a world-class asset once fully operational, providing much-needed secure and affordable energy for Britain.”\nHughes/Constable/Aris\nhttps://www.thegwpf.org/.../09/OffshoreStrikePrice.pdf...",
+      "contentFingerprint": "1a18253956775331103cb12648ca1e140928bbad5041b8371c2c1e9d2d94662f",
+      "photos": [
+        "media/facebook/1538873608269934/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://www.thetimes.com/business/companies-markets/article/dogger-wind-farm-north-sea-energy-dwcnsltqd?utm_source=Sailthru&utm_medium=email&utm_campaign=Daily%20Briefing%20-%20Monday%20October%2012th%202026&utm_term=audience_DAILY_BRIEFING",
+          "url": "https://www.thetimes.com/business/companies-markets/article/dogger-wind-farm-north-sea-energy-dwcnsltqd"
+        },
+        {
+          "text": "https://www.thegwpf.org/.../09/OffshoreStrikePrice.pdf...",
+          "url": "https://www.thegwpf.org/content/uploads/2017/09/OffshoreStrikePrice.pdf"
+        }
+      ],
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "29668668026068877",
+      "date": "2026-10-12",
       "title": "Scotland Against Spin",
       "provenance": {
         "title": {
@@ -690,23 +680,23 @@
         "type": "facebook_group",
         "name": "Scotland Against Spin",
         "label": "Facebook · Scotland Against Spin",
-        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29605064742429206/"
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29668668026068877/"
       },
       "thin": false,
-      "bodyText": "Some news from Paul Swift of Galloway Without Pylons\nThe court date has come through for the Reclaiming Motion (Judicial Review Appeal)\nIt will be in Edinburgh on Tuesday 19th January 2027 commencing at 10.30am.\nMore information to follow including the Notes of Argument from all parties.\nGALLOWAYWITHOUTPYLONS.ORG JUDICIAL REVIEW - Galloway Without Pylons",
-      "contentFingerprint": "727673bf376db60283d62c971d35e5ec5e5d8da92cd76b5e8ad157ecc0ba7ff0",
+      "bodyText": "Last month CX Tech Limited submitted a proposal to build eight 120MW data centres on land north of the decommissioned nuclear power station at Chapelcross.\nThe campus would have a total capacity of 1000MW, and if approved, would be larger than any data centre campus currently in operation across the globe, with the biggest currently being Switch’s Citadel Campus in Nevada, in the US, which has a capacity of 650MW.\nLocal campaigners have already voiced their concerns over the plans, arguing that it will be built on farmland rather than the existing Chapelcross brownfield site while covering a total area the size of 77 football pitches.\nThere have also been concerns raised over the proposed energy usage at the site, as at full capacity it would use roughly the same amount of electricity as 2.2 million homes.\nHowever, despite hundreds of complaints online, and more than 5000 people lodging objections to the proposal via a portal created by the Scottish Greens in less than a week, the application on the council’s website shows zero comments made.\nA spokesperson for Dumfries and Galloway told The National that due to the “significant volume” of comments made to the local authority, it won’t post any of them online until the end of the notification period.\nTHENATIONAL.SCOT Scottish council 'hides' public objections to plans for giant AI data centre",
+      "contentFingerprint": "ca565bd834910322303721f50dd0f61f77e6b4d1c5846f30a0fc0a8b2dd980fc",
       "photos": [
-        "media/facebook/29605064742429206/photo_1.png"
+        "media/facebook/29668668026068877/photo_1.png"
       ],
       "mediaCount": 1,
       "links": [
         {
-          "text": "GALLOWAYWITHOUTPYLONS.ORG JUDICIAL REVIEW - Galloway Without Pylons",
-          "url": "https://gallowaywithoutpylons.org/judicial-review"
+          "text": "THENATIONAL.SCOT Scottish council 'hides' public objections to plans for giant AI data centre",
+          "url": "https://www.thenational.scot/news/26626248.objections-chapelcross-ai-data-centre-hidden-dumfries-council/"
         }
       ],
       "categories": [
-        "OHL (Pylons)"
+        "Data Centre"
       ]
     }
   ]
