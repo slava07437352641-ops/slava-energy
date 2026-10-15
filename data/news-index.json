@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T08:56:07.000Z",
+  "generated": "2026-10-15T11:30:41.000Z",
   "sourceFilter": [
     "Scotland Against Spin",
     "Environmentalists Against Wind Turbines",
@@ -22,20 +22,123 @@
   "selection": "strict global recency (most recent records first, across all tracked sources)",
   "counts": {
     "records": 18,
-    "Scotland Against Spin": 8,
+    "Wind Energy's Absurd": 3,
+    "Grampian Against Data Centres": 2,
+    "Scotland Against Spin": 7,
     "Environmentalists Against Wind Turbines": 4,
-    "Grampian Against Data Centres": 1,
     "Scottish Electricity Generating Stations": 1,
-    "Essex Suffolk Norfolk Pylons": 1,
-    "Wind Energy's Absurd": 1,
-    "Our Power": 1,
-    "Communities B4 Power Companies": 1
+    "Essex Suffolk Norfolk Pylons": 1
   },
   "dateRange": {
     "from": "2026-10-14",
     "to": "2026-10-15"
   },
   "records": [
+    {
+      "id": "1541967324627229",
+      "date": "2026-10-15",
+      "title": "Wind Energy's Absurd",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Wind Energy's Absurd",
+        "label": "Facebook Page · Wind Energy's Absurd",
+        "url": "https://www.facebook.com/WindEnergysAbsurd/posts/1541967324627229"
+      },
+      "thin": false,
+      "bodyText": "One would think that the UK had money to burn or, more importantly, that consumers had money to burn. \nAt about 11 am this morning (15th) balancing costs were already at £15 million.\nKathryn Porter put this up, and said it was 'crazy'.  And it is. \nThis morning we were reading Miatta Fahnbulleh's speech at the Energy UK's annual conference.  \nQuite apart from the fact that she is sounding more and more like Miliband, especially with the 'look' punctuations (and no sooner had we read this than we read a speech by Miliband where that was the second word) but we are inclined to think, that for all the fine words to the industry, with apparent care for industry and consumers, it was a load of \n.\nhttps://www.gov.uk/.../building-an-energy-system-that...",
+      "contentFingerprint": "c9cf342f3a9b934851cfbd8804068d7edf703b401aac3d9dc99e8999db7a0423",
+      "photos": [
+        "media/facebook/1541967324627229/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://www.gov.uk/.../building-an-energy-system-that...",
+          "url": "https://www.gov.uk/government/speeches/building-an-energy-system-that-delivers-for-all"
+        }
+      ]
+    },
+    {
+      "id": "1541931617964133",
+      "date": "2026-10-15",
+      "title": "Wind Energy's Absurd",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Wind Energy's Absurd",
+        "label": "Facebook Page · Wind Energy's Absurd",
+        "url": "https://www.facebook.com/WindEnergysAbsurd/posts/1541931617964133"
+      },
+      "thin": false,
+      "bodyText": "Juliet Samuel had an excellent and comprehensive piece in the Times yesterday on the recent grid shenanigans; it's entitled 'Why are power grid bosses gaslighting us?'\nShe said:  As for today, whenever you’re reading this, who knows what fun lies in store for the control room?\nWell, Juliet - we're a day late, but we can tell you what's happening this morning, thanks to David Turver who tweeted that frequency was going up and down like a yoyo - our words, not his. \nWhat he said was:  And even more frequency oscillations this morning. Frequency above normal operating limit at 6:05, below from 7:14 to 7:22 and then above again from 7:32 to 7:34.  Curiouser and curiouser\nKathryn Porter has just tweeted this:\nIt's getting embarrassing now... This morning  @neso_energy\nhas blown through the intraday interconnector trading limits again and like yesterday the frequency has been above and below the safe operational limits\nMargins are perfectly fine so I can only think this is a combination of poor modelling and forecasting and the grid constraints affecting the SE\nYesterday saw record balancing costs of just under £50 million so this isn't just a curiosity, it's chaos that's driving bills higher (balancing costs are part of network costs)\nhttps://www.thetimes.com/comment/columnists/article/why-are-power-grid-bosses-gaslighting-us-zk5q7ftfm?utm_source=Sailthru&utm_medium=email&utm_campaign=Times%20Politics%20-%20Thursday%20October%2015&utm_term=audience_POLITICS\n'The first thing to know is that this is not normal. The people who run Britain’s electricity grid want you to think it is, but it isn’t. I believe the psychological term is gaslighting, but given the impending winter gas shortage, that’s optimistic.\nThe facts are these. In the past fortnight there have been four, maybe five, highly unusual events in the control room of Britain’s electricity grid: major forecasting errors, formal calls to the market for extra power and demands for “emergency assistance” from our neighbours in Europe.\nSenior managers at the publicly owned National Energy System Operator (Neso) want you to believe these incidents are “routine”. Since the last “routine” incident in June, which is now the subject of both a technical and a legal investigation, Neso has signed PR contracts worth £400,000 to convince everyone they are doing splendidly. What they haven’t done is learn any lessons or produce any in-depth analysis of what the hell is going on.\nYet things keep happening. On September 28, Neso’s forecasts showed it was going to run out of power and it had to put out a call for extra, same-day (and expensive) generation. After about 15 hours, it cancelled the notice — its forecasts were wrong. On October 6, it issued another call. Luckily, even though the wind was low, demand was lower. Again, the forecasts were wrong.\nOn October 9, for no obvious reason, the grid suddenly ran so short of power that its frequency, or “heartbeat”, went out of the normal operating range for ten minutes, which is what happened in June. An internal “frequency event report” on the latest incident, which I’ve seen thanks to a concerned insider, shows that Neso had to push more power from north to south than the wires are meant to take.\nIt also had to offer a fortune to incentivise power production from generators in the south. When even that wasn’t enough, it issued a call for “emergency assistance” from France. A Neso engineer says we were one circuit trip away from a very serious situation. “All that was left was [to] scramble for emergency assistance from the EU, violate transmission constraints or disconnect demand.”\nIncredibly, three days later, Neso was begging France again, issuing its biggest-ever call for power.\nDespite plentiful wind on October 12, with cable maintenance slightly overrunning, power couldn’t get down to meet demand in the south. The next day, Tuesday, the grid’s frequency first spiked too high and then fell too low, for reasons as yet unknown. As for today, whenever you’re reading this, who knows what fun lies in store for the control room?\nGiven how often Neso is being caught off guard, I suppose you could argue this is indeed now “routine”. As Andrew Larkins, an energy consultant and former Ofgem adviser, politely puts it: “They’re at risk of normalising something that’s meant to be part of an emergency system … It shows how hard they’re having to work to keep the lights on.” Winter hasn’t even started yet.\nWhy is this happening? The technical answer is we don’t know because Neso isn’t opening up the incidents to scrutiny in the way that, say, an airliner is forced to facilitate an industry-wide post-mortem when an engine chokes. More successful modernising grids, such as Australia’s, take the opposite approach.\nThe broader answer is that governments, regulators and owners of the system have indulged a decade of wishful thinking and under-investment, pretending they know how to pull off a radical energy transition when they have devoted appallingly little forethought, planning and money to the question.\nThe electricity grid used to run off a hundred or so fossil fuel generators, which can be turned up and down on request and are mechanically stable because they spin big, heavy rotors. Demand also tended to follow a pattern. This made balancing power supply and demand fairly straightforward.\nNow, large portions of our power (some days, all of it) come from a mix of undersea cables, renewables plants and batteries, all of which can abruptly and unpredictably turn off and on. Small units, such as rooftop solar, don’t even send data to the grid. Customers are using new, variable gadgets like smart meters and electric cars. Forecasting and responding to changes has become, to be technical, a total bloody nightmare. “We can’t see how much reserve we have,” says the engineer.\nOn top of this, you have a regulator and grid operator moving at the pace of a Siberian town clerk in a Chekhov play. The grid code, which specifies the grid’s technical requirements, is so out of date that when Neso discovered hundreds of wind farms had their meters fitted backwards, so they tell the grid they’re consuming when they’re actually generating, there was no one obvious to blame. But a single technical change to the code can take years of consultations and meetings.\nThe rules governing grid stability are similarly out of date. A programme to install more granular sensors to monitor frequency in dozens of locations is well overdue. While the US grids have for years had 2,500 such sensors, Britain’s ambition is to have 40 (a tenth of what Larkins says would be equivalent coverage), and even some of those aren’t sharing data in a useable form. A working group on protocols to stop cascades of generator trips, which took out the solar-reliant Iberian grid last year, is crawling along.\nIt isn’t all Neso’s fault. Private owners of grid infrastructure are in no hurry to make unprofitable improvements. But nor are they being hurried or penalised. Ofgem has repeatedly tolerated grid regulatory failings and delayed or refused investment proposals. As a result, Neso, which ultimately passes costs to users, must now pay a fortune to buy in power on the day it’s needed to avoid blackouts.\nMeanwhile, plans to manage the new power system assume we can use advanced software to fine-tune supply and demand. For example, the commercial fridge industry says it can tweak power use up or down. Brilliant! Except that hackers got at supermarket fridges in France this week and cranked them up to 50 degrees. It spoilt a lot of food. If we’re not careful, a hack like that could spoil the grid.\nGovernments, regulators, operators and owners have all conspired in the delusion that everything is fine and we can keep going at breakneck speed to “clean power 2030”. But the strain is showing and the engineers won’t pretend any more. You can’t run an electricity grid on a news grid.'",
+      "contentFingerprint": "28f935d75d2fc82a836a6b44dc95cc2becf38799222a0ea4854b9100935284b2",
+      "photos": [
+        "media/facebook/1541931617964133/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://www.thetimes.com/comment/columnists/article/why-are-power-grid-bosses-gaslighting-us-zk5q7ftfm?utm_source=Sailthru&utm_medium=email&utm_campaign=Times%20Politics%20-%20Thursday%20October%2015&utm_term=audience_POLITICS",
+          "url": "https://www.thetimes.com/comment/columnists/article/why-are-power-grid-bosses-gaslighting-us-zk5q7ftfm"
+        }
+      ],
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "1630514835451378",
+      "date": "2026-10-15",
+      "title": "Grampian Against Data Centres",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Grampian Against Data Centres",
+        "label": "Facebook · Grampian Against Data Centres",
+        "url": "https://www.facebook.com/groups/1517407306762132/posts/1630514835451378/"
+      },
+      "thin": false,
+      "bodyText": "",
+      "contentFingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "photos": [
+        "media/facebook/1630514835451378/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
     {
       "id": "29714265308175815",
       "date": "2026-10-15",
@@ -609,107 +712,6 @@
         "OHL (Pylons)",
         "Substation"
       ]
-    },
-    {
-      "id": "122135924037244466",
-      "date": "2026-10-14",
-      "title": "Our Power",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Our Power",
-        "label": "Facebook Page · Our Power",
-        "url": "https://www.facebook.com/ourpower.scot/posts/122135924037244466"
-      },
-      "thin": false,
-      "bodyText": "Denmark has over 50% community-owned wind.\nScotland has less than 1%.\nThat's got to change.",
-      "contentFingerprint": "e5a8b7dbd64db425cee61187f19cc6dc00d72fb47884c41d2fe0663c4dbc7ea7",
-      "photos": [
-        "media/facebook/122135924037244466/photo_1.png"
-      ],
-      "mediaCount": 1
-    },
-    {
-      "id": "29703891442546535",
-      "date": "2026-10-14",
-      "title": "Scotland Against Spin",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Scotland Against Spin",
-        "label": "Facebook · Scotland Against Spin",
-        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29703891442546535/"
-      },
-      "thin": false,
-      "bodyText": "A public inquiry into plans to put 200-metre high wind turbines in the East Lothian countryside has heard claims they will not have a ‘significant’ impact because the area is already surrounded by them.\nLawyer for applicants Belltown Power Marcus Trinick KC said their proposal to put 15 turbines at Newland Hill, near Gifford, would fit into the area pointing to to large wind farm developments at Crystal Rig, Aikengall and Fallago Rig in the Lammermuirs.\nHowever East Lothian Council said allowing the new wind farm and accompanying battery energy storage on the site would have an adverse impact on the Lammermuirs landscape and special landscape areas.\nSpeaking to the inquiry the council’s senior landscape projects officer said the large wind farms were on the edges of the Lammermuirs while the Newland Hill proposal would be in the middle.\nDuring today’s session Mr Trinick described the Lammermuirs current and approved wind farm projects as already having an impact on the landscape areas.\nHe told the inquiry: “It is a pretty stacked picture”.\nMIDLOTHIANVIEW.COM Newland Hill wind farm inquiry hears clash over impact on Lammermuirs landscape - Midlothian View",
-      "contentFingerprint": "3774bcbad6f39e5daefb73e01fedee589234e4bea4d802d03e8ef132268cc502",
-      "photos": [
-        "media/facebook/29703891442546535/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "links": [
-        {
-          "text": "MIDLOTHIANVIEW.COM Newland Hill wind farm inquiry hears clash over impact on Lammermuirs landscape - Midlothian View",
-          "url": "https://midlothianview.com/news/newland-hill-wind-farm-inquiry-hears-clash-over-impact-on-lammermuirs-landscape"
-        }
-      ],
-      "categories": [
-        "BESS",
-        "Hybrid",
-        "Onshore Wind"
-      ]
-    },
-    {
-      "id": "1111248977971550",
-      "date": "2026-10-14",
-      "title": "Communities B4 Power Companies",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Communities B4 Power Companies",
-        "label": "Facebook · Communities B4 Power Companies",
-        "url": "https://www.facebook.com/groups/221782186918238/posts/1111248977971550/"
-      },
-      "thin": false,
-      "bodyText": "From today's New Statesman. Must have been reading the posts in this group...\nWhile many countries face higher energy costs due to the events in the Middle East and Russia, few have seen quite as big a spike as Britain has. Industrial power costs are comfortably higher than in most developed nations, with domestic costs not far behind. To some extent, this is a function of bad luck and geopolitics. Britain is particularly dependent on natural gas to provide the critical baseload power for its electricity, not to mention much of its domestic heating.\nBut higher energy costs are also the product of policy. Britain pushed faster and further towards net zero (the goal of diminishing carbon emissions to close to nothing in net terms) than most of its peers. The ambition, held by Labour and Conservative governments, was that the UK should be the global leader in decarbonisation – the flag-bearer for net zero. In one respect, the enterprise was a stunning success – Britain is one of the fastest-decarbonising major economies in the world.\nThe main catch in – and the cardinal sin of – the make-things-cheap economy is how it affects energy bills. For all that Boris Johnson and Ed Miliband insisted (and as far as I can tell, sincerely believed) that renewables would mean lower costs, the opposite has happened. Unlike solar power, the cost of which fell precipitously as the Chinese mastered the mass production of arrays, wind power has remained comparatively expensive. And so Britain’s ambitious offshore wind programme happened largely thanks to a complex web of subsidies and price guarantees. Those interventions will lock in higher power costs in this country for years.\nThere is a point – most likely a decade and a half in the future – at which the savings from net zero (less spent on gas and fuels) should outweigh the costs of building all the necessary infrastructure. But for the time being, the policy is expensive – nearly £30bn a year for the next five years, which is the equivalent of an extra 5p on the basic rate of income tax. One of the main reasons net zero is becoming so controversial (and will likely get more controversial) is that the majority of those costs end up on consumer bills.\nThe other problem is that much of this decarbonisation was achieved through deindustrialisation. In the face of higher energy costs and rising environmental taxes, many manufacturers relocated overseas. Indeed, more than half of Britain’s carbon footprint is now accounted for by imported goods. Paradoxically, the more steel mills and chemicals plants shut down, the better the UK’s environmental credentials, since net zero plans ignore the embedded carbon in our imports and focus solely on what is puffed out of domestic flues and chimneys.",
-      "contentFingerprint": "8552d519b30e561f28bd99cb118637b327b3f349404022a3c3d88361113a60ed",
-      "photos": [
-        "media/facebook/1111248977971550/photo_1.png"
-      ],
-      "mediaCount": 1
     }
   ]
 }
