@@ -6,7 +6,7 @@
   "withMedia": 1258,
   "withCategories": 1077,
   "withTopics": 316,
-  "withProject": 128,
+  "withProject": 127,
   "withCoordinates": 95,
   "withSummary": 52,
   "withBodyText": 2386,
@@ -80862,13 +80862,6 @@
     },
     "photos": {
      "method": "screenshot"
-    },
-    "project": {
-     "method": "u3_name_match",
-     "register": "grid",
-     "tier": 2,
-     "canonical": "west burton",
-     "confidence": "name match, review"
     }
    },
    "source": {
@@ -80883,8 +80876,7 @@
    "photos": [
     "media/facebook/1766302204444047/photo_1.png"
    ],
-   "mediaCount": 1,
-   "project": "West Burton"
+   "mediaCount": 1
   },
   {
    "id": "2003766693656737",
