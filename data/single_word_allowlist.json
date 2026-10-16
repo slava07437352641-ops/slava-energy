@@ -1,0 +1,169 @@
+{
+ "status": "proposed, not applied: no single-word matches are written until the user confirms the filtered table",
+ "rule": "single-word names link only when listed here; keyword proximity is not enough",
+ "keep_from_candidates": [
+  "acheilidh",
+  "arecleoch",
+  "chalmerston",
+  "coalburn",
+  "cockenzie",
+  "crossdykes",
+  "dalchork",
+  "errochty",
+  "euchanhead",
+  "forsinain",
+  "forss",
+  "glenvernoch",
+  "golticlay",
+  "kilbraur",
+  "killean",
+  "leithenwater",
+  "logiealmond",
+  "rampion",
+  "rowancraig",
+  "seagreen",
+  "shinness",
+  "tormsdale",
+  "whitelee"
+ ],
+ "review_before_use": [
+  "ardeer",
+  "aurora",
+  "bankend",
+  "chleansaid",
+  "crosbie",
+  "dounreay",
+  "hunterston",
+  "lairg",
+  "lochend",
+  "machair",
+  "overhill",
+  "redshaw",
+  "sanquhar",
+  "spittal",
+  "tealing",
+  "teviot",
+  "watten",
+  "whitehill"
+ ],
+ "removed_councils_regions_towns_common_nouns": [
+  "america",
+  "blackpool",
+  "breach",
+  "caithness",
+  "central",
+  "charity",
+  "church",
+  "clyde",
+  "common",
+  "cordon",
+  "cornwall",
+  "court",
+  "cromer",
+  "crown",
+  "deeside",
+  "discovery",
+  "dungiven",
+  "eccles",
+  "exeter",
+  "fleet",
+  "folly",
+  "forest",
+  "glenrothes",
+  "greenock",
+  "greens",
+  "grounds",
+  "harbour",
+  "heights",
+  "hillside",
+  "inverclyde",
+  "jersey",
+  "keith",
+  "kintore",
+  "lanarkshire",
+  "leadhills",
+  "lincolnshire",
+  "lower",
+  "meadow",
+  "middleton",
+  "model",
+  "moffat",
+  "mount",
+  "neilston",
+  "nowhere",
+  "orkney",
+  "peterhead",
+  "pitlochry",
+  "school",
+  "shoreham",
+  "swift",
+  "thurso",
+  "trumps",
+  "upper",
+  "warley",
+  "warren"
+ ],
+ "seed_stems_from_user": [
+  {
+   "name": "viking"
+  },
+  {
+   "name": "bhlaraidh"
+  },
+  {
+   "name": "dorenell"
+  },
+  {
+   "name": "strathy"
+  },
+  {
+   "name": "clachaig"
+  },
+  {
+   "name": "glenshero"
+  },
+  {
+   "name": "cloiche"
+  },
+  {
+   "name": "branxton"
+  },
+  {
+   "name": "coalburn"
+  },
+  {
+   "name": "cruachan"
+  },
+  {
+   "name": "earba"
+  },
+  {
+   "name": "fearna"
+  },
+  {
+   "name": "torness"
+  },
+  {
+   "name": "hunterston"
+  },
+  {
+   "name": "beauly"
+  },
+  {
+   "name": "denny"
+  },
+  {
+   "name": "necton"
+  },
+  {
+   "name": "blackdog"
+  },
+  {
+   "name": "chapelcross"
+  },
+  {
+   "name": "ravenscraig"
+  }
+ ],
+ "seed_notes": "seed stems with no register row cannot link yet: strathy, clachaig, branxton, earba, fearna, necton; blackdog, chapelcross, ravenscraig are handled by the Track B register"
+}

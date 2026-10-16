@@ -1,89 +1,160 @@
 {
-  "register": "Data Centre Project Register (Track B seed)",
-  "built": "2026-10-16",
-  "purpose": "Canonical register for Track B (data centre) project matching. Seeded by hand from public reports and group posts; not a national register. Fields marked unverified have not been checked against the council portal.",
-  "rules": {
-    "planning_register_for_data_centres": "none exists nationally; REPD covers renewables only",
-    "tec_cross_reference": "NESO TEC register checked 16 Oct: no data-centre demand entries found for these five sites",
-    "pins_nsip": "not searched yet"
+ "register": "Data Centre Project Register (Track B seed)",
+ "built": "2026-10-16",
+ "purpose": "Canonical register for Track B (data centre) project matching. Seeded by hand from public reports and group posts; not a national register. Fields marked unverified have not been checked against the council portal.",
+ "rules": {
+  "planning_register_for_data_centres": "none exists nationally; REPD covers renewables only",
+  "tec_cross_reference": "NESO TEC register checked 16 Oct: no data-centre demand entries found for these five sites",
+  "pins_nsip": "searched 16 Oct: no data-centre DCO application found in examination; one s35 request (Wapseys Wood) reported; PINS project finder not read"
+ },
+ "projects": [
+  {
+   "id": "dc-blackdog-aberdeenshire",
+   "name": "Blackdog data centre campus",
+   "aliases": [
+    "Blackdog",
+    "Blackdog AI campus",
+    "Blackdog data centre"
+   ],
+   "location": "Blackdog, north of Aberdeen (Aberdeenshire)",
+   "council": "Aberdeenshire Council",
+   "developer_reported": "Ashfield Land with TechRE (press reports)",
+   "capacity_reported": "600 MW first phase on about 200 acres (press reports)",
+   "application_ref": null,
+   "status_reported": "Phase one reportedly consented by Aberdeenshire Council (press, unverified)",
+   "status_verified": false,
+   "groups": [
+    "Grampian Against Data Centres"
+   ],
+   "sources": [
+    "https://www.datacenterdynamics.com/en/news/600mw-data-center-could-be-built-near-aberdeen-scotland-report/",
+    "https://www.agcc.co.uk/news-article/multi-billion-pound-data-centre-and-ai-campus-in-aberdeenshire-progressing"
+   ],
+   "tec_cross_reference": null
   },
-  "projects": [
-    {
-      "id": "dc-blackdog-aberdeenshire",
-      "name": "Blackdog data centre campus",
-      "aliases": ["Blackdog", "Blackdog AI campus", "Blackdog data centre"],
-      "location": "Blackdog, north of Aberdeen (Aberdeenshire)",
-      "council": "Aberdeenshire Council",
-      "developer_reported": "Ashfield Land with TechRE (press reports)",
-      "capacity_reported": "600 MW first phase on about 200 acres (press reports)",
-      "application_ref": null,
-      "status_reported": "Phase one reportedly consented by Aberdeenshire Council (press, unverified)",
-      "status_verified": false,
-      "groups": ["Grampian Against Data Centres"],
-      "sources": ["https://www.datacenterdynamics.com/en/news/600mw-data-center-could-be-built-near-aberdeen-scotland-report/", "https://www.agcc.co.uk/news-article/multi-billion-pound-data-centre-and-ai-campus-in-aberdeenshire-progressing"],
-      "tec_cross_reference": null
-    },
-    {
-      "id": "dc-chapelcross-dumfries",
-      "name": "Chapelcross data centre campus (CX Tech)",
-      "aliases": ["Chapelcross", "CX Tech Chapelcross", "Chapelcross data centre"],
-      "location": "Former Chapelcross nuclear site, near Annan",
-      "council": "Dumfries and Galloway Council",
-      "developer_reported": "CX Tech Limited",
-      "capacity_reported": "about 1 GW, eight buildings, 162,000 sq m (developer and press)",
-      "application_ref": "26/1649/PIP",
-      "application_type": "Planning permission in principle",
-      "status_reported": "Validated 28 September 2026; no decision found in coverage to early October",
-      "status_verified": false,
-      "groups": ["Say NO to Chapelcross AI Data Centre"],
-      "sources": ["https://datacenterdynamics.com/en/news/plans-filed-for-1gw-data-center-campus-at-former-nuclear-plant-in-scotland", "https://www.itv.com/news/border/2026-09-30/plans-submitted-for-what-could-be-worlds-largest-data-centre"],
-      "tec_cross_reference": null
-    },
-    {
-      "id": "dc-ravenscraig-north-lanarkshire",
-      "name": "Ravenscraig data centre (SevenFourEight)",
-      "aliases": ["Ravenscraig", "SevenFourEight", "Apatura Ravenscraig", "Ravenscraig data centre"],
-      "location": "Former Ravenscraig steelworks, near Motherwell",
-      "council": "North Lanarkshire Council",
-      "developer_reported": "Apatura (Apatura DC Project 2 Ltd for the battery element)",
-      "capacity_reported": "550 MW demand capacity (public notice, 2025)",
-      "application_ref": null,
-      "status_reported": "Application reported filed (2025); no documents or decision found; a pre-application exhibition was set for 6 October",
-      "status_verified": false,
-      "groups": ["Ravenscraig Locals Against Mega Datacentres"],
-      "sources": ["https://www.datacenterdynamics.com/en/news/apatura-plans-500mw-data-center-campus-in-scotland/", "https://futurescot.com/former-steel-mill-at-ravenscraig-in-contention-for-ai-growth-zone-status-with-plans-for-3-9-billion-green-data-centre/"],
-      "tec_cross_reference": null
-    },
-    {
-      "id": "dc-spango-valley-greenock-inverclyde",
-      "name": "Spango Valley data centre (former IBM site, Greenock)",
-      "aliases": ["Spango Valley", "Greenock IBM site", "former IBM site Greenock", "Inverclyde data centre", "Slate Island"],
-      "location": "Spango Valley, off Inverkip Road, Greenock (former IBM site)",
-      "council": "Inverclyde Council",
-      "developer_reported": "Slate Island Developments Ltd",
-      "capacity_reported": "four buildings, about 80,000 sq m (indicative)",
-      "application_ref": null,
-      "application_type": "Planning permission in principle",
-      "status_reported": "Reported around 1 September 2026; no committee decision found",
-      "status_verified": false,
-      "groups": ["No AI Data Centre - Inverclyde"],
-      "sources": ["https://www.scottishconstructionnow.com/articles/plans-submitted-to-transform-former-ibm-greenock-site-into-data-centre", "https://www.constructionenquirer.com/2026/09/01/data-centre-plan-unveiled-for-former-ibm-site/"],
-      "tec_cross_reference": null
-    },
-    {
-      "id": "dc-rufus-hurlford-east-ayrshire",
-      "name": "Rufus data centre campus (Hurlford)",
-      "aliases": ["Rufus", "Rufus Campus", "Hurlford data centre", "Stoics Rufus", "Purroch Farm"],
-      "location": "Purroch Farm, Mauchline Road, Hurlford (East Ayrshire)",
-      "council": "East Ayrshire Council",
-      "developer_reported": "ILI Group",
-      "capacity_reported": "540 MW (aggregator figure; conflicting figures on the same page; unverified)",
-      "application_ref": null,
-      "status_reported": "Pre-application enquiries (late 2025); no full application found",
-      "status_verified": false,
-      "groups": ["Hurlford Rufus Data Centre Community Group"],
-      "sources": ["https://baxtel.com/data-center/ili-group-rufus-campus", "https://www.theconstructionindex.co.uk/planning-leads/Kilmarnock/view/1224537"],
-      "tec_cross_reference": null
-    }
-  ]
+  {
+   "id": "dc-chapelcross-dumfries",
+   "name": "Chapelcross data centre campus (CX Tech)",
+   "aliases": [
+    "Chapelcross",
+    "CX Tech Chapelcross",
+    "Chapelcross data centre"
+   ],
+   "location": "Former Chapelcross nuclear site, near Annan",
+   "council": "Dumfries and Galloway Council",
+   "developer_reported": "CX Tech Limited",
+   "capacity_reported": "about 1 GW, eight buildings, 162,000 sq m (developer and press)",
+   "application_ref": "26/1649/PIP",
+   "application_type": "Planning permission in principle",
+   "status_reported": "Validated 28 September 2026; no decision found in coverage to early October",
+   "status_verified": false,
+   "groups": [
+    "Say NO to Chapelcross AI Data Centre"
+   ],
+   "sources": [
+    "https://datacenterdynamics.com/en/news/plans-filed-for-1gw-data-center-campus-at-former-nuclear-plant-in-scotland",
+    "https://www.itv.com/news/border/2026-09-30/plans-submitted-for-what-could-be-worlds-largest-data-centre"
+   ],
+   "tec_cross_reference": null
+  },
+  {
+   "id": "dc-ravenscraig-north-lanarkshire",
+   "name": "Ravenscraig data centre (SevenFourEight)",
+   "aliases": [
+    "Ravenscraig",
+    "SevenFourEight",
+    "Apatura Ravenscraig",
+    "Ravenscraig data centre"
+   ],
+   "location": "Former Ravenscraig steelworks, near Motherwell",
+   "council": "North Lanarkshire Council",
+   "developer_reported": "Apatura (Apatura DC Project 2 Ltd for the battery element)",
+   "capacity_reported": "550 MW demand capacity (public notice, 2025)",
+   "application_ref": null,
+   "status_reported": "Application reported filed (2025); no documents or decision found; a pre-application exhibition was set for 6 October",
+   "status_verified": false,
+   "groups": [
+    "Ravenscraig Locals Against Mega Datacentres"
+   ],
+   "sources": [
+    "https://www.datacenterdynamics.com/en/news/apatura-plans-500mw-data-center-campus-in-scotland/",
+    "https://futurescot.com/former-steel-mill-at-ravenscraig-in-contention-for-ai-growth-zone-status-with-plans-for-3-9-billion-green-data-centre/"
+   ],
+   "tec_cross_reference": null
+  },
+  {
+   "id": "dc-spango-valley-greenock-inverclyde",
+   "name": "Spango Valley data centre (former IBM site, Greenock)",
+   "aliases": [
+    "Spango Valley",
+    "Greenock IBM site",
+    "former IBM site Greenock",
+    "Inverclyde data centre",
+    "Slate Island"
+   ],
+   "location": "Spango Valley, off Inverkip Road, Greenock (former IBM site)",
+   "council": "Inverclyde Council",
+   "developer_reported": "Slate Island Developments Ltd",
+   "capacity_reported": "four buildings, about 80,000 sq m (indicative)",
+   "application_ref": null,
+   "application_type": "Planning permission in principle",
+   "status_reported": "Reported around 1 September 2026; no committee decision found",
+   "status_verified": false,
+   "groups": [
+    "No AI Data Centre - Inverclyde"
+   ],
+   "sources": [
+    "https://www.scottishconstructionnow.com/articles/plans-submitted-to-transform-former-ibm-greenock-site-into-data-centre",
+    "https://www.constructionenquirer.com/2026/09/01/data-centre-plan-unveiled-for-former-ibm-site/"
+   ],
+   "tec_cross_reference": null
+  },
+  {
+   "id": "dc-rufus-hurlford-east-ayrshire",
+   "name": "Rufus data centre campus (Hurlford)",
+   "aliases": [
+    "Rufus",
+    "Rufus Campus",
+    "Hurlford data centre",
+    "Stoics Rufus",
+    "Purroch Farm"
+   ],
+   "location": "Purroch Farm, Mauchline Road, Hurlford (East Ayrshire)",
+   "council": "East Ayrshire Council",
+   "developer_reported": "ILI Group",
+   "capacity_reported": "540 MW (aggregator figure; conflicting figures on the same page; unverified)",
+   "application_ref": null,
+   "status_reported": "Pre-application enquiries (late 2025); no full application found",
+   "status_verified": false,
+   "groups": [
+    "Hurlford Rufus Data Centre Community Group"
+   ],
+   "sources": [
+    "https://baxtel.com/data-center/ili-group-rufus-campus",
+    "https://www.theconstructionindex.co.uk/planning-leads/Kilmarnock/view/1224537"
+   ],
+   "tec_cross_reference": null
+  },
+  {
+   "id": "dc-wapseys-wood-buckinghamshire",
+   "name": "Wapseys Wood data centre campus (s35 request)",
+   "aliases": [
+    "Wapseys Wood",
+    "Wapseys Wood data centre"
+   ],
+   "location": "Wapseys Wood landfill site, Buckinghamshire",
+   "council": "Buckinghamshire (county area; NSIP route)",
+   "developer_reported": "Slough Holdings UK Limited (via Montagu Evans)",
+   "capacity_reported": null,
+   "application_ref": null,
+   "application_type": "Section 35 direction request (NSIP route)",
+   "status_reported": "Request made 21 Jan 2026; further information 24-27 Feb 2026; no decision found",
+   "status_verified": false,
+   "groups": [],
+   "sources": [
+    "https://assets.publishing.service.gov.uk/media/69b7eb62b84f01b2be53a27e/Section_35_Direction_Wapseys_Wood.pdf"
+   ],
+   "tec_cross_reference": null
+  }
+ ]
 }
