@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T21:29:23.000Z",
+  "generated": "2026-10-16T17:39:17.000Z",
   "sourceFilter": [
     "Scotland Against Spin",
     "Environmentalists Against Wind Turbines",
@@ -24,30 +24,33 @@
     "Help Save Mochrum Fell",
     "Save Our Hills - Dumfries and Galloway",
     "Say No to West Calder Hyperscale Data Centre",
-    "NO to East Havering Data Centre in Upminster (Residents Group)"
+    "NO to East Havering Data Centre in Upminster (Residents Group)",
+    "No Pylons Lincolnshire",
+    "Deeside Against Pylons"
   ],
   "selection": "strict global recency (most recent records first, across all tracked sources)",
   "counts": {
     "records": 18,
-    "Say NO to Cockenzie Data Centre": 2,
-    "Say No To Cato Data Centre": 4,
-    "Scotland Against Spin": 2,
-    "NO to East Havering Data Centre in Upminster (Residents Group)": 2,
-    "West Edinburgh Against AI Data Centre": 1,
-    "Say No to West Calder Hyperscale Data Centre": 3,
-    "Save Our Hills - Dumfries and Galloway": 1,
-    "Wind Energy's Absurd": 2,
-    "Help Save Mochrum Fell": 1
+    "Grampian Against Data Centres": 1,
+    "Deeside Against Pylons": 1,
+    "Essex Suffolk Norfolk Pylons": 3,
+    "Say No to West Calder Hyperscale Data Centre": 2,
+    "Our Power": 2,
+    "No Pylons Lincolnshire": 2,
+    "Scotland Against Spin": 4,
+    "Rural Scotland (APRS)": 1,
+    "Say No To Cato Data Centre": 1,
+    "Say NO to Cockenzie Data Centre": 1
   },
   "dateRange": {
-    "from": "2026-10-15",
-    "to": "2026-10-15"
+    "from": "2026-10-16",
+    "to": "2026-10-16"
   },
   "records": [
     {
-      "id": "1620072269595725",
-      "date": "2026-10-15",
-      "title": "Say NO to Cockenzie Data Centre",
+      "id": "1631653688670826",
+      "date": "2026-10-16",
+      "title": "Grampian Against Data Centres",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -61,61 +64,22 @@
       },
       "source": {
         "type": "facebook_group",
-        "name": "Say NO to Cockenzie Data Centre",
-        "label": "Facebook · Say NO to Cockenzie Data Centre",
-        "url": "https://www.facebook.com/groups/959791135623845/posts/1620072269595725/"
+        "name": "Grampian Against Data Centres",
+        "label": "Facebook · Grampian Against Data Centres",
+        "url": "https://www.facebook.com/groups/1517407306762132/posts/1631653688670826/"
       },
       "thin": false,
-      "bodyText": "Reply from East Lothian Council re Brownfield Site.......\nIn response to your email sent on the 28th of September, I would like to clarify that the requirements you mentioned i.e. for local authorities to prepare, maintain and publish registers of previously developed (brownfield) land is set out in The Town and Country Planning (Brownfield Land Register) Regulations 2017. This Regulation and also other policy requirements pertinent to the previously developed land included in NPPF apply to England and not to Scotland where a different planning regime is in place (the responsibility for planning matters was transferred to the Scottish parliament and Scottish Government under the Scotland Act 1998).\nRegarding the site in question, I can confirm that this land is allocated in the East Lothian Local Development Plan (2018) under Proposal EGT1: Land at Former Cockenzie Power Station. This LDP Proposal states that “Land at Cockenzie may also present significant opportunities for renewable energy-related investment.”\nThe ELC Planning Service provides annual updates to The Scottish Vacant and Derelict Land Survey (SVDLS) which is available at https://www.gov.scot/.../the-scottish-vacant-and.../ This survey is undertaken every year to establish the extent and state of vacant and derelict land in Scotland. According to our last year’s survey (2025) the site at the former coal yard at Cockenzie was classified as derelict as it is on previously developed land which has a physical constraint caused by its previous use which hampers its redevelopment.\nAs mentioned earlier the site is allocated in the current LDP and over the last years public funding has been secured towards the works aiming to remove the site’s physical constraints and changing its derelict classification.\nGOV.SCOT Scottish Vacant and Derelict Land Survey: Site Register",
-      "contentFingerprint": "bb11abf5172d6db0e0c014dd3279b32c6ff9930df45bb29a04f5ff31a08d3275",
+      "bodyText": "This shows you how a post can spread awareness, even in a small Facebook group. Please share information where you can. Make people aware!",
+      "contentFingerprint": "b94869dfa9f7bc86246dccdd02e6af4af8238e64937ab1a5b828ba00f4cabd9d",
       "photos": [
-        "media/facebook/1620072269595725/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "links": [
-        {
-          "text": "https://www.gov.scot/.../the-scottish-vacant-and.../",
-          "url": "https://www.gov.scot/publications/the-scottish-vacant-and-derelict-land-survey-site-register/"
-        },
-        {
-          "text": "GOV.SCOT Scottish Vacant and Derelict Land Survey: Site Register",
-          "url": "https://www.gov.scot/publications/the-scottish-vacant-and-derelict-land-survey-site-register/"
-        }
-      ]
-    },
-    {
-      "id": "1620066612929624",
-      "date": "2026-10-15",
-      "title": "Say NO to Cockenzie Data Centre",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Say NO to Cockenzie Data Centre",
-        "label": "Facebook · Say NO to Cockenzie Data Centre",
-        "url": "https://www.facebook.com/groups/959791135623845/posts/1620066612929624/"
-      },
-      "thin": false,
-      "bodyText": "This where tonights meeting will be held at 7.30pm",
-      "contentFingerprint": "37a75652a922eebacb938a3a882e32affb2875694834cadedce2b61878d3f9ab",
-      "photos": [
-        "media/facebook/1620066612929624/photo_1.png"
+        "media/facebook/1631653688670826/photo_1.png"
       ],
       "mediaCount": 1
     },
     {
-      "id": "1580437400030869",
-      "date": "2026-10-15",
-      "title": "Say No To Cato Data Centre",
+      "id": "2409978283141484",
+      "date": "2026-10-16",
+      "title": "Deeside Against Pylons",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -129,22 +93,51 @@
       },
       "source": {
         "type": "facebook_group",
-        "name": "Say No To Cato Data Centre",
-        "label": "Facebook · Say No To Cato Data Centre",
-        "url": "https://www.facebook.com/groups/1472242997516977/posts/1580437400030869/"
+        "name": "Deeside Against Pylons",
+        "label": "Facebook · Deeside Against Pylons",
+        "url": "https://www.facebook.com/groups/deesideagainstpylons/posts/2409978283141484/"
       },
       "thin": false,
-      "bodyText": "",
-      "contentFingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bodyText": "Another of our Press Releases picked up by our friends at Scottish Farmer! \nTwelve Necessary Wayleave hearings have been postponed by the DPEA.\nAs John Campbell, our NOTKUP Project Manager says, “This is not a minor administrative adjustment. It is a direct consequence of the strength of the objectors’ case and the seriousness of the agricultural evidence that has been put before the Reporters.\n“The message from this decision is unmistakable - the impacts on farming businesses are real, they are relevant and they must be properly considered before any compulsory rights are imposed over land.”\nAnd the Reporters have listened!",
+      "contentFingerprint": "d58e9d90c3e69615cfc7f12740c9d683bc6a9b5c04c7f932325b3612191f66ff",
       "photos": [
-        "media/facebook/1580437400030869/photo_1.png"
+        "media/facebook/2409978283141484/photo_1.png"
       ],
       "mediaCount": 1
     },
     {
-      "id": "1580537943354148",
-      "date": "2026-10-15",
-      "title": "Say No To Cato Data Centre",
+      "id": "1828353354871578",
+      "date": "2026-10-16",
+      "title": "Essex Suffolk Norfolk Pylons",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Essex Suffolk Norfolk Pylons",
+        "label": "Facebook · Essex Suffolk Norfolk Pylons",
+        "url": "https://www.facebook.com/groups/pylonseastanglia/posts/1828353354871578/"
+      },
+      "thin": false,
+      "bodyText": "I've just been cheered to receive an email from Rosie Pearson relating that very few landowners have signed their heads of terms. We were beginning to think this must be the case since FG/NG have given us extra time to sign the one they sent us which is in many respects irrelevant to our situation, appears to include wrong measurements and doesn't guarantee that we'll be able to get to and from our house while the work is going on. 'Best endeavours' is what they've said they'll exercise. In fact, in law, I believe best endeavours does mean much more than a token effort, but who's going to trust NG to do anything reasonable when the time comes.\nI'm quite happy to turn up at a tribunal or whatever if we get an application for compulsory acquisition of rights and tell them what our situation is, how unfair the HofT is and how we're never even been told how the job will actually be achieved over our bit of land and the land either side, given the huge changes in level of the land, a steep downward hill and a watercourse one side of our made up land and a high pressure trunk gas main and an upward hill  on the other side. No specs or anything.\nThey even asked us via our land agents to supply quotes for the reinstatement of our drive, for a tree root barrier and for hedge planting. Completely out of the question. Below is part of our response to our land agents which we asked them to pass onto NG/FG.\n“For us to obtain quotes is out of the question as you probably realise and we are not prepared to obtain any quotes. Hedgerow planting would theoretically be the simplest matter to explore. Obtaining quotes for the other two items, that is a root/tree barrier and the reinstatement of the drive, would be costly, difficult and time-consuming involving technical specifications for which we would probably have to employ a civil engineer before we could solicit quotes.\nThen, approaches to contractors seeking quotes would be purely speculative. They would be most unlikely to get the work in these circumstances which they would be bound to apprehend and therefore they would almost certainly charge to undertake the necessary inspections, including probably test drilling etc, and provide quotations. They wouldn't do it for nothing in these circumstances.\nIt would likely cost us thousands of pounds to obtain the quotes NG have asked for and it is out of the question. It is NG who wish to devastate 2 acres of our land and it is therefore they who must investigate how to go about their project, including the necessary mitigation.\nAnother factor is the timescale. If NG wish to issue Version 3 of Heads of Terms in the first week of August, then the monumental task of obtaining quotes would have to be dealt with within the week, which would be quite impossible.\nI would suggest that the request for quotes is merely a ruse on the part of NG, their way of making the items impossible for us to pursue, which is a wholly disreputable stance on the part of NG.\nNG have contractors themselves who could costs this work for them and are being totally disingenuous. \nIt appears that after all this time since we were first approached about the project and submitted to NG that HDD was the only viable, practical way to do the job, that NG still haven't decided how to go about the project so far as the Blackbrook, our land and the gas main are concerned, including how to ensure that we have 24/7 access to our house.\nIf NG do decide on HDD, then any time and money we were to expend on the quotes sought by NG would be entirely wasted, which NG must anticipate, another reason why their demand cannot be regarded seriously.”",
+      "contentFingerprint": "b7a0d5e7429af48b45bc361258c7aa2595cc7821d99f5d9ecbfd3e8b394e2a15",
+      "photos": [
+        "media/facebook/1828353354871578/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1140455494987935",
+      "date": "2026-10-16",
+      "title": "Say No to West Calder Hyperscale Data Centre",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -161,15 +154,15 @@
       },
       "source": {
         "type": "facebook_group",
-        "name": "Say No To Cato Data Centre",
-        "label": "Facebook · Say No To Cato Data Centre",
-        "url": "https://www.facebook.com/groups/1472242997516977/posts/1580537943354148/"
+        "name": "Say No to West Calder Hyperscale Data Centre",
+        "label": "Facebook · Say No to West Calder Hyperscale Data Centre",
+        "url": "https://www.facebook.com/groups/1092406649792820/posts/1140455494987935/"
       },
       "thin": false,
-      "bodyText": "Anyone who thinks they wont be affected by data centres because it is not on their doorstep are at best naive. The increase in electricity prices along with power cuts will hit us all. Also polution, water shortages and data threats. Once we become vulnerable to AI drone attacks our policing, health records, banking, jobs etc will all be destroyed with no benefit to anyone apart from US companies and investors.",
-      "contentFingerprint": "e9afe25a11d10a577e41ab99d5229a3c1512c35b6b2bd621883a29d84d6cd0d2",
+      "bodyText": "Is there a data centre opposite Tesco distribution centre after Boghall?",
+      "contentFingerprint": "832d46509ec19086ca476b6bde28bb2352cb3063833cc4aa9b27206d596dd682",
       "photos": [
-        "media/facebook/1580537943354148/photo_1.png"
+        "media/facebook/1140455494987935/photo_1.png"
       ],
       "mediaCount": 1,
       "categories": [
@@ -177,9 +170,9 @@
       ]
     },
     {
-      "id": "1580548473353095",
-      "date": "2026-10-15",
-      "title": "Say No To Cato Data Centre",
+      "id": "122136145551244466",
+      "date": "2026-10-16",
+      "title": "Our Power",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -193,27 +186,161 @@
       },
       "source": {
         "type": "facebook_group",
-        "name": "Say No To Cato Data Centre",
-        "label": "Facebook · Say No To Cato Data Centre",
-        "url": "https://www.facebook.com/groups/1472242997516977/posts/1580548473353095/"
+        "name": "Our Power",
+        "label": "Facebook Page · Our Power",
+        "url": "https://www.facebook.com/ourpower.scot/posts/122136145551244466"
       },
       "thin": false,
-      "bodyText": "YOUTUBE.COM FIGHTING THE MONSTER (21 mins, September 2026)",
-      "contentFingerprint": "3e6ebf9b261e1b4aabb0a02f438dd64696c4bc945916acd70a5de990d301b3fd",
+      "bodyText": "\"[E]ncouraging community owned generating capacity would help more peripheral communities especially [those] who disproportionately suffer.”\nTHENATIONAL.SCOT Scots 'get raw deal' on energy prices despite leading in renewables, top expert warns",
+      "contentFingerprint": "3656cd19290778c51ea3f3459a9ebd7fa79017eacb30c5cec5ac4dff36632209",
       "photos": [
-        "media/facebook/1580548473353095/photo_1.png"
+        "media/facebook/122136145551244466/photo_1.png"
       ],
       "mediaCount": 1,
       "links": [
         {
-          "text": "YOUTUBE.COM FIGHTING THE MONSTER (21 mins, September 2026)",
-          "url": "https://youtu.be/184lEyimaqQ?is=j--if7jeqIdTdu5-"
+          "text": "THENATIONAL.SCOT Scots 'get raw deal' on energy prices despite leading in renewables, top expert warns",
+          "url": "https://bit.ly/4s3sQBb"
         }
       ]
     },
     {
-      "id": "29720681147534231",
-      "date": "2026-10-15",
+      "id": "122136143439244466",
+      "date": "2026-10-16",
+      "title": "Our Power",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Our Power",
+        "label": "Facebook Page · Our Power",
+        "url": "https://www.facebook.com/ourpower.scot/posts/122136143439244466"
+      },
+      "thin": false,
+      "bodyText": "We’re on the ground at the SNP Conference today talking all things energy, community power, and Scotland's green future! \nScotland has amazing resources for wind power, but too much of that wealth and manufacturing supply chain is being shipped overseas while local energy bills stay sky-high.\nIf you had 30 seconds with SNP Ministers and MSPs today, what is the ONE thing you would want them to know about:\n Community & public ownership of local renewables?\n Bringing wind turbine manufacturing & supply chain jobs back to Scotland?\nDrop your message to Ministers in the comments below!",
+      "contentFingerprint": "64084f2aeb5923dbceeb22fe498e164fe71fbeb7790443a073bb0f1358ac7235",
+      "photos": [
+        "media/facebook/122136143439244466/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "1168961878940161",
+      "date": "2026-10-16",
+      "title": "No Pylons Lincolnshire",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "No Pylons Lincolnshire",
+        "label": "Facebook · No Pylons Lincolnshire",
+        "url": "https://www.facebook.com/groups/427539323082424/posts/1168961878940161/"
+      },
+      "thin": false,
+      "bodyText": "A week ago we submitted a second set of questions relating to WMEL - National Grid have decided to treat them as Freedom of Information Request despite the questions being relevant to the consultation. \nHere is the latest response:\nDear Cat\nThank you for your email. \nThe EIR request will be handled through the appropriate Environmental Information Regulations process, and we'll provide a response once that process has been completed. As mentioned in our previous reply, we will work to the statutory time frame of 20 days.  \nAs many of the questions you raised are interdependent, the best way for us to provide complete and clear answers is in a single written response. For that reason, we will not be responding to each question separately as we go. \nWe will be providing a direct response to you, but we will not publish that information on our project website. We are committed to making relevant project information available through our consultation materials and reporting, while managing individual correspondence\n through appropriate channels.  \nWe are aware that the EIR response deadline falls within four days of the close of consultation, however you and other members of the public are more than welcome to provide feedback ahead of receiving the EIR response, and after. All feedback submitted to\n the project in advance of the close of consultation will be considered. \nWe will not be extending the consultation period. We believe the consultation period strikes an appropriate balance between providing meaningful opportunities for participation and maintaining the project's overall programme.  \nKind regards\nCommunity Relations Team  \nWeston Marsh to East Leicestershire\nnationalgrid",
+      "contentFingerprint": "fa9b6fb98864c707b02edad95517c74e5ea905fcd7d07da01e08b309c35051ac",
+      "photos": [
+        "media/facebook/1168961878940161/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1828202578219989",
+      "date": "2026-10-16",
+      "title": "Essex Suffolk Norfolk Pylons",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Essex Suffolk Norfolk Pylons",
+        "label": "Facebook · Essex Suffolk Norfolk Pylons",
+        "url": "https://www.facebook.com/groups/pylonseastanglia/posts/1828202578219989/"
+      },
+      "thin": false,
+      "bodyText": "Sometimes I am told I am not doing enough to get the messages about the pylons out to the world…\nOf course there is always more that can be done, but some of it you don’t see.\nLike with the oak tree incident this week. Thanks to the video from the farmer, I was able to post on X and LinkedIn.\nAnd look\n \n100,000 views on X\n25,000 impressions on LinkedIn (this is a biggy as it is viewed by decision-makers and those in the industry and I can tell that there is starting to be a mindset shift).\nThe X post forced a response from NG. Ok, they made it up, but it shows they don’t like the public pressure.",
+      "contentFingerprint": "3352c9232388259629f4bbd7cb1a9bba0a8403ccf47a1127949150f62e21ec9a",
+      "photos": [
+        "media/facebook/1828202578219989/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "OHL (Pylons)"
+      ]
+    },
+    {
+      "id": "1168904562279226",
+      "date": "2026-10-16",
+      "title": "No Pylons Lincolnshire",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "No Pylons Lincolnshire",
+        "label": "Facebook · No Pylons Lincolnshire",
+        "url": "https://www.facebook.com/groups/427539323082424/posts/1168904562279226/"
+      },
+      "thin": false,
+      "bodyText": "Ogfem making promises of transparency.\nLet's hold them to it!\nWhat questions would like to ask them?\nOFGEM.GOV.UK Delivering an energy system that works for consumers",
+      "contentFingerprint": "d9a082d9e2ee1a4bf7aa2bff7e09d834326b56c1ee8f2b3032ba34867556c9ec",
+      "photos": [
+        "media/facebook/1168904562279226/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "OFGEM.GOV.UK Delivering an energy system that works for consumers",
+          "url": "https://www.ofgem.gov.uk/speech/delivering-energy-system-works-consumers"
+        }
+      ]
+    },
+    {
+      "id": "29729856216616724",
+      "date": "2026-10-16",
       "title": "Scotland Against Spin",
       "provenance": {
         "title": {
@@ -230,26 +357,26 @@
         "type": "facebook_group",
         "name": "Scotland Against Spin",
         "label": "Facebook · Scotland Against Spin",
-        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29720681147534231/"
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29729856216616724/"
       },
       "thin": false,
-      "bodyText": "At last after 10 months, the Scottish Government has published the Onshore electricity generation - Electricity Act threshold: summary consultation responses.  This Consultation was in response to our Petition to the Scottish Parliament  which, among other things, requested that the current 50MW threshold be raised in order to allow more local decision making with Ministers focusing on the really major applications.  We also insisted that local rejection of a development must be a key material consideration in the decision making process.\nWe haven't scrutinised all of the responses yet but Q2 shows that the vast majority of respondents opted for raising the threshold to 150MW.  Development, Property and Land Management Sector and Agents were the only category who disagreed.  That was to be expected!\nGreat to see that so many of our members responded to the consultation.  \nYou can read the summary of responses here\nGOV.SCOT Onshore electricity generation - Electricity Act threshold: summary consultation responses",
-      "contentFingerprint": "b47f2256429b2ee9dcab98998ef22e07d0e78970e70b212e95af12cbc30bd1f1",
+      "bodyText": "SCOTLAND’S landscape is being altered faster than at any other time in the race to Net Zero, a leading ecologist has warned.\nDr James Fenton helped to draft key safeguards designed to protect National Scenic Areas (NSAs), while at Scottish Government agency NatureScot.\nBut the expert fears there is now a ‘fundamental problem’ with the protections, claiming SNP ministers are pushing through large-scale afforestation schemes with ‘insufficient oversight’ – leading to the erosion of ‘precious’ moorlands ‘faster now than at any time in the past’.\nPRESSREADER.COM Scot­land is ‘los­ing grand vis­tas at fast­est rate’ due to Net Zero | Scottish Daily Mail",
+      "contentFingerprint": "341eef3423b8662e232c9ff9ea965dd119dc601bd77a4495c198fdd374f02860",
       "photos": [
-        "media/facebook/29720681147534231/photo_1.png"
+        "media/facebook/29729856216616724/photo_1.png"
       ],
       "mediaCount": 1,
       "links": [
         {
-          "text": "GOV.SCOT Onshore electricity generation - Electricity Act threshold: summary consultation responses",
-          "url": "https://www.gov.scot/publications/onshore-electricity-generation-consultation-increasing-threshold-applications-under-electricity-act-summary-consultation-responses/pages/1/"
+          "text": "PRESSREADER.COM Scot­land is ‘los­ing grand vis­tas at fast­est rate’ due to Net Zero | Scottish Daily Mail",
+          "url": "https://pressreader.com/article/281586657569193"
         }
       ]
     },
     {
-      "id": "1037972972600834",
-      "date": "2026-10-15",
-      "title": "NO to East Havering Data Centre in Upminster (Residents Group)",
+      "id": "1562742612565114",
+      "date": "2026-10-16",
+      "title": "Rural Scotland (APRS)",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -266,112 +393,24 @@
       },
       "source": {
         "type": "facebook_group",
-        "name": "NO to East Havering Data Centre in Upminster (Residents Group)",
-        "label": "Facebook · NO to East Havering Data Centre in Upminster (Residents Group)",
-        "url": "https://www.facebook.com/groups/366637746401030/posts/1037972972600834/"
+        "name": "Rural Scotland (APRS)",
+        "label": "Facebook Page · Rural Scotland",
+        "url": "https://www.facebook.com/APRScotland/posts/1562742612565114"
       },
       "thin": false,
-      "bodyText": "National Grid consultation on Warley Sub-Station upgrade closes tomorrow, 16 October. \nIf anyone has more questions for them please make sure they reach them in time for tomorrow.\nInformation available at:\nNATIONALGRID.COM Warley replacement substation | National Grid",
-      "contentFingerprint": "2a5b6065e693836d7ec0c3d9a97e6b56777d8588123150eac79e2bdc48b13ed1",
+      "bodyText": "Join us for a webinar at lunchtime Monday 19th October called 'who pays for Big Tech'\nWe will explore the findings of a recent report on the social, economic, and environmental costs of data centres in Ireland, with researchers from University College Dublin and Maynooth University.\nPatrick Brodie and Patrick Bresnihan will cover their research on how claims about the economic benefits of data centres to Ireland are exaggerated, the costs of data centre development are socialised through existing industrial policy, and the current policy contradictory to long-term sustainability goals.\nLink in bio\nMore about the speakers\nPatrick Brodie is a Lecturer/Assistant Professor and Ad Astra Fellow in the School of Information and Communication Studies at University College Dublin. His research focuses on the environmental politics of digital infrastructures, and specifically the relations and entanglements of internet and other communications technologies with energy systems, global supply chains, and extractivism.\nPatrick Bresnihan is an Associate Professor in the Department of Geography at Maynooth University. His work examines the contested politics of climate, land, and infrastructure in Ireland, and how these speak to broader questions of postcolonial development, dependency and the green transition.",
+      "contentFingerprint": "67a2138bb696ddb7aed7df03d07b0fa012b91d4a8940158551f47d15c1d6beac",
       "photos": [
-        "media/facebook/1037972972600834/photo_1.png"
+        "media/facebook/1562742612565114/photo_1.png"
       ],
       "mediaCount": 1,
-      "links": [
-        {
-          "text": "NATIONALGRID.COM Warley replacement substation | National Grid",
-          "url": "https://www.nationalgrid.com/electricity-transmission/network-and-infrastructure/infrastructure-projects/warley-substation"
-        }
-      ],
-      "categories": [
-        "Substation"
-      ]
-    },
-    {
-      "id": "1037915102606621",
-      "date": "2026-10-15",
-      "title": "NO to East Havering Data Centre in Upminster (Residents Group)",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "NO to East Havering Data Centre in Upminster (Residents Group)",
-        "label": "Facebook · NO to East Havering Data Centre in Upminster (Residents Group)",
-        "url": "https://www.facebook.com/groups/366637746401030/posts/1037915102606621/"
-      },
-      "thin": false,
-      "bodyText": "Final day to have your say on the the Mayor of London's draft plan.  There is a chapter on data centres.  \nhttps://www.london.gov.uk/.../4-growing-londons-economy...\nYou can register an account to respond via the online survey, or you can email londonplan@london.gov.uk",
-      "contentFingerprint": "b91bacf040b92d0800a67aedf362c94f2ed1ea4ed0f7d4625b35ba9411cad53a",
-      "photos": [
-        "media/facebook/1037915102606621/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "links": [
-        {
-          "text": "https://www.london.gov.uk/.../4-growing-londons-economy...",
-          "url": "https://www.london.gov.uk/programmes-strategies/planning/london-plan/next-london-plan/draft-london-plan-consultation/draft-london-plan-consultation-resources/draft-london-plan/4-growing-londons-economy-way-benefits-all"
-        }
-      ],
       "categories": [
         "Data Centre"
       ]
     },
     {
-      "id": "1086445357540270",
-      "date": "2026-10-15",
-      "title": "West Edinburgh Against AI Data Centre",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "West Edinburgh Against AI Data Centre",
-        "label": "Facebook · West Edinburgh Against AI Data Centre",
-        "url": "https://www.facebook.com/groups/994619683389505/posts/1086445357540270/"
-      },
-      "thin": false,
-      "bodyText": "Yeah it's looking like open source models and running models on local systems are going to be the way forward, meaning the massive data centres ie hyperscaling won't be needed in the long run.\nCall a Moratorium on new hyperscale data centres across the UK.\nWork with the EU on an independent EU wide public tech sector including internet access to rival Google, an online market place to rival Amazon, AI sector, Sattelite systems to rival Starlink, etc. All publicly owned and shared to beat the US tech monopolies and provide tech security, independence and unite the EU and likeminded countries like the UK, Canada, Australia, etc who respect privacy, autonomy and democracy. \n'Yet the IMF warned of “growing evidence” that the successful rollout of AI “may not require investment on the massive scale being undertaken by ‘hyperscaler’ firms”, and “potential economic gains may not be as large as expected”.\n'The hyperscalers are the companies building the underlying infrastructure for the AI rollout, including many vast datacentres. '\n'The threat of an AI share price crash rippling out across global markets is putting world financial stability at risk, the International Monetary fund has warned.\nIn its twice-yearly Global Financial Stability Report, the IMF highlighted the sky-high valuations for AI companies along with their increasing debt pile as one reason that risks in the system are “elevated”.\nTHEGUARDIAN.COM Threat of AI share crash puts world financial stability at risk, says IMF",
-      "contentFingerprint": "b8f4a3b13f28bd3f99e2ffa060f294b12e673f491f2d3e7311252a271fb54f7c",
-      "photos": [
-        "media/facebook/1086445357540270/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "links": [
-        {
-          "text": "THEGUARDIAN.COM Threat of AI share crash puts world financial stability at risk, says IMF",
-          "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks"
-        }
-      ],
-      "categories": [
-        "Data Centre"
-      ]
-    },
-    {
-      "id": "1139676438399174",
-      "date": "2026-10-15",
+      "id": "1140321708334647",
+      "date": "2026-10-16",
       "title": "Say No to West Calder Hyperscale Data Centre",
       "provenance": {
         "title": {
@@ -391,22 +430,32 @@
         "type": "facebook_group",
         "name": "Say No to West Calder Hyperscale Data Centre",
         "label": "Facebook · Say No to West Calder Hyperscale Data Centre",
-        "url": "https://www.facebook.com/groups/1092406649792820/posts/1139676438399174/"
+        "url": "https://www.facebook.com/groups/1092406649792820/posts/1140321708334647/"
       },
       "thin": false,
-      "bodyText": "For information/Please attend... March to demand that LOCALS have more say over whether to allow Hyperscale Data Centres on 14th November 2026...more important than ever as The Scottish Government refuse to say if they are meeting with developers citing NOT IN THE PUBLIC INTEREST!!!",
-      "contentFingerprint": "0bc5a011e180774d4f0c9ca766fd139b3660788592cf82e6d3f2d9d331c6f87d",
+      "bodyText": "Noise: Important webinar to watch\nWe often reference noise on this page, especially the health hazards of low frequency sound waves, and lots of you ask questions about it or send videos of noise we often can't authenticate but wish we could. This YouTube link is to a webinar organised by the UK Noise Association, and has two very well qualified speakers who talk about both the health impacts and technical aspects of noise. Together with their slides, it's hugely instructive. If you can find an hour sometime to watch it, please stick with it - it has the usual webinar hiccups, but well worth watching to the end.\nhttps://www.youtube.com/watch?v=sh0KIAKLPF8\nYOUTUBE.COM Data Centre Webinar",
+      "contentFingerprint": "e7782736addcc2eb0c47b99761206acc6ac9f4a3ad7c7de2e2bfae2a01c4f586",
       "photos": [
-        "media/facebook/1139676438399174/photo_1.png"
+        "media/facebook/1140321708334647/photo_1.png"
       ],
       "mediaCount": 1,
+      "links": [
+        {
+          "text": "YOUTUBE.COM Data Centre Webinar",
+          "url": "https://www.youtube.com/watch?v=sh0KIAKLPF8"
+        },
+        {
+          "text": "https://www.youtube.com/watch?v=sh0KIAKLPF8",
+          "url": "https://www.youtube.com/watch?v=sh0KIAKLPF8"
+        }
+      ],
       "categories": [
         "Data Centre"
       ]
     },
     {
-      "id": "29718066581129021",
-      "date": "2026-10-15",
+      "id": "29729548693314143",
+      "date": "2026-10-16",
       "title": "Scotland Against Spin",
       "provenance": {
         "title": {
@@ -423,25 +472,72 @@
         "type": "facebook_group",
         "name": "Scotland Against Spin",
         "label": "Facebook · Scotland Against Spin",
-        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29718066581129021/"
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29729548693314143/"
       },
       "thin": false,
-      "bodyText": "Thanks to Ria Parkinson for this summary of an article in the Times today.\nA great article from Juliet Samuel in The Times highlighting the growing challenges NESO is facing keeping the lights on. After years of under-investment and wishful thinking around the energy transition, we’re relying more and more on renewables, interconnectors and batteries which can abruptly \"turn off and on\" with little, to no notice. The old system of large, steady fossil plants was far easier to balance. Juliet writes that engineers are starting to sound the alarm that margins are getting tight, and that a number of recent frequency excursions and interconnector limit breaches aren’t helping the “nothing to see here” message either.\nTHETIMES.COM Why are power grid bosses gaslighting us?",
-      "contentFingerprint": "1c43936a97f051448d199b231a7dea0fa5e3423adda5575adeabe737a54dd67e",
+      "bodyText": "The UK government has been urged to stop an energy firm from quitting the UK after it lost out to a Chinese firm on a government support scheme.\nScottish Labour MP Kirsteen Sullivan has urged her own party’s ministers to “secure jobs” at Invinity Energy Systems – which has sites in Motherwell and Bathgate.\nThe British company has threatened to quit the UK after just one vanadium flow battery project was selected for Ofgem’s long-duration energy storage scheme.\nSCOTSMAN.COM Labour urged to stop energy firm which promised 1,000 Scots jobs from quitting UK",
+      "contentFingerprint": "52b1ec8a91ffdcef6837556e24f9aa0016864a2f80474831c320586f462988ec",
       "photos": [
-        "media/facebook/29718066581129021/photo_1.png"
+        "media/facebook/29729548693314143/photo_1.png"
       ],
       "mediaCount": 1,
       "links": [
         {
-          "text": "THETIMES.COM Why are power grid bosses gaslighting us?",
-          "url": "https://www.thetimes.com/comment/columnists/article/why-are-power-grid-bosses-gaslighting-us-zk5q7ftfm"
+          "text": "SCOTSMAN.COM Labour urged to stop energy firm which promised 1,000 Scots jobs from quitting UK",
+          "url": "https://www.scotsman.com/news/politics/labour-government-urged-to-stop-energy-firm-which-promised-1000-scots-jobs-from-quitting-uk-9275376"
         }
       ]
     },
     {
-      "id": "1580369203371022",
-      "date": "2026-10-15",
+      "id": "29729391433329869",
+      "date": "2026-10-16",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29729391433329869/"
+      },
+      "thin": false,
+      "bodyText": "Britain’s grid operator is facing fresh questions about how it manages the electricity system after paying nearly £50m in a single day to keep the lights on.\n[National Energy System Operator](https://archive.ph/.../grid-operator-puts-power-stations.../) (Neso) paid an estimated £49m in so-called “balancing costs” on Wednesday in what is thought to be a record.  Full story can be read here https://archive.ph/jY7cq#selection-3441.0-3449.109\nhttps://www.telegraph.co.uk/.../grid-operator-spends-50m.../\nTELEGRAPH.CO.UK Grid operator spends £50m in a single day to keep the lights on",
+      "contentFingerprint": "8fb4c38f174c8e66d1f67f603b203fb7a7d0c617393cd5cc7270fb8b87445ca2",
+      "photos": [
+        "media/facebook/29729391433329869/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://archive.ph/.../grid-operator-puts-power-stations.../",
+          "url": "https://archive.ph/o/jY7cq/https://www.telegraph.co.uk/business/2026/10/06/grid-operator-puts-power-stations-on-alert-over-electricity/"
+        },
+        {
+          "text": "https://archive.ph/jY7cq#selection-3441.0-3449.109",
+          "url": "https://archive.ph/jY7cq#selection-3441.0-3449.109"
+        },
+        {
+          "text": "https://www.telegraph.co.uk/.../grid-operator-spends-50m.../",
+          "url": "https://www.telegraph.co.uk/business/2026/10/15/grid-operator-spends-50m-in-a-single-day-to-keep-lights-on/"
+        },
+        {
+          "text": "TELEGRAPH.CO.UK Grid operator spends £50m in a single day to keep the lights on",
+          "url": "https://www.telegraph.co.uk/business/2026/10/15/grid-operator-spends-50m-in-a-single-day-to-keep-lights-on/"
+        }
+      ]
+    },
+    {
+      "id": "1580670113340931",
+      "date": "2026-10-16",
       "title": "Say No To Cato Data Centre",
       "provenance": {
         "title": {
@@ -452,61 +548,73 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
         "type": "facebook_group",
         "name": "Say No To Cato Data Centre",
         "label": "Facebook · Say No To Cato Data Centre",
-        "url": "https://www.facebook.com/groups/1472242997516977/posts/1580369203371022/"
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1580670113340931/"
       },
       "thin": false,
-      "bodyText": "Following the decision by Fife Council to stop accepting planning objections by email I have written to all my ward councillors and the Head of Planning at Fife Council Pam Ewen. A copy of the email I sent to the ward councillors is attached in the images below. I suggested others also write. So far I have received a brief response from Julie MacDougall saying she will pass my email on to the planning department.",
-      "contentFingerprint": "2db435e6d0ee95a6923d87d2e995fcfa53972f2974a57cba7694cd412d71be8b",
+      "bodyText": "stopaidatacentres.scot \nWe are so incredibly lucky to have @samheughan on our side for the campaign. It's amazing to see folk in the public eye using their platform for the power of good and standing up for local communities, volunteering their time and energy for a cause. Especially when they are so eloquent and knowledgeable and give such amazing interviews! Thank you so much Sam\nAlso a huge, huge thank you to Storm, Alexis and Channel 5 for platforming the Scottish anti-data centre campaign, and specifically the very urgent Chapelcross issue, on their show. This is UK-wide so it's amazing to have the chance to state Scotland's case on live TV.",
+      "contentFingerprint": "d6920e3d38f75e6d1874294e2ab92c4d9bebf5e041cfddb27d09bac1612035c2",
       "photos": [
-        "media/facebook/1580369203371022/photo_1.png"
-      ],
-      "mediaCount": 1
-    },
-    {
-      "id": "1139578305075654",
-      "date": "2026-10-15",
-      "title": "Say No to West Calder Hyperscale Data Centre",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Say No to West Calder Hyperscale Data Centre",
-        "label": "Facebook · Say No to West Calder Hyperscale Data Centre",
-        "url": "https://www.facebook.com/groups/1092406649792820/posts/1139578305075654/"
-      },
-      "thin": false,
-      "bodyText": "First Minister, @john_swinney_snp is too busy to visit Larbert and waffles about how Hyperscale Data Centres will negatively impact local communities but then states clearly they need to work on planning process in order to get them built... #WhoBenefits Not the Scottish people!",
-      "contentFingerprint": "2bad5810afaa2a74a41d3ade5882c05cbca76d673927569d15ac2a3d0828cfcc",
-      "photos": [
-        "media/facebook/1139578305075654/photo_1.png"
+        "media/facebook/1580670113340931/photo_1.png"
       ],
       "mediaCount": 1,
+      "links": [
+        {
+          "text": "stopaidatacentres.scot",
+          "url": "http://stopaidatacentres.scot/"
+        }
+      ],
       "categories": [
         "Data Centre"
       ]
     },
     {
-      "id": "1139525181747633",
-      "date": "2026-10-15",
-      "title": "Say No to West Calder Hyperscale Data Centre",
+      "id": "29728872910048388",
+      "date": "2026-10-16",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29728872910048388/"
+      },
+      "thin": false,
+      "bodyText": "The budget for allocation round 8 (AR8) will be revealed at the latest possible time, the Department of Energy Security and Net Zero (DESNZ) has announced.\nUnder the current timeline, DESNZ is set to announce AR8’s budget on 19 November with the bidding window opening in early December.\nThe final results of AR8 should be announced between 15-17 February 2027 under the timeline.\nENERGYVOICE.COM AR8 results pushed onto longest timeline",
+      "contentFingerprint": "30b81c3c929abf129ccdddffa696ffd860c91c38e6f0ac6f191e15e2c37fc8c7",
+      "photos": [
+        "media/facebook/29728872910048388/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "ENERGYVOICE.COM AR8 results pushed onto longest timeline",
+          "url": "https://www.energyvoice.com/renewables-energy-transition/wind/605165/ar8-results-longest-timeline/"
+        }
+      ]
+    },
+    {
+      "id": "1827496141623966",
+      "date": "2026-10-16",
+      "title": "Essex Suffolk Norfolk Pylons",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -523,160 +631,55 @@
       },
       "source": {
         "type": "facebook_group",
-        "name": "Say No to West Calder Hyperscale Data Centre",
-        "label": "Facebook · Say No to West Calder Hyperscale Data Centre",
-        "url": "https://www.facebook.com/groups/1092406649792820/posts/1139525181747633/"
+        "name": "Essex Suffolk Norfolk Pylons",
+        "label": "Facebook · Essex Suffolk Norfolk Pylons",
+        "url": "https://www.facebook.com/groups/pylonseastanglia/posts/1827496141623966/"
       },
       "thin": false,
-      "bodyText": "This is how quiet it is in Monarch’s Way on a Sunday afternoon.  \nDo you really want a noisy, whining, air polluting, biodiversity-annihilating, quality-of life-ruining Hyperscale data centre instead?  We have to actively fight this as a community. A few likes won’t hack it - we need active help to stop it.",
-      "contentFingerprint": "20a9823894830e5b83aba929e3acd70ce1849d1647cebfe19adef08c7012cf54",
+      "bodyText": "Hi,\nI am a journalist for a TV show and tomorrow we are planning on having a conversation about residents from Bursthall, Suffolk saying their homes, farms and countryside are being affected by Pylons and we are really keen on having a spokesperson on our show.\nIf you are affected by this and interested to speak on the show, please contact me ASAP and I will send you more details.\nThank you so much.",
+      "contentFingerprint": "83e8e7315623da8c48b0f4feae8ed238bb02b615bebc7a7202157b5201f6fdf0",
       "photos": [
-        "media/facebook/1139525181747633/photo_1.png"
+        "media/facebook/1827496141623966/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "OHL (Pylons)"
+      ]
+    },
+    {
+      "id": "1620358816233737",
+      "date": "2026-10-16",
+      "title": "Say NO to Cockenzie Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say NO to Cockenzie Data Centre",
+        "label": "Facebook · Say NO to Cockenzie Data Centre",
+        "url": "https://www.facebook.com/groups/959791135623845/posts/1620358816233737/"
+      },
+      "thin": false,
+      "bodyText": "Notes from Community Council special Hyperscale Data Centre meeting.\nI attended last nights meeting and left early as the meeting was not focused on the Hyperscale Data Centre.\nThe meeting was held by BenMorse the chair of the CC and the sub group of the community council specifically created to work on the Hyperscale data centre. Ther were no introductions only Ben Morse the chair speaking, no representatives from SDCL or ELC. The meeting was disapppointing and focused on what we already know about the power station site. It was a repeat of the last two meetings when they discussed the site. Anyone attending knows the history and whats on the site and is attending because they want to put a stop to the Hyperscale Data Centre after all thats what the meeting was advertised as.\nI learnt that ELC, Councillors Gilbert and another along with representation from each development site, whether in person or via email met with the chairs of Prestonpans and Cockenzie and Port Seton Community Councils. These meetings have been set up to improve communication but no minutes were released only a mention of funding available from Inch Cape, the promise of jobs and that Seagreen have delayed building work.\nThis feedback was not helpful and not what I was led to believe these meetings were for.\nBen Morse chair of Cockenzie & Port Seton CC reminded the group that there were no plans yet for the data centre, which we are well aware of. He did not seem to appreciate that now is the time to email councillors as to the reasons why we dont want a Hyperscale data centre and that we have to try and stop the SDCL agreement being signed.\nThere was also no mention of the CC supporting the land asset transfer by the 360 project and no mention of the cc looking into the fact that the site was bought with public money and that deals were done behind closed doors.\nThere was also no mention that we need to be prepared for when the plans are released.\nHe stated a new ELC development plan was in the pipeline.\nHe also mentioned the gas leak but played it down. I then asked him if the community council had reported our health and Safety concerns to SEPA and the Health and Safety Executive re the accumulation of the fire, the gas leak, the contaminated dust, the asbestos, the working outwith hours, the monitoring of air quality etc. He said yes but no one had replied to their emails.\nI explained ELCs complaints procedure to him and how we could following the correct procedures request a public enquiry.\nI asked for the CC to be more active in supporting the community as we have no faith in ELCs health and Safety at the power station site see my previous letter to the cc which they have not replied to.\nI feel that our concerns over H&S are what should have been discussed at the site meeting mentioned previously.\nI then left as it was very clear that the meeting was going nowhere but over old ground.\nIve been informed the meeting finally got onto the data centre at 9pm. Im awaiting an update from anyone who was there.\nIf anyone is interested please join our community council they are short of members and definitely require more local people who are passionate about stopping the data centre.",
+      "contentFingerprint": "8c004dc68e53a094cb0ee35be3061af8d9fffe4923ce01cee545ff8bab6d9ee0",
+      "photos": [
+        "media/facebook/1620358816233737/photo_1.png"
       ],
       "mediaCount": 1,
       "categories": [
         "Data Centre"
       ]
-    },
-    {
-      "id": "1827249908273318",
-      "date": "2026-10-15",
-      "title": "Save Our Hills - Dumfries and Galloway",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Save Our Hills - Dumfries and Galloway",
-        "label": "Facebook · Save Our Hills - Dumfries and Galloway",
-        "url": "https://www.facebook.com/groups/432372427761080/posts/1827249908273318/"
-      },
-      "thin": false,
-      "bodyText": "UK containment cost (wasted wind) for 14 October 2026 -  £37,387,062   That's over £37 million paid to windfarm owners to turn off turbines and to gas companies to produce more gas to level out just yesterday.",
-      "contentFingerprint": "655f4c2ba88afbf91e9f3237b48aa7a4ab09d2d7db7022e578d0fcfbd58f3ad0",
-      "photos": [
-        "media/facebook/1827249908273318/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "categories": [
-        "Onshore Wind"
-      ]
-    },
-    {
-      "id": "1541967324627229",
-      "date": "2026-10-15",
-      "title": "Wind Energy's Absurd",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Wind Energy's Absurd",
-        "label": "Facebook Page · Wind Energy's Absurd",
-        "url": "https://www.facebook.com/WindEnergysAbsurd/posts/1541967324627229"
-      },
-      "thin": false,
-      "bodyText": "One would think that the UK had money to burn or, more importantly, that consumers had money to burn. \nAt about 11 am this morning (15th) balancing costs were already at £15 million.\nKathryn Porter put this up, and said it was 'crazy'.  And it is. \nThis morning we were reading Miatta Fahnbulleh's speech at the Energy UK's annual conference.  \nQuite apart from the fact that she is sounding more and more like Miliband, especially with the 'look' punctuations (and no sooner had we read this than we read a speech by Miliband where that was the second word) but we are inclined to think, that for all the fine words to the industry, with apparent care for industry and consumers, it was a load of \n.\nhttps://www.gov.uk/.../building-an-energy-system-that...",
-      "contentFingerprint": "c9cf342f3a9b934851cfbd8804068d7edf703b401aac3d9dc99e8999db7a0423",
-      "photos": [
-        "media/facebook/1541967324627229/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "links": [
-        {
-          "text": "https://www.gov.uk/.../building-an-energy-system-that...",
-          "url": "https://www.gov.uk/government/speeches/building-an-energy-system-that-delivers-for-all"
-        }
-      ]
-    },
-    {
-      "id": "1541931617964133",
-      "date": "2026-10-15",
-      "title": "Wind Energy's Absurd",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Wind Energy's Absurd",
-        "label": "Facebook Page · Wind Energy's Absurd",
-        "url": "https://www.facebook.com/WindEnergysAbsurd/posts/1541931617964133"
-      },
-      "thin": false,
-      "bodyText": "Juliet Samuel had an excellent and comprehensive piece in the Times yesterday on the recent grid shenanigans; it's entitled 'Why are power grid bosses gaslighting us?'\nShe said:  As for today, whenever you’re reading this, who knows what fun lies in store for the control room?\nWell, Juliet - we're a day late, but we can tell you what's happening this morning, thanks to David Turver who tweeted that frequency was going up and down like a yoyo - our words, not his. \nWhat he said was:  And even more frequency oscillations this morning. Frequency above normal operating limit at 6:05, below from 7:14 to 7:22 and then above again from 7:32 to 7:34.  Curiouser and curiouser\nKathryn Porter has just tweeted this:\nIt's getting embarrassing now... This morning  @neso_energy\nhas blown through the intraday interconnector trading limits again and like yesterday the frequency has been above and below the safe operational limits\nMargins are perfectly fine so I can only think this is a combination of poor modelling and forecasting and the grid constraints affecting the SE\nYesterday saw record balancing costs of just under £50 million so this isn't just a curiosity, it's chaos that's driving bills higher (balancing costs are part of network costs)\nhttps://www.thetimes.com/comment/columnists/article/why-are-power-grid-bosses-gaslighting-us-zk5q7ftfm?utm_source=Sailthru&utm_medium=email&utm_campaign=Times%20Politics%20-%20Thursday%20October%2015&utm_term=audience_POLITICS\n'The first thing to know is that this is not normal. The people who run Britain’s electricity grid want you to think it is, but it isn’t. I believe the psychological term is gaslighting, but given the impending winter gas shortage, that’s optimistic.\nThe facts are these. In the past fortnight there have been four, maybe five, highly unusual events in the control room of Britain’s electricity grid: major forecasting errors, formal calls to the market for extra power and demands for “emergency assistance” from our neighbours in Europe.\nSenior managers at the publicly owned National Energy System Operator (Neso) want you to believe these incidents are “routine”. Since the last “routine” incident in June, which is now the subject of both a technical and a legal investigation, Neso has signed PR contracts worth £400,000 to convince everyone they are doing splendidly. What they haven’t done is learn any lessons or produce any in-depth analysis of what the hell is going on.\nYet things keep happening. On September 28, Neso’s forecasts showed it was going to run out of power and it had to put out a call for extra, same-day (and expensive) generation. After about 15 hours, it cancelled the notice — its forecasts were wrong. On October 6, it issued another call. Luckily, even though the wind was low, demand was lower. Again, the forecasts were wrong.\nOn October 9, for no obvious reason, the grid suddenly ran so short of power that its frequency, or “heartbeat”, went out of the normal operating range for ten minutes, which is what happened in June. An internal “frequency event report” on the latest incident, which I’ve seen thanks to a concerned insider, shows that Neso had to push more power from north to south than the wires are meant to take.\nIt also had to offer a fortune to incentivise power production from generators in the south. When even that wasn’t enough, it issued a call for “emergency assistance” from France. A Neso engineer says we were one circuit trip away from a very serious situation. “All that was left was [to] scramble for emergency assistance from the EU, violate transmission constraints or disconnect demand.”\nIncredibly, three days later, Neso was begging France again, issuing its biggest-ever call for power.\nDespite plentiful wind on October 12, with cable maintenance slightly overrunning, power couldn’t get down to meet demand in the south. The next day, Tuesday, the grid’s frequency first spiked too high and then fell too low, for reasons as yet unknown. As for today, whenever you’re reading this, who knows what fun lies in store for the control room?\nGiven how often Neso is being caught off guard, I suppose you could argue this is indeed now “routine”. As Andrew Larkins, an energy consultant and former Ofgem adviser, politely puts it: “They’re at risk of normalising something that’s meant to be part of an emergency system … It shows how hard they’re having to work to keep the lights on.” Winter hasn’t even started yet.\nWhy is this happening? The technical answer is we don’t know because Neso isn’t opening up the incidents to scrutiny in the way that, say, an airliner is forced to facilitate an industry-wide post-mortem when an engine chokes. More successful modernising grids, such as Australia’s, take the opposite approach.\nThe broader answer is that governments, regulators and owners of the system have indulged a decade of wishful thinking and under-investment, pretending they know how to pull off a radical energy transition when they have devoted appallingly little forethought, planning and money to the question.\nThe electricity grid used to run off a hundred or so fossil fuel generators, which can be turned up and down on request and are mechanically stable because they spin big, heavy rotors. Demand also tended to follow a pattern. This made balancing power supply and demand fairly straightforward.\nNow, large portions of our power (some days, all of it) come from a mix of undersea cables, renewables plants and batteries, all of which can abruptly and unpredictably turn off and on. Small units, such as rooftop solar, don’t even send data to the grid. Customers are using new, variable gadgets like smart meters and electric cars. Forecasting and responding to changes has become, to be technical, a total bloody nightmare. “We can’t see how much reserve we have,” says the engineer.\nOn top of this, you have a regulator and grid operator moving at the pace of a Siberian town clerk in a Chekhov play. The grid code, which specifies the grid’s technical requirements, is so out of date that when Neso discovered hundreds of wind farms had their meters fitted backwards, so they tell the grid they’re consuming when they’re actually generating, there was no one obvious to blame. But a single technical change to the code can take years of consultations and meetings.\nThe rules governing grid stability are similarly out of date. A programme to install more granular sensors to monitor frequency in dozens of locations is well overdue. While the US grids have for years had 2,500 such sensors, Britain’s ambition is to have 40 (a tenth of what Larkins says would be equivalent coverage), and even some of those aren’t sharing data in a useable form. A working group on protocols to stop cascades of generator trips, which took out the solar-reliant Iberian grid last year, is crawling along.\nIt isn’t all Neso’s fault. Private owners of grid infrastructure are in no hurry to make unprofitable improvements. But nor are they being hurried or penalised. Ofgem has repeatedly tolerated grid regulatory failings and delayed or refused investment proposals. As a result, Neso, which ultimately passes costs to users, must now pay a fortune to buy in power on the day it’s needed to avoid blackouts.\nMeanwhile, plans to manage the new power system assume we can use advanced software to fine-tune supply and demand. For example, the commercial fridge industry says it can tweak power use up or down. Brilliant! Except that hackers got at supermarket fridges in France this week and cranked them up to 50 degrees. It spoilt a lot of food. If we’re not careful, a hack like that could spoil the grid.\nGovernments, regulators, operators and owners have all conspired in the delusion that everything is fine and we can keep going at breakneck speed to “clean power 2030”. But the strain is showing and the engineers won’t pretend any more. You can’t run an electricity grid on a news grid.'",
-      "contentFingerprint": "28f935d75d2fc82a836a6b44dc95cc2becf38799222a0ea4854b9100935284b2",
-      "photos": [
-        "media/facebook/1541931617964133/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "links": [
-        {
-          "text": "https://www.thetimes.com/comment/columnists/article/why-are-power-grid-bosses-gaslighting-us-zk5q7ftfm?utm_source=Sailthru&utm_medium=email&utm_campaign=Times%20Politics%20-%20Thursday%20October%2015&utm_term=audience_POLITICS",
-          "url": "https://www.thetimes.com/comment/columnists/article/why-are-power-grid-bosses-gaslighting-us-zk5q7ftfm"
-        }
-      ],
-      "categories": [
-        "Onshore Wind"
-      ]
-    },
-    {
-      "id": "3599910093490127",
-      "date": "2026-10-15",
-      "title": "Help Save Mochrum Fell",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Help Save Mochrum Fell",
-        "label": "Facebook · Help Save Mochrum Fell",
-        "url": "https://www.facebook.com/groups/1730785547069267/posts/3599910093490127/"
-      },
-      "thin": false,
-      "bodyText": "",
-      "contentFingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "photos": [
-        "media/facebook/3599910093490127/photo_1.png"
-      ],
-      "mediaCount": 1
     }
   ]
 }
