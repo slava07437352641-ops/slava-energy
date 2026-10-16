@@ -1,16 +1,16 @@
 {
-  "generated": "2026-10-15T11:30:41.000Z",
+  "generated": "2026-10-15T21:29:23.000Z",
   "counts": {
-    "records": 3749,
+    "records": 3773,
     "thin": 320,
-    "withMedia": 1216,
-    "withCategories": 1056,
+    "withMedia": 1240,
+    "withCategories": 1067,
     "withTopics": 316,
     "withProject": 10,
     "withCoordinates": 95,
     "withSummary": 52,
-    "withBodyText": 2348,
-    "withPhotos": 1213,
+    "withBodyText": 2368,
+    "withPhotos": 1237,
     "withPreviewImage": 64,
     "councils": 4,
     "matchReviewLogged": 2,
@@ -96596,6 +96596,844 @@
         "media/facebook/1630514835451378/photo_1.png"
       ],
       "mediaCount": 1
+    },
+    {
+      "id": "1619301559672796",
+      "date": "2026-10-14",
+      "title": "Say NO to Cockenzie Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say NO to Cockenzie Data Centre",
+        "label": "Facebook · Say NO to Cockenzie Data Centre",
+        "url": "https://www.facebook.com/groups/959791135623845/posts/1619301559672796/"
+      },
+      "thin": false,
+      "bodyText": "Thursday 15th October 7.30pm\nOld parish church Cockenzie High Street\nCommunity Council meeting to discuss the AI Hyperscale data centre\nEveryone is invited",
+      "contentFingerprint": "89e6a406f6c245760b128dc92aaf2845644c0ba004edc20001cdfe7246cf3d52",
+      "photos": [
+        "media/facebook/1619301559672796/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1619303379672614",
+      "date": "2026-10-14",
+      "title": "Say NO to Cockenzie Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say NO to Cockenzie Data Centre",
+        "label": "Facebook · Say NO to Cockenzie Data Centre",
+        "url": "https://www.facebook.com/groups/959791135623845/posts/1619303379672614/"
+      },
+      "thin": false,
+      "bodyText": "Hyperscale data centre meeting  by Cockenzie & Port Seton Community Council",
+      "contentFingerprint": "e6f4bc266efc5819f661ee454fbe87ed5475db2c0505a9648ffd8399e4940723",
+      "photos": [
+        "media/facebook/1619303379672614/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1619303903005895",
+      "date": "2026-10-14",
+      "title": "Say NO to Cockenzie Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say NO to Cockenzie Data Centre",
+        "label": "Facebook · Say NO to Cockenzie Data Centre",
+        "url": "https://www.facebook.com/groups/959791135623845/posts/1619303903005895/"
+      },
+      "thin": false,
+      "bodyText": "This event has been organised by Cockenzie and Port Seton Community Council\nPlease attend if you can.",
+      "contentFingerprint": "00c287af605e0b1d1d19b1b4f08d9940f72a3dfffdde5943b0f5d0ca8c27ceed",
+      "photos": [
+        "media/facebook/1619303903005895/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1579421156799160",
+      "date": "2026-10-15",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1579421156799160/"
+      },
+      "thin": false,
+      "bodyText": "Historic Environment Scotland. Hallyards Castle, Auchtertool\nThank you for your enquiry about Hallyards Castle, Auchtertool.\nWe have received some requests to consider this site for designation. We have assessed the significance of the site and recently published our report, which you can find here.\nhttps://portal.historicenvironment.scot/apex/f?p=1505:300:::::VIEWTYPE,VIEWREF:decision,500004395\nAs you will see from the report, we found that the site met the scheduling criteria of National Importance. Our Designation Policy and Selection Guidance, however, sets out that we do not normally introduce new designations when there are development proposals at an advanced stage. In this case, we were satisfied that the current planning application amounts to advanced development proposals in the terms of our policy. Therefore, in line with our policy, we did not schedule the site of Hallyard Castle. You can read more about our reasoning in our report. The report has been published and may help inform the planning process.\nRegards\nAllan Rutherford\nDr Allan Rutherford | Deputy Head of Designations | Heritage Directorate\nPORTAL.HISTORICENVIRONMENT.SCOT Designation Proposal for Hallyards Castle, Camilla Farm, Auchtertool (300087587)",
+      "contentFingerprint": "35b7b004e6abc5e0c0ce9099bf454e6037a87e9c4e44a27f76afedb2986f5acb",
+      "photos": [
+        "media/facebook/1579421156799160/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://portal.historicenvironment.scot/apex/f?p=1505:300:::::VIEWTYPE,VIEWREF:decision,500004395",
+          "url": "https://portal.historicenvironment.scot/apex/f?p=1505%3A300%3A%3A%3A%3A%3AVIEWTYPE%2CVIEWREF%3Adecision%2C500004395"
+        },
+        {
+          "text": "PORTAL.HISTORICENVIRONMENT.SCOT Designation Proposal for Hallyards Castle, Camilla Farm, Auchtertool (300087587)",
+          "url": "https://portal.historicenvironment.scot/apex/f?p=1505%3A300%3A%3A%3A%3A%3AVIEWTYPE%2CVIEWREF%3Adecision%2C500004395"
+        }
+      ]
+    },
+    {
+      "id": "1086110300907109",
+      "date": "2026-10-15",
+      "title": "West Edinburgh Against AI Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "West Edinburgh Against AI Data Centre",
+        "label": "Facebook · West Edinburgh Against AI Data Centre",
+        "url": "https://www.facebook.com/groups/994619683389505/posts/1086110300907109/"
+      },
+      "thin": false,
+      "bodyText": "",
+      "contentFingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "photos": [
+        "media/facebook/1086110300907109/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "3599864030161400",
+      "date": "2026-10-15",
+      "title": "Help Save Mochrum Fell",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Help Save Mochrum Fell",
+        "label": "Facebook · Help Save Mochrum Fell",
+        "url": "https://www.facebook.com/groups/1730785547069267/posts/3599864030161400/"
+      },
+      "thin": false,
+      "bodyText": "Aberdeenshire AI Data Centre\nhttps://c.org/78sKQ9b4nL\nCHANGE.ORG Sign the Petition",
+      "contentFingerprint": "79cb81eaee3a6434f72336647f87aaff72b991e78792c3b805b5f5aa6dac8370",
+      "photos": [
+        "media/facebook/3599864030161400/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "CHANGE.ORG Sign the Petition",
+          "url": "https://c.org/78sKQ9b4nL"
+        },
+        {
+          "text": "https://c.org/78sKQ9b4nL",
+          "url": "https://c.org/78sKQ9b4nL"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1086137504237722",
+      "date": "2026-10-15",
+      "title": "West Edinburgh Against AI Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "West Edinburgh Against AI Data Centre",
+        "label": "Facebook · West Edinburgh Against AI Data Centre",
+        "url": "https://www.facebook.com/groups/994619683389505/posts/1086137504237722/"
+      },
+      "thin": false,
+      "bodyText": "",
+      "contentFingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "photos": [
+        "media/facebook/1086137504237722/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "3599882856826184",
+      "date": "2026-10-15",
+      "title": "Help Save Mochrum Fell",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Help Save Mochrum Fell",
+        "label": "Facebook · Help Save Mochrum Fell",
+        "url": "https://www.facebook.com/groups/1730785547069267/posts/3599882856826184/"
+      },
+      "thin": false,
+      "bodyText": "https://www.msn.com/.../how-the-collapse.../ar-AA2egCAO...\nMSN.COM www.msn.com",
+      "contentFingerprint": "60be2a8e7a0148b23b5a509a5a29900e30b0c796244309db4abfacab7e9a6f30",
+      "photos": [
+        "media/facebook/3599882856826184/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://www.msn.com/.../how-the-collapse.../ar-AA2egCAO...",
+          "url": "https://www.msn.com/en-gb/money/general/how-the-collapse-of-a-20bn-data-centre-deal-unnerved-ai-investors/ar-AA2egCAO?ocid=msedgdhp&pc=EDGEDB&cvid=6ad0827232d34d7d8703dc71cb1269d6&ei=43"
+        },
+        {
+          "text": "MSN.COM www.msn.com",
+          "url": "https://www.msn.com/en-gb/money/general/how-the-collapse-of-a-20bn-data-centre-deal-unnerved-ai-investors/ar-AA2egCAO?ocid=msedgdhp&pc=EDGEDB&cvid=6ad0827232d34d7d8703dc71cb1269d6&ei=43"
+        }
+      ]
+    },
+    {
+      "id": "3599910093490127",
+      "date": "2026-10-15",
+      "title": "Help Save Mochrum Fell",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Help Save Mochrum Fell",
+        "label": "Facebook · Help Save Mochrum Fell",
+        "url": "https://www.facebook.com/groups/1730785547069267/posts/3599910093490127/"
+      },
+      "thin": false,
+      "bodyText": "",
+      "contentFingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "photos": [
+        "media/facebook/3599910093490127/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1827249908273318",
+      "date": "2026-10-15",
+      "title": "Save Our Hills - Dumfries and Galloway",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Save Our Hills - Dumfries and Galloway",
+        "label": "Facebook · Save Our Hills - Dumfries and Galloway",
+        "url": "https://www.facebook.com/groups/432372427761080/posts/1827249908273318/"
+      },
+      "thin": false,
+      "bodyText": "UK containment cost (wasted wind) for 14 October 2026 -  £37,387,062   That's over £37 million paid to windfarm owners to turn off turbines and to gas companies to produce more gas to level out just yesterday.",
+      "contentFingerprint": "655f4c2ba88afbf91e9f3237b48aa7a4ab09d2d7db7022e578d0fcfbd58f3ad0",
+      "photos": [
+        "media/facebook/1827249908273318/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "1139525181747633",
+      "date": "2026-10-15",
+      "title": "Say No to West Calder Hyperscale Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No to West Calder Hyperscale Data Centre",
+        "label": "Facebook · Say No to West Calder Hyperscale Data Centre",
+        "url": "https://www.facebook.com/groups/1092406649792820/posts/1139525181747633/"
+      },
+      "thin": false,
+      "bodyText": "This is how quiet it is in Monarch’s Way on a Sunday afternoon.  \nDo you really want a noisy, whining, air polluting, biodiversity-annihilating, quality-of life-ruining Hyperscale data centre instead?  We have to actively fight this as a community. A few likes won’t hack it - we need active help to stop it.",
+      "contentFingerprint": "20a9823894830e5b83aba929e3acd70ce1849d1647cebfe19adef08c7012cf54",
+      "photos": [
+        "media/facebook/1139525181747633/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1139578305075654",
+      "date": "2026-10-15",
+      "title": "Say No to West Calder Hyperscale Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No to West Calder Hyperscale Data Centre",
+        "label": "Facebook · Say No to West Calder Hyperscale Data Centre",
+        "url": "https://www.facebook.com/groups/1092406649792820/posts/1139578305075654/"
+      },
+      "thin": false,
+      "bodyText": "First Minister, @john_swinney_snp is too busy to visit Larbert and waffles about how Hyperscale Data Centres will negatively impact local communities but then states clearly they need to work on planning process in order to get them built... #WhoBenefits Not the Scottish people!",
+      "contentFingerprint": "2bad5810afaa2a74a41d3ade5882c05cbca76d673927569d15ac2a3d0828cfcc",
+      "photos": [
+        "media/facebook/1139578305075654/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1580369203371022",
+      "date": "2026-10-15",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1580369203371022/"
+      },
+      "thin": false,
+      "bodyText": "Following the decision by Fife Council to stop accepting planning objections by email I have written to all my ward councillors and the Head of Planning at Fife Council Pam Ewen. A copy of the email I sent to the ward councillors is attached in the images below. I suggested others also write. So far I have received a brief response from Julie MacDougall saying she will pass my email on to the planning department.",
+      "contentFingerprint": "2db435e6d0ee95a6923d87d2e995fcfa53972f2974a57cba7694cd412d71be8b",
+      "photos": [
+        "media/facebook/1580369203371022/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "29718066581129021",
+      "date": "2026-10-15",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29718066581129021/"
+      },
+      "thin": false,
+      "bodyText": "Thanks to Ria Parkinson for this summary of an article in the Times today.\nA great article from Juliet Samuel in The Times highlighting the growing challenges NESO is facing keeping the lights on. After years of under-investment and wishful thinking around the energy transition, we’re relying more and more on renewables, interconnectors and batteries which can abruptly \"turn off and on\" with little, to no notice. The old system of large, steady fossil plants was far easier to balance. Juliet writes that engineers are starting to sound the alarm that margins are getting tight, and that a number of recent frequency excursions and interconnector limit breaches aren’t helping the “nothing to see here” message either.\nTHETIMES.COM Why are power grid bosses gaslighting us?",
+      "contentFingerprint": "1c43936a97f051448d199b231a7dea0fa5e3423adda5575adeabe737a54dd67e",
+      "photos": [
+        "media/facebook/29718066581129021/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "THETIMES.COM Why are power grid bosses gaslighting us?",
+          "url": "https://www.thetimes.com/comment/columnists/article/why-are-power-grid-bosses-gaslighting-us-zk5q7ftfm"
+        }
+      ]
+    },
+    {
+      "id": "1139676438399174",
+      "date": "2026-10-15",
+      "title": "Say No to West Calder Hyperscale Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No to West Calder Hyperscale Data Centre",
+        "label": "Facebook · Say No to West Calder Hyperscale Data Centre",
+        "url": "https://www.facebook.com/groups/1092406649792820/posts/1139676438399174/"
+      },
+      "thin": false,
+      "bodyText": "For information/Please attend... March to demand that LOCALS have more say over whether to allow Hyperscale Data Centres on 14th November 2026...more important than ever as The Scottish Government refuse to say if they are meeting with developers citing NOT IN THE PUBLIC INTEREST!!!",
+      "contentFingerprint": "0bc5a011e180774d4f0c9ca766fd139b3660788592cf82e6d3f2d9d331c6f87d",
+      "photos": [
+        "media/facebook/1139676438399174/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1086445357540270",
+      "date": "2026-10-15",
+      "title": "West Edinburgh Against AI Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "West Edinburgh Against AI Data Centre",
+        "label": "Facebook · West Edinburgh Against AI Data Centre",
+        "url": "https://www.facebook.com/groups/994619683389505/posts/1086445357540270/"
+      },
+      "thin": false,
+      "bodyText": "Yeah it's looking like open source models and running models on local systems are going to be the way forward, meaning the massive data centres ie hyperscaling won't be needed in the long run.\nCall a Moratorium on new hyperscale data centres across the UK.\nWork with the EU on an independent EU wide public tech sector including internet access to rival Google, an online market place to rival Amazon, AI sector, Sattelite systems to rival Starlink, etc. All publicly owned and shared to beat the US tech monopolies and provide tech security, independence and unite the EU and likeminded countries like the UK, Canada, Australia, etc who respect privacy, autonomy and democracy. \n'Yet the IMF warned of “growing evidence” that the successful rollout of AI “may not require investment on the massive scale being undertaken by ‘hyperscaler’ firms”, and “potential economic gains may not be as large as expected”.\n'The hyperscalers are the companies building the underlying infrastructure for the AI rollout, including many vast datacentres. '\n'The threat of an AI share price crash rippling out across global markets is putting world financial stability at risk, the International Monetary fund has warned.\nIn its twice-yearly Global Financial Stability Report, the IMF highlighted the sky-high valuations for AI companies along with their increasing debt pile as one reason that risks in the system are “elevated”.\nTHEGUARDIAN.COM Threat of AI share crash puts world financial stability at risk, says IMF",
+      "contentFingerprint": "b8f4a3b13f28bd3f99e2ffa060f294b12e673f491f2d3e7311252a271fb54f7c",
+      "photos": [
+        "media/facebook/1086445357540270/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "THEGUARDIAN.COM Threat of AI share crash puts world financial stability at risk, says IMF",
+          "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1037915102606621",
+      "date": "2026-10-15",
+      "title": "NO to East Havering Data Centre in Upminster (Residents Group)",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "NO to East Havering Data Centre in Upminster (Residents Group)",
+        "label": "Facebook · NO to East Havering Data Centre in Upminster (Residents Group)",
+        "url": "https://www.facebook.com/groups/366637746401030/posts/1037915102606621/"
+      },
+      "thin": false,
+      "bodyText": "Final day to have your say on the the Mayor of London's draft plan.  There is a chapter on data centres.  \nhttps://www.london.gov.uk/.../4-growing-londons-economy...\nYou can register an account to respond via the online survey, or you can email londonplan@london.gov.uk",
+      "contentFingerprint": "b91bacf040b92d0800a67aedf362c94f2ed1ea4ed0f7d4625b35ba9411cad53a",
+      "photos": [
+        "media/facebook/1037915102606621/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://www.london.gov.uk/.../4-growing-londons-economy...",
+          "url": "https://www.london.gov.uk/programmes-strategies/planning/london-plan/next-london-plan/draft-london-plan-consultation/draft-london-plan-consultation-resources/draft-london-plan/4-growing-londons-economy-way-benefits-all"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1037972972600834",
+      "date": "2026-10-15",
+      "title": "NO to East Havering Data Centre in Upminster (Residents Group)",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "NO to East Havering Data Centre in Upminster (Residents Group)",
+        "label": "Facebook · NO to East Havering Data Centre in Upminster (Residents Group)",
+        "url": "https://www.facebook.com/groups/366637746401030/posts/1037972972600834/"
+      },
+      "thin": false,
+      "bodyText": "National Grid consultation on Warley Sub-Station upgrade closes tomorrow, 16 October. \nIf anyone has more questions for them please make sure they reach them in time for tomorrow.\nInformation available at:\nNATIONALGRID.COM Warley replacement substation | National Grid",
+      "contentFingerprint": "2a5b6065e693836d7ec0c3d9a97e6b56777d8588123150eac79e2bdc48b13ed1",
+      "photos": [
+        "media/facebook/1037972972600834/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "NATIONALGRID.COM Warley replacement substation | National Grid",
+          "url": "https://www.nationalgrid.com/electricity-transmission/network-and-infrastructure/infrastructure-projects/warley-substation"
+        }
+      ],
+      "categories": [
+        "Substation"
+      ]
+    },
+    {
+      "id": "29720681147534231",
+      "date": "2026-10-15",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29720681147534231/"
+      },
+      "thin": false,
+      "bodyText": "At last after 10 months, the Scottish Government has published the Onshore electricity generation - Electricity Act threshold: summary consultation responses.  This Consultation was in response to our Petition to the Scottish Parliament  which, among other things, requested that the current 50MW threshold be raised in order to allow more local decision making with Ministers focusing on the really major applications.  We also insisted that local rejection of a development must be a key material consideration in the decision making process.\nWe haven't scrutinised all of the responses yet but Q2 shows that the vast majority of respondents opted for raising the threshold to 150MW.  Development, Property and Land Management Sector and Agents were the only category who disagreed.  That was to be expected!\nGreat to see that so many of our members responded to the consultation.  \nYou can read the summary of responses here\nGOV.SCOT Onshore electricity generation - Electricity Act threshold: summary consultation responses",
+      "contentFingerprint": "b47f2256429b2ee9dcab98998ef22e07d0e78970e70b212e95af12cbc30bd1f1",
+      "photos": [
+        "media/facebook/29720681147534231/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "GOV.SCOT Onshore electricity generation - Electricity Act threshold: summary consultation responses",
+          "url": "https://www.gov.scot/publications/onshore-electricity-generation-consultation-increasing-threshold-applications-under-electricity-act-summary-consultation-responses/pages/1/"
+        }
+      ]
+    },
+    {
+      "id": "1580548473353095",
+      "date": "2026-10-15",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1580548473353095/"
+      },
+      "thin": false,
+      "bodyText": "YOUTUBE.COM FIGHTING THE MONSTER (21 mins, September 2026)",
+      "contentFingerprint": "3e6ebf9b261e1b4aabb0a02f438dd64696c4bc945916acd70a5de990d301b3fd",
+      "photos": [
+        "media/facebook/1580548473353095/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "YOUTUBE.COM FIGHTING THE MONSTER (21 mins, September 2026)",
+          "url": "https://youtu.be/184lEyimaqQ?is=j--if7jeqIdTdu5-"
+        }
+      ]
+    },
+    {
+      "id": "1580437400030869",
+      "date": "2026-10-15",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1580437400030869/"
+      },
+      "thin": false,
+      "bodyText": "",
+      "contentFingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "photos": [
+        "media/facebook/1580437400030869/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1580537943354148",
+      "date": "2026-10-15",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1580537943354148/"
+      },
+      "thin": false,
+      "bodyText": "Anyone who thinks they wont be affected by data centres because it is not on their doorstep are at best naive. The increase in electricity prices along with power cuts will hit us all. Also polution, water shortages and data threats. Once we become vulnerable to AI drone attacks our policing, health records, banking, jobs etc will all be destroyed with no benefit to anyone apart from US companies and investors.",
+      "contentFingerprint": "e9afe25a11d10a577e41ab99d5229a3c1512c35b6b2bd621883a29d84d6cd0d2",
+      "photos": [
+        "media/facebook/1580537943354148/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1620066612929624",
+      "date": "2026-10-15",
+      "title": "Say NO to Cockenzie Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say NO to Cockenzie Data Centre",
+        "label": "Facebook · Say NO to Cockenzie Data Centre",
+        "url": "https://www.facebook.com/groups/959791135623845/posts/1620066612929624/"
+      },
+      "thin": false,
+      "bodyText": "This where tonights meeting will be held at 7.30pm",
+      "contentFingerprint": "37a75652a922eebacb938a3a882e32affb2875694834cadedce2b61878d3f9ab",
+      "photos": [
+        "media/facebook/1620066612929624/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1620072269595725",
+      "date": "2026-10-15",
+      "title": "Say NO to Cockenzie Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say NO to Cockenzie Data Centre",
+        "label": "Facebook · Say NO to Cockenzie Data Centre",
+        "url": "https://www.facebook.com/groups/959791135623845/posts/1620072269595725/"
+      },
+      "thin": false,
+      "bodyText": "Reply from East Lothian Council re Brownfield Site.......\nIn response to your email sent on the 28th of September, I would like to clarify that the requirements you mentioned i.e. for local authorities to prepare, maintain and publish registers of previously developed (brownfield) land is set out in The Town and Country Planning (Brownfield Land Register) Regulations 2017. This Regulation and also other policy requirements pertinent to the previously developed land included in NPPF apply to England and not to Scotland where a different planning regime is in place (the responsibility for planning matters was transferred to the Scottish parliament and Scottish Government under the Scotland Act 1998).\nRegarding the site in question, I can confirm that this land is allocated in the East Lothian Local Development Plan (2018) under Proposal EGT1: Land at Former Cockenzie Power Station. This LDP Proposal states that “Land at Cockenzie may also present significant opportunities for renewable energy-related investment.”\nThe ELC Planning Service provides annual updates to The Scottish Vacant and Derelict Land Survey (SVDLS) which is available at https://www.gov.scot/.../the-scottish-vacant-and.../ This survey is undertaken every year to establish the extent and state of vacant and derelict land in Scotland. According to our last year’s survey (2025) the site at the former coal yard at Cockenzie was classified as derelict as it is on previously developed land which has a physical constraint caused by its previous use which hampers its redevelopment.\nAs mentioned earlier the site is allocated in the current LDP and over the last years public funding has been secured towards the works aiming to remove the site’s physical constraints and changing its derelict classification.\nGOV.SCOT Scottish Vacant and Derelict Land Survey: Site Register",
+      "contentFingerprint": "bb11abf5172d6db0e0c014dd3279b32c6ff9930df45bb29a04f5ff31a08d3275",
+      "photos": [
+        "media/facebook/1620072269595725/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://www.gov.scot/.../the-scottish-vacant-and.../",
+          "url": "https://www.gov.scot/publications/the-scottish-vacant-and-derelict-land-survey-site-register/"
+        },
+        {
+          "text": "GOV.SCOT Scottish Vacant and Derelict Land Survey: Site Register",
+          "url": "https://www.gov.scot/publications/the-scottish-vacant-and-derelict-land-survey-site-register/"
+        }
+      ]
     }
   ]
 }
