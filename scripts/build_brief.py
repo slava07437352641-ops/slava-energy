@@ -26,7 +26,8 @@ OUTDIR = os.path.join(ROOT, "briefs")
 SITE = "https://slava.it.com"
 # Post ids the user ordered removed: never included (see memory: slava.energy blocked posts).
 BLOCKED_POST_IDS = {"29510992631836418", "1814323132941267", "1814270869613160",
-                    "1098654185897696", "1813753316331582", "29488742940728054"}
+                    "1098654185897696", "1813753316331582", "29488742940728054",
+                    "1828353354871578"}  # removed from slava.it.com 16 Oct (private landowner dispute)
 META_FIELDS = ("project", "developer", "authority", "location", "developmentStatus")
 
 
