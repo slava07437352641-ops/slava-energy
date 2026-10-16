@@ -46,6 +46,17 @@ def source_name(rec):
         return str(s)
 
 
+def data_centre_facts(project):
+    """Facts for a Track B project from data/data_centre_register.json (matched by name or alias); None if not listed."""
+    path = os.path.join(ROOT, "data", "data_centre_register.json")
+    if not os.path.exists(path):
+        return None
+    for p in load(path)["projects"]:
+        if project == p["name"] or project in p.get("aliases", []):
+            return p
+    return None
+
+
 def slugify(name):
     return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-") or "project"
 
@@ -104,6 +115,17 @@ def themes(chosen):
 def render(project, chosen, excluded, reg_by_name, generated):
     esc = html.escape
     meta = {k: (chosen[0].get(k) if chosen else None) for k in META_FIELDS}
+    reg = data_centre_facts(project)
+    if reg:
+        meta.setdefault("developer", None)
+        meta["developer"] = meta["developer"] or reg.get("developer_reported")
+        meta["authority"] = meta["authority"] or reg.get("council")
+        meta["location"] = meta["location"] or reg.get("location")
+        meta["developmentStatus"] = meta["developmentStatus"] or ("reported: " + reg["status_reported"] if reg.get("status_reported") else None)
+        if reg.get("application_ref"):
+            meta["application"] = f"{reg['application_ref']} ({reg.get('application_type') or 'application'}, reported)"
+        if reg.get("capacity_reported"):
+            meta["capacity"] = reg["capacity_reported"]
     rows = group_rows(chosen)
     parts = []
     parts.append('<!doctype html><html lang="en-GB"><head><meta charset="utf-8">'
@@ -119,8 +141,9 @@ def render(project, chosen, excluded, reg_by_name, generated):
                  '.muted{color:var(--muted)}.chip{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:2px 10px;margin:2px 4px 2px 0;font-size:.9rem}'
                  'a{color:var(--accent)}</style></head><body><main>')
     parts.append(f'<h1>{esc(project)}</h1>')
-    facts = [("Developer", meta.get("developer")), ("Authority", meta.get("authority")),
-             ("Location", meta.get("location")), ("Status", meta.get("developmentStatus"))]
+    facts = [("Developer", meta.get("developer")), ("Council", meta.get("authority")),
+             ("Location", meta.get("location")), ("Capacity", meta.get("capacity")),
+             ("Application", meta.get("application")), ("Status", meta.get("developmentStatus"))]
     parts.append('<p class="muted">' + " · ".join(f"{k}: {esc(str(v))}" for k, v in facts if v) + '</p>')
     if not chosen:
         parts.append('<h2>Community discussion</h2><p>No posts from cleared sources are linked to this project yet.</p>')
