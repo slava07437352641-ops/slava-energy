@@ -62,7 +62,7 @@ def build(disc_path=DISC, audit_path=AUDIT):
         e = by[name]
         last = datetime.date.fromisoformat(e["last_date"]) if e["last_date"] else None
         active = bool(last) and (BUILD_DATE - last).days <= ACTIVE_DAYS
-        public = name in audit_rows  # all audited groups were checked public on 16 Oct
+        public = name in audit_rows and audit_rows[name].get("public", True)  # audited groups were checked public on 16 Oct; private ones are never public
         mapped = e["project_linked"] > 0
         out.append({
             "name": name, "label": e["label"], "url": e["url"],
@@ -71,7 +71,26 @@ def build(disc_path=DISC, audit_path=AUDIT):
             "last_post_date": e["last_date"],
             "audit": {"public": public, "active": active, "mapped": mapped},
             "brief_eligible": public and active and mapped,
+            "ingest": "on" if name in {"Scotland Against Spin"} else "unset",
         })
+    # groups switched on or excluded by decision (data/source-activation.json), including groups with no site records yet
+    act_path = os.path.join(ROOT, "data", "source-activation.json")
+    if os.path.exists(act_path):
+        acts = _read_json(act_path)["decisions"]
+        have = {r["name"] for r in out}
+        for d in acts:
+            if d["name"] in have:
+                for r in out:
+                    if r["name"] == d["name"]:
+                        r["ingest"] = d["ingest"]
+                        if d.get("keywords"):
+                            r["ingest_keywords"] = d["keywords"]
+            else:
+                out.append({"name": d["name"], "label": d["name"], "url": "", "tier": "A", "site_records": 0,
+                            "project_linked_records": 0, "last_post_date": "",
+                            "audit": {"public": d["ingest"] != "excluded_private", "active": None, "mapped": False},
+                            "brief_eligible": False, "ingest": d["ingest"],
+                            **({"ingest_keywords": d["keywords"]} if d.get("keywords") else {})})
     return out
 
 

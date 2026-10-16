@@ -9,14 +9,15 @@
    "url": "https://www.facebook.com/groups/7000a/posts/1766302204444047/",
    "tier": "A",
    "site_records": 2,
-   "project_linked_records": 0,
+   "project_linked_records": 1,
    "last_post_date": "2026-10-04",
    "audit": {
     "public": false,
     "active": true,
-    "mapped": false
+    "mapped": true
    },
-   "brief_eligible": false
+   "brief_eligible": false,
+   "ingest": "unset"
   },
   {
    "name": "Better Cable Route (Strathpeffer & Contin)",
@@ -31,7 +32,8 @@
     "active": true,
     "mapped": false
    },
-   "brief_eligible": false
+   "brief_eligible": false,
+   "ingest": "unset"
   },
   {
    "name": "Communities B4 Power Companies",
@@ -39,14 +41,15 @@
    "url": "https://www.facebook.com/groups/221782186918238/posts/1082827727480342/",
    "tier": "A",
    "site_records": 119,
-   "project_linked_records": 0,
+   "project_linked_records": 8,
    "last_post_date": "2026-10-14",
    "audit": {
     "public": false,
     "active": true,
-    "mapped": false
+    "mapped": true
    },
-   "brief_eligible": false
+   "brief_eligible": false,
+   "ingest": "unset"
   },
   {
    "name": "Deeside Against Pylons",
@@ -61,7 +64,8 @@
     "active": true,
     "mapped": false
    },
-   "brief_eligible": false
+   "brief_eligible": false,
+   "ingest": "unset"
   },
   {
    "name": "Environmentalists Against Wind Turbines",
@@ -69,21 +73,22 @@
    "url": "https://www.facebook.com/groups/835899539823505/posts/28289989033987852/",
    "tier": "A",
    "site_records": 411,
-   "project_linked_records": 0,
+   "project_linked_records": 2,
    "last_post_date": "2026-10-15",
    "audit": {
     "public": false,
     "active": true,
-    "mapped": false
+    "mapped": true
    },
-   "brief_eligible": false
+   "brief_eligible": false,
+   "ingest": "unset"
   },
   {
    "name": "Essex Suffolk Norfolk Pylons",
    "label": "Facebook · Essex Suffolk Norfolk Pylons",
    "url": "https://www.facebook.com/groups/pylonseastanglia/posts/1814422586264655/",
    "tier": "A",
-   "site_records": 16,
+   "site_records": 15,
    "project_linked_records": 0,
    "last_post_date": "2026-10-16",
    "audit": {
@@ -91,7 +96,8 @@
     "active": true,
     "mapped": false
    },
-   "brief_eligible": false
+   "brief_eligible": false,
+   "ingest": "unset"
   },
   {
    "name": "Grampian Against Data Centres",
@@ -99,14 +105,15 @@
    "url": "https://www.facebook.com/groups/1517407306762132/posts/1600486635120865/",
    "tier": "A",
    "site_records": 261,
-   "project_linked_records": 0,
+   "project_linked_records": 14,
    "last_post_date": "2026-10-16",
    "audit": {
-    "public": false,
+    "public": true,
     "active": true,
-    "mapped": false
+    "mapped": true
    },
-   "brief_eligible": false
+   "brief_eligible": true,
+   "ingest": "unset"
   },
   {
    "name": "Help Save Mochrum Fell",
@@ -114,14 +121,15 @@
    "url": "https://www.facebook.com/groups/1730785547069267/posts/3599864030161400/",
    "tier": "A",
    "site_records": 3,
-   "project_linked_records": 0,
+   "project_linked_records": 3,
    "last_post_date": "2026-10-15",
    "audit": {
     "public": true,
     "active": true,
-    "mapped": false
+    "mapped": true
    },
-   "brief_eligible": false
+   "brief_eligible": true,
+   "ingest": "unset"
   },
   {
    "name": "Mey BESS Action Group",
@@ -129,14 +137,15 @@
    "url": "https://www.facebook.com/groups/711813121519508/posts/1116519347715548/",
    "tier": "A",
    "site_records": 26,
-   "project_linked_records": 0,
+   "project_linked_records": 1,
    "last_post_date": "2026-10-12",
    "audit": {
     "public": false,
     "active": true,
-    "mapped": false
+    "mapped": true
    },
-   "brief_eligible": false
+   "brief_eligible": false,
+   "ingest": "unset"
   },
   {
    "name": "NO to East Havering Data Centre in Upminster (Residents Group)",
@@ -147,11 +156,12 @@
    "project_linked_records": 0,
    "last_post_date": "2026-10-15",
    "audit": {
-    "public": false,
+    "public": true,
     "active": true,
     "mapped": false
    },
-   "brief_eligible": false
+   "brief_eligible": false,
+   "ingest": "unset"
   },
   {
    "name": "No Pylons Lincolnshire",
@@ -166,7 +176,8 @@
     "active": true,
     "mapped": false
    },
-   "brief_eligible": false
+   "brief_eligible": false,
+   "ingest": "unset"
   },
   {
    "name": "Not A Just Transition",
@@ -181,7 +192,8 @@
     "active": true,
     "mapped": false
    },
-   "brief_eligible": false
+   "brief_eligible": false,
+   "ingest": "unset"
   },
   {
    "name": "Our Power",
@@ -196,7 +208,8 @@
     "active": true,
     "mapped": false
    },
-   "brief_eligible": false
+   "brief_eligible": false,
+   "ingest": "unset"
   },
   {
    "name": "Rural Scotland (APRS)",
@@ -204,14 +217,15 @@
    "url": "https://www.facebook.com/APRScotland/posts/1556729249833117",
    "tier": "A",
    "site_records": 4,
-   "project_linked_records": 0,
+   "project_linked_records": 1,
    "last_post_date": "2026-10-16",
    "audit": {
     "public": false,
     "active": true,
-    "mapped": false
+    "mapped": true
    },
-   "brief_eligible": false
+   "brief_eligible": false,
+   "ingest": "unset"
   },
   {
    "name": "Save Our Hills - Dumfries and Galloway",
@@ -226,7 +240,8 @@
     "active": true,
     "mapped": false
    },
-   "brief_eligible": false
+   "brief_eligible": false,
+   "ingest": "unset"
   },
   {
    "name": "Say NO to Cockenzie Data Centre",
@@ -234,14 +249,15 @@
    "url": "https://www.facebook.com/groups/959791135623845/posts/1619301559672796/",
    "tier": "A",
    "site_records": 6,
-   "project_linked_records": 0,
+   "project_linked_records": 1,
    "last_post_date": "2026-10-16",
    "audit": {
     "public": true,
     "active": true,
-    "mapped": false
+    "mapped": true
    },
-   "brief_eligible": false
+   "brief_eligible": true,
+   "ingest": "unset"
   },
   {
    "name": "Say No To Cato Data Centre",
@@ -249,14 +265,15 @@
    "url": "https://www.facebook.com/groups/1472242997516977/posts/1579421156799160/",
    "tier": "A",
    "site_records": 6,
-   "project_linked_records": 0,
+   "project_linked_records": 1,
    "last_post_date": "2026-10-16",
    "audit": {
     "public": true,
     "active": true,
-    "mapped": false
+    "mapped": true
    },
-   "brief_eligible": false
+   "brief_eligible": true,
+   "ingest": "unset"
   },
   {
    "name": "Say No to West Calder Hyperscale Data Centre",
@@ -267,11 +284,12 @@
    "project_linked_records": 0,
    "last_post_date": "2026-10-16",
    "audit": {
-    "public": false,
+    "public": true,
     "active": true,
     "mapped": false
    },
-   "brief_eligible": false
+   "brief_eligible": false,
+   "ingest": "unset"
   },
   {
    "name": "Scotland Against Spin",
@@ -279,14 +297,15 @@
    "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29262420503360300/",
    "tier": "A",
    "site_records": 2687,
-   "project_linked_records": 10,
+   "project_linked_records": 74,
    "last_post_date": "2026-10-16",
    "audit": {
     "public": true,
     "active": true,
     "mapped": true
    },
-   "brief_eligible": true
+   "brief_eligible": true,
+   "ingest": "on"
   },
   {
    "name": "Scottish Electricity Generating Stations",
@@ -294,14 +313,15 @@
    "url": "https://www.facebook.com/groups/443369301288654/posts/1389789376646637/",
    "tier": "A",
    "site_records": 85,
-   "project_linked_records": 0,
+   "project_linked_records": 12,
    "last_post_date": "2026-10-16",
    "audit": {
     "public": false,
     "active": true,
-    "mapped": false
+    "mapped": true
    },
-   "brief_eligible": false
+   "brief_eligible": false,
+   "ingest": "unset"
   },
   {
    "name": "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
@@ -316,7 +336,8 @@
     "active": true,
     "mapped": false
    },
-   "brief_eligible": false
+   "brief_eligible": false,
+   "ingest": "unset"
   },
   {
    "name": "Suffolk Energy Action Solutions (SEAS)",
@@ -324,14 +345,15 @@
    "url": "https://www.facebook.com/reel/2123445558529484",
    "tier": "A",
    "site_records": 6,
-   "project_linked_records": 0,
+   "project_linked_records": 1,
    "last_post_date": "2026-10-10",
    "audit": {
     "public": false,
     "active": true,
-    "mapped": false
+    "mapped": true
    },
-   "brief_eligible": false
+   "brief_eligible": false,
+   "ingest": "unset"
   },
   {
    "name": "Thirsk Against Battery Storage",
@@ -346,7 +368,8 @@
     "active": false,
     "mapped": false
    },
-   "brief_eligible": false
+   "brief_eligible": false,
+   "ingest": "unset"
   },
   {
    "name": "West Edinburgh Against AI Data Centre",
@@ -361,7 +384,8 @@
     "active": true,
     "mapped": false
    },
-   "brief_eligible": false
+   "brief_eligible": false,
+   "ingest": "unset"
   },
   {
    "name": "Wind Energy's Absurd",
@@ -369,14 +393,15 @@
    "url": "https://www.facebook.com/WindEnergysAbsurd/posts/1529320515891910/",
    "tier": "A",
    "site_records": 85,
-   "project_linked_records": 0,
+   "project_linked_records": 9,
    "last_post_date": "2026-10-15",
    "audit": {
     "public": false,
     "active": true,
-    "mapped": false
+    "mapped": true
    },
-   "brief_eligible": false
+   "brief_eligible": false,
+   "ingest": "unset"
   },
   {
    "name": "Worth Valley against Walshaw Moor Wind Farm",
@@ -391,7 +416,318 @@
     "active": true,
     "mapped": false
    },
-   "brief_eligible": false
+   "brief_eligible": false,
+   "ingest": "unset"
+  },
+  {
+   "name": "RE-Think: Don't Break the Heart of Wales / Peidiwch Torri Calon Cymru",
+   "label": "RE-Think: Don't Break the Heart of Wales / Peidiwch Torri Calon Cymru",
+   "url": "",
+   "tier": "A",
+   "site_records": 0,
+   "project_linked_records": 0,
+   "last_post_date": "",
+   "audit": {
+    "public": true,
+    "active": null,
+    "mapped": false
+   },
+   "brief_eligible": false,
+   "ingest": "on"
+  },
+  {
+   "name": "North Carlisle Against Pylons and Substation",
+   "label": "North Carlisle Against Pylons and Substation",
+   "url": "",
+   "tier": "A",
+   "site_records": 0,
+   "project_linked_records": 0,
+   "last_post_date": "",
+   "audit": {
+    "public": true,
+    "active": null,
+    "mapped": false
+   },
+   "brief_eligible": false,
+   "ingest": "on"
+  },
+  {
+   "name": "Pylon Pressure To STOP SSEN",
+   "label": "Pylon Pressure To STOP SSEN",
+   "url": "",
+   "tier": "A",
+   "site_records": 0,
+   "project_linked_records": 0,
+   "last_post_date": "",
+   "audit": {
+    "public": true,
+    "active": null,
+    "mapped": false
+   },
+   "brief_eligible": false,
+   "ingest": "on"
+  },
+  {
+   "name": "Save Our Mearns - Stop SSEN Scotland",
+   "label": "Save Our Mearns - Stop SSEN Scotland",
+   "url": "",
+   "tier": "A",
+   "site_records": 0,
+   "project_linked_records": 0,
+   "last_post_date": "",
+   "audit": {
+    "public": true,
+    "active": null,
+    "mapped": false
+   },
+   "brief_eligible": false,
+   "ingest": "on"
+  },
+  {
+   "name": "STOP EAST LINCOLNSHIRE PYLONS",
+   "label": "STOP EAST LINCOLNSHIRE PYLONS",
+   "url": "",
+   "tier": "A",
+   "site_records": 0,
+   "project_linked_records": 0,
+   "last_post_date": "",
+   "audit": {
+    "public": true,
+    "active": null,
+    "mapped": false
+   },
+   "brief_eligible": false,
+   "ingest": "on"
+  },
+  {
+   "name": "SAY NO TO PYLONS 90km Notts, North Lincs, East Yorks",
+   "label": "SAY NO TO PYLONS 90km Notts, North Lincs, East Yorks",
+   "url": "",
+   "tier": "A",
+   "site_records": 0,
+   "project_linked_records": 0,
+   "last_post_date": "",
+   "audit": {
+    "public": true,
+    "active": null,
+    "mapped": false
+   },
+   "brief_eligible": false,
+   "ingest": "on"
+  },
+  {
+   "name": "Say NO to Chapelcross AI Data Centre",
+   "label": "Say NO to Chapelcross AI Data Centre",
+   "url": "",
+   "tier": "A",
+   "site_records": 0,
+   "project_linked_records": 0,
+   "last_post_date": "",
+   "audit": {
+    "public": true,
+    "active": null,
+    "mapped": false
+   },
+   "brief_eligible": false,
+   "ingest": "on"
+  },
+  {
+   "name": "Hurlford Rufus Data Centre Community Group",
+   "label": "Hurlford Rufus Data Centre Community Group",
+   "url": "",
+   "tier": "A",
+   "site_records": 0,
+   "project_linked_records": 0,
+   "last_post_date": "",
+   "audit": {
+    "public": true,
+    "active": null,
+    "mapped": false
+   },
+   "brief_eligible": false,
+   "ingest": "on"
+  },
+  {
+   "name": "No AI Data Centre - Inverclyde",
+   "label": "No AI Data Centre - Inverclyde",
+   "url": "",
+   "tier": "A",
+   "site_records": 0,
+   "project_linked_records": 0,
+   "last_post_date": "",
+   "audit": {
+    "public": true,
+    "active": null,
+    "mapped": false
+   },
+   "brief_eligible": false,
+   "ingest": "on"
+  },
+  {
+   "name": "Ravenscraig Locals Against Mega Datacentres",
+   "label": "Ravenscraig Locals Against Mega Datacentres",
+   "url": "",
+   "tier": "A",
+   "site_records": 0,
+   "project_linked_records": 0,
+   "last_post_date": "",
+   "audit": {
+    "public": true,
+    "active": null,
+    "mapped": false
+   },
+   "brief_eligible": false,
+   "ingest": "on_keyword_filter",
+   "ingest_keywords": [
+    "data centre",
+    "data center",
+    "hyperscale",
+    "ai data"
+   ]
+  },
+  {
+   "name": "Stop The Pylons Derbyshire",
+   "label": "Stop The Pylons Derbyshire",
+   "url": "",
+   "tier": "A",
+   "site_records": 0,
+   "project_linked_records": 0,
+   "last_post_date": "",
+   "audit": {
+    "public": false,
+    "active": null,
+    "mapped": false
+   },
+   "brief_eligible": false,
+   "ingest": "excluded_private"
+  },
+  {
+   "name": "Forncett & South Norfolk Pylons Action Group",
+   "label": "Forncett & South Norfolk Pylons Action Group",
+   "url": "",
+   "tier": "A",
+   "site_records": 0,
+   "project_linked_records": 0,
+   "last_post_date": "",
+   "audit": {
+    "public": false,
+    "active": null,
+    "mapped": false
+   },
+   "brief_eligible": false,
+   "ingest": "excluded_private"
+  },
+  {
+   "name": "Dunbeath/Berriedale Say NO to PYLONS Action Group",
+   "label": "Dunbeath/Berriedale Say NO to PYLONS Action Group",
+   "url": "",
+   "tier": "A",
+   "site_records": 0,
+   "project_linked_records": 0,
+   "last_post_date": "",
+   "audit": {
+    "public": false,
+    "active": null,
+    "mapped": false
+   },
+   "brief_eligible": false,
+   "ingest": "excluded_private"
+  },
+  {
+   "name": "Pylons and Substations",
+   "label": "Pylons and Substations",
+   "url": "",
+   "tier": "A",
+   "site_records": 0,
+   "project_linked_records": 0,
+   "last_post_date": "",
+   "audit": {
+    "public": false,
+    "active": null,
+    "mapped": false
+   },
+   "brief_eligible": false,
+   "ingest": "excluded_private"
+  },
+  {
+   "name": "STOP the Norwich Data Centre",
+   "label": "STOP the Norwich Data Centre",
+   "url": "",
+   "tier": "A",
+   "site_records": 0,
+   "project_linked_records": 0,
+   "last_post_date": "",
+   "audit": {
+    "public": false,
+    "active": null,
+    "mapped": false
+   },
+   "brief_eligible": false,
+   "ingest": "excluded_private"
+  },
+  {
+   "name": "Slough Against Data Centres - Community Space",
+   "label": "Slough Against Data Centres - Community Space",
+   "url": "",
+   "tier": "A",
+   "site_records": 0,
+   "project_linked_records": 0,
+   "last_post_date": "",
+   "audit": {
+    "public": false,
+    "active": null,
+    "mapped": false
+   },
+   "brief_eligible": false,
+   "ingest": "excluded_private"
+  },
+  {
+   "name": "Say No To Larbert Data Centre",
+   "label": "Say No To Larbert Data Centre",
+   "url": "",
+   "tier": "A",
+   "site_records": 0,
+   "project_linked_records": 0,
+   "last_post_date": "",
+   "audit": {
+    "public": false,
+    "active": null,
+    "mapped": false
+   },
+   "brief_eligible": false,
+   "ingest": "excluded_private"
+  },
+  {
+   "name": "People Against Pylon Bullies UK",
+   "label": "People Against Pylon Bullies UK",
+   "url": "",
+   "tier": "A",
+   "site_records": 0,
+   "project_linked_records": 0,
+   "last_post_date": "",
+   "audit": {
+    "public": true,
+    "active": null,
+    "mapped": false
+   },
+   "brief_eligible": false,
+   "ingest": "off"
+  },
+  {
+   "name": "The UK Against AI Data Centres",
+   "label": "The UK Against AI Data Centres",
+   "url": "",
+   "tier": "A",
+   "site_records": 0,
+   "project_linked_records": 0,
+   "last_post_date": "",
+   "audit": {
+    "public": true,
+    "active": null,
+    "mapped": false
+   },
+   "brief_eligible": false,
+   "ingest": "off"
   }
  ]
 }

@@ -1,0 +1,145 @@
+{
+ "built": "2026-10-16",
+ "rule": "Switch on: public, posted within 60 days (feed scan 16 Oct, counts only), not private. Ravenscraig: keyword filter because data-centre posts are a minority of its feed.",
+ "decisions": [
+  {
+   "name": "RE-Think: Don't Break the Heart of Wales / Peidiwch Torri Calon Cymru",
+   "group_id": "rethinkwales",
+   "track": "A",
+   "ingest": "on",
+   "basis": "public, 2.8K members, posts 9-21h before the check"
+  },
+  {
+   "name": "North Carlisle Against Pylons and Substation",
+   "group_id": "1321067339345501",
+   "track": "A",
+   "ingest": "on",
+   "basis": "public, 561 members, post 2h before the check"
+  },
+  {
+   "name": "Pylon Pressure To STOP SSEN",
+   "group_id": "661023202450810",
+   "track": "A",
+   "ingest": "on",
+   "basis": "public, 656 members, 47 posts in 60 days, newest 16 Oct"
+  },
+  {
+   "name": "Save Our Mearns - Stop SSEN Scotland",
+   "group_id": "stopssen",
+   "track": "A",
+   "ingest": "on",
+   "basis": "public, 566 members, 12 posts in 60 days, newest 23 Sep"
+  },
+  {
+   "name": "STOP EAST LINCOLNSHIRE PYLONS",
+   "group_id": "3317708445187312",
+   "track": "A",
+   "ingest": "on",
+   "basis": "public, 940 members, 33 posts in 60 days, newest 16 Oct"
+  },
+  {
+   "name": "SAY NO TO PYLONS 90km Notts, North Lincs, East Yorks",
+   "group_id": "3468032076798248",
+   "track": "A",
+   "ingest": "on",
+   "basis": "public, 552 members, 13 posts in 60 days, newest 16 Oct"
+  },
+  {
+   "name": "Say NO to Chapelcross AI Data Centre",
+   "group_id": "1015424481301998",
+   "track": "B",
+   "ingest": "on",
+   "basis": "public, 2.4K members, posts 8-21h before the check"
+  },
+  {
+   "name": "Hurlford Rufus Data Centre Community Group",
+   "group_id": "1604173331036496",
+   "track": "B",
+   "ingest": "on",
+   "basis": "public, 1.7K members, posts 10h-1d before the check"
+  },
+  {
+   "name": "No AI Data Centre - Inverclyde",
+   "group_id": "1883044069328055",
+   "track": "B",
+   "ingest": "on",
+   "basis": "public, 271 members, posts 2d before the check"
+  },
+  {
+   "name": "Ravenscraig Locals Against Mega Datacentres",
+   "group_id": "1077243797972004",
+   "track": "B",
+   "ingest": "on_keyword_filter",
+   "keywords": [
+    "data centre",
+    "data center",
+    "hyperscale",
+    "ai data"
+   ],
+   "basis": "public, 752 members, 56 posts in 60 days; data-centre words in 5 of the 59 posts on the page, so ingest only matching posts"
+  },
+  {
+   "name": "Stop The Pylons Derbyshire",
+   "group_id": "995405322184057",
+   "track": "A",
+   "ingest": "excluded_private",
+   "basis": "private group; not joined, not scanned"
+  },
+  {
+   "name": "Forncett & South Norfolk Pylons Action Group",
+   "group_id": "1143947116180986",
+   "track": "A",
+   "ingest": "excluded_private",
+   "basis": "private group"
+  },
+  {
+   "name": "Dunbeath/Berriedale Say NO to PYLONS Action Group",
+   "group_id": "410949321401120",
+   "track": "A",
+   "ingest": "excluded_private",
+   "basis": "private group"
+  },
+  {
+   "name": "Pylons and Substations",
+   "group_id": "384432668429180",
+   "track": "A",
+   "ingest": "excluded_private",
+   "basis": "private group"
+  },
+  {
+   "name": "STOP the Norwich Data Centre",
+   "group_id": "884026957600847",
+   "track": "B",
+   "ingest": "excluded_private",
+   "basis": "private group"
+  },
+  {
+   "name": "Slough Against Data Centres - Community Space",
+   "group_id": "1058821766907322",
+   "track": "B",
+   "ingest": "excluded_private",
+   "basis": "private group"
+  },
+  {
+   "name": "Say No To Larbert Data Centre",
+   "group_id": "802750539454842",
+   "track": "B",
+   "ingest": "excluded_private",
+   "basis": "private (earlier check); not joined"
+  },
+  {
+   "name": "People Against Pylon Bullies UK",
+   "group_id": "585292730449598",
+   "track": "A",
+   "ingest": "off",
+   "basis": "public but low relevance (no named project); not switched on"
+  },
+  {
+   "name": "The UK Against AI Data Centres",
+   "group_id": "3502378219931836",
+   "track": "B",
+   "ingest": "off",
+   "basis": "public, 82 members, low relevance; not switched on"
+  }
+ ]
+}
