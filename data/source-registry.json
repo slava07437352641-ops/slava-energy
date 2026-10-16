@@ -1,0 +1,397 @@
+{
+ "build_date": "2026-10-16",
+ "active_window_days": 14,
+ "gate": "brief_eligible = public AND active AND mapped (Option A)",
+ "sources": [
+  {
+   "name": "7000 Acres Group",
+   "label": "Facebook · 7000 Acres Group",
+   "url": "https://www.facebook.com/groups/7000a/posts/1766302204444047/",
+   "tier": "A",
+   "site_records": 2,
+   "project_linked_records": 0,
+   "last_post_date": "2026-10-04",
+   "audit": {
+    "public": false,
+    "active": true,
+    "mapped": false
+   },
+   "brief_eligible": false
+  },
+  {
+   "name": "Better Cable Route (Strathpeffer & Contin)",
+   "label": "Facebook · Better Cable Route (Strathpeffer & Contin)",
+   "url": "https://www.facebook.com/groups/1166472997386115/posts/2003766693656737/",
+   "tier": "A",
+   "site_records": 13,
+   "project_linked_records": 0,
+   "last_post_date": "2026-10-02",
+   "audit": {
+    "public": false,
+    "active": true,
+    "mapped": false
+   },
+   "brief_eligible": false
+  },
+  {
+   "name": "Communities B4 Power Companies",
+   "label": "Facebook · Communities B4 Power Companies",
+   "url": "https://www.facebook.com/groups/221782186918238/posts/1082827727480342/",
+   "tier": "A",
+   "site_records": 119,
+   "project_linked_records": 0,
+   "last_post_date": "2026-10-14",
+   "audit": {
+    "public": false,
+    "active": true,
+    "mapped": false
+   },
+   "brief_eligible": false
+  },
+  {
+   "name": "Deeside Against Pylons",
+   "label": "Facebook · Deeside Against Pylons",
+   "url": "https://www.facebook.com/groups/deesideagainstpylons/posts/2409978283141484/",
+   "tier": "A",
+   "site_records": 1,
+   "project_linked_records": 0,
+   "last_post_date": "2026-10-16",
+   "audit": {
+    "public": true,
+    "active": true,
+    "mapped": false
+   },
+   "brief_eligible": false
+  },
+  {
+   "name": "Environmentalists Against Wind Turbines",
+   "label": "Facebook · Environmentalists Against Wind Turbines",
+   "url": "https://www.facebook.com/groups/835899539823505/posts/28289989033987852/",
+   "tier": "A",
+   "site_records": 411,
+   "project_linked_records": 0,
+   "last_post_date": "2026-10-15",
+   "audit": {
+    "public": false,
+    "active": true,
+    "mapped": false
+   },
+   "brief_eligible": false
+  },
+  {
+   "name": "Essex Suffolk Norfolk Pylons",
+   "label": "Facebook · Essex Suffolk Norfolk Pylons",
+   "url": "https://www.facebook.com/groups/pylonseastanglia/posts/1814422586264655/",
+   "tier": "A",
+   "site_records": 16,
+   "project_linked_records": 0,
+   "last_post_date": "2026-10-16",
+   "audit": {
+    "public": false,
+    "active": true,
+    "mapped": false
+   },
+   "brief_eligible": false
+  },
+  {
+   "name": "Grampian Against Data Centres",
+   "label": "Facebook · Grampian Against Data Centres",
+   "url": "https://www.facebook.com/groups/1517407306762132/posts/1600486635120865/",
+   "tier": "A",
+   "site_records": 261,
+   "project_linked_records": 0,
+   "last_post_date": "2026-10-16",
+   "audit": {
+    "public": false,
+    "active": true,
+    "mapped": false
+   },
+   "brief_eligible": false
+  },
+  {
+   "name": "Help Save Mochrum Fell",
+   "label": "Facebook · Help Save Mochrum Fell",
+   "url": "https://www.facebook.com/groups/1730785547069267/posts/3599864030161400/",
+   "tier": "A",
+   "site_records": 3,
+   "project_linked_records": 0,
+   "last_post_date": "2026-10-15",
+   "audit": {
+    "public": true,
+    "active": true,
+    "mapped": false
+   },
+   "brief_eligible": false
+  },
+  {
+   "name": "Mey BESS Action Group",
+   "label": "Facebook · Mey BESS Action Group",
+   "url": "https://www.facebook.com/groups/711813121519508/posts/1116519347715548/",
+   "tier": "A",
+   "site_records": 26,
+   "project_linked_records": 0,
+   "last_post_date": "2026-10-12",
+   "audit": {
+    "public": false,
+    "active": true,
+    "mapped": false
+   },
+   "brief_eligible": false
+  },
+  {
+   "name": "NO to East Havering Data Centre in Upminster (Residents Group)",
+   "label": "Facebook · NO to East Havering Data Centre in Upminster (Residents Group)",
+   "url": "https://www.facebook.com/groups/366637746401030/posts/1037915102606621/",
+   "tier": "A",
+   "site_records": 2,
+   "project_linked_records": 0,
+   "last_post_date": "2026-10-15",
+   "audit": {
+    "public": false,
+    "active": true,
+    "mapped": false
+   },
+   "brief_eligible": false
+  },
+  {
+   "name": "No Pylons Lincolnshire",
+   "label": "Facebook · No Pylons Lincolnshire",
+   "url": "https://www.facebook.com/groups/427539323082424/posts/1168961878940161/",
+   "tier": "A",
+   "site_records": 2,
+   "project_linked_records": 0,
+   "last_post_date": "2026-10-16",
+   "audit": {
+    "public": true,
+    "active": true,
+    "mapped": false
+   },
+   "brief_eligible": false
+  },
+  {
+   "name": "Not A Just Transition",
+   "label": "Facebook · Not A Just Transition",
+   "url": "https://www.facebook.com/groups/427061409724414/posts/1090802206683661/",
+   "tier": "A",
+   "site_records": 31,
+   "project_linked_records": 0,
+   "last_post_date": "2026-10-06",
+   "audit": {
+    "public": false,
+    "active": true,
+    "mapped": false
+   },
+   "brief_eligible": false
+  },
+  {
+   "name": "Our Power",
+   "label": "Facebook Page · Our Power",
+   "url": "https://www.facebook.com/ourpower.scot/posts/122135918277244466",
+   "tier": "A",
+   "site_records": 5,
+   "project_linked_records": 0,
+   "last_post_date": "2026-10-16",
+   "audit": {
+    "public": false,
+    "active": true,
+    "mapped": false
+   },
+   "brief_eligible": false
+  },
+  {
+   "name": "Rural Scotland (APRS)",
+   "label": "Facebook Page · Rural Scotland",
+   "url": "https://www.facebook.com/APRScotland/posts/1556729249833117",
+   "tier": "A",
+   "site_records": 4,
+   "project_linked_records": 0,
+   "last_post_date": "2026-10-16",
+   "audit": {
+    "public": false,
+    "active": true,
+    "mapped": false
+   },
+   "brief_eligible": false
+  },
+  {
+   "name": "Save Our Hills - Dumfries and Galloway",
+   "label": "Facebook · Save Our Hills - Dumfries and Galloway",
+   "url": "https://www.facebook.com/groups/432372427761080/posts/1827249908273318/",
+   "tier": "A",
+   "site_records": 1,
+   "project_linked_records": 0,
+   "last_post_date": "2026-10-15",
+   "audit": {
+    "public": true,
+    "active": true,
+    "mapped": false
+   },
+   "brief_eligible": false
+  },
+  {
+   "name": "Say NO to Cockenzie Data Centre",
+   "label": "Facebook · Say NO to Cockenzie Data Centre",
+   "url": "https://www.facebook.com/groups/959791135623845/posts/1619301559672796/",
+   "tier": "A",
+   "site_records": 6,
+   "project_linked_records": 0,
+   "last_post_date": "2026-10-16",
+   "audit": {
+    "public": true,
+    "active": true,
+    "mapped": false
+   },
+   "brief_eligible": false
+  },
+  {
+   "name": "Say No To Cato Data Centre",
+   "label": "Facebook · Say No To Cato Data Centre",
+   "url": "https://www.facebook.com/groups/1472242997516977/posts/1579421156799160/",
+   "tier": "A",
+   "site_records": 6,
+   "project_linked_records": 0,
+   "last_post_date": "2026-10-16",
+   "audit": {
+    "public": true,
+    "active": true,
+    "mapped": false
+   },
+   "brief_eligible": false
+  },
+  {
+   "name": "Say No to West Calder Hyperscale Data Centre",
+   "label": "Facebook · Say No to West Calder Hyperscale Data Centre",
+   "url": "https://www.facebook.com/groups/1092406649792820/posts/1139525181747633/",
+   "tier": "A",
+   "site_records": 5,
+   "project_linked_records": 0,
+   "last_post_date": "2026-10-16",
+   "audit": {
+    "public": false,
+    "active": true,
+    "mapped": false
+   },
+   "brief_eligible": false
+  },
+  {
+   "name": "Scotland Against Spin",
+   "label": "Facebook · Scotland Against Spin",
+   "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29262420503360300/",
+   "tier": "A",
+   "site_records": 2687,
+   "project_linked_records": 10,
+   "last_post_date": "2026-10-16",
+   "audit": {
+    "public": true,
+    "active": true,
+    "mapped": true
+   },
+   "brief_eligible": true
+  },
+  {
+   "name": "Scottish Electricity Generating Stations",
+   "label": "Facebook · Scottish Electricity Generating Stations",
+   "url": "https://www.facebook.com/groups/443369301288654/posts/1389789376646637/",
+   "tier": "A",
+   "site_records": 85,
+   "project_linked_records": 0,
+   "last_post_date": "2026-10-16",
+   "audit": {
+    "public": false,
+    "active": true,
+    "mapped": false
+   },
+   "brief_eligible": false
+  },
+  {
+   "name": "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
+   "label": "Facebook · Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
+   "url": "https://www.facebook.com/groups/1367957378802028/posts/1438822595048839/",
+   "tier": "A",
+   "site_records": 8,
+   "project_linked_records": 0,
+   "last_post_date": "2026-10-07",
+   "audit": {
+    "public": false,
+    "active": true,
+    "mapped": false
+   },
+   "brief_eligible": false
+  },
+  {
+   "name": "Suffolk Energy Action Solutions (SEAS)",
+   "label": "Facebook Page · Suffolk Energy Action Solutions (SEAS)",
+   "url": "https://www.facebook.com/reel/2123445558529484",
+   "tier": "A",
+   "site_records": 6,
+   "project_linked_records": 0,
+   "last_post_date": "2026-10-10",
+   "audit": {
+    "public": false,
+    "active": true,
+    "mapped": false
+   },
+   "brief_eligible": false
+  },
+  {
+   "name": "Thirsk Against Battery Storage",
+   "label": "Facebook · Thirsk Against Battery Storage",
+   "url": "https://www.facebook.com/groups/1117445326655289/posts/1652110306522119/",
+   "tier": "A",
+   "site_records": 1,
+   "project_linked_records": 0,
+   "last_post_date": "2026-09-20",
+   "audit": {
+    "public": false,
+    "active": false,
+    "mapped": false
+   },
+   "brief_eligible": false
+  },
+  {
+   "name": "West Edinburgh Against AI Data Centre",
+   "label": "Facebook · West Edinburgh Against AI Data Centre",
+   "url": "https://www.facebook.com/groups/994619683389505/posts/1086110300907109/",
+   "tier": "A",
+   "site_records": 3,
+   "project_linked_records": 0,
+   "last_post_date": "2026-10-15",
+   "audit": {
+    "public": true,
+    "active": true,
+    "mapped": false
+   },
+   "brief_eligible": false
+  },
+  {
+   "name": "Wind Energy's Absurd",
+   "label": "Facebook Page · Wind Energy's Absurd",
+   "url": "https://www.facebook.com/WindEnergysAbsurd/posts/1529320515891910/",
+   "tier": "A",
+   "site_records": 85,
+   "project_linked_records": 0,
+   "last_post_date": "2026-10-15",
+   "audit": {
+    "public": false,
+    "active": true,
+    "mapped": false
+   },
+   "brief_eligible": false
+  },
+  {
+   "name": "Worth Valley against Walshaw Moor Wind Farm",
+   "label": "Facebook · Worth Valley against Walshaw Moor Wind Farm",
+   "url": "https://www.facebook.com/groups/735756034796510/posts/1401024538269653/",
+   "tier": "A",
+   "site_records": 3,
+   "project_linked_records": 0,
+   "last_post_date": "2026-10-05",
+   "audit": {
+    "public": false,
+    "active": true,
+    "mapped": false
+   },
+   "brief_eligible": false
+  }
+ ]
+}
