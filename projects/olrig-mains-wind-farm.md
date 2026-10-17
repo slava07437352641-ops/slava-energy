@@ -1,12 +1,17 @@
 # Olrig Mains Wind Farm
 
-Olrig Mains Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 2 community posts from 2 groups, latest 2026-09-30. No planning reference is recorded in the registers used. TEC project status: Scoping (register). Top recurring themes: Onshore Wind (2), BESS (1). Posts are archived public group posts and are not independently verified.
+Olrig Mains Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 2 community posts from 2 groups, latest 2026-09-30. No planning reference is recorded in the registers used. Embedded Register project status: Scoping (register). Top recurring themes: Onshore Wind (2), BESS (1). Posts are archived public group posts and are not independently verified.
 
 ## Register facts
 
 | Item | Value | Basis |
 |---|---|---|
-| TEC project status | Scoping | register |
+| Embedded Register project status | Scoping | register |
+
+## Data credits
+
+- Supported by National Energy SO Open Data. Data: Embedded Register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/embedded-register. Source dates: Release date: unavailable; Download date: unavailable; File name date: 2026-10-10; Local copy created: 2026-10-13; Facts exported: 2026-10-17.
+- Use of these registers does not imply endorsement by their publishers.
 
 ## Source groups
 
@@ -25,7 +30,7 @@ Olrig Mains Wind Farm is a wind, solar and storage project tracked on slava.it.c
 
 ## What is the planning status of Olrig Mains Wind Farm?
 
-Recorded: TEC project status: Scoping (register).
+Recorded: Embedded Register project status: Scoping (register).
 
 ## What are the main community discussions around Olrig Mains Wind Farm?
 
