@@ -44,11 +44,12 @@
    "operator": "National Grid Electricity Transmission",
    "kind": "grid corridor (consultation stage)",
    "consent": "statutory consultation 18 Feb to 15 Apr 2025; DCO intended (status not confirmed)",
-   "source": "https://www.nationalgrid.com/the-great-grid-upgrade/north-humber-high-marnham/our-proposals",
+   "source": "https://rebuild-stg.nationalgrid.com/the-great-grid-upgrade/north-humber-high-marnham/our-proposals",
    "aliases": [
     "north humber to high marnham"
    ],
-   "status": "approved aliases, multi-word"
+   "status": "approved aliases, multi-word",
+   "source_note": "URL as returned by search (staging host); confirm the canonical nationalgrid.com page"
   },
   {
    "name": "Kintore to Tealing 400kV overhead line",
