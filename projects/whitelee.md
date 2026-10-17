@@ -28,6 +28,8 @@ Each row is one register record with its own identifier; records are not combine
 | NESO TEC | PRO-000067-4 | Whitelee | Scoping | connected 0 MW; cumulative 818 MW | MW effective from 2034-04-27 | Stage 4 of NESO project PRO-000067. |
 | NESO TEC | PRO-000068 | Whitelee Extension | Built | connected 206 MW; cumulative 238 MW | MW effective from 2026-12-01 | 'Whitelee Extension'; a different NESO project number; its relation to the REPD extension records is unverified. |
 
+The records listed describe the registered assets. Several archived posts discuss a repowering proposal; a search of the registers by name did not establish that proposal's register status, so none is shown here.
+
 ## Data credits
 
 - Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: unavailable; Latest record update in the file: 2026-07-24; Download date: unavailable; Local copy created: 2026-08-30; Facts exported: 2026-10-17.
@@ -51,7 +53,7 @@ Each row is one register record with its own identifier; records are not combine
 
 ## What is the planning status of Whitelee?
 
-No single status applies. Statuses by register record: Operational (4), Planning Permission Granted (3), Scoping (3), Built (2), Appeal Refused (1). The table gives each record's identifier, date and relationship; records are not combined.
+No single status applies. Statuses by register record: Operational (4), Planning Permission Granted (3), Scoping (3), Built (2), Appeal Refused (1). The table gives each record's identifier, date and relationship; records are not combined. The records listed describe the registered assets. Several archived posts discuss a repowering proposal; a search of the registers by name did not establish that proposal's register status, so none is shown here.
 
 ## What are the main community discussions around Whitelee?
 

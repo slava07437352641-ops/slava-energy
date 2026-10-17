@@ -80,6 +80,7 @@ def date_problems(sid, dates):
     return out
 
 
+FACT_BASES = ("register", "reported", "inferred", "unverified")
 RECORD_BASES = ("name_exact", "name_similar", "register_link", "neso_project_number", "unverified")
 REGISTER_LABELS = {"repd": "REPD", "neso_tec": "NESO TEC", "neso_embedded": "NESO Embedded"}
 RECORD_KEYS = {"register", "id", "name", "status", "capacity", "date", "relation", "basis"}
@@ -165,8 +166,8 @@ def validate_facts_doc(doc):
                 continue
             if not str(f["label"]).strip() or not str(f["value"]).strip():
                 problems.append(f"{name} fact {i}: empty label or value")
-            if f["basis"] not in ("register", "reported"):
-                problems.append(f"{name} fact '{f['label']}': basis must be register or reported")
+            if f["basis"] not in FACT_BASES:
+                problems.append(f"{name} fact '{f['label']}': basis must be one of {', '.join(FACT_BASES)}")
             if f["source"] not in srcs:
                 problems.append(f"{name} fact '{f['label']}': unknown source '{f['source']}'")
             for pat, why in FORBIDDEN:
@@ -178,6 +179,11 @@ def validate_facts_doc(doc):
         label = e.get("label")
         if label is not None and (not isinstance(label, str) or not label.strip() or any(pat.search(label) for pat, _ in FORBIDDEN)):
             problems.append(f"{name}: invalid label")
+        note = e.get("note")
+        if note is not None and (not isinstance(note, str) or not note.strip() or any(pat.search(note) for pat, _ in FORBIDDEN)):
+            problems.append(f"{name}: invalid note")
+        if note is not None and not e.get("records"):
+            problems.append(f"{name}: a note needs register records")
         seen = set()
         for i, rec in enumerate(e.get("records") or []):
             if not isinstance(rec, dict) or set(rec) != RECORD_KEYS:
@@ -240,6 +246,11 @@ def vertical_of(name, posts, dc_names):
     return "Pylons and grid" if is_ohl(posts) else "Wind, solar and storage"
 
 
+def with_basis(label, value, basis):
+    """'Label: value (basis)'. An unverified value already says so, so the basis is not repeated."""
+    return f"{label}: {value}" if basis == "unverified" else f"{label}: {value} ({basis})"
+
+
 def record_summary(records):
     by_reg = collections.Counter(REGISTER_LABELS[r["register"]] for r in records)
     breakdown = ", ".join(f"{n} {k}" for k, n in by_reg.items())
@@ -258,7 +269,7 @@ def project_model(name, posts, entry, dc_names):
     facts = [(f["label"], f["value"], f["basis"]) for f in entry["facts"]]
     records = entry.get("records") or []
     credits = list(dict.fromkeys([f["source"] for f in entry["facts"]] + [r["register"] for r in records]))
-    planning_bits = [f"{lab}: {v} ({b})" for lab, v, b in facts if lab in
+    planning_bits = [with_basis(lab, v, b) for lab, v, b in facts if lab in
                      ("Planning reference", "Application type", "Status", "Consent or stage", "REPD status", "TEC project status",
                       "Embedded Register project status")]
     if records:
@@ -273,9 +284,11 @@ def project_model(name, posts, entry, dc_names):
                   f"All {len(records)} listed register records show the status {next(iter(statuses))}.")
         if planning_bits:
             answer += " Reported: " + "; ".join(planning_bits) + "."
+        if entry.get("note"):
+            answer += " " + entry["note"]
     else:
-        ref = next((f"{lab}: {v} ({b})" for lab, v, b in facts if lab in ("Planning reference", "REPD reference", "Planning reference (TEC)")), None)
-        status = next((f"{lab}: {v} ({b})" for lab, v, b in facts if lab in ("Status", "REPD status", "TEC project status", "Embedded Register project status", "Consent or stage")), None)
+        ref = next((with_basis(lab, v, b) for lab, v, b in facts if lab in ("Planning reference", "REPD reference", "Planning reference (TEC)")), None)
+        status = next((with_basis(lab, v, b) for lab, v, b in facts if lab in ("Status", "REPD status", "TEC project status", "Embedded Register project status", "Consent or stage")), None)
         answer = ("Recorded: " + "; ".join(planning_bits) + ".") if planning_bits else "No planning status is recorded in the registers used for this page."
     req = [f"{title} is {VERTICAL_PHRASE[vertical]} tracked on slava.it.com.",
            f"The archive holds {n} community post{'s' if n != 1 else ''} from {g} group{'s' if g != 1 else ''}, latest {latest}.",
@@ -292,7 +305,7 @@ def project_model(name, posts, entry, dc_names):
            f"{n} archived public post{'s' if n != 1 else ''} from {g} group{'s' if g != 1 else ''}, dated {earliest} to {latest}. "
            f"The most frequent theme tags are {top_themes(themes, 3)}. Post text is not reproduced here; each archive entry links to the post.")]
     return {"name": name, "title": title, "slug": slugify(name), "vertical": vertical, "posts": posts, "groups": groups,
-            "themes": themes, "latest": latest, "earliest": earliest, "facts": facts, "records": records, "capsule": capsule,
+            "themes": themes, "latest": latest, "earliest": earliest, "facts": facts, "records": records, "note": entry.get("note", ""), "capsule": capsule,
             "qa": qa, "sources": entry["sources"], "credits": credits, "words": words(capsule)}
 
 
@@ -357,6 +370,12 @@ def credit_lines(p, srcs):
     return out
 
 
+RECORDS_CSS = (".records{min-width:36rem}"
+               "@media (max-width:640px){.records{min-width:0}.records thead{display:none}"
+               ".records,.records tbody,.records tr,.records td{display:block;width:auto}"
+               ".records tr{border:1px solid #d8cfc0;margin:.6rem 0;background:#fffdf8}"
+               ".records td{border:0;border-bottom:1px solid #eee6d8;padding:.25rem .6rem}"
+               ".records td::before{content:attr(data-label) \": \";font-weight:600}}")
 RECORD_HEAD = ("Register", "Identifier", "Name as recorded", "Status", "Capacity", "Date", "Relationship")
 RECORD_NOTE = ("Each row is one register record with its own identifier; records are not combined. Relationships are stated only "
                "where a register links the records, and are otherwise labelled as unlinked or unverified. REPD dates are the "
@@ -372,18 +391,28 @@ def records_html(p):
     if not p["records"]:
         return ""
     head = "".join(f"<th>{h}</th>" for h in RECORD_HEAD)
-    rows = "".join("<tr>" + "".join(f"<td>{esc(c)}</td>" for c in record_cells(r)) + "</tr>" for r in p["records"])
-    return f"<h2>Register records</h2><p>{esc(RECORD_NOTE)}</p><table><tr>{head}</tr>{rows}</table>\n"
+    def cell(h, c):
+        text = esc(c)
+        if h in ("Identifier", "Date"):  # keep identifiers and ISO dates on one line instead of breaking at their hyphens
+            text = re.sub(r"(\d{4}-\d{2}-\d{2}|PRO-\d+(?:-\d+)?)", r'<span style="white-space:nowrap">\1</span>', text)
+            if h == "Identifier" and "<span" not in text:
+                text = f'<span style="white-space:nowrap">{text}</span>'
+        return f"<td data-label=\"{h}\">{text}</td>"
+
+    rows = "".join("<tr>" + "".join(cell(h, c) for h, c in zip(RECORD_HEAD, record_cells(r))) + "</tr>" for r in p["records"])
+    note = f"<p class=\"records-note\">{esc(p['note'])}</p>" if p["note"] else ""
+    return f"<h2>Register records</h2><p>{esc(RECORD_NOTE)}</p><div style=\"overflow-x:auto\"><table class=\"records\"><thead><tr>{head}</tr></thead><tbody>{rows}</tbody></table></div>{note}\n"
 
 
 def records_md(p):
     if not p["records"]:
         return ""
     rows = "\n".join("| " + " | ".join(str(c).replace("|", "/") for c in record_cells(r)) + " |" for r in p["records"])
-    return (f"## Register records\n\n{RECORD_NOTE}\n\n| " + " | ".join(RECORD_HEAD) + " |\n|" + "---|" * len(RECORD_HEAD) + f"\n{rows}\n\n")
+    note = f"{p['note']}\n\n" if p["note"] else ""
+    return (f"## Register records\n\n{RECORD_NOTE}\n\n| " + " | ".join(RECORD_HEAD) + " |\n|" + "---|" * len(RECORD_HEAD) + f"\n{rows}\n\n{note}")
 
 
-def page(title, desc, canonical, body, lds):
+def page(title, desc, canonical, body, lds, extra_css=""):
     ld = "\n".join(f'<script type="application/ld+json">{jsonld(x)}</script>' for x in lds)
     return (
         '<!doctype html>\n<html lang="en-GB">\n<head>\n<meta charset="utf-8">\n'
@@ -394,7 +423,7 @@ def page(title, desc, canonical, body, lds):
         f"{ld}\n"
         "<style>body{font-family:system-ui,sans-serif;max-width:46rem;margin:0 auto;padding:1rem;line-height:1.5;color:#222;background:#faf7f2}"
         "table{border-collapse:collapse;width:100%;margin:.5rem 0}th,td{border:1px solid #d8cfc0;padding:.35rem .5rem;text-align:left;vertical-align:top}"
-        "a{color:#a2421f}.seo-follow{margin:2rem 0 1rem;padding:.75rem 1rem;border:1px solid #d8cfc0;border-radius:6px}</style>\n"
+        "a{color:#a2421f}.seo-follow{margin:2rem 0 1rem;padding:.75rem 1rem;border:1px solid #d8cfc0;border-radius:6px}" + extra_css + "</style>\n"
         f"</head>\n<body>\n{nav_html()}\n<main>\n{body}\n</main>\n"
         "<footer><p>Facebook group posts are archived public posts. Register facts are labelled as reported or register. "
         "Post text is not reproduced.</p></footer>\n"
@@ -405,12 +434,12 @@ def project_html(p, srcs):
     rows = "".join(f"<tr><td>{esc(lab)}</td><td>{esc(v)}</td><td>{esc(b)}</td></tr>" for lab, v, b in p["facts"])
     facts_html = (f"<table><tr><th>Item</th><th>Value</th><th>Basis</th></tr>{rows}</table>" if rows
                   else "<p>No register facts are recorded for this project.</p>")
-    src = "".join(f"<li><a href=\"{esc(u)}\">{esc(u)}</a></li>" for u in p["sources"])
+    src = "".join(f"<li style=\"overflow-wrap:anywhere\"><a href=\"{esc(u)}\">{esc(u)}</a></li>" for u in p["sources"])
     src_html = f"<h2>Sources for reported facts</h2><ul>{src}</ul>" if src else ""
     cl = credit_lines(p, srcs)
     credit_html = ""
     if cl:
-        items = "".join(f"<li>{esc(c['text'])} {c['terms_label']}: <a href=\"{esc(c['terms_url'])}\">{esc(c['terms'])}</a>. "
+        items = "".join(f"<li style=\"overflow-wrap:anywhere\">{esc(c['text'])} {c['terms_label']}: <a href=\"{esc(c['terms_url'])}\">{esc(c['terms'])}</a>. "
                         f"Source: <a href=\"{esc(c['source_url'])}\">{esc(c['source_url'])}</a>. "
                         f"Source dates: {esc(c['dates'])}.</li>" for c in cl)
         credit_html = (f"<h2>Data credits</h2><ul>{items}<li>Use of these registers does not imply endorsement "
@@ -428,7 +457,8 @@ def project_html(p, srcs):
             f"{qa_html}\n<h2>Archive entries</h2><ul>{entries}</ul>\n<p><a href=\"/\">Back to the archive</a></p>")
     url = f"{SITE_URL}/projects/{p['slug']}.html"
     ds = dataset_ld(f"Community discussion archive: {p['title']}", p["capsule"], url, p["latest"], sorted(p["themes"]))
-    return page(f"{p['title']} · community discussion archive", p["capsule"][:155], url, body, [ds, faq_ld(p["qa"])])
+    return page(f"{p['title']} · community discussion archive", p["capsule"][:155], url, body, [ds, faq_ld(p["qa"])],
+                RECORDS_CSS if p["records"] else "")
 
 
 def project_md(p, srcs):

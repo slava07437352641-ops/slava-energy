@@ -1,16 +1,16 @@
 # Rufus data centre campus (Hurlford)
 
-Rufus data centre campus (Hurlford) is an AI data centre project tracked on slava.it.com. The archive holds 2 community posts from 2 groups, latest 2026-10-16. No planning reference is recorded in the registers used. Status: Unverified: no primary source has been confirmed for display here, so check the council's public planning register (reported). Top recurring themes: Data Centre (2).
+Rufus data centre campus (Hurlford) is an AI data centre project tracked on slava.it.com. The archive holds 2 community posts from 2 groups, latest 2026-10-16. No planning reference is recorded in the registers used. Status: Unverified: no primary source has been confirmed for display here, so check the council's public planning register. Top recurring themes: Data Centre (2).
 
 ## Register facts
 
 | Item | Value | Basis |
 |---|---|---|
-| Status | Unverified: no primary source has been confirmed for display here, so check the council's public planning register | reported |
+| Status | Unverified: no primary source has been confirmed for display here, so check the council's public planning register | unverified |
 | Company | ILI RUFUS LIMITED (company number SC825440); Active; incorporated 2024-10-10 | register |
 | Persons with significant control (corporate) | Intelligent Land Investments Group Plc | register |
-| Council | East Ayrshire Council (planning authority for the site's location) | reported |
-| Capacity | Unverified: no primary source found | reported |
+| Council (inferred) | East Ayrshire Council, inferred from the site's location in Hurlford; not confirmed by a planning register | inferred |
+| Capacity | Unverified: no primary source found | unverified |
 
 ## Data credits
 
@@ -32,7 +32,7 @@ Rufus data centre campus (Hurlford) is an AI data centre project tracked on slav
 
 ## What is the planning status of Rufus data centre campus (Hurlford)?
 
-Recorded: Status: Unverified: no primary source has been confirmed for display here, so check the council's public planning register (reported).
+Recorded: Status: Unverified: no primary source has been confirmed for display here, so check the council's public planning register.
 
 ## What are the main community discussions around Rufus data centre campus (Hurlford)?
 

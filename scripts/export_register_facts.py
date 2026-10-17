@@ -144,7 +144,10 @@ def public_entry(dc_row=None, corridor_row=None, repd_rows=(), neso_rows=(), map
                          ("Status", "status_reported"), ("Developer", "developer_reported"),
                          ("Council", "council"), ("Capacity", "capacity_reported")]:
             if dc_row.get(key):
-                facts.append(fact(lab, dc_row[key], "reported", "reported"))
+                inferred = lab == "Council" and dc_row.get("council_inferred")
+                shown = "Council (inferred)" if inferred else lab
+                basis = "inferred" if inferred else ("unverified" if str(dc_row[key]).lower().startswith("unverified") else "reported")
+                facts.append(fact(shown, dc_row[key], basis, "reported"))
             if lab == "Developer":
                 cf, cu = company_facts(dc_row.get("company"))
                 facts += cf
@@ -177,6 +180,8 @@ def public_entry(dc_row=None, corridor_row=None, repd_rows=(), neso_rows=(), map
         entry["records"] = mapped["records"]
         if mapped.get("label"):
             entry["label"] = mapped["label"]
+        if mapped.get("note"):
+            entry["note"] = clean(mapped["note"])
     return {"facts": facts, "sources": [u for u in dict.fromkeys(urls) if str(u).startswith("https://")], **entry}
 
 
@@ -340,7 +345,7 @@ def main(argv=None):
                 problems.append(why)
                 continue
             if m:
-                mapped = {"records": build_records(name, m, repd_recs, repd_links, neso_recs), "label": m.get("label")}
+                mapped = {"records": build_records(name, m, repd_recs, repd_links, neso_recs), "label": m.get("label"), "note": m.get("note")}
                 projects[name] = public_entry(dc.get(name), corr.get(name), mapped=mapped)
             else:
                 projects[name] = public_entry(dc.get(name), corr.get(name), repd.get(n, []), neso.get(n, []))

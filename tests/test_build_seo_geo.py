@@ -374,7 +374,7 @@ def test_record_tables_render_every_identifier_and_never_combine_statuses():
         page, md = F[f"projects/{slug}.html"], F[f"projects/{slug}.md"]
         assert "<h2>Register records</h2>" in page and "## Register records" in md
         for r in _records(name):
-            assert f"<td>{r['id']}</td>" in page and f"| {r['id']} |" in md, (name, r["id"])
+            assert f'<td data-label="Identifier"><span style="white-space:nowrap">{r["id"]}</span></td>' in page and f"| {r['id']} |" in md, (name, r["id"])
         assert "REPD reference" not in md and "REPD status" not in md  # no single first-row status for these pages
     wl = F["projects/whitelee.md"]
     assert "13 register records are listed (8 REPD, 5 NESO TEC)" in wl
@@ -468,8 +468,10 @@ def test_rufus_has_no_directory_derived_claims_and_marks_the_unverified_ones():
             assert banned not in blob, banned
     for blob in (entry, page, F["projects/rufus-data-centre-campus-hurlford.html"]):
         assert "ILI Group" not in blob  # the directory-derived developer name; the Cato project's own name is a different page
-    assert "| Capacity | Unverified: no primary source found | reported |" in page
-    assert "| Status | Unverified: no primary source has been confirmed" in page
+    assert "| Capacity | Unverified: no primary source found | unverified |" in page
+    assert "| Council (inferred) | East Ayrshire Council, inferred from the site's location in Hurlford; not confirmed by a planning register | inferred |" in page
+    assert "| Council |" not in page
+    assert "| Status | Unverified: no primary source has been confirmed for display here, so check the council's public planning register | unverified |" in page
     assert "ILI RUFUS LIMITED (company number SC825440); Active; incorporated 2024-10-10" in page
     assert "Intelligent Land Investments Group Plc" in page
 
@@ -481,3 +483,79 @@ def test_companies_house_credit_carries_its_terms_note_and_check_date():
     assert "imposes no rules or requirements on how the information on the public register is used (page updated 9 August 2019)" in page
     assert "Source dates: Terms checked: 2026-10-17." in page
     assert "does not imply endorsement" in page
+
+
+def test_whitelee_states_that_records_describe_registered_assets_only():
+    F, _ = built()
+    note = ("The records listed describe the registered assets. Several archived posts discuss a repowering proposal; "
+            "a search of the registers by name did not establish that proposal's register status, so none is shown here.")
+    for ext in ("md", "html"):
+        assert note in F[f"projects/whitelee.{ext}"], ext
+    assert note in F["projects/whitelee.md"].split("## What is the planning status of Whitelee?")[1].split("## What are the main")[0]
+    assert "repowering proposal" not in F["projects/arecleoch.md"]  # the note is Whitelee's own
+
+
+def test_builder_rejects_a_note_without_records_or_with_internal_wording(tmp_path):
+    def bad_notes(doc):
+        doc["projects"]["Whitelee"]["note"] = "decided by the user"
+        doc["projects"]["Chapelcross data centre campus (CX Tech)"]["note"] = "a note without records"
+    site = _mini_site(tmp_path, edit=bad_notes)
+    try:
+        sg.build_files(site, "2026-10-17")
+    except sg.BuildError as e:
+        assert "Whitelee: invalid note" in str(e) and "a note needs register records" in str(e)
+    else:
+        raise AssertionError("bad notes accepted")
+
+
+def test_record_tables_stack_into_labelled_cards_on_narrow_screens():
+    F, _ = built()
+    for name in MAPPED:
+        page = F[f"projects/{sg.slugify(name)}.html"]
+        i = page.index("<h2>Register records</h2>")
+        assert '<div style="overflow-x:auto"><table class="records"><thead>' in page[i:i + 1200], name
+        assert page.count("</table></div>") == 1, name
+        assert "@media (max-width:640px)" in page[:page.index("</style>")], name
+        for label in sg.RECORD_HEAD:
+            assert f'data-label="{label}"' in page, (name, label)
+        assert page.count('data-label="Relationship"') == len(_records(name)), name  # every record shows its relationship label
+    for other in ("chapelcross-data-centre-campus-cx-tech", "rufus-data-centre-campus-hurlford"):
+        assert "records" not in F[f"projects/{other}.html"][:F[f"projects/{other}.html"].index("</style>")]  # other pages are unchanged
+
+
+def test_long_links_wrap_so_phone_screens_do_not_widen():
+    F, _ = built()
+    checked = 0
+    for path, text in F.items():
+        if not path.endswith(".html") or path == "index.html":
+            continue
+        body = text[text.index("<body>"):]
+        for m in re.finditer(r"<li([^>]*)>(.*?)</li>", body, flags=re.S):
+            visible = htmllib.unescape(re.sub(r"<[^>]+>", " ", m.group(2)))
+            if any(len(tok) > 38 for tok in visible.split()):
+                checked += 1
+                assert "overflow-wrap:anywhere" in m.group(1), (path, visible[:60])
+    assert checked > 40  # the rule was exercised on the credit and source lists of the project pages
+
+
+def test_exporter_labels_inferred_and_unverified_facts_by_their_own_basis():
+    e = ex.public_entry({"status_reported": "Unverified: nothing found", "capacity_reported": "Unverified: no source",
+                         "council": "A Council, from the location", "council_inferred": True, "developer_reported": "Dev Ltd"})
+    basis = {f["label"]: f["basis"] for f in e["facts"]}
+    assert basis == {"Status": "unverified", "Developer": "reported", "Council (inferred)": "inferred", "Capacity": "unverified"}
+
+
+def test_unverified_status_is_not_repeated_in_the_capsule():
+    F, _ = built()
+    cap = F["projects/rufus-data-centre-campus-hurlford.md"].split("\n")[2]
+    assert "Status: Unverified: no primary source has been confirmed for display here, so check the council's public planning register." in cap
+    assert "(unverified)" not in cap and "(reported)" not in cap
+
+
+def test_dates_and_identifiers_do_not_break_at_hyphens_but_the_text_is_unchanged():
+    F, _ = built()
+    page = F["projects/whitelee.html"]
+    assert '<span style="white-space:nowrap">2010-05-20</span>' in page
+    plain = re.sub(r"<[^>]+>", "", page)
+    assert "record updated 2010-05-20; status event 2007-12-14" in plain  # wrapping changes markup only, not the words or the copied text
+    assert "record updated 2010-05-20; status event 2007-12-14" in F["projects/whitelee.md"]

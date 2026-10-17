@@ -861,7 +861,7 @@
     {
      "label": "Status",
      "value": "Unverified: no primary source has been confirmed for display here, so check the council's public planning register",
-     "basis": "reported",
+     "basis": "unverified",
      "source": "reported"
     },
     {
@@ -877,15 +877,15 @@
      "source": "companies_house"
     },
     {
-     "label": "Council",
-     "value": "East Ayrshire Council (planning authority for the site's location)",
-     "basis": "reported",
+     "label": "Council (inferred)",
+     "value": "East Ayrshire Council, inferred from the site's location in Hurlford; not confirmed by a planning register",
+     "basis": "inferred",
      "source": "reported"
     },
     {
      "label": "Capacity",
      "value": "Unverified: no primary source found",
-     "basis": "reported",
+     "basis": "unverified",
      "source": "reported"
     }
    ],
@@ -1149,7 +1149,8 @@
      "relation": "'Whitelee Extension'; a different NESO project number; its relation to the REPD extension records is unverified.",
      "basis": "name_similar"
     }
-   ]
+   ],
+   "note": "The records listed describe the registered assets. Several archived posts discuss a repowering proposal; a search of the registers by name did not establish that proposal's register status, so none is shown here."
   }
  }
 }
