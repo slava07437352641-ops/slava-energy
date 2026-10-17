@@ -213,15 +213,21 @@
    "url": "https://www.facebook.com/groups/1321067339345501/posts/1574997253952507/",
    "tier": "A",
    "site_records": 1,
-   "project_linked_records": 0,
+   "project_linked_records": 1,
    "last_post_date": "2026-10-16",
    "audit": {
     "public": true,
     "active": true,
-    "mapped": false
+    "mapped": true
    },
-   "brief_eligible": false,
-   "ingest": "on"
+   "brief_eligible": true,
+   "ingest": "on",
+   "default_project": {
+    "project": "Cross Border Connection (Carlisle to Scottish border)",
+    "canonical": "cross border connection",
+    "status": "applied",
+    "note": "user decision 2026-10-17; group has one post on the site (1574997253952507)"
+   }
   },
   {
    "name": "Not A Just Transition",
@@ -245,12 +251,12 @@
    "url": "https://www.facebook.com/ourpower.scot/posts/122135918277244466",
    "tier": "A",
    "site_records": 5,
-   "project_linked_records": 0,
+   "project_linked_records": 1,
    "last_post_date": "2026-10-16",
    "audit": {
     "public": false,
     "active": true,
-    "mapped": false
+    "mapped": true
    },
    "brief_eligible": false,
    "ingest": "unset"
@@ -305,8 +311,11 @@
    "default_project": {
     "project": "Grimsby to Walpole 400kV overhead line",
     "canonical": "grimsby to walpole",
-    "status": "held",
-    "note": "held: the staged post 4177408222550659 (BBC Doncaster solar) must keep no project link (decision 2026-10-16); a group default would link it"
+    "status": "applied",
+    "exclude_posts": [
+     "4177408222550659"
+    ],
+    "note": "user decision 2026-10-17; post 4177408222550659 (Doncaster solar headline) stays unlinked by exclusion"
    }
   },
   {
@@ -413,7 +422,7 @@
    "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29262420503360300/",
    "tier": "A",
    "site_records": 2687,
-   "project_linked_records": 92,
+   "project_linked_records": 105,
    "last_post_date": "2026-10-16",
    "audit": {
     "public": true,
@@ -509,7 +518,7 @@
    "url": "https://www.facebook.com/WindEnergysAbsurd/posts/1529320515891910/",
    "tier": "A",
    "site_records": 85,
-   "project_linked_records": 15,
+   "project_linked_records": 18,
    "last_post_date": "2026-10-15",
    "audit": {
     "public": false,

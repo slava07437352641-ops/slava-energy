@@ -14,7 +14,8 @@
    "aliases": [
     "Blackdog",
     "Blackdog AI campus",
-    "Blackdog data centre"
+    "Blackdog data centre",
+    "Aberdeenshire AI Data Centre"
    ],
    "location": "Blackdog, north of Aberdeen (Aberdeenshire)",
    "council": "Aberdeenshire Council",
@@ -30,7 +31,8 @@
     "https://www.datacenterdynamics.com/en/news/600mw-data-center-could-be-built-near-aberdeen-scotland-report/",
     "https://www.agcc.co.uk/news-article/multi-billion-pound-data-centre-and-ai-campus-in-aberdeenshire-progressing"
    ],
-   "tec_cross_reference": null
+   "tec_cross_reference": null,
+   "alias_note": "added 2026-10-17 on the user decision; the phrase is the petition name in post 3599864030161400. Search did not confirm the petition name (it found \"Stop AI data centres being built in Aberdeen\")."
   },
   {
    "id": "dc-chapelcross-dumfries",

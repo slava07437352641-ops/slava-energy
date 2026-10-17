@@ -182,8 +182,11 @@
   "STOP EAST LINCOLNSHIRE PYLONS": {
    "project": "Grimsby to Walpole 400kV overhead line",
    "canonical": "grimsby to walpole",
-   "status": "held",
-   "note": "held: the staged post 4177408222550659 (BBC Doncaster solar) must keep no project link (decision 2026-10-16); a group default would link it"
+   "status": "applied",
+   "exclude_posts": [
+    "4177408222550659"
+   ],
+   "note": "user decision 2026-10-17; post 4177408222550659 (Doncaster solar headline) stays unlinked by exclusion"
   },
   "SAY NO TO PYLONS 90km Notts, North Lincs, East Yorks": {
    "project": "North Humber to High Marnham 400kV overhead line",
@@ -196,6 +199,12 @@
    "canonical": "kintore to tealing",
    "status": "applies on ingest",
    "note": "no posts from this group are on the site yet; confirm the group's route before the first ingest"
+  },
+  "North Carlisle Against Pylons and Substation": {
+   "project": "Cross Border Connection (Carlisle to Scottish border)",
+   "canonical": "cross border connection",
+   "status": "applied",
+   "note": "user decision 2026-10-17; group has one post on the site (1574997253952507)"
   }
  }
 }

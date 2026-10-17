@@ -6,7 +6,7 @@
   "withMedia": 1283,
   "withCategories": 1092,
   "withTopics": 316,
-  "withProject": 192,
+  "withProject": 210,
   "withCoordinates": 95,
   "withSummary": 52,
   "withBodyText": 2409,
@@ -16271,7 +16271,7 @@
    ],
    "contentFingerprint": "936b679f63ca70518e83dbdb9723cb366c86d6b63bb90455e7d1de939f66d8b6",
    "bodyText": "OBJECT.NOW Machair Wind Farm Objection Platform - ObjectNow Object Now to the Machair Wind Farm Proposal",
-   "project": "Machair Offshore Wind Farm"
+   "project": "Machair"
   },
   {
    "id": "28881768918092129",
@@ -16707,7 +16707,7 @@
    "contentFingerprint": "910a0824dd3e1b214790782d02860dab646ba27114ef5d52d616a6a6c399a497",
    "summary": "Object Now to the Machair Wind Farm Proposal",
    "previewImage": "https://object.now/wp-content/uploads/2026/07/logo-150x150.png",
-   "project": "Machair Offshore Wind Farm"
+   "project": "Machair"
   },
   {
    "id": "27918798017773624",
@@ -21835,7 +21835,7 @@
    "contentFingerprint": "17ffdf4f4836bce39ddf354a58fcb7f653340430f2f7ec20c23e714ca3f1e211",
    "summary": "Object Now to the Machair Wind Farm Proposal",
    "previewImage": "https://object.now/wp-content/uploads/2026/07/logo-150x150.png",
-   "project": "Machair Offshore Wind Farm"
+   "project": "Machair"
   },
   {
    "id": "28662900373312319",
@@ -22777,6 +22777,12 @@
     },
     "bodyText": {
      "method": "content_before_first_comment"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "whitelee",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -22787,7 +22793,8 @@
    },
    "externalSource": "Energyvoice",
    "contentFingerprint": "71ac5678cc66f7f592784718bd85ff2828d36e170d1c19f97bf302f4110df791",
-   "bodyText": "Whitelee repowering signals rebuild of Britain's ageing wind fleet\nENERGYVOICE.COM Whitelee repowering signals rebuild of Britain's ageing wind fleet"
+   "bodyText": "Whitelee repowering signals rebuild of Britain's ageing wind fleet\nENERGYVOICE.COM Whitelee repowering signals rebuild of Britain's ageing wind fleet",
+   "project": "Whitelee"
   },
   {
    "id": "28601627602772930",
@@ -48537,6 +48544,12 @@
     },
     "photos": {
      "method": "facebook_post_screenshot"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "golticlay",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -48562,7 +48575,8 @@
    "photos": [
     "media/facebook/27328971073371929/photo_1.png"
    ],
-   "mediaCount": 1
+   "mediaCount": 1,
+   "project": "Golticlay Wind Farm"
   },
   {
    "id": "27328368136765556",
@@ -51990,6 +52004,12 @@
     },
     "bodyText": {
      "method": "content_before_first_comment"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "golticlay",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -52011,7 +52031,8 @@
    },
    "location": "Wick",
    "contentFingerprint": "2e03b873d402e3c8ecda118c7de887647a4fa1a3521048d40730c47cee75cc4b",
-   "bodyText": "Blade lifter will carry Golticlay turbine components through Wick\nJOHNOGROAT-JOURNAL.CO.UK Blade lifter will carry Golticlay turbine components through Wick"
+   "bodyText": "Blade lifter will carry Golticlay turbine components through Wick\nJOHNOGROAT-JOURNAL.CO.UK Blade lifter will carry Golticlay turbine components through Wick",
+   "project": "Golticlay Wind Farm"
   },
   {
    "id": "27175479038721134",
@@ -52461,6 +52482,12 @@
     },
     "bodyText": {
      "method": "content_before_first_comment"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "rampion",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -52474,7 +52501,8 @@
     "Onshore Wind"
    ],
    "contentFingerprint": "c6614dc00e8c73636b80280f125bef796342c4af6656009a109327f98350dba6",
-   "bodyText": "Shoreham lifeboat finds lone yachtsman drifting in Rampion Windfarm\nBBC.CO.UK Shoreham lifeboat finds lone yachtsman drifting in Rampion Windfarm"
+   "bodyText": "Shoreham lifeboat finds lone yachtsman drifting in Rampion Windfarm\nBBC.CO.UK Shoreham lifeboat finds lone yachtsman drifting in Rampion Windfarm",
+   "project": "Rampion Offshore Wind Farm"
   },
   {
    "id": "27159487713653600",
@@ -59558,6 +59586,12 @@
     },
     "photos": {
      "method": "facebook_post_screenshot"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "golticlay",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -59581,7 +59615,8 @@
    "photos": [
     "media/facebook/26870903272512047/photo_1.png"
    ],
-   "mediaCount": 1
+   "mediaCount": 1,
+   "project": "Golticlay Wind Farm"
   },
   {
    "id": "26866038146331893",
@@ -65368,6 +65403,12 @@
     },
     "bodyText": {
      "method": "content_before_first_comment"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "ardeer",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -65381,7 +65422,8 @@
     "Onshore Wind"
    ],
    "contentFingerprint": "e94c628839965f5438d1274b7d4ecd81900e75b5c2eb463e5ed9631c8910fc06",
-   "bodyText": "Two 490ft wind turbines WILL be built at Ardeer as government overrules council\nIRVINETIMES.COM Two 490ft wind turbines WILL be built at Ardeer as government overrules council"
+   "bodyText": "Two 490ft wind turbines WILL be built at Ardeer as government overrules council\nIRVINETIMES.COM Two 490ft wind turbines WILL be built at Ardeer as government overrules council",
+   "project": "Ardeer"
   },
   {
    "id": "26652159401053103",
@@ -66301,6 +66343,12 @@
     },
     "bodyText": {
      "method": "content_before_first_comment"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "watten",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -66314,7 +66362,8 @@
     "Onshore Wind"
    ],
    "contentFingerprint": "4aba4bb1b0fc64036b3e9c5737945692c0e5825dcea5b789d30057b7d2c02d00",
-   "bodyText": "Proposal for Watten wind farm with 220-metre turbines withdrawn after concern over ‘aviation safety’\nJOHNOGROAT-JOURNAL.CO.UK Proposal for Watten wind farm with 220-metre turbines withdrawn after concern over ‘aviation safety’"
+   "bodyText": "Proposal for Watten wind farm with 220-metre turbines withdrawn after concern over ‘aviation safety’\nJOHNOGROAT-JOURNAL.CO.UK Proposal for Watten wind farm with 220-metre turbines withdrawn after concern over ‘aviation safety’",
+   "project": "Watten Wind Farm"
   },
   {
    "id": "26618763764392667",
@@ -79919,6 +79968,12 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "overhill",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -79936,7 +79991,8 @@
    "mediaCount": 1,
    "categories": [
     "Onshore Wind"
-   ]
+   ],
+   "project": "Overhill Wind Farm"
   },
   {
    "id": "28453721440947943",
@@ -82736,6 +82792,12 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "rowancraig",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -82753,7 +82815,8 @@
    "mediaCount": 1,
    "categories": [
     "Onshore Wind"
-   ]
+   ],
+   "project": "Rowancraig Wind Farm"
   },
   {
    "id": "29487613887507626",
@@ -83963,12 +84026,6 @@
     },
     "categories": {
      "method": "keyword"
-    },
-    "project": {
-     "method": "single_word_allowlist",
-     "word": "crossdykes",
-     "register": "objects.sqlite",
-     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -83986,8 +84043,7 @@
    "mediaCount": 1,
    "categories": [
     "Onshore Wind"
-   ],
-   "project": "Crossdykes"
+   ]
   },
   {
    "id": "1387466816878893",
@@ -84236,6 +84292,12 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "whitelee",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -84253,7 +84315,8 @@
    "mediaCount": 1,
    "categories": [
     "Onshore Wind"
-   ]
+   ],
+   "project": "Whitelee"
   },
   {
    "id": "1617202856782576",
@@ -85898,6 +85961,12 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "golticlay",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -85915,7 +85984,8 @@
    "mediaCount": 1,
    "categories": [
     "Onshore Wind"
-   ]
+   ],
+   "project": "Golticlay Wind Farm"
   },
   {
    "id": "1142599978431589",
@@ -87815,6 +87885,12 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "overhill",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -87839,7 +87915,8 @@
    "categories": [
     "Onshore Wind",
     "Substation"
-   ]
+   ],
+   "project": "Overhill Wind Farm"
   },
   {
    "id": "29591072300495117",
@@ -89243,12 +89320,6 @@
     },
     "categories": {
      "method": "keyword"
-    },
-    "project": {
-     "method": "single_word_allowlist",
-     "word": "chleansaid",
-     "register": "objects.sqlite",
-     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -89270,8 +89341,7 @@
     "OHL (Pylons)",
     "Onshore Wind",
     "Substation"
-   ],
-   "project": "Chleansaid Onshore Wind Farm"
+   ]
   },
   {
    "id": "1395024072789834",
@@ -89823,6 +89893,12 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "seagreen",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -89840,7 +89916,8 @@
    "mediaCount": 1,
    "categories": [
     "Onshore Wind"
-   ]
+   ],
+   "project": "Seagreen"
   },
   {
    "id": "1512498654240763",
@@ -90780,7 +90857,7 @@
     "media/facebook/1519569630200332/photo_1.png"
    ],
    "mediaCount": 1,
-   "project": "Machair Offshore Wind Farm"
+   "project": "Machair"
   },
   {
    "id": "1519597490197546",
@@ -91505,6 +91582,12 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "acheilidh",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -91525,7 +91608,8 @@
     "Hybrid",
     "Onshore Wind",
     "Solar"
-   ]
+   ],
+   "project": "Acheilidh Wind Farm"
   },
   {
    "id": "1528163506007611",
@@ -92744,6 +92828,12 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "kilbraur",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -92761,7 +92851,8 @@
    "mediaCount": 1,
    "categories": [
     "Onshore Wind"
-   ]
+   ],
+   "project": "Kilbraur Wind Farm"
   },
   {
    "id": "29611949888407358",
@@ -93314,6 +93405,12 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "seagreen",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -93341,7 +93438,8 @@
    ],
    "categories": [
     "Onshore Wind"
-   ]
+   ],
+   "project": "Seagreen"
   },
   {
    "id": "1539008044923157",
@@ -93983,12 +94081,6 @@
     },
     "photos": {
      "method": "screenshot"
-    },
-    "project": {
-     "method": "single_word_allowlist",
-     "word": "errochty",
-     "register": "objects.sqlite",
-     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -94003,8 +94095,7 @@
    "photos": [
     "media/facebook/1399270729031835/photo_1.png"
    ],
-   "mediaCount": 1,
-   "project": "Errochty"
+   "mediaCount": 1
   },
   {
    "id": "29647644271504586",
@@ -95316,6 +95407,12 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "whitelee",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -95333,7 +95430,8 @@
    "mediaCount": 1,
    "categories": [
     "Onshore Wind"
-   ]
+   ],
+   "project": "Whitelee"
   },
   {
    "id": "1401172058841702",
@@ -95623,6 +95721,12 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "whitelee",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -95650,7 +95754,8 @@
    ],
    "categories": [
     "Onshore Wind"
-   ]
+   ],
+   "project": "Whitelee"
   },
   {
    "id": "29683681794567500",
@@ -96165,7 +96270,7 @@
     "Onshore Wind",
     "Substation"
    ],
-   "project": "Redshaw Energy Park"
+   "project": "Redshaw Battery Energy Storage"
   },
   {
    "id": "29688500684085611",
@@ -96687,6 +96792,12 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "whitelee",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -96704,7 +96815,8 @@
    "mediaCount": 1,
    "categories": [
     "Onshore Wind"
-   ]
+   ],
+   "project": "Whitelee"
   },
   {
    "id": "122135924037244466",
@@ -97073,6 +97185,12 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "leithenwater",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -97104,7 +97222,8 @@
    ],
    "categories": [
     "Onshore Wind"
-   ]
+   ],
+   "project": "Leithenwater Wind Energy Hub - Wind Farm"
   },
   {
    "id": "28724003447253073",
@@ -97888,11 +98007,10 @@
      "method": "keyword"
     },
     "project": {
-     "method": "group_default",
-     "match_type": "group_default",
-     "canonical": "mochrum fell wind farm",
-     "group": "Help Save Mochrum Fell",
-     "confidence": "single-project group default, review"
+     "method": "track_b_register_alias",
+     "register": "data_centre_register",
+     "canonical": "dc-blackdog-aberdeenshire",
+     "confidence": "alias match, review; petition name in the post text, not confirmed by search"
     }
    },
    "source": {
@@ -97921,7 +98039,7 @@
    "categories": [
     "Data Centre"
    ],
-   "project": "Mochrum Fell Wind Farm"
+   "project": "Blackdog data centre campus"
   },
   {
    "id": "1086137504237722",
@@ -99342,6 +99460,13 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "group_default",
+     "match_type": "group_default",
+     "canonical": "cross border connection",
+     "group": "North Carlisle Against Pylons and Substation",
+     "confidence": "single-project group default, review"
     }
    },
    "source": {
@@ -99369,7 +99494,8 @@
    ],
    "categories": [
     "OHL (Pylons)"
-   ]
+   ],
+   "project": "Cross Border Connection (Carlisle to Scottish border)"
   },
   {
    "id": "4177408222550659",

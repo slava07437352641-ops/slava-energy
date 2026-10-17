@@ -1,82 +1,116 @@
 {
- "status": "decided by the user 2026-10-17; links applied on the feature branch only, not yet on main",
- "rule": "a single word links only when (a) it is approved below, (b) it appears as a whole word in post content (not the group-name title), (c) its register rows collapse to one project (ambiguous words stay unlinked), and (d) conditional words have their wind term within two words",
- "approved_keep": [
-  "acheilidh",
-  "arecleoch",
-  "chalmerston",
-  "coalburn",
-  "crossdykes",
-  "dalchork",
-  "errochty",
-  "euchanhead",
-  "forsinain",
-  "forss",
-  "glenvernoch",
-  "golticlay",
-  "kilbraur",
-  "killean",
-  "leithenwater",
-  "logiealmond",
-  "rampion",
-  "rowancraig",
-  "seagreen",
-  "shinness",
-  "tormsdale",
-  "whitelee"
- ],
- "approved_add": [
-  "earba",
-  "clachaig",
-  "chleansaid",
-  "redshaw",
-  "ardeer",
-  "overhill"
- ],
- "conditional": {
+ "status": "decided by the user 2026-10-17; applied on the feature branch; publish to main only after the link count is reported",
+ "rule": "a single word links only when it is in approved (see its rule), appears as a whole word in post text (title only when it is a headline), and either has a label or has one register project. Words with rules: wind_terms (a wind term within within_words) or requires_any (a context word anywhere in the text).",
+ "approved": {
+  "arecleoch": {},
+  "chalmerston": {},
+  "crossdykes": {},
+  "euchanhead": {},
+  "forsinain": {},
+  "glenvernoch": {},
+  "logiealmond": {},
+  "shinness": {},
+  "tormsdale": {},
+  "killean": {},
+  "acheilidh": {
+   "label": "Acheilidh Wind Farm"
+  },
+  "dalchork": {
+   "label": "Dalchork Farm"
+  },
+  "golticlay": {
+   "label": "Golticlay Wind Farm"
+  },
+  "kilbraur": {
+   "label": "Kilbraur Wind Farm"
+  },
+  "leithenwater": {
+   "label": "Leithenwater Wind Energy Hub - Wind Farm"
+  },
+  "rampion": {
+   "label": "Rampion Offshore Wind Farm"
+  },
+  "rowancraig": {
+   "label": "Rowancraig Wind Farm"
+  },
+  "seagreen": {
+   "label": "Seagreen"
+  },
+  "whitelee": {
+   "label": "Whitelee"
+  },
+  "errochty": {
+   "requires_any": [
+    "pumped",
+    "storage"
+   ]
+  },
+  "earba": {
+   "label": "Earba PSH"
+  },
+  "clachaig": {
+   "label": "Clachaig Glen Wind Farm"
+  },
+  "chleansaid": {
+   "label": "Chleansaid Wind Farm"
+  },
+  "redshaw": {
+   "label": "Redshaw Battery Energy Storage"
+  },
+  "ardeer": {
+   "label": "Ardeer"
+  },
+  "overhill": {
+   "label": "Overhill Wind Farm"
+  },
   "watten": {
-   "within_words": 2,
+   "label": "Watten Wind Farm",
    "wind_terms": [
     "wind",
     "windfarm",
     "bess",
     "substation"
-   ]
+   ],
+   "within_words": 2
   },
   "machair": {
-   "within_words": 2,
    "wind_terms": [
     "wind",
     "windfarm",
     "offshore"
-   ]
+   ],
+   "within_words": 2
+  },
+  "rothienorman": {
+   "label": "Overhill Farm, Rothienorman - Battery Energy Storage"
+  },
+  "achlachan": {
+   "label": "Achlachan Wind Farm 2, Watten - Wind Farm"
   }
  },
- "explicit_labels": {
-  "earba": "Earba Pumped Storage Hydro",
-  "clachaig": "Clachaig Glen Wind Farm",
-  "chleansaid": "Chleansaid Onshore Wind Farm",
-  "redshaw": "Redshaw Energy Park",
-  "ardeer": "Ardeer Peninsula wind turbines",
-  "overhill": "Overhill Wind Farm",
-  "watten": "Watten Wind Farm",
-  "machair": "Machair Offshore Wind Farm"
- },
- "same_project_rows": {
-  "earba": "REPD Moy Lodge, Tulloch - Earba Pumped Storage Hydro and TEC Earba PSH are one project",
-  "clachaig": "REPD Clachaig Glen and TEC Clachaig Glen Wind Farm are one project"
- },
  "held": {
-  "cockenzie": "held 2026-10-17: the Cockenzie group is a hyperscale data-centre campaign; the registers hold the Cockenzie BESS sites, which are different projects"
+  "coalburn": "held: register rows span different sites and technologies (waste AD, battery storage, green energy park); no single parent",
+  "forss": "held: Forss Wind Farm plus Forss BP Wind Turbine and Forss Abbey Energy Storage are different technologies",
+  "cockenzie": "held 2026-10-17: the Cockenzie group is a hyperscale data-centre campaign; the registers hold the Cockenzie BESS sites"
  },
  "rejected": {
   "aurora": "too generic (Northern Lights; several companies)",
   "lairg": "village name; several projects (Lairg, Lairg II, Stronelairg)",
-  "lochend": "common place name; two-word 'lochend wind' only",
+  "lochend": "common place name; use two-word forms only",
   "whitehill": "common UK place name; several BESS and road rows",
-  "bankend": "two-word only: 'bankend rig' links through the normal two-word matcher"
+  "bankend": "single word rejected; \"bankend rig\" links through the normal two-word matcher"
  },
- "pending_review_not_approved": [],
+ "post_overrides": {
+  "3599864030161400": {
+   "project": "Blackdog data centre campus",
+   "method": "track_b_register_alias",
+   "canonical": "dc-blackdog-aberdeenshire",
+   "confidence": "alias match, review; petition name in the post text, not confirmed by search"
+  }
+ },
+ "unlinked_override": [
+  "1399270729031835"
+ ],
  "removed_councils_regions_towns_common_nouns": [
   "america",
   "blackpool",
