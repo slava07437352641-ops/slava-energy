@@ -10,7 +10,7 @@ Counts are generated from the discussions index on 2026-10-17. Projects with at 
 - [Wind, solar and storage](https://slava.it.com/renewables-wind/index.md): 27 projects, 67 posts; latest 2026-10-15
 
 ## Projects
-- [Arecleoch](https://slava.it.com/projects/arecleoch.md): 2 posts from 2 groups; latest 2026-10-02; wind, solar and storage.
+- [Arecleoch Wind Farm and extension](https://slava.it.com/projects/arecleoch.md): 2 posts from 2 groups; latest 2026-10-02; wind, solar and storage.
 - [Beauly to Peterhead 400kV overhead line](https://slava.it.com/projects/beauly-to-peterhead-400kv-overhead-line.md): 4 posts from 2 groups; latest 2026-10-14; pylons and grid.
 - [Berwick Bank Offshore Wind Farm](https://slava.it.com/projects/berwick-bank-offshore-wind-farm.md): 11 posts from 2 groups; latest 2026-10-07; wind, solar and storage.
 - [Blackdog data centre campus](https://slava.it.com/projects/blackdog-data-centre-campus.md): 11 posts from 2 groups; latest 2026-10-15; ai data centre.

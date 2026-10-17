@@ -117,6 +117,14 @@
     }
    ]
   },
+  "companies_house": {
+   "name": "Companies House, the UK register of companies",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/",
+   "credit": "Company facts: Companies House public register",
+   "terms_url": "https://www.gov.uk/government/publications/companies-house-accreditation-to-information-fair-traders-scheme/public-task-copyright-and-crown-copyright",
+   "terms_note": "Companies House states that it imposes no rules or requirements on how the information on the public register is used (page updated 9 August 2019)",
+   "checked": "2026-10-17"
+  },
   "reported": {
    "name": "Press, developer and council reports",
    "note": "Reported facts link to their public sources on each page and are not independently verified."
@@ -134,21 +142,71 @@
  ],
  "projects": {
   "Arecleoch": {
-   "facts": [
+   "facts": [],
+   "sources": [],
+   "records": [
     {
-     "label": "TEC rows with this name",
-     "value": "2",
-     "basis": "register",
-     "source": "neso_tec"
+     "register": "repd",
+     "id": "3258",
+     "name": "Arecleoch Windfarm",
+     "status": "Operational",
+     "capacity": "120 MW",
+     "date": "record updated 2011-10-25; status event 2011-06-14",
+     "relation": "Original wind farm; the name is spelled 'Arecleoch Windfarm'; no identifier is shared with the REPD NESO rows.",
+     "basis": "name_similar"
     },
     {
-     "label": "TEC project status",
-     "value": "Built",
-     "basis": "register",
-     "source": "neso_tec"
+     "register": "neso_tec",
+     "id": "PRO-000012-1",
+     "name": "Arecleoch",
+     "status": "Built",
+     "capacity": "connected 114 MW; cumulative 114 MW",
+     "date": "no effective date in the file",
+     "relation": "Stage 1 of NESO project PRO-000012; relation to REPD 3258 is unverified (same site name, no shared identifier).",
+     "basis": "neso_project_number"
+    },
+    {
+     "register": "neso_tec",
+     "id": "PRO-000012-2",
+     "name": "Arecleoch",
+     "status": "Scoping",
+     "capacity": "connected 0 MW; cumulative 330 MW",
+     "date": "MW effective from 2032-06-15",
+     "relation": "Stage 2 of NESO project PRO-000012.",
+     "basis": "neso_project_number"
+    },
+    {
+     "register": "repd",
+     "id": "6798",
+     "name": "Arecleoch Wind Farm (extension)",
+     "status": "Under Construction",
+     "capacity": "72.8 MW",
+     "date": "record updated 2025-07-25; status event 2025-06-01",
+     "relation": "Extension: the REPD name is 'Arecleoch Wind Farm (extension)'.",
+     "basis": "name_similar"
+    },
+    {
+     "register": "repd",
+     "id": "7882",
+     "name": "Arecleoch Wind Farm (extension)",
+     "status": "Under Construction",
+     "capacity": "20 MW",
+     "date": "record updated 2025-07-25; status event 2025-06-01",
+     "relation": "Extension battery storage; REPD links it to 6798 (storage co-location).",
+     "basis": "register_link"
+    },
+    {
+     "register": "neso_tec",
+     "id": "PRO-001111",
+     "name": "Arecleoch Extension Windfarm",
+     "status": "Scoping",
+     "capacity": "connected 0 MW; cumulative 72.8 MW",
+     "date": "MW effective from 2026-08-31",
+     "relation": "'Arecleoch Extension Windfarm'; same capacity (72.8 MW) as REPD 6798 but no shared identifier, so the relation is unverified.",
+     "basis": "unverified"
     }
    ],
-   "sources": []
+   "label": "Arecleoch Wind Farm and extension"
   },
   "Beauly to Peterhead 400kV overhead line": {
    "facts": [
@@ -419,33 +477,80 @@
    "sources": []
   },
   "Golticlay Wind Farm": {
-   "facts": [
+   "facts": [],
+   "sources": [],
+   "records": [
     {
-     "label": "Embedded Register rows with this name",
-     "value": "2",
-     "basis": "register",
-     "source": "neso_embedded"
+     "register": "repd",
+     "id": "5195",
+     "name": "Golticlay Wind Farm",
+     "status": "Under Construction",
+     "capacity": "72.6 MW",
+     "date": "record updated 2026-02-23; status event 2025-07-01",
+     "relation": "Exact name match.",
+     "basis": "name_exact"
     },
     {
-     "label": "REPD reference",
-     "value": "5195",
-     "basis": "register",
-     "source": "repd"
+     "register": "repd",
+     "id": "20387",
+     "name": "Golticlay Wind Farm 2",
+     "status": "No Application Required",
+     "capacity": "13.2 MW",
+     "date": "record updated 2026-02-23",
+     "relation": "'Golticlay Wind Farm 2'; the REPD file gives it the same map reference as 5195; no identifier link.",
+     "basis": "name_similar"
     },
     {
-     "label": "REPD status",
-     "value": "Under Construction",
-     "basis": "register",
-     "source": "repd"
+     "register": "repd",
+     "id": "18325",
+     "name": "Golticlay Wind Farm, Bulreanrob - Wind Farm",
+     "status": "Planning Application Submitted",
+     "capacity": "not recorded",
+     "date": "record updated 2026-01-09; status event 2025-12-03",
+     "relation": "Bulreanrob wind farm record; REPD links 18325 and 18326 to each other, not to 5195.",
+     "basis": "name_similar"
     },
     {
-     "label": "Embedded Register project status",
-     "value": "Awaiting Consents",
-     "basis": "register",
-     "source": "neso_embedded"
+     "register": "repd",
+     "id": "18326",
+     "name": "Golticlay Wind Farm, Bulreanrob - Battery Energy Storage",
+     "status": "Planning Application Submitted",
+     "capacity": "not recorded",
+     "date": "record updated 2026-01-09; status event 2025-12-03",
+     "relation": "Bulreanrob battery storage; REPD links it to 18325 (storage co-location).",
+     "basis": "register_link"
+    },
+    {
+     "register": "neso_embedded",
+     "id": "PRO-000370-1",
+     "name": "Golticlay Wind Farm",
+     "status": "Awaiting Consents",
+     "capacity": "connected 0 MW; cumulative 50.07 MW",
+     "date": "MW effective from 2026-07-31",
+     "relation": "Stage 1 of NESO project PRO-000370 (Embedded Register); same name as REPD 5195 but capacity differs and no identifier is shared, so the link is unverified.",
+     "basis": "neso_project_number"
+    },
+    {
+     "register": "neso_embedded",
+     "id": "PRO-000370-2",
+     "name": "Golticlay Wind Farm",
+     "status": "Scoping",
+     "capacity": "connected 0 MW; cumulative 58 MW",
+     "date": "MW effective from 2026-07-31",
+     "relation": "Stage 2 of NESO project PRO-000370.",
+     "basis": "neso_project_number"
+    },
+    {
+     "register": "neso_embedded",
+     "id": "PRO-000926",
+     "name": "Golticlay Extension Wind Farm",
+     "status": "Awaiting Consents",
+     "capacity": "connected 0 MW; cumulative 55 MW",
+     "date": "MW effective from 2027-09-30",
+     "relation": "'Golticlay Extension Wind Farm'; a different NESO project number; relation to the REPD records is unverified.",
+     "basis": "name_similar"
     }
-   ],
-   "sources": []
+   ]
   },
   "Grudie Bridge": {
    "facts": [
@@ -546,27 +651,30 @@
    "sources": []
   },
   "Leithenwater Wind Energy Hub - Wind Farm": {
-   "facts": [
+   "facts": [],
+   "sources": [],
+   "records": [
     {
-     "label": "REPD rows with this name",
-     "value": "2",
-     "basis": "register",
-     "source": "repd"
+     "register": "repd",
+     "id": "12283",
+     "name": "Leithenwater Wind Energy Hub - Wind Farm",
+     "status": "Planning Application Submitted",
+     "capacity": "85.8 MW",
+     "date": "record updated 2024-06-14; status event 2024-04-04",
+     "relation": "Exact name match.",
+     "basis": "name_exact"
     },
     {
-     "label": "REPD reference",
-     "value": "12283",
-     "basis": "register",
-     "source": "repd"
-    },
-    {
-     "label": "REPD status",
-     "value": "Planning Application Submitted",
-     "basis": "register",
-     "source": "repd"
+     "register": "repd",
+     "id": "16496",
+     "name": "Leithenwater Wind Energy Hub - Wind Farm",
+     "status": "Planning Application Submitted",
+     "capacity": "10 MW",
+     "date": "record updated 2024-06-14; status event 2024-04-04",
+     "relation": "Exact name match; REPD links it to 12283 (storage co-location).",
+     "basis": "register_link"
     }
-   ],
-   "sources": []
+   ]
   },
   "Machair": {
    "facts": [
@@ -586,27 +694,30 @@
    "sources": []
   },
   "Mochrum Fell Wind Farm": {
-   "facts": [
+   "facts": [],
+   "sources": [],
+   "records": [
     {
-     "label": "REPD rows with this name",
-     "value": "2",
-     "basis": "register",
-     "source": "repd"
+     "register": "repd",
+     "id": "4466",
+     "name": "Mochrum Fell Wind Farm",
+     "status": "Revised",
+     "capacity": "24 MW",
+     "date": "record updated 2018-10-31",
+     "relation": "Exact name match; the earlier application. REPD links it to 7891 as a possible re-application.",
+     "basis": "name_exact"
     },
     {
-     "label": "REPD reference",
-     "value": "4466",
-     "basis": "register",
-     "source": "repd"
-    },
-    {
-     "label": "REPD status",
-     "value": "Revised",
-     "basis": "register",
-     "source": "repd"
+     "register": "repd",
+     "id": "7891",
+     "name": "Mochrum Fell Wind Farm",
+     "status": "Planning Application Submitted",
+     "capacity": "24 MW",
+     "date": "record updated 2021-11-18; status event 2020-10-01",
+     "relation": "Later application; REPD link 'Are they re-applying (New REPD Ref)' joins it to 4466.",
+     "basis": "register_link"
     }
-   ],
-   "sources": []
+   ]
   },
   "Mossy Hill Wind Farm": {
    "facts": [
@@ -631,33 +742,40 @@
    "sources": []
   },
   "Newlands Hill Wind Energy Hub": {
-   "facts": [
+   "facts": [],
+   "sources": [],
+   "records": [
     {
-     "label": "REPD rows with this name",
-     "value": "2",
-     "basis": "register",
-     "source": "repd"
+     "register": "repd",
+     "id": "12289",
+     "name": "Newlands Hill Wind Energy Hub",
+     "status": "Planning Application Submitted",
+     "capacity": "136 MW",
+     "date": "record updated 2023-12-07; status event 2023-11-14",
+     "relation": "Exact name match.",
+     "basis": "name_exact"
     },
     {
-     "label": "REPD reference",
-     "value": "12289",
-     "basis": "register",
-     "source": "repd"
+     "register": "repd",
+     "id": "15383",
+     "name": "Newlands Hill Wind Energy Hub",
+     "status": "Planning Application Submitted",
+     "capacity": "136 MW",
+     "date": "record updated 2023-12-07; status event 2023-11-14",
+     "relation": "Exact name match; REPD links it to 12289 (storage co-location).",
+     "basis": "register_link"
     },
     {
-     "label": "REPD status",
-     "value": "Planning Application Submitted",
-     "basis": "register",
-     "source": "repd"
-    },
-    {
-     "label": "TEC project status",
-     "value": "Awaiting Consents",
-     "basis": "register",
-     "source": "neso_tec"
+     "register": "neso_tec",
+     "id": "PRO-002549",
+     "name": "Newlands Hill Wind Energy Hub",
+     "status": "Awaiting Consents",
+     "capacity": "connected 0 MW; cumulative 119 MW",
+     "date": "MW effective from 2030-04-03",
+     "relation": "Exact name match in the NESO file; no identifier is shared with the REPD records.",
+     "basis": "name_exact"
     }
-   ],
-   "sources": []
+   ]
   },
   "Norwich to Tilbury (East Anglia GREEN)": {
    "facts": [
@@ -742,79 +860,100 @@
    "facts": [
     {
      "label": "Status",
-     "value": "Pre-application enquiries (late 2025); no full application found",
-     "basis": "reported",
+     "value": "Unverified: no primary source has been confirmed for display here, so check the council's public planning register",
+     "basis": "unverified",
      "source": "reported"
     },
     {
-     "label": "Developer",
-     "value": "ILI Group",
-     "basis": "reported",
-     "source": "reported"
+     "label": "Company",
+     "value": "ILI RUFUS LIMITED (company number SC825440); Active; incorporated 2024-10-10",
+     "basis": "register",
+     "source": "companies_house"
     },
     {
-     "label": "Council",
-     "value": "East Ayrshire Council",
-     "basis": "reported",
+     "label": "Persons with significant control (corporate)",
+     "value": "Intelligent Land Investments Group Plc",
+     "basis": "register",
+     "source": "companies_house"
+    },
+    {
+     "label": "Council (inferred)",
+     "value": "East Ayrshire Council, inferred from the site's location in Hurlford; not confirmed by a planning register",
+     "basis": "inferred",
      "source": "reported"
     },
     {
      "label": "Capacity",
-     "value": "540 MW (aggregator figure; conflicting figures on the same page; unverified)",
-     "basis": "reported",
+     "value": "Unverified: no primary source found",
+     "basis": "unverified",
      "source": "reported"
     }
    ],
    "sources": [
-    "https://baxtel.com/data-center/ili-group-rufus-campus",
-    "https://www.theconstructionindex.co.uk/planning-leads/Kilmarnock/view/1224537"
+    "https://find-and-update.company-information.service.gov.uk/company/SC825440"
    ]
   },
   "Sanquhar II Wind Farm": {
-   "facts": [
+   "facts": [],
+   "sources": [],
+   "records": [
     {
-     "label": "TEC rows with this name",
-     "value": "2",
-     "basis": "register",
-     "source": "neso_tec"
+     "register": "neso_tec",
+     "id": "PRO-000352-1",
+     "name": "Sanquhar II Wind Farm",
+     "status": "Consents Approved",
+     "capacity": "connected 0 MW; cumulative 137 MW",
+     "date": "MW effective from 2026-07-31",
+     "relation": "Stage 1 of NESO project PRO-000352.",
+     "basis": "neso_project_number"
     },
     {
-     "label": "TEC project status",
-     "value": "Consents Approved",
-     "basis": "register",
-     "source": "neso_tec"
+     "register": "neso_tec",
+     "id": "PRO-000352-2",
+     "name": "Sanquhar II Wind Farm",
+     "status": "Consents Approved",
+     "capacity": "connected 0 MW; cumulative 250 MW",
+     "date": "MW effective from 2027-02-28",
+     "relation": "Stage 2 of NESO project PRO-000352.",
+     "basis": "neso_project_number"
     }
-   ],
-   "sources": []
+   ]
   },
   "Scoop Hill Wind Farm": {
-   "facts": [
+   "facts": [],
+   "sources": [],
+   "records": [
     {
-     "label": "REPD rows with this name",
-     "value": "2",
-     "basis": "register",
-     "source": "repd"
+     "register": "repd",
+     "id": "7454",
+     "name": "Scoop Hill Wind Farm",
+     "status": "Planning Permission Refused",
+     "capacity": "432 MW",
+     "date": "record updated 2026-06-22; status event 2026-02-05",
+     "relation": "Exact name match.",
+     "basis": "name_exact"
     },
     {
-     "label": "REPD reference",
-     "value": "7454",
-     "basis": "register",
-     "source": "repd"
+     "register": "repd",
+     "id": "20966",
+     "name": "Scoop Hill Wind Farm",
+     "status": "Planning Permission Refused",
+     "capacity": "200 MW",
+     "date": "record updated date not recorded; status event 2026-02-05",
+     "relation": "Exact name match; REPD links it to 7454 (storage co-location link type).",
+     "basis": "register_link"
     },
     {
-     "label": "REPD status",
-     "value": "Planning Permission Refused",
-     "basis": "register",
-     "source": "repd"
-    },
-    {
-     "label": "TEC project status",
-     "value": "Awaiting Consents",
-     "basis": "register",
-     "source": "neso_tec"
+     "register": "neso_tec",
+     "id": "PRO-000327",
+     "name": "Scoop Hill Wind Farm",
+     "status": "Awaiting Consents",
+     "capacity": "connected 0 MW; cumulative 500 MW",
+     "date": "MW effective from 2027-10-31",
+     "relation": "Exact name match in the NESO file; no identifier is shared with the REPD records.",
+     "basis": "name_exact"
     }
-   ],
-   "sources": []
+   ]
   },
   "Seagreen": {
    "facts": [
@@ -834,27 +973,30 @@
    "sources": []
   },
   "Shinness Wind Farm": {
-   "facts": [
+   "facts": [],
+   "sources": [],
+   "records": [
     {
-     "label": "REPD rows with this name",
-     "value": "2",
-     "basis": "register",
-     "source": "repd"
+     "register": "repd",
+     "id": "12027",
+     "name": "Shinness Wind Farm",
+     "status": "Planning Application Submitted",
+     "capacity": "105.6 MW",
+     "date": "record updated 2024-06-11; status event 2024-04-15",
+     "relation": "Exact name match.",
+     "basis": "name_exact"
     },
     {
-     "label": "REPD reference",
-     "value": "12027",
-     "basis": "register",
-     "source": "repd"
-    },
-    {
-     "label": "REPD status",
-     "value": "Planning Application Submitted",
-     "basis": "register",
-     "source": "repd"
+     "register": "repd",
+     "id": "12029",
+     "name": "Shinness Wind Farm",
+     "status": "Planning Application Submitted",
+     "capacity": "105 MW",
+     "date": "record updated 2024-06-11; status event 2024-04-15",
+     "relation": "Exact name match; REPD links it to 12027 (storage co-location).",
+     "basis": "register_link"
     }
-   ],
-   "sources": []
+   ]
   },
   "Spiorad na Mara": {
    "facts": [
@@ -874,33 +1016,141 @@
    "sources": []
   },
   "Whitelee": {
-   "facts": [
+   "facts": [],
+   "sources": [],
+   "records": [
     {
-     "label": "TEC rows with this name",
-     "value": "4",
-     "basis": "register",
-     "source": "neso_tec"
+     "register": "repd",
+     "id": "3489",
+     "name": "Whitelee",
+     "status": "Operational",
+     "capacity": "322 MW",
+     "date": "record updated 2010-05-20; status event 2007-12-14",
+     "relation": "Exact name match.",
+     "basis": "name_exact"
     },
     {
-     "label": "REPD reference",
-     "value": "3489",
-     "basis": "register",
-     "source": "repd"
+     "register": "repd",
+     "id": "7174",
+     "name": "Whitelee Wind Farm Battery Storage Extension",
+     "status": "Operational",
+     "capacity": "50 MW",
+     "date": "record updated 2022-02-21; status event 2021-10-01",
+     "relation": "Battery storage extension; REPD links it to 3489 (storage co-location).",
+     "basis": "register_link"
     },
     {
-     "label": "REPD status",
-     "value": "Operational",
-     "basis": "register",
-     "source": "repd"
+     "register": "repd",
+     "id": "2757",
+     "name": "Whitelee Windfarm Extension phase 2",
+     "status": "Operational",
+     "capacity": "109 MW",
+     "date": "record updated 2013-04-19; status event 2013-01-15",
+     "relation": "'Whitelee Windfarm Extension phase 2'; no REPD link to 3489.",
+     "basis": "name_similar"
     },
     {
-     "label": "TEC project status",
-     "value": "Built",
-     "basis": "register",
-     "source": "neso_tec"
+     "register": "repd",
+     "id": "3981",
+     "name": "Whitelee Windfarm Extension Phase 1",
+     "status": "Operational",
+     "capacity": "108 MW",
+     "date": "record updated 2013-04-22; status event 2012-10-31",
+     "relation": "'Whitelee Windfarm Extension Phase 1'; no REPD link to 3489.",
+     "basis": "name_similar"
+    },
+    {
+     "register": "repd",
+     "id": "4232",
+     "name": "Whitelee Windfarm Extension Phase 3",
+     "status": "Appeal Refused",
+     "capacity": "12 MW",
+     "date": "record updated 2016-11-01; status event 2016-10-19",
+     "relation": "'Whitelee Windfarm Extension Phase 3'; no REPD link to 3489.",
+     "basis": "name_similar"
+    },
+    {
+     "register": "repd",
+     "id": "8341",
+     "name": "Whitelees Hydrogen Production Facility, Solar Farm & Battery Storage",
+     "status": "Planning Permission Granted",
+     "capacity": "40 MW",
+     "date": "record updated 2025-01-20; status event 2025-01-09",
+     "relation": "'Whitelees' hydrogen, solar and battery project; REPD links 8341, 8342 and 9076 to each other, not to 3489.",
+     "basis": "name_similar"
+    },
+    {
+     "register": "repd",
+     "id": "8342",
+     "name": "Whitelees Hydrogen Production Facility, Solar Farm & Battery Storage",
+     "status": "Planning Permission Granted",
+     "capacity": "50 MW",
+     "date": "record updated 2025-01-20; status event 2025-01-09",
+     "relation": "'Whitelees' hydrogen, solar and battery project; linked to 8341 and 9076 only.",
+     "basis": "name_similar"
+    },
+    {
+     "register": "repd",
+     "id": "9076",
+     "name": "Whitelees Hydrogen Production Facility, Solar Farm & Battery Storage",
+     "status": "Planning Permission Granted",
+     "capacity": "20 MW",
+     "date": "record updated 2025-01-20; status event 2025-01-09",
+     "relation": "'Whitelees' hydrogen, solar and battery project; linked to 8341 and 8342 only.",
+     "basis": "name_similar"
+    },
+    {
+     "register": "neso_tec",
+     "id": "PRO-000067-1",
+     "name": "Whitelee",
+     "status": "Built",
+     "capacity": "connected 305 MW; cumulative 305 MW",
+     "date": "no effective date in the file",
+     "relation": "Stage 1 of NESO project PRO-000067; no identifier is shared with the REPD records, so the link to REPD 3489 is unverified.",
+     "basis": "neso_project_number"
+    },
+    {
+     "register": "neso_tec",
+     "id": "PRO-000067-2",
+     "name": "Whitelee",
+     "status": "Scoping",
+     "capacity": "connected 0 MW; cumulative 355 MW",
+     "date": "MW effective from 2031-05-02",
+     "relation": "Stage 2 of NESO project PRO-000067.",
+     "basis": "neso_project_number"
+    },
+    {
+     "register": "neso_tec",
+     "id": "PRO-000067-3",
+     "name": "Whitelee",
+     "status": "Scoping",
+     "capacity": "connected 0 MW; cumulative 660 MW",
+     "date": "MW effective from 2033-04-25",
+     "relation": "Stage 3 of NESO project PRO-000067.",
+     "basis": "neso_project_number"
+    },
+    {
+     "register": "neso_tec",
+     "id": "PRO-000067-4",
+     "name": "Whitelee",
+     "status": "Scoping",
+     "capacity": "connected 0 MW; cumulative 818 MW",
+     "date": "MW effective from 2034-04-27",
+     "relation": "Stage 4 of NESO project PRO-000067.",
+     "basis": "neso_project_number"
+    },
+    {
+     "register": "neso_tec",
+     "id": "PRO-000068",
+     "name": "Whitelee Extension",
+     "status": "Built",
+     "capacity": "connected 206 MW; cumulative 238 MW",
+     "date": "MW effective from 2026-12-01",
+     "relation": "'Whitelee Extension'; a different NESO project number; its relation to the REPD extension records is unverified.",
+     "basis": "name_similar"
     }
    ],
-   "sources": []
+   "note": "The records listed describe the registered assets. Several archived posts discuss a repowering proposal; a search of the registers by name did not establish that proposal's register status, so none is shown here."
   }
  }
 }

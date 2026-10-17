@@ -1,14 +1,21 @@
 # Mochrum Fell Wind Farm
 
-Mochrum Fell Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 2 community posts from 1 group, latest 2026-10-15. REPD reference: 4466 (register). REPD status: Revised (register). Top recurring themes: none tagged. Posts are archived public group posts and are not independently verified.
+Mochrum Fell Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 2 community posts from 1 group, latest 2026-10-15. 2 register records are listed (2 REPD). Their statuses differ, so no single status is given. Top recurring themes: none tagged. Posts are archived public group posts and are not independently verified.
 
 ## Register facts
 
 | Item | Value | Basis |
 |---|---|---|
-| REPD rows with this name | 2 | register |
-| REPD reference | 4466 | register |
-| REPD status | Revised | register |
+| Register records | 2 listed (2 REPD). Statuses: Revised (1), Planning Application Submitted (1) | register |
+
+## Register records
+
+Each row is one register record with its own identifier; records are not combined. Relationships are stated only where a register links the records, and are otherwise labelled as unlinked or unverified. REPD dates are the record's update date and the date of the status event where one is recorded. The NESO files give no status date; the date shown is the MW effective-from date.
+
+| Register | Identifier | Name as recorded | Status | Capacity | Date | Relationship |
+|---|---|---|---|---|---|---|
+| REPD | 4466 | Mochrum Fell Wind Farm | Revised | 24 MW | record updated 2018-10-31 | Exact name match; the earlier application. REPD links it to 7891 as a possible re-application. |
+| REPD | 7891 | Mochrum Fell Wind Farm | Planning Application Submitted | 24 MW | record updated 2021-11-18; status event 2020-10-01 | Later application; REPD link 'Are they re-applying (New REPD Ref)' joins it to 4466. |
 
 ## Data credits
 
@@ -29,7 +36,7 @@ Mochrum Fell Wind Farm is a wind, solar and storage project tracked on slava.it.
 
 ## What is the planning status of Mochrum Fell Wind Farm?
 
-Recorded: REPD status: Revised (register).
+No single status applies. Statuses by register record: Revised (1), Planning Application Submitted (1). The table gives each record's identifier, date and relationship; records are not combined.
 
 ## What are the main community discussions around Mochrum Fell Wind Farm?
 

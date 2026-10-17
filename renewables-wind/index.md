@@ -4,7 +4,7 @@ The Wind, solar and storage hub lists 27 projects with at least two linked commu
 
 ## Projects
 
-- [Arecleoch](https://slava.it.com/projects/arecleoch.md): 2 posts; latest 2026-10-02
+- [Arecleoch Wind Farm and extension](https://slava.it.com/projects/arecleoch.md): 2 posts; latest 2026-10-02
 - [Berwick Bank Offshore Wind Farm](https://slava.it.com/projects/berwick-bank-offshore-wind-farm.md): 11 posts; latest 2026-10-07
 - [Carn Fearna Wind Farm](https://slava.it.com/projects/carn-fearna-wind-farm.md): 2 posts; latest 2026-10-07
 - [Chapelcross data centre campus (CX Tech)](https://slava.it.com/projects/chapelcross-data-centre-campus-cx-tech.md): 29 posts; latest 2026-10-16
@@ -34,7 +34,7 @@ The Wind, solar and storage hub lists 27 projects with at least two linked commu
 
 ## Which projects are in this hub?
 
-Arecleoch; Berwick Bank Offshore Wind Farm; Carn Fearna Wind Farm; Chapelcross data centre campus (CX Tech); Ditcher Law; Giants Burn Wind Farm; Glen Earrach Pumped Storage Hydro; Glenvernoch; Golticlay Wind Farm; Hawks Nest Farm - Battery Storage; Hawthorn Pit -Solar Farm; Inch Cape; Lairg II Wind Farm; Leithenwater Wind Energy Hub - Wind Farm; Machair; Mossy Hill Wind Farm; New Cumnock BESS; Newlands Hill Wind Energy Hub; Olrig Mains Wind Farm; Overhill Wind Farm; Ravenscraig data centre (SevenFourEight); Sanquhar II Wind Farm; Scoop Hill Wind Farm; Seagreen; Shinness Wind Farm; Spiorad na Mara; Whitelee.
+Arecleoch Wind Farm and extension; Berwick Bank Offshore Wind Farm; Carn Fearna Wind Farm; Chapelcross data centre campus (CX Tech); Ditcher Law; Giants Burn Wind Farm; Glen Earrach Pumped Storage Hydro; Glenvernoch; Golticlay Wind Farm; Hawks Nest Farm - Battery Storage; Hawthorn Pit -Solar Farm; Inch Cape; Lairg II Wind Farm; Leithenwater Wind Energy Hub - Wind Farm; Machair; Mossy Hill Wind Farm; New Cumnock BESS; Newlands Hill Wind Energy Hub; Olrig Mains Wind Farm; Overhill Wind Farm; Ravenscraig data centre (SevenFourEight); Sanquhar II Wind Farm; Scoop Hill Wind Farm; Seagreen; Shinness Wind Farm; Spiorad na Mara; Whitelee.
 
 ## What are the main community themes in this hub?
 

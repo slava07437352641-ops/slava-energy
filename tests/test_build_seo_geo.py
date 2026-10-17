@@ -193,7 +193,7 @@ def test_builder_fails_when_a_page_project_has_no_entry(tmp_path, capsys):
 
 def test_builder_rejects_internal_wording_and_bad_links(tmp_path):
     def edit(doc):
-        e = doc["projects"]["Whitelee"]
+        e = doc["projects"]["Chapelcross data centre campus (CX Tech)"]
         e["facts"][0]["value"] = "decided by the user on 12345678901234"
         e["sources"].append("http://example.org/not-https")
     site = _mini_site(tmp_path, edit=edit)
@@ -343,3 +343,219 @@ def test_exporter_keeps_no_machine_paths_and_asks_for_its_inputs(tmp_path, monke
         assert "no REPD release given; use --repd-release or set SEO_REPD_RELEASE" in str(e.code)
     else:
         raise AssertionError("exporter ran without its inputs")
+
+
+# ---- register records, identifier mapping, visible label, Rufus clean-up ---------------------------------------
+
+MAPPED = ("Whitelee", "Arecleoch", "Golticlay Wind Farm", "Mochrum Fell Wind Farm", "Leithenwater Wind Energy Hub - Wind Farm",
+          "Newlands Hill Wind Energy Hub", "Scoop Hill Wind Farm", "Shinness Wind Farm", "Sanquhar II Wind Farm")
+
+
+def _records(name):
+    doc = json.load(open(os.path.join(ROOT, sg.FACTS_REL), encoding="utf-8"))
+    return doc["projects"][name]["records"]
+
+
+def test_every_multi_row_page_is_mapped_and_lists_each_record_once():
+    mapping = json.load(open(os.path.join(ROOT, ex.MAPPING_REL), encoding="utf-8"))["projects"]
+    assert set(mapping) == set(MAPPED)
+    for name in MAPPED:
+        recs = _records(name)
+        assert [(r["register"], r["id"]) for r in recs] == [(m["register"], str(m["id"])) for m in mapping[name]["records"]]
+        assert len({(r["register"], r["id"]) for r in recs}) == len(recs)
+        for r in recs:
+            assert r["relation"].strip() and r["basis"] in sg.RECORD_BASES
+
+
+def test_record_tables_render_every_identifier_and_never_combine_statuses():
+    F, _ = built()
+    for name in MAPPED:
+        slug = sg.slugify(name)
+        page, md = F[f"projects/{slug}.html"], F[f"projects/{slug}.md"]
+        assert "<h2>Register records</h2>" in page and "## Register records" in md
+        for r in _records(name):
+            assert f'<td data-label="Identifier"><span style="white-space:nowrap">{r["id"]}</span></td>' in page and f"| {r['id']} |" in md, (name, r["id"])
+        assert "REPD reference" not in md and "REPD status" not in md  # no single first-row status for these pages
+    wl = F["projects/whitelee.md"]
+    assert "13 register records are listed (8 REPD, 5 NESO TEC)" in wl
+    assert "Their statuses differ, so no single status is given" in wl
+    assert "No single status applies." in wl
+
+
+def test_unverified_relationships_are_labelled_as_such():
+    F, _ = built()
+    assert "relation to REPD 3258 is unverified" in F["projects/arecleoch.md"]
+    assert "the relation is unverified" in F["projects/arecleoch.md"]
+    assert "so the link is unverified" in F["projects/golticlay-wind-farm.md"]
+
+
+def test_arecleoch_has_a_visible_label_but_keeps_its_address():
+    F, _ = built()
+    page = F["projects/arecleoch.html"]
+    assert "<h1>Arecleoch Wind Farm and extension</h1>" in page
+    assert "projects/arecleoch.html" in F["sitemap.xml"]
+    assert "[Arecleoch Wind Farm and extension](https://slava.it.com/projects/arecleoch.md)" in F["llms.txt"]
+    assert "Arecleoch Wind Farm and extension" in F["renewables-wind/index.html"]
+
+
+def test_exporter_rejects_unmapped_or_incomplete_multi_row_pages():
+    exact = {("repd", "1"), ("repd", "2")}
+    assert "no entry in data/register-mapping.json" in ex.mapping_problem("P", exact, None)
+    assert "omits exact-name record" in ex.mapping_problem("P", exact, {"records": [{"register": "repd", "id": "1"}]})
+    assert ex.mapping_problem("P", exact, {"records": [{"register": "repd", "id": 1}, {"register": "repd", "id": "2"}]}) is None
+    assert ex.mapping_problem("P", {("repd", "1")}, None) is None  # a single record needs no mapping
+
+
+def _primary():
+    repd = {"10": {"name": "Alpha Wind Farm", "status": "Operational", "mw": 50.0, "updated": "2020-01-02", "events": {"Operational": "2019-05-06"}},
+            "11": {"name": "Alpha Wind Farm Battery", "status": "Planning Permission Granted", "mw": None, "updated": None, "events": {}}}
+    links = {frozenset({"10", "11"})}
+    neso = {("neso_tec", "PRO-1-1"): {"name": "Alpha Wind Farm", "status": "Built", "stage": "1", "conn": "50", "cum": "50", "eff": None},
+            ("neso_tec", "PRO-1-2"): {"name": "Alpha Wind Farm", "status": "Scoping", "stage": "2", "conn": "0", "cum": "80", "eff": "2031-01-02"}}
+    return repd, links, neso
+
+
+def _mapped(*records):
+    return {"records": [dict(r) for r in records]}
+
+
+def test_build_records_reads_primary_values_and_checks_each_basis():
+    repd, links, neso = _primary()
+    ok = _mapped({"register": "repd", "id": "10", "basis": "name_exact", "relation": "Exact."},
+                 {"register": "repd", "id": "11", "basis": "register_link", "with": "10", "relation": "Linked."},
+                 {"register": "neso_tec", "id": "PRO-1-1", "basis": "neso_project_number", "group": "PRO-1", "relation": "Stage 1."},
+                 {"register": "neso_tec", "id": "PRO-1-2", "basis": "unverified", "relation": "Unverified."})
+    out = ex.build_records("Alpha Wind Farm", ok, repd, links, neso)
+    assert [r["id"] for r in out] == ["10", "11", "PRO-1-1", "PRO-1-2"]
+    assert out[0]["capacity"] == "50 MW" and out[0]["date"] == "record updated 2020-01-02; status event 2019-05-06"
+    assert out[1]["capacity"] == "not recorded" and out[1]["date"] == "record updated date not recorded"
+    assert out[3]["capacity"] == "connected 0 MW; cumulative 80 MW" and out[3]["date"] == "MW effective from 2031-01-02"
+    for bad, why in [({"register": "repd", "id": "99", "basis": "name_exact", "relation": "x"}, "not found"),
+                     ({"register": "repd", "id": "11", "basis": "name_exact", "relation": "x"}, "basis name_exact"),
+                     ({"register": "repd", "id": "10", "basis": "register_link", "with": "12", "relation": "x"}, "no REPD link"),
+                     ({"register": "neso_tec", "id": "PRO-1-1", "basis": "neso_project_number", "group": "PRO-9", "relation": "x"}, "does not belong"),
+                     ({"register": "repd", "id": "10", "basis": "made_up", "relation": "x"}, "unknown basis")]:
+        try:
+            ex.build_records("Alpha Wind Farm", _mapped(bad, {"register": "repd", "id": "11", "basis": "register_link", "with": "10", "relation": "x"}), repd, links, neso)
+        except ex.ExportError as e:
+            assert why in str(e), (why, str(e))
+        else:
+            raise AssertionError(f"accepted: {why}")
+
+
+def test_builder_rejects_malformed_records_and_credit_sources(tmp_path):
+    def break_record(doc):
+        doc["projects"]["Whitelee"]["records"][0]["basis"] = "guess"
+        doc["projects"]["Whitelee"]["records"][1]["register"] = "reported"
+        doc["sources"]["companies_house"].pop("checked")
+    site = _mini_site(tmp_path, edit=break_record)
+    try:
+        sg.build_files(site, "2026-10-17")
+    except sg.BuildError as e:
+        msg = str(e)
+        assert "unknown basis 'guess'" in msg and "is not a licensed source" in msg and "source companies_house: checked missing" in msg
+    else:
+        raise AssertionError("malformed records accepted")
+
+
+def test_rufus_has_no_directory_derived_claims_and_marks_the_unverified_ones():
+    F, _ = built()
+    raw = open(os.path.join(ROOT, sg.FACTS_REL), encoding="utf-8").read()
+    page = F["projects/rufus-data-centre-campus-hurlford.md"]
+    entry = json.dumps(json.loads(raw)["projects"]["Rufus data centre campus (Hurlford)"])
+    for blob in (raw, page, F["data-centres/index.md"], F["llms-full.txt"]):
+        for banned in ("baxtel", "theconstructionindex", "540 MW", "aggregator"):
+            assert banned not in blob, banned
+    for blob in (entry, page, F["projects/rufus-data-centre-campus-hurlford.html"]):
+        assert "ILI Group" not in blob  # the directory-derived developer name; the Cato project's own name is a different page
+    assert "| Capacity | Unverified: no primary source found | unverified |" in page
+    assert "| Council (inferred) | East Ayrshire Council, inferred from the site's location in Hurlford; not confirmed by a planning register | inferred |" in page
+    assert "| Council |" not in page
+    assert "| Status | Unverified: no primary source has been confirmed for display here, so check the council's public planning register | unverified |" in page
+    assert "ILI RUFUS LIMITED (company number SC825440); Active; incorporated 2024-10-10" in page
+    assert "Intelligent Land Investments Group Plc" in page
+
+
+def test_companies_house_credit_carries_its_terms_note_and_check_date():
+    F, _ = built()
+    page = F["projects/rufus-data-centre-campus-hurlford.html"]
+    assert "Data credits" in page and "Companies House" in page
+    assert "imposes no rules or requirements on how the information on the public register is used (page updated 9 August 2019)" in page
+    assert "Source dates: Terms checked: 2026-10-17." in page
+    assert "does not imply endorsement" in page
+
+
+def test_whitelee_states_that_records_describe_registered_assets_only():
+    F, _ = built()
+    note = ("The records listed describe the registered assets. Several archived posts discuss a repowering proposal; "
+            "a search of the registers by name did not establish that proposal's register status, so none is shown here.")
+    for ext in ("md", "html"):
+        assert note in F[f"projects/whitelee.{ext}"], ext
+    assert note in F["projects/whitelee.md"].split("## What is the planning status of Whitelee?")[1].split("## What are the main")[0]
+    assert "repowering proposal" not in F["projects/arecleoch.md"]  # the note is Whitelee's own
+
+
+def test_builder_rejects_a_note_without_records_or_with_internal_wording(tmp_path):
+    def bad_notes(doc):
+        doc["projects"]["Whitelee"]["note"] = "decided by the user"
+        doc["projects"]["Chapelcross data centre campus (CX Tech)"]["note"] = "a note without records"
+    site = _mini_site(tmp_path, edit=bad_notes)
+    try:
+        sg.build_files(site, "2026-10-17")
+    except sg.BuildError as e:
+        assert "Whitelee: invalid note" in str(e) and "a note needs register records" in str(e)
+    else:
+        raise AssertionError("bad notes accepted")
+
+
+def test_record_tables_stack_into_labelled_cards_on_narrow_screens():
+    F, _ = built()
+    for name in MAPPED:
+        page = F[f"projects/{sg.slugify(name)}.html"]
+        i = page.index("<h2>Register records</h2>")
+        assert '<div style="overflow-x:auto"><table class="records"><thead>' in page[i:i + 1200], name
+        assert page.count("</table></div>") == 1, name
+        assert "@media (max-width:640px)" in page[:page.index("</style>")], name
+        for label in sg.RECORD_HEAD:
+            assert f'data-label="{label}"' in page, (name, label)
+        assert page.count('data-label="Relationship"') == len(_records(name)), name  # every record shows its relationship label
+    for other in ("chapelcross-data-centre-campus-cx-tech", "rufus-data-centre-campus-hurlford"):
+        assert "records" not in F[f"projects/{other}.html"][:F[f"projects/{other}.html"].index("</style>")]  # other pages are unchanged
+
+
+def test_long_links_wrap_so_phone_screens_do_not_widen():
+    F, _ = built()
+    checked = 0
+    for path, text in F.items():
+        if not path.endswith(".html") or path == "index.html":
+            continue
+        body = text[text.index("<body>"):]
+        for m in re.finditer(r"<li([^>]*)>(.*?)</li>", body, flags=re.S):
+            visible = htmllib.unescape(re.sub(r"<[^>]+>", " ", m.group(2)))
+            if any(len(tok) > 38 for tok in visible.split()):
+                checked += 1
+                assert "overflow-wrap:anywhere" in m.group(1), (path, visible[:60])
+    assert checked > 40  # the rule was exercised on the credit and source lists of the project pages
+
+
+def test_exporter_labels_inferred_and_unverified_facts_by_their_own_basis():
+    e = ex.public_entry({"status_reported": "Unverified: nothing found", "capacity_reported": "Unverified: no source",
+                         "council": "A Council, from the location", "council_inferred": True, "developer_reported": "Dev Ltd"})
+    basis = {f["label"]: f["basis"] for f in e["facts"]}
+    assert basis == {"Status": "unverified", "Developer": "reported", "Council (inferred)": "inferred", "Capacity": "unverified"}
+
+
+def test_unverified_status_is_not_repeated_in_the_capsule():
+    F, _ = built()
+    cap = F["projects/rufus-data-centre-campus-hurlford.md"].split("\n")[2]
+    assert "Status: Unverified: no primary source has been confirmed for display here, so check the council's public planning register." in cap
+    assert "(unverified)" not in cap and "(reported)" not in cap
+
+
+def test_dates_and_identifiers_do_not_break_at_hyphens_but_the_text_is_unchanged():
+    F, _ = built()
+    page = F["projects/whitelee.html"]
+    assert '<span style="white-space:nowrap">2010-05-20</span>' in page
+    plain = re.sub(r"<[^>]+>", "", page)
+    assert "record updated 2010-05-20; status event 2007-12-14" in plain  # wrapping changes markup only, not the words or the copied text
+    assert "record updated 2010-05-20; status event 2007-12-14" in F["projects/whitelee.md"]

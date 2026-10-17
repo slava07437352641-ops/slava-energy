@@ -1,13 +1,21 @@
 # Sanquhar II Wind Farm
 
-Sanquhar II Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 6 community posts from 2 groups, latest 2026-10-13. No planning reference is recorded in the registers used. TEC project status: Consents Approved (register). Top recurring themes: Onshore Wind (5). Posts are archived public group posts and are not independently verified.
+Sanquhar II Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 6 community posts from 2 groups, latest 2026-10-13. 2 register records are listed (2 NESO TEC). All list the status Consents Approved. Top recurring themes: Onshore Wind (5). Posts are archived public group posts and are not independently verified.
 
 ## Register facts
 
 | Item | Value | Basis |
 |---|---|---|
-| TEC rows with this name | 2 | register |
-| TEC project status | Consents Approved | register |
+| Register records | 2 listed (2 NESO TEC). Statuses: Consents Approved (2) | register |
+
+## Register records
+
+Each row is one register record with its own identifier; records are not combined. Relationships are stated only where a register links the records, and are otherwise labelled as unlinked or unverified. REPD dates are the record's update date and the date of the status event where one is recorded. The NESO files give no status date; the date shown is the MW effective-from date.
+
+| Register | Identifier | Name as recorded | Status | Capacity | Date | Relationship |
+|---|---|---|---|---|---|---|
+| NESO TEC | PRO-000352-1 | Sanquhar II Wind Farm | Consents Approved | connected 0 MW; cumulative 137 MW | MW effective from 2026-07-31 | Stage 1 of NESO project PRO-000352. |
+| NESO TEC | PRO-000352-2 | Sanquhar II Wind Farm | Consents Approved | connected 0 MW; cumulative 250 MW | MW effective from 2027-02-28 | Stage 2 of NESO project PRO-000352. |
 
 ## Data credits
 
@@ -29,7 +37,7 @@ Sanquhar II Wind Farm is a wind, solar and storage project tracked on slava.it.c
 
 ## What is the planning status of Sanquhar II Wind Farm?
 
-Recorded: TEC project status: Consents Approved (register).
+All 2 listed register records show the status Consents Approved.
 
 ## What are the main community discussions around Sanquhar II Wind Farm?
 
