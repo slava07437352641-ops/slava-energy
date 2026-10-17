@@ -11,7 +11,7 @@ Arecleoch is a wind, solar and storage project tracked on slava.it.com. The arch
 
 ## Data credits
 
-- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register.
+- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register. Source dates: Release date: unavailable; Download date: unavailable; File name date: 2026-10-10; Local copy created: 2026-10-13; Facts exported: 2026-10-17.
 - Use of these registers does not imply endorsement by their publishers.
 
 ## Source groups
@@ -108,7 +108,7 @@ Berwick Bank Offshore Wind Farm is a wind, solar and storage project tracked on 
 
 ## Data credits
 
-- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract.
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: unavailable; Latest record update in the file: 2026-07-24; Download date: unavailable; Local copy created: 2026-08-30; Facts exported: 2026-10-17.
 - Use of these registers does not imply endorsement by their publishers.
 
 ## Source groups
@@ -222,8 +222,8 @@ Carn Fearna Wind Farm is a wind, solar and storage project tracked on slava.it.c
 
 ## Data credits
 
-- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract.
-- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register.
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: unavailable; Latest record update in the file: 2026-07-24; Download date: unavailable; Local copy created: 2026-08-30; Facts exported: 2026-10-17.
+- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register. Source dates: Release date: unavailable; Download date: unavailable; File name date: 2026-10-10; Local copy created: 2026-10-13; Facts exported: 2026-10-17.
 - Use of these registers does not imply endorsement by their publishers.
 
 ## Source groups
@@ -446,7 +446,7 @@ Ditcher Law is a wind, solar and storage project tracked on slava.it.com. The ar
 
 ## Data credits
 
-- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register.
+- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register. Source dates: Release date: unavailable; Download date: unavailable; File name date: 2026-10-10; Local copy created: 2026-10-13; Facts exported: 2026-10-17.
 - Use of these registers does not imply endorsement by their publishers.
 
 ## Source groups
@@ -496,8 +496,8 @@ Giants Burn Wind Farm is a wind, solar and storage project tracked on slava.it.c
 
 ## Data credits
 
-- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract.
-- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register.
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: unavailable; Latest record update in the file: 2026-07-24; Download date: unavailable; Local copy created: 2026-08-30; Facts exported: 2026-10-17.
+- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register. Source dates: Release date: unavailable; Download date: unavailable; File name date: 2026-10-10; Local copy created: 2026-10-13; Facts exported: 2026-10-17.
 - Use of these registers does not imply endorsement by their publishers.
 
 ## Source groups
@@ -546,7 +546,7 @@ Glen Earrach Pumped Storage Hydro is a wind, solar and storage project tracked o
 
 ## Data credits
 
-- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract.
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: unavailable; Latest record update in the file: 2026-07-24; Download date: unavailable; Local copy created: 2026-08-30; Facts exported: 2026-10-17.
 - Use of these registers does not imply endorsement by their publishers.
 
 ## Source groups
@@ -601,7 +601,7 @@ Glenvernoch is a wind, solar and storage project tracked on slava.it.com. The ar
 
 ## Data credits
 
-- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register.
+- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register. Source dates: Release date: unavailable; Download date: unavailable; File name date: 2026-10-10; Local copy created: 2026-10-13; Facts exported: 2026-10-17.
 - Use of these registers does not imply endorsement by their publishers.
 
 ## Source groups
@@ -646,15 +646,15 @@ Golticlay Wind Farm is a wind, solar and storage project tracked on slava.it.com
 
 | Item | Value | Basis |
 |---|---|---|
-| TEC rows with this name | 2 | register |
+| Embedded Register rows with this name | 2 | register |
 | REPD reference | 5195 | register |
 | REPD status | Under Construction | register |
-| TEC project status | Awaiting Consents | register |
+| Embedded Register project status | Awaiting Consents | register |
 
 ## Data credits
 
-- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register.
-- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract.
+- Supported by National Energy SO Open Data. Data: Embedded Register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/embedded-register. Source dates: Release date: unavailable; Download date: unavailable; File name date: 2026-10-10; Local copy created: 2026-10-13; Facts exported: 2026-10-17.
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: unavailable; Latest record update in the file: 2026-07-24; Download date: unavailable; Local copy created: 2026-08-30; Facts exported: 2026-10-17.
 - Use of these registers does not imply endorsement by their publishers.
 
 ## Source groups
@@ -672,7 +672,7 @@ Golticlay Wind Farm is a wind, solar and storage project tracked on slava.it.com
 
 ## What is the planning status of Golticlay Wind Farm?
 
-Recorded: REPD status: Under Construction (register); TEC project status: Awaiting Consents (register).
+Recorded: REPD status: Under Construction (register); Embedded Register project status: Awaiting Consents (register).
 
 ## What are the main community discussions around Golticlay Wind Farm?
 
@@ -694,17 +694,17 @@ Archived public Facebook group posts; not independently verified. Post text is n
 
 # Grudie Bridge
 
-Grudie Bridge is a wind, solar and storage project tracked on slava.it.com. The archive holds 2 community posts from 1 group, latest 2026-10-10. No planning reference is recorded in the registers used. TEC project status: Built (register). Top recurring themes: none tagged. Posts are archived public group posts and are not independently verified.
+Grudie Bridge is a wind, solar and storage project tracked on slava.it.com. The archive holds 2 community posts from 1 group, latest 2026-10-10. No planning reference is recorded in the registers used. Embedded Register project status: Built (register). Top recurring themes: none tagged. Posts are archived public group posts and are not independently verified.
 
 ## Register facts
 
 | Item | Value | Basis |
 |---|---|---|
-| TEC project status | Built | register |
+| Embedded Register project status | Built | register |
 
 ## Data credits
 
-- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register.
+- Supported by National Energy SO Open Data. Data: Embedded Register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/embedded-register. Source dates: Release date: unavailable; Download date: unavailable; File name date: 2026-10-10; Local copy created: 2026-10-13; Facts exported: 2026-10-17.
 - Use of these registers does not imply endorsement by their publishers.
 
 ## Source groups
@@ -721,7 +721,7 @@ Grudie Bridge is a wind, solar and storage project tracked on slava.it.com. The 
 
 ## What is the planning status of Grudie Bridge?
 
-Recorded: TEC project status: Built (register).
+Recorded: Embedded Register project status: Built (register).
 
 ## What are the main community discussions around Grudie Bridge?
 
@@ -752,7 +752,7 @@ Hawks Nest Farm - Battery Storage is a wind, solar and storage project tracked o
 
 ## Data credits
 
-- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract.
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: unavailable; Latest record update in the file: 2026-07-24; Download date: unavailable; Local copy created: 2026-08-30; Facts exported: 2026-10-17.
 - Use of these registers does not imply endorsement by their publishers.
 
 ## Source groups
@@ -800,7 +800,7 @@ Hawthorn Pit -Solar Farm is a pylons and grid project tracked on slava.it.com. T
 
 ## Data credits
 
-- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract.
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: unavailable; Latest record update in the file: 2026-07-24; Download date: unavailable; Local copy created: 2026-08-30; Facts exported: 2026-10-17.
 - Use of these registers does not imply endorsement by their publishers.
 
 ## Source groups
@@ -850,7 +850,7 @@ Inch Cape is an AI data centre project tracked on slava.it.com. The archive hold
 
 ## Data credits
 
-- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract.
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: unavailable; Latest record update in the file: 2026-07-24; Download date: unavailable; Local copy created: 2026-08-30; Facts exported: 2026-10-17.
 - Use of these registers does not imply endorsement by their publishers.
 
 ## Source groups
@@ -946,7 +946,7 @@ Lairg II Wind Farm is a wind, solar and storage project tracked on slava.it.com.
 
 ## Data credits
 
-- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register.
+- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register. Source dates: Release date: unavailable; Download date: unavailable; File name date: 2026-10-10; Local copy created: 2026-10-13; Facts exported: 2026-10-17.
 - Use of these registers does not imply endorsement by their publishers.
 
 ## Source groups
@@ -995,7 +995,7 @@ Leithenwater Wind Energy Hub - Wind Farm is a wind, solar and storage project tr
 
 ## Data credits
 
-- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract.
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: unavailable; Latest record update in the file: 2026-07-24; Download date: unavailable; Local copy created: 2026-08-30; Facts exported: 2026-10-17.
 - Use of these registers does not imply endorsement by their publishers.
 
 ## Source groups
@@ -1044,7 +1044,7 @@ Machair is a wind, solar and storage project tracked on slava.it.com. The archiv
 
 ## Data credits
 
-- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract.
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: unavailable; Latest record update in the file: 2026-07-24; Download date: unavailable; Local copy created: 2026-08-30; Facts exported: 2026-10-17.
 - Use of these registers does not imply endorsement by their publishers.
 
 ## Source groups
@@ -1097,7 +1097,7 @@ Mochrum Fell Wind Farm is a wind, solar and storage project tracked on slava.it.
 
 ## Data credits
 
-- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract.
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: unavailable; Latest record update in the file: 2026-07-24; Download date: unavailable; Local copy created: 2026-08-30; Facts exported: 2026-10-17.
 - Use of these registers does not imply endorsement by their publishers.
 
 ## Source groups
@@ -1144,7 +1144,7 @@ Mossy Hill Wind Farm is a wind, solar and storage project tracked on slava.it.co
 
 ## Data credits
 
-- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register.
+- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register. Source dates: Release date: unavailable; Download date: unavailable; File name date: 2026-10-10; Local copy created: 2026-10-13; Facts exported: 2026-10-17.
 - Use of these registers does not imply endorsement by their publishers.
 
 ## Source groups
@@ -1195,7 +1195,7 @@ New Cumnock BESS is a wind, solar and storage project tracked on slava.it.com. T
 
 ## Data credits
 
-- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register.
+- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register. Source dates: Release date: unavailable; Download date: unavailable; File name date: 2026-10-10; Local copy created: 2026-10-13; Facts exported: 2026-10-17.
 - Use of these registers does not imply endorsement by their publishers.
 
 ## Source groups
@@ -1246,8 +1246,8 @@ Newlands Hill Wind Energy Hub is a wind, solar and storage project tracked on sl
 
 ## Data credits
 
-- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract.
-- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register.
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: unavailable; Latest record update in the file: 2026-07-24; Download date: unavailable; Local copy created: 2026-08-30; Facts exported: 2026-10-17.
+- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register. Source dates: Release date: unavailable; Download date: unavailable; File name date: 2026-10-10; Local copy created: 2026-10-13; Facts exported: 2026-10-17.
 - Use of these registers does not imply endorsement by their publishers.
 
 ## Source groups
@@ -1333,17 +1333,17 @@ Archived public Facebook group posts; not independently verified. Post text is n
 
 # Olrig Mains Wind Farm
 
-Olrig Mains Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 2 community posts from 2 groups, latest 2026-09-30. No planning reference is recorded in the registers used. TEC project status: Scoping (register). Top recurring themes: Onshore Wind (2), BESS (1). Posts are archived public group posts and are not independently verified.
+Olrig Mains Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 2 community posts from 2 groups, latest 2026-09-30. No planning reference is recorded in the registers used. Embedded Register project status: Scoping (register). Top recurring themes: Onshore Wind (2), BESS (1). Posts are archived public group posts and are not independently verified.
 
 ## Register facts
 
 | Item | Value | Basis |
 |---|---|---|
-| TEC project status | Scoping | register |
+| Embedded Register project status | Scoping | register |
 
 ## Data credits
 
-- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register.
+- Supported by National Energy SO Open Data. Data: Embedded Register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/embedded-register. Source dates: Release date: unavailable; Download date: unavailable; File name date: 2026-10-10; Local copy created: 2026-10-13; Facts exported: 2026-10-17.
 - Use of these registers does not imply endorsement by their publishers.
 
 ## Source groups
@@ -1363,7 +1363,7 @@ Olrig Mains Wind Farm is a wind, solar and storage project tracked on slava.it.c
 
 ## What is the planning status of Olrig Mains Wind Farm?
 
-Recorded: TEC project status: Scoping (register).
+Recorded: Embedded Register project status: Scoping (register).
 
 ## What are the main community discussions around Olrig Mains Wind Farm?
 
@@ -1393,7 +1393,7 @@ Overhill Wind Farm is a pylons and grid project tracked on slava.it.com. The arc
 
 ## Data credits
 
-- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register.
+- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register. Source dates: Release date: unavailable; Download date: unavailable; File name date: 2026-10-10; Local copy created: 2026-10-13; Facts exported: 2026-10-17.
 - Use of these registers does not imply endorsement by their publishers.
 
 ## Source groups
@@ -1536,7 +1536,7 @@ Sanquhar II Wind Farm is a wind, solar and storage project tracked on slava.it.c
 
 ## Data credits
 
-- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register.
+- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register. Source dates: Release date: unavailable; Download date: unavailable; File name date: 2026-10-10; Local copy created: 2026-10-13; Facts exported: 2026-10-17.
 - Use of these registers does not imply endorsement by their publishers.
 
 ## Source groups
@@ -1591,8 +1591,8 @@ Scoop Hill Wind Farm is a wind, solar and storage project tracked on slava.it.co
 
 ## Data credits
 
-- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract.
-- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register.
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: unavailable; Latest record update in the file: 2026-07-24; Download date: unavailable; Local copy created: 2026-08-30; Facts exported: 2026-10-17.
+- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register. Source dates: Release date: unavailable; Download date: unavailable; File name date: 2026-10-10; Local copy created: 2026-10-13; Facts exported: 2026-10-17.
 - Use of these registers does not imply endorsement by their publishers.
 
 ## Source groups
@@ -1642,7 +1642,7 @@ Seagreen is a wind, solar and storage project tracked on slava.it.com. The archi
 
 ## Data credits
 
-- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract.
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: unavailable; Latest record update in the file: 2026-07-24; Download date: unavailable; Local copy created: 2026-08-30; Facts exported: 2026-10-17.
 - Use of these registers does not imply endorsement by their publishers.
 
 ## Source groups
@@ -1691,7 +1691,7 @@ Shinness Wind Farm is a wind, solar and storage project tracked on slava.it.com.
 
 ## Data credits
 
-- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract.
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: unavailable; Latest record update in the file: 2026-07-24; Download date: unavailable; Local copy created: 2026-08-30; Facts exported: 2026-10-17.
 - Use of these registers does not imply endorsement by their publishers.
 
 ## Source groups
@@ -1741,7 +1741,7 @@ Spiorad na Mara is a wind, solar and storage project tracked on slava.it.com. Th
 
 ## Data credits
 
-- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract.
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: unavailable; Latest record update in the file: 2026-07-24; Download date: unavailable; Local copy created: 2026-08-30; Facts exported: 2026-10-17.
 - Use of these registers does not imply endorsement by their publishers.
 
 ## Source groups
@@ -1792,8 +1792,8 @@ Whitelee is a wind, solar and storage project tracked on slava.it.com. The archi
 
 ## Data credits
 
-- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register.
-- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract.
+- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register. Source dates: Release date: unavailable; Download date: unavailable; File name date: 2026-10-10; Local copy created: 2026-10-13; Facts exported: 2026-10-17.
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: unavailable; Latest record update in the file: 2026-07-24; Download date: unavailable; Local copy created: 2026-08-30; Facts exported: 2026-10-17.
 - Use of these registers does not imply endorsement by their publishers.
 
 ## Source groups

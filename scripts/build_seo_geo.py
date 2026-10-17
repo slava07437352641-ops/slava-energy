@@ -53,6 +53,33 @@ FORBIDDEN = [(re.compile(r"\buser\b", re.I), "internal wording 'user'"),
              (re.compile(r"[\w.+-]+@[\w-]+\.[\w.]+"), "email address")]
 
 
+REQUIRED_DATE_LABELS = ("Release date", "Download date", "Facts exported")
+
+
+def date_problems(sid, dates):
+    """Problems with a licensed source's dates. Values must be an ISO date or the word 'unavailable'."""
+    if not isinstance(dates, list) or not dates:
+        return [f"source {sid}: dates missing"]
+    out, labels = [], set()
+    for d in dates:
+        if not isinstance(d, dict) or set(d) != {"label", "value"}:
+            out.append(f"source {sid}: each date needs a label and a value")
+            continue
+        labels.add(d["label"])
+        v = d["value"]
+        if d["label"] == "Edition" or v == "unavailable":
+            continue
+        try:
+            ok = bool(re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(v)))
+            datetime.date.fromisoformat(str(v))
+        except ValueError:
+            ok = False
+        if not ok:
+            out.append(f"source {sid}: '{d['label']}' must be an ISO date or 'unavailable', got {v!r}")
+    out += [f"source {sid}: date '{lab}' missing" for lab in REQUIRED_DATE_LABELS if lab not in labels]
+    return out
+
+
 class BuildError(Exception):
     """A problem with the inputs. The build stops and writes nothing."""
 
@@ -105,6 +132,7 @@ def validate_facts_doc(doc):
                     problems.append(f"source {sid}: {k} missing")
                 elif k.endswith("_url") and not str(meta[k]).startswith("https://"):
                     problems.append(f"source {sid}: {k} is not an https link")
+            problems += date_problems(sid, meta.get("dates"))
     if not isinstance(doc.get("data_centre_projects"), list):
         problems.append("'data_centre_projects' list missing")
     projects = doc.get("projects")
@@ -185,7 +213,7 @@ def project_model(name, posts, entry, dc_names):
     facts = [(f["label"], f["value"], f["basis"]) for f in entry["facts"]]
     credits = list(dict.fromkeys(f["source"] for f in entry["facts"]))
     ref = next((f"{lab}: {v} ({b})" for lab, v, b in facts if lab in ("Planning reference", "REPD reference", "Planning reference (TEC)")), None)
-    status = next((f"{lab}: {v} ({b})" for lab, v, b in facts if lab in ("Status", "REPD status", "TEC project status", "Consent or stage")), None)
+    status = next((f"{lab}: {v} ({b})" for lab, v, b in facts if lab in ("Status", "REPD status", "TEC project status", "Embedded Register project status", "Consent or stage")), None)
     req = [f"{name} is {VERTICAL_PHRASE[vertical]} tracked on slava.it.com.",
            f"The archive holds {n} community post{'s' if n != 1 else ''} from {g} group{'s' if g != 1 else ''}, latest {latest}.",
            f"{ref}." if ref else "No planning reference is recorded in the registers used.",
@@ -197,7 +225,8 @@ def project_model(name, posts, entry, dc_names):
         req[-1] = f"Top recurring theme: {top_themes(themes, 1)}."
         capsule = fit(req, opt)
     planning_bits = [f"{lab}: {v} ({b})" for lab, v, b in facts if lab in
-                     ("Planning reference", "Application type", "Status", "Consent or stage", "REPD status", "TEC project status")]
+                     ("Planning reference", "Application type", "Status", "Consent or stage", "REPD status", "TEC project status",
+                      "Embedded Register project status")]
     qa = [(f"What is the planning status of {name}?",
            ("Recorded: " + "; ".join(planning_bits) + ".") if planning_bits else
            "No planning status is recorded in the registers used for this page."),
@@ -254,14 +283,15 @@ def follow_html():
 
 
 def credit_lines(p, srcs):
-    """Credit entries for the licensed registers whose facts appear on the page: (text, licence, licence_url, source_url)."""
+    """Credit entries for the licensed registers whose facts appear on the page: (text, licence, licence_url, source_url, dates)."""
     out = []
     for sid in p["credits"]:
         m = srcs[sid]
         if "licence" not in m:
             continue
         copyright_ = f" (© {m['copyright']})" if m.get("copyright") else ""
-        out.append((f"{m['attribution'].rstrip('.')}. Data: {m['name']}{copyright_}.", m["licence"], m["licence_url"], m["source_url"]))
+        dates = "; ".join(f"{d['label']}: {d['value']}" for d in m["dates"])
+        out.append((f"{m['attribution'].rstrip('.')}. Data: {m['name']}{copyright_}.", m["licence"], m["licence_url"], m["source_url"], dates))
     return out
 
 
@@ -292,8 +322,8 @@ def project_html(p, srcs):
     cl = credit_lines(p, srcs)
     credit_html = ""
     if cl:
-        items = "".join(f"<li>{esc(t)} Licence: <a href=\"{esc(lu)}\">{esc(l)}</a>. Source: <a href=\"{esc(su)}\">{esc(su)}</a>.</li>"
-                        for t, l, lu, su in cl)
+        items = "".join(f"<li>{esc(t)} Licence: <a href=\"{esc(lu)}\">{esc(l)}</a>. Source: <a href=\"{esc(su)}\">{esc(su)}</a>. "
+                        f"Source dates: {esc(ds)}.</li>" for t, l, lu, su, ds in cl)
         credit_html = (f"<h2>Data credits</h2><ul>{items}<li>Use of these registers does not imply endorsement "
                        "by their publishers.</li></ul>\n")
     grows = "".join(f"<tr><td>{esc(g)}</td><td>{n}</td></tr>" for g, n in p["groups"].most_common())
@@ -322,7 +352,7 @@ def project_md(p, srcs):
     cl = credit_lines(p, srcs)
     credit_md = ""
     if cl:
-        credit_md = ("## Data credits\n\n" + "\n".join(f"- {t} Licence: [{l}]({lu}). Source: {su}." for t, l, lu, su in cl)
+        credit_md = ("## Data credits\n\n" + "\n".join(f"- {t} Licence: [{l}]({lu}). Source: {su}. Source dates: {ds}." for t, l, lu, su, ds in cl)
                      + "\n- Use of these registers does not imply endorsement by their publishers.\n\n")
     return (f"# {p['name']}\n\n{p['capsule']}\n\n## Register facts\n\n| Item | Value | Basis |\n|---|---|---|\n{f}\n\n"
             f"{credit_md}"

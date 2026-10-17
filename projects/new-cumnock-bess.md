@@ -10,7 +10,7 @@ New Cumnock BESS is a wind, solar and storage project tracked on slava.it.com. T
 
 ## Data credits
 
-- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register.
+- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register. Source dates: Release date: unavailable; Download date: unavailable; File name date: 2026-10-10; Local copy created: 2026-10-13; Facts exported: 2026-10-17.
 - Use of these registers does not imply endorsement by their publishers.
 
 ## Source groups

@@ -209,7 +209,7 @@ def test_builder_rejects_internal_wording_and_bad_links(tmp_path):
 def test_public_facts_file_holds_no_internal_content():
     raw = open(os.path.join(ROOT, sg.FACTS_REL), encoding="utf-8").read()
     for pat in (r"\buser\b", r"alias", r"\d{13,}", r"facebook\.com", r"[\w.+-]+@[\w-]+\.[\w.]+",
-                r"returned by search", r"/Users/", r"sqlite", r"(?i)searchland|vitreous"):
+                r"returned by search", r"/Users/", r"objects\.sqlite", r"(?i)searchland|vitreous|openstreetmap"):
         assert not re.search(pat, raw), pat
     doc = json.loads(raw)
     assert all(u.startswith("https://") for p in doc["projects"].values() for u in p["sources"])
@@ -224,7 +224,7 @@ def test_exporter_whitelists_fields_and_drops_internal_notes():
     corridor = {"name": "C", "aliases": ["c to d"], "status": "internal status", "consent": "S37 submitted",
                 "operator": "Grid Co", "kind": "grid corridor", "source": "https://example.org/c",
                 "reported_sources_not_confirmed": ["https://example.org/unconfirmed"]}
-    e = ex.public_entry(dc_row, corridor, [{"ref": "R1", "status": "Operational"}] * 2, [{"status": "Built"}])
+    e = ex.public_entry(dc_row, corridor, [{"ref": "R1", "status": "Operational"}] * 2, [{"file": "TEC", "status": "Built"}])
     blob = json.dumps(e)
     for forbidden in ("alias", "decided by the user", "1234567890123", "Some group", "Somewhere", "internal status",
                       "unconfirmed", "not-https", "dc-x"):
@@ -255,3 +255,73 @@ def test_llms_txt_explains_why_the_page_count_is_one_lower():
             f"{stats['records']:,} because 1 record is excluded from them.")
     assert note in F["llms.txt"]
     assert not re.search(r"\d{13,}", F["llms.txt"])  # the excluded record is not identified
+
+
+# ---- provenance and source dates ---------------------------------------------------------------------------
+
+def test_exporter_reads_primary_files_and_never_opens_the_objects_database():
+    src = open(os.path.join(ROOT, "scripts", "export_register_facts.py"), encoding="utf-8").read()
+    for forbidden in ("objects.sqlite", "tec_project", "repd_record", "OBJECTS_DEFAULT", "site_source", "searchland_assets"):
+        assert forbidden not in src, forbidden
+    assert src.count("sqlite3.connect(") == 1  # only the REPD release is opened
+    assert "tec-register" in src and "embedded-register" in src and "repd_q2_2026" in src
+
+
+def test_embedded_register_status_has_its_own_label_and_source():
+    only_emb = ex.public_entry(None, None, [], [{"file": "Embedded", "status": "Built"}])
+    assert [(f["label"], f["source"]) for f in only_emb["facts"]] == [("Embedded Register project status", "neso_embedded")]
+    both = ex.public_entry(None, None, [], [{"file": "Embedded", "status": "Scoping"}, {"file": "TEC", "status": "Built"}])
+    assert [(f["label"], f["value"], f["source"]) for f in both["facts"]] == [("TEC project status", "Built", "neso_tec")]
+    two = ex.public_entry(None, None, [], [{"file": "Embedded", "status": "A"}, {"file": "Embedded", "status": "B"}])
+    assert ("Embedded Register rows with this name", "2") in [(f["label"], f["value"]) for f in two["facts"]]
+
+
+def test_public_file_dates_are_iso_or_unavailable_and_hashes_are_present():
+    doc = json.load(open(os.path.join(ROOT, sg.FACTS_REL), encoding="utf-8"))
+    for sid, meta in doc["sources"].items():
+        if "licence" not in meta:
+            continue
+        labels = {d["label"] for d in meta["dates"]}
+        assert {"Release date", "Download date", "Facts exported"} <= labels, sid
+        for d in meta["dates"]:
+            assert d["label"] == "Edition" or d["value"] == "unavailable" or re.fullmatch(r"\d{4}-\d{2}-\d{2}", d["value"]), (sid, d)
+        assert meta["files"] and all(re.fullmatch(r"[0-9a-f]{64}", f["sha256"]) for f in meta["files"]), sid
+
+
+def test_credits_show_every_source_date_for_the_sources_used():
+    F, _ = built()
+    doc = json.load(open(os.path.join(ROOT, sg.FACTS_REL), encoding="utf-8"))
+    page = F["projects/whitelee.md"]
+    for sid in ("repd", "neso_tec"):
+        line = "Source dates: " + "; ".join(f"{d['label']}: {d['value']}" for d in doc["sources"][sid]["dates"]) + "."
+        assert line in page, sid
+    assert "Release date: unavailable" in page and "Download date: unavailable" in page
+    assert "Embedded Register" not in page  # Whitelee takes nothing from it
+    golt = F["projects/golticlay-wind-farm.md"]
+    assert "Data: Embedded Register, National Energy System Operator." in golt
+
+
+def test_builder_rejects_a_missing_or_invalid_source_date(tmp_path):
+    def drop_release(doc):
+        doc["sources"]["repd"]["dates"] = [d for d in doc["sources"]["repd"]["dates"] if d["label"] != "Release date"]
+    (tmp_path / "a").mkdir()
+    site = _mini_site(tmp_path / "a", edit=drop_release)
+    try:
+        sg.build_files(site, "2026-10-17")
+    except sg.BuildError as e:
+        assert "date 'Release date' missing" in str(e)
+    else:
+        raise AssertionError("missing date accepted")
+
+    def bad_value(doc):
+        for d in doc["sources"]["neso_tec"]["dates"]:
+            if d["label"] == "Download date":
+                d["value"] = "10 October 2026"
+    (tmp_path / "b").mkdir()
+    site = _mini_site(tmp_path / "b", edit=bad_value)
+    try:
+        sg.build_files(site, "2026-10-17")
+    except sg.BuildError as e:
+        assert "'Download date' must be an ISO date or 'unavailable'" in str(e)
+    else:
+        raise AssertionError("invalid date accepted")

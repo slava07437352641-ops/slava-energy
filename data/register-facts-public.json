@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "generated": "2026-10-17",
- "purpose": "Register facts displayed on the generated project pages. Written by scripts/export_register_facts.py; holds only the displayed facts and their public source links.",
+ "purpose": "Register facts displayed on the generated project pages. Written by scripts/export_register_facts.py; holds only the displayed facts, their public source links and the source dates and file hashes.",
  "sources": {
   "repd": {
    "name": "Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero",
@@ -9,14 +9,113 @@
    "licence_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
    "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
    "source_url": "https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract",
-   "copyright": "Crown copyright"
+   "copyright": "Crown copyright",
+   "dates": [
+    {
+     "label": "Edition",
+     "value": "Q2 2026"
+    },
+    {
+     "label": "Release date",
+     "value": "unavailable"
+    },
+    {
+     "label": "Latest record update in the file",
+     "value": "2026-07-24"
+    },
+    {
+     "label": "Download date",
+     "value": "unavailable"
+    },
+    {
+     "label": "Local copy created",
+     "value": "2026-08-30"
+    },
+    {
+     "label": "Facts exported",
+     "value": "2026-10-17"
+    }
+   ],
+   "files": [
+    {
+     "name": "repd_q2_2026.sqlite",
+     "sha256": "94a4f5877df6c7f07ce86ebe2033786c33b60c22caae036e1bf645cf3ad51100"
+    },
+    {
+     "name": "REPD_Publication_Q2_2026.csv",
+     "sha256": "84c1b5f958a934d8b4b86ec88f50bdcf43830ded7ff2efc27bffca0c98695035"
+    }
+   ]
   },
   "neso_tec": {
    "name": "Transmission Entry Capacity (TEC) register, National Energy System Operator",
+   "source_url": "https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register",
    "licence": "NESO Open Data Licence v1.0",
    "licence_url": "https://www.neso.energy/data-portal/neso-open-licence",
    "attribution": "Supported by National Energy SO Open Data",
-   "source_url": "https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register"
+   "dates": [
+    {
+     "label": "Release date",
+     "value": "unavailable"
+    },
+    {
+     "label": "Download date",
+     "value": "unavailable"
+    },
+    {
+     "label": "File name date",
+     "value": "2026-10-10"
+    },
+    {
+     "label": "Local copy created",
+     "value": "2026-10-13"
+    },
+    {
+     "label": "Facts exported",
+     "value": "2026-10-17"
+    }
+   ],
+   "files": [
+    {
+     "name": "tec-register-2026-10-10.csv",
+     "sha256": "eaa01c4c6398065586f530bc76a72cb8a16d182f33850aed47ffdeecb2fa9da1"
+    }
+   ]
+  },
+  "neso_embedded": {
+   "name": "Embedded Register, National Energy System Operator",
+   "source_url": "https://www.neso.energy/data-portal/embedded-register",
+   "licence": "NESO Open Data Licence v1.0",
+   "licence_url": "https://www.neso.energy/data-portal/neso-open-licence",
+   "attribution": "Supported by National Energy SO Open Data",
+   "dates": [
+    {
+     "label": "Release date",
+     "value": "unavailable"
+    },
+    {
+     "label": "Download date",
+     "value": "unavailable"
+    },
+    {
+     "label": "File name date",
+     "value": "2026-10-10"
+    },
+    {
+     "label": "Local copy created",
+     "value": "2026-10-13"
+    },
+    {
+     "label": "Facts exported",
+     "value": "2026-10-17"
+    }
+   ],
+   "files": [
+    {
+     "name": "embedded-register-2026-10-10.csv",
+     "sha256": "1ad2538bd4535bc253f7af009a6defbb7f4aa9b53eb32420867c0b123c3e8bbb"
+    }
+   ]
   },
   "reported": {
    "name": "Press, developer and council reports",
@@ -322,10 +421,10 @@
   "Golticlay Wind Farm": {
    "facts": [
     {
-     "label": "TEC rows with this name",
+     "label": "Embedded Register rows with this name",
      "value": "2",
      "basis": "register",
-     "source": "neso_tec"
+     "source": "neso_embedded"
     },
     {
      "label": "REPD reference",
@@ -340,10 +439,10 @@
      "source": "repd"
     },
     {
-     "label": "TEC project status",
+     "label": "Embedded Register project status",
      "value": "Awaiting Consents",
      "basis": "register",
-     "source": "neso_tec"
+     "source": "neso_embedded"
     }
    ],
    "sources": []
@@ -351,10 +450,10 @@
   "Grudie Bridge": {
    "facts": [
     {
-     "label": "TEC project status",
+     "label": "Embedded Register project status",
      "value": "Built",
      "basis": "register",
-     "source": "neso_tec"
+     "source": "neso_embedded"
     }
    ],
    "sources": []
@@ -588,10 +687,10 @@
   "Olrig Mains Wind Farm": {
    "facts": [
     {
-     "label": "TEC project status",
+     "label": "Embedded Register project status",
      "value": "Scoping",
      "basis": "register",
-     "source": "neso_tec"
+     "source": "neso_embedded"
     }
    ],
    "sources": []
