@@ -6,14 +6,15 @@ from html.parser import HTMLParser
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
 import build_seo_geo as sg  # noqa: E402
+import export_register_facts as ex  # noqa: E402
+import shutil  # noqa: E402
 
-OBJECTS = os.environ.get("SEO_OBJECTS_DB", sg.OBJECTS_DEFAULT)
 _CACHE = {}
 
 
 def built():
     if "v" not in _CACHE:
-        _CACHE["v"] = sg.build_files(ROOT, OBJECTS, "2026-10-17")
+        _CACHE["v"] = sg.build_files(ROOT, "2026-10-17")
     return _CACHE["v"]
 
 
@@ -155,3 +156,102 @@ def test_no_public_output_links_to_briefs():
     for path, text in F.items():
         if path != "robots.txt":
             assert "/briefs/" not in text, path
+
+
+# ---- reproducible build: the builder reads only files inside the repository -------------------------------
+
+def _mini_site(tmp_path, with_facts=True, drop_project=None, edit=None):
+    """A copy of the inputs the builder needs, with no register files and no database."""
+    (tmp_path / "data").mkdir()
+    for rel in ("data/discussions-index.json", "data/indexnow.json", "index.html"):
+        shutil.copy(os.path.join(ROOT, rel), tmp_path / rel)
+    if with_facts:
+        doc = json.load(open(os.path.join(ROOT, sg.FACTS_REL), encoding="utf-8"))
+        if drop_project:
+            del doc["projects"][drop_project]
+        if edit:
+            edit(doc)
+        (tmp_path / sg.FACTS_REL).write_text(json.dumps(doc), encoding="utf-8")
+    return str(tmp_path)
+
+
+def test_builder_fails_clearly_when_facts_file_is_missing(tmp_path, capsys):
+    site = _mini_site(tmp_path, with_facts=False)
+    assert sg.main(["--site", site, "--build-date", "2026-10-17"]) == 2
+    err = capsys.readouterr().err
+    assert "data/register-facts-public.json is missing" in err and "export_register_facts.py" in err
+    assert not (tmp_path / "projects").exists()  # nothing written
+
+
+def test_builder_fails_when_a_page_project_has_no_entry(tmp_path, capsys):
+    site = _mini_site(tmp_path, drop_project="Whitelee")
+    assert sg.main(["--site", site, "--build-date", "2026-10-17"]) == 2
+    err = capsys.readouterr().err
+    assert "no entry for 1 project page(s): Whitelee" in err
+    assert not (tmp_path / "projects").exists()
+
+
+def test_builder_rejects_internal_wording_and_bad_links(tmp_path):
+    def edit(doc):
+        e = doc["projects"]["Whitelee"]
+        e["facts"][0]["value"] = "decided by the user on 12345678901234"
+        e["sources"].append("http://example.org/not-https")
+    site = _mini_site(tmp_path, edit=edit)
+    try:
+        sg.build_files(site, "2026-10-17")
+    except sg.BuildError as e:
+        msg = str(e)
+        assert "internal wording 'user'" in msg and "post-ID-sized number" in msg and "non-Facebook https link" in msg
+    else:
+        raise AssertionError("invalid facts file was accepted")
+
+
+def test_public_facts_file_holds_no_internal_content():
+    raw = open(os.path.join(ROOT, sg.FACTS_REL), encoding="utf-8").read()
+    for pat in (r"\buser\b", r"alias", r"\d{13,}", r"facebook\.com", r"[\w.+-]+@[\w-]+\.[\w.]+",
+                r"returned by search", r"/Users/", r"sqlite", r"(?i)searchland|vitreous"):
+        assert not re.search(pat, raw), pat
+    doc = json.loads(raw)
+    assert all(u.startswith("https://") for p in doc["projects"].values() for u in p["sources"])
+
+
+def test_exporter_whitelists_fields_and_drops_internal_notes():
+    dc_row = {"id": "dc-x", "name": "X", "aliases": ["X campus"], "alias_note": "decided by the user, post 1234567890123",
+              "groups": ["Some group"], "location": "Somewhere", "tec_cross_reference": None, "status_verified": False,
+              "application_ref": "26/0001/PIP", "status_reported": "Validated", "developer_reported": "Dev Ltd",
+              "council": "A Council", "capacity_reported": "1 GW",
+              "sources": ["https://example.org/a", "http://example.org/not-https"]}
+    corridor = {"name": "C", "aliases": ["c to d"], "status": "internal status", "consent": "S37 submitted",
+                "operator": "Grid Co", "kind": "grid corridor", "source": "https://example.org/c",
+                "reported_sources_not_confirmed": ["https://example.org/unconfirmed"]}
+    e = ex.public_entry(dc_row, corridor, [{"ref": "R1", "status": "Operational"}] * 2, [{"status": "Built"}])
+    blob = json.dumps(e)
+    for forbidden in ("alias", "decided by the user", "1234567890123", "Some group", "Somewhere", "internal status",
+                      "unconfirmed", "not-https", "dc-x"):
+        assert forbidden not in blob, forbidden
+    labels = [f["label"] for f in e["facts"]]
+    assert "Planning reference (TEC)" not in labels and "REPD rows with this name" in labels
+    assert e["sources"] == ["https://example.org/a", "https://example.org/c"]
+
+
+def test_licence_credits_appear_only_where_licensed_facts_are_shown():
+    F, _ = built()
+    wl = F["projects/whitelee.html"]
+    assert "Contains public sector information licensed under the Open Government Licence v3.0." in wl
+    assert "Supported by National Energy SO Open Data" in wl
+    assert "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" in wl
+    cx = F["projects/chapelcross-data-centre-campus-cx-tech.html"]
+    assert "Data credits" not in cx  # only reported facts: they link to their own sources
+    for path, text in F.items():
+        if path.startswith("projects/") and path.endswith(".md") and "| register |" in text:
+            assert "## Data credits" in text, path
+
+
+def test_llms_txt_explains_why_the_page_count_is_one_lower():
+    F, stats = built()
+    gap = stats["index_records"] - stats["records"]
+    assert gap == 1
+    note = (f"The discussions index holds {stats['index_records']:,} records; these pages cover "
+            f"{stats['records']:,} because 1 record is excluded from them.")
+    assert note in F["llms.txt"]
+    assert not re.search(r"\d{13,}", F["llms.txt"])  # the excluded record is not identified

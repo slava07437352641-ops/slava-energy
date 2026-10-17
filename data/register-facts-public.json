@@ -1,0 +1,807 @@
+{
+ "schema": 1,
+ "generated": "2026-10-17",
+ "purpose": "Register facts displayed on the generated project pages. Written by scripts/export_register_facts.py; holds only the displayed facts and their public source links.",
+ "sources": {
+  "repd": {
+   "name": "Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero",
+   "licence": "Open Government Licence v3.0",
+   "licence_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+   "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+   "source_url": "https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract",
+   "copyright": "Crown copyright"
+  },
+  "neso_tec": {
+   "name": "Transmission Entry Capacity (TEC) register, National Energy System Operator",
+   "licence": "NESO Open Data Licence v1.0",
+   "licence_url": "https://www.neso.energy/data-portal/neso-open-licence",
+   "attribution": "Supported by National Energy SO Open Data",
+   "source_url": "https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register"
+  },
+  "reported": {
+   "name": "Press, developer and council reports",
+   "note": "Reported facts link to their public sources on each page and are not independently verified."
+  }
+ },
+ "data_centre_projects": [
+  "Blackdog data centre campus",
+  "Cato data centre campus (ILI Group, Auchtertool, Fife)",
+  "Chapelcross data centre campus (CX Tech)",
+  "Cockenzie data centre (SDCL, former power station site)",
+  "Ravenscraig data centre (SevenFourEight)",
+  "Rufus data centre campus (Hurlford)",
+  "Spango Valley data centre (former IBM site, Greenock)",
+  "Wapseys Wood data centre campus (s35 request)"
+ ],
+ "projects": {
+  "Arecleoch": {
+   "facts": [
+    {
+     "label": "TEC rows with this name",
+     "value": "2",
+     "basis": "register",
+     "source": "neso_tec"
+    },
+    {
+     "label": "TEC project status",
+     "value": "Built",
+     "basis": "register",
+     "source": "neso_tec"
+    }
+   ],
+   "sources": []
+  },
+  "Beauly to Peterhead 400kV overhead line": {
+   "facts": [
+    {
+     "label": "Consent or stage",
+     "value": "Section 37 application, ECU00005165, submitted October 2025",
+     "basis": "reported",
+     "source": "reported"
+    },
+    {
+     "label": "Operator",
+     "value": "SSEN Transmission",
+     "basis": "reported",
+     "source": "reported"
+    },
+    {
+     "label": "Kind",
+     "value": "grid corridor (planned)",
+     "basis": "reported",
+     "source": "reported"
+    }
+   ],
+   "sources": [
+    "https://www.ssen-transmission.co.uk/news/news--views/2025/10/ssen-transmission-submits-application-for-the-beauly-to-peterhead-400kv-overhead-line-project/"
+   ]
+  },
+  "Berwick Bank Offshore Wind Farm": {
+   "facts": [
+    {
+     "label": "REPD reference",
+     "value": "9873",
+     "basis": "register",
+     "source": "repd"
+    },
+    {
+     "label": "REPD status",
+     "value": "Planning Permission Granted",
+     "basis": "register",
+     "source": "repd"
+    }
+   ],
+   "sources": []
+  },
+  "Blackdog data centre campus": {
+   "facts": [
+    {
+     "label": "Status",
+     "value": "Phase one reportedly consented by Aberdeenshire Council (press, unverified)",
+     "basis": "reported",
+     "source": "reported"
+    },
+    {
+     "label": "Developer",
+     "value": "Ashfield Land with TechRE (press reports)",
+     "basis": "reported",
+     "source": "reported"
+    },
+    {
+     "label": "Council",
+     "value": "Aberdeenshire Council",
+     "basis": "reported",
+     "source": "reported"
+    },
+    {
+     "label": "Capacity",
+     "value": "600 MW first phase on about 200 acres (press reports)",
+     "basis": "reported",
+     "source": "reported"
+    }
+   ],
+   "sources": [
+    "https://www.datacenterdynamics.com/en/news/600mw-data-center-could-be-built-near-aberdeen-scotland-report/",
+    "https://www.agcc.co.uk/news-article/multi-billion-pound-data-centre-and-ai-campus-in-aberdeenshire-progressing"
+   ]
+  },
+  "Carn Fearna Wind Farm": {
+   "facts": [
+    {
+     "label": "REPD reference",
+     "value": "14288",
+     "basis": "register",
+     "source": "repd"
+    },
+    {
+     "label": "REPD status",
+     "value": "Planning Application Submitted",
+     "basis": "register",
+     "source": "repd"
+    },
+    {
+     "label": "TEC project status",
+     "value": "Scoping",
+     "basis": "register",
+     "source": "neso_tec"
+    }
+   ],
+   "sources": []
+  },
+  "Cato data centre campus (ILI Group, Auchtertool, Fife)": {
+   "facts": [
+    {
+     "label": "Application type",
+     "value": "Planning permission in principle (reported)",
+     "basis": "reported",
+     "source": "reported"
+    },
+    {
+     "label": "Status",
+     "value": "Application submitted June 2026; more than 1,200 objections reported July 2026; no decision found",
+     "basis": "reported",
+     "source": "reported"
+    },
+    {
+     "label": "Developer",
+     "value": "ILI Group",
+     "basis": "reported",
+     "source": "reported"
+    },
+    {
+     "label": "Council",
+     "value": "Fife Council",
+     "basis": "reported",
+     "source": "reported"
+    },
+    {
+     "label": "Capacity",
+     "value": "600 MW; about GBP 5 billion (developer and press)",
+     "basis": "reported",
+     "source": "reported"
+    }
+   ],
+   "sources": [
+    "https://datacentrereview.com/2026/06/ili-group-submits-plans-for-5bn-fife-ai-data-centre/",
+    "https://datacentrereview.com/2026/07/more-than-1200-objections-lodged-against-5bn-fife-data-centre/",
+    "https://constructionreviewonline.com/cato-data-centre-5-billion-scottish-construction-plan-sparks-fears-beside-auchtertool-village/"
+   ]
+  },
+  "Chapelcross data centre campus (CX Tech)": {
+   "facts": [
+    {
+     "label": "Planning reference",
+     "value": "26/1649/PIP",
+     "basis": "reported",
+     "source": "reported"
+    },
+    {
+     "label": "Application type",
+     "value": "Planning permission in principle",
+     "basis": "reported",
+     "source": "reported"
+    },
+    {
+     "label": "Status",
+     "value": "Validated 28 September 2026; no decision found in coverage to early October",
+     "basis": "reported",
+     "source": "reported"
+    },
+    {
+     "label": "Developer",
+     "value": "CX Tech Limited",
+     "basis": "reported",
+     "source": "reported"
+    },
+    {
+     "label": "Council",
+     "value": "Dumfries and Galloway Council",
+     "basis": "reported",
+     "source": "reported"
+    },
+    {
+     "label": "Capacity",
+     "value": "about 1 GW, eight buildings, 162,000 sq m (developer and press)",
+     "basis": "reported",
+     "source": "reported"
+    }
+   ],
+   "sources": [
+    "https://datacenterdynamics.com/en/news/plans-filed-for-1gw-data-center-campus-at-former-nuclear-plant-in-scotland",
+    "https://www.itv.com/news/border/2026-09-30/plans-submitted-for-what-could-be-worlds-largest-data-centre"
+   ]
+  },
+  "Cockenzie data centre (SDCL, former power station site)": {
+   "facts": [
+    {
+     "label": "Status",
+     "value": "Early stage; no planning application found in coverage (council: very early stage)",
+     "basis": "reported",
+     "source": "reported"
+    },
+    {
+     "label": "Developer",
+     "value": "SDCL (preferred bidder; joint venture being explored)",
+     "basis": "reported",
+     "source": "reported"
+    },
+    {
+     "label": "Council",
+     "value": "East Lothian Council",
+     "basis": "reported",
+     "source": "reported"
+    }
+   ],
+   "sources": [
+    "https://www.eastlothian.gov.uk/news/2025/first-steps-towards-data-centre-cockenzie",
+    "https://www.datacenterdynamics.com/en/news/data-center-planned-at-former-coal-store-in-east-lothian-scotland/"
+   ]
+  },
+  "Ditcher Law": {
+   "facts": [
+    {
+     "label": "TEC project status",
+     "value": "Awaiting Consents",
+     "basis": "register",
+     "source": "neso_tec"
+    }
+   ],
+   "sources": []
+  },
+  "Giants Burn Wind Farm": {
+   "facts": [
+    {
+     "label": "REPD reference",
+     "value": "16077",
+     "basis": "register",
+     "source": "repd"
+    },
+    {
+     "label": "REPD status",
+     "value": "Planning Application Submitted",
+     "basis": "register",
+     "source": "repd"
+    },
+    {
+     "label": "TEC project status",
+     "value": "Scoping",
+     "basis": "register",
+     "source": "neso_tec"
+    }
+   ],
+   "sources": []
+  },
+  "Glen Earrach Pumped Storage Hydro": {
+   "facts": [
+    {
+     "label": "REPD reference",
+     "value": "16442",
+     "basis": "register",
+     "source": "repd"
+    },
+    {
+     "label": "REPD status",
+     "value": "Planning Application Submitted",
+     "basis": "register",
+     "source": "repd"
+    }
+   ],
+   "sources": []
+  },
+  "Glenvernoch": {
+   "facts": [
+    {
+     "label": "TEC project status",
+     "value": "Scoping",
+     "basis": "register",
+     "source": "neso_tec"
+    }
+   ],
+   "sources": []
+  },
+  "Golticlay Wind Farm": {
+   "facts": [
+    {
+     "label": "TEC rows with this name",
+     "value": "2",
+     "basis": "register",
+     "source": "neso_tec"
+    },
+    {
+     "label": "REPD reference",
+     "value": "5195",
+     "basis": "register",
+     "source": "repd"
+    },
+    {
+     "label": "REPD status",
+     "value": "Under Construction",
+     "basis": "register",
+     "source": "repd"
+    },
+    {
+     "label": "TEC project status",
+     "value": "Awaiting Consents",
+     "basis": "register",
+     "source": "neso_tec"
+    }
+   ],
+   "sources": []
+  },
+  "Grudie Bridge": {
+   "facts": [
+    {
+     "label": "TEC project status",
+     "value": "Built",
+     "basis": "register",
+     "source": "neso_tec"
+    }
+   ],
+   "sources": []
+  },
+  "Hawks Nest Farm - Battery Storage": {
+   "facts": [
+    {
+     "label": "REPD reference",
+     "value": "17532",
+     "basis": "register",
+     "source": "repd"
+    },
+    {
+     "label": "REPD status",
+     "value": "Planning Permission Refused",
+     "basis": "register",
+     "source": "repd"
+    }
+   ],
+   "sources": []
+  },
+  "Hawthorn Pit -Solar Farm": {
+   "facts": [
+    {
+     "label": "REPD reference",
+     "value": "9799",
+     "basis": "register",
+     "source": "repd"
+    },
+    {
+     "label": "REPD status",
+     "value": "Appeal Granted",
+     "basis": "register",
+     "source": "repd"
+    }
+   ],
+   "sources": []
+  },
+  "Inch Cape": {
+   "facts": [
+    {
+     "label": "REPD reference",
+     "value": "2527",
+     "basis": "register",
+     "source": "repd"
+    },
+    {
+     "label": "REPD status",
+     "value": "Under Construction",
+     "basis": "register",
+     "source": "repd"
+    }
+   ],
+   "sources": []
+  },
+  "Kintore to Tealing 400kV overhead line": {
+   "facts": [
+    {
+     "label": "Consent or stage",
+     "value": "Section 37 application submitted (Scottish Ministers); determination expected within 12 months",
+     "basis": "reported",
+     "source": "reported"
+    },
+    {
+     "label": "Operator",
+     "value": "SSEN Transmission",
+     "basis": "reported",
+     "source": "reported"
+    },
+    {
+     "label": "Kind",
+     "value": "grid corridor (planned)",
+     "basis": "reported",
+     "source": "reported"
+    }
+   ],
+   "sources": [
+    "https://www.ssen-transmission.co.uk/TKUP"
+   ]
+  },
+  "Lairg II Wind Farm": {
+   "facts": [
+    {
+     "label": "TEC project status",
+     "value": "Consents Approved",
+     "basis": "register",
+     "source": "neso_tec"
+    }
+   ],
+   "sources": []
+  },
+  "Leithenwater Wind Energy Hub - Wind Farm": {
+   "facts": [
+    {
+     "label": "REPD rows with this name",
+     "value": "2",
+     "basis": "register",
+     "source": "repd"
+    },
+    {
+     "label": "REPD reference",
+     "value": "12283",
+     "basis": "register",
+     "source": "repd"
+    },
+    {
+     "label": "REPD status",
+     "value": "Planning Application Submitted",
+     "basis": "register",
+     "source": "repd"
+    }
+   ],
+   "sources": []
+  },
+  "Machair": {
+   "facts": [
+    {
+     "label": "REPD reference",
+     "value": "13428",
+     "basis": "register",
+     "source": "repd"
+    },
+    {
+     "label": "REPD status",
+     "value": "Planning Application Submitted",
+     "basis": "register",
+     "source": "repd"
+    }
+   ],
+   "sources": []
+  },
+  "Mochrum Fell Wind Farm": {
+   "facts": [
+    {
+     "label": "REPD rows with this name",
+     "value": "2",
+     "basis": "register",
+     "source": "repd"
+    },
+    {
+     "label": "REPD reference",
+     "value": "4466",
+     "basis": "register",
+     "source": "repd"
+    },
+    {
+     "label": "REPD status",
+     "value": "Revised",
+     "basis": "register",
+     "source": "repd"
+    }
+   ],
+   "sources": []
+  },
+  "Mossy Hill Wind Farm": {
+   "facts": [
+    {
+     "label": "TEC project status",
+     "value": "Consents Approved",
+     "basis": "register",
+     "source": "neso_tec"
+    }
+   ],
+   "sources": []
+  },
+  "New Cumnock BESS": {
+   "facts": [
+    {
+     "label": "TEC project status",
+     "value": "Scoping",
+     "basis": "register",
+     "source": "neso_tec"
+    }
+   ],
+   "sources": []
+  },
+  "Newlands Hill Wind Energy Hub": {
+   "facts": [
+    {
+     "label": "REPD rows with this name",
+     "value": "2",
+     "basis": "register",
+     "source": "repd"
+    },
+    {
+     "label": "REPD reference",
+     "value": "12289",
+     "basis": "register",
+     "source": "repd"
+    },
+    {
+     "label": "REPD status",
+     "value": "Planning Application Submitted",
+     "basis": "register",
+     "source": "repd"
+    },
+    {
+     "label": "TEC project status",
+     "value": "Awaiting Consents",
+     "basis": "register",
+     "source": "neso_tec"
+    }
+   ],
+   "sources": []
+  },
+  "Norwich to Tilbury (East Anglia GREEN)": {
+   "facts": [
+    {
+     "label": "Consent or stage",
+     "value": "DCO application EN020027, accepted for examination 26 September 2025",
+     "basis": "reported",
+     "source": "reported"
+    },
+    {
+     "label": "Operator",
+     "value": "National Grid Electricity Transmission",
+     "basis": "reported",
+     "source": "reported"
+    },
+    {
+     "label": "Kind",
+     "value": "grid corridor (planned)",
+     "basis": "reported",
+     "source": "reported"
+    }
+   ],
+   "sources": [
+    "https://www.nationalgrid.com/electricity-transmission/network-and-infrastructure/infrastructure-projects/about-east-anglia-green"
+   ]
+  },
+  "Olrig Mains Wind Farm": {
+   "facts": [
+    {
+     "label": "TEC project status",
+     "value": "Scoping",
+     "basis": "register",
+     "source": "neso_tec"
+    }
+   ],
+   "sources": []
+  },
+  "Overhill Wind Farm": {
+   "facts": [
+    {
+     "label": "TEC project status",
+     "value": "Consents Approved",
+     "basis": "register",
+     "source": "neso_tec"
+    }
+   ],
+   "sources": []
+  },
+  "Ravenscraig data centre (SevenFourEight)": {
+   "facts": [
+    {
+     "label": "Status",
+     "value": "Application reported filed (2025); no documents or decision found; a pre-application exhibition was set for 6 October",
+     "basis": "reported",
+     "source": "reported"
+    },
+    {
+     "label": "Developer",
+     "value": "Apatura (Apatura DC Project 2 Ltd for the battery element)",
+     "basis": "reported",
+     "source": "reported"
+    },
+    {
+     "label": "Council",
+     "value": "North Lanarkshire Council",
+     "basis": "reported",
+     "source": "reported"
+    },
+    {
+     "label": "Capacity",
+     "value": "550 MW demand capacity (public notice, 2025)",
+     "basis": "reported",
+     "source": "reported"
+    }
+   ],
+   "sources": [
+    "https://www.datacenterdynamics.com/en/news/apatura-plans-500mw-data-center-campus-in-scotland/",
+    "https://futurescot.com/former-steel-mill-at-ravenscraig-in-contention-for-ai-growth-zone-status-with-plans-for-3-9-billion-green-data-centre/"
+   ]
+  },
+  "Rufus data centre campus (Hurlford)": {
+   "facts": [
+    {
+     "label": "Status",
+     "value": "Pre-application enquiries (late 2025); no full application found",
+     "basis": "reported",
+     "source": "reported"
+    },
+    {
+     "label": "Developer",
+     "value": "ILI Group",
+     "basis": "reported",
+     "source": "reported"
+    },
+    {
+     "label": "Council",
+     "value": "East Ayrshire Council",
+     "basis": "reported",
+     "source": "reported"
+    },
+    {
+     "label": "Capacity",
+     "value": "540 MW (aggregator figure; conflicting figures on the same page; unverified)",
+     "basis": "reported",
+     "source": "reported"
+    }
+   ],
+   "sources": [
+    "https://baxtel.com/data-center/ili-group-rufus-campus",
+    "https://www.theconstructionindex.co.uk/planning-leads/Kilmarnock/view/1224537"
+   ]
+  },
+  "Sanquhar II Wind Farm": {
+   "facts": [
+    {
+     "label": "TEC rows with this name",
+     "value": "2",
+     "basis": "register",
+     "source": "neso_tec"
+    },
+    {
+     "label": "TEC project status",
+     "value": "Consents Approved",
+     "basis": "register",
+     "source": "neso_tec"
+    }
+   ],
+   "sources": []
+  },
+  "Scoop Hill Wind Farm": {
+   "facts": [
+    {
+     "label": "REPD rows with this name",
+     "value": "2",
+     "basis": "register",
+     "source": "repd"
+    },
+    {
+     "label": "REPD reference",
+     "value": "7454",
+     "basis": "register",
+     "source": "repd"
+    },
+    {
+     "label": "REPD status",
+     "value": "Planning Permission Refused",
+     "basis": "register",
+     "source": "repd"
+    },
+    {
+     "label": "TEC project status",
+     "value": "Awaiting Consents",
+     "basis": "register",
+     "source": "neso_tec"
+    }
+   ],
+   "sources": []
+  },
+  "Seagreen": {
+   "facts": [
+    {
+     "label": "REPD reference",
+     "value": "2540",
+     "basis": "register",
+     "source": "repd"
+    },
+    {
+     "label": "REPD status",
+     "value": "Operational",
+     "basis": "register",
+     "source": "repd"
+    }
+   ],
+   "sources": []
+  },
+  "Shinness Wind Farm": {
+   "facts": [
+    {
+     "label": "REPD rows with this name",
+     "value": "2",
+     "basis": "register",
+     "source": "repd"
+    },
+    {
+     "label": "REPD reference",
+     "value": "12027",
+     "basis": "register",
+     "source": "repd"
+    },
+    {
+     "label": "REPD status",
+     "value": "Planning Application Submitted",
+     "basis": "register",
+     "source": "repd"
+    }
+   ],
+   "sources": []
+  },
+  "Spiorad na Mara": {
+   "facts": [
+    {
+     "label": "REPD reference",
+     "value": "13735",
+     "basis": "register",
+     "source": "repd"
+    },
+    {
+     "label": "REPD status",
+     "value": "Planning Application Submitted",
+     "basis": "register",
+     "source": "repd"
+    }
+   ],
+   "sources": []
+  },
+  "Whitelee": {
+   "facts": [
+    {
+     "label": "TEC rows with this name",
+     "value": "4",
+     "basis": "register",
+     "source": "neso_tec"
+    },
+    {
+     "label": "REPD reference",
+     "value": "3489",
+     "basis": "register",
+     "source": "repd"
+    },
+    {
+     "label": "REPD status",
+     "value": "Operational",
+     "basis": "register",
+     "source": "repd"
+    },
+    {
+     "label": "TEC project status",
+     "value": "Built",
+     "basis": "register",
+     "source": "neso_tec"
+    }
+   ],
+   "sources": []
+  }
+ }
+}

@@ -10,6 +10,11 @@ Mochrum Fell Wind Farm is a wind, solar and storage project tracked on slava.it.
 | REPD reference | 4466 | register |
 | REPD status | Revised | register |
 
+## Data credits
+
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract.
+- Use of these registers does not imply endorsement by their publishers.
+
 ## Source groups
 
 | Group | Posts |

@@ -6,19 +6,25 @@ llms-full.txt, feed.xml, feeds/{data-centres,pylons,wind}.xml, projects/<slug>.h
 with at least two linked posts, pylons-grid/, data-centres/ and renewables-wind/ (index.html and index.md),
 <indexnow-key>.txt, and two marker blocks in index.html (JSON-LD and the follow bar). No network access.
 
-Privacy: outputs never contain post text, post titles or author names. They contain group names, dates,
-counts, theme tags, register facts (labelled as reported or register) and links to the archive entries
-(?sel=<id>). Blocked post IDs are dropped everywhere.
+Inputs are inside the repository only: data/discussions-index.json, data/register-facts-public.json (written by
+scripts/export_register_facts.py), data/indexnow.json and index.html. A clean clone rebuilds the same files.
+The build stops with an error, and writes nothing, if the facts file is missing or invalid, or if a project
+page has no entry in it.
 
-Usage: python3 scripts/build_seo_geo.py [--dry-run] [--build-date YYYY-MM-DD] [--site DIR] [--objects-db PATH]
+Privacy: outputs never contain post text, post titles or author names. They contain group names, dates,
+counts, theme tags, register facts (labelled as reported or register, with the licence credits of the
+registers) and links to the archive entries (?sel=<id>). Blocked post IDs are dropped everywhere.
+
+Usage: python3 scripts/build_seo_geo.py [--dry-run] [--build-date YYYY-MM-DD] [--site DIR]
 """
-import argparse, ast, collections, datetime, html, json, os, re, sqlite3, sys, uuid
+import argparse, collections, datetime, html, json, os, re, sys, uuid
 from email.utils import format_datetime
 from xml.sax.saxutils import escape as xesc
 
 SITE_URL = "https://slava.it.com"
 SITE_DEFAULT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OBJECTS_DEFAULT = os.path.expanduser("~/dev/uk-project-post-map_v3.3/data/objects/objects.sqlite")
+FACTS_REL = "data/register-facts-public.json"
+EXPORT_HINT = "Run scripts/export_register_facts.py where the registers are kept, then commit the file."
 
 # Withheld from every generated output. The first six are the user's deletion orders (project memory);
 # 29488742940728054 is withheld from these pages until the user decides (it is not on the deletion list).
@@ -34,9 +40,21 @@ HUBS = {
     "renewables-wind": {"name": "Wind, solar and storage", "cats": {"Onshore Wind", "Solar", "BESS", "Hybrid"},
                         "feed": "wind"},
 }
+VERTICAL_PHRASE = {"AI data centre": "an AI data centre project", "Pylons and grid": "a pylons and grid project",
+                   "Wind, solar and storage": "a wind, solar and storage project"}
 JSONLD_MARK = ("<!-- seo-geo:jsonld:start -->", "<!-- seo-geo:jsonld:end -->")
 FOLLOW_MARK = ("<!-- seo-geo:follow:start -->", "<!-- seo-geo:follow:end -->")
 FEED_ITEMS = 50
+
+# Wording that must never appear in a public fact: internal notes, post-ID-sized numbers, email addresses.
+FORBIDDEN = [(re.compile(r"\buser\b", re.I), "internal wording 'user'"),
+             (re.compile(r"returned by search|not in search|search did not|reported by the user", re.I), "internal search wording"),
+             (re.compile(r"\d{13,}"), "post-ID-sized number"),
+             (re.compile(r"[\w.+-]+@[\w-]+\.[\w.]+"), "email address")]
+
+
+class BuildError(Exception):
+    """A problem with the inputs. The build stops and writes nothing."""
 
 
 def norm(s):
@@ -64,72 +82,70 @@ def rfc822(date):
     return format_datetime(datetime.datetime.fromisoformat(date).replace(tzinfo=datetime.timezone.utc))
 
 
-def as_list(v):
-    if isinstance(v, list):
-        return v
-    if isinstance(v, str) and v.strip().startswith("["):
-        try:
-            return list(ast.literal_eval(v))
-        except (ValueError, SyntaxError):
-            return []
-    return []
-
-
 def read_json(site, rel, default):
     p = os.path.join(site, rel)
     return json.load(open(p, encoding="utf-8")) if os.path.exists(p) else default
 
 
-def load_registers(path):
-    repd, tec = collections.defaultdict(list), collections.defaultdict(list)
-    if not path or not os.path.exists(path):
-        return repd, tec
-    con = sqlite3.connect(f"file:{path}?mode=ro", uri=True)
-    for ref, name, status, tech in con.execute("select ref_id, name, status, technology from repd_record"):
-        repd[norm(name)].append({"ref": ref, "status": status, "technology": tech})
-    for name, status, pref, auth in con.execute(
-            "select project_name, project_status, planning_reference, planning_authority from tec_project"):
-        tec[norm(name)].append({"status": status, "planning_reference": pref, "authority": auth})
-    return repd, tec
+def validate_facts_doc(doc):
+    """Check the public facts document. Raises BuildError listing every problem found (first 20)."""
+    if not isinstance(doc, dict) or doc.get("schema") != 1:
+        raise BuildError(f"{FACTS_REL}: unsupported or missing schema (expected 1). {EXPORT_HINT}")
+    problems = []
+    srcs = doc.get("sources")
+    if not isinstance(srcs, dict) or not srcs:
+        raise BuildError(f"{FACTS_REL}: 'sources' is missing. {EXPORT_HINT}")
+    for sid, meta in srcs.items():
+        if not isinstance(meta, dict) or not meta.get("name"):
+            problems.append(f"source {sid}: name missing")
+            continue
+        if "licence" in meta:
+            for k in ("licence_url", "attribution", "source_url"):
+                if not meta.get(k):
+                    problems.append(f"source {sid}: {k} missing")
+                elif k.endswith("_url") and not str(meta[k]).startswith("https://"):
+                    problems.append(f"source {sid}: {k} is not an https link")
+    if not isinstance(doc.get("data_centre_projects"), list):
+        problems.append("'data_centre_projects' list missing")
+    projects = doc.get("projects")
+    if not isinstance(projects, dict):
+        problems.append("'projects' missing")
+        projects = {}
+    for name, e in projects.items():
+        if not isinstance(e, dict) or not isinstance(e.get("facts"), list) or not isinstance(e.get("sources"), list):
+            problems.append(f"{name}: needs 'facts' and 'sources' lists")
+            continue
+        for i, f in enumerate(e["facts"]):
+            if not isinstance(f, dict) or set(f) != {"label", "value", "basis", "source"}:
+                problems.append(f"{name} fact {i}: fields must be label, value, basis, source")
+                continue
+            if not str(f["label"]).strip() or not str(f["value"]).strip():
+                problems.append(f"{name} fact {i}: empty label or value")
+            if f["basis"] not in ("register", "reported"):
+                problems.append(f"{name} fact '{f['label']}': basis must be register or reported")
+            if f["source"] not in srcs:
+                problems.append(f"{name} fact '{f['label']}': unknown source '{f['source']}'")
+            for pat, why in FORBIDDEN:
+                if pat.search(f"{f['label']} {f['value']}"):
+                    problems.append(f"{name} fact '{f['label']}': {why}")
+        for u in e["sources"]:
+            if not str(u).startswith("https://") or "facebook.com" in str(u):
+                problems.append(f"{name}: source link must be a non-Facebook https link: {u}")
+    if problems:
+        extra = f"\n  ... and {len(problems) - 20} more" if len(problems) > 20 else ""
+        raise BuildError(f"{FACTS_REL} is invalid:\n  " + "\n  ".join(problems[:20]) + extra)
 
 
-def register_facts(name, dc, corr, repd, tec):
-    """Facts as (label, value, basis). Basis is 'reported' for press, developer or council claims, 'register' for registers."""
-    facts = []
-    d = dc.get(name)
-    if d:
-        for lab, key in [("Planning reference", "application_ref"), ("Application type", "application_type"),
-                         ("Status", "status_reported"), ("Developer", "developer_reported"),
-                         ("Council", "council"), ("Capacity", "capacity_reported")]:
-            if d.get(key):
-                facts.append((lab, d[key], "reported"))
-    c = corr.get(name)
-    if c:
-        for lab, key in [("Consent or stage", "consent"), ("Operator", "operator"), ("Kind", "kind")]:
-            if c.get(key):
-                facts.append((lab, c[key], "reported"))
-    n = norm(name)
-    if len(repd.get(n, [])) > 1:
-        facts.append(("REPD rows with this name", str(len(repd[n])), "register"))
-    if len(tec.get(n, [])) > 1:
-        facts.append(("TEC rows with this name", str(len(tec[n])), "register"))
-    for row in repd.get(n, [])[:1]:
-        facts += [("REPD reference", row["ref"], "register"), ("REPD status", row["status"], "register")]
-    for row in tec.get(n, [])[:1]:
-        if row["planning_reference"]:
-            facts.append(("Planning reference (TEC)", row["planning_reference"], "register"))
-        if row["status"]:
-            facts.append(("TEC project status", row["status"], "register"))
-    return facts
-
-
-def sources_for(name, dc, corr):
-    urls = []
-    if name in dc:
-        urls += as_list(dc[name].get("sources"))
-    if name in corr and corr[name].get("source"):
-        urls.append(corr[name]["source"])
-    return [u for u in dict.fromkeys(urls) if str(u).startswith("https://")]
+def load_public_facts(site):
+    path = os.path.join(site, FACTS_REL)
+    if not os.path.exists(path):
+        raise BuildError(f"{FACTS_REL} is missing. {EXPORT_HINT}")
+    try:
+        doc = json.load(open(path, encoding="utf-8"))
+    except json.JSONDecodeError as e:
+        raise BuildError(f"{FACTS_REL} is not valid JSON: {e}")
+    validate_facts_doc(doc)
+    return doc
 
 
 def top_themes(counter, k):
@@ -145,32 +161,29 @@ def fit(required, optional, hi=60):
     return text
 
 
-def is_data_centre(name, posts, dc):
-    return name in dc or sum("Data Centre" in (r.get("categories") or []) for r in posts) * 2 >= len(posts)
+def is_data_centre(name, posts, dc_names):
+    return name in dc_names or sum("Data Centre" in (r.get("categories") or []) for r in posts) * 2 >= len(posts)
 
 
 def is_ohl(posts):
     return sum(bool({"OHL (Pylons)", "Substation"} & set(r.get("categories") or [])) for r in posts) * 2 >= len(posts)
 
 
-def vertical_of(name, posts, dc):
-    if is_data_centre(name, posts, dc):
+def vertical_of(name, posts, dc_names):
+    if is_data_centre(name, posts, dc_names):
         return "AI data centre"
     return "Pylons and grid" if is_ohl(posts) else "Wind, solar and storage"
 
 
-VERTICAL_PHRASE = {"AI data centre": "an AI data centre project", "Pylons and grid": "a pylons and grid project",
-                   "Wind, solar and storage": "a wind, solar and storage project"}
-
-
-def project_model(name, posts, dc, corr, repd, tec):
+def project_model(name, posts, entry, dc_names):
     posts = sorted(posts, key=lambda r: (r["date"], r["id"]), reverse=True)
     groups = collections.Counter(r["source"]["name"] for r in posts)
     themes = collections.Counter(t for r in posts for t in (r.get("categories") or []))
     latest, earliest = posts[0]["date"], posts[-1]["date"]
     n, g = len(posts), len(groups)
-    vertical = vertical_of(name, posts, dc)
-    facts = register_facts(name, dc, corr, repd, tec)
+    vertical = vertical_of(name, posts, dc_names)
+    facts = [(f["label"], f["value"], f["basis"]) for f in entry["facts"]]
+    credits = list(dict.fromkeys(f["source"] for f in entry["facts"]))
     ref = next((f"{lab}: {v} ({b})" for lab, v, b in facts if lab in ("Planning reference", "REPD reference", "Planning reference (TEC)")), None)
     status = next((f"{lab}: {v} ({b})" for lab, v, b in facts if lab in ("Status", "REPD status", "TEC project status", "Consent or stage")), None)
     req = [f"{name} is {VERTICAL_PHRASE[vertical]} tracked on slava.it.com.",
@@ -193,7 +206,7 @@ def project_model(name, posts, dc, corr, repd, tec):
            f"The most frequent theme tags are {top_themes(themes, 3)}. Post text is not reproduced here; each archive entry links to the post.")]
     return {"name": name, "slug": slugify(name), "vertical": vertical, "posts": posts, "groups": groups,
             "themes": themes, "latest": latest, "earliest": earliest, "facts": facts, "capsule": capsule,
-            "qa": qa, "sources": sources_for(name, dc, corr), "words": words(capsule)}
+            "qa": qa, "sources": entry["sources"], "credits": credits, "words": words(capsule)}
 
 
 def hub_model(key, spec, projects):
@@ -240,6 +253,18 @@ def follow_html():
             f"{FOLLOW_MARK[1]}")
 
 
+def credit_lines(p, srcs):
+    """Credit entries for the licensed registers whose facts appear on the page: (text, licence, licence_url, source_url)."""
+    out = []
+    for sid in p["credits"]:
+        m = srcs[sid]
+        if "licence" not in m:
+            continue
+        copyright_ = f" (© {m['copyright']})" if m.get("copyright") else ""
+        out.append((f"{m['attribution'].rstrip('.')}. Data: {m['name']}{copyright_}.", m["licence"], m["licence_url"], m["source_url"]))
+    return out
+
+
 def page(title, desc, canonical, body, lds):
     ld = "\n".join(f'<script type="application/ld+json">{jsonld(x)}</script>' for x in lds)
     return (
@@ -258,12 +283,19 @@ def page(title, desc, canonical, body, lds):
         f"{follow_html()}\n</body>\n</html>\n")
 
 
-def project_html(p):
+def project_html(p, srcs):
     rows = "".join(f"<tr><td>{esc(lab)}</td><td>{esc(v)}</td><td>{esc(b)}</td></tr>" for lab, v, b in p["facts"])
     facts_html = (f"<table><tr><th>Item</th><th>Value</th><th>Basis</th></tr>{rows}</table>" if rows
                   else "<p>No register facts are recorded for this project.</p>")
     src = "".join(f"<li><a href=\"{esc(u)}\">{esc(u)}</a></li>" for u in p["sources"])
     src_html = f"<h2>Sources for reported facts</h2><ul>{src}</ul>" if src else ""
+    cl = credit_lines(p, srcs)
+    credit_html = ""
+    if cl:
+        items = "".join(f"<li>{esc(t)} Licence: <a href=\"{esc(lu)}\">{esc(l)}</a>. Source: <a href=\"{esc(su)}\">{esc(su)}</a>.</li>"
+                        for t, l, lu, su in cl)
+        credit_html = (f"<h2>Data credits</h2><ul>{items}<li>Use of these registers does not imply endorsement "
+                       "by their publishers.</li></ul>\n")
     grows = "".join(f"<tr><td>{esc(g)}</td><td>{n}</td></tr>" for g, n in p["groups"].most_common())
     trows = "".join(f"<tr><td>{esc(t)}</td><td>{n}</td></tr>" for t, n in p["themes"].most_common())
     entries = "".join(
@@ -271,7 +303,7 @@ def project_html(p):
         f" · themes: {esc(', '.join(r.get('categories') or []) or 'none tagged')}</li>" for r in p["posts"])
     qa_html = "".join(f"<h2>{esc(q)}</h2><p>{esc(a)}</p>" for q, a in p["qa"])
     body = (f"<h1>{esc(p['name'])}</h1>\n<p class=\"capsule\">{esc(p['capsule'])}</p>\n"
-            f"<h2>Register facts</h2>\n{facts_html}\n{src_html}\n"
+            f"<h2>Register facts</h2>\n{facts_html}\n{src_html}\n{credit_html}"
             f"<h2>Source groups</h2><table><tr><th>Group</th><th>Posts</th></tr>{grows}</table>\n"
             f"<h2>Theme breakdown</h2><table><tr><th>Theme</th><th>Posts</th></tr>{trows}</table>\n"
             f"{qa_html}\n<h2>Archive entries</h2><ul>{entries}</ul>\n<p><a href=\"/\">Back to the archive</a></p>")
@@ -280,14 +312,20 @@ def project_html(p):
     return page(f"{p['name']} · community discussion archive", p["capsule"][:155], url, body, [ds, faq_ld(p["qa"])])
 
 
-def project_md(p):
+def project_md(p, srcs):
     f = "\n".join(f"| {lab} | {v.replace('|', '/')} | {b} |" for lab, v, b in p["facts"]) or "| none recorded | | |"
     g = "\n".join(f"| {x} | {n} |" for x, n in p["groups"].most_common())
     t = "\n".join(f"| {x} | {n} |" for x, n in p["themes"].most_common())
     e = "\n".join(f"- {r['date']}, {r['source']['name']}: {SITE_URL}/?sel={r['id']} (themes: {', '.join(r.get('categories') or []) or 'none tagged'})"
                   for r in p["posts"])
     qa = "\n\n".join(f"## {q}\n\n{a}" for q, a in p["qa"])
+    cl = credit_lines(p, srcs)
+    credit_md = ""
+    if cl:
+        credit_md = ("## Data credits\n\n" + "\n".join(f"- {t} Licence: [{l}]({lu}). Source: {su}." for t, l, lu, su in cl)
+                     + "\n- Use of these registers does not imply endorsement by their publishers.\n\n")
     return (f"# {p['name']}\n\n{p['capsule']}\n\n## Register facts\n\n| Item | Value | Basis |\n|---|---|---|\n{f}\n\n"
+            f"{credit_md}"
             f"## Source groups\n\n| Group | Posts |\n|---|---|\n{g}\n\n## Theme breakdown\n\n| Theme | Posts |\n|---|---|\n{t}\n\n"
             f"{qa}\n\n## Archive entries\n\n{e}\n\n---\nHTML version: {SITE_URL}/projects/{p['slug']}.html\n"
             "Archived public Facebook group posts; not independently verified. Post text is not reproduced.\n")
@@ -329,31 +367,32 @@ def feed_xml(title, items, path, build_date):
             f'<atom:link href="{SITE_URL}/{path}" rel="self" type="application/rss+xml"/>\n{body}</channel>\n</rss>\n')
 
 
-def build_files(site, objects_db, build_date):
-    for rel in ("data/data_centre_register.json", "data/grid_corridor_supplement.json"):
-        if not os.path.exists(os.path.join(site, rel)):
-            print(f"warning: {rel} not found; its register facts are omitted from the pages", file=sys.stderr)
-    recs = [r for r in read_json(site, "data/discussions-index.json", {"records": []})["records"]
-            if r["id"] not in BLOCKED_POST_IDS and r.get("date") and r.get("source")]
-    dc = {p["name"]: p for p in read_json(site, "data/data_centre_register.json", {"projects": []})["projects"]}
-    corr = {c["name"]: c for c in read_json(site, "data/grid_corridor_supplement.json", {"corridors": []})["corridors"]}
-    repd, tec = load_registers(objects_db)
+def build_files(site, build_date):
+    all_recs = read_json(site, "data/discussions-index.json", {"records": []})["records"]
+    recs = [r for r in all_recs if r["id"] not in BLOCKED_POST_IDS and r.get("date") and r.get("source")]
+    facts_doc = load_public_facts(site)
+    srcs, dc_names = facts_doc["sources"], set(facts_doc["data_centre_projects"])
     by_proj = collections.defaultdict(list)
     for r in recs:
         if r.get("project"):
             by_proj[r["project"]].append(r)
     linked = sorted(by_proj)
-    projects = [project_model(n, by_proj[n], dc, corr, repd, tec) for n in linked if len(by_proj[n]) >= 2]
+    page_names = [n for n in linked if len(by_proj[n]) >= 2]
+    missing = [n for n in page_names if n not in facts_doc["projects"]]
+    if missing:
+        raise BuildError(f"{FACTS_REL} has no entry for {len(missing)} project page(s): " + "; ".join(missing[:10])
+                         + (" ..." if len(missing) > 10 else "") + f". {EXPORT_HINT}")
+    projects = [project_model(n, by_proj[n], facts_doc["projects"][n], dc_names) for n in page_names]
     slugs = [p["slug"] for p in projects]
     assert len(set(slugs)) == len(slugs), "project slug collision"
     hubs = {k: hub_model(k, s, projects) for k, s in HUBS.items()}
     newest = max(r["date"] for r in recs)
     total_groups = len({r["source"]["name"] for r in recs})
-    vc = collections.Counter(vertical_of(n, by_proj[n], dc) for n in linked)
+    vc = collections.Counter(vertical_of(n, by_proj[n], dc_names) for n in linked)
     F = {}
     for p in projects:
-        F[f"projects/{p['slug']}.html"] = project_html(p)
-        F[f"projects/{p['slug']}.md"] = project_md(p)
+        F[f"projects/{p['slug']}.html"] = project_html(p, srcs)
+        F[f"projects/{p['slug']}.md"] = project_md(p, srcs)
     for k, h in hubs.items():
         F[f"{k}/index.html"] = hub_html(h)
         F[f"{k}/index.md"] = hub_md(h)
@@ -366,8 +405,13 @@ def build_files(site, objects_db, build_date):
     desc = (f"{len(recs)} tracked public community posts from {total_groups} Facebook groups, linked to {len(linked)} UK projects "
             f"({vc['Wind, solar and storage']} wind, solar and storage; {vc['Pylons and grid']} pylons and grid; "
             f"{vc['AI data centre']} AI data centres). Posts are archived public group posts, not independently verified.")
+    withheld = len(all_recs) - len(recs)
+    note = ""
+    if withheld:
+        note = (f" The discussions index holds {len(all_recs):,} records; these pages cover {len(recs):,} because "
+                f"{withheld} record{' is' if withheld == 1 else 's are'} excluded from them.")
     lines = ["# slava.it.com", "", f"> {desc}", "",
-             f"Counts are generated from the discussions index on {build_date}. Projects with at least two linked posts have a page.", "",
+             f"Counts are generated from the discussions index on {build_date}. Projects with at least two linked posts have a page.{note}", "",
              "## Hubs"]
     for k, h in hubs.items():
         lines.append(f"- [{h['spec']['name']}]({SITE_URL}/{k}/index.md): {len(h['members'])} projects, {len(h['posts'])} posts; latest {h['latest']}")
@@ -406,7 +450,7 @@ def build_files(site, objects_db, build_date):
     projects_dir = os.path.join(site, "projects")
     existing = set(os.listdir(projects_dir)) if os.path.isdir(projects_dir) else set()
     wanted = {f"{p['slug']}{ext}" for p in projects for ext in (".html", ".md")}
-    stats = {"records": len(recs), "groups": total_groups, "linked_projects": len(linked),
+    stats = {"records": len(recs), "index_records": len(all_recs), "groups": total_groups, "linked_projects": len(linked),
              "project_pages": len(projects), "verticals": dict(vc),
              "hubs": {k: len(h["members"]) for k, h in hubs.items()}, "newest": newest, "key": key,
              "capsule_words": {p["slug"]: p["words"] for p in projects},
@@ -417,11 +461,14 @@ def build_files(site, objects_db, build_date):
 def main(argv=None):
     ap = argparse.ArgumentParser(description="Build SEO and GEO outputs for slava.it.com.")
     ap.add_argument("--site", default=SITE_DEFAULT)
-    ap.add_argument("--objects-db", default=os.environ.get("SEO_OBJECTS_DB", OBJECTS_DEFAULT))
     ap.add_argument("--build-date", default=datetime.date.today().isoformat())
     ap.add_argument("--dry-run", action="store_true", help="build in memory and print the checks; write nothing")
     a = ap.parse_args(argv)
-    F, stats = build_files(a.site, a.objects_db, a.build_date)
+    try:
+        F, stats = build_files(a.site, a.build_date)
+    except BuildError as e:
+        print(f"error: {e}", file=sys.stderr)
+        return 2
     bad = {s: w for s, w in stats["capsule_words"].items() if not 40 <= w <= 60}
     print(json.dumps({k: v for k, v in stats.items() if k != "capsule_words"}, indent=1, ensure_ascii=False))
     print("capsules outside 40-60 words:", bad or "none")
@@ -429,7 +476,7 @@ def main(argv=None):
         print("dry run: nothing written;", len(F), "files built")
         return 0
     if bad:
-        print("refusing to write: fix capsule lengths first", file=sys.stderr)
+        print("error: refusing to write: fix capsule lengths first", file=sys.stderr)
         return 1
     for rel, text in F.items():
         path = os.path.join(a.site, rel)

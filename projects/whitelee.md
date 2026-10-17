@@ -11,6 +11,12 @@ Whitelee is a wind, solar and storage project tracked on slava.it.com. The archi
 | REPD status | Operational | register |
 | TEC project status | Built | register |
 
+## Data credits
+
+- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register.
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract.
+- Use of these registers does not imply endorsement by their publishers.
+
 ## Source groups
 
 | Group | Posts |
