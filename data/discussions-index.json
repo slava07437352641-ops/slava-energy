@@ -6,7 +6,7 @@
   "withMedia": 1283,
   "withCategories": 1092,
   "withTopics": 316,
-  "withProject": 149,
+  "withProject": 210,
   "withCoordinates": 95,
   "withSummary": 52,
   "withBodyText": 2409,
@@ -7133,6 +7133,12 @@
     },
     "bodyText": {
      "method": "content_before_first_comment"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "forsinain",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -7146,7 +7152,8 @@
     "Onshore Wind"
    ],
    "contentFingerprint": "724bbe3caff2e41f092c67c10450e52983a59fce863472e132107b0f95f9aad5",
-   "bodyText": "‘We do have significant concerns’: RSPB considers newly submitted plans for Forsinain Forest wind farm next to nature reserve\nNORTHERN-TIMES.CO.UK ‘We do have significant concerns’: RSPB considers newly submitted plans for Forsinain Forest wind farm next to nature reserve"
+   "bodyText": "‘We do have significant concerns’: RSPB considers newly submitted plans for Forsinain Forest wind farm next to nature reserve\nNORTHERN-TIMES.CO.UK ‘We do have significant concerns’: RSPB considers newly submitted plans for Forsinain Forest wind farm next to nature reserve",
+   "project": "Forsinain Wind Farm"
   },
   {
    "id": "29100864756182543",
@@ -16245,6 +16252,12 @@
     },
     "bodyText": {
      "method": "content_before_first_comment"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "machair",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -16257,7 +16270,8 @@
     "Onshore Wind"
    ],
    "contentFingerprint": "936b679f63ca70518e83dbdb9723cb366c86d6b63bb90455e7d1de939f66d8b6",
-   "bodyText": "OBJECT.NOW Machair Wind Farm Objection Platform - ObjectNow Object Now to the Machair Wind Farm Proposal"
+   "bodyText": "OBJECT.NOW Machair Wind Farm Objection Platform - ObjectNow Object Now to the Machair Wind Farm Proposal",
+   "project": "Machair"
   },
   {
    "id": "28881768918092129",
@@ -16309,6 +16323,10 @@
     },
     "bodyText": {
      "method": "content_before_first_comment"
+    },
+    "project": {
+     "method": "grid_corridor_supplement",
+     "confidence": "multi-word alias, review"
     }
    },
    "source": {
@@ -16333,7 +16351,8 @@
    },
    "location": "Peterhead",
    "contentFingerprint": "10c33e4a2e8cb2c8decf02550b7603c164c610fc3cbdd018cdb96786ce5cf2db",
-   "bodyText": "TRL-270-2 - Beauly To Peterhead OHL - Landscape and Visual Inquiry Day 1\nYOUTUBE.COM TRL-270-2 - Beauly To Peterhead OHL - Landscape and Visual Inquiry Day 1"
+   "bodyText": "TRL-270-2 - Beauly To Peterhead OHL - Landscape and Visual Inquiry Day 1\nYOUTUBE.COM TRL-270-2 - Beauly To Peterhead OHL - Landscape and Visual Inquiry Day 1",
+   "project": "Beauly to Peterhead 400kV overhead line"
   },
   {
    "id": "28881288498140171",
@@ -16665,6 +16684,12 @@
     "previewImage": {
      "method": "article_og_image",
      "url": "https://object.now/machair/"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "machair",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -16681,7 +16706,8 @@
    ],
    "contentFingerprint": "910a0824dd3e1b214790782d02860dab646ba27114ef5d52d616a6a6c399a497",
    "summary": "Object Now to the Machair Wind Farm Proposal",
-   "previewImage": "https://object.now/wp-content/uploads/2026/07/logo-150x150.png"
+   "previewImage": "https://object.now/wp-content/uploads/2026/07/logo-150x150.png",
+   "project": "Machair"
   },
   {
    "id": "27918798017773624",
@@ -21786,6 +21812,12 @@
     "previewImage": {
      "method": "article_og_image",
      "url": "https://object.now/machair/"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "machair",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -21802,7 +21834,8 @@
    ],
    "contentFingerprint": "17ffdf4f4836bce39ddf354a58fcb7f653340430f2f7ec20c23e714ca3f1e211",
    "summary": "Object Now to the Machair Wind Farm Proposal",
-   "previewImage": "https://object.now/wp-content/uploads/2026/07/logo-150x150.png"
+   "previewImage": "https://object.now/wp-content/uploads/2026/07/logo-150x150.png",
+   "project": "Machair"
   },
   {
    "id": "28662900373312319",
@@ -22744,6 +22777,12 @@
     },
     "bodyText": {
      "method": "content_before_first_comment"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "whitelee",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -22754,7 +22793,8 @@
    },
    "externalSource": "Energyvoice",
    "contentFingerprint": "71ac5678cc66f7f592784718bd85ff2828d36e170d1c19f97bf302f4110df791",
-   "bodyText": "Whitelee repowering signals rebuild of Britain's ageing wind fleet\nENERGYVOICE.COM Whitelee repowering signals rebuild of Britain's ageing wind fleet"
+   "bodyText": "Whitelee repowering signals rebuild of Britain's ageing wind fleet\nENERGYVOICE.COM Whitelee repowering signals rebuild of Britain's ageing wind fleet",
+   "project": "Whitelee"
   },
   {
    "id": "28601627602772930",
@@ -27817,6 +27857,12 @@
     },
     "bodyText": {
      "method": "content_before_first_comment"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "glenvernoch",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -27830,7 +27876,8 @@
     "Onshore Wind"
    ],
    "contentFingerprint": "b65a793cea298591d6b6068aca2155914be78df3199835304e7aedd4035dce2a",
-   "bodyText": "WIN-170-2009 - Glenvernoch Wind Farm - Hearting session 1\nYOUTUBE.COM WIN-170-2009 - Glenvernoch Wind Farm - Hearting session 1"
+   "bodyText": "WIN-170-2009 - Glenvernoch Wind Farm - Hearting session 1\nYOUTUBE.COM WIN-170-2009 - Glenvernoch Wind Farm - Hearting session 1",
+   "project": "Glenvernoch"
   },
   {
    "id": "28354548594147500",
@@ -28391,6 +28438,12 @@
     },
     "bodyText": {
      "method": "content_before_first_comment"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "glenvernoch",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -28404,7 +28457,8 @@
     "Onshore Wind"
    ],
    "contentFingerprint": "b65a793cea298591d6b6068aca2155914be78df3199835304e7aedd4035dce2a",
-   "bodyText": "WIN-170-2009 - Glenvernoch Wind Farm - Hearting session 1\nYOUTUBE.COM WIN-170-2009 - Glenvernoch Wind Farm - Hearting session 1"
+   "bodyText": "WIN-170-2009 - Glenvernoch Wind Farm - Hearting session 1\nYOUTUBE.COM WIN-170-2009 - Glenvernoch Wind Farm - Hearting session 1",
+   "project": "Glenvernoch"
   },
   {
    "id": "28333303092938717",
@@ -31937,6 +31991,10 @@
     },
     "bodyText": {
      "method": "content_before_first_comment"
+    },
+    "project": {
+     "method": "grid_corridor_supplement",
+     "confidence": "multi-word alias, review"
     }
    },
    "source": {
@@ -31947,7 +32005,8 @@
    },
    "externalSource": "Youtube",
    "contentFingerprint": "6713027fad2a471b8c88ffb0908394314012528be051912b3e36ca960a23cc2d",
-   "bodyText": "TRL-120-1 - Kintore to Tealing - Community Session - Banchory Session 1\nYOUTUBE.COM TRL-120-1 - Kintore to Tealing - Community Session - Banchory Session 1"
+   "bodyText": "TRL-120-1 - Kintore to Tealing - Community Session - Banchory Session 1\nYOUTUBE.COM TRL-120-1 - Kintore to Tealing - Community Session - Banchory Session 1",
+   "project": "Kintore to Tealing 400kV overhead line"
   },
   {
    "id": "28183434014592293",
@@ -34128,6 +34187,10 @@
     },
     "bodyText": {
      "method": "content_before_first_comment"
+    },
+    "project": {
+     "method": "grid_corridor_supplement",
+     "confidence": "multi-word alias, review"
     }
    },
    "source": {
@@ -34138,7 +34201,8 @@
    },
    "externalSource": "Youtube",
    "contentFingerprint": "6713027fad2a471b8c88ffb0908394314012528be051912b3e36ca960a23cc2d",
-   "bodyText": "TRL-120-1 - Kintore to Tealing - Community Session - Banchory Session 1\nYOUTUBE.COM TRL-120-1 - Kintore to Tealing - Community Session - Banchory Session 1"
+   "bodyText": "TRL-120-1 - Kintore to Tealing - Community Session - Banchory Session 1\nYOUTUBE.COM TRL-120-1 - Kintore to Tealing - Community Session - Banchory Session 1",
+   "project": "Kintore to Tealing 400kV overhead line"
   },
   {
    "id": "28092511033684592",
@@ -34486,6 +34550,12 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "chalmerston",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -34498,7 +34568,8 @@
    "categories": [
     "Onshore Wind"
    ],
-   "contentFingerprint": "35cf563e454f2a9bbfbeac271fe007822f5e4241c8ebeb87985c1687bcb54f6e"
+   "contentFingerprint": "35cf563e454f2a9bbfbeac271fe007822f5e4241c8ebeb87985c1687bcb54f6e",
+   "project": "Chalmerston"
   },
   {
    "id": "28072522945683401",
@@ -48473,6 +48544,12 @@
     },
     "photos": {
      "method": "facebook_post_screenshot"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "golticlay",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -48498,7 +48575,8 @@
    "photos": [
     "media/facebook/27328971073371929/photo_1.png"
    ],
-   "mediaCount": 1
+   "mediaCount": 1,
+   "project": "Golticlay Wind Farm"
   },
   {
    "id": "27328368136765556",
@@ -51926,6 +52004,12 @@
     },
     "bodyText": {
      "method": "content_before_first_comment"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "golticlay",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -51947,7 +52031,8 @@
    },
    "location": "Wick",
    "contentFingerprint": "2e03b873d402e3c8ecda118c7de887647a4fa1a3521048d40730c47cee75cc4b",
-   "bodyText": "Blade lifter will carry Golticlay turbine components through Wick\nJOHNOGROAT-JOURNAL.CO.UK Blade lifter will carry Golticlay turbine components through Wick"
+   "bodyText": "Blade lifter will carry Golticlay turbine components through Wick\nJOHNOGROAT-JOURNAL.CO.UK Blade lifter will carry Golticlay turbine components through Wick",
+   "project": "Golticlay Wind Farm"
   },
   {
    "id": "27175479038721134",
@@ -52397,6 +52482,12 @@
     },
     "bodyText": {
      "method": "content_before_first_comment"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "rampion",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -52410,7 +52501,8 @@
     "Onshore Wind"
    ],
    "contentFingerprint": "c6614dc00e8c73636b80280f125bef796342c4af6656009a109327f98350dba6",
-   "bodyText": "Shoreham lifeboat finds lone yachtsman drifting in Rampion Windfarm\nBBC.CO.UK Shoreham lifeboat finds lone yachtsman drifting in Rampion Windfarm"
+   "bodyText": "Shoreham lifeboat finds lone yachtsman drifting in Rampion Windfarm\nBBC.CO.UK Shoreham lifeboat finds lone yachtsman drifting in Rampion Windfarm",
+   "project": "Rampion Offshore Wind Farm"
   },
   {
    "id": "27159487713653600",
@@ -52976,6 +53068,10 @@
     },
     "bodyText": {
      "method": "content_before_first_comment"
+    },
+    "project": {
+     "method": "grid_corridor_supplement",
+     "confidence": "multi-word alias, review"
     }
    },
    "source": {
@@ -52986,7 +53082,8 @@
    },
    "externalSource": "Youtube",
    "contentFingerprint": "d8796de54c06bdf84def33838040ffb7468a6ef39e970f53191751cb83f288c1",
-   "bodyText": "TRL-120-1 - Kintore To Tealing - Pre-Inquiry Meeting - 20/03/26\nYOUTUBE.COM TRL-120-1 - Kintore To Tealing - Pre-Inquiry Meeting - 20/03/26"
+   "bodyText": "TRL-120-1 - Kintore To Tealing - Pre-Inquiry Meeting - 20/03/26\nYOUTUBE.COM TRL-120-1 - Kintore To Tealing - Pre-Inquiry Meeting - 20/03/26",
+   "project": "Kintore to Tealing 400kV overhead line"
   },
   {
    "id": "27125040240431681",
@@ -53998,6 +54095,10 @@
     },
     "bodyText": {
      "method": "content_before_first_comment"
+    },
+    "project": {
+     "method": "grid_corridor_supplement",
+     "confidence": "multi-word alias, review"
     }
    },
    "source": {
@@ -54008,7 +54109,8 @@
    },
    "externalSource": "Youtube",
    "contentFingerprint": "d8796de54c06bdf84def33838040ffb7468a6ef39e970f53191751cb83f288c1",
-   "bodyText": "TRL-120-1 - Kintore To Tealing - Pre-Inquiry Meeting - 20/03/26\nYOUTUBE.COM TRL-120-1 - Kintore To Tealing - Pre-Inquiry Meeting - 20/03/26"
+   "bodyText": "TRL-120-1 - Kintore To Tealing - Pre-Inquiry Meeting - 20/03/26\nYOUTUBE.COM TRL-120-1 - Kintore To Tealing - Pre-Inquiry Meeting - 20/03/26",
+   "project": "Kintore to Tealing 400kV overhead line"
   },
   {
    "id": "27074730545462651",
@@ -55522,6 +55624,12 @@
     },
     "bodyText": {
      "method": "content_before_first_comment"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "tormsdale",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -55535,7 +55643,8 @@
     "Onshore Wind"
    ],
    "contentFingerprint": "a4ad31c4cbbf1c407a8f6a221503fb045995c292c00a15c820b3ba25a259ea47",
-   "bodyText": "WIN-270-23 - Tormsdale Wind Farm - Pre Examination Meeting - 13th March 2026\nYOUTUBE.COM WIN-270-23 - Tormsdale Wind Farm - Pre Examination Meeting - 13th March 2026"
+   "bodyText": "WIN-270-23 - Tormsdale Wind Farm - Pre Examination Meeting - 13th March 2026\nYOUTUBE.COM WIN-270-23 - Tormsdale Wind Farm - Pre Examination Meeting - 13th March 2026",
+   "project": "Tormsdale Windfarm"
   },
   {
    "id": "27015271578075215",
@@ -59477,6 +59586,12 @@
     },
     "photos": {
      "method": "facebook_post_screenshot"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "golticlay",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -59500,7 +59615,8 @@
    "photos": [
     "media/facebook/26870903272512047/photo_1.png"
    ],
-   "mediaCount": 1
+   "mediaCount": 1,
+   "project": "Golticlay Wind Farm"
   },
   {
    "id": "26866038146331893",
@@ -65196,6 +65312,12 @@
     },
     "bodyText": {
      "method": "content_before_first_comment"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "glenvernoch",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -65209,7 +65331,8 @@
     "Onshore Wind"
    ],
    "contentFingerprint": "731190281526eae2e4c5b34aaf4158a7ec57b29fe044660c4b2d208d97701f3f",
-   "bodyText": "Win-170-2009 - Glenvernoch Wind Farm - Pre Examination Meeting\nYOUTUBE.COM Win-170-2009 - Glenvernoch Wind Farm - Pre Examination Meeting"
+   "bodyText": "Win-170-2009 - Glenvernoch Wind Farm - Pre Examination Meeting\nYOUTUBE.COM Win-170-2009 - Glenvernoch Wind Farm - Pre Examination Meeting",
+   "project": "Glenvernoch"
   },
   {
    "id": "26652972020971841",
@@ -65280,6 +65403,12 @@
     },
     "bodyText": {
      "method": "content_before_first_comment"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "ardeer",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -65293,7 +65422,8 @@
     "Onshore Wind"
    ],
    "contentFingerprint": "e94c628839965f5438d1274b7d4ecd81900e75b5c2eb463e5ed9631c8910fc06",
-   "bodyText": "Two 490ft wind turbines WILL be built at Ardeer as government overrules council\nIRVINETIMES.COM Two 490ft wind turbines WILL be built at Ardeer as government overrules council"
+   "bodyText": "Two 490ft wind turbines WILL be built at Ardeer as government overrules council\nIRVINETIMES.COM Two 490ft wind turbines WILL be built at Ardeer as government overrules council",
+   "project": "Ardeer"
   },
   {
    "id": "26652159401053103",
@@ -66213,6 +66343,12 @@
     },
     "bodyText": {
      "method": "content_before_first_comment"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "watten",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -66226,7 +66362,8 @@
     "Onshore Wind"
    ],
    "contentFingerprint": "4aba4bb1b0fc64036b3e9c5737945692c0e5825dcea5b789d30057b7d2c02d00",
-   "bodyText": "Proposal for Watten wind farm with 220-metre turbines withdrawn after concern over ‘aviation safety’\nJOHNOGROAT-JOURNAL.CO.UK Proposal for Watten wind farm with 220-metre turbines withdrawn after concern over ‘aviation safety’"
+   "bodyText": "Proposal for Watten wind farm with 220-metre turbines withdrawn after concern over ‘aviation safety’\nJOHNOGROAT-JOURNAL.CO.UK Proposal for Watten wind farm with 220-metre turbines withdrawn after concern over ‘aviation safety’",
+   "project": "Watten Wind Farm"
   },
   {
    "id": "26618763764392667",
@@ -66404,6 +66541,12 @@
     },
     "bodyText": {
      "method": "content_before_first_comment"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "glenvernoch",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -66417,7 +66560,8 @@
     "Onshore Wind"
    ],
    "contentFingerprint": "731190281526eae2e4c5b34aaf4158a7ec57b29fe044660c4b2d208d97701f3f",
-   "bodyText": "Win-170-2009 - Glenvernoch Wind Farm - Pre Examination Meeting\nYOUTUBE.COM Win-170-2009 - Glenvernoch Wind Farm - Pre Examination Meeting"
+   "bodyText": "Win-170-2009 - Glenvernoch Wind Farm - Pre Examination Meeting\nYOUTUBE.COM Win-170-2009 - Glenvernoch Wind Farm - Pre Examination Meeting",
+   "project": "Glenvernoch"
   },
   {
    "id": "26614658411469869",
@@ -72145,6 +72289,12 @@
     },
     "bodyText": {
      "method": "content_before_first_comment"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "euchanhead",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -72157,7 +72307,8 @@
    "categories": [
     "Onshore Wind"
    ],
-   "contentFingerprint": "6392348574661751510d002485422b60ef54ab846ec74c4467a365c5fb9e40a4"
+   "contentFingerprint": "6392348574661751510d002485422b60ef54ab846ec74c4467a365c5fb9e40a4",
+   "project": "Euchanhead Wind Farm"
   },
   {
    "id": "26436541469281565",
@@ -74846,6 +74997,12 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "killean",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -74859,7 +75016,8 @@
    "contentFingerprint": "9d05d8191164fcbb09403e9c3cdf6b1c7622c9b92d55b479aa2e04e234911fb2",
    "categories": [
     "Onshore Wind"
-   ]
+   ],
+   "project": "Killean"
   },
   {
    "id": "29374600085475674",
@@ -74906,6 +75064,10 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "grid_corridor_supplement",
+     "confidence": "multi-word alias, review"
     }
    },
    "source": {
@@ -74923,7 +75085,8 @@
    "mediaCount": 1,
    "categories": [
     "OHL (Pylons)"
-   ]
+   ],
+   "project": "Kintore to Tealing 400kV overhead line"
   },
   {
    "id": "29334221612846855",
@@ -79805,6 +79968,12 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "overhill",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -79822,7 +79991,8 @@
    "mediaCount": 1,
    "categories": [
     "Onshore Wind"
-   ]
+   ],
+   "project": "Overhill Wind Farm"
   },
   {
    "id": "28453721440947943",
@@ -82622,6 +82792,12 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "rowancraig",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -82639,7 +82815,8 @@
    "mediaCount": 1,
    "categories": [
     "Onshore Wind"
-   ]
+   ],
+   "project": "Rowancraig Wind Farm"
   },
   {
    "id": "29487613887507626",
@@ -84115,6 +84292,12 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "whitelee",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -84132,7 +84315,8 @@
    "mediaCount": 1,
    "categories": [
     "Onshore Wind"
-   ]
+   ],
+   "project": "Whitelee"
   },
   {
    "id": "1617202856782576",
@@ -84969,6 +85153,12 @@
     },
     "photos": {
      "method": "screenshot"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "arecleoch",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -84983,7 +85173,8 @@
    "photos": [
     "media/facebook/29526709653598049/photo_1.png"
    ],
-   "mediaCount": 1
+   "mediaCount": 1,
+   "project": "Arecleoch"
   },
   {
    "id": "1401024538269653",
@@ -85699,6 +85890,12 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "arecleoch",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -85716,7 +85913,8 @@
    "mediaCount": 1,
    "categories": [
     "Onshore Wind"
-   ]
+   ],
+   "project": "Arecleoch"
   },
   {
    "id": "1618756193293909",
@@ -85763,6 +85961,12 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "golticlay",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -85780,7 +85984,8 @@
    "mediaCount": 1,
    "categories": [
     "Onshore Wind"
-   ]
+   ],
+   "project": "Golticlay Wind Farm"
   },
   {
    "id": "1142599978431589",
@@ -87680,6 +87885,12 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "overhill",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -87704,7 +87915,8 @@
    "categories": [
     "Onshore Wind",
     "Substation"
-   ]
+   ],
+   "project": "Overhill Wind Farm"
   },
   {
    "id": "29591072300495117",
@@ -88372,6 +88584,10 @@
     },
     "photos": {
      "method": "screenshot"
+    },
+    "project": {
+     "method": "grid_corridor_supplement",
+     "confidence": "multi-word alias, review"
     }
    },
    "source": {
@@ -88396,7 +88612,8 @@
      "text": "https://www.nationalgrid.com/electricity-transmission/network-and-infrastructure/infrastructure-projects/norwich-to-tilbury/public-consultation-and-programme",
      "url": "https://www.nationalgrid.com/electricity-transmission/network-and-infrastructure/infrastructure-projects/norwich-to-tilbury/public-consultation-and-programme"
     }
-   ]
+   ],
+   "project": "Norwich to Tilbury (East Anglia GREEN)"
   },
   {
    "id": "1146734848018102",
@@ -89676,6 +89893,12 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "seagreen",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -89693,7 +89916,8 @@
    "mediaCount": 1,
    "categories": [
     "Onshore Wind"
-   ]
+   ],
+   "project": "Seagreen"
   },
   {
    "id": "1512498654240763",
@@ -90612,6 +90836,12 @@
     },
     "photos": {
      "method": "screenshot"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "machair",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -90626,7 +90856,8 @@
    "photos": [
     "media/facebook/1519569630200332/photo_1.png"
    ],
-   "mediaCount": 1
+   "mediaCount": 1,
+   "project": "Machair"
   },
   {
    "id": "1519597490197546",
@@ -90843,6 +91074,10 @@
     },
     "photos": {
      "method": "screenshot"
+    },
+    "project": {
+     "method": "grid_corridor_supplement",
+     "confidence": "multi-word alias, review"
     }
    },
    "source": {
@@ -90857,7 +91092,8 @@
    "photos": [
     "media/facebook/1520507503439878/photo_1.png"
    ],
-   "mediaCount": 1
+   "mediaCount": 1,
+   "project": "Beauly to Peterhead 400kV overhead line"
   },
   {
    "id": "1520654376758524",
@@ -91211,6 +91447,12 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "shinness",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -91228,7 +91470,8 @@
    "mediaCount": 1,
    "categories": [
     "Onshore Wind"
-   ]
+   ],
+   "project": "Shinness Wind Farm"
   },
   {
    "id": "1525628479594447",
@@ -91339,6 +91582,12 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "acheilidh",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -91359,7 +91608,8 @@
     "Hybrid",
     "Onshore Wind",
     "Solar"
-   ]
+   ],
+   "project": "Acheilidh Wind Farm"
   },
   {
    "id": "1528163506007611",
@@ -91406,6 +91656,12 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "shinness",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -91423,7 +91679,8 @@
    "mediaCount": 1,
    "categories": [
     "Onshore Wind"
-   ]
+   ],
+   "project": "Shinness Wind Farm"
   },
   {
    "id": "1528579049299390",
@@ -92571,6 +92828,12 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "kilbraur",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -92588,7 +92851,8 @@
    "mediaCount": 1,
    "categories": [
     "Onshore Wind"
-   ]
+   ],
+   "project": "Kilbraur Wind Farm"
   },
   {
    "id": "29611949888407358",
@@ -93141,6 +93405,12 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "seagreen",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -93168,7 +93438,8 @@
    ],
    "categories": [
     "Onshore Wind"
-   ]
+   ],
+   "project": "Seagreen"
   },
   {
    "id": "1539008044923157",
@@ -93186,6 +93457,10 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "grid_corridor_supplement",
+     "confidence": "multi-word alias, review"
     }
    },
    "source": {
@@ -93209,7 +93484,8 @@
    ],
    "categories": [
     "OHL (Pylons)"
-   ]
+   ],
+   "project": "Beauly to Peterhead 400kV overhead line"
   },
   {
    "id": "1539225008234794",
@@ -93659,6 +93935,12 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "logiealmond",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -93682,7 +93964,8 @@
    ],
    "categories": [
     "Onshore Wind"
-   ]
+   ],
+   "project": "Logiealmond"
   },
   {
    "id": "1399177289041179",
@@ -95124,6 +95407,12 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "whitelee",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -95141,7 +95430,8 @@
    "mediaCount": 1,
    "categories": [
     "Onshore Wind"
-   ]
+   ],
+   "project": "Whitelee"
   },
   {
    "id": "1401172058841702",
@@ -95431,6 +95721,12 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "whitelee",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -95458,7 +95754,8 @@
    ],
    "categories": [
     "Onshore Wind"
-   ]
+   ],
+   "project": "Whitelee"
   },
   {
    "id": "29683681794567500",
@@ -95945,6 +96242,12 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "redshaw",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -95966,7 +96269,8 @@
     "OHL (Pylons)",
     "Onshore Wind",
     "Substation"
-   ]
+   ],
+   "project": "Redshaw Battery Energy Storage"
   },
   {
    "id": "29688500684085611",
@@ -96196,6 +96500,10 @@
     },
     "photos": {
      "method": "screenshot"
+    },
+    "project": {
+     "method": "grid_corridor_supplement",
+     "confidence": "multi-word alias, review"
     }
    },
    "source": {
@@ -96210,7 +96518,8 @@
    "photos": [
     "media/facebook/1825800558460191/photo_1.png"
    ],
-   "mediaCount": 1
+   "mediaCount": 1,
+   "project": "Norwich to Tilbury (East Anglia GREEN)"
   },
   {
    "id": "1402323545393220",
@@ -96407,6 +96716,10 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "grid_corridor_supplement",
+     "confidence": "multi-word alias, review"
     }
    },
    "source": {
@@ -96425,7 +96738,8 @@
    "categories": [
     "OHL (Pylons)",
     "Substation"
-   ]
+   ],
+   "project": "Beauly to Peterhead 400kV overhead line"
   },
   {
    "id": "122135918277244466",
@@ -96478,6 +96792,12 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "whitelee",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -96495,7 +96815,8 @@
    "mediaCount": 1,
    "categories": [
     "Onshore Wind"
-   ]
+   ],
+   "project": "Whitelee"
   },
   {
    "id": "122135924037244466",
@@ -96864,6 +97185,12 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "single_word_allowlist",
+     "word": "leithenwater",
+     "register": "objects.sqlite",
+     "confidence": "allowlist, review"
     }
    },
    "source": {
@@ -96895,7 +97222,8 @@
    ],
    "categories": [
     "Onshore Wind"
-   ]
+   ],
+   "project": "Leithenwater Wind Energy Hub - Wind Farm"
   },
   {
    "id": "28724003447253073",
@@ -97478,6 +97806,13 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "group_default",
+     "match_type": "group_default",
+     "canonical": "dc-cockenzie-east-lothian",
+     "group": "Say NO to Cockenzie Data Centre",
+     "confidence": "single-project group default, review"
     }
    },
    "source": {
@@ -97495,7 +97830,8 @@
    "mediaCount": 1,
    "categories": [
     "Data Centre"
-   ]
+   ],
+   "project": "Cockenzie data centre (SDCL, former power station site)"
   },
   {
    "id": "1619303379672614",
@@ -97513,6 +97849,13 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "group_default",
+     "match_type": "group_default",
+     "canonical": "dc-cockenzie-east-lothian",
+     "group": "Say NO to Cockenzie Data Centre",
+     "confidence": "single-project group default, review"
     }
    },
    "source": {
@@ -97530,7 +97873,8 @@
    "mediaCount": 1,
    "categories": [
     "Data Centre"
-   ]
+   ],
+   "project": "Cockenzie data centre (SDCL, former power station site)"
   },
   {
    "id": "1619303903005895",
@@ -97545,6 +97889,13 @@
     },
     "photos": {
      "method": "screenshot"
+    },
+    "project": {
+     "method": "group_default",
+     "match_type": "group_default",
+     "canonical": "dc-cockenzie-east-lothian",
+     "group": "Say NO to Cockenzie Data Centre",
+     "confidence": "single-project group default, review"
     }
    },
    "source": {
@@ -97559,7 +97910,8 @@
    "photos": [
     "media/facebook/1619303903005895/photo_1.png"
    ],
-   "mediaCount": 1
+   "mediaCount": 1,
+   "project": "Cockenzie data centre (SDCL, former power station site)"
   },
   {
    "id": "1579421156799160",
@@ -97574,6 +97926,13 @@
     },
     "photos": {
      "method": "screenshot"
+    },
+    "project": {
+     "method": "group_default",
+     "match_type": "group_default",
+     "canonical": "dc-cato-fife-auchtertool",
+     "group": "Say No To Cato Data Centre",
+     "confidence": "single-project group default, review"
     }
    },
    "source": {
@@ -97598,7 +97957,8 @@
      "text": "PORTAL.HISTORICENVIRONMENT.SCOT Designation Proposal for Hallyards Castle, Camilla Farm, Auchtertool (300087587)",
      "url": "https://portal.historicenvironment.scot/apex/f?p=1505%3A300%3A%3A%3A%3A%3AVIEWTYPE%2CVIEWREF%3Adecision%2C500004395"
     }
-   ]
+   ],
+   "project": "Cato data centre campus (ILI Group, Auchtertool, Fife)"
   },
   {
    "id": "1086110300907109",
@@ -97647,11 +98007,10 @@
      "method": "keyword"
     },
     "project": {
-     "method": "u3_name_match",
-     "register": "planning",
-     "tier": 1,
-     "canonical": "mochrum fell",
-     "confidence": "name match, review"
+     "method": "track_b_register_alias",
+     "register": "data_centre_register",
+     "canonical": "dc-blackdog-aberdeenshire",
+     "confidence": "alias match, review; petition name in the post text, not confirmed by search"
     }
    },
    "source": {
@@ -97680,7 +98039,7 @@
    "categories": [
     "Data Centre"
    ],
-   "project": "Mochrum Fell Wind Farm"
+   "project": "Blackdog data centre campus"
   },
   {
    "id": "1086137504237722",
@@ -97726,11 +98085,11 @@
      "method": "screenshot"
     },
     "project": {
-     "method": "u3_name_match",
-     "register": "planning",
-     "tier": 1,
-     "canonical": "mochrum fell",
-     "confidence": "name match, review"
+     "method": "group_default",
+     "match_type": "group_default",
+     "canonical": "mochrum fell wind farm",
+     "group": "Help Save Mochrum Fell",
+     "confidence": "single-project group default, review"
     }
    },
    "source": {
@@ -97773,11 +98132,11 @@
      "method": "screenshot"
     },
     "project": {
-     "method": "u3_name_match",
-     "register": "planning",
-     "tier": 1,
-     "canonical": "mochrum fell",
-     "confidence": "name match, review"
+     "method": "group_default",
+     "match_type": "group_default",
+     "canonical": "mochrum fell wind farm",
+     "group": "Help Save Mochrum Fell",
+     "confidence": "single-project group default, review"
     }
    },
    "source": {
@@ -97913,6 +98272,13 @@
     },
     "photos": {
      "method": "screenshot"
+    },
+    "project": {
+     "method": "group_default",
+     "match_type": "group_default",
+     "canonical": "dc-cato-fife-auchtertool",
+     "group": "Say No To Cato Data Centre",
+     "confidence": "single-project group default, review"
     }
    },
    "source": {
@@ -97927,7 +98293,8 @@
    "photos": [
     "media/facebook/1580369203371022/photo_1.png"
    ],
-   "mediaCount": 1
+   "mediaCount": 1,
+   "project": "Cato data centre campus (ILI Group, Auchtertool, Fife)"
   },
   {
    "id": "29718066581129021",
@@ -98170,6 +98537,13 @@
     },
     "photos": {
      "method": "screenshot"
+    },
+    "project": {
+     "method": "group_default",
+     "match_type": "group_default",
+     "canonical": "dc-cato-fife-auchtertool",
+     "group": "Say No To Cato Data Centre",
+     "confidence": "single-project group default, review"
     }
    },
    "source": {
@@ -98190,7 +98564,8 @@
      "text": "YOUTUBE.COM FIGHTING THE MONSTER (21 mins, September 2026)",
      "url": "https://youtu.be/184lEyimaqQ?is=j--if7jeqIdTdu5-"
     }
-   ]
+   ],
+   "project": "Cato data centre campus (ILI Group, Auchtertool, Fife)"
   },
   {
    "id": "1580437400030869",
@@ -98205,6 +98580,13 @@
     },
     "photos": {
      "method": "screenshot"
+    },
+    "project": {
+     "method": "group_default",
+     "match_type": "group_default",
+     "canonical": "dc-cato-fife-auchtertool",
+     "group": "Say No To Cato Data Centre",
+     "confidence": "single-project group default, review"
     }
    },
    "source": {
@@ -98219,7 +98601,8 @@
    "photos": [
     "media/facebook/1580437400030869/photo_1.png"
    ],
-   "mediaCount": 1
+   "mediaCount": 1,
+   "project": "Cato data centre campus (ILI Group, Auchtertool, Fife)"
   },
   {
    "id": "1580537943354148",
@@ -98237,6 +98620,13 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "group_default",
+     "match_type": "group_default",
+     "canonical": "dc-cato-fife-auchtertool",
+     "group": "Say No To Cato Data Centre",
+     "confidence": "single-project group default, review"
     }
    },
    "source": {
@@ -98254,7 +98644,8 @@
    "mediaCount": 1,
    "categories": [
     "Data Centre"
-   ]
+   ],
+   "project": "Cato data centre campus (ILI Group, Auchtertool, Fife)"
   },
   {
    "id": "1620066612929624",
@@ -98269,6 +98660,13 @@
     },
     "photos": {
      "method": "screenshot"
+    },
+    "project": {
+     "method": "group_default",
+     "match_type": "group_default",
+     "canonical": "dc-cockenzie-east-lothian",
+     "group": "Say NO to Cockenzie Data Centre",
+     "confidence": "single-project group default, review"
     }
    },
    "source": {
@@ -98283,7 +98681,8 @@
    "photos": [
     "media/facebook/1620066612929624/photo_1.png"
    ],
-   "mediaCount": 1
+   "mediaCount": 1,
+   "project": "Cockenzie data centre (SDCL, former power station site)"
   },
   {
    "id": "1620072269595725",
@@ -98298,6 +98697,13 @@
     },
     "photos": {
      "method": "screenshot"
+    },
+    "project": {
+     "method": "group_default",
+     "match_type": "group_default",
+     "canonical": "dc-cockenzie-east-lothian",
+     "group": "Say NO to Cockenzie Data Centre",
+     "confidence": "single-project group default, review"
     }
    },
    "source": {
@@ -98322,7 +98728,8 @@
      "text": "GOV.SCOT Scottish Vacant and Derelict Land Survey: Site Register",
      "url": "https://www.gov.scot/publications/the-scottish-vacant-and-derelict-land-survey-site-register/"
     }
-   ]
+   ],
+   "project": "Cockenzie data centre (SDCL, former power station site)"
   },
   {
    "id": "122136145551244466",
@@ -99053,6 +99460,13 @@
     },
     "categories": {
      "method": "keyword"
+    },
+    "project": {
+     "method": "group_default",
+     "match_type": "group_default",
+     "canonical": "cross border connection",
+     "group": "North Carlisle Against Pylons and Substation",
+     "confidence": "single-project group default, review"
     }
    },
    "source": {
@@ -99080,7 +99494,8 @@
    ],
    "categories": [
     "OHL (Pylons)"
-   ]
+   ],
+   "project": "Cross Border Connection (Carlisle to Scottish border)"
   },
   {
    "id": "4177408222550659",
