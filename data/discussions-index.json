@@ -1,16 +1,16 @@
 {
- "generated": "2026-10-16T17:39:17.000Z",
+ "generated": "2026-10-17T09:49:02.000Z",
  "counts": {
-  "records": 3791,
+  "records": 3816,
   "thin": 320,
-  "withMedia": 1258,
-  "withCategories": 1077,
+  "withMedia": 1283,
+  "withCategories": 1092,
   "withTopics": 316,
-  "withProject": 127,
+  "withProject": 149,
   "withCoordinates": 95,
   "withSummary": 52,
-  "withBodyText": 2386,
-  "withPhotos": 1255,
+  "withBodyText": 2409,
+  "withPhotos": 1280,
   "withPreviewImage": 64,
   "councils": 4,
   "matchReviewLogged": 2,
@@ -98989,6 +98989,1142 @@
    "categories": [
     "Data Centre"
    ]
+  },
+  {
+   "id": "1116363928029327",
+   "date": "2026-10-16",
+   "title": "RE-Think Wales",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "RE-Think Wales",
+    "label": "Facebook · RE-Think Wales",
+    "url": "https://www.facebook.com/groups/rethinkwales/posts/1116363928029327/"
+   },
+   "thin": false,
+   "bodyText": "Planning Aid Wales (‘We support meaningful community engagement in planning in Wales’) are offering a series of online seminars on infrastructure planning. The first, Understanding Planning Infrastructure for Communities, provided an overview of the planning system, and how to engage in the new Significant Infrastructure Projects (SIP) process. For campaigners already broadly familiar with the planning system, there was nothing new, as such, but one or two things did fall into place for me.\nThe second 2 hour session, on 11 November, is on Responding to Infrastructure Planning Applications, and will explore “how communities can respond confidently to SIPs, with a particular focus on preparing evidence-based representations that can make a meaningful contribution to the examination process.” Cost is £20. https://planningaidwales.org.uk/.../planning-your-places-7/\nThen on 11 November there’s a free Infrastructure Planning: Community Perspectives Roundtable. This will be “A facilitated, exploratory session to surface the questions and issues communities have about the new national infrastructure planning process in Wales…Bring your questions, share examples from your own area and hear from others facing similar opportunities and challenges. The discussion will explore how communities are engaging with the new process, what is working well, and where further support may be needed.” https://planningaidwales.org.uk/.../planning-your-places-9/\nThe final session, on 20 January 2027, is on Community Engagement in Infrastructure Planning Applications, and will explore “how communities can engage positively and effectively throughout the infrastructure planning process, from the earliest stages of project development through to decision-making.”\nI know, positive engagement with Bute Energy/Green GEN and their ilk is an oxymoron.\nThe first session was run by the Planning Aid Wales Chief Executive, who proved open to challenge and willing to learn from participants’ experiences. On Monday he’s running a new session on Planning & Artificial Intelligence - Smarter Tools, Stronger Communities (cost £40). https://www.eventbrite.co.uk/.../planning-artificial...\nhttps://www.facebook.com/planningaidwales",
+   "contentFingerprint": "af53012e054b4c7b92c6fda0d8c902fe0d024194981af384289d23a89a2c6eed",
+   "photos": [
+    "media/facebook/1116363928029327/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "https://planningaidwales.org.uk/.../planning-your-places-7/",
+     "url": "https://planningaidwales.org.uk/events/planning-your-places-7/"
+    },
+    {
+     "text": "https://planningaidwales.org.uk/.../planning-your-places-9/",
+     "url": "https://planningaidwales.org.uk/events/planning-your-places-9/"
+    },
+    {
+     "text": "https://www.eventbrite.co.uk/.../planning-artificial...",
+     "url": "https://www.eventbrite.co.uk/e/planning-artificial-intelligence-smarter-tools-stronger-communities-tickets-2002282038477?utm_id=97758_v0_s00_e0_tv4_a1demoo3zgnuv9"
+    },
+    {
+     "text": "https://www.facebook.com/planningaidwales",
+     "url": "https://www.facebook.com/planningaidwales"
+    }
+   ]
+  },
+  {
+   "id": "1574997253952507",
+   "date": "2026-10-16",
+   "title": "North Carlisle Against Pylons and Substation",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "North Carlisle Against Pylons and Substation",
+    "label": "Facebook · North Carlisle Against Pylons and Substation",
+    "url": "https://www.facebook.com/groups/1321067339345501/posts/1574997253952507/"
+   },
+   "thin": false,
+   "bodyText": "How far our MP has come in a year!\nA welcome intervention from our Julie Minns MP.\nIt was only a year ago this was a scheme we simply had to \"suck up\" so glad to see it's scale and impact is now hitting home. It will be a defining issue for future elections.\nNow if we could only get some recognition that Option B is the better site \n - we have the support.\nImportantly this raises the fact this will be a straight fight based on evidence and technical assessment, legal and planning considerations - arguments of emotion won't cut through when profit and least cost drive National Grid decision making.\nWe will need your support to mount the best opposition \n...@everyone\nCarlisle MP calls for 'undergrounding' on cross-border route | News and Star https://share.google/yCObhad6sP93Hnmov\nNEWSANDSTAR.CO.UK Minister admits Government prefers cheaper overhead power lines to underground ones",
+   "contentFingerprint": "009cfa1403e0a35d89796ae8dacdae4b8b457243c3f442be40f56efe21496b30",
+   "photos": [
+    "media/facebook/1574997253952507/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "https://share.google/yCObhad6sP93Hnmov",
+     "url": "https://share.google/yCObhad6sP93Hnmov"
+    },
+    {
+     "text": "NEWSANDSTAR.CO.UK Minister admits Government prefers cheaper overhead power lines to underground ones",
+     "url": "https://share.google/O4lVBI9mj7TSDS0qn"
+    }
+   ],
+   "categories": [
+    "OHL (Pylons)"
+   ]
+  },
+  {
+   "id": "4177408222550659",
+   "date": "2026-10-16",
+   "title": "STOP EAST LINCOLNSHIRE PYLONS",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "STOP EAST LINCOLNSHIRE PYLONS",
+    "label": "Facebook · STOP EAST LINCOLNSHIRE PYLONS",
+    "url": "https://www.facebook.com/groups/3317708445187312/posts/4177408222550659/"
+   },
+   "thin": false,
+   "bodyText": "BBC.CO.UK Public inquiry to consider Doncaster solar farm plan",
+   "contentFingerprint": "acebbdf3ca64cbc86ef8ac11bce315a5023ca5ee1c3374b9cebff4bd28bda8c3",
+   "photos": [
+    "media/facebook/4177408222550659/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "BBC.CO.UK Public inquiry to consider Doncaster solar farm plan",
+     "url": "https://www.bbc.co.uk/news/articles/crvgyzzlqy1eo"
+    }
+   ],
+   "categories": [
+    "Solar"
+   ]
+  },
+  {
+   "id": "1081606211350491",
+   "date": "2026-10-16",
+   "title": "Say NO to Chapelcross AI Data Centre",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    },
+    "project": {
+     "method": "group_default",
+     "match_type": "group_default",
+     "register": "data_centre_register",
+     "canonical": "dc-chapelcross-dumfries",
+     "group": "Say NO to Chapelcross AI Data Centre",
+     "confidence": "single-project group default, review"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Say NO to Chapelcross AI Data Centre",
+    "label": "Facebook · Say NO to Chapelcross AI Data Centre",
+    "url": "https://www.facebook.com/groups/1015424481301998/posts/1081606211350491/"
+   },
+   "thin": false,
+   "bodyText": "https://www.bbc.co.uk/news/articles/cq0ld4g0309go\nIf droughts are the new normal can anyone tell me why we should support data centres with water we won't have in future? The princess of Wales says nature is helpful for children and emotional support....not that I'm a big royal fan however there's more than enough info out there without being scientifically qualified that say nature over dates centres!!!\nBBC.CO.UK Action needed to save water, minister tells MPs",
+   "contentFingerprint": "eef329786bc4abe8bc96002079c4c9f192f2faf5bc127e23bfac5cc45337305f",
+   "photos": [
+    "media/facebook/1081606211350491/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "https://www.bbc.co.uk/news/articles/cq0ld4g0309go",
+     "url": "https://www.bbc.co.uk/news/articles/cq0ld4g0309go"
+    },
+    {
+     "text": "BBC.CO.UK Action needed to save water, minister tells MPs",
+     "url": "https://www.bbc.co.uk/news/articles/cq0ld4g0309go"
+    }
+   ],
+   "categories": [
+    "Data Centre"
+   ],
+   "project": "Chapelcross data centre campus (CX Tech)"
+  },
+  {
+   "id": "1081348611376251",
+   "date": "2026-10-16",
+   "title": "Say NO to Chapelcross AI Data Centre",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    },
+    "project": {
+     "method": "group_default",
+     "match_type": "group_default",
+     "register": "data_centre_register",
+     "canonical": "dc-chapelcross-dumfries",
+     "group": "Say NO to Chapelcross AI Data Centre",
+     "confidence": "single-project group default, review"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Say NO to Chapelcross AI Data Centre",
+    "label": "Facebook · Say NO to Chapelcross AI Data Centre",
+    "url": "https://www.facebook.com/groups/1015424481301998/posts/1081348611376251/"
+   },
+   "thin": false,
+   "bodyText": "With all the different developments happening around Annan it’s easy to miss the bigger picture of just how much agricultural (Greenfields) we are being asked to sacrifice on the alter of AI hyper scale datacentre. \nThis shocking video shows the scale.\nYOUTUBE.COM A brownfield development Ver1 3",
+   "contentFingerprint": "a4ac5503a36c7b199010e7b1d39316fe175fb633a6a90786cf58c42f40309450",
+   "photos": [
+    "media/facebook/1081348611376251/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "YOUTUBE.COM A brownfield development Ver1 3",
+     "url": "https://youtu.be/XcMSv6KTrvY"
+    }
+   ],
+   "categories": [
+    "Data Centre"
+   ],
+   "project": "Chapelcross data centre campus (CX Tech)"
+  },
+  {
+   "id": "1081533028024476",
+   "date": "2026-10-16",
+   "title": "Say NO to Chapelcross AI Data Centre",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "screenshot_review"
+    },
+    "project": {
+     "method": "group_default",
+     "match_type": "group_default",
+     "register": "data_centre_register",
+     "canonical": "dc-chapelcross-dumfries",
+     "group": "Say NO to Chapelcross AI Data Centre",
+     "confidence": "single-project group default, review"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Say NO to Chapelcross AI Data Centre",
+    "label": "Facebook · Say NO to Chapelcross AI Data Centre",
+    "url": "https://www.facebook.com/groups/1015424481301998/posts/1081533028024476/"
+   },
+   "thin": false,
+   "bodyText": "",
+   "contentFingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "photos": [
+    "media/facebook/1081533028024476/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "categories": [
+    "Data Centre"
+   ],
+   "project": "Chapelcross data centre campus (CX Tech)"
+  },
+  {
+   "id": "1081327311378381",
+   "date": "2026-10-16",
+   "title": "Say NO to Chapelcross AI Data Centre",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    },
+    "project": {
+     "method": "track_b_register_alias",
+     "register": "data_centre_register",
+     "canonical": "dc-chapelcross-dumfries",
+     "confidence": "alias match, review"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Say NO to Chapelcross AI Data Centre",
+    "label": "Facebook · Say NO to Chapelcross AI Data Centre",
+    "url": "https://www.facebook.com/groups/1015424481301998/posts/1081327311378381/"
+   },
+   "thin": false,
+   "bodyText": "https://aprs.scot/data-centres-campaign/ PLEASE SHARE — AND GET INVOLVED.\nIf you are concerned about the proposed Chapelcross development, please take a few minutes to look at the Action to Protect Rural Scotland (APRS) hyperscale data centres campaign.\nTheir website brings together information on proposed developments across Scotland, explains the campaign for a moratorium, and provides links to petitions, consultations and practical advice for local campaigners.\nPlease share the campaign, sign the petitions and encourage others to get involved. The more people who understand what is being proposed, the stronger the public scrutiny can be.\n https://aprs.scot/data-centres-campaign/\nThis is about more than Chapelcross. It is about the future of Scotland’s countryside, our energy resources, our environment and the communities who will have to live with the consequences.\nlet’s not forget that two MSPs representing our own region voted against the proposed moratorium. If you believe your regional representatives are standing up for the interests of local communities over developments of this scale, perhaps it is time to look at how they actually voted.\nRepresentation should mean more than simply holding a seat. It should mean listening to the people and communities you represent.\nAPRS.SCOT APRS Hyperscale Data Centres Campaign - Action to Protect Rural Scotland",
+   "contentFingerprint": "80c381514bc9e25ee3c76c6d7c89c3a62e2d5903ae6b08d54ceea625ea068513",
+   "photos": [
+    "media/facebook/1081327311378381/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "APRS.SCOT APRS Hyperscale Data Centres Campaign - Action to Protect Rural Scotland",
+     "url": "https://aprs.scot/data-centres-campaign/"
+    },
+    {
+     "text": "https://aprs.scot/data-centres-campaign/",
+     "url": "https://aprs.scot/data-centres-campaign/"
+    }
+   ],
+   "categories": [
+    "Data Centre"
+   ],
+   "project": "Chapelcross data centre campus (CX Tech)"
+  },
+  {
+   "id": "1080821241428988",
+   "date": "2026-10-15",
+   "title": "Say NO to Chapelcross AI Data Centre",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    },
+    "project": {
+     "method": "track_b_register_alias",
+     "register": "data_centre_register",
+     "canonical": "dc-chapelcross-dumfries",
+     "confidence": "alias match, review"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Say NO to Chapelcross AI Data Centre",
+    "label": "Facebook · Say NO to Chapelcross AI Data Centre",
+    "url": "https://www.facebook.com/groups/1015424481301998/posts/1080821241428988/"
+   },
+   "thin": false,
+   "bodyText": "https://aprs.scot/chapelcross-data-centre/         Shared from Action to Protect Rural scotland\nAPRS.SCOT Chapelcross Data Centre - Action to Protect Rural Scotland",
+   "contentFingerprint": "a3a312460e9ba1778ba6ffe55efd7cb05c055410711f6fcc69d6ee4b038ac748",
+   "photos": [
+    "media/facebook/1080821241428988/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "https://aprs.scot/chapelcross-data-centre/",
+     "url": "https://aprs.scot/chapelcross-data-centre/"
+    },
+    {
+     "text": "APRS.SCOT Chapelcross Data Centre - Action to Protect Rural Scotland",
+     "url": "https://aprs.scot/chapelcross-data-centre/"
+    }
+   ],
+   "categories": [
+    "Data Centre"
+   ],
+   "project": "Chapelcross data centre campus (CX Tech)"
+  },
+  {
+   "id": "1080874871423625",
+   "date": "2026-10-15",
+   "title": "Say NO to Chapelcross AI Data Centre",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "project": {
+     "method": "group_default",
+     "match_type": "group_default",
+     "register": "data_centre_register",
+     "canonical": "dc-chapelcross-dumfries",
+     "group": "Say NO to Chapelcross AI Data Centre",
+     "confidence": "single-project group default, review"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Say NO to Chapelcross AI Data Centre",
+    "label": "Facebook · Say NO to Chapelcross AI Data Centre",
+    "url": "https://www.facebook.com/groups/1015424481301998/posts/1080874871423625/"
+   },
+   "thin": false,
+   "bodyText": "Dumfries and Galloway Council have had 8,000 lodges of complaint \n Clearly not enough!\nKeep it going",
+   "contentFingerprint": "c800b5f2af7191085ce0c3fbed64b4174bb3c5d45c9e64a784e9667276352a23",
+   "photos": [
+    "media/facebook/1080874871423625/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "project": "Chapelcross data centre campus (CX Tech)"
+  },
+  {
+   "id": "1080800864764359",
+   "date": "2026-10-15",
+   "title": "Say NO to Chapelcross AI Data Centre",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "project": {
+     "method": "group_default",
+     "match_type": "group_default",
+     "register": "data_centre_register",
+     "canonical": "dc-chapelcross-dumfries",
+     "group": "Say NO to Chapelcross AI Data Centre",
+     "confidence": "single-project group default, review"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Say NO to Chapelcross AI Data Centre",
+    "label": "Facebook · Say NO to Chapelcross AI Data Centre",
+    "url": "https://www.facebook.com/groups/1015424481301998/posts/1080800864764359/"
+   },
+   "thin": false,
+   "bodyText": "No to AI\nTotally against it, government want to rob the poor to give to the rich again, bunch of thieving twat's, lecky will go sky high.",
+   "contentFingerprint": "1522d58f399bc3ab8feab2ffa664fe575543b36e9242abba493d60b0408393c9",
+   "photos": [
+    "media/facebook/1080800864764359/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "project": "Chapelcross data centre campus (CX Tech)"
+  },
+  {
+   "id": "1080815414762904",
+   "date": "2026-10-15",
+   "title": "Say NO to Chapelcross AI Data Centre",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    },
+    "project": {
+     "method": "group_default",
+     "match_type": "group_default",
+     "register": "data_centre_register",
+     "canonical": "dc-chapelcross-dumfries",
+     "group": "Say NO to Chapelcross AI Data Centre",
+     "confidence": "single-project group default, review"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Say NO to Chapelcross AI Data Centre",
+    "label": "Facebook · Say NO to Chapelcross AI Data Centre",
+    "url": "https://www.facebook.com/groups/1015424481301998/posts/1080815414762904/"
+   },
+   "thin": false,
+   "bodyText": "I've done some sums to power 1GW\nAssuming the consumer cost of energy at £0.26kW/H then 1GW/H = £260,000 per hour \nWhich is £6,240,000 per day\nWhich is £2,277,600,000 per year.\nThat is in full load. NESO (national energy system operator) figures assume 80% load factor which would take that down to £1,822,080,000\nThis is why CX Tech want to build their own private connections to local renewable energy sources to power their 'car with no engine' which are not included in the planning consent. This would also deprive the national grid of these renewables.\nGovernment subsidy.\nAssuming the subsidy is applied to the total energy regardless of private hook ups then the figures below apply.\nGovernment subsidy of data centres in AI Data centre growth zones £24MW/h = £24,000 per hour\nWhich is £576,000 per day\nWhich is £210,240,000 per year.\nWhich at 80% load factor is £168,192,000\nThis will be why they want AI growth zone status. \nAnd there are families out there deciding whether to heat or eat!",
+   "contentFingerprint": "25faef49047ec387cf28ab0eb3701d745d199026f89dbebacb02ed7a266e70af",
+   "photos": [
+    "media/facebook/1080815414762904/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "categories": [
+    "Data Centre"
+   ],
+   "project": "Chapelcross data centre campus (CX Tech)"
+  },
+  {
+   "id": "1080763651434747",
+   "date": "2026-10-15",
+   "title": "Say NO to Chapelcross AI Data Centre",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "project": {
+     "method": "track_b_register_alias",
+     "register": "data_centre_register",
+     "canonical": "dc-chapelcross-dumfries",
+     "confidence": "alias match, review"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Say NO to Chapelcross AI Data Centre",
+    "label": "Facebook · Say NO to Chapelcross AI Data Centre",
+    "url": "https://www.facebook.com/groups/1015424481301998/posts/1080763651434747/"
+   },
+   "thin": false,
+   "bodyText": "Hi guys - will you join and have a Chapelcross contingent?\nACT.FOE.SCOT act.foe.scot",
+   "contentFingerprint": "8174ecb6ee3c668c4efcb264526f9613109043eac816ec16da01470f43e88ca0",
+   "photos": [
+    "media/facebook/1080763651434747/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "ACT.FOE.SCOT act.foe.scot",
+     "url": "https://act.foe.scot/data_centre_march"
+    }
+   ],
+   "project": "Chapelcross data centre campus (CX Tech)"
+  },
+  {
+   "id": "1080789551432157",
+   "date": "2026-10-15",
+   "title": "Say NO to Chapelcross AI Data Centre",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "project": {
+     "method": "group_default",
+     "match_type": "group_default",
+     "register": "data_centre_register",
+     "canonical": "dc-chapelcross-dumfries",
+     "group": "Say NO to Chapelcross AI Data Centre",
+     "confidence": "single-project group default, review"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Say NO to Chapelcross AI Data Centre",
+    "label": "Facebook · Say NO to Chapelcross AI Data Centre",
+    "url": "https://www.facebook.com/groups/1015424481301998/posts/1080789551432157/"
+   },
+   "thin": false,
+   "bodyText": "Response from the Scottish Government",
+   "contentFingerprint": "36d002b2d4bb2e9b5e7770861c36be91d83c6ff52622267e264996d8c5084968",
+   "photos": [
+    "media/facebook/1080789551432157/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "project": "Chapelcross data centre campus (CX Tech)"
+  },
+  {
+   "id": "1080458881465224",
+   "date": "2026-10-15",
+   "title": "Say NO to Chapelcross AI Data Centre",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    },
+    "project": {
+     "method": "track_b_register_alias",
+     "register": "data_centre_register",
+     "canonical": "dc-chapelcross-dumfries",
+     "confidence": "alias match, review"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Say NO to Chapelcross AI Data Centre",
+    "label": "Facebook · Say NO to Chapelcross AI Data Centre",
+    "url": "https://www.facebook.com/groups/1015424481301998/posts/1080458881465224/"
+   },
+   "thin": false,
+   "bodyText": "BBC News - Sam Heughan joins battle against Chapelcross data centre - BBC News\nhttps://www.bbc.co.uk/news/articles/ck98z93jrv7ro...",
+   "contentFingerprint": "9bd9752ca2d00124bc961b3d37f3dfe1045be455ea19922a53fea187e0a90b36",
+   "photos": [
+    "media/facebook/1080458881465224/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "https://www.bbc.co.uk/news/articles/ck98z93jrv7ro...",
+     "url": "https://www.bbc.co.uk/news/articles/ck98z93jrv7ro?app-referrer=deep-link"
+    }
+   ],
+   "categories": [
+    "Data Centre"
+   ],
+   "project": "Chapelcross data centre campus (CX Tech)"
+  },
+  {
+   "id": "1080457944798651",
+   "date": "2026-10-15",
+   "title": "Say NO to Chapelcross AI Data Centre",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "project": {
+     "method": "group_default",
+     "match_type": "group_default",
+     "register": "data_centre_register",
+     "canonical": "dc-chapelcross-dumfries",
+     "group": "Say NO to Chapelcross AI Data Centre",
+     "confidence": "single-project group default, review"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Say NO to Chapelcross AI Data Centre",
+    "label": "Facebook · Say NO to Chapelcross AI Data Centre",
+    "url": "https://www.facebook.com/groups/1015424481301998/posts/1080457944798651/"
+   },
+   "thin": false,
+   "bodyText": "An energy price questions\nHello- I wondered if anyone had asked a question to CX technology about if their energy usage would have an impact on household energy bills in D&G?(sorry if this was already asked) Many people might have seen from places like their energy supplier, U-switch or Ofgem that the UK is devided up into different sectors and each one is given a different energy price- we here in D&G are in South of Scotland. However given what Ofgem and the department of energy have for their reasoning for the differences in prices, 1 company using such a huge amount but there not being a huge increase in the population feels like one of those things that gets \"forgotten to be taken into consideration\". So I just wondered if anyone had asked about that kind of aspect- even to have them say \"it will make it cheaper\" (normally it would, as it would increase population to get to the size of the power demand this plant will have).\nThis is a link to Ofgem incase no one has ever seen the different area tariffs before etc.\nhttps://www.ofgem.gov.uk/your-energy-supply/your-energy-bill/energy-price-cap-unit-rates-and-standing-charges#heading-find-unit-rates-and-standing-charges-in-your-energy-region\nThe map included is from the department of energy and is a predicted price for 2026-27",
+   "contentFingerprint": "70e1a083ae9303ab656ece09ac6eb0dcf8b2ca93b38d6e019a1896a03929dafd",
+   "photos": [
+    "media/facebook/1080457944798651/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "https://www.ofgem.gov.uk/your-energy-supply/your-energy-bill/energy-price-cap-unit-rates-and-standing-charges#heading-find-unit-rates-and-standing-charges-in-your-energy-region",
+     "url": "https://www.ofgem.gov.uk/your-energy-supply/your-energy-bill/energy-price-cap-unit-rates-and-standing-charges#heading-find-unit-rates-and-standing-charges-in-your-energy-region"
+    }
+   ],
+   "project": "Chapelcross data centre campus (CX Tech)"
+  },
+  {
+   "id": "1080643631446749",
+   "date": "2026-10-15",
+   "title": "Say NO to Chapelcross AI Data Centre",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "screenshot_review"
+    },
+    "project": {
+     "method": "group_default",
+     "match_type": "group_default",
+     "register": "data_centre_register",
+     "canonical": "dc-chapelcross-dumfries",
+     "group": "Say NO to Chapelcross AI Data Centre",
+     "confidence": "single-project group default, review"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Say NO to Chapelcross AI Data Centre",
+    "label": "Facebook · Say NO to Chapelcross AI Data Centre",
+    "url": "https://www.facebook.com/groups/1015424481301998/posts/1080643631446749/"
+   },
+   "thin": false,
+   "bodyText": "",
+   "contentFingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "photos": [
+    "media/facebook/1080643631446749/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "categories": [
+    "Data Centre"
+   ],
+   "project": "Chapelcross data centre campus (CX Tech)"
+  },
+  {
+   "id": "1080664648111314",
+   "date": "2026-10-15",
+   "title": "Say NO to Chapelcross AI Data Centre",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "project": {
+     "method": "group_default",
+     "match_type": "group_default",
+     "register": "data_centre_register",
+     "canonical": "dc-chapelcross-dumfries",
+     "group": "Say NO to Chapelcross AI Data Centre",
+     "confidence": "single-project group default, review"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Say NO to Chapelcross AI Data Centre",
+    "label": "Facebook · Say NO to Chapelcross AI Data Centre",
+    "url": "https://www.facebook.com/groups/1015424481301998/posts/1080664648111314/"
+   },
+   "thin": false,
+   "bodyText": "https://www.gov.uk/.../uk-and-us-fusion-strike...\nWhere does FUSION FUEL ENERGY \"fit\" in to the jigsaw?\nGOV.UK UK and US fusion strike partnership to accelerate clean energy",
+   "contentFingerprint": "3d5b498867a8cf8ad900af65a1b62e8aa2acc675f18cded9e6d58f7315120f81",
+   "photos": [
+    "media/facebook/1080664648111314/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "https://www.gov.uk/.../uk-and-us-fusion-strike...",
+     "url": "https://www.gov.uk/government/news/uk-and-us-fusion-strike-partnership-to-accelerate-clean-energy"
+    },
+    {
+     "text": "GOV.UK UK and US fusion strike partnership to accelerate clean energy",
+     "url": "https://www.gov.uk/government/news/uk-and-us-fusion-strike-partnership-to-accelerate-clean-energy"
+    }
+   ],
+   "project": "Chapelcross data centre campus (CX Tech)"
+  },
+  {
+   "id": "1080729551438157",
+   "date": "2026-10-15",
+   "title": "Say NO to Chapelcross AI Data Centre",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    },
+    "project": {
+     "method": "group_default",
+     "match_type": "group_default",
+     "register": "data_centre_register",
+     "canonical": "dc-chapelcross-dumfries",
+     "group": "Say NO to Chapelcross AI Data Centre",
+     "confidence": "single-project group default, review"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Say NO to Chapelcross AI Data Centre",
+    "label": "Facebook · Say NO to Chapelcross AI Data Centre",
+    "url": "https://www.facebook.com/groups/1015424481301998/posts/1080729551438157/"
+   },
+   "thin": false,
+   "bodyText": "JOIN THE MARCH - STOP AI DATA CENTRES\nOn Saturday 14th November community campaigners, organisations and people all across Scotland will head to the Royal Mile in Edinburgh to make our voices heard on AI data centres – we need you to join us!\nDevelopers want to build monster data centres across Scotland and sell them on to big US tech companies – there are over 20 already proposed and more in the pipeline.\nThese massive developments would demand twice as much electricity as Scotland’s peak usage, and have huge consequences for our energy bills, water, health, communities, climate and nature.\nDecisions on AI data centres should be led by the people, not by Big Tech profits. The people of Scotland must have a say on how our public resources are used.\nNo one voted for AI data centres. Where was this discussion in the Holyrood elections?\nThis goes beyond planning guidance. We need a national conversation about the rollout of AI and data centres before any decisions are made. This is an issue that affects us all.\nSaturday 14th November\nMeet: 11.30am at the top of the Royal Mile. March: 12pm. Rally: 1pm.\nwww.stopaidatacentres.scot\nACT.FOE.SCOT act.foe.scot",
+   "contentFingerprint": "2b93554aec3da8a039ff41ccc61d0934458abe83b8ad2b7135292233183e1776",
+   "photos": [
+    "media/facebook/1080729551438157/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "www.stopaidatacentres.scot",
+     "url": "http://www.stopaidatacentres.scot/"
+    },
+    {
+     "text": "ACT.FOE.SCOT act.foe.scot",
+     "url": "http://www.stopaidatacentres.scot/"
+    }
+   ],
+   "categories": [
+    "Data Centre"
+   ],
+   "project": "Chapelcross data centre campus (CX Tech)"
+  },
+  {
+   "id": "1080346888143090",
+   "date": "2026-10-15",
+   "title": "Say NO to Chapelcross AI Data Centre",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    },
+    "project": {
+     "method": "group_default",
+     "match_type": "group_default",
+     "register": "data_centre_register",
+     "canonical": "dc-chapelcross-dumfries",
+     "group": "Say NO to Chapelcross AI Data Centre",
+     "confidence": "single-project group default, review"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Say NO to Chapelcross AI Data Centre",
+    "label": "Facebook · Say NO to Chapelcross AI Data Centre",
+    "url": "https://www.facebook.com/groups/1015424481301998/posts/1080346888143090/"
+   },
+   "thin": false,
+   "bodyText": "Check out the you tube videos where you can hear the noise produced by the Mega Data Centres 24 hours a day.  It’s Horrendous!!!",
+   "contentFingerprint": "f8f267ef47d5b25c0d09ef7a5f943e1dfacf8727ea4e0ba9f34606a845bf9e22",
+   "photos": [
+    "media/facebook/1080346888143090/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "categories": [
+    "Data Centre"
+   ],
+   "project": "Chapelcross data centre campus (CX Tech)"
+  },
+  {
+   "id": "1080407661470346",
+   "date": "2026-10-15",
+   "title": "Say NO to Chapelcross AI Data Centre",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "project": {
+     "method": "track_b_register_alias",
+     "register": "data_centre_register",
+     "canonical": "dc-chapelcross-dumfries",
+     "confidence": "alias match, review"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Say NO to Chapelcross AI Data Centre",
+    "label": "Facebook · Say NO to Chapelcross AI Data Centre",
+    "url": "https://www.facebook.com/groups/1015424481301998/posts/1080407661470346/"
+   },
+   "thin": false,
+   "bodyText": "https://www.gov.uk/.../nda-working-with-private-developer...        From 2025, Strategic Partners ..\nGOV.UK NDA working with private developer to accelerate Chapelcross Hub",
+   "contentFingerprint": "4ac2d39de637dc7aca8c18c47eea161ad03fbc43e98593207476d0dae2b20e07",
+   "photos": [
+    "media/facebook/1080407661470346/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "https://www.gov.uk/.../nda-working-with-private-developer...",
+     "url": "https://www.gov.uk/government/news/nda-working-with-private-developer-to-accelerate-chapelcross-hub"
+    },
+    {
+     "text": "GOV.UK NDA working with private developer to accelerate Chapelcross Hub",
+     "url": "https://www.gov.uk/government/news/nda-working-with-private-developer-to-accelerate-chapelcross-hub"
+    }
+   ],
+   "project": "Chapelcross data centre campus (CX Tech)"
+  },
+  {
+   "id": "1080256708152108",
+   "date": "2026-10-15",
+   "title": "Say NO to Chapelcross AI Data Centre",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "project": {
+     "method": "group_default",
+     "match_type": "group_default",
+     "register": "data_centre_register",
+     "canonical": "dc-chapelcross-dumfries",
+     "group": "Say NO to Chapelcross AI Data Centre",
+     "confidence": "single-project group default, review"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Say NO to Chapelcross AI Data Centre",
+    "label": "Facebook · Say NO to Chapelcross AI Data Centre",
+    "url": "https://www.facebook.com/groups/1015424481301998/posts/1080256708152108/"
+   },
+   "thin": false,
+   "bodyText": "https://www.planninggeek.co.uk/2026/scottish-planning-powers/\nPeople across Scotland are \"fighting their corner\" at community level whilst being kept in the dark about the extent of the bigger picture....a \"Divide and Conquer\" business strategy \n?\nThere have been recent government announcements about a \"Major Planning Office\". Also that consideration is being given to proposals that following council restructure, \"bigger\" planning applications are to be decided at a \"regional level\" within a \"national planning hub\".\nGiven the fact that local planning authority staff are being swamped by objections to the extent that they are restricting some access, I sincerely hope that formal objections both at a regional and national level (and the resources and staff to deal with them) will be a major consideration too.\nIf these applications are to be classified as \"Major\" or \"National\", they affect everyone... no matter where you live.",
+   "contentFingerprint": "adf118ff1711e6ac6a96188aa0d82ad82a7b77b66d538595cf48cd8b9711b42e",
+   "photos": [
+    "media/facebook/1080256708152108/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "https://www.planninggeek.co.uk/2026/scottish-planning-powers/",
+     "url": "https://www.planninggeek.co.uk/2026/scottish-planning-powers/"
+    }
+   ],
+   "project": "Chapelcross data centre campus (CX Tech)"
+  },
+  {
+   "id": "1080273724817073",
+   "date": "2026-10-15",
+   "title": "Say NO to Chapelcross AI Data Centre",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    },
+    "project": {
+     "method": "group_default",
+     "match_type": "group_default",
+     "register": "data_centre_register",
+     "canonical": "dc-chapelcross-dumfries",
+     "group": "Say NO to Chapelcross AI Data Centre",
+     "confidence": "single-project group default, review"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Say NO to Chapelcross AI Data Centre",
+    "label": "Facebook · Say NO to Chapelcross AI Data Centre",
+    "url": "https://www.facebook.com/groups/1015424481301998/posts/1080273724817073/"
+   },
+   "thin": false,
+   "bodyText": "Sorry to post a long article but I feel it's relevant.\nComing soon to a neighbourhood near you.\nIn the US you can now be arrested as an 'anti-tech terrorist ' for devilish activities including not wanting to live beside a data centre.\nOver there, at least, these are not about making silly cat videos. They are for surveillance of the general public in the march towards fascist totalitarianism.\nTake heed. They will push these things through until all powers of resistance are removed.\nhttps://chrishedges.substack.com/.../how-the-trump-admin...\nCHRISHEDGES.SUBSTACK.COM How the Trump Admin. Is Expanding the Definition of ‘Terrorism’ — and What It Means (w/ Dan Boguslaw) | TCHR",
+   "contentFingerprint": "dcf5b7fa3d668fdedbdb59bc7558d55f8d2957d6495a63c896b717ace1159d5e",
+   "photos": [
+    "media/facebook/1080273724817073/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "https://chrishedges.substack.com/.../how-the-trump-admin...",
+     "url": "https://chrishedges.substack.com/p/how-the-trump-admin-is-expanding?r=654cb&utm_id=97758_v0_s00_e0_tv0"
+    },
+    {
+     "text": "CHRISHEDGES.SUBSTACK.COM How the Trump Admin. Is Expanding the Definition of ‘Terrorism’ — and What It Means (w/ Dan Boguslaw) | TCHR",
+     "url": "https://chrishedges.substack.com/p/how-the-trump-admin-is-expanding?r=654cb&utm_id=97757_v0_s00_e0_tv2_a1dennhb9hsgpa"
+    }
+   ],
+   "categories": [
+    "Data Centre"
+   ],
+   "project": "Chapelcross data centre campus (CX Tech)"
+  },
+  {
+   "id": "1080280164816429",
+   "date": "2026-10-15",
+   "title": "Say NO to Chapelcross AI Data Centre",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "project": {
+     "method": "group_default",
+     "match_type": "group_default",
+     "register": "data_centre_register",
+     "canonical": "dc-chapelcross-dumfries",
+     "group": "Say NO to Chapelcross AI Data Centre",
+     "confidence": "single-project group default, review"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Say NO to Chapelcross AI Data Centre",
+    "label": "Facebook · Say NO to Chapelcross AI Data Centre",
+    "url": "https://www.facebook.com/groups/1015424481301998/posts/1080280164816429/"
+   },
+   "thin": false,
+   "bodyText": "Just on the low-frequency noise issue, it would make sense to monitor it now so that a baseline can be established before any possible construction or operation takes place.  It would of course be better if the centre is never built and that should be our aim, but just as a precaution, we need to have something to compare it to in case it does happen, and we need to have incontrovertible and reliable data for that purpose.  Wondering how to do that.",
+   "contentFingerprint": "9a62077c3d263c93248370d38aa15d1ad10e2a3cf59eddfc2eb0ca17301f1efc",
+   "photos": [
+    "media/facebook/1080280164816429/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "project": "Chapelcross data centre campus (CX Tech)"
+  },
+  {
+   "id": "1839328240854336",
+   "date": "2026-10-16",
+   "title": "Hurlford Rufus Data Centre Community Group",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    },
+    "project": {
+     "method": "group_default",
+     "match_type": "group_default",
+     "register": "data_centre_register",
+     "canonical": "dc-rufus-hurlford-east-ayrshire",
+     "group": "Hurlford Rufus Data Centre Community Group",
+     "confidence": "single-project group default, review"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Hurlford Rufus Data Centre Community Group",
+    "label": "Facebook · Hurlford Rufus Data Centre Community Group",
+    "url": "https://www.facebook.com/groups/1604173331036496/posts/1839328240854336/"
+   },
+   "thin": false,
+   "bodyText": "'Tomorrow the thistle is an open door to anyone with concerns over hyoerscale data centres in local communities across Ayrshire. At 10am we welcome Dr Kat Jones from APRS alongside local representatives including MSP Carol Mochan and MSP Laura Moodie to discuss how we can move forward together against hypersclale data centres. Do you want Google as a neighbour? If not head on down and have your concerns heard amongst those who share the same worries as you do'",
+   "contentFingerprint": "095fa8a2e9be3afa9da2a0367747891537e5dd4a49ecee8606ccfc64d10779bc",
+   "photos": [
+    "media/facebook/1839328240854336/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "categories": [
+    "Data Centre"
+   ],
+   "project": "Rufus data centre campus (Hurlford)"
+  },
+  {
+   "id": "1838183050968855",
+   "date": "2026-10-15",
+   "title": "Hurlford Rufus Data Centre Community Group",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "user_directed"
+    },
+    "project": {
+     "method": "user_directed",
+     "register": "repd_record",
+     "canonical": "whitelee",
+     "evidence": "screenshot: ScottishPower leaflet 'Whitelee Windfarm Repowering' (public information event) posted in this group",
+     "confidence": "confirmed by user 2026-10-17"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Hurlford Rufus Data Centre Community Group",
+    "label": "Facebook · Hurlford Rufus Data Centre Community Group",
+    "url": "https://www.facebook.com/groups/1604173331036496/posts/1838183050968855/"
+   },
+   "thin": false,
+   "bodyText": "ANY OF OUR GROUP MEMBERS ABLE TO ATTEND MEETING IN NEWMILNS?? For info ?",
+   "contentFingerprint": "189c29f8e696c564fefc5d294fe68f604768abbdb6f9b122887a56da83396780",
+   "photos": [
+    "media/facebook/1838183050968855/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "categories": [
+    "Onshore Wind"
+   ],
+   "project": "Whitelee"
   }
  ]
 }
