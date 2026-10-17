@@ -2,3 +2,9 @@ briefs/
 __pycache__/
 *.pyc
 .pytest_cache/
+
+# register files: kept local (their facts are already shown on the generated pages)
+data/data_centre_register.json
+data/grid_corridor_supplement.json
+# IndexNow send log: local runtime state
+data/indexnow-state.json

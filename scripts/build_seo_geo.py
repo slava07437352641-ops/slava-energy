@@ -330,6 +330,9 @@ def feed_xml(title, items, path, build_date):
 
 
 def build_files(site, objects_db, build_date):
+    for rel in ("data/data_centre_register.json", "data/grid_corridor_supplement.json"):
+        if not os.path.exists(os.path.join(site, rel)):
+            print(f"warning: {rel} not found; its register facts are omitted from the pages", file=sys.stderr)
     recs = [r for r in read_json(site, "data/discussions-index.json", {"records": []})["records"]
             if r["id"] not in BLOCKED_POST_IDS and r.get("date") and r.get("source")]
     dc = {p["name"]: p for p in read_json(site, "data/data_centre_register.json", {"projects": []})["projects"]}
