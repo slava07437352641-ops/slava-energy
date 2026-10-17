@@ -80,6 +80,11 @@ def date_problems(sid, dates):
     return out
 
 
+RECORD_BASES = ("name_exact", "name_similar", "register_link", "neso_project_number", "unverified")
+REGISTER_LABELS = {"repd": "REPD", "neso_tec": "NESO TEC", "neso_embedded": "NESO Embedded"}
+RECORD_KEYS = {"register", "id", "name", "status", "capacity", "date", "relation", "basis"}
+
+
 class BuildError(Exception):
     """A problem with the inputs. The build stops and writes nothing."""
 
@@ -133,6 +138,17 @@ def validate_facts_doc(doc):
                 elif k.endswith("_url") and not str(meta[k]).startswith("https://"):
                     problems.append(f"source {sid}: {k} is not an https link")
             problems += date_problems(sid, meta.get("dates"))
+        elif "credit" in meta:
+            for k in ("credit", "source_url", "terms_url", "terms_note", "checked"):
+                if not meta.get(k):
+                    problems.append(f"source {sid}: {k} missing")
+            for k in ("source_url", "terms_url"):
+                if meta.get(k) and not str(meta[k]).startswith("https://"):
+                    problems.append(f"source {sid}: {k} is not an https link")
+            try:
+                datetime.date.fromisoformat(str(meta.get("checked")))
+            except ValueError:
+                problems.append(f"source {sid}: 'checked' must be an ISO date")
     if not isinstance(doc.get("data_centre_projects"), list):
         problems.append("'data_centre_projects' list missing")
     projects = doc.get("projects")
@@ -159,6 +175,27 @@ def validate_facts_doc(doc):
         for u in e["sources"]:
             if not str(u).startswith("https://") or "facebook.com" in str(u):
                 problems.append(f"{name}: source link must be a non-Facebook https link: {u}")
+        label = e.get("label")
+        if label is not None and (not isinstance(label, str) or not label.strip() or any(pat.search(label) for pat, _ in FORBIDDEN)):
+            problems.append(f"{name}: invalid label")
+        seen = set()
+        for i, rec in enumerate(e.get("records") or []):
+            if not isinstance(rec, dict) or set(rec) != RECORD_KEYS:
+                problems.append(f"{name} record {i}: fields must be {', '.join(sorted(RECORD_KEYS))}")
+                continue
+            if rec["register"] not in srcs or "licence" not in srcs[rec["register"]]:
+                problems.append(f"{name} record {rec['id']}: register '{rec['register']}' is not a licensed source")
+            if rec["basis"] not in RECORD_BASES:
+                problems.append(f"{name} record {rec['id']}: unknown basis '{rec['basis']}'")
+            if (rec["register"], rec["id"]) in seen:
+                problems.append(f"{name} record {rec['id']}: listed twice")
+            seen.add((rec["register"], rec["id"]))
+            for k in ("id", "name", "capacity", "date", "relation"):
+                if not str(rec[k]).strip():
+                    problems.append(f"{name} record {rec['id']}: empty {k}")
+            for pat, why in FORBIDDEN:
+                if pat.search(" ".join(str(rec[k]) for k in ("id", "name", "status", "capacity", "date", "relation"))):
+                    problems.append(f"{name} record {rec['id']}: {why}")
     if problems:
         extra = f"\n  ... and {len(problems) - 20} more" if len(problems) > 20 else ""
         raise BuildError(f"{FACTS_REL} is invalid:\n  " + "\n  ".join(problems[:20]) + extra)
@@ -203,18 +240,44 @@ def vertical_of(name, posts, dc_names):
     return "Pylons and grid" if is_ohl(posts) else "Wind, solar and storage"
 
 
+def record_summary(records):
+    by_reg = collections.Counter(REGISTER_LABELS[r["register"]] for r in records)
+    breakdown = ", ".join(f"{n} {k}" for k, n in by_reg.items())
+    statuses = collections.Counter(r["status"] or "not recorded" for r in records)
+    return breakdown, statuses
+
+
 def project_model(name, posts, entry, dc_names):
     posts = sorted(posts, key=lambda r: (r["date"], r["id"]), reverse=True)
     groups = collections.Counter(r["source"]["name"] for r in posts)
     themes = collections.Counter(t for r in posts for t in (r.get("categories") or []))
     latest, earliest = posts[0]["date"], posts[-1]["date"]
     n, g = len(posts), len(groups)
+    title = entry.get("label") or name
     vertical = vertical_of(name, posts, dc_names)
     facts = [(f["label"], f["value"], f["basis"]) for f in entry["facts"]]
-    credits = list(dict.fromkeys(f["source"] for f in entry["facts"]))
-    ref = next((f"{lab}: {v} ({b})" for lab, v, b in facts if lab in ("Planning reference", "REPD reference", "Planning reference (TEC)")), None)
-    status = next((f"{lab}: {v} ({b})" for lab, v, b in facts if lab in ("Status", "REPD status", "TEC project status", "Embedded Register project status", "Consent or stage")), None)
-    req = [f"{name} is {VERTICAL_PHRASE[vertical]} tracked on slava.it.com.",
+    records = entry.get("records") or []
+    credits = list(dict.fromkeys([f["source"] for f in entry["facts"]] + [r["register"] for r in records]))
+    planning_bits = [f"{lab}: {v} ({b})" for lab, v, b in facts if lab in
+                     ("Planning reference", "Application type", "Status", "Consent or stage", "REPD status", "TEC project status",
+                      "Embedded Register project status")]
+    if records:
+        breakdown, statuses = record_summary(records)
+        listing = ", ".join(f"{s_} ({c})" for s_, c in statuses.most_common())
+        facts = [("Register records", f"{len(records)} listed ({breakdown}). Statuses: {listing}", "register")] + facts
+        ref = f"{len(records)} register records are listed ({breakdown})"
+        status = ("Their statuses differ, so no single status is given" if len(statuses) > 1
+                  else f"All list the status {next(iter(statuses))}")
+        answer = ((f"No single status applies. Statuses by register record: {listing}. The table gives each record's identifier, "
+                   "date and relationship; records are not combined.") if len(statuses) > 1 else
+                  f"All {len(records)} listed register records show the status {next(iter(statuses))}.")
+        if planning_bits:
+            answer += " Reported: " + "; ".join(planning_bits) + "."
+    else:
+        ref = next((f"{lab}: {v} ({b})" for lab, v, b in facts if lab in ("Planning reference", "REPD reference", "Planning reference (TEC)")), None)
+        status = next((f"{lab}: {v} ({b})" for lab, v, b in facts if lab in ("Status", "REPD status", "TEC project status", "Embedded Register project status", "Consent or stage")), None)
+        answer = ("Recorded: " + "; ".join(planning_bits) + ".") if planning_bits else "No planning status is recorded in the registers used for this page."
+    req = [f"{title} is {VERTICAL_PHRASE[vertical]} tracked on slava.it.com.",
            f"The archive holds {n} community post{'s' if n != 1 else ''} from {g} group{'s' if g != 1 else ''}, latest {latest}.",
            f"{ref}." if ref else "No planning reference is recorded in the registers used.",
            f"{status}." if status else "No status is recorded in the registers used.",
@@ -224,17 +287,12 @@ def project_model(name, posts, entry, dc_names):
     if words(capsule) > 60:
         req[-1] = f"Top recurring theme: {top_themes(themes, 1)}."
         capsule = fit(req, opt)
-    planning_bits = [f"{lab}: {v} ({b})" for lab, v, b in facts if lab in
-                     ("Planning reference", "Application type", "Status", "Consent or stage", "REPD status", "TEC project status",
-                      "Embedded Register project status")]
-    qa = [(f"What is the planning status of {name}?",
-           ("Recorded: " + "; ".join(planning_bits) + ".") if planning_bits else
-           "No planning status is recorded in the registers used for this page."),
-          (f"What are the main community discussions around {name}?",
+    qa = [(f"What is the planning status of {title}?", answer),
+          (f"What are the main community discussions around {title}?",
            f"{n} archived public post{'s' if n != 1 else ''} from {g} group{'s' if g != 1 else ''}, dated {earliest} to {latest}. "
            f"The most frequent theme tags are {top_themes(themes, 3)}. Post text is not reproduced here; each archive entry links to the post.")]
-    return {"name": name, "slug": slugify(name), "vertical": vertical, "posts": posts, "groups": groups,
-            "themes": themes, "latest": latest, "earliest": earliest, "facts": facts, "capsule": capsule,
+    return {"name": name, "title": title, "slug": slugify(name), "vertical": vertical, "posts": posts, "groups": groups,
+            "themes": themes, "latest": latest, "earliest": earliest, "facts": facts, "records": records, "capsule": capsule,
             "qa": qa, "sources": entry["sources"], "credits": credits, "words": words(capsule)}
 
 
@@ -252,7 +310,7 @@ def hub_model(key, spec, projects):
            "Each project page gives register facts and links to the archive entries."]
     capsule = fit(req, [])
     qa = [("Which projects are in this hub?",
-           "; ".join(p["name"] for p in members) + "." if members else "No project in this hub has at least two linked posts."),
+           "; ".join(p["title"] for p in members) + "." if members else "No project in this hub has at least two linked posts."),
           ("What are the main community themes in this hub?",
            f"The most frequent theme tags are {top_themes(themes, 3)}, from {n} archived public posts.")]
     return {"key": key, "spec": spec, "members": members, "posts": posts, "groups": groups, "themes": themes,
@@ -283,16 +341,46 @@ def follow_html():
 
 
 def credit_lines(p, srcs):
-    """Credit entries for the licensed registers whose facts appear on the page: (text, licence, licence_url, source_url, dates)."""
+    """Credit entries for the sources whose facts or records appear on the page."""
     out = []
     for sid in p["credits"]:
         m = srcs[sid]
-        if "licence" not in m:
-            continue
-        copyright_ = f" (© {m['copyright']})" if m.get("copyright") else ""
-        dates = "; ".join(f"{d['label']}: {d['value']}" for d in m["dates"])
-        out.append((f"{m['attribution'].rstrip('.')}. Data: {m['name']}{copyright_}.", m["licence"], m["licence_url"], m["source_url"], dates))
+        if "licence" in m:
+            copyright_ = f" (\u00a9 {m['copyright']})" if m.get("copyright") else ""
+            dates = "; ".join(f"{d['label']}: {d['value']}" for d in m["dates"])
+            out.append({"text": f"{m['attribution'].rstrip('.')}. Data: {m['name']}{copyright_}.", "terms_label": "Licence",
+                        "terms": m["licence"], "terms_url": m["licence_url"], "source_url": m["source_url"], "dates": dates})
+        elif "credit" in m:
+            out.append({"text": f"{m['credit'].rstrip('.')}. Data: {m['name']}.", "terms_label": "Terms",
+                        "terms": m["terms_note"], "terms_url": m["terms_url"], "source_url": m["source_url"],
+                        "dates": f"Terms checked: {m['checked']}"})
     return out
+
+
+RECORD_HEAD = ("Register", "Identifier", "Name as recorded", "Status", "Capacity", "Date", "Relationship")
+RECORD_NOTE = ("Each row is one register record with its own identifier; records are not combined. Relationships are stated only "
+               "where a register links the records, and are otherwise labelled as unlinked or unverified. REPD dates are the "
+               "record's update date and the date of the status event where one is recorded. The NESO files give no status date; "
+               "the date shown is the MW effective-from date.")
+
+
+def record_cells(r):
+    return (REGISTER_LABELS[r["register"]], r["id"], r["name"], r["status"] or "not recorded", r["capacity"], r["date"], r["relation"])
+
+
+def records_html(p):
+    if not p["records"]:
+        return ""
+    head = "".join(f"<th>{h}</th>" for h in RECORD_HEAD)
+    rows = "".join("<tr>" + "".join(f"<td>{esc(c)}</td>" for c in record_cells(r)) + "</tr>" for r in p["records"])
+    return f"<h2>Register records</h2><p>{esc(RECORD_NOTE)}</p><table><tr>{head}</tr>{rows}</table>\n"
+
+
+def records_md(p):
+    if not p["records"]:
+        return ""
+    rows = "\n".join("| " + " | ".join(str(c).replace("|", "/") for c in record_cells(r)) + " |" for r in p["records"])
+    return (f"## Register records\n\n{RECORD_NOTE}\n\n| " + " | ".join(RECORD_HEAD) + " |\n|" + "---|" * len(RECORD_HEAD) + f"\n{rows}\n\n")
 
 
 def page(title, desc, canonical, body, lds):
@@ -322,8 +410,9 @@ def project_html(p, srcs):
     cl = credit_lines(p, srcs)
     credit_html = ""
     if cl:
-        items = "".join(f"<li>{esc(t)} Licence: <a href=\"{esc(lu)}\">{esc(l)}</a>. Source: <a href=\"{esc(su)}\">{esc(su)}</a>. "
-                        f"Source dates: {esc(ds)}.</li>" for t, l, lu, su, ds in cl)
+        items = "".join(f"<li>{esc(c['text'])} {c['terms_label']}: <a href=\"{esc(c['terms_url'])}\">{esc(c['terms'])}</a>. "
+                        f"Source: <a href=\"{esc(c['source_url'])}\">{esc(c['source_url'])}</a>. "
+                        f"Source dates: {esc(c['dates'])}.</li>" for c in cl)
         credit_html = (f"<h2>Data credits</h2><ul>{items}<li>Use of these registers does not imply endorsement "
                        "by their publishers.</li></ul>\n")
     grows = "".join(f"<tr><td>{esc(g)}</td><td>{n}</td></tr>" for g, n in p["groups"].most_common())
@@ -332,14 +421,14 @@ def project_html(p, srcs):
         f"<li><a href=\"{SITE_URL}/?sel={r['id']}\">{esc(r['date'])}, {esc(r['source']['name'])}</a>"
         f" · themes: {esc(', '.join(r.get('categories') or []) or 'none tagged')}</li>" for r in p["posts"])
     qa_html = "".join(f"<h2>{esc(q)}</h2><p>{esc(a)}</p>" for q, a in p["qa"])
-    body = (f"<h1>{esc(p['name'])}</h1>\n<p class=\"capsule\">{esc(p['capsule'])}</p>\n"
-            f"<h2>Register facts</h2>\n{facts_html}\n{src_html}\n{credit_html}"
+    body = (f"<h1>{esc(p['title'])}</h1>\n<p class=\"capsule\">{esc(p['capsule'])}</p>\n"
+            f"<h2>Register facts</h2>\n{facts_html}\n{records_html(p)}{src_html}\n{credit_html}"
             f"<h2>Source groups</h2><table><tr><th>Group</th><th>Posts</th></tr>{grows}</table>\n"
             f"<h2>Theme breakdown</h2><table><tr><th>Theme</th><th>Posts</th></tr>{trows}</table>\n"
             f"{qa_html}\n<h2>Archive entries</h2><ul>{entries}</ul>\n<p><a href=\"/\">Back to the archive</a></p>")
     url = f"{SITE_URL}/projects/{p['slug']}.html"
-    ds = dataset_ld(f"Community discussion archive: {p['name']}", p["capsule"], url, p["latest"], sorted(p["themes"]))
-    return page(f"{p['name']} · community discussion archive", p["capsule"][:155], url, body, [ds, faq_ld(p["qa"])])
+    ds = dataset_ld(f"Community discussion archive: {p['title']}", p["capsule"], url, p["latest"], sorted(p["themes"]))
+    return page(f"{p['title']} · community discussion archive", p["capsule"][:155], url, body, [ds, faq_ld(p["qa"])])
 
 
 def project_md(p, srcs):
@@ -352,10 +441,11 @@ def project_md(p, srcs):
     cl = credit_lines(p, srcs)
     credit_md = ""
     if cl:
-        credit_md = ("## Data credits\n\n" + "\n".join(f"- {t} Licence: [{l}]({lu}). Source: {su}. Source dates: {ds}." for t, l, lu, su, ds in cl)
-                     + "\n- Use of these registers does not imply endorsement by their publishers.\n\n")
-    return (f"# {p['name']}\n\n{p['capsule']}\n\n## Register facts\n\n| Item | Value | Basis |\n|---|---|---|\n{f}\n\n"
-            f"{credit_md}"
+        credit_md = ("## Data credits\n\n" + "\n".join(
+            f"- {c['text']} {c['terms_label']}: [{c['terms']}]({c['terms_url']}). Source: {c['source_url']}. Source dates: {c['dates']}." for c in cl)
+            + "\n- Use of these registers does not imply endorsement by their publishers.\n\n")
+    return (f"# {p['title']}\n\n{p['capsule']}\n\n## Register facts\n\n| Item | Value | Basis |\n|---|---|---|\n{f}\n\n"
+            f"{records_md(p)}{credit_md}"
             f"## Source groups\n\n| Group | Posts |\n|---|---|\n{g}\n\n## Theme breakdown\n\n| Theme | Posts |\n|---|---|\n{t}\n\n"
             f"{qa}\n\n## Archive entries\n\n{e}\n\n---\nHTML version: {SITE_URL}/projects/{p['slug']}.html\n"
             "Archived public Facebook group posts; not independently verified. Post text is not reproduced.\n")
@@ -363,7 +453,7 @@ def project_md(p, srcs):
 
 def hub_html(h):
     rows = "".join(
-        f"<tr><td><a href=\"/projects/{p['slug']}.html\">{esc(p['name'])}</a></td><td>{len(p['posts'])}</td>"
+        f"<tr><td><a href=\"/projects/{p['slug']}.html\">{esc(p['title'])}</a></td><td>{len(p['posts'])}</td>"
         f"<td>{esc(p['latest'])}</td></tr>" for p in h["members"])
     trows = "".join(f"<tr><td>{esc(t)}</td><td>{n}</td></tr>" for t, n in h["themes"].most_common())
     qa_html = "".join(f"<h2>{esc(q)}</h2><p>{esc(a)}</p>" for q, a in h["qa"])
@@ -377,7 +467,7 @@ def hub_html(h):
 
 
 def hub_md(h):
-    rows = "\n".join(f"- [{p['name']}]({SITE_URL}/projects/{p['slug']}.md): {len(p['posts'])} posts; latest {p['latest']}"
+    rows = "\n".join(f"- [{p['title']}]({SITE_URL}/projects/{p['slug']}.md): {len(p['posts'])} posts; latest {p['latest']}"
                      for p in h["members"])
     qa = "\n\n".join(f"## {q}\n\n{a}" for q, a in h["qa"])
     return f"# {h['spec']['name']}\n\n{h['capsule']}\n\n## Projects\n\n{rows}\n\n{qa}\n\nHTML version: {SITE_URL}/{h['key']}/\n"
@@ -447,7 +537,7 @@ def build_files(site, build_date):
         lines.append(f"- [{h['spec']['name']}]({SITE_URL}/{k}/index.md): {len(h['members'])} projects, {len(h['posts'])} posts; latest {h['latest']}")
     lines += ["", "## Projects"]
     for p in projects:
-        lines.append(f"- [{p['name']}]({SITE_URL}/projects/{p['slug']}.md): {len(p['posts'])} posts from {len(p['groups'])} groups; "
+        lines.append(f"- [{p['title']}]({SITE_URL}/projects/{p['slug']}.md): {len(p['posts'])} posts from {len(p['groups'])} groups; "
                      f"latest {p['latest']}; {p['vertical'].lower()}.")
     lines += ["", "## Feeds", f"- [All posts feed]({SITE_URL}/feed.xml): newest {FEED_ITEMS} posts", "",
               "## Optional", f"- [Full text of hub and project pages]({SITE_URL}/llms-full.txt)", ""]

@@ -1,16 +1,29 @@
-# Arecleoch
+# Arecleoch Wind Farm and extension
 
-Arecleoch is a wind, solar and storage project tracked on slava.it.com. The archive holds 2 community posts from 2 groups, latest 2026-10-02. No planning reference is recorded in the registers used. TEC project status: Built (register). Top recurring themes: Onshore Wind (1). Posts are archived public group posts and are not independently verified.
+Arecleoch Wind Farm and extension is a wind, solar and storage project tracked on slava.it.com. The archive holds 2 community posts from 2 groups, latest 2026-10-02. 6 register records are listed (3 REPD, 3 NESO TEC). Their statuses differ, so no single status is given. Top recurring themes: Onshore Wind (1).
 
 ## Register facts
 
 | Item | Value | Basis |
 |---|---|---|
-| TEC rows with this name | 2 | register |
-| TEC project status | Built | register |
+| Register records | 6 listed (3 REPD, 3 NESO TEC). Statuses: Scoping (2), Under Construction (2), Operational (1), Built (1) | register |
+
+## Register records
+
+Each row is one register record with its own identifier; records are not combined. Relationships are stated only where a register links the records, and are otherwise labelled as unlinked or unverified. REPD dates are the record's update date and the date of the status event where one is recorded. The NESO files give no status date; the date shown is the MW effective-from date.
+
+| Register | Identifier | Name as recorded | Status | Capacity | Date | Relationship |
+|---|---|---|---|---|---|---|
+| REPD | 3258 | Arecleoch Windfarm | Operational | 120 MW | record updated 2011-10-25; status event 2011-06-14 | Original wind farm; the name is spelled 'Arecleoch Windfarm'; no identifier is shared with the REPD NESO rows. |
+| NESO TEC | PRO-000012-1 | Arecleoch | Built | connected 114 MW; cumulative 114 MW | no effective date in the file | Stage 1 of NESO project PRO-000012; relation to REPD 3258 is unverified (same site name, no shared identifier). |
+| NESO TEC | PRO-000012-2 | Arecleoch | Scoping | connected 0 MW; cumulative 330 MW | MW effective from 2032-06-15 | Stage 2 of NESO project PRO-000012. |
+| REPD | 6798 | Arecleoch Wind Farm (extension) | Under Construction | 72.8 MW | record updated 2025-07-25; status event 2025-06-01 | Extension: the REPD name is 'Arecleoch Wind Farm (extension)'. |
+| REPD | 7882 | Arecleoch Wind Farm (extension) | Under Construction | 20 MW | record updated 2025-07-25; status event 2025-06-01 | Extension battery storage; REPD links it to 6798 (storage co-location). |
+| NESO TEC | PRO-001111 | Arecleoch Extension Windfarm | Scoping | connected 0 MW; cumulative 72.8 MW | MW effective from 2026-08-31 | 'Arecleoch Extension Windfarm'; same capacity (72.8 MW) as REPD 6798 but no shared identifier, so the relation is unverified. |
 
 ## Data credits
 
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: unavailable; Latest record update in the file: 2026-07-24; Download date: unavailable; Local copy created: 2026-08-30; Facts exported: 2026-10-17.
 - Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register. Source dates: Release date: unavailable; Download date: unavailable; File name date: 2026-10-10; Local copy created: 2026-10-13; Facts exported: 2026-10-17.
 - Use of these registers does not imply endorsement by their publishers.
 
@@ -27,11 +40,11 @@ Arecleoch is a wind, solar and storage project tracked on slava.it.com. The arch
 |---|---|
 | Onshore Wind | 1 |
 
-## What is the planning status of Arecleoch?
+## What is the planning status of Arecleoch Wind Farm and extension?
 
-Recorded: TEC project status: Built (register).
+No single status applies. Statuses by register record: Scoping (2), Under Construction (2), Operational (1), Built (1). The table gives each record's identifier, date and relationship; records are not combined.
 
-## What are the main community discussions around Arecleoch?
+## What are the main community discussions around Arecleoch Wind Farm and extension?
 
 2 archived public posts from 2 groups, dated 2026-10-01 to 2026-10-02. The most frequent theme tags are Onshore Wind (1). Post text is not reproduced here; each archive entry links to the post.
 
@@ -640,21 +653,32 @@ Archived public Facebook group posts; not independently verified. Post text is n
 
 # Golticlay Wind Farm
 
-Golticlay Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 4 community posts from 2 groups, latest 2026-10-02. REPD reference: 5195 (register). REPD status: Under Construction (register). Top recurring themes: Onshore Wind (3). Posts are archived public group posts and are not independently verified.
+Golticlay Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 4 community posts from 2 groups, latest 2026-10-02. 7 register records are listed (4 REPD, 3 NESO Embedded). Their statuses differ, so no single status is given. Top recurring themes: Onshore Wind (3). Posts are archived public group posts and are not independently verified.
 
 ## Register facts
 
 | Item | Value | Basis |
 |---|---|---|
-| Embedded Register rows with this name | 2 | register |
-| REPD reference | 5195 | register |
-| REPD status | Under Construction | register |
-| Embedded Register project status | Awaiting Consents | register |
+| Register records | 7 listed (4 REPD, 3 NESO Embedded). Statuses: Planning Application Submitted (2), Awaiting Consents (2), Under Construction (1), No Application Required (1), Scoping (1) | register |
+
+## Register records
+
+Each row is one register record with its own identifier; records are not combined. Relationships are stated only where a register links the records, and are otherwise labelled as unlinked or unverified. REPD dates are the record's update date and the date of the status event where one is recorded. The NESO files give no status date; the date shown is the MW effective-from date.
+
+| Register | Identifier | Name as recorded | Status | Capacity | Date | Relationship |
+|---|---|---|---|---|---|---|
+| REPD | 5195 | Golticlay Wind Farm | Under Construction | 72.6 MW | record updated 2026-02-23; status event 2025-07-01 | Exact name match. |
+| REPD | 20387 | Golticlay Wind Farm 2 | No Application Required | 13.2 MW | record updated 2026-02-23 | 'Golticlay Wind Farm 2'; the REPD file gives it the same map reference as 5195; no identifier link. |
+| REPD | 18325 | Golticlay Wind Farm, Bulreanrob - Wind Farm | Planning Application Submitted | not recorded | record updated 2026-01-09; status event 2025-12-03 | Bulreanrob wind farm record; REPD links 18325 and 18326 to each other, not to 5195. |
+| REPD | 18326 | Golticlay Wind Farm, Bulreanrob - Battery Energy Storage | Planning Application Submitted | not recorded | record updated 2026-01-09; status event 2025-12-03 | Bulreanrob battery storage; REPD links it to 18325 (storage co-location). |
+| NESO Embedded | PRO-000370-1 | Golticlay Wind Farm | Awaiting Consents | connected 0 MW; cumulative 50.07 MW | MW effective from 2026-07-31 | Stage 1 of NESO project PRO-000370 (Embedded Register); same name as REPD 5195 but capacity differs and no identifier is shared, so the link is unverified. |
+| NESO Embedded | PRO-000370-2 | Golticlay Wind Farm | Scoping | connected 0 MW; cumulative 58 MW | MW effective from 2026-07-31 | Stage 2 of NESO project PRO-000370. |
+| NESO Embedded | PRO-000926 | Golticlay Extension Wind Farm | Awaiting Consents | connected 0 MW; cumulative 55 MW | MW effective from 2027-09-30 | 'Golticlay Extension Wind Farm'; a different NESO project number; relation to the REPD records is unverified. |
 
 ## Data credits
 
-- Supported by National Energy SO Open Data. Data: Embedded Register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/embedded-register. Source dates: Release date: unavailable; Download date: unavailable; File name date: 2026-10-10; Local copy created: 2026-10-13; Facts exported: 2026-10-17.
 - Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: unavailable; Latest record update in the file: 2026-07-24; Download date: unavailable; Local copy created: 2026-08-30; Facts exported: 2026-10-17.
+- Supported by National Energy SO Open Data. Data: Embedded Register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/embedded-register. Source dates: Release date: unavailable; Download date: unavailable; File name date: 2026-10-10; Local copy created: 2026-10-13; Facts exported: 2026-10-17.
 - Use of these registers does not imply endorsement by their publishers.
 
 ## Source groups
@@ -672,7 +696,7 @@ Golticlay Wind Farm is a wind, solar and storage project tracked on slava.it.com
 
 ## What is the planning status of Golticlay Wind Farm?
 
-Recorded: REPD status: Under Construction (register); Embedded Register project status: Awaiting Consents (register).
+No single status applies. Statuses by register record: Planning Application Submitted (2), Awaiting Consents (2), Under Construction (1), No Application Required (1), Scoping (1). The table gives each record's identifier, date and relationship; records are not combined.
 
 ## What are the main community discussions around Golticlay Wind Farm?
 
@@ -983,15 +1007,22 @@ Archived public Facebook group posts; not independently verified. Post text is n
 
 # Leithenwater Wind Energy Hub - Wind Farm
 
-Leithenwater Wind Energy Hub - Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 3 community posts from 1 group, latest 2026-10-14. REPD reference: 12283 (register). REPD status: Planning Application Submitted (register). Top recurring themes: Onshore Wind (3). Posts are archived public group posts and are not independently verified.
+Leithenwater Wind Energy Hub - Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 3 community posts from 1 group, latest 2026-10-14. 2 register records are listed (2 REPD). All list the status Planning Application Submitted. Top recurring themes: Onshore Wind (3). Posts are archived public group posts and are not independently verified.
 
 ## Register facts
 
 | Item | Value | Basis |
 |---|---|---|
-| REPD rows with this name | 2 | register |
-| REPD reference | 12283 | register |
-| REPD status | Planning Application Submitted | register |
+| Register records | 2 listed (2 REPD). Statuses: Planning Application Submitted (2) | register |
+
+## Register records
+
+Each row is one register record with its own identifier; records are not combined. Relationships are stated only where a register links the records, and are otherwise labelled as unlinked or unverified. REPD dates are the record's update date and the date of the status event where one is recorded. The NESO files give no status date; the date shown is the MW effective-from date.
+
+| Register | Identifier | Name as recorded | Status | Capacity | Date | Relationship |
+|---|---|---|---|---|---|---|
+| REPD | 12283 | Leithenwater Wind Energy Hub - Wind Farm | Planning Application Submitted | 85.8 MW | record updated 2024-06-14; status event 2024-04-04 | Exact name match. |
+| REPD | 16496 | Leithenwater Wind Energy Hub - Wind Farm | Planning Application Submitted | 10 MW | record updated 2024-06-14; status event 2024-04-04 | Exact name match; REPD links it to 12283 (storage co-location). |
 
 ## Data credits
 
@@ -1012,7 +1043,7 @@ Leithenwater Wind Energy Hub - Wind Farm is a wind, solar and storage project tr
 
 ## What is the planning status of Leithenwater Wind Energy Hub - Wind Farm?
 
-Recorded: REPD status: Planning Application Submitted (register).
+All 2 listed register records show the status Planning Application Submitted.
 
 ## What are the main community discussions around Leithenwater Wind Energy Hub - Wind Farm?
 
@@ -1085,15 +1116,22 @@ Archived public Facebook group posts; not independently verified. Post text is n
 
 # Mochrum Fell Wind Farm
 
-Mochrum Fell Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 2 community posts from 1 group, latest 2026-10-15. REPD reference: 4466 (register). REPD status: Revised (register). Top recurring themes: none tagged. Posts are archived public group posts and are not independently verified.
+Mochrum Fell Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 2 community posts from 1 group, latest 2026-10-15. 2 register records are listed (2 REPD). Their statuses differ, so no single status is given. Top recurring themes: none tagged. Posts are archived public group posts and are not independently verified.
 
 ## Register facts
 
 | Item | Value | Basis |
 |---|---|---|
-| REPD rows with this name | 2 | register |
-| REPD reference | 4466 | register |
-| REPD status | Revised | register |
+| Register records | 2 listed (2 REPD). Statuses: Revised (1), Planning Application Submitted (1) | register |
+
+## Register records
+
+Each row is one register record with its own identifier; records are not combined. Relationships are stated only where a register links the records, and are otherwise labelled as unlinked or unverified. REPD dates are the record's update date and the date of the status event where one is recorded. The NESO files give no status date; the date shown is the MW effective-from date.
+
+| Register | Identifier | Name as recorded | Status | Capacity | Date | Relationship |
+|---|---|---|---|---|---|---|
+| REPD | 4466 | Mochrum Fell Wind Farm | Revised | 24 MW | record updated 2018-10-31 | Exact name match; the earlier application. REPD links it to 7891 as a possible re-application. |
+| REPD | 7891 | Mochrum Fell Wind Farm | Planning Application Submitted | 24 MW | record updated 2021-11-18; status event 2020-10-01 | Later application; REPD link 'Are they re-applying (New REPD Ref)' joins it to 4466. |
 
 ## Data credits
 
@@ -1114,7 +1152,7 @@ Mochrum Fell Wind Farm is a wind, solar and storage project tracked on slava.it.
 
 ## What is the planning status of Mochrum Fell Wind Farm?
 
-Recorded: REPD status: Revised (register).
+No single status applies. Statuses by register record: Revised (1), Planning Application Submitted (1). The table gives each record's identifier, date and relationship; records are not combined.
 
 ## What are the main community discussions around Mochrum Fell Wind Farm?
 
@@ -1233,16 +1271,23 @@ Archived public Facebook group posts; not independently verified. Post text is n
 
 # Newlands Hill Wind Energy Hub
 
-Newlands Hill Wind Energy Hub is a wind, solar and storage project tracked on slava.it.com. The archive holds 5 community posts from 1 group, latest 2026-10-13. REPD reference: 12289 (register). REPD status: Planning Application Submitted (register). Top recurring themes: BESS (1), Hybrid (1). Posts are archived public group posts and are not independently verified.
+Newlands Hill Wind Energy Hub is a wind, solar and storage project tracked on slava.it.com. The archive holds 5 community posts from 1 group, latest 2026-10-13. 3 register records are listed (2 REPD, 1 NESO TEC). Their statuses differ, so no single status is given. Top recurring themes: BESS (1), Hybrid (1).
 
 ## Register facts
 
 | Item | Value | Basis |
 |---|---|---|
-| REPD rows with this name | 2 | register |
-| REPD reference | 12289 | register |
-| REPD status | Planning Application Submitted | register |
-| TEC project status | Awaiting Consents | register |
+| Register records | 3 listed (2 REPD, 1 NESO TEC). Statuses: Planning Application Submitted (2), Awaiting Consents (1) | register |
+
+## Register records
+
+Each row is one register record with its own identifier; records are not combined. Relationships are stated only where a register links the records, and are otherwise labelled as unlinked or unverified. REPD dates are the record's update date and the date of the status event where one is recorded. The NESO files give no status date; the date shown is the MW effective-from date.
+
+| Register | Identifier | Name as recorded | Status | Capacity | Date | Relationship |
+|---|---|---|---|---|---|---|
+| REPD | 12289 | Newlands Hill Wind Energy Hub | Planning Application Submitted | 136 MW | record updated 2023-12-07; status event 2023-11-14 | Exact name match. |
+| REPD | 15383 | Newlands Hill Wind Energy Hub | Planning Application Submitted | 136 MW | record updated 2023-12-07; status event 2023-11-14 | Exact name match; REPD links it to 12289 (storage co-location). |
+| NESO TEC | PRO-002549 | Newlands Hill Wind Energy Hub | Awaiting Consents | connected 0 MW; cumulative 119 MW | MW effective from 2030-04-03 | Exact name match in the NESO file; no identifier is shared with the REPD records. |
 
 ## Data credits
 
@@ -1266,7 +1311,7 @@ Newlands Hill Wind Energy Hub is a wind, solar and storage project tracked on sl
 
 ## What is the planning status of Newlands Hill Wind Energy Hub?
 
-Recorded: REPD status: Planning Application Submitted (register); TEC project status: Awaiting Consents (register).
+No single status applies. Statuses by register record: Planning Application Submitted (2), Awaiting Consents (1). The table gives each record's identifier, date and relationship; records are not combined.
 
 ## What are the main community discussions around Newlands Hill Wind Energy Hub?
 
@@ -1479,16 +1524,22 @@ Archived public Facebook group posts; not independently verified. Post text is n
 
 # Rufus data centre campus (Hurlford)
 
-Rufus data centre campus (Hurlford) is an AI data centre project tracked on slava.it.com. The archive holds 2 community posts from 2 groups, latest 2026-10-16. No planning reference is recorded in the registers used. Status: Pre-application enquiries (late 2025); no full application found (reported). Top recurring themes: Data Centre (2).
+Rufus data centre campus (Hurlford) is an AI data centre project tracked on slava.it.com. The archive holds 2 community posts from 2 groups, latest 2026-10-16. No planning reference is recorded in the registers used. Status: Unverified: no primary source has been confirmed for display here, so check the council's public planning register (reported). Top recurring themes: Data Centre (2).
 
 ## Register facts
 
 | Item | Value | Basis |
 |---|---|---|
-| Status | Pre-application enquiries (late 2025); no full application found | reported |
-| Developer | ILI Group | reported |
-| Council | East Ayrshire Council | reported |
-| Capacity | 540 MW (aggregator figure; conflicting figures on the same page; unverified) | reported |
+| Status | Unverified: no primary source has been confirmed for display here, so check the council's public planning register | reported |
+| Company | ILI RUFUS LIMITED (company number SC825440); Active; incorporated 2024-10-10 | register |
+| Persons with significant control (corporate) | Intelligent Land Investments Group Plc | register |
+| Council | East Ayrshire Council (planning authority for the site's location) | reported |
+| Capacity | Unverified: no primary source found | reported |
+
+## Data credits
+
+- Company facts: Companies House public register. Data: Companies House, the UK register of companies. Terms: [Companies House states that it imposes no rules or requirements on how the information on the public register is used (page updated 9 August 2019)](https://www.gov.uk/government/publications/companies-house-accreditation-to-information-fair-traders-scheme/public-task-copyright-and-crown-copyright). Source: https://find-and-update.company-information.service.gov.uk/. Source dates: Terms checked: 2026-10-17.
+- Use of these registers does not imply endorsement by their publishers.
 
 ## Source groups
 
@@ -1505,7 +1556,7 @@ Rufus data centre campus (Hurlford) is an AI data centre project tracked on slav
 
 ## What is the planning status of Rufus data centre campus (Hurlford)?
 
-Recorded: Status: Pre-application enquiries (late 2025); no full application found (reported).
+Recorded: Status: Unverified: no primary source has been confirmed for display here, so check the council's public planning register (reported).
 
 ## What are the main community discussions around Rufus data centre campus (Hurlford)?
 
@@ -1525,14 +1576,22 @@ Archived public Facebook group posts; not independently verified. Post text is n
 
 # Sanquhar II Wind Farm
 
-Sanquhar II Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 6 community posts from 2 groups, latest 2026-10-13. No planning reference is recorded in the registers used. TEC project status: Consents Approved (register). Top recurring themes: Onshore Wind (5). Posts are archived public group posts and are not independently verified.
+Sanquhar II Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 6 community posts from 2 groups, latest 2026-10-13. 2 register records are listed (2 NESO TEC). All list the status Consents Approved. Top recurring themes: Onshore Wind (5). Posts are archived public group posts and are not independently verified.
 
 ## Register facts
 
 | Item | Value | Basis |
 |---|---|---|
-| TEC rows with this name | 2 | register |
-| TEC project status | Consents Approved | register |
+| Register records | 2 listed (2 NESO TEC). Statuses: Consents Approved (2) | register |
+
+## Register records
+
+Each row is one register record with its own identifier; records are not combined. Relationships are stated only where a register links the records, and are otherwise labelled as unlinked or unverified. REPD dates are the record's update date and the date of the status event where one is recorded. The NESO files give no status date; the date shown is the MW effective-from date.
+
+| Register | Identifier | Name as recorded | Status | Capacity | Date | Relationship |
+|---|---|---|---|---|---|---|
+| NESO TEC | PRO-000352-1 | Sanquhar II Wind Farm | Consents Approved | connected 0 MW; cumulative 137 MW | MW effective from 2026-07-31 | Stage 1 of NESO project PRO-000352. |
+| NESO TEC | PRO-000352-2 | Sanquhar II Wind Farm | Consents Approved | connected 0 MW; cumulative 250 MW | MW effective from 2027-02-28 | Stage 2 of NESO project PRO-000352. |
 
 ## Data credits
 
@@ -1554,7 +1613,7 @@ Sanquhar II Wind Farm is a wind, solar and storage project tracked on slava.it.c
 
 ## What is the planning status of Sanquhar II Wind Farm?
 
-Recorded: TEC project status: Consents Approved (register).
+All 2 listed register records show the status Consents Approved.
 
 ## What are the main community discussions around Sanquhar II Wind Farm?
 
@@ -1578,16 +1637,23 @@ Archived public Facebook group posts; not independently verified. Post text is n
 
 # Scoop Hill Wind Farm
 
-Scoop Hill Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 4 community posts from 1 group, latest 2026-05-28. REPD reference: 7454 (register). REPD status: Planning Permission Refused (register). Top recurring themes: Onshore Wind (3). Posts are archived public group posts and are not independently verified.
+Scoop Hill Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 4 community posts from 1 group, latest 2026-05-28. 3 register records are listed (2 REPD, 1 NESO TEC). Their statuses differ, so no single status is given. Top recurring themes: Onshore Wind (3).
 
 ## Register facts
 
 | Item | Value | Basis |
 |---|---|---|
-| REPD rows with this name | 2 | register |
-| REPD reference | 7454 | register |
-| REPD status | Planning Permission Refused | register |
-| TEC project status | Awaiting Consents | register |
+| Register records | 3 listed (2 REPD, 1 NESO TEC). Statuses: Planning Permission Refused (2), Awaiting Consents (1) | register |
+
+## Register records
+
+Each row is one register record with its own identifier; records are not combined. Relationships are stated only where a register links the records, and are otherwise labelled as unlinked or unverified. REPD dates are the record's update date and the date of the status event where one is recorded. The NESO files give no status date; the date shown is the MW effective-from date.
+
+| Register | Identifier | Name as recorded | Status | Capacity | Date | Relationship |
+|---|---|---|---|---|---|---|
+| REPD | 7454 | Scoop Hill Wind Farm | Planning Permission Refused | 432 MW | record updated 2026-06-22; status event 2026-02-05 | Exact name match. |
+| REPD | 20966 | Scoop Hill Wind Farm | Planning Permission Refused | 200 MW | record updated date not recorded; status event 2026-02-05 | Exact name match; REPD links it to 7454 (storage co-location link type). |
+| NESO TEC | PRO-000327 | Scoop Hill Wind Farm | Awaiting Consents | connected 0 MW; cumulative 500 MW | MW effective from 2027-10-31 | Exact name match in the NESO file; no identifier is shared with the REPD records. |
 
 ## Data credits
 
@@ -1609,7 +1675,7 @@ Scoop Hill Wind Farm is a wind, solar and storage project tracked on slava.it.co
 
 ## What is the planning status of Scoop Hill Wind Farm?
 
-Recorded: REPD status: Planning Permission Refused (register); TEC project status: Awaiting Consents (register).
+No single status applies. Statuses by register record: Planning Permission Refused (2), Awaiting Consents (1). The table gives each record's identifier, date and relationship; records are not combined.
 
 ## What are the main community discussions around Scoop Hill Wind Farm?
 
@@ -1679,15 +1745,22 @@ Archived public Facebook group posts; not independently verified. Post text is n
 
 # Shinness Wind Farm
 
-Shinness Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 3 community posts from 2 groups, latest 2026-10-01. REPD reference: 12027 (register). REPD status: Planning Application Submitted (register). Top recurring themes: Onshore Wind (3). Posts are archived public group posts and are not independently verified.
+Shinness Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 3 community posts from 2 groups, latest 2026-10-01. 2 register records are listed (2 REPD). All list the status Planning Application Submitted. Top recurring themes: Onshore Wind (3). Posts are archived public group posts and are not independently verified.
 
 ## Register facts
 
 | Item | Value | Basis |
 |---|---|---|
-| REPD rows with this name | 2 | register |
-| REPD reference | 12027 | register |
-| REPD status | Planning Application Submitted | register |
+| Register records | 2 listed (2 REPD). Statuses: Planning Application Submitted (2) | register |
+
+## Register records
+
+Each row is one register record with its own identifier; records are not combined. Relationships are stated only where a register links the records, and are otherwise labelled as unlinked or unverified. REPD dates are the record's update date and the date of the status event where one is recorded. The NESO files give no status date; the date shown is the MW effective-from date.
+
+| Register | Identifier | Name as recorded | Status | Capacity | Date | Relationship |
+|---|---|---|---|---|---|---|
+| REPD | 12027 | Shinness Wind Farm | Planning Application Submitted | 105.6 MW | record updated 2024-06-11; status event 2024-04-15 | Exact name match. |
+| REPD | 12029 | Shinness Wind Farm | Planning Application Submitted | 105 MW | record updated 2024-06-11; status event 2024-04-15 | Exact name match; REPD links it to 12027 (storage co-location). |
 
 ## Data credits
 
@@ -1709,7 +1782,7 @@ Shinness Wind Farm is a wind, solar and storage project tracked on slava.it.com.
 
 ## What is the planning status of Shinness Wind Farm?
 
-Recorded: REPD status: Planning Application Submitted (register).
+All 2 listed register records show the status Planning Application Submitted.
 
 ## What are the main community discussions around Shinness Wind Farm?
 
@@ -1779,21 +1852,38 @@ Archived public Facebook group posts; not independently verified. Post text is n
 
 # Whitelee
 
-Whitelee is a wind, solar and storage project tracked on slava.it.com. The archive holds 6 community posts from 4 groups, latest 2026-10-15. REPD reference: 3489 (register). REPD status: Operational (register). Top recurring themes: Onshore Wind (5). Posts are archived public group posts and are not independently verified.
+Whitelee is a wind, solar and storage project tracked on slava.it.com. The archive holds 6 community posts from 4 groups, latest 2026-10-15. 13 register records are listed (8 REPD, 5 NESO TEC). Their statuses differ, so no single status is given. Top recurring themes: Onshore Wind (5). Posts are archived public group posts and are not independently verified.
 
 ## Register facts
 
 | Item | Value | Basis |
 |---|---|---|
-| TEC rows with this name | 4 | register |
-| REPD reference | 3489 | register |
-| REPD status | Operational | register |
-| TEC project status | Built | register |
+| Register records | 13 listed (8 REPD, 5 NESO TEC). Statuses: Operational (4), Planning Permission Granted (3), Scoping (3), Built (2), Appeal Refused (1) | register |
+
+## Register records
+
+Each row is one register record with its own identifier; records are not combined. Relationships are stated only where a register links the records, and are otherwise labelled as unlinked or unverified. REPD dates are the record's update date and the date of the status event where one is recorded. The NESO files give no status date; the date shown is the MW effective-from date.
+
+| Register | Identifier | Name as recorded | Status | Capacity | Date | Relationship |
+|---|---|---|---|---|---|---|
+| REPD | 3489 | Whitelee | Operational | 322 MW | record updated 2010-05-20; status event 2007-12-14 | Exact name match. |
+| REPD | 7174 | Whitelee Wind Farm Battery Storage Extension | Operational | 50 MW | record updated 2022-02-21; status event 2021-10-01 | Battery storage extension; REPD links it to 3489 (storage co-location). |
+| REPD | 2757 | Whitelee Windfarm Extension phase 2 | Operational | 109 MW | record updated 2013-04-19; status event 2013-01-15 | 'Whitelee Windfarm Extension phase 2'; no REPD link to 3489. |
+| REPD | 3981 | Whitelee Windfarm Extension Phase 1 | Operational | 108 MW | record updated 2013-04-22; status event 2012-10-31 | 'Whitelee Windfarm Extension Phase 1'; no REPD link to 3489. |
+| REPD | 4232 | Whitelee Windfarm Extension Phase 3 | Appeal Refused | 12 MW | record updated 2016-11-01; status event 2016-10-19 | 'Whitelee Windfarm Extension Phase 3'; no REPD link to 3489. |
+| REPD | 8341 | Whitelees Hydrogen Production Facility, Solar Farm & Battery Storage | Planning Permission Granted | 40 MW | record updated 2025-01-20; status event 2025-01-09 | 'Whitelees' hydrogen, solar and battery project; REPD links 8341, 8342 and 9076 to each other, not to 3489. |
+| REPD | 8342 | Whitelees Hydrogen Production Facility, Solar Farm & Battery Storage | Planning Permission Granted | 50 MW | record updated 2025-01-20; status event 2025-01-09 | 'Whitelees' hydrogen, solar and battery project; linked to 8341 and 9076 only. |
+| REPD | 9076 | Whitelees Hydrogen Production Facility, Solar Farm & Battery Storage | Planning Permission Granted | 20 MW | record updated 2025-01-20; status event 2025-01-09 | 'Whitelees' hydrogen, solar and battery project; linked to 8341 and 8342 only. |
+| NESO TEC | PRO-000067-1 | Whitelee | Built | connected 305 MW; cumulative 305 MW | no effective date in the file | Stage 1 of NESO project PRO-000067; no identifier is shared with the REPD records, so the link to REPD 3489 is unverified. |
+| NESO TEC | PRO-000067-2 | Whitelee | Scoping | connected 0 MW; cumulative 355 MW | MW effective from 2031-05-02 | Stage 2 of NESO project PRO-000067. |
+| NESO TEC | PRO-000067-3 | Whitelee | Scoping | connected 0 MW; cumulative 660 MW | MW effective from 2033-04-25 | Stage 3 of NESO project PRO-000067. |
+| NESO TEC | PRO-000067-4 | Whitelee | Scoping | connected 0 MW; cumulative 818 MW | MW effective from 2034-04-27 | Stage 4 of NESO project PRO-000067. |
+| NESO TEC | PRO-000068 | Whitelee Extension | Built | connected 206 MW; cumulative 238 MW | MW effective from 2026-12-01 | 'Whitelee Extension'; a different NESO project number; its relation to the REPD extension records is unverified. |
 
 ## Data credits
 
-- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register. Source dates: Release date: unavailable; Download date: unavailable; File name date: 2026-10-10; Local copy created: 2026-10-13; Facts exported: 2026-10-17.
 - Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: unavailable; Latest record update in the file: 2026-07-24; Download date: unavailable; Local copy created: 2026-08-30; Facts exported: 2026-10-17.
+- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register. Source dates: Release date: unavailable; Download date: unavailable; File name date: 2026-10-10; Local copy created: 2026-10-13; Facts exported: 2026-10-17.
 - Use of these registers does not imply endorsement by their publishers.
 
 ## Source groups
@@ -1813,7 +1903,7 @@ Whitelee is a wind, solar and storage project tracked on slava.it.com. The archi
 
 ## What is the planning status of Whitelee?
 
-Recorded: REPD status: Operational (register); TEC project status: Built (register).
+No single status applies. Statuses by register record: Operational (4), Planning Permission Granted (3), Scoping (3), Built (2), Appeal Refused (1). The table gives each record's identifier, date and relationship; records are not combined.
 
 ## What are the main community discussions around Whitelee?
 
@@ -1892,7 +1982,7 @@ The Wind, solar and storage hub lists 27 projects with at least two linked commu
 
 ## Projects
 
-- [Arecleoch](https://slava.it.com/projects/arecleoch.md): 2 posts; latest 2026-10-02
+- [Arecleoch Wind Farm and extension](https://slava.it.com/projects/arecleoch.md): 2 posts; latest 2026-10-02
 - [Berwick Bank Offshore Wind Farm](https://slava.it.com/projects/berwick-bank-offshore-wind-farm.md): 11 posts; latest 2026-10-07
 - [Carn Fearna Wind Farm](https://slava.it.com/projects/carn-fearna-wind-farm.md): 2 posts; latest 2026-10-07
 - [Chapelcross data centre campus (CX Tech)](https://slava.it.com/projects/chapelcross-data-centre-campus-cx-tech.md): 29 posts; latest 2026-10-16
@@ -1922,7 +2012,7 @@ The Wind, solar and storage hub lists 27 projects with at least two linked commu
 
 ## Which projects are in this hub?
 
-Arecleoch; Berwick Bank Offshore Wind Farm; Carn Fearna Wind Farm; Chapelcross data centre campus (CX Tech); Ditcher Law; Giants Burn Wind Farm; Glen Earrach Pumped Storage Hydro; Glenvernoch; Golticlay Wind Farm; Hawks Nest Farm - Battery Storage; Hawthorn Pit -Solar Farm; Inch Cape; Lairg II Wind Farm; Leithenwater Wind Energy Hub - Wind Farm; Machair; Mossy Hill Wind Farm; New Cumnock BESS; Newlands Hill Wind Energy Hub; Olrig Mains Wind Farm; Overhill Wind Farm; Ravenscraig data centre (SevenFourEight); Sanquhar II Wind Farm; Scoop Hill Wind Farm; Seagreen; Shinness Wind Farm; Spiorad na Mara; Whitelee.
+Arecleoch Wind Farm and extension; Berwick Bank Offshore Wind Farm; Carn Fearna Wind Farm; Chapelcross data centre campus (CX Tech); Ditcher Law; Giants Burn Wind Farm; Glen Earrach Pumped Storage Hydro; Glenvernoch; Golticlay Wind Farm; Hawks Nest Farm - Battery Storage; Hawthorn Pit -Solar Farm; Inch Cape; Lairg II Wind Farm; Leithenwater Wind Energy Hub - Wind Farm; Machair; Mossy Hill Wind Farm; New Cumnock BESS; Newlands Hill Wind Energy Hub; Olrig Mains Wind Farm; Overhill Wind Farm; Ravenscraig data centre (SevenFourEight); Sanquhar II Wind Farm; Scoop Hill Wind Farm; Seagreen; Shinness Wind Farm; Spiorad na Mara; Whitelee.
 
 ## What are the main community themes in this hub?
 

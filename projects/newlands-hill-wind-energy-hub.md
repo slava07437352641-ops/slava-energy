@@ -1,15 +1,22 @@
 # Newlands Hill Wind Energy Hub
 
-Newlands Hill Wind Energy Hub is a wind, solar and storage project tracked on slava.it.com. The archive holds 5 community posts from 1 group, latest 2026-10-13. REPD reference: 12289 (register). REPD status: Planning Application Submitted (register). Top recurring themes: BESS (1), Hybrid (1). Posts are archived public group posts and are not independently verified.
+Newlands Hill Wind Energy Hub is a wind, solar and storage project tracked on slava.it.com. The archive holds 5 community posts from 1 group, latest 2026-10-13. 3 register records are listed (2 REPD, 1 NESO TEC). Their statuses differ, so no single status is given. Top recurring themes: BESS (1), Hybrid (1).
 
 ## Register facts
 
 | Item | Value | Basis |
 |---|---|---|
-| REPD rows with this name | 2 | register |
-| REPD reference | 12289 | register |
-| REPD status | Planning Application Submitted | register |
-| TEC project status | Awaiting Consents | register |
+| Register records | 3 listed (2 REPD, 1 NESO TEC). Statuses: Planning Application Submitted (2), Awaiting Consents (1) | register |
+
+## Register records
+
+Each row is one register record with its own identifier; records are not combined. Relationships are stated only where a register links the records, and are otherwise labelled as unlinked or unverified. REPD dates are the record's update date and the date of the status event where one is recorded. The NESO files give no status date; the date shown is the MW effective-from date.
+
+| Register | Identifier | Name as recorded | Status | Capacity | Date | Relationship |
+|---|---|---|---|---|---|---|
+| REPD | 12289 | Newlands Hill Wind Energy Hub | Planning Application Submitted | 136 MW | record updated 2023-12-07; status event 2023-11-14 | Exact name match. |
+| REPD | 15383 | Newlands Hill Wind Energy Hub | Planning Application Submitted | 136 MW | record updated 2023-12-07; status event 2023-11-14 | Exact name match; REPD links it to 12289 (storage co-location). |
+| NESO TEC | PRO-002549 | Newlands Hill Wind Energy Hub | Awaiting Consents | connected 0 MW; cumulative 119 MW | MW effective from 2030-04-03 | Exact name match in the NESO file; no identifier is shared with the REPD records. |
 
 ## Data credits
 
@@ -33,7 +40,7 @@ Newlands Hill Wind Energy Hub is a wind, solar and storage project tracked on sl
 
 ## What is the planning status of Newlands Hill Wind Energy Hub?
 
-Recorded: REPD status: Planning Application Submitted (register); TEC project status: Awaiting Consents (register).
+No single status applies. Statuses by register record: Planning Application Submitted (2), Awaiting Consents (1). The table gives each record's identifier, date and relationship; records are not combined.
 
 ## What are the main community discussions around Newlands Hill Wind Energy Hub?
 
