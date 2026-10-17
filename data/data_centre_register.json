@@ -155,6 +155,56 @@
     "https://assets.publishing.service.gov.uk/media/69b7eb62b84f01b2be53a27e/Section_35_Direction_Wapseys_Wood.pdf"
    ],
    "tec_cross_reference": null
+  },
+  {
+   "id": "dc-cato-fife-auchtertool",
+   "name": "Cato data centre campus (ILI Group, Auchtertool, Fife)",
+   "aliases": [
+    "ILI Cato",
+    "Auchtertool data centre"
+   ],
+   "location": "Auchtertool, Fife",
+   "council": "Fife Council",
+   "developer_reported": "ILI Group",
+   "capacity_reported": "600 MW; about GBP 5 billion (developer and press)",
+   "application_ref": null,
+   "application_type": "Planning permission in principle (reported)",
+   "status_reported": "Application submitted June 2026; more than 1,200 objections reported July 2026; no decision found",
+   "status_verified": false,
+   "groups": [
+    "Say No To Cato Data Centre"
+   ],
+   "sources": [
+    "https://datacentrereview.com/2026/06/ili-group-submits-plans-for-5bn-fife-ai-data-centre/",
+    "https://datacentrereview.com/2026/07/more-than-1200-objections-lodged-against-5bn-fife-data-centre/",
+    "https://constructionreviewonline.com/cato-data-centre-5-billion-scottish-construction-plan-sparks-fears-beside-auchtertool-village/"
+   ],
+   "tec_cross_reference": null,
+   "alias_note": "the campaign name \"Say No To Cato Data Centre\" is not an alias, for the same reason"
+  },
+  {
+   "id": "dc-cockenzie-east-lothian",
+   "name": "Cockenzie data centre (SDCL, former power station site)",
+   "aliases": [
+    "SDCL Cockenzie"
+   ],
+   "location": "Former Cockenzie power station coal store, East Lothian",
+   "council": "East Lothian Council",
+   "developer_reported": "SDCL (preferred bidder; joint venture being explored)",
+   "capacity_reported": null,
+   "application_ref": null,
+   "application_type": null,
+   "status_reported": "Early stage; no planning application found in coverage (council: very early stage)",
+   "status_verified": false,
+   "groups": [
+    "Say NO to Cockenzie Data Centre"
+   ],
+   "sources": [
+    "https://www.eastlothian.gov.uk/news/2025/first-steps-towards-data-centre-cockenzie",
+    "https://www.datacenterdynamics.com/en/news/data-center-planned-at-former-coal-store-in-east-lothian-scotland/"
+   ],
+   "tec_cross_reference": null,
+   "alias_note": "the campaign name \"Say NO to Cockenzie Data Centre\" is not an alias: it appears as a sign-off in other groups"
   }
  ]
 }

@@ -141,5 +141,61 @@
    "ingest": "off",
    "basis": "public, 82 members, low relevance; not switched on"
   }
- ]
+ ],
+ "default_projects": {
+  "Say NO to Chapelcross AI Data Centre": {
+   "project": "Chapelcross data centre campus (CX Tech)",
+   "canonical": "dc-chapelcross-dumfries",
+   "status": "applied",
+   "note": "dedicated campaign group; posts that match another project keep that match"
+  },
+  "Hurlford Rufus Data Centre Community Group": {
+   "project": "Rufus data centre campus (Hurlford)",
+   "canonical": "dc-rufus-hurlford-east-ayrshire",
+   "status": "applied",
+   "note": "dedicated campaign group; posts that match another project keep that match"
+  },
+  "No AI Data Centre - Inverclyde": {
+   "project": "Spango Valley data centre (former IBM site, Greenock)",
+   "canonical": "dc-spango-valley-greenock-inverclyde",
+   "status": "applies on ingest",
+   "note": "no posts from this group are on the site yet; applies when they are staged"
+  },
+  "Help Save Mochrum Fell": {
+   "project": "Mochrum Fell Wind Farm",
+   "canonical": "mochrum fell wind farm",
+   "status": "applied",
+   "note": "user decision 2026-10-17: keep the 3 existing links as group_default; post 3599864030161400 names 'Aberdeenshire AI Data Centre', which has no register alias, so it stays on the group default (user to confirm)"
+  },
+  "Say No To Cato Data Centre": {
+   "project": "Cato data centre campus (ILI Group, Auchtertool, Fife)",
+   "canonical": "dc-cato-fife-auchtertool",
+   "status": "applied",
+   "note": "campaign group; posts that match another project keep that match (one existing Chapelcross alias link kept)"
+  },
+  "Say NO to Cockenzie Data Centre": {
+   "project": "Cockenzie data centre (SDCL, former power station site)",
+   "canonical": "dc-cockenzie-east-lothian",
+   "status": "applied",
+   "note": "campaign group against a hyperscale data centre; BESS mapping rejected (posts are about the data centre); explicit Inch Cape matches keep Inch Cape"
+  },
+  "STOP EAST LINCOLNSHIRE PYLONS": {
+   "project": "Grimsby to Walpole 400kV overhead line",
+   "canonical": "grimsby to walpole",
+   "status": "held",
+   "note": "held: the staged post 4177408222550659 (BBC Doncaster solar) must keep no project link (decision 2026-10-16); a group default would link it"
+  },
+  "SAY NO TO PYLONS 90km Notts, North Lincs, East Yorks": {
+   "project": "North Humber to High Marnham 400kV overhead line",
+   "canonical": "north humber to high marnham",
+   "status": "applies on ingest",
+   "note": "no posts from this group are on the site yet"
+  },
+  "Save Our Mearns - Stop SSEN Scotland": {
+   "project": "Kintore to Tealing 400kV overhead line",
+   "canonical": "kintore to tealing",
+   "status": "applies on ingest",
+   "note": "no posts from this group are on the site yet; confirm the group's route before the first ingest"
+  }
+ }
 }

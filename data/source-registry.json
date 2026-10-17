@@ -9,12 +9,12 @@
    "url": "https://www.facebook.com/groups/7000a/posts/1766302204444047/",
    "tier": "A",
    "site_records": 2,
-   "project_linked_records": 1,
+   "project_linked_records": 0,
    "last_post_date": "2026-10-04",
    "audit": {
     "public": false,
     "active": true,
-    "mapped": true
+    "mapped": false
    },
    "brief_eligible": false,
    "ingest": "unset"
@@ -73,7 +73,7 @@
    "url": "https://www.facebook.com/groups/835899539823505/posts/28289989033987852/",
    "tier": "A",
    "site_records": 411,
-   "project_linked_records": 2,
+   "project_linked_records": 3,
    "last_post_date": "2026-10-15",
    "audit": {
     "public": false,
@@ -89,12 +89,12 @@
    "url": "https://www.facebook.com/groups/pylonseastanglia/posts/1814422586264655/",
    "tier": "A",
    "site_records": 15,
-   "project_linked_records": 0,
+   "project_linked_records": 2,
    "last_post_date": "2026-10-16",
    "audit": {
     "public": false,
     "active": true,
-    "mapped": false
+    "mapped": true
    },
    "brief_eligible": false,
    "ingest": "unset"
@@ -129,7 +129,35 @@
     "mapped": true
    },
    "brief_eligible": true,
-   "ingest": "unset"
+   "ingest": "unset",
+   "default_project": {
+    "project": "Mochrum Fell Wind Farm",
+    "canonical": "mochrum fell wind farm",
+    "status": "applied",
+    "note": "user decision 2026-10-17: keep the 3 existing links as group_default; post 3599864030161400 names 'Aberdeenshire AI Data Centre', which has no register alias, so it stays on the group default (user to confirm)"
+   }
+  },
+  {
+   "name": "Hurlford Rufus Data Centre Community Group",
+   "label": "Facebook · Hurlford Rufus Data Centre Community Group",
+   "url": "https://www.facebook.com/groups/1604173331036496/posts/1839328240854336/",
+   "tier": "A",
+   "site_records": 2,
+   "project_linked_records": 2,
+   "last_post_date": "2026-10-16",
+   "audit": {
+    "public": true,
+    "active": true,
+    "mapped": true
+   },
+   "brief_eligible": true,
+   "ingest": "on",
+   "default_project": {
+    "project": "Rufus data centre campus (Hurlford)",
+    "canonical": "dc-rufus-hurlford-east-ayrshire",
+    "status": "applied",
+    "note": "dedicated campaign group; posts that match another project keep that match"
+   }
   },
   {
    "name": "Mey BESS Action Group",
@@ -180,6 +208,22 @@
    "ingest": "unset"
   },
   {
+   "name": "North Carlisle Against Pylons and Substation",
+   "label": "Facebook · North Carlisle Against Pylons and Substation",
+   "url": "https://www.facebook.com/groups/1321067339345501/posts/1574997253952507/",
+   "tier": "A",
+   "site_records": 1,
+   "project_linked_records": 0,
+   "last_post_date": "2026-10-16",
+   "audit": {
+    "public": true,
+    "active": true,
+    "mapped": false
+   },
+   "brief_eligible": false,
+   "ingest": "on"
+  },
+  {
    "name": "Not A Just Transition",
    "label": "Facebook · Not A Just Transition",
    "url": "https://www.facebook.com/groups/427061409724414/posts/1090802206683661/",
@@ -212,6 +256,22 @@
    "ingest": "unset"
   },
   {
+   "name": "RE-Think Wales",
+   "label": "Facebook · RE-Think Wales",
+   "url": "https://www.facebook.com/groups/rethinkwales/posts/1116363928029327/",
+   "tier": "A",
+   "site_records": 1,
+   "project_linked_records": 0,
+   "last_post_date": "2026-10-16",
+   "audit": {
+    "public": false,
+    "active": true,
+    "mapped": false
+   },
+   "brief_eligible": false,
+   "ingest": "unset"
+  },
+  {
    "name": "Rural Scotland (APRS)",
    "label": "Facebook Page · Rural Scotland",
    "url": "https://www.facebook.com/APRScotland/posts/1556729249833117",
@@ -226,6 +286,28 @@
    },
    "brief_eligible": false,
    "ingest": "unset"
+  },
+  {
+   "name": "STOP EAST LINCOLNSHIRE PYLONS",
+   "label": "Facebook · STOP EAST LINCOLNSHIRE PYLONS",
+   "url": "https://www.facebook.com/groups/3317708445187312/posts/4177408222550659/",
+   "tier": "A",
+   "site_records": 1,
+   "project_linked_records": 0,
+   "last_post_date": "2026-10-16",
+   "audit": {
+    "public": true,
+    "active": true,
+    "mapped": false
+   },
+   "brief_eligible": false,
+   "ingest": "on",
+   "default_project": {
+    "project": "Grimsby to Walpole 400kV overhead line",
+    "canonical": "grimsby to walpole",
+    "status": "held",
+    "note": "held: the staged post 4177408222550659 (BBC Doncaster solar) must keep no project link (decision 2026-10-16); a group default would link it"
+   }
   },
   {
    "name": "Save Our Hills - Dumfries and Galloway",
@@ -244,12 +326,12 @@
    "ingest": "unset"
   },
   {
-   "name": "Say NO to Cockenzie Data Centre",
-   "label": "Facebook · Say NO to Cockenzie Data Centre",
-   "url": "https://www.facebook.com/groups/959791135623845/posts/1619301559672796/",
+   "name": "Say NO to Chapelcross AI Data Centre",
+   "label": "Facebook · Say NO to Chapelcross AI Data Centre",
+   "url": "https://www.facebook.com/groups/1015424481301998/posts/1081606211350491/",
    "tier": "A",
-   "site_records": 6,
-   "project_linked_records": 1,
+   "site_records": 20,
+   "project_linked_records": 20,
    "last_post_date": "2026-10-16",
    "audit": {
     "public": true,
@@ -257,7 +339,35 @@
     "mapped": true
    },
    "brief_eligible": true,
-   "ingest": "unset"
+   "ingest": "on",
+   "default_project": {
+    "project": "Chapelcross data centre campus (CX Tech)",
+    "canonical": "dc-chapelcross-dumfries",
+    "status": "applied",
+    "note": "dedicated campaign group; posts that match another project keep that match"
+   }
+  },
+  {
+   "name": "Say NO to Cockenzie Data Centre",
+   "label": "Facebook · Say NO to Cockenzie Data Centre",
+   "url": "https://www.facebook.com/groups/959791135623845/posts/1619301559672796/",
+   "tier": "A",
+   "site_records": 6,
+   "project_linked_records": 6,
+   "last_post_date": "2026-10-16",
+   "audit": {
+    "public": true,
+    "active": true,
+    "mapped": true
+   },
+   "brief_eligible": true,
+   "ingest": "unset",
+   "default_project": {
+    "project": "Cockenzie data centre (SDCL, former power station site)",
+    "canonical": "dc-cockenzie-east-lothian",
+    "status": "applied",
+    "note": "campaign group against a hyperscale data centre; BESS mapping rejected (posts are about the data centre); explicit Inch Cape matches keep Inch Cape"
+   }
   },
   {
    "name": "Say No To Cato Data Centre",
@@ -265,7 +375,7 @@
    "url": "https://www.facebook.com/groups/1472242997516977/posts/1579421156799160/",
    "tier": "A",
    "site_records": 6,
-   "project_linked_records": 1,
+   "project_linked_records": 6,
    "last_post_date": "2026-10-16",
    "audit": {
     "public": true,
@@ -273,7 +383,13 @@
     "mapped": true
    },
    "brief_eligible": true,
-   "ingest": "unset"
+   "ingest": "unset",
+   "default_project": {
+    "project": "Cato data centre campus (ILI Group, Auchtertool, Fife)",
+    "canonical": "dc-cato-fife-auchtertool",
+    "status": "applied",
+    "note": "campaign group; posts that match another project keep that match (one existing Chapelcross alias link kept)"
+   }
   },
   {
    "name": "Say No to West Calder Hyperscale Data Centre",
@@ -297,7 +413,7 @@
    "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29262420503360300/",
    "tier": "A",
    "site_records": 2687,
-   "project_linked_records": 74,
+   "project_linked_records": 92,
    "last_post_date": "2026-10-16",
    "audit": {
     "public": true,
@@ -313,7 +429,7 @@
    "url": "https://www.facebook.com/groups/443369301288654/posts/1389789376646637/",
    "tier": "A",
    "site_records": 85,
-   "project_linked_records": 12,
+   "project_linked_records": 18,
    "last_post_date": "2026-10-16",
    "audit": {
     "public": false,
@@ -393,7 +509,7 @@
    "url": "https://www.facebook.com/WindEnergysAbsurd/posts/1529320515891910/",
    "tier": "A",
    "site_records": 85,
-   "project_linked_records": 9,
+   "project_linked_records": 15,
    "last_post_date": "2026-10-15",
    "audit": {
     "public": false,
@@ -422,22 +538,6 @@
   {
    "name": "RE-Think: Don't Break the Heart of Wales / Peidiwch Torri Calon Cymru",
    "label": "RE-Think: Don't Break the Heart of Wales / Peidiwch Torri Calon Cymru",
-   "url": "",
-   "tier": "A",
-   "site_records": 0,
-   "project_linked_records": 0,
-   "last_post_date": "",
-   "audit": {
-    "public": true,
-    "active": null,
-    "mapped": false
-   },
-   "brief_eligible": false,
-   "ingest": "on"
-  },
-  {
-   "name": "North Carlisle Against Pylons and Substation",
-   "label": "North Carlisle Against Pylons and Substation",
    "url": "",
    "tier": "A",
    "site_records": 0,
@@ -481,23 +581,13 @@
     "mapped": false
    },
    "brief_eligible": false,
-   "ingest": "on"
-  },
-  {
-   "name": "STOP EAST LINCOLNSHIRE PYLONS",
-   "label": "STOP EAST LINCOLNSHIRE PYLONS",
-   "url": "",
-   "tier": "A",
-   "site_records": 0,
-   "project_linked_records": 0,
-   "last_post_date": "",
-   "audit": {
-    "public": true,
-    "active": null,
-    "mapped": false
-   },
-   "brief_eligible": false,
-   "ingest": "on"
+   "ingest": "on",
+   "default_project": {
+    "project": "Kintore to Tealing 400kV overhead line",
+    "canonical": "kintore to tealing",
+    "status": "applies on ingest",
+    "note": "no posts from this group are on the site yet; confirm the group's route before the first ingest"
+   }
   },
   {
    "name": "SAY NO TO PYLONS 90km Notts, North Lincs, East Yorks",
@@ -513,39 +603,13 @@
     "mapped": false
    },
    "brief_eligible": false,
-   "ingest": "on"
-  },
-  {
-   "name": "Say NO to Chapelcross AI Data Centre",
-   "label": "Say NO to Chapelcross AI Data Centre",
-   "url": "",
-   "tier": "A",
-   "site_records": 0,
-   "project_linked_records": 0,
-   "last_post_date": "",
-   "audit": {
-    "public": true,
-    "active": null,
-    "mapped": false
-   },
-   "brief_eligible": false,
-   "ingest": "on"
-  },
-  {
-   "name": "Hurlford Rufus Data Centre Community Group",
-   "label": "Hurlford Rufus Data Centre Community Group",
-   "url": "",
-   "tier": "A",
-   "site_records": 0,
-   "project_linked_records": 0,
-   "last_post_date": "",
-   "audit": {
-    "public": true,
-    "active": null,
-    "mapped": false
-   },
-   "brief_eligible": false,
-   "ingest": "on"
+   "ingest": "on",
+   "default_project": {
+    "project": "North Humber to High Marnham 400kV overhead line",
+    "canonical": "north humber to high marnham",
+    "status": "applies on ingest",
+    "note": "no posts from this group are on the site yet"
+   }
   },
   {
    "name": "No AI Data Centre - Inverclyde",
@@ -561,7 +625,13 @@
     "mapped": false
    },
    "brief_eligible": false,
-   "ingest": "on"
+   "ingest": "on",
+   "default_project": {
+    "project": "Spango Valley data centre (former IBM site, Greenock)",
+    "canonical": "dc-spango-valley-greenock-inverclyde",
+    "status": "applies on ingest",
+    "note": "no posts from this group are on the site yet; applies when they are staged"
+   }
   },
   {
    "name": "Ravenscraig Locals Against Mega Datacentres",

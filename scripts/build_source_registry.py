@@ -91,6 +91,12 @@ def build(disc_path=DISC, audit_path=AUDIT):
                             "audit": {"public": d["ingest"] != "excluded_private", "active": None, "mapped": False},
                             "brief_eligible": False, "ingest": d["ingest"],
                             **({"ingest_keywords": d["keywords"]} if d.get("keywords") else {})})
+    # single-project campaign groups: posts with no other project match get this default (match_type group_default)
+    act_path = os.path.join(ROOT, "data", "source-activation.json")
+    dps = _read_json(act_path).get("default_projects", {}) if os.path.exists(act_path) else {}
+    for r in out:
+        if r["name"] in dps:
+            r["default_project"] = dps[r["name"]]
     return out
 
 

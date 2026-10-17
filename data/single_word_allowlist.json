@@ -1,12 +1,11 @@
 {
- "status": "proposed, not applied: no single-word matches are written until the user confirms the filtered table",
- "rule": "single-word names link only when listed here; keyword proximity is not enough",
- "keep_from_candidates": [
+ "status": "decided by the user 2026-10-17; links applied on the feature branch only, not yet on main",
+ "rule": "a single word links only when (a) it is approved below, (b) it appears as a whole word in post content (not the group-name title), (c) its register rows collapse to one project (ambiguous words stay unlinked), and (d) conditional words have their wind term within two words",
+ "approved_keep": [
   "acheilidh",
   "arecleoch",
   "chalmerston",
   "coalburn",
-  "cockenzie",
   "crossdykes",
   "dalchork",
   "errochty",
@@ -26,26 +25,58 @@
   "tormsdale",
   "whitelee"
  ],
- "review_before_use": [
-  "ardeer",
-  "aurora",
-  "bankend",
+ "approved_add": [
+  "earba",
+  "clachaig",
   "chleansaid",
-  "crosbie",
-  "dounreay",
-  "hunterston",
-  "lairg",
-  "lochend",
-  "machair",
-  "overhill",
   "redshaw",
-  "sanquhar",
-  "spittal",
-  "tealing",
-  "teviot",
-  "watten",
-  "whitehill"
+  "ardeer",
+  "overhill"
  ],
+ "conditional": {
+  "watten": {
+   "within_words": 2,
+   "wind_terms": [
+    "wind",
+    "windfarm",
+    "bess",
+    "substation"
+   ]
+  },
+  "machair": {
+   "within_words": 2,
+   "wind_terms": [
+    "wind",
+    "windfarm",
+    "offshore"
+   ]
+  }
+ },
+ "explicit_labels": {
+  "earba": "Earba Pumped Storage Hydro",
+  "clachaig": "Clachaig Glen Wind Farm",
+  "chleansaid": "Chleansaid Onshore Wind Farm",
+  "redshaw": "Redshaw Energy Park",
+  "ardeer": "Ardeer Peninsula wind turbines",
+  "overhill": "Overhill Wind Farm",
+  "watten": "Watten Wind Farm",
+  "machair": "Machair Offshore Wind Farm"
+ },
+ "same_project_rows": {
+  "earba": "REPD Moy Lodge, Tulloch - Earba Pumped Storage Hydro and TEC Earba PSH are one project",
+  "clachaig": "REPD Clachaig Glen and TEC Clachaig Glen Wind Farm are one project"
+ },
+ "held": {
+  "cockenzie": "held 2026-10-17: the Cockenzie group is a hyperscale data-centre campaign; the registers hold the Cockenzie BESS sites, which are different projects"
+ },
+ "rejected": {
+  "aurora": "too generic (Northern Lights; several companies)",
+  "lairg": "village name; several projects (Lairg, Lairg II, Stronelairg)",
+  "lochend": "common place name; two-word 'lochend wind' only",
+  "whitehill": "common UK place name; several BESS and road rows",
+  "bankend": "two-word only: 'bankend rig' links through the normal two-word matcher"
+ },
+ "pending_review_not_approved": [],
  "removed_councils_regions_towns_common_nouns": [
   "america",
   "blackpool",
