@@ -1,0 +1,54 @@
+# slava.it.com
+
+> 3815 tracked public community posts from 31 Facebook groups, linked to 83 UK projects (65 wind, solar and storage; 11 pylons and grid; 7 AI data centres). Posts are archived public group posts, not independently verified.
+
+Counts are generated from the discussions index on 2026-10-17. Projects with at least two linked posts have a page.
+
+## Hubs
+- [Pylons and grid transmission](https://slava.it.com/pylons-grid/index.md): 4 projects, 6 posts; latest 2026-10-14
+- [AI and data centres](https://slava.it.com/data-centres/index.md): 7 projects, 38 posts; latest 2026-10-16
+- [Wind, solar and storage](https://slava.it.com/renewables-wind/index.md): 27 projects, 67 posts; latest 2026-10-15
+
+## Projects
+- [Arecleoch](https://slava.it.com/projects/arecleoch.md): 2 posts from 2 groups; latest 2026-10-02; wind, solar and storage.
+- [Beauly to Peterhead 400kV overhead line](https://slava.it.com/projects/beauly-to-peterhead-400kv-overhead-line.md): 4 posts from 2 groups; latest 2026-10-14; pylons and grid.
+- [Berwick Bank Offshore Wind Farm](https://slava.it.com/projects/berwick-bank-offshore-wind-farm.md): 11 posts from 2 groups; latest 2026-10-07; wind, solar and storage.
+- [Blackdog data centre campus](https://slava.it.com/projects/blackdog-data-centre-campus.md): 11 posts from 2 groups; latest 2026-10-15; ai data centre.
+- [Carn Fearna Wind Farm](https://slava.it.com/projects/carn-fearna-wind-farm.md): 2 posts from 2 groups; latest 2026-10-07; wind, solar and storage.
+- [Cato data centre campus (ILI Group, Auchtertool, Fife)](https://slava.it.com/projects/cato-data-centre-campus-ili-group-auchtertool-fife.md): 5 posts from 1 groups; latest 2026-10-15; ai data centre.
+- [Chapelcross data centre campus (CX Tech)](https://slava.it.com/projects/chapelcross-data-centre-campus-cx-tech.md): 29 posts from 5 groups; latest 2026-10-16; ai data centre.
+- [Cockenzie data centre (SDCL, former power station site)](https://slava.it.com/projects/cockenzie-data-centre-sdcl-former-power-station-site.md): 5 posts from 1 groups; latest 2026-10-15; ai data centre.
+- [Ditcher Law](https://slava.it.com/projects/ditcher-law.md): 3 posts from 1 groups; latest 2026-09-06; wind, solar and storage.
+- [Giants Burn Wind Farm](https://slava.it.com/projects/giants-burn-wind-farm.md): 3 posts from 1 groups; latest 2026-06-19; wind, solar and storage.
+- [Glen Earrach Pumped Storage Hydro](https://slava.it.com/projects/glen-earrach-pumped-storage-hydro.md): 8 posts from 3 groups; latest 2026-10-10; wind, solar and storage.
+- [Glenvernoch](https://slava.it.com/projects/glenvernoch.md): 4 posts from 1 groups; latest 2026-06-30; wind, solar and storage.
+- [Golticlay Wind Farm](https://slava.it.com/projects/golticlay-wind-farm.md): 4 posts from 2 groups; latest 2026-10-02; wind, solar and storage.
+- [Grudie Bridge](https://slava.it.com/projects/grudie-bridge.md): 2 posts from 1 groups; latest 2026-10-10; wind, solar and storage.
+- [Hawks Nest Farm - Battery Storage](https://slava.it.com/projects/hawks-nest-farm-battery-storage.md): 2 posts from 1 groups; latest 2026-09-03; wind, solar and storage.
+- [Hawthorn Pit -Solar Farm](https://slava.it.com/projects/hawthorn-pit-solar-farm.md): 2 posts from 1 groups; latest 2026-10-12; pylons and grid.
+- [Inch Cape](https://slava.it.com/projects/inch-cape.md): 2 posts from 2 groups; latest 2026-10-16; ai data centre.
+- [Kintore to Tealing 400kV overhead line](https://slava.it.com/projects/kintore-to-tealing-400kv-overhead-line.md): 5 posts from 1 groups; latest 2026-09-19; wind, solar and storage.
+- [Lairg II Wind Farm](https://slava.it.com/projects/lairg-ii-wind-farm.md): 2 posts from 1 groups; latest 2026-07-16; wind, solar and storage.
+- [Leithenwater Wind Energy Hub - Wind Farm](https://slava.it.com/projects/leithenwater-wind-energy-hub-wind-farm.md): 3 posts from 1 groups; latest 2026-10-14; wind, solar and storage.
+- [Machair](https://slava.it.com/projects/machair.md): 4 posts from 3 groups; latest 2026-09-22; wind, solar and storage.
+- [Mochrum Fell Wind Farm](https://slava.it.com/projects/mochrum-fell-wind-farm.md): 2 posts from 1 groups; latest 2026-10-15; wind, solar and storage.
+- [Mossy Hill Wind Farm](https://slava.it.com/projects/mossy-hill-wind-farm.md): 3 posts from 3 groups; latest 2026-09-30; wind, solar and storage.
+- [New Cumnock BESS](https://slava.it.com/projects/new-cumnock-bess.md): 3 posts from 1 groups; latest 2026-06-15; wind, solar and storage.
+- [Newlands Hill Wind Energy Hub](https://slava.it.com/projects/newlands-hill-wind-energy-hub.md): 5 posts from 1 groups; latest 2026-10-13; wind, solar and storage.
+- [Norwich to Tilbury (East Anglia GREEN)](https://slava.it.com/projects/norwich-to-tilbury-east-anglia-green.md): 2 posts from 1 groups; latest 2026-10-13; wind, solar and storage.
+- [Olrig Mains Wind Farm](https://slava.it.com/projects/olrig-mains-wind-farm.md): 2 posts from 2 groups; latest 2026-09-30; wind, solar and storage.
+- [Overhill Wind Farm](https://slava.it.com/projects/overhill-wind-farm.md): 2 posts from 1 groups; latest 2026-10-06; pylons and grid.
+- [Ravenscraig data centre (SevenFourEight)](https://slava.it.com/projects/ravenscraig-data-centre-sevenfoureight.md): 4 posts from 1 groups; latest 2026-09-11; ai data centre.
+- [Rufus data centre campus (Hurlford)](https://slava.it.com/projects/rufus-data-centre-campus-hurlford.md): 2 posts from 2 groups; latest 2026-10-16; ai data centre.
+- [Sanquhar II Wind Farm](https://slava.it.com/projects/sanquhar-ii-wind-farm.md): 6 posts from 2 groups; latest 2026-10-13; wind, solar and storage.
+- [Scoop Hill Wind Farm](https://slava.it.com/projects/scoop-hill-wind-farm.md): 4 posts from 1 groups; latest 2026-05-28; wind, solar and storage.
+- [Seagreen](https://slava.it.com/projects/seagreen.md): 2 posts from 1 groups; latest 2026-10-12; wind, solar and storage.
+- [Shinness Wind Farm](https://slava.it.com/projects/shinness-wind-farm.md): 3 posts from 2 groups; latest 2026-10-01; wind, solar and storage.
+- [Spiorad na Mara](https://slava.it.com/projects/spiorad-na-mara.md): 3 posts from 1 groups; latest 2026-09-01; wind, solar and storage.
+- [Whitelee](https://slava.it.com/projects/whitelee.md): 6 posts from 4 groups; latest 2026-10-15; wind, solar and storage.
+
+## Feeds
+- [All posts feed](https://slava.it.com/feed.xml): newest 50 posts
+
+## Optional
+- [Full text of hub and project pages](https://slava.it.com/llms-full.txt)

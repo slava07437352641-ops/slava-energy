@@ -1,0 +1,45 @@
+User-agent: Googlebot
+Allow: /
+Disallow: /briefs/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /briefs/
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /briefs/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /briefs/
+
+User-agent: GPTBot
+Allow: /
+Disallow: /briefs/
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /briefs/
+
+User-agent: Claude-Web
+Allow: /
+Disallow: /briefs/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /briefs/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /briefs/
+
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /briefs/
+
+User-agent: *
+Allow: /
+Disallow: /briefs/
+
+Sitemap: https://slava.it.com/sitemap.xml
