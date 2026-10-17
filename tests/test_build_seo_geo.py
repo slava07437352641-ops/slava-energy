@@ -264,7 +264,8 @@ def test_exporter_reads_primary_files_and_never_opens_the_objects_database():
     for forbidden in ("objects.sqlite", "tec_project", "repd_record", "OBJECTS_DEFAULT", "site_source", "searchland_assets"):
         assert forbidden not in src, forbidden
     assert src.count("sqlite3.connect(") == 1  # only the REPD release is opened
-    assert "tec-register" in src and "embedded-register" in src and "repd_q2_2026" in src
+    assert "repd_projects" in src and "source_files" in src and '"Project Status"' in src
+    assert "SEO_REPD_RELEASE" in src and "SEO_TEC_CSV" in src and "SEO_EMBEDDED_CSV" in src
 
 
 def test_embedded_register_status_has_its_own_label_and_source():
@@ -325,3 +326,20 @@ def test_builder_rejects_a_missing_or_invalid_source_date(tmp_path):
         assert "'Download date' must be an ISO date or 'unavailable'" in str(e)
     else:
         raise AssertionError("invalid date accepted")
+
+
+def test_exporter_keeps_no_machine_paths_and_asks_for_its_inputs(tmp_path, monkeypatch):
+    src = open(os.path.join(ROOT, "scripts", "export_register_facts.py"), encoding="utf-8").read()
+    for forbidden in ("/Users/", "CloudStorage", "OneDrive", "expanduser", "gen-d73d"):
+        assert forbidden not in src, forbidden
+    (tmp_path / "data").mkdir()
+    (tmp_path / "data" / "data_centre_register.json").write_text('{"projects": []}')
+    (tmp_path / "data" / "grid_corridor_supplement.json").write_text('{"corridors": []}')
+    for env in (ex.ENV_REPD, ex.ENV_TEC, ex.ENV_EMBEDDED):
+        monkeypatch.delenv(env, raising=False)
+    try:
+        ex.main(["--site", str(tmp_path)])
+    except SystemExit as e:
+        assert "no REPD release given; use --repd-release or set SEO_REPD_RELEASE" in str(e.code)
+    else:
+        raise AssertionError("exporter ran without its inputs")

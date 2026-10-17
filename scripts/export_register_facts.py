@@ -21,19 +21,17 @@ separate, labelled facts, and the date of this export is written as "Facts expor
 The export refuses to write if any value contains internal wording, a post-ID-sized number, an email address or a
 non-https link.
 
-Usage: python3 scripts/export_register_facts.py [--site DIR] [--repd-release PATH] [--tec-csv PATH]
-                                                [--embedded-csv PATH] [--out PATH] [--date YYYY-MM-DD]
+Usage: python3 scripts/export_register_facts.py [--site DIR] --repd-release PATH --tec-csv PATH
+                                                --embedded-csv PATH [--out PATH] [--date YYYY-MM-DD]
+       (the three input options may instead be set as SEO_REPD_RELEASE, SEO_TEC_CSV and SEO_EMBEDDED_CSV)
 """
 import argparse, ast, collections, csv, datetime, hashlib, json, os, re, sqlite3, sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import build_seo_geo as sg  # noqa: E402
 
-HOME = os.path.expanduser("~")
-REPD_DEFAULT = (HOME + "/Library/CloudStorage/OneDrive-Personal/2026 08 Mac Air/Projects/SpatialData.gov/db/releases/"
-                "repd-q2-2026/gen-d73d1cf045d722434c22/repd_q2_2026.sqlite")
-TEC_DEFAULT = HOME + "/dev/uk-project-post-map/data/registers/tec-register-2026-10-10.csv"
-EMBEDDED_DEFAULT = HOME + "/dev/uk-project-post-map/data/registers/embedded-register-2026-10-10.csv"
+# No machine-specific paths are kept in the repository: give the three inputs as options or as these variables.
+ENV_REPD, ENV_TEC, ENV_EMBEDDED = "SEO_REPD_RELEASE", "SEO_TEC_CSV", "SEO_EMBEDDED_CSV"
 UNAVAILABLE = "unavailable"
 
 # Licensed sources: wording copied from the official licence and dataset pages (checked 2026-10-17).
@@ -184,16 +182,20 @@ def page_projects(site):
 def main(argv=None):
     ap = argparse.ArgumentParser(description="Export the displayed register facts to data/register-facts-public.json.")
     ap.add_argument("--site", default=sg.SITE_DEFAULT)
-    ap.add_argument("--repd-release", default=REPD_DEFAULT)
-    ap.add_argument("--tec-csv", default=TEC_DEFAULT)
-    ap.add_argument("--embedded-csv", default=EMBEDDED_DEFAULT)
+    ap.add_argument("--repd-release", default=os.environ.get(ENV_REPD))
+    ap.add_argument("--tec-csv", default=os.environ.get(ENV_TEC))
+    ap.add_argument("--embedded-csv", default=os.environ.get(ENV_EMBEDDED))
     ap.add_argument("--out", default=None)
     ap.add_argument("--date", default=datetime.date.today().isoformat())
     a = ap.parse_args(argv)
     for rel in ("data/data_centre_register.json", "data/grid_corridor_supplement.json"):
         if not os.path.exists(os.path.join(a.site, rel)):
             sys.exit(f"error: {rel} not found; the export needs the hand-entered register files")
-    for label, p in (("REPD release", a.repd_release), ("TEC CSV", a.tec_csv), ("Embedded Register CSV", a.embedded_csv)):
+    for label, p, opt, env in (("REPD release", a.repd_release, "--repd-release", ENV_REPD),
+                               ("TEC CSV", a.tec_csv, "--tec-csv", ENV_TEC),
+                               ("Embedded Register CSV", a.embedded_csv, "--embedded-csv", ENV_EMBEDDED)):
+        if not p:
+            sys.exit(f"error: no {label} given; use {opt} or set {env}")
         if not os.path.exists(p):
             sys.exit(f"error: {label} not found at {p}")
     dc = {p["name"]: p for p in sg.read_json(a.site, "data/data_centre_register.json", {"projects": []})["projects"]}
