@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T17:39:17.000Z",
+ "generated": "2026-10-17T09:49:02.000Z",
  "sourceFilter": [
   "Scotland Against Spin",
   "Environmentalists Against Wind Turbines",
@@ -26,21 +26,27 @@
   "Say No to West Calder Hyperscale Data Centre",
   "NO to East Havering Data Centre in Upminster (Residents Group)",
   "No Pylons Lincolnshire",
-  "Deeside Against Pylons"
+  "Deeside Against Pylons",
+  "RE-Think Wales",
+  "North Carlisle Against Pylons and Substation",
+  "STOP EAST LINCOLNSHIRE PYLONS",
+  "Say NO to Chapelcross AI Data Centre",
+  "Hurlford Rufus Data Centre Community Group"
  ],
  "selection": "strict global recency (most recent records first, across all tracked sources)",
  "counts": {
-  "records": 17,
+  "records": 18,
   "Grampian Against Data Centres": 1,
   "Deeside Against Pylons": 1,
-  "Essex Suffolk Norfolk Pylons": 2,
   "Say No to West Calder Hyperscale Data Centre": 2,
   "Our Power": 2,
   "No Pylons Lincolnshire": 2,
+  "Essex Suffolk Norfolk Pylons": 2,
   "Scotland Against Spin": 4,
   "Rural Scotland (APRS)": 1,
   "Say No To Cato Data Centre": 1,
-  "Say NO to Cockenzie Data Centre": 1
+  "Say NO to Cockenzie Data Centre": 1,
+  "RE-Think Wales": 1
  },
  "dateRange": {
   "from": "2026-10-16",
@@ -653,6 +659,53 @@
    "mediaCount": 1,
    "categories": [
     "Data Centre"
+   ]
+  },
+  {
+   "id": "1116363928029327",
+   "date": "2026-10-16",
+   "title": "RE-Think Wales",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "RE-Think Wales",
+    "label": "Facebook · RE-Think Wales",
+    "url": "https://www.facebook.com/groups/rethinkwales/posts/1116363928029327/"
+   },
+   "thin": false,
+   "bodyText": "Planning Aid Wales (‘We support meaningful community engagement in planning in Wales’) are offering a series of online seminars on infrastructure planning. The first, Understanding Planning Infrastructure for Communities, provided an overview of the planning system, and how to engage in the new Significant Infrastructure Projects (SIP) process. For campaigners already broadly familiar with the planning system, there was nothing new, as such, but one or two things did fall into place for me.\nThe second 2 hour session, on 11 November, is on Responding to Infrastructure Planning Applications, and will explore “how communities can respond confidently to SIPs, with a particular focus on preparing evidence-based representations that can make a meaningful contribution to the examination process.” Cost is £20. https://planningaidwales.org.uk/.../planning-your-places-7/\nThen on 11 November there’s a free Infrastructure Planning: Community Perspectives Roundtable. This will be “A facilitated, exploratory session to surface the questions and issues communities have about the new national infrastructure planning process in Wales…Bring your questions, share examples from your own area and hear from others facing similar opportunities and challenges. The discussion will explore how communities are engaging with the new process, what is working well, and where further support may be needed.” https://planningaidwales.org.uk/.../planning-your-places-9/\nThe final session, on 20 January 2027, is on Community Engagement in Infrastructure Planning Applications, and will explore “how communities can engage positively and effectively throughout the infrastructure planning process, from the earliest stages of project development through to decision-making.”\nI know, positive engagement with Bute Energy/Green GEN and their ilk is an oxymoron.\nThe first session was run by the Planning Aid Wales Chief Executive, who proved open to challenge and willing to learn from participants’ experiences. On Monday he’s running a new session on Planning & Artificial Intelligence - Smarter Tools, Stronger Communities (cost £40). https://www.eventbrite.co.uk/.../planning-artificial...\nhttps://www.facebook.com/planningaidwales",
+   "contentFingerprint": "af53012e054b4c7b92c6fda0d8c902fe0d024194981af384289d23a89a2c6eed",
+   "photos": [
+    "media/facebook/1116363928029327/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "https://planningaidwales.org.uk/.../planning-your-places-7/",
+     "url": "https://planningaidwales.org.uk/events/planning-your-places-7/"
+    },
+    {
+     "text": "https://planningaidwales.org.uk/.../planning-your-places-9/",
+     "url": "https://planningaidwales.org.uk/events/planning-your-places-9/"
+    },
+    {
+     "text": "https://www.eventbrite.co.uk/.../planning-artificial...",
+     "url": "https://www.eventbrite.co.uk/e/planning-artificial-intelligence-smarter-tools-stronger-communities-tickets-2002282038477?utm_id=97758_v0_s00_e0_tv4_a1demoo3zgnuv9"
+    },
+    {
+     "text": "https://www.facebook.com/planningaidwales",
+     "url": "https://www.facebook.com/planningaidwales"
+    }
    ]
   }
  ]
