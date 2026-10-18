@@ -2,7 +2,11 @@
 
 Whitelee is a wind, solar and storage project tracked on slava.it.com. The archive holds 6 community posts from 4 groups, latest 2026-10-15. 13 register records are listed (8 REPD, 5 NESO TEC). Their statuses differ, so no single status is given. Top recurring themes: Onshore Wind (5). Posts are archived public group posts and are not independently verified.
 
-## Register facts
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+Abbreviations: REPD = Renewable Energy Planning Database; TEC = Transmission Entry Capacity register; NESO = National Energy System Operator.
 
 | Item | Value | Basis |
 |---|---|---|
@@ -70,5 +74,5 @@ No single status applies. Statuses by register record: Operational (4), Planning
 
 ---
 HTML version: https://slava.it.com/projects/whitelee.html
-Archived public Facebook group posts; not independently verified. Post text is not reproduced.
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
 For correction, privacy or removal requests: slava@atlasglobal.energy.

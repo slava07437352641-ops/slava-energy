@@ -134,7 +134,7 @@ def company_facts(c):
     facts = [fact("Company", f"{c['name']} (company number {c['number']}); {c['status']}; incorporated {c['incorporated']}",
                   "register", "companies_house")]
     if c.get("controllers"):
-        facts.append(fact("Persons with significant control (corporate)", "; ".join(c["controllers"]), "register", "companies_house"))
+        facts.append(fact("Controlling company (person with significant control)", "; ".join(c["controllers"]), "register", "companies_house"))
     return facts, [c["url"]]
 
 

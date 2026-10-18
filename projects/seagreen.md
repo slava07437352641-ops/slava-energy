@@ -2,7 +2,11 @@
 
 Seagreen is a wind, solar and storage project tracked on slava.it.com. The archive holds 2 community posts from 1 group, latest 2026-10-12. REPD reference: 2540 (register). REPD status: Operational (register). Top recurring themes: Onshore Wind (2). Posts are archived public group posts and are not independently verified.
 
-## Register facts
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+Abbreviations: REPD = Renewable Energy Planning Database.
 
 | Item | Value | Basis |
 |---|---|---|
@@ -41,5 +45,5 @@ Recorded: REPD status: Operational (register).
 
 ---
 HTML version: https://slava.it.com/projects/seagreen.html
-Archived public Facebook group posts; not independently verified. Post text is not reproduced.
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
 For correction, privacy or removal requests: slava@atlasglobal.energy.

@@ -2,7 +2,11 @@
 
 Glenvernoch is a wind, solar and storage project tracked on slava.it.com. The archive holds 4 community posts from 1 group, latest 2026-06-30. No planning reference is recorded in the registers used. TEC project status: Scoping (register). Top recurring themes: Onshore Wind (4). Posts are archived public group posts and are not independently verified.
 
-## Register facts
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+Abbreviations: TEC = Transmission Entry Capacity register.
 
 | Item | Value | Basis |
 |---|---|---|
@@ -42,5 +46,5 @@ Recorded: TEC project status: Scoping (register).
 
 ---
 HTML version: https://slava.it.com/projects/glenvernoch.html
-Archived public Facebook group posts; not independently verified. Post text is not reproduced.
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
 For correction, privacy or removal requests: slava@atlasglobal.energy.

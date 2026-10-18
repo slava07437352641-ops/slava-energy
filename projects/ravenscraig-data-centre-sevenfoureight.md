@@ -2,7 +2,9 @@
 
 Ravenscraig data centre (SevenFourEight) is an AI data centre project tracked on slava.it.com. The archive holds 4 community posts from 1 group, latest 2026-09-11. No planning reference is recorded in the registers used. Status: Application reported filed (2025); no documents or decision found; a pre-application exhibition was set for 6 October (reported). Top recurring themes: Data Centre (4), BESS (1).
 
-## Register facts
+## Facts and where they come from
+
+Basis: reported = stated in a report linked under Sources for reported facts; we have not checked it.
 
 | Item | Value | Basis |
 |---|---|---|
@@ -41,5 +43,5 @@ Recorded: Status: Application reported filed (2025); no documents or decision fo
 
 ---
 HTML version: https://slava.it.com/projects/ravenscraig-data-centre-sevenfoureight.html
-Archived public Facebook group posts; not independently verified. Post text is not reproduced.
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
 For correction, privacy or removal requests: slava@atlasglobal.energy.

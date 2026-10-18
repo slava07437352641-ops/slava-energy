@@ -2,7 +2,11 @@
 
 New Cumnock BESS is a wind, solar and storage project tracked on slava.it.com. The archive holds 3 community posts from 1 group, latest 2026-06-15. No planning reference is recorded in the registers used. TEC project status: Scoping (register). Top recurring themes: Onshore Wind (3). Posts are archived public group posts and are not independently verified.
 
-## Register facts
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+Abbreviations: TEC = Transmission Entry Capacity register.
 
 | Item | Value | Basis |
 |---|---|---|
@@ -41,5 +45,5 @@ Recorded: TEC project status: Scoping (register).
 
 ---
 HTML version: https://slava.it.com/projects/new-cumnock-bess.html
-Archived public Facebook group posts; not independently verified. Post text is not reproduced.
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
 For correction, privacy or removal requests: slava@atlasglobal.energy.

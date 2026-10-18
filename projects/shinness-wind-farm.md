@@ -2,7 +2,11 @@
 
 Shinness Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 3 community posts from 2 groups, latest 2026-10-01. 2 register records are listed (2 REPD). All list the status Planning Application Submitted. Top recurring themes: Onshore Wind (3). Posts are archived public group posts and are not independently verified.
 
-## Register facts
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+Abbreviations: REPD = Renewable Energy Planning Database.
 
 | Item | Value | Basis |
 |---|---|---|
@@ -10,7 +14,7 @@ Shinness Wind Farm is a wind, solar and storage project tracked on slava.it.com.
 
 ## Register records
 
-Each row is one register record with its own identifier; records are not combined. Relationships are stated only where a register links the records, and are otherwise labelled as unlinked or unverified. REPD dates are the record's update date and the date of the status event where one is recorded. The NESO files give no status date; the date shown is the MW effective-from date.
+Each row is one register record with its own identifier; records are not combined. Relationships are stated only where a register links the records, and are otherwise labelled as unlinked or unverified. REPD dates are the record's update date and the date of the status event where one is recorded.
 
 | Register | Identifier | Name as recorded | Status | Capacity | Date | Relationship |
 |---|---|---|---|---|---|---|
@@ -51,5 +55,5 @@ All 2 listed register records show the status Planning Application Submitted.
 
 ---
 HTML version: https://slava.it.com/projects/shinness-wind-farm.html
-Archived public Facebook group posts; not independently verified. Post text is not reproduced.
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
 For correction, privacy or removal requests: slava@atlasglobal.energy.

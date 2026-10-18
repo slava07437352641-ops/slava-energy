@@ -756,3 +756,59 @@ def test_meta_description_cuts_a_very_long_first_sentence_at_a_word():
     d = sg.meta_description(long_first, 160)
     assert len(d) <= 160 and d.endswith("…") and " " not in d[-3:] and not d[:-1].endswith("wor")
     assert sg.meta_description("One. Two sentences fit. Three is too long to add here at all", 25) == "One. Two sentences fit."
+
+
+# ---- reader-trust wording: footer, key, heading, hubs -------------------------------------------------------
+
+def _footer(text):
+    return text[text.index("<footer>"):text.index("</footer>")]
+
+
+def test_every_project_and_hub_page_says_posts_are_not_independently_verified_and_gives_the_contact():
+    F, _ = built()
+    sentence = "Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced."
+    pages = [p for p in F if (p.startswith("projects/") or p.endswith("/index.html") or p.endswith("/index.md")) and p != "index.html"]
+    assert len(pages) == 2 * (36 + 3)
+    for path in pages:
+        text = F[path]
+        if path.endswith(".html"):
+            foot = _footer(text)
+            assert sentence in foot and f'mailto:{CONTACT}' in foot, path
+        else:
+            assert sentence in text and f"{CONTACT}." in text, path
+        assert "labelled as reported or register" not in text, path
+
+
+def test_facts_heading_is_neutral_and_the_key_defines_only_the_labels_the_page_uses():
+    F, _ = built()
+    doc = json.load(open(os.path.join(ROOT, sg.FACTS_REL), encoding="utf-8"))
+    seen = set()
+    for path, text in F.items():
+        if not (path.startswith("projects/") and path.endswith(".html")):
+            continue
+        assert "<h2>Register facts</h2>" not in text and "<h2>Facts and where they come from</h2>" in text, path
+        head = text[text.index("<h2>Facts and where they come from</h2>"):]
+        key = re.search(r'<p class="key">Basis: (.*?)</p>', head)
+        used = set(re.findall(r"</td><td>(register|reported|inferred|unverified)</td></tr>", text))
+        assert key and head.index(key.group(0)) < head.index("<table"), path  # the key sits above the table
+        defined = set(re.findall(r"(register|reported|inferred|unverified) = ", key.group(1)))
+        assert defined == used, (path, defined, used)
+        seen |= used
+    assert seen == set(sg.FACT_BASES)  # all four labels occur somewhere on the site, each defined where used
+    md = F["projects/rufus-data-centre-campus-hurlford.md"]
+    assert "## Facts and where they come from" in md and "Basis: register = " in md and "unverified = no source we could rely on was found." in md
+    assert "Controlling company (person with significant control)" in md and "Persons with significant control" not in md
+    assert not any("Persons with significant control" in json.dumps(p) for p in doc["projects"].values())
+
+
+def test_abbreviations_are_defined_on_the_pages_that_use_them_and_only_there():
+    F, _ = built()
+    wl, cx = F["projects/whitelee.html"], F["projects/chapelcross-data-centre-campus-cx-tech.html"]
+    assert ('Abbreviations: REPD = Renewable Energy Planning Database; TEC = Transmission Entry Capacity register; '
+            'NESO = National Energy System Operator.') in wl
+    assert "Abbreviations:" not in cx and "REPD" not in cx and "TEC" not in re.sub(r"[^A-Za-z ]", " ", cx).split()
+    for path, text in F.items():
+        if path.startswith("projects/") and path.endswith(".html"):
+            body = re.sub(r"<script.*?</script>|<style.*?</style>", " ", text, flags=re.S)
+            uses = bool(re.search(r"\bREPD\b", re.sub(r'<p class="key">Abbreviations:.*?</p>', "", body)))
+            assert uses == ("REPD = Renewable Energy Planning Database" in body), path

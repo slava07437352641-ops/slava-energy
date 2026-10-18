@@ -18,3 +18,5 @@ Beauly to Peterhead 400kV overhead line; Hawthorn Pit -Solar Farm; Kintore to Te
 The most frequent theme tags are OHL (Pylons) (4), Substation (3), Onshore Wind (2), from 6 archived public posts.
 
 HTML version: https://slava.it.com/pylons-grid/
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.

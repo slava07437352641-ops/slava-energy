@@ -2,7 +2,9 @@
 
 Chapelcross data centre campus (CX Tech) is an AI data centre project tracked on slava.it.com. The archive holds 29 community posts from 5 groups, latest 2026-10-16. Planning reference: 26/1649/PIP (reported). Status: Validated 28 September 2026; no decision found in coverage to early October (reported). Top recurring themes: Data Centre (20), Onshore Wind (2).
 
-## Register facts
+## Facts and where they come from
+
+Basis: reported = stated in a report linked under Sources for reported facts; we have not checked it.
 
 | Item | Value | Basis |
 |---|---|---|
@@ -72,5 +74,5 @@ Recorded: Planning reference: 26/1649/PIP (reported); Application type: Planning
 
 ---
 HTML version: https://slava.it.com/projects/chapelcross-data-centre-campus-cx-tech.html
-Archived public Facebook group posts; not independently verified. Post text is not reproduced.
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
 For correction, privacy or removal requests: slava@atlasglobal.energy.

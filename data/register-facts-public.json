@@ -851,7 +851,7 @@
      "source": "companies_house"
     },
     {
-     "label": "Persons with significant control (corporate)",
+     "label": "Controlling company (person with significant control)",
      "value": "Intelligent Land Investments Group Plc",
      "basis": "register",
      "source": "companies_house"

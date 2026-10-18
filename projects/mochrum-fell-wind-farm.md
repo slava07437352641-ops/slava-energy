@@ -2,7 +2,11 @@
 
 Mochrum Fell Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 2 community posts from 1 group, latest 2026-10-15. 2 register records are listed (2 REPD). Their statuses differ, so no single status is given. Top recurring themes: none tagged. Posts are archived public group posts and are not independently verified.
 
-## Register facts
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+Abbreviations: REPD = Renewable Energy Planning Database.
 
 | Item | Value | Basis |
 |---|---|---|
@@ -10,7 +14,7 @@ Mochrum Fell Wind Farm is a wind, solar and storage project tracked on slava.it.
 
 ## Register records
 
-Each row is one register record with its own identifier; records are not combined. Relationships are stated only where a register links the records, and are otherwise labelled as unlinked or unverified. REPD dates are the record's update date and the date of the status event where one is recorded. The NESO files give no status date; the date shown is the MW effective-from date.
+Each row is one register record with its own identifier; records are not combined. Relationships are stated only where a register links the records, and are otherwise labelled as unlinked or unverified. REPD dates are the record's update date and the date of the status event where one is recorded.
 
 | Register | Identifier | Name as recorded | Status | Capacity | Date | Relationship |
 |---|---|---|---|---|---|---|
@@ -49,5 +53,5 @@ No single status applies. Statuses by register record: Revised (1), Planning App
 
 ---
 HTML version: https://slava.it.com/projects/mochrum-fell-wind-farm.html
-Archived public Facebook group posts; not independently verified. Post text is not reproduced.
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
 For correction, privacy or removal requests: slava@atlasglobal.energy.

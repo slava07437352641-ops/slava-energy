@@ -393,9 +393,22 @@ RECORDS_CSS = (".records{min-width:36rem}"
                ".records td::before{content:attr(data-label) \": \";font-weight:600}}")
 RECORD_HEAD = ("Register", "Identifier", "Name as recorded", "Status", "Capacity", "Date", "Relationship")
 RECORD_NOTE = ("Each row is one register record with its own identifier; records are not combined. Relationships are stated only "
-               "where a register links the records, and are otherwise labelled as unlinked or unverified. REPD dates are the "
-               "record's update date and the date of the status event where one is recorded. The NESO files give no status date; "
-               "the date shown is the MW effective-from date.")
+               "where a register links the records, and are otherwise labelled as unlinked or unverified.")
+RECORD_DATE_NOTES = {
+    "repd": "REPD dates are the record's update date and the date of the status event where one is recorded.",
+    "neso": "The NESO files give no status date; the date shown is the MW effective-from date.",
+}
+
+
+def record_note(p):
+    """The note above a records table, with a date explanation only for the registers the page lists."""
+    parts = [RECORD_NOTE]
+    regs = {r["register"] for r in p["records"]}
+    if "repd" in regs:
+        parts.append(RECORD_DATE_NOTES["repd"])
+    if regs & {"neso_tec", "neso_embedded"}:
+        parts.append(RECORD_DATE_NOTES["neso"])
+    return " ".join(parts)
 
 
 def record_cells(r):
@@ -416,7 +429,7 @@ def records_html(p):
 
     rows = "".join("<tr>" + "".join(cell(h, c) for h, c in zip(RECORD_HEAD, record_cells(r))) + "</tr>" for r in p["records"])
     note = f"<p class=\"records-note\">{esc(p['note'])}</p>" if p["note"] else ""
-    return f"<h2>Register records</h2><p>{esc(RECORD_NOTE)}</p><div style=\"overflow-x:auto\"><table class=\"records\"><thead><tr>{head}</tr></thead><tbody>{rows}</tbody></table></div>{note}\n"
+    return f"<h2>Register records</h2><p>{esc(record_note(p))}</p><div style=\"overflow-x:auto\"><table class=\"records\"><thead><tr>{head}</tr></thead><tbody>{rows}</tbody></table></div>{note}\n"
 
 
 def records_md(p):
@@ -424,7 +437,33 @@ def records_md(p):
         return ""
     rows = "\n".join("| " + " | ".join(str(c).replace("|", "/") for c in record_cells(r)) + " |" for r in p["records"])
     note = f"{p['note']}\n\n" if p["note"] else ""
-    return (f"## Register records\n\n{RECORD_NOTE}\n\n| " + " | ".join(RECORD_HEAD) + " |\n|" + "---|" * len(RECORD_HEAD) + f"\n{rows}\n\n{note}")
+    return (f"## Register records\n\n{record_note(p)}\n\n| " + " | ".join(RECORD_HEAD) + " |\n|" + "---|" * len(RECORD_HEAD) + f"\n{rows}\n\n{note}")
+
+
+FOOTER_SENTENCE = ("Facebook group posts are archived public posts and are not independently verified. "
+                   "Post text is not reproduced.")
+FACTS_HEADING = "Facts and where they come from"
+# What each Basis label means. The key on a page lists only the labels that page uses.
+BASIS_KEY = {
+    "register": "taken from a public register (dates and licences are under Data credits)",
+    "reported": "stated in a report linked under Sources for reported facts; we have not checked it",
+    "inferred": "our own deduction, not confirmed by a source",
+    "unverified": "no source we could rely on was found",
+}
+# Abbreviations that appear in fact labels, records and summaries. Defined on a page only when it uses them.
+ABBREVIATIONS = (("REPD", "Renewable Energy Planning Database"),
+                 ("TEC", "Transmission Entry Capacity register"),
+                 ("NESO", "National Energy System Operator"))
+
+
+def key_lines(p):
+    """(basis key, abbreviation key) for a project page; either is '' when the page needs none."""
+    used = [b for b in FACT_BASES if any(f[2] == b for f in p["facts"])]
+    text = " ".join([f"{lab} {v}" for lab, v, _ in p["facts"]] + [REGISTER_LABELS[r["register"]] for r in p["records"]]
+                    + [p["capsule"]])
+    abbr = [f"{a} = {full}" for a, full in ABBREVIATIONS if re.search(rf"\b{a}\b", text)]
+    basis = "; ".join(f"{b} = {BASIS_KEY[b]}" for b in used)
+    return (f"Basis: {basis}." if basis else ""), (f"Abbreviations: {'; '.join(abbr)}." if abbr else "")
 
 
 def meta_description(text, limit=160):
@@ -452,7 +491,7 @@ def contact_md():
     return f"{CONTACT_SENTENCE} {CONTACT_EMAIL}.\n"
 
 
-def page(title, desc, canonical, body, lds, extra_css="", contact=False):
+def page(title, desc, canonical, body, lds, extra_css=""):
     ld = "\n".join(f'<script type="application/ld+json">{jsonld(x)}</script>' for x in lds)
     return (
         '<!doctype html>\n<html lang="en-GB">\n<head>\n<meta charset="utf-8">\n'
@@ -465,8 +504,7 @@ def page(title, desc, canonical, body, lds, extra_css="", contact=False):
         "table{border-collapse:collapse;width:100%;margin:.5rem 0}th,td{border:1px solid #d8cfc0;padding:.35rem .5rem;text-align:left;vertical-align:top}"
         "a{color:#a2421f}.seo-follow{margin:2rem 0 1rem;padding:.75rem 1rem;border:1px solid #d8cfc0;border-radius:6px}" + extra_css + "</style>\n"
         f"</head>\n<body>\n{nav_html()}\n<main>\n{body}\n</main>\n"
-        "<footer><p>Facebook group posts are archived public posts. Register facts are labelled as reported or register. "
-        f"Post text is not reproduced.</p>{contact_html() if contact else ''}</footer>\n"
+        f"<footer><p>{FOOTER_SENTENCE}</p>{contact_html()}</footer>\n"
         f"{follow_html()}\n</body>\n</html>\n")
 
 
@@ -490,15 +528,17 @@ def project_html(p, srcs, modified):
         f"<li><a href=\"{SITE_URL}/?sel={r['id']}\">{esc(r['date'])}, {esc(r['source']['name'])}</a>"
         f" · themes: {esc(', '.join(r.get('categories') or []) or 'none tagged')}</li>" for r in p["posts"])
     qa_html = "".join(f"<h2>{esc(q)}</h2><p>{esc(a)}</p>" for q, a in p["qa"])
+    basis_key, abbr_key = key_lines(p)
+    key_html = "".join(f"<p class=\"key\">{esc(k)}</p>\n" for k in (basis_key, abbr_key) if k)
     body = (f"<h1>{esc(p['title'])}</h1>\n<p class=\"capsule\">{esc(p['capsule'])}</p>\n"
-            f"<h2>Register facts</h2>\n{facts_html}\n{records_html(p)}{src_html}\n{credit_html}"
+            f"<h2>{FACTS_HEADING}</h2>\n{key_html}{facts_html}\n{records_html(p)}{src_html}\n{credit_html}"
             f"<h2>Source groups</h2><table><tr><th>Group</th><th>Posts</th></tr>{grows}</table>\n"
             f"<h2>Theme breakdown</h2><table><tr><th>Theme</th><th>Posts</th></tr>{trows}</table>\n"
             f"{qa_html}\n<h2>Archive entries</h2><ul>{entries}</ul>\n<p><a href=\"/\">Back to the archive</a></p>")
     url = f"{SITE_URL}/projects/{p['slug']}.html"
     ds = dataset_ld(f"Community discussion archive: {p['title']}", p["capsule"], url, modified, sorted(p["themes"]))
     return page(f"{p['title']} · community discussion archive", meta_description(p["capsule"]), url, body, [ds, faq_ld(p["qa"])],
-                RECORDS_CSS if p["records"] else "", contact=True)
+                RECORDS_CSS if p["records"] else "")
 
 
 def project_md(p, srcs):
@@ -514,11 +554,12 @@ def project_md(p, srcs):
         credit_md = ("## Data credits\n\n" + "\n".join(
             f"- {c['text']} {c['terms_label']}: [{c['terms']}]({c['terms_url']}). Source: {c['source_url']}. Source dates: {c['dates']}." for c in cl)
             + "\n- Use of these registers does not imply endorsement by their publishers.\n\n")
-    return (f"# {p['title']}\n\n{p['capsule']}\n\n## Register facts\n\n| Item | Value | Basis |\n|---|---|---|\n{f}\n\n"
+    key_md = "".join(f"{k}\n\n" for k in key_lines(p) if k)
+    return (f"# {p['title']}\n\n{p['capsule']}\n\n## {FACTS_HEADING}\n\n{key_md}| Item | Value | Basis |\n|---|---|---|\n{f}\n\n"
             f"{records_md(p)}{credit_md}"
             f"## Source groups\n\n| Group | Posts |\n|---|---|\n{g}\n\n## Theme breakdown\n\n| Theme | Posts |\n|---|---|\n{t}\n\n"
             f"{qa}\n\n## Archive entries\n\n{e}\n\n---\nHTML version: {SITE_URL}/projects/{p['slug']}.html\n"
-            f"Archived public Facebook group posts; not independently verified. Post text is not reproduced.\n{contact_md()}")
+            f"{FOOTER_SENTENCE}\n{contact_md()}")
 
 
 def hub_html(h, modified):
@@ -540,7 +581,8 @@ def hub_md(h):
     rows = "\n".join(f"- [{p['title']}]({SITE_URL}/projects/{p['slug']}.md): {len(p['posts'])} posts; latest {p['latest']}"
                      for p in h["members"])
     qa = "\n\n".join(f"## {q}\n\n{a}" for q, a in h["qa"])
-    return f"# {h['spec']['name']}\n\n{h['capsule']}\n\n## Projects\n\n{rows}\n\n{qa}\n\nHTML version: {SITE_URL}/{h['key']}/\n"
+    return (f"# {h['spec']['name']}\n\n{h['capsule']}\n\n## Projects\n\n{rows}\n\n{qa}\n\nHTML version: {SITE_URL}/{h['key']}/\n"
+            f"{FOOTER_SENTENCE}\n{contact_md()}")
 
 
 def feed_xml(title, items, path, build_date):

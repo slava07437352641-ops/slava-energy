@@ -2,7 +2,11 @@
 
 Hawthorn Pit -Solar Farm is a pylons and grid project tracked on slava.it.com. The archive holds 2 community posts from 1 group, latest 2026-10-12. REPD reference: 9799 (register). REPD status: Appeal Granted (register). Top recurring themes: Onshore Wind (1), Solar (1). Posts are archived public group posts and are not independently verified.
 
-## Register facts
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+Abbreviations: REPD = Renewable Energy Planning Database.
 
 | Item | Value | Basis |
 |---|---|---|
@@ -43,5 +47,5 @@ Recorded: REPD status: Appeal Granted (register).
 
 ---
 HTML version: https://slava.it.com/projects/hawthorn-pit-solar-farm.html
-Archived public Facebook group posts; not independently verified. Post text is not reproduced.
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
 For correction, privacy or removal requests: slava@atlasglobal.energy.

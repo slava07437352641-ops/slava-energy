@@ -2,7 +2,9 @@
 
 Norwich to Tilbury (East Anglia GREEN) is a wind, solar and storage project tracked on slava.it.com. The archive holds 2 community posts from 1 group, latest 2026-10-13. No planning reference is recorded in the registers used. Consent or stage: DCO application EN020027, accepted for examination 26 September 2025 (reported). Top recurring themes: none tagged.
 
-## Register facts
+## Facts and where they come from
+
+Basis: reported = stated in a report linked under Sources for reported facts; we have not checked it.
 
 | Item | Value | Basis |
 |---|---|---|
@@ -37,5 +39,5 @@ Recorded: Consent or stage: DCO application EN020027, accepted for examination 2
 
 ---
 HTML version: https://slava.it.com/projects/norwich-to-tilbury-east-anglia-green.html
-Archived public Facebook group posts; not independently verified. Post text is not reproduced.
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
 For correction, privacy or removal requests: slava@atlasglobal.energy.

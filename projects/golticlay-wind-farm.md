@@ -2,7 +2,11 @@
 
 Golticlay Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 4 community posts from 2 groups, latest 2026-10-02. 7 register records are listed (4 REPD, 3 NESO Embedded). Their statuses differ, so no single status is given. Top recurring themes: Onshore Wind (3). Posts are archived public group posts and are not independently verified.
 
-## Register facts
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+Abbreviations: REPD = Renewable Energy Planning Database; NESO = National Energy System Operator.
 
 | Item | Value | Basis |
 |---|---|---|
@@ -58,5 +62,5 @@ No single status applies. Statuses by register record: Planning Application Subm
 
 ---
 HTML version: https://slava.it.com/projects/golticlay-wind-farm.html
-Archived public Facebook group posts; not independently verified. Post text is not reproduced.
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
 For correction, privacy or removal requests: slava@atlasglobal.energy.

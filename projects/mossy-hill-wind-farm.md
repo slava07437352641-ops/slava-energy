@@ -2,7 +2,11 @@
 
 Mossy Hill Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 3 community posts from 3 groups, latest 2026-09-30. No planning reference is recorded in the registers used. TEC project status: Consents Approved (register). Top recurring themes: Onshore Wind (3), Solar (1). Posts are archived public group posts and are not independently verified.
 
-## Register facts
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+Abbreviations: TEC = Transmission Entry Capacity register.
 
 | Item | Value | Basis |
 |---|---|---|
@@ -44,5 +48,5 @@ Recorded: TEC project status: Consents Approved (register).
 
 ---
 HTML version: https://slava.it.com/projects/mossy-hill-wind-farm.html
-Archived public Facebook group posts; not independently verified. Post text is not reproduced.
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
 For correction, privacy or removal requests: slava@atlasglobal.energy.

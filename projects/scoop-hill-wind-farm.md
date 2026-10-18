@@ -2,7 +2,11 @@
 
 Scoop Hill Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 4 community posts from 1 group, latest 2026-05-28. 3 register records are listed (2 REPD, 1 NESO TEC). Their statuses differ, so no single status is given. Top recurring themes: Onshore Wind (3).
 
-## Register facts
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+Abbreviations: REPD = Renewable Energy Planning Database; TEC = Transmission Entry Capacity register; NESO = National Energy System Operator.
 
 | Item | Value | Basis |
 |---|---|---|
@@ -53,5 +57,5 @@ No single status applies. Statuses by register record: Planning Permission Refus
 
 ---
 HTML version: https://slava.it.com/projects/scoop-hill-wind-farm.html
-Archived public Facebook group posts; not independently verified. Post text is not reproduced.
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
 For correction, privacy or removal requests: slava@atlasglobal.energy.
