@@ -73,3 +73,4 @@ Recorded: Planning reference: 26/1649/PIP (reported); Application type: Planning
 ---
 HTML version: https://slava.it.com/projects/chapelcross-data-centre-campus-cx-tech.html
 Archived public Facebook group posts; not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.

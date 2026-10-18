@@ -7,17 +7,24 @@ with at least two linked posts, pylons-grid/, data-centres/ and renewables-wind/
 <indexnow-key>.txt, and two marker blocks in index.html (JSON-LD and the follow bar). No network access.
 
 Inputs are inside the repository only: data/discussions-index.json, data/register-facts-public.json (written by
-scripts/export_register_facts.py), data/indexnow.json and index.html. A clean clone rebuilds the same files.
-The build stops with an error, and writes nothing, if the facts file is missing or invalid, or if a project
-page has no entry in it.
+scripts/export_register_facts.py), data/page-dates.json, data/indexnow.json and index.html. A clean clone rebuilds
+the same files. The build stops with an error, and writes nothing, if the facts file is missing or invalid, or if a
+project page has no entry in it.
+
+Dates: a page's sitemap lastmod (and its JSON-LD dateModified) is the date its content last changed. data/page-dates.json
+holds a content hash and that date for every sitemap URL; the build keeps the recorded date while the hash is unchanged
+and sets the build date when the content, or a new page, differs. The dateModified value is left out of the hash, so a
+date alone is never a change. The first baseline is written once with --seed-page-dates from the pages already built.
 
 Privacy: outputs never contain post text, post titles or author names. They contain group names, dates,
 counts, theme tags, register facts (labelled as reported or register, with the licence credits of the
 registers) and links to the archive entries (?sel=<id>). Blocked post IDs are dropped everywhere.
 
 Usage: python3 scripts/build_seo_geo.py [--dry-run] [--build-date YYYY-MM-DD] [--site DIR]
+       python3 scripts/build_seo_geo.py --seed-page-dates [--site DIR]    (once; writes data/page-dates.json only)
 """
-import argparse, collections, datetime, html, json, os, re, sys, uuid
+import argparse, collections, datetime, hashlib, html, json, os, re, sys, uuid
+import xml.etree.ElementTree as ET
 from email.utils import format_datetime
 from xml.sax.saxutils import escape as xesc
 
@@ -25,6 +32,14 @@ SITE_URL = "https://slava.it.com"
 SITE_DEFAULT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FACTS_REL = "data/register-facts-public.json"
 EXPORT_HINT = "Run scripts/export_register_facts.py where the registers are kept, then commit the file."
+DATES_REL = "data/page-dates.json"
+SEED_HINT = ("Run scripts/build_seo_geo.py --seed-page-dates once in a checkout whose pages are already built, "
+             "then commit the file.")
+DATE_SENTINEL = "0000-00-00"
+DATE_FIELD = re.compile(r'"dateModified": "\d{4}-\d{2}-\d{2}"')
+# The one email address that may appear in a generated page: the site's published correction and removal contact.
+CONTACT_EMAIL = "slava@atlasglobal.energy"
+CONTACT_SENTENCE = "For correction, privacy or removal requests:"
 
 # Withheld from every generated output. The first six are the user's deletion orders (project memory);
 # 29488742940728054 is withheld from these pages until the user decides (it is not on the deletion list).
@@ -412,7 +427,20 @@ def records_md(p):
     return (f"## Register records\n\n{RECORD_NOTE}\n\n| " + " | ".join(RECORD_HEAD) + " |\n|" + "---|" * len(RECORD_HEAD) + f"\n{rows}\n\n{note}")
 
 
-def page(title, desc, canonical, body, lds, extra_css=""):
+def nowrap_dates(text):
+    """Keep each ISO date on one line instead of breaking at its hyphens (markup only; the words are unchanged)."""
+    return re.sub(r"(\d{4}-\d{2}-\d{2})", r'<span style="white-space:nowrap">\1</span>', text)
+
+
+def contact_html():
+    return f"<p>{CONTACT_SENTENCE} <a href=\"mailto:{CONTACT_EMAIL}\">{CONTACT_EMAIL}</a>.</p>"
+
+
+def contact_md():
+    return f"{CONTACT_SENTENCE} {CONTACT_EMAIL}.\n"
+
+
+def page(title, desc, canonical, body, lds, extra_css="", contact=False):
     ld = "\n".join(f'<script type="application/ld+json">{jsonld(x)}</script>' for x in lds)
     return (
         '<!doctype html>\n<html lang="en-GB">\n<head>\n<meta charset="utf-8">\n'
@@ -426,11 +454,11 @@ def page(title, desc, canonical, body, lds, extra_css=""):
         "a{color:#a2421f}.seo-follow{margin:2rem 0 1rem;padding:.75rem 1rem;border:1px solid #d8cfc0;border-radius:6px}" + extra_css + "</style>\n"
         f"</head>\n<body>\n{nav_html()}\n<main>\n{body}\n</main>\n"
         "<footer><p>Facebook group posts are archived public posts. Register facts are labelled as reported or register. "
-        "Post text is not reproduced.</p></footer>\n"
+        f"Post text is not reproduced.</p>{contact_html() if contact else ''}</footer>\n"
         f"{follow_html()}\n</body>\n</html>\n")
 
 
-def project_html(p, srcs):
+def project_html(p, srcs, modified):
     rows = "".join(f"<tr><td>{esc(lab)}</td><td>{esc(v)}</td><td>{esc(b)}</td></tr>" for lab, v, b in p["facts"])
     facts_html = (f"<table><tr><th>Item</th><th>Value</th><th>Basis</th></tr>{rows}</table>" if rows
                   else "<p>No register facts are recorded for this project.</p>")
@@ -441,7 +469,7 @@ def project_html(p, srcs):
     if cl:
         items = "".join(f"<li style=\"overflow-wrap:anywhere\">{esc(c['text'])} {c['terms_label']}: <a href=\"{esc(c['terms_url'])}\">{esc(c['terms'])}</a>. "
                         f"Source: <a href=\"{esc(c['source_url'])}\">{esc(c['source_url'])}</a>. "
-                        f"Source dates: {esc(c['dates'])}.</li>" for c in cl)
+                        f"Source dates: {nowrap_dates(esc(c['dates']))}.</li>" for c in cl)
         credit_html = (f"<h2>Data credits</h2><ul>{items}<li>Use of these registers does not imply endorsement "
                        "by their publishers.</li></ul>\n")
     grows = "".join(f"<tr><td>{esc(g)}</td><td>{n}</td></tr>" for g, n in p["groups"].most_common())
@@ -456,9 +484,9 @@ def project_html(p, srcs):
             f"<h2>Theme breakdown</h2><table><tr><th>Theme</th><th>Posts</th></tr>{trows}</table>\n"
             f"{qa_html}\n<h2>Archive entries</h2><ul>{entries}</ul>\n<p><a href=\"/\">Back to the archive</a></p>")
     url = f"{SITE_URL}/projects/{p['slug']}.html"
-    ds = dataset_ld(f"Community discussion archive: {p['title']}", p["capsule"], url, p["latest"], sorted(p["themes"]))
+    ds = dataset_ld(f"Community discussion archive: {p['title']}", p["capsule"], url, modified, sorted(p["themes"]))
     return page(f"{p['title']} · community discussion archive", p["capsule"][:155], url, body, [ds, faq_ld(p["qa"])],
-                RECORDS_CSS if p["records"] else "")
+                RECORDS_CSS if p["records"] else "", contact=True)
 
 
 def project_md(p, srcs):
@@ -478,10 +506,10 @@ def project_md(p, srcs):
             f"{records_md(p)}{credit_md}"
             f"## Source groups\n\n| Group | Posts |\n|---|---|\n{g}\n\n## Theme breakdown\n\n| Theme | Posts |\n|---|---|\n{t}\n\n"
             f"{qa}\n\n## Archive entries\n\n{e}\n\n---\nHTML version: {SITE_URL}/projects/{p['slug']}.html\n"
-            "Archived public Facebook group posts; not independently verified. Post text is not reproduced.\n")
+            f"Archived public Facebook group posts; not independently verified. Post text is not reproduced.\n{contact_md()}")
 
 
-def hub_html(h):
+def hub_html(h, modified):
     rows = "".join(
         f"<tr><td><a href=\"/projects/{p['slug']}.html\">{esc(p['title'])}</a></td><td>{len(p['posts'])}</td>"
         f"<td>{esc(p['latest'])}</td></tr>" for p in h["members"])
@@ -492,7 +520,7 @@ def hub_html(h):
             f"<h2>Theme breakdown</h2><table><tr><th>Theme</th><th>Posts</th></tr>{trows}</table>\n{qa_html}")
     url = f"{SITE_URL}/{h['key']}/"
     return page(f"{h['spec']['name']} · community discussion archive", h["capsule"][:155], url, body,
-                [dataset_ld(f"Community discussion archive: {h['spec']['name']}", h["capsule"], url, h["latest"],
+                [dataset_ld(f"Community discussion archive: {h['spec']['name']}", h["capsule"], url, modified,
                             sorted(h["themes"])), faq_ld(h["qa"])])
 
 
@@ -517,7 +545,96 @@ def feed_xml(title, items, path, build_date):
             f'<atom:link href="{SITE_URL}/{path}" rel="self" type="application/rss+xml"/>\n{body}</channel>\n</rss>\n')
 
 
+def page_hash(texts):
+    """Content hash of a page (its files in order) with every dateModified value masked."""
+    masked = [DATE_FIELD.sub(f'"dateModified": "{DATE_SENTINEL}"', t) for t in texts]
+    return hashlib.sha256("\0".join(masked).encode("utf-8")).hexdigest()
+
+
+def url_files(url):
+    """The generated files that make up the page at a sitemap URL, relative to the site root."""
+    rel = url[len(SITE_URL) + 1:]
+    if rel == "":
+        return ["index.html"]
+    if rel.endswith("/"):
+        return [f"{rel}index.html", f"{rel}index.md"]
+    return [rel, rel[:-len(".html")] + ".md"]
+
+
+def iso_date_ok(v):
+    try:
+        datetime.date.fromisoformat(str(v))
+    except ValueError:
+        return False
+    return bool(re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(v)))
+
+
+def load_page_dates(site):
+    path = os.path.join(site, DATES_REL)
+    if not os.path.exists(path):
+        raise BuildError(f"{DATES_REL} is missing. {SEED_HINT}")
+    try:
+        doc = json.load(open(path, encoding="utf-8"))
+    except json.JSONDecodeError as e:
+        raise BuildError(f"{DATES_REL} is not valid JSON: {e}")
+    pages = doc.get("pages") if isinstance(doc, dict) and doc.get("schema") == 1 else None
+    if not isinstance(pages, dict):
+        raise BuildError(f"{DATES_REL}: unsupported or missing schema (expected 1 with a 'pages' object). {SEED_HINT}")
+    bad = [u for u, e in pages.items()
+           if not (isinstance(e, dict) and set(e) == {"sha256", "modified"} and re.fullmatch(r"[0-9a-f]{64}", str(e["sha256"]))
+                   and iso_date_ok(e["modified"]))]
+    if bad:
+        raise BuildError(f"{DATES_REL}: invalid entries for {', '.join(bad[:5])}" + (" ..." if len(bad) > 5 else ""))
+    return pages
+
+
+def settle_page_dates(hashes, state, build_date):
+    """({url: modified date}, new state, [urls whose content is new or changed]).
+
+    A page keeps its recorded date while its content hash is unchanged. A changed page, or a page with no record,
+    takes the build date. A date never moves backwards."""
+    modified, new_state, changed = {}, {}, []
+    for url, h in sorted(hashes.items()):
+        old = state.get(url)
+        if old and old["sha256"] == h:
+            date = old["modified"]
+        else:
+            if old and build_date < old["modified"]:
+                raise BuildError(f"{url} has changed, but the build date {build_date} is earlier than its recorded "
+                                 f"change date {old['modified']}")
+            date = build_date
+            changed.append(url)
+        modified[url] = date
+        new_state[url] = {"sha256": h, "modified": date}
+    return modified, new_state, changed
+
+
+def dates_json(pages):
+    return json.dumps({"schema": 1, "pages": pages}, indent=1, sort_keys=True) + "\n"
+
+
+def seed_page_dates(site):
+    """The baseline: the content hash of every page already on disk with the lastmod of the sitemap on disk."""
+    ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+    try:
+        root = ET.parse(os.path.join(site, "sitemap.xml")).getroot()
+    except (OSError, ET.ParseError) as e:
+        raise BuildError(f"cannot read sitemap.xml to seed {DATES_REL}: {e}")
+    pages = {}
+    for u in root.findall("s:url", ns):
+        url, lastmod = u.find("s:loc", ns).text, u.find("s:lastmod", ns).text
+        try:
+            texts = [open(os.path.join(site, rel), encoding="utf-8").read() for rel in url_files(url)]
+        except OSError as e:
+            raise BuildError(f"cannot read a page of {url}: {e}")
+        pages[url] = {"sha256": page_hash(texts), "modified": lastmod}
+    return dates_json(pages)
+
+
 def build_files(site, build_date):
+    if not iso_date_ok(build_date):
+        raise BuildError(f"build date must be an ISO date, got {build_date!r}")
+    state = load_page_dates(site)
     all_recs = read_json(site, "data/discussions-index.json", {"records": []})["records"]
     recs = [r for r in all_recs if r["id"] not in BLOCKED_POST_IDS and r.get("date") and r.get("source")]
     facts_doc = load_public_facts(site)
@@ -539,22 +656,49 @@ def build_files(site, build_date):
     newest = max(r["date"] for r in recs)
     total_groups = len({r["source"]["name"] for r in recs})
     vc = collections.Counter(vertical_of(n, by_proj[n], dc_names) for n in linked)
-    F = {}
-    for p in projects:
-        F[f"projects/{p['slug']}.html"] = project_html(p, srcs)
-        F[f"projects/{p['slug']}.md"] = project_md(p, srcs)
-    for k, h in hubs.items():
-        F[f"{k}/index.html"] = hub_html(h)
-        F[f"{k}/index.md"] = hub_md(h)
-    urls = [(f"{SITE_URL}/", newest)] + [(f"{SITE_URL}/{k}/", h["latest"]) for k, h in hubs.items()] + \
-           [(f"{SITE_URL}/projects/{p['slug']}.html", p["latest"]) for p in projects]
-    F["sitemap.xml"] = ('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-                        + "".join(f"<url><loc>{xesc(u)}</loc><lastmod>{d}</lastmod></url>\n" for u, d in urls) + "</urlset>\n")
-    F["robots.txt"] = ("".join(f"User-agent: {b}\nAllow: /\nDisallow: /briefs/\n\n" for b in BOTS)
-                       + "User-agent: *\nAllow: /\nDisallow: /briefs/\n\n" + f"Sitemap: {SITE_URL}/sitemap.xml\n")
     desc = (f"{len(recs)} tracked public community posts from {total_groups} Facebook groups, linked to {len(linked)} UK projects "
             f"({vc['Wind, solar and storage']} wind, solar and storage; {vc['Pylons and grid']} pylons and grid; "
             f"{vc['AI data centre']} AI data centres). Posts are archived public group posts, not independently verified.")
+    idx_base = open(os.path.join(site, "index.html"), encoding="utf-8").read()
+    for a, b in (JSONLD_MARK, FOLLOW_MARK):
+        idx_base = re.sub(re.escape(a) + r".*?" + re.escape(b) + r"\n?", "", idx_base, flags=re.S)
+    home_url = f"{SITE_URL}/"
+    page_urls = [home_url] + [f"{SITE_URL}/{k}/" for k in hubs] + [f"{SITE_URL}/projects/{p['slug']}.html" for p in projects]
+
+    def index_html(modified):
+        site_ld = [{"@context": "https://schema.org", "@type": "WebSite", "name": "slava.it.com", "url": home_url,
+                    "description": desc},
+                   dataset_ld("UK infrastructure community discussion archive", desc, home_url, modified,
+                              sorted({t for r in recs for t in (r.get("categories") or [])}))]
+        jl = (f"{JSONLD_MARK[0]}\n" + "\n".join(f'<script type="application/ld+json">{jsonld(x)}</script>' for x in site_ld)
+              + f"\n{JSONLD_MARK[1]}\n")
+        out = idx_base.replace("</head>", jl + "</head>", 1)
+        # the follow bar sits inside the existing footer so it inherits the site's type and margins
+        return out.replace("</footer>", follow_html() + "\n</footer>", 1) if "</footer>" in out \
+            else out.replace("</body>", follow_html() + "\n</body>", 1)
+
+    def render(mod):
+        out = {}
+        for p in projects:
+            out[f"projects/{p['slug']}.html"] = project_html(p, srcs, mod[f"{SITE_URL}/projects/{p['slug']}.html"])
+            out[f"projects/{p['slug']}.md"] = project_md(p, srcs)
+        for k, h in hubs.items():
+            out[f"{k}/index.html"] = hub_html(h, mod[f"{SITE_URL}/{k}/"])
+            out[f"{k}/index.md"] = hub_md(h)
+        out["index.html"] = index_html(mod[home_url])
+        return out
+
+    # Pass 1 renders every page with a placeholder date to hash its content; pass 2 renders with the settled dates.
+    draft = render({u: DATE_SENTINEL for u in page_urls})
+    modified, new_state, changed = settle_page_dates(
+        {u: page_hash([draft[rel] for rel in url_files(u)]) for u in page_urls}, state, build_date)
+    F = render(modified)
+    F[DATES_REL] = dates_json(new_state)
+    F["sitemap.xml"] = ('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+                        + "".join(f"<url><loc>{xesc(u)}</loc><lastmod>{modified[u]}</lastmod></url>\n" for u in page_urls)
+                        + "</urlset>\n")
+    F["robots.txt"] = ("".join(f"User-agent: {b}\nAllow: /\nDisallow: /briefs/\n\n" for b in BOTS)
+                       + "User-agent: *\nAllow: /\nDisallow: /briefs/\n\n" + f"Sitemap: {SITE_URL}/sitemap.xml\n")
     withheld = len(all_recs) - len(recs)
     note = ""
     if withheld:
@@ -580,20 +724,6 @@ def build_files(site, build_date):
         items = [r for r in ordered if set(r.get("categories") or []) & HUBS[k]["cats"]][:FEED_ITEMS]
         path = f"feeds/{HUBS[k]['feed']}.xml"
         F[path] = feed_xml(f"slava.it.com: {h['spec']['name']}", items, path, build_date)
-    idx_html = open(os.path.join(site, "index.html"), encoding="utf-8").read()
-    for a, b in (JSONLD_MARK, FOLLOW_MARK):
-        idx_html = re.sub(re.escape(a) + r".*?" + re.escape(b) + r"\n?", "", idx_html, flags=re.S)
-    site_ld = [{"@context": "https://schema.org", "@type": "WebSite", "name": "slava.it.com", "url": f"{SITE_URL}/",
-                "description": desc},
-               dataset_ld("UK infrastructure community discussion archive", desc, f"{SITE_URL}/", build_date,
-                          sorted({t for r in recs for t in (r.get("categories") or [])}))]
-    jl = (f"{JSONLD_MARK[0]}\n" + "\n".join(f'<script type="application/ld+json">{jsonld(x)}</script>' for x in site_ld)
-          + f"\n{JSONLD_MARK[1]}\n")
-    idx_html = idx_html.replace("</head>", jl + "</head>", 1)
-    # the follow bar sits inside the existing footer so it inherits the site's type and margins
-    idx_html = idx_html.replace("</footer>", follow_html() + "\n</footer>", 1) if "</footer>" in idx_html \
-        else idx_html.replace("</body>", follow_html() + "\n</body>", 1)
-    F["index.html"] = idx_html
     key = read_json(site, "data/indexnow.json", {}).get("key") or uuid.uuid4().hex
     F[f"{key}.txt"] = key + "\n"
     F["data/indexnow.json"] = json.dumps({"key": key}, indent=1) + "\n"
@@ -603,6 +733,7 @@ def build_files(site, build_date):
     stats = {"records": len(recs), "index_records": len(all_recs), "groups": total_groups, "linked_projects": len(linked),
              "project_pages": len(projects), "verticals": dict(vc),
              "hubs": {k: len(h["members"]) for k, h in hubs.items()}, "newest": newest, "key": key,
+             "changed_pages": changed,
              "capsule_words": {p["slug"]: p["words"] for p in projects},
              "stale_project_files": sorted(existing - wanted)}
     return F, stats
@@ -613,14 +744,32 @@ def main(argv=None):
     ap.add_argument("--site", default=SITE_DEFAULT)
     ap.add_argument("--build-date", default=datetime.date.today().isoformat())
     ap.add_argument("--dry-run", action="store_true", help="build in memory and print the checks; write nothing")
+    ap.add_argument("--seed-page-dates", action="store_true",
+                    help=f"write the baseline {DATES_REL} from the pages and sitemap already on disk, then stop")
     a = ap.parse_args(argv)
+    if a.seed_page_dates:
+        target = os.path.join(a.site, DATES_REL)
+        if os.path.exists(target):
+            print(f"error: {DATES_REL} already exists; it is written once and then kept up to date by every build", file=sys.stderr)
+            return 2
+        try:
+            text = seed_page_dates(a.site)
+        except BuildError as e:
+            print(f"error: {e}", file=sys.stderr)
+            return 2
+        os.makedirs(os.path.dirname(target), exist_ok=True)
+        with open(target, "w", encoding="utf-8") as fh:
+            fh.write(text)
+        print(f"wrote {target}: {len(json.loads(text)['pages'])} pages")
+        return 0
     try:
         F, stats = build_files(a.site, a.build_date)
     except BuildError as e:
         print(f"error: {e}", file=sys.stderr)
         return 2
     bad = {s: w for s, w in stats["capsule_words"].items() if not 40 <= w <= 60}
-    print(json.dumps({k: v for k, v in stats.items() if k != "capsule_words"}, indent=1, ensure_ascii=False))
+    print(json.dumps({k: v for k, v in stats.items() if k not in ("capsule_words", "changed_pages")}, indent=1, ensure_ascii=False))
+    print(f"pages with new or changed content (lastmod set to {a.build_date}): {len(stats['changed_pages'])}")
     print("capsules outside 40-60 words:", bad or "none")
     if a.dry_run:
         print("dry run: nothing written;", len(F), "files built")

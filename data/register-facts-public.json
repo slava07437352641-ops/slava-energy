@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-10-17",
+ "generated": "2026-10-18",
  "purpose": "Register facts displayed on the generated project pages. Written by scripts/export_register_facts.py; holds only the displayed facts, their public source links and the source dates and file hashes.",
  "sources": {
   "repd": {
@@ -17,7 +17,7 @@
     },
     {
      "label": "Release date",
-     "value": "unavailable"
+     "value": "2026-08-03"
     },
     {
      "label": "Latest record update in the file",
@@ -25,15 +25,11 @@
     },
     {
      "label": "Download date",
-     "value": "unavailable"
-    },
-    {
-     "label": "Local copy created",
-     "value": "2026-08-30"
+     "value": "2026-08-25"
     },
     {
      "label": "Facts exported",
-     "value": "2026-10-17"
+     "value": "2026-10-18"
     }
    ],
    "files": [
@@ -56,23 +52,15 @@
    "dates": [
     {
      "label": "Release date",
-     "value": "unavailable"
-    },
-    {
-     "label": "Download date",
-     "value": "unavailable"
-    },
-    {
-     "label": "File name date",
      "value": "2026-10-10"
     },
     {
-     "label": "Local copy created",
+     "label": "Download date",
      "value": "2026-10-13"
     },
     {
      "label": "Facts exported",
-     "value": "2026-10-17"
+     "value": "2026-10-18"
     }
    ],
    "files": [
@@ -91,23 +79,15 @@
    "dates": [
     {
      "label": "Release date",
-     "value": "unavailable"
-    },
-    {
-     "label": "Download date",
-     "value": "unavailable"
-    },
-    {
-     "label": "File name date",
      "value": "2026-10-10"
     },
     {
-     "label": "Local copy created",
+     "label": "Download date",
      "value": "2026-10-13"
     },
     {
      "label": "Facts exported",
-     "value": "2026-10-17"
+     "value": "2026-10-18"
     }
    ],
    "files": [

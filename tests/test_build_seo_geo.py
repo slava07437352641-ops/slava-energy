@@ -10,11 +10,13 @@ import export_register_facts as ex  # noqa: E402
 import shutil  # noqa: E402
 
 _CACHE = {}
+# Later than every date recorded in data/page-dates.json, so only changed content takes this date.
+BUILD_DATE = "2026-10-20"
 
 
 def built():
     if "v" not in _CACHE:
-        _CACHE["v"] = sg.build_files(ROOT, "2026-10-17")
+        _CACHE["v"] = sg.build_files(ROOT, BUILD_DATE)
     return _CACHE["v"]
 
 
@@ -59,7 +61,7 @@ def test_sitemap_is_valid_xml_with_lastmod_dates():
     for u in urls:
         assert re.fullmatch(r"\d{4}-\d{2}-\d{2}", u.find("s:lastmod", ns).text)
     assert urls[0].find("s:loc", ns).text == "https://slava.it.com/"
-    assert urls[0].find("s:lastmod", ns).text == stats["newest"]
+    assert urls[0].find("s:lastmod", ns).text >= stats["newest"]  # the home page changes when a newer post arrives, never before
 
 
 def test_capsules_are_40_to_60_words():
@@ -163,7 +165,7 @@ def test_no_public_output_links_to_briefs():
 def _mini_site(tmp_path, with_facts=True, drop_project=None, edit=None):
     """A copy of the inputs the builder needs, with no register files and no database."""
     (tmp_path / "data").mkdir()
-    for rel in ("data/discussions-index.json", "data/indexnow.json", "index.html"):
+    for rel in ("data/discussions-index.json", "data/indexnow.json", sg.DATES_REL, "index.html"):
         shutil.copy(os.path.join(ROOT, rel), tmp_path / rel)
     if with_facts:
         doc = json.load(open(os.path.join(ROOT, sg.FACTS_REL), encoding="utf-8"))
@@ -177,7 +179,7 @@ def _mini_site(tmp_path, with_facts=True, drop_project=None, edit=None):
 
 def test_builder_fails_clearly_when_facts_file_is_missing(tmp_path, capsys):
     site = _mini_site(tmp_path, with_facts=False)
-    assert sg.main(["--site", site, "--build-date", "2026-10-17"]) == 2
+    assert sg.main(["--site", site, "--build-date", BUILD_DATE]) == 2
     err = capsys.readouterr().err
     assert "data/register-facts-public.json is missing" in err and "export_register_facts.py" in err
     assert not (tmp_path / "projects").exists()  # nothing written
@@ -185,7 +187,7 @@ def test_builder_fails_clearly_when_facts_file_is_missing(tmp_path, capsys):
 
 def test_builder_fails_when_a_page_project_has_no_entry(tmp_path, capsys):
     site = _mini_site(tmp_path, drop_project="Whitelee")
-    assert sg.main(["--site", site, "--build-date", "2026-10-17"]) == 2
+    assert sg.main(["--site", site, "--build-date", BUILD_DATE]) == 2
     err = capsys.readouterr().err
     assert "no entry for 1 project page(s): Whitelee" in err
     assert not (tmp_path / "projects").exists()
@@ -198,7 +200,7 @@ def test_builder_rejects_internal_wording_and_bad_links(tmp_path):
         e["sources"].append("http://example.org/not-https")
     site = _mini_site(tmp_path, edit=edit)
     try:
-        sg.build_files(site, "2026-10-17")
+        sg.build_files(site, BUILD_DATE)
     except sg.BuildError as e:
         msg = str(e)
         assert "internal wording 'user'" in msg and "post-ID-sized number" in msg and "non-Facebook https link" in msg
@@ -296,7 +298,9 @@ def test_credits_show_every_source_date_for_the_sources_used():
     for sid in ("repd", "neso_tec"):
         line = "Source dates: " + "; ".join(f"{d['label']}: {d['value']}" for d in doc["sources"][sid]["dates"]) + "."
         assert line in page, sid
-    assert "Release date: unavailable" in page and "Download date: unavailable" in page
+    assert "Release date: 2026-08-03" in page and "Download date: 2026-08-25" in page  # REPD
+    assert "Release date: 2026-10-10" in page and "Download date: 2026-10-13" in page  # NESO TEC
+    assert "unavailable" not in page and "File name date" not in page and "Local copy created" not in page
     assert "Embedded Register" not in page  # Whitelee takes nothing from it
     golt = F["projects/golticlay-wind-farm.md"]
     assert "Data: Embedded Register, National Energy System Operator." in golt
@@ -308,7 +312,7 @@ def test_builder_rejects_a_missing_or_invalid_source_date(tmp_path):
     (tmp_path / "a").mkdir()
     site = _mini_site(tmp_path / "a", edit=drop_release)
     try:
-        sg.build_files(site, "2026-10-17")
+        sg.build_files(site, BUILD_DATE)
     except sg.BuildError as e:
         assert "date 'Release date' missing" in str(e)
     else:
@@ -321,7 +325,7 @@ def test_builder_rejects_a_missing_or_invalid_source_date(tmp_path):
     (tmp_path / "b").mkdir()
     site = _mini_site(tmp_path / "b", edit=bad_value)
     try:
-        sg.build_files(site, "2026-10-17")
+        sg.build_files(site, BUILD_DATE)
     except sg.BuildError as e:
         assert "'Download date' must be an ISO date or 'unavailable'" in str(e)
     else:
@@ -450,7 +454,7 @@ def test_builder_rejects_malformed_records_and_credit_sources(tmp_path):
         doc["sources"]["companies_house"].pop("checked")
     site = _mini_site(tmp_path, edit=break_record)
     try:
-        sg.build_files(site, "2026-10-17")
+        sg.build_files(site, BUILD_DATE)
     except sg.BuildError as e:
         msg = str(e)
         assert "unknown basis 'guess'" in msg and "is not a licensed source" in msg and "source companies_house: checked missing" in msg
@@ -481,7 +485,7 @@ def test_companies_house_credit_carries_its_terms_note_and_check_date():
     page = F["projects/rufus-data-centre-campus-hurlford.html"]
     assert "Data credits" in page and "Companies House" in page
     assert "imposes no rules or requirements on how the information on the public register is used (page updated 9 August 2019)" in page
-    assert "Source dates: Terms checked: 2026-10-17." in page
+    assert "Source dates: Terms checked: 2026-10-17." in re.sub(r"<[^>]+>", "", page)  # the date sits in a no-break span
     assert "does not imply endorsement" in page
 
 
@@ -501,7 +505,7 @@ def test_builder_rejects_a_note_without_records_or_with_internal_wording(tmp_pat
         doc["projects"]["Chapelcross data centre campus (CX Tech)"]["note"] = "a note without records"
     site = _mini_site(tmp_path, edit=bad_notes)
     try:
-        sg.build_files(site, "2026-10-17")
+        sg.build_files(site, BUILD_DATE)
     except sg.BuildError as e:
         assert "Whitelee: invalid note" in str(e) and "a note needs register records" in str(e)
     else:
@@ -559,3 +563,177 @@ def test_dates_and_identifiers_do_not_break_at_hyphens_but_the_text_is_unchanged
     plain = re.sub(r"<[^>]+>", "", page)
     assert "record updated 2010-05-20; status event 2007-12-14" in plain  # wrapping changes markup only, not the words or the copied text
     assert "record updated 2010-05-20; status event 2007-12-14" in F["projects/whitelee.md"]
+
+
+# ---- correction contact, content-change dates and recorded source dates -------------------------------------
+
+CONTACT = "slava@atlasglobal.energy"
+NS = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+CHAPELCROSS = "Chapelcross data centre campus (CX Tech)"
+CHAPELCROSS_URL = "https://slava.it.com/projects/chapelcross-data-centre-campus-cx-tech.html"
+
+
+def _lastmod(sitemap_xml):
+    return {u.find("s:loc", NS).text: u.find("s:lastmod", NS).text for u in ET.fromstring(sitemap_xml).findall("s:url", NS)}
+
+
+def _edit_chapelcross(doc):
+    doc["projects"][CHAPELCROSS]["facts"][0]["value"] = "Validated and open for comment"
+
+
+def test_every_project_page_shows_the_correction_contact_and_no_other_address_appears():
+    F, stats = built()
+    sentence = "For correction, privacy or removal requests:"
+    pages = [p for p in F if p.startswith("projects/")]
+    assert len([p for p in pages if p.endswith(".html")]) == stats["project_pages"] == 36
+    for path in pages:
+        if path.endswith(".html"):
+            footer = F[path][F[path].index("<footer>"):F[path].index("</footer>")]
+            assert f'{sentence} <a href="mailto:{CONTACT}">{CONTACT}</a>.' in footer, path
+        else:
+            assert f"{sentence} {CONTACT}." in F[path], path
+    found = {m.rstrip(".") for text in F.values() for m in re.findall(r"[\w.+-]+@[\w-]+\.[\w.]+", text)}  # a sentence may end in a full stop
+    assert found == {CONTACT}, found
+
+
+def test_committed_pages_are_what_the_builder_produces_and_keep_their_recorded_dates():
+    F, stats = built()
+    assert stats["changed_pages"] == [], "pages are out of date: run python3 scripts/build_seo_geo.py and commit the result"
+    for path, text in F.items():
+        if path in ("llms.txt", "feed.xml") or path.startswith("feeds/"):
+            continue  # these carry the build date
+        assert open(os.path.join(ROOT, path), encoding="utf-8").read() == text, path
+    state = json.load(open(os.path.join(ROOT, sg.DATES_REL), encoding="utf-8"))["pages"]
+    assert _lastmod(F["sitemap.xml"]) == {u: e["modified"] for u, e in state.items()}
+    assert max(state[u]["modified"] for u in state) < BUILD_DATE
+
+
+def test_dateModified_in_each_page_matches_its_sitemap_lastmod():
+    F, _ = built()
+    lastmod = _lastmod(F["sitemap.xml"])
+    checked = 0
+    for path, text in F.items():
+        if not path.endswith(".html"):
+            continue
+        url = ("https://slava.it.com/" if path == "index.html"
+               else f"https://slava.it.com/{path[:-len('index.html')]}" if path.endswith("/index.html")
+               else f"https://slava.it.com/{path}")
+        assert re.findall(r'"dateModified": "([\d-]+)"', text) == [lastmod[url]], path
+        checked += 1
+    assert checked == len(lastmod) == 40
+
+
+def test_page_hash_ignores_dateModified_and_nothing_else():
+    a = '<script>{"dateModified": "2026-10-01", "x": 1}</script>'
+    assert sg.page_hash([a]) == sg.page_hash([a.replace("2026-10-01", "2026-12-31")])
+    assert sg.page_hash([a]) != sg.page_hash([a.replace('"x": 1', '"x": 2')])
+    assert sg.page_hash([a, "b"]) != sg.page_hash([a + "b"])  # the files of a page keep their boundaries
+
+
+def test_a_content_change_sets_only_that_pages_lastmod_and_a_later_rebuild_is_stable(tmp_path):
+    site = _mini_site(tmp_path, edit=_edit_chapelcross)
+    F, stats = sg.build_files(site, "2026-10-25")
+    assert stats["changed_pages"] == [CHAPELCROSS_URL]
+    lastmod = _lastmod(F["sitemap.xml"])
+    assert lastmod[CHAPELCROSS_URL] == "2026-10-25"
+    assert all(d != "2026-10-25" for u, d in lastmod.items() if u != CHAPELCROSS_URL)
+    assert '"dateModified": "2026-10-25"' in F["projects/chapelcross-data-centre-campus-cx-tech.html"]
+    (tmp_path / sg.DATES_REL).write_text(F[sg.DATES_REL], encoding="utf-8")
+    F2, stats2 = sg.build_files(site, "2026-10-30")
+    assert stats2["changed_pages"] == []
+    for path in ("sitemap.xml", sg.DATES_REL, "projects/chapelcross-data-centre-campus-cx-tech.html", "index.html"):
+        assert F2[path] == F[path], path
+
+
+def test_a_new_page_takes_the_build_date(tmp_path):
+    site = _mini_site(tmp_path)
+    state = json.load(open(tmp_path / sg.DATES_REL, encoding="utf-8"))
+    del state["pages"][CHAPELCROSS_URL]
+    (tmp_path / sg.DATES_REL).write_text(json.dumps(state), encoding="utf-8")
+    F, stats = sg.build_files(site, "2026-10-25")
+    assert stats["changed_pages"] == [CHAPELCROSS_URL] and _lastmod(F["sitemap.xml"])[CHAPELCROSS_URL] == "2026-10-25"
+
+
+def test_builder_needs_the_page_dates_baseline(tmp_path, capsys):
+    site = _mini_site(tmp_path)
+    os.remove(tmp_path / sg.DATES_REL)
+    assert sg.main(["--site", site, "--build-date", BUILD_DATE]) == 2
+    err = capsys.readouterr().err
+    assert "data/page-dates.json is missing" in err and "--seed-page-dates" in err
+    assert not (tmp_path / "projects").exists()
+
+
+def test_a_changed_page_cannot_take_a_date_before_its_recorded_change(tmp_path):
+    site = _mini_site(tmp_path, edit=_edit_chapelcross)
+    try:
+        sg.build_files(site, "2026-09-01")
+    except sg.BuildError as e:
+        assert "earlier than its recorded change date" in str(e)
+    else:
+        raise AssertionError("a changed page was given a date before its recorded change")
+
+
+def test_seeding_from_the_committed_pages_reproduces_the_committed_dates(tmp_path):
+    state = json.load(open(os.path.join(ROOT, sg.DATES_REL), encoding="utf-8"))["pages"]
+    for rel in ["sitemap.xml"] + [f for u in state for f in sg.url_files(u)]:
+        os.makedirs(os.path.dirname(tmp_path / rel), exist_ok=True)
+        shutil.copy(os.path.join(ROOT, rel), tmp_path / rel)
+    assert sg.seed_page_dates(str(tmp_path)) == open(os.path.join(ROOT, sg.DATES_REL), encoding="utf-8").read()
+    assert sg.main(["--site", str(tmp_path), "--seed-page-dates"]) == 0
+    assert sg.main(["--site", str(tmp_path), "--seed-page-dates"]) == 2  # written once; never overwritten
+
+
+def test_recorded_source_dates_describe_the_exact_files_and_fill_the_credit_lines():
+    rec = json.load(open(os.path.join(ROOT, ex.DATES_REL), encoding="utf-8"))
+    facts = json.load(open(os.path.join(ROOT, sg.FACTS_REL), encoding="utf-8"))
+    assert rec["schema"] == 1 and set(rec["sources"]) == {"repd", "neso_tec", "neso_embedded"}
+    for sid, e in rec["sources"].items():
+        assert e["sha256"] in {f["sha256"] for f in facts["sources"][sid]["files"]}, sid
+        dates = {d["label"]: d["value"] for d in facts["sources"][sid]["dates"]}
+        assert dates["Release date"] == e["release_date"] and dates["Download date"] == e["download_date"], sid
+        assert "File name date" not in dates and "Local copy created" not in dates, sid
+        assert e["release_date"] <= e["download_date"] <= facts["generated"], sid
+        assert e["release_evidence"].strip() and e["download_evidence"].strip(), sid
+    raw = open(os.path.join(ROOT, ex.DATES_REL), encoding="utf-8").read()
+    for pat in (r"\buser\b", r"\d{13,}", r"[\w.+-]+@[\w-]+\.[\w.]+", r"/Users/", r"facebook\.com"):
+        assert not re.search(pat, raw), pat
+
+
+def _dates_meta(sha):
+    return {"data_sha256": sha, "dates": [{"label": "Release date", "value": "unavailable"},
+                                          {"label": "Download date", "value": "unavailable"},
+                                          {"label": "File name date", "value": "2026-10-10"},
+                                          {"label": "Local copy created", "value": "2026-10-13"}]}
+
+
+def test_recorded_dates_apply_only_to_the_file_they_describe(capsys):
+    sha = "a" * 64
+    rec = {"schema": 1, "sources": {"neso_tec": {"sha256": sha, "release_date": "2026-10-10", "release_evidence": "file name",
+                                                 "download_date": "2026-10-13", "download_evidence": "notes"}}}
+    m = _dates_meta(sha)
+    ex.apply_recorded_dates(rec, "neso_tec", m)
+    assert m["dates"] == [{"label": "Release date", "value": "2026-10-10"}, {"label": "Download date", "value": "2026-10-13"}]
+    other = _dates_meta("b" * 64)  # a refreshed file: the old entry must not describe it
+    ex.apply_recorded_dates(rec, "neso_tec", other)
+    assert [d["value"] for d in other["dates"]] == ["unavailable", "unavailable", "2026-10-10", "2026-10-13"]
+    assert "no entry for the neso_tec file" in capsys.readouterr().err
+    for field, value, why in (("release_date", "10 October 2026", "release_date is not an ISO date"),
+                              ("download_evidence", "", "download_evidence is missing"),
+                              ("release_evidence", "decided by the user", "release_evidence has internal wording 'user'")):
+        bad = json.loads(json.dumps(rec))
+        bad["sources"]["neso_tec"][field] = value
+        try:
+            ex.apply_recorded_dates(bad, "neso_tec", _dates_meta(sha))
+        except ex.ExportError as e:
+            assert why in str(e), (field, str(e))
+        else:
+            raise AssertionError(f"{field} {value!r} was accepted")
+
+
+def test_credit_line_dates_do_not_break_at_hyphens_but_the_text_is_unchanged():
+    F, _ = built()
+    page = F["projects/whitelee.html"]
+    assert '<span style="white-space:nowrap">2026-08-03</span>' in page and '<span style="white-space:nowrap">2026-10-13</span>' in page
+    plain = re.sub(r"<[^>]+>", "", page)
+    assert "Release date: 2026-08-03; Latest record update in the file: 2026-07-24; Download date: 2026-08-25" in plain
+    assert "Release date: 2026-08-03; Latest record update in the file: 2026-07-24; Download date: 2026-08-25" in F["projects/whitelee.md"]

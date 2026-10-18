@@ -42,3 +42,4 @@ Recorded: Status: Application reported filed (2025); no documents or decision fo
 ---
 HTML version: https://slava.it.com/projects/ravenscraig-data-centre-sevenfoureight.html
 Archived public Facebook group posts; not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.

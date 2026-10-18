@@ -46,3 +46,4 @@ Recorded: Status: Unverified: no primary source has been confirmed for display h
 ---
 HTML version: https://slava.it.com/projects/rufus-data-centre-campus-hurlford.html
 Archived public Facebook group posts; not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.

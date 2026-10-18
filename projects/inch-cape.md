@@ -11,7 +11,7 @@ Inch Cape is an AI data centre project tracked on slava.it.com. The archive hold
 
 ## Data credits
 
-- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: unavailable; Latest record update in the file: 2026-07-24; Download date: unavailable; Local copy created: 2026-08-30; Facts exported: 2026-10-17.
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: 2026-08-03; Latest record update in the file: 2026-07-24; Download date: 2026-08-25; Facts exported: 2026-10-18.
 - Use of these registers does not imply endorsement by their publishers.
 
 ## Source groups
@@ -44,3 +44,4 @@ Recorded: REPD status: Under Construction (register).
 ---
 HTML version: https://slava.it.com/projects/inch-cape.html
 Archived public Facebook group posts; not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
