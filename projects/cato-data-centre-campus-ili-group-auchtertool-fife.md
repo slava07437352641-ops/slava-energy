@@ -2,7 +2,9 @@
 
 Cato data centre campus (ILI Group, Auchtertool, Fife) is an AI data centre project tracked on slava.it.com. The archive holds 5 community posts from 1 group, latest 2026-10-15. No planning reference is recorded in the registers used. Status: Application submitted June 2026; more than 1,200 objections reported July 2026; no decision found (reported). Top recurring themes: Data Centre (1).
 
-## Register facts
+## Facts and where they come from
+
+Basis: reported = stated in a report linked under Sources for reported facts; we have not checked it.
 
 | Item | Value | Basis |
 |---|---|---|
@@ -42,4 +44,5 @@ Recorded: Application type: Planning permission in principle (reported) (reporte
 
 ---
 HTML version: https://slava.it.com/projects/cato-data-centre-campus-ili-group-auchtertool-fife.html
-Archived public Facebook group posts; not independently verified. Post text is not reproduced.
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.

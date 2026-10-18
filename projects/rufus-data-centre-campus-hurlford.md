@@ -2,13 +2,15 @@
 
 Rufus data centre campus (Hurlford) is an AI data centre project tracked on slava.it.com. The archive holds 2 community posts from 2 groups, latest 2026-10-16. No planning reference is recorded in the registers used. Status: Unverified: no primary source has been confirmed for display here, so check the council's public planning register. Top recurring themes: Data Centre (2).
 
-## Register facts
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits); inferred = our own deduction, not confirmed by a source; unverified = no source we could rely on was found.
 
 | Item | Value | Basis |
 |---|---|---|
 | Status | Unverified: no primary source has been confirmed for display here, so check the council's public planning register | unverified |
 | Company | ILI RUFUS LIMITED (company number SC825440); Active; incorporated 2024-10-10 | register |
-| Persons with significant control (corporate) | Intelligent Land Investments Group Plc | register |
+| Controlling company (person with significant control) | Intelligent Land Investments Group Plc | register |
 | Council (inferred) | East Ayrshire Council, inferred from the site's location in Hurlford; not confirmed by a planning register | inferred |
 | Capacity | Unverified: no primary source found | unverified |
 
@@ -45,4 +47,5 @@ Recorded: Status: Unverified: no primary source has been confirmed for display h
 
 ---
 HTML version: https://slava.it.com/projects/rufus-data-centre-campus-hurlford.html
-Archived public Facebook group posts; not independently verified. Post text is not reproduced.
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.

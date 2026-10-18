@@ -17,9 +17,11 @@ collection and from the owner's own enrichment, and none of that may reach the p
 value is read from its own primary file, and the file hashes are written to the output so the origin can be
 re-checked.
 
-Dates: the register's own release date is not carried by any input, so it is written as "unavailable". The
-download date is not recorded either; the file's name date and the date the local copy was created are written as
-separate, labelled facts, and the date of this export is written as "Facts exported".
+Dates: no input carries the register's release date or the date the file was downloaded. Both are recorded, with
+their evidence, in data/source-dates.json against the SHA-256 of the exact file they describe; the export uses them
+only when the file's hash matches. For a file with no matching entry the two dates are written as "unavailable" and
+the file's name date and the date the local copy was created are written as separate, labelled facts instead. The
+date of this export is written as "Facts exported".
 
 The export refuses to write if any value contains internal wording, a post-ID-sized number, an email address or a
 non-https link.
@@ -37,6 +39,7 @@ import build_seo_geo as sg  # noqa: E402
 ENV_REPD, ENV_TEC, ENV_EMBEDDED = "SEO_REPD_RELEASE", "SEO_TEC_CSV", "SEO_EMBEDDED_CSV"
 UNAVAILABLE = "unavailable"
 MAPPING_REL = "data/register-mapping.json"
+DATES_REL = "data/source-dates.json"
 CORPORATE = re.compile(r"\b(limited|ltd|plc|llp|lp)\b", re.I)
 
 
@@ -131,7 +134,7 @@ def company_facts(c):
     facts = [fact("Company", f"{c['name']} (company number {c['number']}); {c['status']}; incorporated {c['incorporated']}",
                   "register", "companies_house")]
     if c.get("controllers"):
-        facts.append(fact("Persons with significant control (corporate)", "; ".join(c["controllers"]), "register", "companies_house"))
+        facts.append(fact("Controlling company (person with significant control)", "; ".join(c["controllers"]), "register", "companies_house"))
     return facts, [c["url"]]
 
 
@@ -215,7 +218,7 @@ def read_repd(path):
              {"label": "Local copy created", "value": copy_made}]
     files = [{"name": os.path.basename(path), "sha256": sha256_file(path)},
              {"name": os.path.basename(src[0] or ""), "sha256": src[2]}]
-    return rows, recs, links, {"dates": dates, "files": files}
+    return rows, recs, links, {"dates": dates, "files": files, "data_sha256": src[2]}
 
 
 def read_neso(tec_path, embedded_path):
@@ -237,7 +240,33 @@ def read_neso(tec_path, embedded_path):
                                {"label": "File name date", "value": name_date(path)},
                                {"label": "Local copy created", "value": created_date(path)}],
                      "files": [{"name": os.path.basename(path), "sha256": sha256_file(path)}]}
+        meta[key]["data_sha256"] = meta[key]["files"][0]["sha256"]
     return rows, recs, meta
+
+
+def apply_recorded_dates(recorded, key, meta):
+    """Fill 'Release date' and 'Download date' from data/source-dates.json when its entry describes exactly this file.
+
+    Raises ExportError for an entry that is malformed. An entry for a different file (or none) leaves both dates
+    'unavailable', keeps the name-date and local-copy facts, and prints a warning."""
+    entry = (recorded.get("sources") or {}).get(key)
+    sha = meta["data_sha256"]
+    if not entry or entry.get("sha256") != sha:
+        print(f"warning: {DATES_REL} has no entry for the {key} file with SHA-256 {sha[:12]}...; "
+              "its release and download dates stay 'unavailable'", file=sys.stderr)
+        return
+    problems = [f"{DATES_REL} {key}: {k} is not an ISO date" for k in ("release_date", "download_date") if not sg.iso_date_ok(entry.get(k))]
+    for k in ("release_evidence", "download_evidence"):
+        text = entry.get(k)
+        if not isinstance(text, str) or not text.strip():
+            problems.append(f"{DATES_REL} {key}: {k} is missing")
+        else:
+            problems += [f"{DATES_REL} {key}: {k} has {why}" for pat, why in sg.FORBIDDEN if pat.search(text)]
+    if problems:
+        raise ExportError("; ".join(problems))
+    values = {"Release date": entry["release_date"], "Download date": entry["download_date"]}
+    meta["dates"] = [{"label": d["label"], "value": values.get(d["label"], d["value"])} for d in meta["dates"]
+                     if d["label"] not in ("File name date", "Local copy created")]
 
 
 def build_records(project, mapped, repd_recs, repd_links, neso_recs):
@@ -332,7 +361,11 @@ def main(argv=None):
         repd, repd_recs, repd_links, repd_meta = read_repd(a.repd_release)
         neso, neso_recs, neso_meta = read_neso(a.tec_csv, a.embedded_csv)
         sources = json.loads(json.dumps(SOURCES))
+        recorded = sg.read_json(a.site, DATES_REL, {"schema": 1, "sources": {}})
+        if recorded.get("schema") != 1:
+            raise ExportError(f"{DATES_REL} has an unsupported schema")
         for key, meta in (("repd", repd_meta), *neso_meta.items()):
+            apply_recorded_dates(recorded, key, meta)
             sources[key]["dates"] = meta["dates"] + [{"label": "Facts exported", "value": a.date}]
             sources[key]["files"] = meta["files"]
         projects, problems = {}, []

@@ -2,7 +2,9 @@
 
 Kintore to Tealing 400kV overhead line is a wind, solar and storage project tracked on slava.it.com. The archive holds 5 community posts from 1 group, latest 2026-09-19. No planning reference is recorded in the registers used. Consent or stage: Section 37 application submitted (Scottish Ministers); determination expected within 12 months (reported). Top recurring themes: OHL (Pylons) (1).
 
-## Register facts
+## Facts and where they come from
+
+Basis: reported = stated in a report linked under Sources for reported facts; we have not checked it.
 
 | Item | Value | Basis |
 |---|---|---|
@@ -40,4 +42,5 @@ Recorded: Consent or stage: Section 37 application submitted (Scottish Ministers
 
 ---
 HTML version: https://slava.it.com/projects/kintore-to-tealing-400kv-overhead-line.html
-Archived public Facebook group posts; not independently verified. Post text is not reproduced.
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.

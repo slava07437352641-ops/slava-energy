@@ -21,3 +21,5 @@ Blackdog data centre campus; Cato data centre campus (ILI Group, Auchtertool, Fi
 The most frequent theme tags are Data Centre (38), Onshore Wind (2), BESS (1), from 38 archived public posts.
 
 HTML version: https://slava.it.com/data-centres/
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.

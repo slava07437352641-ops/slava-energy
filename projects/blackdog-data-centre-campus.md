@@ -2,7 +2,9 @@
 
 Blackdog data centre campus is an AI data centre project tracked on slava.it.com. The archive holds 11 community posts from 2 groups, latest 2026-10-15. No planning reference is recorded in the registers used. Status: Phase one reportedly consented by Aberdeenshire Council (press, unverified) (reported). Top recurring themes: Data Centre (8).
 
-## Register facts
+## Facts and where they come from
+
+Basis: reported = stated in a report linked under Sources for reported facts; we have not checked it.
 
 | Item | Value | Basis |
 |---|---|---|
@@ -48,4 +50,5 @@ Recorded: Status: Phase one reportedly consented by Aberdeenshire Council (press
 
 ---
 HTML version: https://slava.it.com/projects/blackdog-data-centre-campus.html
-Archived public Facebook group posts; not independently verified. Post text is not reproduced.
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.

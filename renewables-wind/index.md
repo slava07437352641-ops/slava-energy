@@ -41,3 +41,5 @@ Arecleoch Wind Farm and extension; Berwick Bank Offshore Wind Farm; Carn Fearna 
 The most frequent theme tags are Onshore Wind (65), BESS (4), Data Centre (3), from 67 archived public posts.
 
 HTML version: https://slava.it.com/renewables-wind/
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.

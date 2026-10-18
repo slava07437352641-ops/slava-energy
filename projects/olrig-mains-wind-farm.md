@@ -2,7 +2,9 @@
 
 Olrig Mains Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 2 community posts from 2 groups, latest 2026-09-30. No planning reference is recorded in the registers used. Embedded Register project status: Scoping (register). Top recurring themes: Onshore Wind (2), BESS (1). Posts are archived public group posts and are not independently verified.
 
-## Register facts
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
 
 | Item | Value | Basis |
 |---|---|---|
@@ -10,7 +12,7 @@ Olrig Mains Wind Farm is a wind, solar and storage project tracked on slava.it.c
 
 ## Data credits
 
-- Supported by National Energy SO Open Data. Data: Embedded Register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/embedded-register. Source dates: Release date: unavailable; Download date: unavailable; File name date: 2026-10-10; Local copy created: 2026-10-13; Facts exported: 2026-10-17.
+- Supported by National Energy SO Open Data. Data: Embedded Register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/embedded-register. Source dates: Release date: 2026-10-10; Download date: 2026-10-13; Facts exported: 2026-10-18.
 - Use of these registers does not imply endorsement by their publishers.
 
 ## Source groups
@@ -43,4 +45,5 @@ Recorded: Embedded Register project status: Scoping (register).
 
 ---
 HTML version: https://slava.it.com/projects/olrig-mains-wind-farm.html
-Archived public Facebook group posts; not independently verified. Post text is not reproduced.
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.

@@ -2,7 +2,11 @@
 
 Sanquhar II Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 6 community posts from 2 groups, latest 2026-10-13. 2 register records are listed (2 NESO TEC). All list the status Consents Approved. Top recurring themes: Onshore Wind (5). Posts are archived public group posts and are not independently verified.
 
-## Register facts
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+Abbreviations: TEC = Transmission Entry Capacity register; NESO = National Energy System Operator.
 
 | Item | Value | Basis |
 |---|---|---|
@@ -10,7 +14,7 @@ Sanquhar II Wind Farm is a wind, solar and storage project tracked on slava.it.c
 
 ## Register records
 
-Each row is one register record with its own identifier; records are not combined. Relationships are stated only where a register links the records, and are otherwise labelled as unlinked or unverified. REPD dates are the record's update date and the date of the status event where one is recorded. The NESO files give no status date; the date shown is the MW effective-from date.
+Each row is one register record with its own identifier; records are not combined. Relationships are stated only where a register links the records, and are otherwise labelled as unlinked or unverified. The NESO files give no status date; the date shown is the MW effective-from date.
 
 | Register | Identifier | Name as recorded | Status | Capacity | Date | Relationship |
 |---|---|---|---|---|---|---|
@@ -19,7 +23,7 @@ Each row is one register record with its own identifier; records are not combine
 
 ## Data credits
 
-- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register. Source dates: Release date: unavailable; Download date: unavailable; File name date: 2026-10-10; Local copy created: 2026-10-13; Facts exported: 2026-10-17.
+- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register. Source dates: Release date: 2026-10-10; Download date: 2026-10-13; Facts exported: 2026-10-18.
 - Use of these registers does not imply endorsement by their publishers.
 
 ## Source groups
@@ -54,4 +58,5 @@ All 2 listed register records show the status Consents Approved.
 
 ---
 HTML version: https://slava.it.com/projects/sanquhar-ii-wind-farm.html
-Archived public Facebook group posts; not independently verified. Post text is not reproduced.
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.

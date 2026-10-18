@@ -2,7 +2,9 @@
 
 Beauly to Peterhead 400kV overhead line is a pylons and grid project tracked on slava.it.com. The archive holds 4 community posts from 2 groups, latest 2026-10-14. No planning reference is recorded in the registers used. Consent or stage: Section 37 application, ECU00005165, submitted October 2025 (reported). Top recurring themes: OHL (Pylons) (3), Substation (1).
 
-## Register facts
+## Facts and where they come from
+
+Basis: reported = stated in a report linked under Sources for reported facts; we have not checked it.
 
 | Item | Value | Basis |
 |---|---|---|
@@ -41,4 +43,5 @@ Recorded: Consent or stage: Section 37 application, ECU00005165, submitted Octob
 
 ---
 HTML version: https://slava.it.com/projects/beauly-to-peterhead-400kv-overhead-line.html
-Archived public Facebook group posts; not independently verified. Post text is not reproduced.
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
