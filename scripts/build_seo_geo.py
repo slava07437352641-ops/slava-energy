@@ -427,6 +427,18 @@ def records_md(p):
     return (f"## Register records\n\n{RECORD_NOTE}\n\n| " + " | ".join(RECORD_HEAD) + " |\n|" + "---|" * len(RECORD_HEAD) + f"\n{rows}\n\n{note}")
 
 
+def meta_description(text, limit=160):
+    """The longest run of whole sentences within the limit, so a search snippet never ends mid-sentence or mid-date.
+    Only a first sentence longer than the limit is cut, at a word boundary."""
+    out = ""
+    for s in re.split(r"(?<=[.!?])\s+", text.strip()):
+        cand = f"{out} {s}".strip()
+        if len(cand) > limit:
+            break
+        out = cand
+    return out or text[:limit - 1].rsplit(" ", 1)[0].rstrip(",;:") + "…"
+
+
 def nowrap_dates(text):
     """Keep each ISO date on one line instead of breaking at its hyphens (markup only; the words are unchanged)."""
     return re.sub(r"(\d{4}-\d{2}-\d{2})", r'<span style="white-space:nowrap">\1</span>', text)
@@ -485,7 +497,7 @@ def project_html(p, srcs, modified):
             f"{qa_html}\n<h2>Archive entries</h2><ul>{entries}</ul>\n<p><a href=\"/\">Back to the archive</a></p>")
     url = f"{SITE_URL}/projects/{p['slug']}.html"
     ds = dataset_ld(f"Community discussion archive: {p['title']}", p["capsule"], url, modified, sorted(p["themes"]))
-    return page(f"{p['title']} · community discussion archive", p["capsule"][:155], url, body, [ds, faq_ld(p["qa"])],
+    return page(f"{p['title']} · community discussion archive", meta_description(p["capsule"]), url, body, [ds, faq_ld(p["qa"])],
                 RECORDS_CSS if p["records"] else "", contact=True)
 
 
@@ -519,7 +531,7 @@ def hub_html(h, modified):
             f"<h2>Projects</h2><table><tr><th>Project</th><th>Posts</th><th>Latest</th></tr>{rows}</table>\n"
             f"<h2>Theme breakdown</h2><table><tr><th>Theme</th><th>Posts</th></tr>{trows}</table>\n{qa_html}")
     url = f"{SITE_URL}/{h['key']}/"
-    return page(f"{h['spec']['name']} · community discussion archive", h["capsule"][:155], url, body,
+    return page(f"{h['spec']['name']} · community discussion archive", meta_description(h["capsule"]), url, body,
                 [dataset_ld(f"Community discussion archive: {h['spec']['name']}", h["capsule"], url, modified,
                             sorted(h["themes"])), faq_ld(h["qa"])])
 

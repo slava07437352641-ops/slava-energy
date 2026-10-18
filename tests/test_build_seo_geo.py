@@ -737,3 +737,22 @@ def test_credit_line_dates_do_not_break_at_hyphens_but_the_text_is_unchanged():
     plain = re.sub(r"<[^>]+>", "", page)
     assert "Release date: 2026-08-03; Latest record update in the file: 2026-07-24; Download date: 2026-08-25" in plain
     assert "Release date: 2026-08-03; Latest record update in the file: 2026-07-24; Download date: 2026-08-25" in F["projects/whitelee.md"]
+
+
+def test_meta_descriptions_end_at_a_sentence_never_mid_date():
+    F, _ = built()
+    checked = 0
+    for path, text in F.items():
+        if not path.endswith(".html") or path == "index.html":
+            continue
+        d = htmllib.unescape(re.search(r'<meta name="description" content="([^"]*)"', text).group(1))
+        assert 40 <= len(d) <= 160 and d.endswith("."), (path, d)  # whole sentences only, so no date is cut short
+        checked += 1
+    assert checked == 39  # 36 project pages and 3 hubs
+
+
+def test_meta_description_cuts_a_very_long_first_sentence_at_a_word():
+    long_first = "word " * 60 + "end."
+    d = sg.meta_description(long_first, 160)
+    assert len(d) <= 160 and d.endswith("…") and " " not in d[-3:] and not d[:-1].endswith("wor")
+    assert sg.meta_description("One. Two sentences fit. Three is too long to add here at all", 25) == "One. Two sentences fit."
