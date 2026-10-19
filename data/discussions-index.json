@@ -1,16 +1,16 @@
 {
- "generated": "2026-10-18T17:12:35.000Z",
+ "generated": "2026-10-19T15:17:40.000Z",
  "counts": {
-  "records": 3889,
+  "records": 3905,
   "thin": 320,
-  "withMedia": 1356,
-  "withCategories": 1123,
+  "withMedia": 1372,
+  "withCategories": 1135,
   "withTopics": 316,
   "withProject": 210,
   "withCoordinates": 95,
   "withSummary": 52,
-  "withBodyText": 2474,
-  "withPhotos": 1353,
+  "withBodyText": 2490,
+  "withPhotos": 1369,
   "withPreviewImage": 64,
   "councils": 4,
   "matchReviewLogged": 2,
@@ -22,7 +22,7 @@
  },
  "dateRange": {
   "from": "2024-04-12",
-  "to": "2026-10-18"
+  "to": "2026-10-19"
  },
  "records": [
   {
@@ -103110,6 +103110,630 @@
      "text": "YOUTUBE.COM Bowen is in trouble, Net Zero is dead, a reckoning is coming. Topher Project Ep 518",
      "url": "https://www.youtube.com/watch?v=sbenNPDi-tM"
     }
+   ]
+  },
+  {
+   "id": "29777748441827501",
+   "date": "2026-10-19",
+   "title": "Scotland Against Spin",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Scotland Against Spin",
+    "label": "Facebook · Scotland Against Spin",
+    "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29777748441827501/"
+   },
+   "thin": false,
+   "bodyText": "Campaigners in the Scottish Borders say windfarm applications should come under the same scrutiny as data centres.\nThe call comes after a key debate in the Scottish parliament in which Hannah Mary Goodlad, Minister for Public Finance, accepted an amendment put forward by Scottish Labour, that planning guidance for data centres “must provide clarity on spatial, community and social impacts of any such developments and that decisions must be based on community consent.”\nCampaigners say the impact of windfarms and vast battery storage sites is equally damaging and should also be based on community consent, particularly given that Scotland’s energy needs have already been met.\nMIDLOTHIANVIEW.COM Call for windfarms to be assessed on same principle as data centres - Midlothian View",
+   "contentFingerprint": "5e83e10c8e640107efcefc08d2b62c780f04f76effb9c4463b27a3937b0e781f",
+   "photos": [
+    "media/facebook/29777748441827501/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "MIDLOTHIANVIEW.COM Call for windfarms to be assessed on same principle as data centres - Midlothian View",
+     "url": "https://midlothianview.com/news/call-for-windfarms-to-be-assessed-on-same-principle-as-data-centres"
+    }
+   ],
+   "categories": [
+    "BESS",
+    "Data Centre",
+    "Hybrid",
+    "Onshore Wind"
+   ]
+  },
+  {
+   "id": "29773117692290576",
+   "date": "2026-10-19",
+   "title": "Scotland Against Spin",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Scotland Against Spin",
+    "label": "Facebook · Scotland Against Spin",
+    "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29773117692290576/"
+   },
+   "thin": false,
+   "bodyText": "They must be desperate!\nDoes the prospect of paying an energy bill seem more daunting these days?\nWell, for a few hundred households around the Cabrach in Moray, the number they could soon see at the bottom of their bill is zero.\nAnyone in zone one will have their full energy bill paid each year, based on the Ofgem energy price cap.\nThose in zone two will have 50% of their electricity costs paid for by Galileo, and across the two zones it plans to cover over 400 properties.\nPRESSANDJOURNAL.CO.UK Exclusive: How Moray wind farm plans to use AI to pay full energy bills of nearby residents",
+   "contentFingerprint": "f0a72c511e0209cc14c3e2cfae8be205db53732e903bc5f65c6cb8a299dd9841",
+   "photos": [
+    "media/facebook/29773117692290576/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "PRESSANDJOURNAL.CO.UK Exclusive: How Moray wind farm plans to use AI to pay full energy bills of nearby residents",
+     "url": "https://www.pressandjournal.co.uk/fp/news/moray/7130305/moray-wind-farm-dorenell-galileo-ai-energy-bills/"
+    }
+   ],
+   "categories": [
+    "Onshore Wind"
+   ]
+  },
+  {
+   "id": "29766251509643861",
+   "date": "2026-10-18",
+   "title": "Scotland Against Spin",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Scotland Against Spin",
+    "label": "Facebook · Scotland Against Spin",
+    "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29766251509643861/"
+   },
+   "thin": false,
+   "bodyText": "Britain will be forced to rely on the EU to keep its lights on this winter after official figures showed the UK had to import a record £4bn worth of power in the year to August.  Read the full story here \nhttps://archive.ph/VKsVC#selection-3395.0-3395.177\nhttps://www.telegraph.co.uk/.../britain-must-rely-on-eu.../\nTELEGRAPH.CO.UK Britain must ‘rely on EU to keep lights on’ this winter",
+   "contentFingerprint": "1bcf5d6a203d60f821ecad20785274c2e32a5353e7fe446499b0ef168391fe86",
+   "photos": [
+    "media/facebook/29766251509643861/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "https://archive.ph/VKsVC#selection-3395.0-3395.177",
+     "url": "https://archive.ph/VKsVC#selection-3395.0-3395.177"
+    },
+    {
+     "text": "https://www.telegraph.co.uk/.../britain-must-rely-on-eu.../",
+     "url": "https://www.telegraph.co.uk/news/2026/10/18/britain-must-rely-on-eu-to-keep-lights-on-this-winter/"
+    },
+    {
+     "text": "TELEGRAPH.CO.UK Britain must ‘rely on EU to keep lights on’ this winter",
+     "url": "https://www.telegraph.co.uk/news/2026/10/18/britain-must-rely-on-eu-to-keep-lights-on-this-winter/"
+    }
+   ]
+  },
+  {
+   "id": "1407099254915649",
+   "date": "2026-10-19",
+   "title": "Scottish Electricity Generating Stations",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Scottish Electricity Generating Stations",
+    "label": "Facebook · Scottish Electricity Generating Stations",
+    "url": "https://www.facebook.com/groups/443369301288654/posts/1407099254915649/"
+   },
+   "thin": false,
+   "bodyText": "Methil Power Station\nAs part of an agreement with the National Coal Board (NCB), the South of Scotland Electricity Board (SSEB) took control of Kelty Power Station and agreed to build power plants capable of burning coal slurry. This slurry was a waste product from coal washeries located across the central belt of Scotland. As a result new power stations were constructed at Barony and Methil in 1960s.\nMethil Power Station was situated in the town of Methil at Innerleven on the south bank of the River Leven on the Firth of Forth,\nThe plant was designed by Ross-Smith and Jamieson Architects and was built on an area of reclaimed land which was leased from Forth Ports plc.\nThe plant was a coal-slurry fired power station which utilised local Fife coalfield waste from coal washeries and had a total capacity 57 MWe output. It was a ‘sister’ station to the generating station of Barony in Ayrshire and was commissioned in 1965. It was finally closed in 1999 and demolition began in early 2010.\nThe site included the following elements:\nRail network - bringing in coal slurry to the east side of the main building.\nCoal handling and crane gantry areas - the trains reversed into the gantry area where there were coal grabs. The coal would be emptied into concrete open ‘bund’ which was used as the coal slurry store. This would then be transferred by crane to the Milling Area bay into individual hoppers above each hammer mill.\nMilling Area – where coal slurry was pulverised in hammer mill pulverisers (into a finer uniform powder) and dried by the hot air from the boiler furnace.\nBoiler House – where the coal dust was blown into the boilers by fans. There was one boiler for each turbine. The coal dust would then be burnt, and water was heated to produce steam to drive the turbo alternator. Make water was stored in blue tanks on site and taken from the mains supply before treatment for use in the process.\nTurbine Hall: the electricity was produced by the turbo alternators and supplied via transformers (stepped up to 33,000 volts) and then onto a substation connected to the National Grid.\nTurbine Hall 2 x 30MWe English Electric Turbo Alternators and condensers and associated auxiliary equipment. Various administrative buildings and workshops and the best canteen in the SSEB\nElectrical annexe - housed the transformers and switchgear.\nChimney – Methil had one brick (single flue) chimney, clad in concrete. This removed fuel gases from the process to atmosphere.\nPrecipitators – They removed dust from the flue gases and consisted of large, cladded, steel boxes with HV electrodes to charge the dust particles to collector plants. ID fans which draw the flue gases from the boiler and discharged@ to the chimney. Most precipitates were gathered in hoppers and removed from the site with the ash from the boilers.\nWater Treatment – for treating mains water used to top up the process cycle.\nCooling Water Intake & Outfall. Seawater extracted from the Forth to feed condensers and discharged waste heat back to the Forth. The condenser cools steam leaving the turbine, back into water to allow reuse in the process cycle. Unfortunately the CW inlet was located close to the regional sewage discharge outlet...\nThe power station consisted of two 30MW English Electric Turbo Alternator generation units for a peak output of 57 MWe the station. It was commissioned in 1965 for the then South of Scotland Electricity Board. Built on the site of a golf course, it was designed to utilise low-grade coal slurry supplied from the washeries of the nearby Fife coalfield. This coal was delivered by road and rail wagons shunted into and out of elevated sidings. Like almost all other coal-fired power stations in Scotland, Methil did not use cooling towers, instead using sea water as coolant.\nAs the Scottish coalfields were exhausted or abandoned in the mid-1980s, waste accumulated in coal tips (bings), and this waste was used as a fuel in the Methil and Barony power stations. However, as the tips were cleared, operations at the two stations ceased due to lack of coal-slurry fuel and the uneconomical operation of smaller power stations.\nThe station ceased generating in 2000 and was put into standby as a strategic reserve. The power station was finally demolished in 2011 as part of a regeneration of this area.\nThe site was transferred back to Forth Ports plc after the site had been cleared.\n— in Methil, Fife.",
+   "contentFingerprint": "30ea72895b7b008a6da32edbc1b7beac4694742f4c2ecb7fe1b568cc4b747883",
+   "photos": [
+    "media/facebook/1407099254915649/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "categories": [
+    "Onshore Wind",
+    "Substation"
+   ]
+  },
+  {
+   "id": "1115649764198138",
+   "date": "2026-10-19",
+   "title": "Communities B4 Power Companies",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Communities B4 Power Companies",
+    "label": "Facebook · Communities B4 Power Companies",
+    "url": "https://www.facebook.com/groups/221782186918238/posts/1115649764198138/"
+   },
+   "thin": false,
+   "bodyText": "Hope okay to post here, all welcome!",
+   "contentFingerprint": "cf3a3409795fc83589fb516beb3cb70a1b189635fbab9a03553deb9cca49b073",
+   "photos": [
+    "media/facebook/1115649764198138/photo_1.png"
+   ],
+   "mediaCount": 1
+  },
+  {
+   "id": "1115632417533206",
+   "date": "2026-10-19",
+   "title": "Communities B4 Power Companies",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Communities B4 Power Companies",
+    "label": "Facebook · Communities B4 Power Companies",
+    "url": "https://www.facebook.com/groups/221782186918238/posts/1115632417533206/"
+   },
+   "thin": false,
+   "bodyText": "One for the techies\nBIOENGINEER.ORG Wind Turbine Blades Lose Up to 9% Power as Leading-Edge Erosion Progresses,",
+   "contentFingerprint": "91558241a0acebb58261d793a0dbf9a43eaf328014709da417d838d9c1e896c6",
+   "photos": [
+    "media/facebook/1115632417533206/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "BIOENGINEER.ORG Wind Turbine Blades Lose Up to 9% Power as Leading-Edge Erosion Progresses,",
+     "url": "https://bioengineer.org/wind-turbine-blades-lose-up-to-9-power-as-leading-edge-erosion-progresses-wind-tunnel-study-shows/#google_vignette"
+    }
+   ],
+   "categories": [
+    "Onshore Wind"
+   ]
+  },
+  {
+   "id": "28753778734275544",
+   "date": "2026-10-19",
+   "title": "Environmentalists Against Wind Turbines",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Environmentalists Against Wind Turbines",
+    "label": "Facebook · Environmentalists Against Wind Turbines",
+    "url": "https://www.facebook.com/groups/835899539823505/posts/28753778734275544/"
+   },
+   "thin": false,
+   "bodyText": "ORSTED HIRED COAST GUARD EXECUTIVE 6 MONTHS AFTER F/V MISTRESS ACCIDENT\nAugust 2019\nhttps://www.nationalfisherman.com/.../orsted-hires-coast...\nThe former Coast Guard waterways management chief for New England has joined offshore wind energy company Ørsted, as the emerging U.S. industry comes to grips with pushback from commercial fishermen and other interests.\nEd LeBlanc, a former Coast Guard officer and most recently chief of the Waterways Management Division for Coast Guard Sector Southeastern New England, will be manager of marine affairs for Ørsted U.S. Offshore Wind, the Denmark-based energy company’s American division.\nIn his last position of 16 years with the Coast Guard First District, LeBlanc was in the forefront of planning to how the newly arriving offshore wind industry could coexist with commercial fishing and maritime transportation traffic in the Northeast. An element of that will be safe vessel transit lanes through planned wind turbine arrays off Martha’s Vineyard, Mass.\nEd LeBlanc, the former chief of waterways management at the Coast Guard Southeast New England sector, is Ørsted's new manager of marine affairs.\nLinkedIn photo.\nhttps://www.linkedin.com/in/edward-leblanc-59492122/...\nOne conceptual layout proposed in late 2018 by the Responsible Offshore Development Alliance, a coalition of fishing groups, would set aside lanes with setbacks so fishing vessels can safely transit between ports like New Bedford, Mass., to Georges Bank and other fishing grounds.\nThe spacing and orientation of the turbine arrays is under intense debate, with commercial fishing groups in New England and New York warning the designs could make mobile gear fishing impossible.\nThe decision appears to be a sudden slowdown in what has been strong federal support for developing offshore wind. Democratic and Republican lawmakers from Massachusetts and Louisiana – both states that stand to gain jobs from building and operating the new offshore industry – wrote to Bernhardt and Secretary of Commerce Wilbur Ross Aug. 16 urging “your departments to work together to find a solution that will address concerns raised by stakeholders, protect the environment, and allow the Vineyard Wind project to remain viable.”\nSigned by Sens. Ed Markey and Elizabeth Warren of Massachusetts and Bill Cassidy and John Kennedy of Louisiana, the letter makes the case that offshore wind power will benefit Massachusetts residents with reliable energy – and Gulf of Mexico states, where the prospect of building turbine foundations and offshore wind service vessels is a bright hope for the maritime industry. Reps. Joseph Kennedy III, Richard Neal, and William Keating of Massachusetts and Steve Scalise of Louisiana also signed on to the message.\nThe members of Congress wrote that “Louisiana and Gulf Coast companies that have decades of experience working in the Gulf of Mexico are eager to make needed investments to support this project and future offshore wind energy projects.”\nFor Ørsted, adding LeBlanc, with his 40 years' experience with the Coast Guard, to its team is part of a push to build relationships with the larger maritime community.\n“We are thrilled to add such an accomplished veteran of the USCG to our team. Ed’s breadth of experience will be a significant addition to the Marine Affairs department,” said John O’Keeffe, head of marine affairs U.S. for Ørsted, in announcing LeBlanc’s move.\nLeBlanc has \"invaluable institutional knowledge of how the offshore wind industry interacts with the marine community,” according to the Ørsted statement. “His experience working with industry since its nascency in the U.S. mirrors Ørsted’s own experience with the industry’s beginnings in Europe.”\nThe company says it “will bolster its marine community outreach efforts as its projects move closer to the construction phase. Ørsted’s commitment to working with the marine community, including the fishing industry, demonstrates how it has successfully built offshore wind farms across Europe to deliver clean energy and economic development to local communities.”\nØrsted is holding three of those community outreach sessions in New Jersey next week to talk about its proposed Ocean Wind project off Atlantic City. The first will be held Aug. 26 at 6 p.m. in the Stockton University Atlantic City Academic Center, located at 3711 Atlantic Avenue, Atlantic City.\nIn addition to the company’s outreach campaign, LeBlanc will help coordinate the company’s safety operations with the Coast Guard, and aim to establish industry-wide standards. That is a critical area for the service’s vessel and aviation operators, who must train to safely transit and conduct search and rescue operations amid turbine arrays.\nThe Coast Guard recently conducted its first-ever such exercise working with Ørsted and General Electric at the Block Island Wind Farm off Rhode Island.\nThat five-turbine, 30 MW array is the first U.S. commercial offshore wind pilot project – and a fraction of the size proposed for energy developments on offshore federal leases.\nKirk Moore\nSenior Associate Editor\nAugust 2026, Green Oceans in a targeted dive finds F/V Mistress 50 feet from Block Island turbine #1",
+   "contentFingerprint": "4e0e4dca313c6118ce83f31b512acfb78f5bb972804e6fd4d78bc2c4b8755fe7",
+   "photos": [
+    "media/facebook/28753778734275544/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "https://www.nationalfisherman.com/.../orsted-hires-coast...",
+     "url": "https://www.nationalfisherman.com/northeast/orsted-hires-coast-guard-waterways-chief"
+    },
+    {
+     "text": "https://www.linkedin.com/in/edward-leblanc-59492122/...",
+     "url": "https://www.linkedin.com/in/edward-leblanc-59492122/?isSelfProfile=false"
+    }
+   ],
+   "categories": [
+    "Onshore Wind"
+   ]
+  },
+  {
+   "id": "1416171223421651",
+   "date": "2026-10-19",
+   "title": "Worth Valley against Walshaw Moor Wind Farm",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Worth Valley against Walshaw Moor Wind Farm",
+    "label": "Facebook · Worth Valley against Walshaw Moor Wind Farm",
+    "url": "https://www.facebook.com/groups/735756034796510/posts/1416171223421651/"
+   },
+   "thin": false,
+   "bodyText": "On a wander through the back roads of the Planning Inspectorate, one of our supporters came across an interesting email.\nThe background to this is that a huge solar farm on the Cambridgeshire/Suffolk border, the Sunnica Energy Farm, which is a Nationally Significant Infrastructure Project (NSIP), was granted a Development Consent Order (DCO) by Ed Miliband in July 2024. The project covers three sites spanning 2,500 acres/ 1012 ha and would affect the villages of West Row and Mildenhall, Worlington and an area off the A14 near Newmarket. So far no construction has taken place.\nOn 8 April 2024, Claire Coutinho, at the time the Secretary of State for Energy Security and Net Zero, received an email with the subject 'Large DCO Appicayions ˜ Sunnica etc' (sic).\nCoutinho's correspondent was writing 'to vehemently object' to the Sunnica proposal.\nThey wrote: 'Siting compounds and solar sites between and close to a number of closely related historic villages cause significant and detrimental industrialisation of a wholly rural area.'\nFurthermore, they maintain that 'the development would, due to its location and scale, result in significant long-term harm to the character of the landscape including the setting of settlements.'\nThey go on to say that 'due to its location and scale, (the site) would fail to protect, conserve or enhance space between settlements and their wider landscape setting, key views into and out of settlements and the unspoiled nature and tranquillity of the area.'\nThe email was forwarded to the Department for Business, Energy and Industrial Strategy and was flagged as *Not a constituent*\nWho could this person possibly be?\nWhy, none other than 'Christopher D G Wilson, Executive Chairman Worldwide Renewable Energy Global Ltd' (and founder of Calderdale Wind Farm Ltd).\nI don't know precisely why Wilson got caught up in the campaign against Sunnica, but I suspect that, like his friend Richard Bannister, he is a racing man and may well be acquainted with the racing community around the Sunnica sites.\nLet us hope that his concerns for the fate of the landscape around Sunnica also apply to our wholly rural moor, with its historic villages such as Haworth and its key views...\nJust in case you were wondering what our campaign was doing at the time Wilson was firing off emails about his deep concerns for the environment, here's a lovely blog, published on 4 April 2024 and written by our supporter, the writer and cartographer Chris Goddard: https://markavery.info/.../guest-blog-walshaw-turbine-34.../",
+   "contentFingerprint": "026071becf842dafe89b2f77eeb542a23a7e2cc7cd95b0841cd1ab469b57a3be",
+   "photos": [
+    "media/facebook/1416171223421651/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "https://markavery.info/.../guest-blog-walshaw-turbine-34.../",
+     "url": "https://markavery.info/2024/04/04/guest-blog-walshaw-turbine-34-by-christopher-goddard/"
+    }
+   ],
+   "categories": [
+    "Onshore Wind",
+    "Solar"
+   ]
+  },
+  {
+   "id": "1565139198992122",
+   "date": "2026-10-18",
+   "title": "Rural Scotland (APRS)",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Rural Scotland (APRS)",
+    "label": "Facebook Page · Rural Scotland",
+    "url": "https://www.facebook.com/APRScotland/posts/1565139198992122"
+   },
+   "thin": false,
+   "bodyText": "This is a really important data centre to object to - notwithstanding that the application came in five days after Parliament voted to pause decisions on hyperscale data centres until Scottish Government have produced guidance, it's to be 1000MW.\nYes you read that correctly ONE THOUSAND megawatts. \nThe energy it would use in a year running at 80% load (NESO estimate for AI data centres) would be the equivilent of 31% of the total electricity used in Scotland 2024.\nMindblowing. Bear in mind that the biggest data centre currently operating in the world is Musk's Colossus II (946MW).Have a read about the issues they've been having trying to get it built and powered, the gas turbine generators installed without permits to bring power, the air pollution, the court cases....\nHere's the link. https://aprs.scot/.../how-to-object-to-the-proposed.../",
+   "contentFingerprint": "4d4b2abeead099b763dc1026f2bab31ce73bd7c6decbcd1688a0d82811be95cc",
+   "photos": [
+    "media/facebook/1565139198992122/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "https://aprs.scot/.../how-to-object-to-the-proposed.../",
+     "url": "https://aprs.scot/resources/how-to-object-to-the-proposed-1000mw-chapelcross-data-centre/"
+    }
+   ],
+   "categories": [
+    "Data Centre"
+   ]
+  },
+  {
+   "id": "122136483855244466",
+   "date": "2026-10-19",
+   "title": "Our Power",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Our Power",
+    "label": "Facebook Page · Our Power",
+    "url": "https://www.facebook.com/ourpower.scot/posts/122136483855244466"
+   },
+   "thin": false,
+   "bodyText": "There’s been a lot of splashy coverage about Galileo Empower’s plan to use \"AI technology\" to cover energy bills for nearby residents around the Dorenell Wind Farm extension near Dufftown and the Cabrach.\nIt sounds like a win on the surface. Who wouldn't want £0 at the bottom of their energy bill?\nBut let’s look past the slick PR campaign.\nA £1.8 million annual fund and automated bill credits are corporate handouts, designed to secure planning consent while external developers and global financial funds siphon off tens of millions of pounds in long-term profits generated right here on Moray’s hills.\nHere is why rural communities across Scotland deserve better:\nDiscretionary Handouts vs. Equity: Industry data shows that 100% community-owned wind farms return up to 52 times more revenue to local areas than corporate community benefit schemes.\nZero Real Control: An AI-managed discount scheme keeps local residents completely dependent on the corporation's terms. If energy price caps shift, tax laws change, or the asset is sold, those \"handouts\" can disappear.\nTrue Local Investment: When a community owns its energy assets, the profits don't go to foreign shareholders, they stay 100% local to build affordable council housing, fund school retention, upgrade rural transport, and guarantee low-cost power permanently.\nMoray’s land, wind, and landscape are priceless local assets. We shouldn't be settling for crumbs dropped off the bottom of a corporate balance sheet.\nIt’s time to shift the conversation in Scotland from \"How much discount will you give us?\" to \"Why shouldn't the community own the energy?\" \n What do you think? Would you prefer a monthly bill credit from a multinational firm, or full community equity and ownership of local wind farms? Let’s hear your thoughts below.",
+   "contentFingerprint": "6dabd550f2531480b21c55740accb7439fa79ad5e3fdad078d7beb75f0e683e7",
+   "photos": [
+    "media/facebook/122136483855244466/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "categories": [
+    "Onshore Wind"
+   ]
+  },
+  {
+   "id": "1570277641785008",
+   "date": "2026-10-19",
+   "title": "Our Power",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Our Power",
+    "label": "Facebook Page · Our Power",
+    "url": "https://www.facebook.com/ourpower.scot/posts/1570277641785008"
+   },
+   "thin": false,
+   "bodyText": "Another very busy day at conference, with plenty of opportunities to get around the exhibition stands, meet organisations and discuss issues affecting people across the constituency.\nI was pleased to meet with RNIB Scotland and hear more about the issues affecting blind and partially sighted people, and the work they are doing to improve accessibility and support.\nI also stopped by the MCS Foundation stand, where they had put together a Cowdenbeath-specific quiz as part of their snakes and ladders game on heat pumps and energy efficiency. It was a good way of highlighting just how far we still have to go in improving energy efficiency, moving towards cleaner heating and helping to bring down energy costs for households across the constituency.\nI met with Our Power to discuss community ownership of energy assets and the potential benefits that could bring locally, and also visited the Movember stand to learn more about their work supporting men’s mental health and wellbeing, alongside their long-standing work raising awareness of prostate cancer and other men’s health issues. They even managed to get me into the barber’s chair for a quick tidy-up before the rest of conference!\nA really useful conversation with StepChange focused on the support available to people experiencing debt and the importance of people getting help as early as possible. I’ll be making sure information about their services is available through my constituency office so that people know where they can turn for free and practical support.\nI also learned more about the Bank of Scotland Foundation and the important core funding it provides to charities and community organisations across Scotland.\nAlongside the exhibition, I joined a number of fringe events and had the opportunity to sit down with Forth Ports for further discussions about the Rosyth ferry and their decision to withdraw from the service. I also spoke with Scottish Swimming about community access to facilities in Inverkeithing and what the future may hold there.\nIt was an extremely busy day, but a very productive one, with plenty of useful conversations and a number of follow-ups now to take forward after conference.",
+   "contentFingerprint": "3442e30fe4f2c85f03b947808d1e7b31fdcaa82bbec6082e9ca06a32cdd8f03f",
+   "photos": [
+    "media/facebook/1570277641785008/photo_1.png"
+   ],
+   "mediaCount": 1
+  },
+  {
+   "id": "3605106336303836",
+   "date": "2026-10-19",
+   "title": "Help Save Mochrum Fell",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Help Save Mochrum Fell",
+    "label": "Facebook · Help Save Mochrum Fell",
+    "url": "https://www.facebook.com/groups/1730785547069267/posts/3605106336303836/"
+   },
+   "thin": false,
+   "bodyText": "OBJECT.NOW Charleston Energy Park | ObjectNow r͏ o͏ p͏ o͏ t͏ S͏ d͏ e͏ s͏ n͏ f͏ r͏ u͏ h͏ u͏ 3͏ 6͏ t͏ i͏ 1͏ m͏ f͏ u͏ a͏ L͏ l͏ 1͏ 0͏ a͏ 3͏ m͏ c͏ u͏ 7͏ c͏ 3͏ e͏ 7͏ l͏ 2͏ f͏ 4͏ 6͏ c͏ 5͏ 9͏ 5͏ e͏ ͏ u͏ h͏ t͏ 2͏ r͏ 9͏ f͏ n͏ 6͏ 0͏ o͏",
+   "contentFingerprint": "6461e704a6ed049a3aea651962dfedc8466d7daf918e47de3212b24d10927275",
+   "photos": [
+    "media/facebook/3605106336303836/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "OBJECT.NOW Charleston Energy Park | ObjectNow r͏ o͏ p͏ o͏ t͏ S͏ d͏ e͏ s͏ n͏ f͏ r͏ u͏ h͏ u͏ 3͏ 6͏ t͏ i͏ 1͏ m͏ f͏ u͏ a͏ L͏ l͏ 1͏ 0͏ a͏ 3͏ m͏ c͏ u͏ 7͏ c͏ 3͏ e͏ 7͏ l͏ 2͏ f͏ 4͏ 6͏ c͏ 5͏ 9͏ 5͏ e͏ ͏ u͏ h͏ t͏ 2͏ r͏ 9͏ f͏ n͏ 6͏ 0͏ o͏",
+     "url": "https://object.now/charleston-energy-park/"
+    },
+    {
+     "text": "r͏ o͏ p͏ o͏ t͏ S͏ d͏ e͏ s͏ n͏ f͏ r͏ u͏ h͏ u͏ 3͏ 6͏ t͏ i͏ 1͏ m͏ f͏ u͏ a͏ L͏ l͏ 1͏ 0͏ a͏ 3͏ m͏ c͏ u͏ 7͏ c͏ 3͏ e͏ 7͏ l͏ 2͏ f͏ 4͏ 6͏ c͏ 5͏ 9͏ 5͏ e͏ ͏ u͏ h͏ t͏ 2͏ r͏ 9͏ f͏ n͏ 6͏ 0͏ o͏",
+     "url": "https://object.now/charleston-energy-park/"
+    }
+   ]
+  },
+  {
+   "id": "1583671229707486",
+   "date": "2026-10-19",
+   "title": "Say No To Cato Data Centre",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Say No To Cato Data Centre",
+    "label": "Facebook · Say No To Cato Data Centre",
+    "url": "https://www.facebook.com/groups/1472242997516977/posts/1583671229707486/"
+   },
+   "thin": false,
+   "bodyText": "Whatever your views are about Data Centres, Wind farms, Solar farms,  BESS, etc. they all rely on getting the power generated to somewhere else via Electricity lines and Pylons. The costs to upgrade the Transmission Network are reflected in your electric bill. \n****There is a petition at the end of this article which you may wish to sign and share****. \nWe, our children and grandchildren will be living with the consequences for the next 45 years.....\nHOPETOSAVEOURCOUNTRYSIDE.COM TODAY’S TARGETS. OUR CHILDREN’S BILLS.",
+   "contentFingerprint": "9774d0f77196e0b91416230cf000e31b84dfb866942987d1f91251cb28f0499e",
+   "photos": [
+    "media/facebook/1583671229707486/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "HOPETOSAVEOURCOUNTRYSIDE.COM TODAY’S TARGETS. OUR CHILDREN’S BILLS.",
+     "url": "https://hopetosaveourcountryside.com/2026/10/18/todays-targets-our-childrens-bills/"
+    }
+   ],
+   "categories": [
+    "BESS",
+    "Data Centre",
+    "Hybrid",
+    "OHL (Pylons)",
+    "Onshore Wind",
+    "Solar"
+   ]
+  },
+  {
+   "id": "1084420407735738",
+   "date": "2026-10-19",
+   "title": "Say NO to Chapelcross AI Data Centre",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Say NO to Chapelcross AI Data Centre",
+    "label": "Facebook · Say NO to Chapelcross AI Data Centre",
+    "url": "https://www.facebook.com/groups/1015424481301998/posts/1084420407735738/"
+   },
+   "thin": false,
+   "bodyText": "Hi all,\nA quick update on planning objections for Chapelcross Data Centre. I have today received confirmation that Dumfries & Galloway Council will be counting each objection separately (including those made through the Scottish Greens’ e-action). They have also confirmed that the provision of email addresses and postcodes in an objection is acceptable, meaning all objections will be counted regardless of whether they included a full address or not.\nIf you haven’t already, object to Chapelcross (it takes 30 seconds): greens.scot/chapelcrossdatacentre",
+   "contentFingerprint": "02b50ac18ba53b8f56fe73be046ba2b38f25de87a7b6dd53a3fdb838545b3c29",
+   "photos": [
+    "media/facebook/1084420407735738/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "greens.scot/chapelcrossdatacentre",
+     "url": "http://greens.scot/chapelcrossdatacentre"
+    }
+   ],
+   "categories": [
+    "Data Centre"
+   ]
+  },
+  {
+   "id": "1119430271056026",
+   "date": "2026-10-19",
+   "title": "RE-Think Wales",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "RE-Think Wales",
+    "label": "Facebook · RE-Think Wales",
+    "url": "https://www.facebook.com/groups/rethinkwales/posts/1119430271056026/"
+   },
+   "thin": false,
+   "bodyText": "WE MUST PRESSURE PLAID: There IS an alternative to wrecking Welsh landscapes\nThe National Grid is preparing us all for power cuts and spend £50 million a day balancing the grid … we’ve been close to national blackouts on many occasions in the last few years and adding more unreliable renewables would worsen it.\n‘They’ KNOW SMR’s are coming, and by the time Wales got its 800 odd planned turbines they’d already be obsolete. Late 2020’s-early 2030s being estimated.\nThe scaremongering on so-called safety issues when it comes to small nuclear is palpable and myth-driven. Any half decent physicist will agree.\nAnd if 1kg of uranium produces the same amount of energy as 3 million tonnes of coal (coal being used to produce turbines and solar panels) there really is no argument.\nWe must pressure Plaid Cymru to JUSTIFY wrecking the landscapes of Wales forever when better alternatives are not far away. There would then be no justification at all",
+   "contentFingerprint": "3cad41056b8ff2207b013bb8ec7b4c2b61d1bc752708b277b96cb77e78f31835",
+   "photos": [
+    "media/facebook/1119430271056026/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "categories": [
+    "Onshore Wind",
+    "Solar"
+   ]
+  },
+  {
+   "id": "1171687172000965",
+   "date": "2026-10-19",
+   "title": "No Pylons Lincolnshire",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "No Pylons Lincolnshire",
+    "label": "Facebook · No Pylons Lincolnshire",
+    "url": "https://www.facebook.com/groups/427539323082424/posts/1171687172000965/"
+   },
+   "thin": false,
+   "bodyText": "DID YOU ATTEND A WMEL OR WINDSOCK CONSULTATION?\nWe'd really appreciate some feedback from those who attended the recent public consultation events.\nWe're particularly interested in two questions:\nWMEL (National Grid): Were you able to see the proposed heights of individual pylons along the route, rather than just the maximum possible height?\nWindsock Solar Farm: Were you given a clear explanation of exactly where the development would connect to the electricity grid? Were you shown a location or proposed connection route?\nPlease let us know which event you attended and what information you were given.\nDid you get answers to questions?\nHow was the turnout?\nThank you",
+   "contentFingerprint": "e0549a443740cc52910c3a3d77a9b074a6332161371b2c4d696802a0da233d49",
+   "photos": [
+    "media/facebook/1171687172000965/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "categories": [
+    "OHL (Pylons)",
+    "Solar"
    ]
   }
  ]
