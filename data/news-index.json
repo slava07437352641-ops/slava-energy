@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T09:26:17.000Z",
+ "generated": "2026-10-21T10:36:32.000Z",
  "sourceFilter": [
   "Scotland Against Spin",
   "Environmentalists Against Wind Turbines",
@@ -33,7 +33,8 @@
   "Say NO to Chapelcross AI Data Centre",
   "Hurlford Rufus Data Centre Community Group",
   "Dunbar Against Massive Datacentres (DAMD)",
-  "WISBECH WITHOUT INCINERATION (WisWIN)"
+  "WISBECH WITHOUT INCINERATION (WisWIN)",
+  "HOPE for Britain's countryside"
  ],
  "selection": "strict global recency (most recent records first, across all tracked sources)",
  "counts": {
@@ -45,8 +46,9 @@
   "Communities B4 Power Companies": 2,
   "No Pylons Lincolnshire": 1,
   "Wind Energy's Absurd": 1,
+  "HOPE for Britain's countryside": 2,
   "Environmentalists Against Wind Turbines": 1,
-  "Say NO to Chapelcross AI Data Centre": 4
+  "Say NO to Chapelcross AI Data Centre": 2
  },
  "dateRange": {
   "from": "2026-10-20",
@@ -494,6 +496,45 @@
    ]
   },
   {
+   "id": "122133887499026358",
+   "date": "2026-10-21",
+   "title": "HOPE for Britain's countryside",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "HOPE for Britain's countryside",
+    "label": "Facebook Page · HOPE for Britain's countryside",
+    "url": "https://www.facebook.com/61580790753946/posts/122133887499026358/"
+   },
+   "thin": false,
+   "bodyText": "WHO IS LISTENING TO THE PEOPLE KEEPING BRITAIN’S LIGHTS ON?\nAn independent investigation has identified serious weaknesses in NESO’s culture and governance, including concerns about whether frontline engineers are being heard.\nEmergency electricity assistance from Europe. Grid bottlenecks preventing power reaching consumers. Expensive interventions to keep the system balanced.\nAnd Ofgem’s technical investigation into June’s grid events remains unfinished.\nThese are serious questions about the electricity system our homes, businesses and essential services depend upon.\nBefore ministers push Britain further towards dependence on electricity, they must demonstrate that the system can deliver—and explain the full cost to the people paying for it.\nMAKE THEM SHOW THE EVIDENCE.\nRead the investigation:\n\"https://hopetosaveourcountryside.com/?p=3319\" (https://hopetosaveourcountryside.com/?p=3319)\n Sign our petition for a pause and an independent national assessment:\n\"https://petition.parliament.uk/petitions/780321\" (https://petition.parliament.uk/petitions/780321)\nAlready signed? Ask one friend or family member today.\n#EnergySecurity #NetZero #EnergyBills #NESO #HopeToSaveOurCountryside",
+   "contentFingerprint": "d0641ae5420d0a8af4379b4f0f3ccc3ed3e436eed5c6466dfa4a816250986d79",
+   "photos": [
+    "media/facebook/122133887499026358/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "https://hopetosaveourcountryside.com/?p=3319",
+     "url": "https://hopetosaveourcountryside.com/?p=3319"
+    },
+    {
+     "text": "https://petition.parliament.uk/petitions/780321",
+     "url": "https://petition.parliament.uk/petitions/780321?utm_id=97758_v0_s00_e0_tv2_a1den1nmkiepsq"
+    }
+   ]
+  },
+  {
    "id": "29802879149314430",
    "date": "2026-10-21",
    "title": "Scotland Against Spin",
@@ -525,6 +566,45 @@
     {
      "text": "BBC.CO.UK UK government approves Jackdaw gas field in the North Sea - follow live",
      "url": "https://www.bbc.co.uk/news/live/cw8rzgvlmjznt"
+    }
+   ]
+  },
+  {
+   "id": "122133884619026358",
+   "date": "2026-10-21",
+   "title": "HOPE for Britain's countryside",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "HOPE for Britain's countryside",
+    "label": "Facebook Page · HOPE for Britain's countryside",
+    "url": "https://www.facebook.com/61580790753946/posts/122133884619026358/"
+   },
+   "thin": false,
+   "bodyText": "FAHNBULLEH CHOOSES. YOU LIVE WITH THE CONSEQUENCES.\nSix energy pathways. One minister selects the preferred option. Public consultation on the draft plan comes afterwards.\nDecisions that could shape your countryside, energy infrastructure and bills until 2050.\nMeanwhile, England’s wider land framework projects up to 129,000 hectares for solar and wind by 2035.\nHave you seen the alternatives? The full bill? The consequences for farming and food security?\nHow much can communities really change once the Government has backed its preferred plan?\nOUR COUNTRYSIDE. OUR MONEY. OUR RIGHT TO CHALLENGE.\n \"Read the full blog\" (https://hopetosaveourcountryside.com/.../fahnbulleh.../)\nMAKE THEM SHOW THE EVIDENCE.\n \"Sign and share our petition\" (https://petition.parliament.uk/petitions/780321)\nAlready signed? Ask one friend or family member to join you.",
+   "contentFingerprint": "20fbb331b707323e9c6ce071e3e1ddef320c7f84225935ad5ca0edc6d851b4c1",
+   "photos": [
+    "media/facebook/122133884619026358/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "https://hopetosaveourcountryside.com/.../fahnbulleh.../",
+     "url": "https://hopetosaveourcountryside.com/2026/10/21/fahnbulleh-chooses-your-countryside-your-future-until-2050/"
+    },
+    {
+     "text": "https://petition.parliament.uk/petitions/780321",
+     "url": "https://petition.parliament.uk/petitions/780321?utm_id=97758_v0_s00_e0_tv2_a1den1nmkiepsq"
     }
    ]
   },
@@ -638,64 +718,6 @@
    "categories": [
     "Data Centre"
    ]
-  },
-  {
-   "id": "1085085577669221",
-   "date": "2026-10-20",
-   "title": "Say NO to Chapelcross AI Data Centre",
-   "provenance": {
-    "title": {
-     "method": "neutral"
-    },
-    "bodyText": {
-     "method": "content_before_first_comment"
-    },
-    "photos": {
-     "method": "screenshot"
-    }
-   },
-   "source": {
-    "type": "facebook_group",
-    "name": "Say NO to Chapelcross AI Data Centre",
-    "label": "Facebook · Say NO to Chapelcross AI Data Centre",
-    "url": "https://www.facebook.com/groups/1015424481301998/posts/1085085577669221/"
-   },
-   "thin": false,
-   "bodyText": "Why is this not happening here ??!! I honestly think that even if the site was to be turned into a landfill site the majority of locals wouldn't speak out..it really saddens me. Too many folks moan amongst themselves but are happy to leave it to others to speak out loud.",
-   "contentFingerprint": "ccd517d31f33d83cb197bdde2b4afcb5ef50ed9d3e7ccd6de935c20e4d432ef2",
-   "photos": [
-    "media/facebook/1085085577669221/photo_1.png"
-   ],
-   "mediaCount": 1
-  },
-  {
-   "id": "1085086317669147",
-   "date": "2026-10-20",
-   "title": "Say NO to Chapelcross AI Data Centre",
-   "provenance": {
-    "title": {
-     "method": "neutral"
-    },
-    "bodyText": {
-     "method": "content_before_first_comment"
-    },
-    "photos": {
-     "method": "screenshot"
-    }
-   },
-   "source": {
-    "type": "facebook_group",
-    "name": "Say NO to Chapelcross AI Data Centre",
-    "label": "Facebook · Say NO to Chapelcross AI Data Centre",
-    "url": "https://www.facebook.com/groups/1015424481301998/posts/1085086317669147/"
-   },
-   "thin": false,
-   "bodyText": "Cmon folks...WE should be doing this !!",
-   "contentFingerprint": "95686aac6c84f250907519e852fddf4d264a41aefae236631a6ce01470d920e9",
-   "photos": [
-    "media/facebook/1085086317669147/photo_1.png"
-   ],
-   "mediaCount": 1
   }
  ]
 }

@@ -1,8 +1,8 @@
 # slava.it.com
 
-> 3941 tracked public community posts from 33 Facebook groups, linked to 83 UK projects (65 wind, solar and storage; 11 pylons and grid; 7 AI data centres). Posts are archived public group posts, not independently verified.
+> 3948 tracked public community posts from 34 Facebook groups, linked to 83 UK projects (65 wind, solar and storage; 11 pylons and grid; 7 AI data centres). Posts are archived public group posts, not independently verified.
 
-Counts are generated from the discussions index on 2026-10-21. Projects with at least two linked posts have a page. The discussions index holds 3,942 records; these pages cover 3,941 because 1 record is excluded from them.
+Counts are generated from the discussions index on 2026-10-21. Projects with at least two linked posts have a page. The discussions index holds 3,949 records; these pages cover 3,948 because 1 record is excluded from them.
 
 ## Hubs
 - [Pylons and grid transmission](https://slava.it.com/pylons-grid/index.md): 4 projects, 6 posts; latest 2026-10-14

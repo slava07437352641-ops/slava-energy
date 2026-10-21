@@ -1,16 +1,16 @@
 {
- "generated": "2026-10-21T09:26:17.000Z",
+ "generated": "2026-10-21T10:36:32.000Z",
  "counts": {
-  "records": 3942,
+  "records": 3949,
   "thin": 320,
-  "withMedia": 1409,
-  "withCategories": 1152,
+  "withMedia": 1416,
+  "withCategories": 1154,
   "withTopics": 316,
   "withProject": 210,
   "withCoordinates": 95,
   "withSummary": 52,
-  "withBodyText": 2526,
-  "withPhotos": 1406,
+  "withBodyText": 2533,
+  "withPhotos": 1413,
   "withPreviewImage": 64,
   "councils": 4,
   "matchReviewLogged": 2,
@@ -105068,6 +105068,295 @@
    "mediaCount": 1,
    "categories": [
     "Data Centre"
+   ]
+  },
+  {
+   "id": "122133887499026358",
+   "date": "2026-10-21",
+   "title": "HOPE for Britain's countryside",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "HOPE for Britain's countryside",
+    "label": "Facebook Page · HOPE for Britain's countryside",
+    "url": "https://www.facebook.com/61580790753946/posts/122133887499026358/"
+   },
+   "thin": false,
+   "bodyText": "WHO IS LISTENING TO THE PEOPLE KEEPING BRITAIN’S LIGHTS ON?\nAn independent investigation has identified serious weaknesses in NESO’s culture and governance, including concerns about whether frontline engineers are being heard.\nEmergency electricity assistance from Europe. Grid bottlenecks preventing power reaching consumers. Expensive interventions to keep the system balanced.\nAnd Ofgem’s technical investigation into June’s grid events remains unfinished.\nThese are serious questions about the electricity system our homes, businesses and essential services depend upon.\nBefore ministers push Britain further towards dependence on electricity, they must demonstrate that the system can deliver—and explain the full cost to the people paying for it.\nMAKE THEM SHOW THE EVIDENCE.\nRead the investigation:\n\"https://hopetosaveourcountryside.com/?p=3319\" (https://hopetosaveourcountryside.com/?p=3319)\n Sign our petition for a pause and an independent national assessment:\n\"https://petition.parliament.uk/petitions/780321\" (https://petition.parliament.uk/petitions/780321)\nAlready signed? Ask one friend or family member today.\n#EnergySecurity #NetZero #EnergyBills #NESO #HopeToSaveOurCountryside",
+   "contentFingerprint": "d0641ae5420d0a8af4379b4f0f3ccc3ed3e436eed5c6466dfa4a816250986d79",
+   "photos": [
+    "media/facebook/122133887499026358/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "https://hopetosaveourcountryside.com/?p=3319",
+     "url": "https://hopetosaveourcountryside.com/?p=3319"
+    },
+    {
+     "text": "https://petition.parliament.uk/petitions/780321",
+     "url": "https://petition.parliament.uk/petitions/780321?utm_id=97758_v0_s00_e0_tv2_a1den1nmkiepsq"
+    }
+   ]
+  },
+  {
+   "id": "122133884619026358",
+   "date": "2026-10-21",
+   "title": "HOPE for Britain's countryside",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "HOPE for Britain's countryside",
+    "label": "Facebook Page · HOPE for Britain's countryside",
+    "url": "https://www.facebook.com/61580790753946/posts/122133884619026358/"
+   },
+   "thin": false,
+   "bodyText": "FAHNBULLEH CHOOSES. YOU LIVE WITH THE CONSEQUENCES.\nSix energy pathways. One minister selects the preferred option. Public consultation on the draft plan comes afterwards.\nDecisions that could shape your countryside, energy infrastructure and bills until 2050.\nMeanwhile, England’s wider land framework projects up to 129,000 hectares for solar and wind by 2035.\nHave you seen the alternatives? The full bill? The consequences for farming and food security?\nHow much can communities really change once the Government has backed its preferred plan?\nOUR COUNTRYSIDE. OUR MONEY. OUR RIGHT TO CHALLENGE.\n \"Read the full blog\" (https://hopetosaveourcountryside.com/.../fahnbulleh.../)\nMAKE THEM SHOW THE EVIDENCE.\n \"Sign and share our petition\" (https://petition.parliament.uk/petitions/780321)\nAlready signed? Ask one friend or family member to join you.",
+   "contentFingerprint": "20fbb331b707323e9c6ce071e3e1ddef320c7f84225935ad5ca0edc6d851b4c1",
+   "photos": [
+    "media/facebook/122133884619026358/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "https://hopetosaveourcountryside.com/.../fahnbulleh.../",
+     "url": "https://hopetosaveourcountryside.com/2026/10/21/fahnbulleh-chooses-your-countryside-your-future-until-2050/"
+    },
+    {
+     "text": "https://petition.parliament.uk/petitions/780321",
+     "url": "https://petition.parliament.uk/petitions/780321?utm_id=97758_v0_s00_e0_tv2_a1den1nmkiepsq"
+    }
+   ]
+  },
+  {
+   "id": "122133826149026358",
+   "date": "2026-10-20",
+   "title": "HOPE for Britain's countryside",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "HOPE for Britain's countryside",
+    "label": "Facebook Page · HOPE for Britain's countryside",
+    "url": "https://www.facebook.com/61580790753946/posts/122133826149026358/"
+   },
+   "thin": false,
+   "bodyText": "Thank you to everyone who has shared this post.\nOur petition calls for a temporary suspension of Climate Change Act targets until Parliament has considered an independent national assessment of their full costs and impacts.\nIf you support that request, please add your name:\n\"Sign the petition\" (https://petition.parliament.uk/petitions/780321)\nAlready signed? Please share the petition link so others can take part.\nMAKE THEM SHOW THE EVIDENCE.",
+   "contentFingerprint": "2de7c3fc8b50a8fcb59190f9a06cf87831a8e38411d9c166050e0b9c96306d7c",
+   "photos": [
+    "media/facebook/122133826149026358/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "https://petition.parliament.uk/petitions/780321",
+     "url": "https://petition.parliament.uk/petitions/780321?utm_id=97758_v0_s00_e0_tv2_a1den1nmkiepsq"
+    }
+   ]
+  },
+  {
+   "id": "122133792027026358",
+   "date": "2026-10-20",
+   "title": "HOPE for Britain's countryside",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "HOPE for Britain's countryside",
+    "label": "Facebook Page · HOPE for Britain's countryside",
+    "url": "https://www.facebook.com/61580790753946/posts/122133792027026358/"
+   },
+   "thin": false,
+   "bodyText": "THIS IS WHAT THEY CALL SAVING THE PLANET. WATCH THE VIDEO.\nApparently, destroying the countryside is perfectly acceptable — provided you call it GREEN.\nIn May 2024, a hillside at Upper Kergord in Shetland gave way, sending a torrent of peat down the landscape during construction work on the Kergord–Gremista electricity connection.\nThis wasn't construction of the Viking wind farm itself. It was associated grid infrastructure. And that distinction makes the wider question even more important.\nHow much environmental destruction are we prepared to tolerate in the name of environmental protection?\nPeatlands take centuries, sometimes thousands of years, to develop. They are natural carbon stores, valuable habitats and part of Britain's irreplaceable landscape.\nYet we are repeatedly told that the industrialisation of our countryside is necessary to save the environment.\nWhat a staggering contradiction.\nPoliticians celebrate renewable capacity. Developers announce investment. Energy companies talk about sustainability.\nBut who accounts for the damaged land, disturbed peat, construction impacts and the consequences for local communities?\nYou cannot claim to be protecting the environment while treating the countryside as expendable.\nWe need proper scrutiny of the full environmental consequences of these developments, not just the electricity they might generate.\nAnd we need politicians who understand the difference between genuinely protecting nature and simply meeting a government target.\nThe industry calls it progress. The countryside pays the price.\nWatch the BBC footage and judge for yourself.\nhttps://www.bbc.co.uk/.../uk-scotland-north-east-orkney...\nhttps://petition.parliament.uk/petitions/780321\n#SaveOurCountryside #Shetland #NetZero #Peatlands #EnergyPolicy #EnvironmentalProtection\nBBC.CO.UK Footage shows landslide at Shetland wind farm",
+   "contentFingerprint": "45efb3ad130736bba6858f8fbb7b27b3fe8311ce65dcba8adb8eda9fd4d5810d",
+   "photos": [
+    "media/facebook/122133792027026358/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "https://www.bbc.co.uk/.../uk-scotland-north-east-orkney...",
+     "url": "https://www.bbc.co.uk/news/av/uk-scotland-north-east-orkney-shetland-68978378"
+    },
+    {
+     "text": "https://petition.parliament.uk/petitions/780321",
+     "url": "https://petition.parliament.uk/petitions/780321?utm_id=97758_v0_s00_e0_tv2_a1den1nmkiepsq"
+    },
+    {
+     "text": "BBC.CO.UK Footage shows landslide at Shetland wind farm",
+     "url": "https://www.bbc.co.uk/news/av/uk-scotland-north-east-orkney-shetland-68978378"
+    }
+   ],
+   "categories": [
+    "Onshore Wind"
+   ]
+  },
+  {
+   "id": "122133783621026358",
+   "date": "2026-10-20",
+   "title": "HOPE for Britain's countryside",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "HOPE for Britain's countryside",
+    "label": "Facebook Page · HOPE for Britain's countryside",
+    "url": "https://www.facebook.com/61580790753946/posts/122133783621026358/"
+   },
+   "thin": false,
+   "bodyText": "MILLIONS WASTED IN THE PURSUIT OF RENEWABLES — AND WHO PAYS THE PRICE?\nMillions of pounds paid to turn down wind farms because the grid cannot handle their electricity. Peatlands disturbed, water pollution concerns and communities left questioning where the promised benefits have gone.\nOur latest investigation into Shetland's Viking Wind Farm reveals over £20 million in constraint payments during 2025 and part of 2026 alone.\nMeanwhile, the companies report substantial profits, and ordinary households continue paying the bills.\nHow much more countryside must we sacrifice, and how many more millions must consumers pay, before Parliament demands a proper assessment of the true costs?\nWe are not asking for miracles. We are demanding accountability, transparency and evidence.\n READ THE FULL INVESTIGATION:\nhttps://hopetosaveourcountryside.com/?p=3249\n SIGN AND SHARE OUR PARLIAMENTARY PETITION:\nhttps://petition.parliament.uk/petitions/780321\nMAKE THEM SHOW THE EVIDENCE.\nPlease sign, share and help us demand answers before more irreversible decisions are made about Britain's energy future and countryside.\n#MakeThemShowTheEvidence #ProtectOurCountryside #EnergyBills #RenewableEnergy #Shetland #NetZero",
+   "contentFingerprint": "5652f8fdce7a42ff98ab6748d625b64e2d6d0f773770db3e97f32c228a743a72",
+   "photos": [
+    "media/facebook/122133783621026358/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "https://hopetosaveourcountryside.com/?p=3249",
+     "url": "https://hopetosaveourcountryside.com/?p=3249"
+    },
+    {
+     "text": "https://petition.parliament.uk/petitions/780321",
+     "url": "https://petition.parliament.uk/petitions/780321?utm_id=97758_v0_s00_e0_tv2_a1den1nmkiepsq"
+    }
+   ],
+   "categories": [
+    "Onshore Wind"
+   ]
+  },
+  {
+   "id": "122133664347026358",
+   "date": "2026-10-19",
+   "title": "HOPE for Britain's countryside",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "HOPE for Britain's countryside",
+    "label": "Facebook Page · HOPE for Britain's countryside",
+    "url": "https://www.facebook.com/61580790753946/posts/122133664347026358/"
+   },
+   "thin": false,
+   "bodyText": "https://hopetosaveourcountryside.com/?p=3228\nFEWER THAN 1,800 SIGNATURES TO GO.\nMore than 8,200 people have signed. At 10,000, the Government must respond.\nOur petition asks for a pause in Climate Change Act targets until Parliament has considered an independent national assessment of their full costs and impacts.\nWhat will it cost? What infrastructure is needed? Who pays?\nMAKE THEM SHOW THE EVIDENCE.\nPlease sign:\nhttps://petition.parliament.uk/petitions/780321\nAlready signed? Please send this directly to three people and ask them to join us.\nHOPETOSAVEOURCOUNTRYSIDE.COM TODAY’S TARGETS. OUR CHILDREN’S BILLS.",
+   "contentFingerprint": "c1378135d5d79e32092d022189696eabd2b2bd89c707cdd866d50d1c30af25f6",
+   "photos": [
+    "media/facebook/122133664347026358/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "https://hopetosaveourcountryside.com/?p=3228",
+     "url": "https://hopetosaveourcountryside.com/?p=3228"
+    },
+    {
+     "text": "https://petition.parliament.uk/petitions/780321",
+     "url": "https://petition.parliament.uk/petitions/780321?utm_id=97758_v0_s00_e0_tv2_a1den1nmkiepsq"
+    },
+    {
+     "text": "HOPETOSAVEOURCOUNTRYSIDE.COM TODAY’S TARGETS. OUR CHILDREN’S BILLS.",
+     "url": "https://hopetosaveourcountryside.com/2026/10/18/todays-targets-our-childrens-bills/"
+    }
+   ]
+  },
+  {
+   "id": "122133590877026358",
+   "date": "2026-10-18",
+   "title": "HOPE for Britain's countryside",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "HOPE for Britain's countryside",
+    "label": "Facebook Page · HOPE for Britain's countryside",
+    "url": "https://www.facebook.com/61580790753946/posts/122133590877026358/"
+   },
+   "thin": false,
+   "bodyText": "THEY SET THE TARGETS. WE PAY THE BILLS. OUR CHILDREN KEEP PAYING.\nThe applause in Westminster was easy. Paying for the consequences will take generations.\nOur latest investigation follows the money: grid construction, financing, subsidies, balancing costs and the changes reaching into our homes.\nOfgem itself compares network funding to repaying a 45-year loan, with interest.\nThese commitments deserve scrutiny before families are left paying for decades.\nWhat is the complete cost? What is missing from the headline promises? Who is accountable if the infrastructure arrives late or fails to deliver value?\nOur bills. Our countryside. Our children’s future. We deserve answers.\nRead the investigation:\nhttps://hopetosaveourcountryside.com/?p=3228\n MAKE THEM SHOW THE EVIDENCE.\nSign our petition calling for a pause to Climate Change Act targets pending an independent national impact assessment:\nhttps://petition.parliament.uk/petitions/780321\nOne signature is all we ask. Share if you care.",
+   "contentFingerprint": "981500d0578d83ae0c784d2705fdeac3d82d7953ce1726189804ae382a80b447",
+   "photos": [
+    "media/facebook/122133590877026358/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "https://hopetosaveourcountryside.com/?p=3228",
+     "url": "https://hopetosaveourcountryside.com/?p=3228"
+    },
+    {
+     "text": "https://petition.parliament.uk/petitions/780321",
+     "url": "https://petition.parliament.uk/petitions/780321?utm_id=97758_v0_s00_e0_tv2_a1den1nmkiepsq"
+    }
    ]
   }
  ]
