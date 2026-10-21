@@ -1,16 +1,16 @@
 {
- "generated": "2026-10-19T15:17:40.000Z",
+ "generated": "2026-10-21T09:26:17.000Z",
  "counts": {
-  "records": 3905,
+  "records": 3942,
   "thin": 320,
-  "withMedia": 1372,
-  "withCategories": 1135,
+  "withMedia": 1409,
+  "withCategories": 1152,
   "withTopics": 316,
   "withProject": 210,
   "withCoordinates": 95,
   "withSummary": 52,
-  "withBodyText": 2490,
-  "withPhotos": 1369,
+  "withBodyText": 2526,
+  "withPhotos": 1406,
   "withPreviewImage": 64,
   "councils": 4,
   "matchReviewLogged": 2,
@@ -22,7 +22,7 @@
  },
  "dateRange": {
   "from": "2024-04-12",
-  "to": "2026-10-19"
+  "to": "2026-10-21"
  },
  "records": [
   {
@@ -103734,6 +103734,1340 @@
    "categories": [
     "OHL (Pylons)",
     "Solar"
+   ]
+  },
+  {
+   "id": "29804433942492284",
+   "date": "2026-10-21",
+   "title": "Scotland Against Spin",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Scotland Against Spin",
+    "label": "Facebook · Scotland Against Spin",
+    "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29804433942492284/"
+   },
+   "thin": false,
+   "bodyText": "A vote in the Scottish Parliament has established the principle that fishermen should be compensated for financial losses caused by offshore wind development.",
+   "contentFingerprint": "fba2ba877260a6710121bb53107eef657d9e41706f50e8e6f09ae72b850ff4f0",
+   "photos": [
+    "media/facebook/29804433942492284/photo_1.png"
+   ],
+   "mediaCount": 1
+  },
+  {
+   "id": "29803583049244040",
+   "date": "2026-10-21",
+   "title": "Scotland Against Spin",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Scotland Against Spin",
+    "label": "Facebook · Scotland Against Spin",
+    "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29803583049244040/"
+   },
+   "thin": false,
+   "bodyText": "THE Scottish Government is facing questions over a minister’s letter which appeared to cast doubt on a commitment to introduce national planning guidance for huge, energyintensive data centres.\nPublic Finance Minister Hannah Mary Goodlad wrote to Scottish Green MSP Patrick Harvie on October 8 saying ministers were still considering whether to bring forward guidance for hyperscale developments.\nHowever, the letter came just two days after Ms Goodlad confirmed in a written parliamentary answer that the guidance would be published before Christmas. She had also told MSPS in September that the government would bring forward national planning guidance by the end of the year.\nHERALDSCOTLAND.COM SNP minister's letter raises questions over Scotland's huge data centre plans",
+   "contentFingerprint": "fc8af525faae4169b27e497b2d2054940635d5f2e26e5b7fefca652558fd5cb5",
+   "photos": [
+    "media/facebook/29803583049244040/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "HERALDSCOTLAND.COM SNP minister's letter raises questions over Scotland's huge data centre plans",
+     "url": "https://www.heraldscotland.com/news/26654782.snp-minister-questioned-conflicting-data-centre-pledge/"
+    }
+   ],
+   "categories": [
+    "Data Centre"
+   ]
+  },
+  {
+   "id": "29802879149314430",
+   "date": "2026-10-21",
+   "title": "Scotland Against Spin",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Scotland Against Spin",
+    "label": "Facebook · Scotland Against Spin",
+    "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29802879149314430/"
+   },
+   "thin": false,
+   "bodyText": "Jackdaw will start to supply gas to British homes and businesses \"from as early as the end of this month\", the government says.\nThe chancellor will also announce today the launch of a \"energy wealth fund\" which will \"use tax revenues from North Sea oil and gas to invest in renewable and low carbon energy projects\".\nBBC.CO.UK UK government approves Jackdaw gas field in the North Sea - follow live",
+   "contentFingerprint": "a8ac73588e7cf98b1fc84555c7ca4bb095ed824b1c5275be405afa604e174e2a",
+   "photos": [
+    "media/facebook/29802879149314430/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "BBC.CO.UK UK government approves Jackdaw gas field in the North Sea - follow live",
+     "url": "https://www.bbc.co.uk/news/live/cw8rzgvlmjznt"
+    }
+   ]
+  },
+  {
+   "id": "29794036570198688",
+   "date": "2026-10-20",
+   "title": "Scotland Against Spin",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Scotland Against Spin",
+    "label": "Facebook · Scotland Against Spin",
+    "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29794036570198688/"
+   },
+   "thin": false,
+   "bodyText": "Cost of being Green",
+   "contentFingerprint": "b2989f53b81116d7fd92afc3dd0b87776a2b20b70d8f2341020fd38ce6840a76",
+   "photos": [
+    "media/facebook/29794036570198688/photo_1.png"
+   ],
+   "mediaCount": 1
+  },
+  {
+   "id": "1408818618077046",
+   "date": "2026-10-20",
+   "title": "Scottish Electricity Generating Stations",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Scottish Electricity Generating Stations",
+    "label": "Facebook · Scottish Electricity Generating Stations",
+    "url": "https://www.facebook.com/groups/443369301288654/posts/1408818618077046/"
+   },
+   "thin": false,
+   "bodyText": "Environment and Energy Showcase\nGreat opportunity to learn about how the lights on across the country.\nThis free family-friendly event at Whitelee Windfarm Visitor Centre on 24 October will offer activities, crafts, discussions and lots of info on everything to do with being climate-smart.\nYou can meet some of the University of Stirling staff at the cutting edge of climate and environment research, and learn how we can all help in the race towards netzero. UK Research and Innovation\nMore here: https://brnw.ch/21x6mZg\n— at Whitelee Windfarm Visitor Centre.",
+   "contentFingerprint": "44d2ad96a780c32c23d1aa79b9d4c2537af98dbc78ba7953be4fdceb4309870c",
+   "photos": [
+    "media/facebook/1408818618077046/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "https://brnw.ch/21x6mZg",
+     "url": "https://brnw.ch/21x6mZg"
+    }
+   ],
+   "categories": [
+    "Onshore Wind"
+   ]
+  },
+  {
+   "id": "1457389689858796",
+   "date": "2026-10-20",
+   "title": "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
+    "label": "Facebook · Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
+    "url": "https://www.facebook.com/groups/1367957378802028/posts/1457389689858796/"
+   },
+   "thin": false,
+   "bodyText": "DRTESSLAWRIE.SUBSTACK.COM Global Architects of The Great Reset Called To Court in The Netherlands",
+   "contentFingerprint": "890c4cf1ad446d87ad9eb7d7c84d33d53d4cc56cef85f4fc3a1509fd11a3d9f5",
+   "photos": [
+    "media/facebook/1457389689858796/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "DRTESSLAWRIE.SUBSTACK.COM Global Architects of The Great Reset Called To Court in The Netherlands",
+     "url": "https://drtesslawrie.substack.com/p/global-architects-of-the-great-reset?publication_id=773468&post_id=220496863&triggerShare=true&isFreemail=true&r=2v8j5w&triedRedirect=true&utm_id=97757_v0_s00_e0_tv2_a1demong82dacc"
+    }
+   ]
+  },
+  {
+   "id": "1117494230680358",
+   "date": "2026-10-21",
+   "title": "Communities B4 Power Companies",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Communities B4 Power Companies",
+    "label": "Facebook · Communities B4 Power Companies",
+    "url": "https://www.facebook.com/groups/221782186918238/posts/1117494230680358/"
+   },
+   "thin": false,
+   "bodyText": "Hmmm …..say one thing and do another. \nScottish government’s MO.\nFull text anyone please?\nHERALDSCOTLAND.COM SNP minister's letter raises questions over Scotland's huge data centre plans",
+   "contentFingerprint": "c954a04ae72625d902113fcf24a3d97fa623a1adc896cf73025ec0bdee38fa2d",
+   "photos": [
+    "media/facebook/1117494230680358/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "HERALDSCOTLAND.COM SNP minister's letter raises questions over Scotland's huge data centre plans",
+     "url": "https://www.heraldscotland.com/news/26654782.snp-minister-questioned-conflicting-data-centre-pledge/"
+    }
+   ],
+   "categories": [
+    "Data Centre"
+   ]
+  },
+  {
+   "id": "1117158744047240",
+   "date": "2026-10-21",
+   "title": "Communities B4 Power Companies",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Communities B4 Power Companies",
+    "label": "Facebook · Communities B4 Power Companies",
+    "url": "https://www.facebook.com/groups/221782186918238/posts/1117158744047240/"
+   },
+   "thin": false,
+   "bodyText": "A Google cloud storage site in London had a power outage about 6am.  This sounds like another failure in the Distribution Network. Does anyone know more?\nNo way will datacentres depend on weather-power. The idea that datacentres would mop up windfarm excess is another fantasy.\nTHEREGISTER.COM Google Cloud says a 'power event' caused today's outage",
+   "contentFingerprint": "cbd325e85bd74ba6485dbee18070617ec5fd402f44ff8e5046c11acc392251d5",
+   "photos": [
+    "media/facebook/1117158744047240/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "THEREGISTER.COM Google Cloud says a 'power event' caused today's outage",
+     "url": "https://www.theregister.com/paas-and-iaas/2026/10/20/google-cloud-says-a-power-event-caused-todays-outage/5304160"
+    }
+   ],
+   "categories": [
+    "Data Centre",
+    "Onshore Wind"
+   ]
+  },
+  {
+   "id": "1139177992116350",
+   "date": "2026-10-20",
+   "title": "Mey BESS Action Group",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Mey BESS Action Group",
+    "label": "Facebook · Mey BESS Action Group",
+    "url": "https://www.facebook.com/groups/711813121519508/posts/1139177992116350/"
+   },
+   "thin": false,
+   "bodyText": "OBJECT.NOW Charleston Energy Park | ObjectNow o͏ s͏ n͏ p͏ o͏ e͏ d͏ S͏ t͏ r͏ 6͏ 2͏ l͏ 1͏ c͏ o͏ 4͏ g͏ 3͏ L͏ 7͏ 0͏ 2͏ 7͏ 4͏ r͏ i͏ 6͏ 9͏ c͏ e͏ 7͏ m͏ f͏ 0͏ u͏ 0͏ ͏ 3͏ 6͏ u͏ 6͏ 6͏ 3͏ 7͏ n͏ u͏ 1͏ m͏ t͏ c͏ 1͏ 1͏ r͏ m͏ 8͏ 0͏ g͏ a͏ e͏",
+   "contentFingerprint": "87fcb4538edf2707a9ac668d0c9705b231ffa3f7bc2f1a7bceef3dd678376e22",
+   "photos": [
+    "media/facebook/1139177992116350/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "OBJECT.NOW Charleston Energy Park | ObjectNow o͏ s͏ n͏ p͏ o͏ e͏ d͏ S͏ t͏ r͏ 6͏ 2͏ l͏ 1͏ c͏ o͏ 4͏ g͏ 3͏ L͏ 7͏ 0͏ 2͏ 7͏ 4͏ r͏ i͏ 6͏ 9͏ c͏ e͏ 7͏ m͏ f͏ 0͏ u͏ 0͏ ͏ 3͏ 6͏ u͏ 6͏ 6͏ 3͏ 7͏ n͏ u͏ 1͏ m͏ t͏ c͏ 1͏ 1͏ r͏ m͏ 8͏ 0͏ g͏ a͏ e͏",
+     "url": "https://object.now/charleston-energy-park/"
+    },
+    {
+     "text": "o͏ s͏ n͏ p͏ o͏ e͏ d͏ S͏ t͏ r͏ 6͏ 2͏ l͏ 1͏ c͏ o͏ 4͏ g͏ 3͏ L͏ 7͏ 0͏ 2͏ 7͏ 4͏ r͏ i͏ 6͏ 9͏ c͏ e͏ 7͏ m͏ f͏ 0͏ u͏ 0͏ ͏ 3͏ 6͏ u͏ 6͏ 6͏ 3͏ 7͏ n͏ u͏ 1͏ m͏ t͏ c͏ 1͏ 1͏ r͏ m͏ 8͏ 0͏ g͏ a͏ e͏",
+     "url": "https://object.now/charleston-energy-park/"
+    }
+   ]
+  },
+  {
+   "id": "28808921065427977",
+   "date": "2026-10-21",
+   "title": "Environmentalists Against Wind Turbines",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Environmentalists Against Wind Turbines",
+    "label": "Facebook · Environmentalists Against Wind Turbines",
+    "url": "https://www.facebook.com/groups/835899539823505/posts/28808921065427977/"
+   },
+   "thin": false,
+   "bodyText": "F/V Mistress Coast Guard Printed Notes on Sinking At Block Island Wind Farm\nJanuary 1, 2019\nhttps://downloads.regulations.gov/USCG-2023-0928",
+   "contentFingerprint": "4266c24b52e6e4b210de93525ce30e9d7a1b73d0cd18252dc0828762f018fae8",
+   "photos": [
+    "media/facebook/28808921065427977/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "https://downloads.regulations.gov/USCG-2023-0928",
+     "url": "https://downloads.regulations.gov/USCG-2023-0928"
+    }
+   ],
+   "categories": [
+    "Onshore Wind"
+   ]
+  },
+  {
+   "id": "28806706868982730",
+   "date": "2026-10-20",
+   "title": "Environmentalists Against Wind Turbines",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Environmentalists Against Wind Turbines",
+    "label": "Facebook · Environmentalists Against Wind Turbines",
+    "url": "https://www.facebook.com/groups/835899539823505/posts/28806706868982730/"
+   },
+   "thin": false,
+   "bodyText": "F/V MISTRESS EVIDENCE: IT'S AT BLOCK ISLAND WIND TURBINE # 1\nOctober 20, 2026\nhttps://www.windtaskforce.org/.../f-v-mistress-evidence...\n1. Green Oceans found the F/V Mistress in August\n2. Coast Guard investigation handwritten notes, pages 42 & 43\nhttps://downloads.regulations.gov/USCG-2023-0928\n3. BOEM 2020 document: ship seen next to wind turbine #1, top of Page 184\nhttps://espis.boem.gov/final%20reports/BOEM_2020-044.pdf\nOn January 1, 2019, the F/V Mistress took on water and sank near the Block Island wind turbines. The Coast Guard dispatched an all-weather MH-60 Jayhawk helicopter. Coast Guard handwritten logs show that, after 37 minutes, radar interference from the turbines aborted the search. They declared the trawler lost.\nAugust 2026, Green Oceans located the vessel F/V Mistress in a \"targeted\" dive, 92 feet underwater and 50 feet from the base of Block Island turbine No. 1.\nGreen Oceans has asked several federal agencies to reopen Coast Guard Search and Rescue case # 1158048 (associated with MISLE Activity 6618087).\nThe evidence demonstrating that the vessel was tracking the straightest possible northward path home includes:\n1. The F/V Mistress was inbound on a direct path to Point Judith, Rhode Island, which sits directly north of Block Island\n2. When investigators plotted the GPS coordinates from the U.S. Coast Guard's original January 1, 2019 accident report and Mayday calls, the trajectory lined up perfectly with Block Island Wind Turbine 1.\n3. The F/V Mistress crew's final radio transmission noted they were \"right below the Block Island Wind Farm.\" VMS tracking data should confirm the location. (Commercial Vessel Monitoring System)\n4. The orientation of the hull 50 feet from turbine # 1 shows they were on a northward course, and the trawler may have had to steer quickly, causing the boat to capsize.\n5. The Coast Guard ignored A 2020 BOEM document, \"OCS Study BOEM 2020-044,\" which shows a boat on page 184, just above Figure 79, at the base of Block Island wind turbine #1\nTop Page 184: \"On the final day of dive survey, partial boat debris (e.g., paneling from a small boat hull) was observed around Turbine 1, but no footage was obtained.\"\nhttps://espis.boem.gov/final%20reports/BOEM_2020-044.pdf\nCOAST GUARD ABORTED SEARCH DUE TO RADAR INTERFERENCE",
+   "contentFingerprint": "3babf3c5eb858763f7efd20b4484d0afd6ec530f4556a3bf7abf534c02d72fcb",
+   "photos": [
+    "media/facebook/28806706868982730/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "https://www.windtaskforce.org/.../f-v-mistress-evidence...",
+     "url": "https://www.windtaskforce.org/profiles/blogs/f-v-mistress-evidence-it-s-at-block-island-wind-turbine-1"
+    },
+    {
+     "text": "https://espis.boem.gov/final%20reports/BOEM_2020-044.pdf",
+     "url": "https://espis.boem.gov/final%20reports/BOEM_2020-044.pdf"
+    },
+    {
+     "text": "https://downloads.regulations.gov/USCG-2023-0928",
+     "url": "https://downloads.regulations.gov/USCG-2023-0928"
+    }
+   ],
+   "categories": [
+    "Onshore Wind"
+   ]
+  },
+  {
+   "id": "1159711763387077",
+   "date": "2026-10-20",
+   "title": "Suffolk Energy Action Solutions (SEAS)",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Suffolk Energy Action Solutions (SEAS)",
+    "label": "Facebook Page · Suffolk Energy Action Solutions (SEAS)",
+    "url": "https://www.facebook.com/SuffolkEnergyActionSolutions/posts/1159711763387077"
+   },
+   "thin": false,
+   "bodyText": "It has been a very busy month for the Campaign Groups.  \nReports from the National Audit Office, Ofgem consultations on Sea Link and LionLink, and the Public Accounts Committee inquiry have all raised significant questions about the planning, costs and value for money of the Great Grid Upgrade and other energy infrastructure. \nOn top of this, the Secretary of State (SoS) has made three requests for further information on Sea Link.\nSEAS is preparing its response, due by 22 October, to National Grid’s brief answers to the SoS’s questions. Many important issues continue to remain unresolved, including:\n No completed Benhall bridge survey confirming whether it can accommodate the proposed heavy vehicles.\nNo like-for-like comparison of Sea Link with the alternative proposed by SEAS.\nNo confirmed solution to the harmonics problem, or clarity on whether additional network infrastructure will be needed.\nNo confirmation that Sea Link can reliably deliver its intended 2GW capacity under the relevant operating conditions.\nNo clear explanation of the substantial increase in project costs.\nAnd these are just some of the outstanding questions.\nGiven their number and significance, how can the Secretary of State reach a properly informed decision by 31 October? \n SEAS has therefore requested an extension to allow adequate time for the outstanding matters to be considered.",
+   "contentFingerprint": "3b2ad4599311dc69ac427e1132255b857ee2a4387670e537d9c117edda19f35e",
+   "photos": [
+    "media/facebook/1159711763387077/photo_1.png"
+   ],
+   "mediaCount": 1
+  },
+  {
+   "id": "1159696216721965",
+   "date": "2026-10-20",
+   "title": "Suffolk Energy Action Solutions (SEAS)",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Suffolk Energy Action Solutions (SEAS)",
+    "label": "Facebook Page · Suffolk Energy Action Solutions (SEAS)",
+    "url": "https://www.facebook.com/SuffolkEnergyActionSolutions/posts/1159696216721965"
+   },
+   "thin": false,
+   "bodyText": "SEAS UPDATE 246 – Featuring \nLAST SEA LINK DEADLINE, OFGEM SUBMISSION, GB GRID, TELL YOUR STORY.\nVisit the link below to read \nhttps://us14.campaign-archive.com/... \n#stopsealink #news #energynews #update #suffolk",
+   "contentFingerprint": "9eadfc524692139bd81b26cd4f3eccfb2be9a5bc656ff8884ef3b9b1d3799f7c",
+   "photos": [
+    "media/facebook/1159696216721965/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "https://us14.campaign-archive.com/...",
+     "url": "https://us14.campaign-archive.com/?u=06a29fcfc31e27244d0a4320f&id=ae965b60f3"
+    }
+   ]
+  },
+  {
+   "id": "1547650900725538",
+   "date": "2026-10-21",
+   "title": "Wind Energy's Absurd",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Wind Energy's Absurd",
+    "label": "Facebook Page · Wind Energy's Absurd",
+    "url": "https://www.facebook.com/WindEnergysAbsurd/posts/1547650900725538"
+   },
+   "thin": false,
+   "bodyText": "Extraordinary!  \nFollowing the Evershed and Ofgem reports on the state of NESO, the CEO of NESO, Fintan Slye, has been caught on a recording, stating that he knew about the issues - and did....nothing.  \nThis is known from a Times piece, below.  This is Kathryn Porter's take on it:\n·\nAccording to @thetimes @neso_energy CEO Fintan Slye who earned just under £1 million last year admitted he knew about the control room concerns but failed to act on them saying Neso may have incorrectly prioritised other things at a time when there was a “huge amount of change happening in the organisation”\nHow does the Times know this?\nBecause somebody inside NESO recorded the meeting and gave it to the press\nClearly NESO staff have lost confidence in their execs and have no issues embarrassing them in public\nAlthough it's fair to ask why Fintan didn't make his mea culpa public himself. Perhaps he simply didn't want to admit either to getting it wrong or to allowing the focus on CP2030 and keeping the government happy to get in the way of keeping the grid secure \nThere's a clear public interest in knowing this so I hope Fintan and NESO don't respond to this by trying to hunt the people who made and released this recording\nThe more productive approach would be to repair trust with staff, listen to and act on their concerns over grid security, and ensure cultural change so future concerns can be raised and acted on internally without staff feeling they have no options other than to leave or go to MPs and the media\nhttps://www.thetimes.com/.../power-grid-boss-admits-he...\n'The boss of the National Energy System Operator has admitted that he was aware of serious cultural issues at the government-owned body and failed to address them. \nFintan Slye, who has been paid more than £770,000 a year to lead the organisation responsible for managing Britain’s power system, told staff he was “disappointed” in himself and “should have fixed” the problems before an independent report raised them. \nNational Energy System Operator (Neso) is under scrutiny after whistleblowers raised concerns about its ability to keep the lights on and how it handled tight power supplies during the heatwave in June. \nAn independent report published on Monday by Eversheds Sutherland, a law firm, could not substantiate specific whistleblower allegations that Neso deliberately altered operational records and took steps to avoid public scrutiny, or that corporate affairs personnel interfered in operational decisions in June.\nHowever, Eversheds did find wider “control, cultural and governance issues”, which the energy regulator, Ofgem, described as “important and concerning” and which the government has told Neso to address “without delay”.\nEversheds highlighted four main underlying issues: “high levels of operational stress, a significant disconnect between the [control room] and executive leadership, a culture of reputational sensitivity affecting the perception of operational independence, and a gap between formal [whistleblowing] commitments and the lived experience of staff”.\nIn calls with Neso staff, recordings of which have been obtained by The Times, Slye admitted: “There’s nothing in any of those four themes that was a huge surprise, or that I could put my hand on my heart and say that I haven’t heard that from someone in the organisation.” Slye said the Eversheds report had made “difficult reading”.\n“I’m disappointed in myself, in that we haven’t acted sooner to address [the issues], or more comprehensively to address them, such that they ended up having to be raised in a form and in a format like this,” he said. \nAsked by a staff member why the issues hadn’t been addressed, he suggested Neso may have incorrectly prioritised other things at a time when there was a “huge amount of change happening in the organisation”, but said he had no “easy answer” for why it had failed to act. “The answer is: I should have fixed them. I should have leant in to try, and got them fixed.”\nHe added: “All I can do is hold up my hands and say we will fix them now.”\nSlye also admitted: “Sometimes I can be defensive, and I have to absolutely make sure that my reaction to this is not that.” \nA Neso spokesman said: “Slye’s comments referred to the broader organisational and cultural themes identified by the independent Eversheds Sutherland investigation, not the specific allegations, which the investigation did not substantiate. He was clear with colleagues that Neso should have acted sooner and more comprehensively on those wider themes, we accept that and are taking action to address them.” \nSlye received total pay, bonuses and other remuneration of £773,650 as chief executive of Neso in 2024-25, the last year for which accounts are available. He was separately paid a further £156,870 by National Grid that year under a performance scheme linked to the creation of the nationalised Neso. \nMichael Shanks, the energy minister, has said that the independent review “raises areas for cultural improvement in Neso where we expect significant action without delay”. \nAsked about Slye’s admission that he was already aware of the issues and failed to tackle them, a government source indicated that it retained full confidence in Slye.'",
+   "contentFingerprint": "55f611375952a1beb906541cae6a800526157ea037e34ae493fc2a977631493d",
+   "photos": [
+    "media/facebook/1547650900725538/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "https://www.thetimes.com/.../power-grid-boss-admits-he...",
+     "url": "https://www.thetimes.com/uk/environment/article/power-grid-boss-admits-he-failed-to-tackle-culture-problems-vv0ftl376"
+    }
+   ]
+  },
+  {
+   "id": "1547038604120101",
+   "date": "2026-10-20",
+   "title": "Wind Energy's Absurd",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Wind Energy's Absurd",
+    "label": "Facebook Page · Wind Energy's Absurd",
+    "url": "https://www.facebook.com/WindEnergysAbsurd/posts/1547038604120101"
+   },
+   "thin": false,
+   "bodyText": "Well, today, the answer to the question is the letter which Andrew Bowie, the Shadow Energy Sec. of State, has sent back by way of reply to one from Michael Shanks, Energy Minister on the Eversheds report, etc. \nWe did of course say that maybe Shanks has seen the light, with our tongues firmly in our cheeks, and we will forgive Bowie the two words we think he shouldn't have said to the media.\nWe did miss seeing, until she told us, that Kathryn Porter had put a  link in her blog to Shanks' letter.  So just now, we hotfooted onto X to have a look.\nWhat a thoroughly abysmal letter from Shanks - and, living up to his surname, a killer of a response back from Bowie.",
+   "contentFingerprint": "20ff2a3d3e8eabd20e7e621e00cdc547104ee312e8baa464dddcc66019cdb194",
+   "photos": [
+    "media/facebook/1547038604120101/photo_1.png"
+   ],
+   "mediaCount": 1
+  },
+  {
+   "id": "1546884337468861",
+   "date": "2026-10-20",
+   "title": "Wind Energy's Absurd",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Wind Energy's Absurd",
+    "label": "Facebook Page · Wind Energy's Absurd",
+    "url": "https://www.facebook.com/WindEnergysAbsurd/posts/1546884337468861"
+   },
+   "thin": false,
+   "bodyText": "That's the expression which sprang to mind when reading this piece from the Stornoway Gazette - and thanks to the WEA friend who sent it to us.\nWe are, of course, keeping everything crossed that the  Spiorad na Mara, being outrageously close to Lewis, is sunk without trace.\nhttps://www.stornowaygazette.co.uk/.../offshore-wind-is...\n'Uncertainty about prospects for “floating wind” projects around the Scottish coast could have major implications for developments earmarked for waters to the west and north of Lewis. ​\n“Scotland on Sunday” reported this week that “crisis talks” have been held to prioritise just four floating wind projects in the ScotWind round due to increasing costs and failure to develop a domestic supply chain.\nImplications for the Western Isles could come in several forms:\n- Increased pressure on the Scottish Government to ensure development of Spiorad na Mara, regardless of planning objections, as it is an outlier in the ScotWind programme as a “fixed bottom” site close to shore\n- The Talisk site awarded to the Norwegian company Magnora, 35 kilometres north west of the Butt of Lewis, is not being quoted as a priority project giving rise to doubts about its development. The same goes for Northland’s Havbredey site.\n- The 1.8 GW interconnector, currently going ahead, would be nowhere near capacity without these projects, which could create additional opportunities for community-led developments with plenty capacity to spare.\nKajsa Jernet, lead offshore wind analyst for Bloomberg, told a conference in Aberdeen: “The industry has been caught up in a negative spiral where the supply chain doesn’t have the order certainty it needs to invest which brings higher costs, leading to project delays and decreasing project viability.\n“The first year of gigawatt-scale installations is still more than a decade away. We expect floating wind to remain niche in comparison to bottom-fixed offshore wind all the way out through to 2041”.\nA senior industry source told “Scotland on Sunday” that the initial ScotWind announcement had created huge optimism “but we’re coming off that sugar rush now. ScotWind was a complete moonshot – there’s going to be more attrition. We will likely see more leases relinquished”.\nThey added: “We need to put forward a more credible offering, rather than kidding ourselves that we’re going to be deploying gigawatts and gigawatts of floating wind by 2030 or 2035. Actually, what this is now about is picking winners”.\nClare Lavelle, the industry chair of the Scottish Offshore Wind Energy Council, said: “I need to be absolutely honest in saying it’s an incredibly challenging environment in which to be progressing floating projects at the moment.\n“We are nearly five years on from the award of the ScotWind projects. This was a programme we thought was going to be fully constructed by 2030. I don’t think we thought we would be in the position we are today.”\nWhen the Magnora licence was granted, the company said its ambition was to achieve full consent in 2026, reach the final investment decision in 2028 and start production in 2030. However, these timescales do not now see remotely achievable.\nWhile Northland continue to press ahead with their Spiorad na Mara plans, they have been refused planning consent for onshore developments by Comhairle nan Eilean Siar, though the final decision will rest with the Scottish Government.'",
+   "contentFingerprint": "cf03abce300f276dfed3b01a14d1c2512c9398b44fe880b7cd1e41aa766111d1",
+   "photos": [
+    "media/facebook/1546884337468861/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "https://www.stornowaygazette.co.uk/.../offshore-wind-is...",
+     "url": "https://www.stornowaygazette.co.uk/business/offshore-wind-is-now-about-picking-winners-9291409"
+    }
+   ]
+  },
+  {
+   "id": "1546870980803530",
+   "date": "2026-10-20",
+   "title": "Wind Energy's Absurd",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Wind Energy's Absurd",
+    "label": "Facebook Page · Wind Energy's Absurd",
+    "url": "https://www.facebook.com/WindEnergysAbsurd/posts/1546870980803530"
+   },
+   "thin": false,
+   "bodyText": "We've just been watching, on  Communities B4 Power Companies , a clip of Miatta Fahnbulleh speaking at the Energy Security & Net Zero Committee on 14 October.  She said (and when time allows, as we have a bit of a backlog,  we will delve into the rest of the transcript of that meeting):\nThe second thing is that I talk to my international counterparts and they are looking to the UK with envy. We are a leader in this world, but we are a leader in a massively growing economy. China is leading the race on clean power. It is a huge global economy. The thing I say to people who may be sceptical about climate change—I look at the science and the science is pretty clear—is: “Fine if you are sceptical, even if you don’t believe in it, but why would you not want to be part of that global economy that is growing?” Ultimately, I think the way that I and the Government should engage with people, and it is within their gift to be sceptical, is to say, “Look, we need to do this transition in a way that isn’t a burden, where we are unlocking billions of investment.”\nYou talked about deindustrialisation. My view is that our route to reindustrialisation, which the Prime Minister talks about all the time, is through our sector. There is a massive pipeline on talking to global investors, trillions that they want to invest in the net zero economy, and we can be part of that. Why on earth would we not want to be part of that?\nIf anything, she comes across as more zealous than Miliband - as we've said before, she doesn't roll her eyes quite as much as he does; her voice is obviously softer, and she doesn't wave her arms about as Miliband did.  How could anyone reckon that, on matters energy at least, that the UK is viewed with envy?  \nAnyway, the piece jogged our memory that we had intended yesterday to find, on i player, the episode shown on Sunday of the Simon Reeve's Wilderness series, where he went to Mongolia.\nQuite apart from the fact that it was a fascinating insight into Mongolia and its culture and its people, there was one part which would make one's jaw drop - in the middle of the Gobi desert - a humungous open cast mine.  These images are screenshots from the  video.  The third one is the snake of lorries waiting to be loaded with coal.  Some are there for three days, waiting in the queue.\nSimon Reeve said that 80m tonnes plus go to China annually - that's in excess, he said, of 1 million lorry loads.  \nThis is the link - it starts around 19 minutes in.\nhttps://www.bbc.co.uk/.../wilderness-with-simon-reeve...",
+   "contentFingerprint": "200a096dae4b7fc37d7fe76608db8d493b78bcec029f68aeacff28aab440352b",
+   "photos": [
+    "media/facebook/1546870980803530/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "https://www.bbc.co.uk/.../wilderness-with-simon-reeve...",
+     "url": "https://www.bbc.co.uk/iplayer/episode/m00303j6/wilderness-with-simon-reeve-series-2-4-mongolia"
+    }
+   ]
+  },
+  {
+   "id": "1546821290808499",
+   "date": "2026-10-20",
+   "title": "Wind Energy's Absurd",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Wind Energy's Absurd",
+    "label": "Facebook Page · Wind Energy's Absurd",
+    "url": "https://www.facebook.com/WindEnergysAbsurd/posts/1546821290808499"
+   },
+   "thin": false,
+   "bodyText": "The Times has a piece on the NESO and Ofgem reports.\nThe responses are interesting.\nMichael Shanks, the energy minister, said: “The independent review raises areas for cultural improvement in Neso where we expect significant action without delay.”\nThis is particularly interesting.  Has Shanks seen the light?  Because this was one of of our posts, only in July:\n[‘It’s getting worse day by day. We’re now flying blind with the plane on fire. It’s not a matter of “if” there’s going to be a major blackout, it’s an engineering certainty.’\n‘If we overload parts of the system, that means things will catch fire or explode. We’d have cables crashing to the floor, perhaps over motorways, then arcing over, spraying flames, before they hit the floor.’\nThey warned that colleagues are now ‘re-running the models’ to try to alter the calculations and claim there was no problem on June 23.'\nTold to the Mail by a NESO whistleblower.  It's shocking that the grid engineers are now asking the public for help.\nKathryn Porter, David Turver and others are laying into Michael Shanks for saying this:\nBritain has a highly resilient energy system. It's right that we continue to make sure that always remains the case. \nIt is categorically untrue to claim that blackouts are an \"engineering certainty\". \nThis is simply sensationalist nonsense.\nKathryn has said this:\nYou are not an engineer. Perhaps you should talk to the people who are, who actually run the grid every day and let them show you what they mean.\nBecause if you ignore this and people die, you will not be forgiven.]\nWe are not partisan and will have a go at any party's comments if we have reason.\nAndrew Bowie, the Shadow Energy Secretary, has also commented.  There are, in our view, two words which he should not have used - 'all along'.  It was incautious, given that the everyday interpretation of the phrase would be 'from the beginning' as opposed to 'from the beginning of our tenure as the opposition'.  Apart from that, he was correct in his criticism. \nAnd NESO:\nPaul Golby, the chairman of Neso, said: “The investigation’s findings are clear that there was no evidence to substantiate any of the allegations around inappropriate influence over decision-making or inappropriate record-keeping processes.\n“The board will oversee the development of plans to address the issues raised in the report and ensure these are implemented as a matter of urgency.”\nWell that will be interesting to watch - and it may well be that when Ofgem has finalised its report in January, there will be more for you to oversee, Dr Golby.\nWe retrieved from the archives a snippet from when NESO was about to be spawned, under the Sunak government:\nIn his role as chair, Dr Golby will help establish NESO as a trusted, expert body at the centre of the energy system. \nWe make no comment to that.\nhttps://www.thetimes.com/uk/environment/article/neso-engineers-review-national-grid-blackout-risks-6lqpq03sp?utm_source=Sailthru&utm_medium=email&utm_campaign=Daily%20briefing%20Tues%2020%20Oct%202026&utm_term=audience_DAILY_BRIEFING\n'Engineers running Britain’s power system have “high levels of stress and concern” about their ability to keep the lights on because of the shift to renewables, an independent report has found.\nStaff at the National Energy System Operator (Neso) believe its senior leadership do not understand how the control room works and feel their concerns go “largely unheard” because of the need to keep the government and others happy.\nThe report by Eversheds Sutherland, a law firm, could not substantiate specific whistleblower allegations about Neso’s handling of the power system during June’s heatwave, but did identify significant “cultural, governance and control issues” at the government-owned body.\nThese included a “culture of reputational sensitivity affecting operational decision-making”.\nControl room staff said Neso should not have claimed the system was “not at risk” on June 23, given that “the system was consistently in breach of operational limits for a number of hours, with operators working around the clock to regain balance”. \nMichael Shanks, the energy minister, said: “The independent review raises areas for cultural improvement in Neso where we expect significant action without delay.”\nA separate review overseen by Ofgem, the regulator, into whether electricity supplies were secure in June is being extended into next year. \nThe investigations were prompted after whistleblowers contacted Claire Coutinho, then the shadow energy secretary, to raise concerns about events on June 23, when the frequency on the power network — a crucial marker of stability — fell below normal operational limits for a sustained period. Whistleblowers claim this brought the country close to blackouts.\nThe Eversheds review looked specifically at whistleblower allegations to Coutinho that Neso deliberately altered operational records and used document types that left no record of decision-making to avoid scrutiny, and that corporate affairs personnel interfered in operational decisions for reputational reasons.\nAlthough it could not substantiate these claims, it did corroborate concerns raised by whistleblowers to The Times about the “unprecedented situation” the control room faced on June 23, including that five “safety boundaries” were breached amid efforts to keep the lights on.\nWitnesses told Eversheds they felt public statements that the system was not “at risk” on June 23 were “misrepresenting the situation”.\nOne witness claimed that Neso should have issued more emergency warnings that day but did not do so because of the “optics”. The report claimed emergency warnings in general were seen as “uncomfortable to issue” because they would create “bad press and lots of inquiries”.\nThe Eversheds report, based on interviews with 28 senior staff from the control room and eight beyond the control room, also raised wider issues about Neso’s culture and governance.\nIt found “high levels of stress and concern within the [control room] regarding the current state of the energy industry and the longer-term ability to maintain system balance, given the challenges of the net zero transition and increased reliance on renewables, which are less flexible than conventional generation, as well as current energy market structures”. \nUnlike traditional power stations, many smaller generators and batteries do not engage directly with Neso, leaving engineers to estimate how much electricity they are supplying and unable to instruct them directly.\nThe report also found a “significant disconnect between the [control room] and the executive leadership team, with multiple witnesses expressing the view that those in senior leadership and executive positions do not fully appreciate or understand either the way in which the control room works, or the reality of the pressures faced by those on the front line who are responsible for ‘keeping the lights on’”.\nAndrew Bowie, the shadow energy secretary, said: “Far from clearing the heads of Neso or this Labour government, this report raises more questions than it answers about the culture, management and operational independence of the organisation tasked with keeping the lights on in this country. \n“It also confirms what we Conservatives have been saying all along — that the net zero transition and the increased reliance on renewables is making the job of ensuring the grid continues to operate much more difficult due to the lack of flexibility and inertia in the system.”\nOne witness described an “implicit understanding and expectation from the leadership to hear what they want to hear”, saying they felt pressure to convey a positive message and reassure bosses that “everything’s fine”. One witness said that those raising concerns “get beaten down”.\nAnother described a culture of favouring good news that they believed started at the top of the organisation. Investigators found that concerns about Neso’s reputation were communicated to engineers directly, through senior managers or through staff perceptions.\nThe report concluded that this environment could affect how promptly and confidently engineers issued warnings about tight electricity supplies. It also cited witnesses identifying “a culture change in recent years, with Neso leadership deferring to government”.\nThe report said staff needed “targeted training to reinforce that operational decisions must be made solely on the basis of operational and engineering judgment”.\nPaul Golby, the chairman of Neso, said: “The investigation’s findings are clear that there was no evidence to substantiate any of the allegations around inappropriate influence over decision-making or inappropriate record-keeping processes.\n“The board will oversee the development of plans to address the issues raised in the report and ensure these are implemented as a matter of urgency.”'",
+   "contentFingerprint": "1ba3fa9ce3bb1269da2879495f64242cb560fb5a7fa3f864ec6e5c65263c1579",
+   "photos": [
+    "media/facebook/1546821290808499/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "https://www.thetimes.com/uk/environment/article/neso-engineers-review-national-grid-blackout-risks-6lqpq03sp?utm_source=Sailthru&utm_medium=email&utm_campaign=Daily%20briefing%20Tues%2020%20Oct%202026&utm_term=audience_DAILY_BRIEFING",
+     "url": "https://www.thetimes.com/uk/environment/article/neso-engineers-review-national-grid-blackout-risks-6lqpq03sp"
+    }
+   ]
+  },
+  {
+   "id": "3607716739376129",
+   "date": "2026-10-21",
+   "title": "Help Save Mochrum Fell",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Help Save Mochrum Fell",
+    "label": "Facebook · Help Save Mochrum Fell",
+    "url": "https://www.facebook.com/groups/1730785547069267/posts/3607716739376129/"
+   },
+   "thin": false,
+   "bodyText": "WIND-WATCH.ORG Sediment transport pathways and organic carbon burial impacted by offshore wind farms in shelf seas",
+   "contentFingerprint": "4a44ed4663cb82c4299ddbe6a9dd9f6a40eeaa33a139610193c61f35599d3164",
+   "photos": [
+    "media/facebook/3607716739376129/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "WIND-WATCH.ORG Sediment transport pathways and organic carbon burial impacted by offshore wind farms in shelf seas",
+     "url": "https://www.wind-watch.org/documents/sediment-transport-pathways-and-organic-carbon-burial-impacted-by-offshore-wind-farms-in-shelf-seas/"
+    }
+   ],
+   "categories": [
+    "Onshore Wind"
+   ]
+  },
+  {
+   "id": "1585452542862688",
+   "date": "2026-10-21",
+   "title": "Say No To Cato Data Centre",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Say No To Cato Data Centre",
+    "label": "Facebook · Say No To Cato Data Centre",
+    "url": "https://www.facebook.com/groups/1472242997516977/posts/1585452542862688/"
+   },
+   "thin": false,
+   "bodyText": "Evidence submitted by APRS to the Climate Action Committee on the impact of hyperscale data centres on Scotland's renewable energy resources and climate emissions. It's an excellent article and well worth reading.\nAPRS.SCOT Evidence Submitted to the Climate Action Committee - Action to Protect Rural Scotland",
+   "contentFingerprint": "8b0305c0fb97c65df89e65ffab67ee34d79062013785dcdaa0175552f6d7fea9",
+   "photos": [
+    "media/facebook/1585452542862688/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "APRS.SCOT Evidence Submitted to the Climate Action Committee - Action to Protect Rural Scotland",
+     "url": "https://aprs.scot/resources/evidence-submitted-to-the-climate-action-committee/"
+    }
+   ],
+   "categories": [
+    "Data Centre"
+   ]
+  },
+  {
+   "id": "1585430569531552",
+   "date": "2026-10-21",
+   "title": "Say No To Cato Data Centre",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Say No To Cato Data Centre",
+    "label": "Facebook · Say No To Cato Data Centre",
+    "url": "https://www.facebook.com/groups/1472242997516977/posts/1585430569531552/"
+   },
+   "thin": false,
+   "bodyText": "Interesting letter from a recently received FOI.",
+   "contentFingerprint": "4438b4dc0b6b6a39dd67a51345289578afe5461131b26e278618d2a348145f08",
+   "photos": [
+    "media/facebook/1585430569531552/photo_1.png"
+   ],
+   "mediaCount": 1
+  },
+  {
+   "id": "1585360819538527",
+   "date": "2026-10-21",
+   "title": "Say No To Cato Data Centre",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Say No To Cato Data Centre",
+    "label": "Facebook · Say No To Cato Data Centre",
+    "url": "https://www.facebook.com/groups/1472242997516977/posts/1585360819538527/"
+   },
+   "thin": false,
+   "bodyText": "10079 signatures\nPETITION.PARLIAMENT.UK Petition: Ban the construction of new AI data centres",
+   "contentFingerprint": "06810b7b04baf0b69b189b9b496f9800f6a3680113773d9d0945d21b6e2c991f",
+   "photos": [
+    "media/facebook/1585360819538527/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "PETITION.PARLIAMENT.UK Petition: Ban the construction of new AI data centres",
+     "url": "https://petition.parliament.uk/petitions/776517?utm_id=97757_v0_s00_e0_tv2_a1demonl7li8rz"
+    }
+   ],
+   "categories": [
+    "Data Centre"
+   ]
+  },
+  {
+   "id": "1585023342905608",
+   "date": "2026-10-20",
+   "title": "Say No To Cato Data Centre",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Say No To Cato Data Centre",
+    "label": "Facebook · Say No To Cato Data Centre",
+    "url": "https://www.facebook.com/groups/1472242997516977/posts/1585023342905608/"
+   },
+   "thin": false,
+   "bodyText": "THENATIONAL.SCOT Scottish AI data centres 'would be target list for hostile nations', expert warns",
+   "contentFingerprint": "b4fafc46cebcb5c3645183d0f2b3384a72d7e7bce0f99f253261124322925a02",
+   "photos": [
+    "media/facebook/1585023342905608/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "THENATIONAL.SCOT Scottish AI data centres 'would be target list for hostile nations', expert warns",
+     "url": "https://www.thenational.scot/news/26653664.scotlands-data-centres-national-security-risk/?ref=eb&nid=1948&block=article_block_a&u=c3e6f2b7e01c5bf17b19d1bbd8fbe7d6&date=201026%3Fref%3Dnativeshare"
+    }
+   ],
+   "categories": [
+    "Data Centre"
+   ]
+  },
+  {
+   "id": "1584884922919450",
+   "date": "2026-10-20",
+   "title": "Say No To Cato Data Centre",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Say No To Cato Data Centre",
+    "label": "Facebook · Say No To Cato Data Centre",
+    "url": "https://www.facebook.com/groups/1472242997516977/posts/1584884922919450/"
+   },
+   "thin": false,
+   "bodyText": "I’m noticing an increase in media articles on data centres as targets in warfare. This is an interesting piece by two academic researchers; it talks about how the military use commercial data centres to meet their computing needs for AI intelligence analysis, targeting, command and control, and logistics.\nJUSTSECURITY.ORG Data Centers at War: The Defender’s Duty to Protect Civilians",
+   "contentFingerprint": "b9a7551609e70aff396a1fc75e36025980a830b312b383544ea3bcad7e3cd7b1",
+   "photos": [
+    "media/facebook/1584884922919450/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "JUSTSECURITY.ORG Data Centers at War: The Defender’s Duty to Protect Civilians",
+     "url": "https://www.justsecurity.org/161316/data-centers-war-duty-protect-civilians/"
+    }
+   ],
+   "categories": [
+    "Data Centre"
+   ]
+  },
+  {
+   "id": "1134274102272741",
+   "date": "2026-10-20",
+   "title": "Say No to West Calder Hyperscale Data Centre",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Say No to West Calder Hyperscale Data Centre",
+    "label": "Facebook · Say No to West Calder Hyperscale Data Centre",
+    "url": "https://www.facebook.com/groups/1092406649792820/posts/1134274102272741/"
+   },
+   "thin": false,
+   "bodyText": "This video shows what might just happen here. In fact more likely to happen here.\nYOUTUBE.COM Virginia couldn't stop Sterling data center's 24-hour diesel generator use, regulator says",
+   "contentFingerprint": "cfebd6d62cb11f996591bc212dd536d85ecb7a4a055ad017c6c372bf965a81c5",
+   "photos": [
+    "media/facebook/1134274102272741/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "YOUTUBE.COM Virginia couldn't stop Sterling data center's 24-hour diesel generator use, regulator says",
+     "url": "https://youtube.com/watch?v=E1_1edtyQtk&is=FaTC3rzZ343-2rfN"
+    }
+   ],
+   "categories": [
+    "Data Centre"
+   ]
+  },
+  {
+   "id": "1144370834596401",
+   "date": "2026-10-20",
+   "title": "Say No to West Calder Hyperscale Data Centre",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Say No to West Calder Hyperscale Data Centre",
+    "label": "Facebook · Say No to West Calder Hyperscale Data Centre",
+    "url": "https://www.facebook.com/groups/1092406649792820/posts/1144370834596401/"
+   },
+   "thin": false,
+   "bodyText": "If we all pressed a few keys on our devices, we can make a change.\nPlease object to this even although it may not be your area.\nGREENS.SCOT Reject Chapelcross Hyperscale Data Centre",
+   "contentFingerprint": "57a93ef958dbb6d9557189c8a51ddd4f0f5ee41deace9fdbf3f512b0c386261b",
+   "photos": [
+    "media/facebook/1144370834596401/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "GREENS.SCOT Reject Chapelcross Hyperscale Data Centre",
+     "url": "https://greens.scot/ChapelcrossDataCentre"
+    }
+   ],
+   "categories": [
+    "Data Centre"
+   ]
+  },
+  {
+   "id": "1042740665457398",
+   "date": "2026-10-20",
+   "title": "NO to East Havering Data Centre in Upminster (Residents Group)",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "NO to East Havering Data Centre in Upminster (Residents Group)",
+    "label": "Facebook · NO to East Havering Data Centre in Upminster (Residents Group)",
+    "url": "https://www.facebook.com/groups/366637746401030/posts/1042740665457398/"
+   },
+   "thin": false,
+   "bodyText": "What do you think of this draft banner for 7 November?  Please feel free to make your own.  Black handwriting/painting on white sheets is perfect and still on brand.",
+   "contentFingerprint": "ab79fe93c51e7f65678735c9af2157cee3180f79a4142a2d28a3cb32b3cd74df",
+   "photos": [
+    "media/facebook/1042740665457398/photo_1.png"
+   ],
+   "mediaCount": 1
+  },
+  {
+   "id": "1579072523544980",
+   "date": "2026-10-21",
+   "title": "North Carlisle Against Pylons and Substation",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "North Carlisle Against Pylons and Substation",
+    "label": "Facebook · North Carlisle Against Pylons and Substation",
+    "url": "https://www.facebook.com/groups/1321067339345501/posts/1579072523544980/"
+   },
+   "thin": false,
+   "bodyText": "A sincere thank you to Hethersgill Parish Council and residents from across the surrounding communities for welcoming North Carlisle Against Pylons and Substation (NCAPS) to our latest community meeting.\nThe strength of feeling was unmistakable, with residents and farmers expressing deep concerns about National Grid's proposed Cross Border Connection, the extensive pylon route and the potential North Cumbria mega-substation at Option A.\nThe meeting brought several important outcomes:\n Growing political recognition: We welcomed David Allen, Labour's mayoral candidate, who made clear his view that Option A was the wrong location for the proposed substation — a statement met with applause. He also committed to working with affected communities and ensuring their concerns are heard should he become Mayor.\n Strengthening the campaign: We outlined the establishment of NCAPS Community Action Limited, providing a formal structure to raise funds, secure specialist legal and technical advice, and mount an evidence-led challenge to the pylon route, its design and the proposed substation location.\n Communities working together: Continued collaboration with the North Cumbria Parish Council Alliance will help ensure communities across the affected area have a coordinated and effective voice.\n Holding Cumberland Council to account: Our petition will be presented to Full Council on 3 November, calling on the Council to take a more proactive role in assessing the cumulative impacts of these proposals and representing affected communities.\nIt was also encouraging to reflect that representatives from across the mayoral political parties have now engaged with our communities, with concerns about the adequacy of National Grid's consultation extending across party lines.\nWe are not against upgrading the electricity network. We are challenging how and where that infrastructure is being proposed, and the potentially irreversible consequences for North Cumbria.\nMore than a year of uncertainty is already taking its toll on residents, farmers and businesses. Continued community engagement, fundraising and support will be essential as NCAPS moves into its next phase.\nThank you again to Hethersgill for hosting us and to everyone who attended, spoke openly and offered their support.\nOur greatest strength remains the collective voice of our communities. We need to keep that momentum going.\n#NCAPS #NorthCumbria #Hethersgill #CrossBorderConnection #NationalGrid #CommunityVoice #Carlisle",
+   "contentFingerprint": "82f5c50a4a2e3ba627ce55e10e9f2e2b0608d094db88d0b959a5c7757da437d5",
+   "photos": [
+    "media/facebook/1579072523544980/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "categories": [
+    "OHL (Pylons)",
+    "Substation"
+   ]
+  },
+  {
+   "id": "1579068323545400",
+   "date": "2026-10-21",
+   "title": "North Carlisle Against Pylons and Substation",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "North Carlisle Against Pylons and Substation",
+    "label": "Facebook · North Carlisle Against Pylons and Substation",
+    "url": "https://www.facebook.com/groups/1321067339345501/posts/1579068323545400/"
+   },
+   "thin": false,
+   "bodyText": "Hethersgill Community Meeting Slide Deck now available in the 'File' tab.",
+   "contentFingerprint": "46e0c56a0accce59667ca65a4c62c3c0f4b944f78340ecac6a54cbd32f58b16d",
+   "photos": [
+    "media/facebook/1579068323545400/photo_1.png"
+   ],
+   "mediaCount": 1
+  },
+  {
+   "id": "4181714488786699",
+   "date": "2026-10-20",
+   "title": "STOP EAST LINCOLNSHIRE PYLONS",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "STOP EAST LINCOLNSHIRE PYLONS",
+    "label": "Facebook · STOP EAST LINCOLNSHIRE PYLONS",
+    "url": "https://www.facebook.com/groups/3317708445187312/posts/4181714488786699/"
+   },
+   "thin": false,
+   "bodyText": "WESTON MARSH - SUBSTATION A - PLANNING COMMITTEE MEETING\nI previously advised that I would be speaking as a ward member at the meeting of the planning committee tomorrow, (Wednesday 21st October at 6:30pm) being held at South Holland District Council offices in Priory Road, Spalding at 6:30pm\nUnfortunately, I have been told today that as the actual substation doesn’t sit in the ward I represent, that I will not be able to speak on this item as a ward member. \nI have emailed all councillors today with what I intended to say tomorrow, which I have added below, for their consideration prior to the meeting. \nGood afternoon, Chairman and members of the planning committee.\nI am sending this to all members in case any substitutions have been made for planning committee tomorrow evening. \nI had planned to speak as a ward member at the meeting but have been told that as the site itself does not sit in my ward, that it is not possible, so wanted to contact you regarding my concerns in addition to what I have already submitted which has been summarised within the agenda.\nThe number of resident objections, together with my request for this application to be referred to committee, is why this application is being presented to you tomorrow evening for your consideration. I think it is fair to say that this is one of the most significant applications to come before one of the final meetings of this committee under the current arrangements.\nWhilst the substation itself sits outside the ward I represent, the impacts of this development, and the wider infrastructure it is intended to support, reach far beyond Weston Marsh and will be felt across South Holland and beyond, including in The Saints ward which I proudly represent.\nLike many people, I recognise the importance of energy security and the need to improve our infrastructure. However, recognising that need does not mean accepting every proposal regardless of its impact on our communities and our landscape.\nThis application is being presented as a standalone development when, as we all know, it forms part of a much larger programme of energy infrastructure. Whilst members of the planning committee are required to determine every application on its own merits, the reality is that this is only one piece of a much larger puzzle. Officers, residents and members are effectively being asked to make a judgement without being able to take into consideration the wider picture including the multiple NSIPS and infrastructure associated with this application. \nThe cumulative impact on our countryside, our communities, our agricultural land and our increasingly damaged and depleted highway network would be profound. \nAs a stand alone application, this development would have a detrimental impact on Walpole Marsh and along the pylon route associated with it. \nI have been contacted by farmers, residents and business owners who all have real and valid concerns about their land, property values and impact on their lives and businesses associated with this application alone. This application would change the very character of rural South Holland for generations to come.\nIn particular, the associated infrastructure, including extensive pylon networks and transmission connections, would permanently alter the flat, open Fenland landscape that our district is renowned for. \nThis landscape is one of South Holland's defining characteristics. It is part of our identity. Once these structures are introduced on this scale, it’s impossible for them to simply be screened away, planted over or undone in the future.\nWhat is being proposed is, in effect, the industrialisation of our open countryside. The impact on our landscape will be irreversible and, in my view, detrimental not only to the character of the area but also to the residents who live, work and enjoy this unique part of Lincolnshire.\nI am also deeply concerned about the continued industrialisation of our open countryside. This is a significant development on Grade 1 agricultural land, the very best farmland in the country. At a time when food security is becoming an increasingly important national issue, the continued loss of productive agricultural land should not be dismissed lightly.\nFlood risk and drainage remain equally important concerns. South Holland exists because of careful and effective water management. Our residents understand better than most the importance of resilient drainage systems, and I am not convinced sufficient certainty has been provided regarding the long-term resilience of these proposals or their impact on existing infrastructure.\nLikewise, I remain concerned about ecological impacts and the significant disruption that residents, businesses and road users would experience during what would be a lengthy construction period.\nThese concerns are not mine alone. They have been raised repeatedly by residents, parish councils and consultees throughout the life of this application. People are worried about what this development, and those that will inevitably follow it, mean for the future of the area they call home.\nAs we all know, planning is about balance. It is about weighing benefits against harm. Whilst I acknowledge the national benefits put forward by the applicant, I do not believe it has been satisfactorily demonstrated that the environmental, landscape and community impacts on South Holland have been fully addressed.\nI would ask members to ask themselves whether the irreversible industrialisation of our countryside, the permanent change to our landscape and the cumulative impact on our communities are harms that can genuinely be justified in this location.\nFor those reasons, I strongly object to this application, and on this occasion, I do not agree with the officer's recommendation for approval.\nI believe there are material planning considerations that could justify refusal of this application should members of the committee be minded to do so, and in my opinion the harm outweighs the benefits. I therefore ask you, on behalf of those residents who have taken the time to engage in this process, to give those concerns the serious weight they deserve when reaching your decision tomorrow evening.\nThank you for your consideration in this.\nKind regards,\nLaura \nLaura Eldridge \nDistrict Councillor for ‘The Saints Ward’ - Gedney Hill, Sutton St James, Sutton St Edmund & Throckenholt",
+   "contentFingerprint": "bfb5c5068400c79ddefcfb81ea126d1e38141cd3dd66dc3bca645e7b19018232",
+   "photos": [
+    "media/facebook/4181714488786699/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "categories": [
+    "OHL (Pylons)",
+    "Substation"
+   ]
+  },
+  {
+   "id": "1173555225147493",
+   "date": "2026-10-21",
+   "title": "No Pylons Lincolnshire",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "No Pylons Lincolnshire",
+    "label": "Facebook · No Pylons Lincolnshire",
+    "url": "https://www.facebook.com/groups/427539323082424/posts/1173555225147493/"
+   },
+   "thin": false,
+   "bodyText": "Response to Steve Barclay's question - he asked government \"is the cost of Grimsby to Walpole likely to increase\"\nThe link takes you to Micheal Shanks reply (I can't say answer - as it clearly dodges the question)\nQUESTIONS-STATEMENTS.PARLIAMENT.UK Written questions and answers - Written questions, answers and statements - UK Parliament",
+   "contentFingerprint": "a530024e670b598bd2de67d39d841abaa7a459c5d3500304bb3c9ba94aacaebf",
+   "photos": [
+    "media/facebook/1173555225147493/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "QUESTIONS-STATEMENTS.PARLIAMENT.UK Written questions and answers - Written questions, answers and statements - UK Parliament",
+     "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-09/30373?utm_id=97757_v0_s00_e0_tv2_a1demonztw048v"
+    }
+   ]
+  },
+  {
+   "id": "1085056221005490",
+   "date": "2026-10-20",
+   "title": "Say NO to Chapelcross AI Data Centre",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Say NO to Chapelcross AI Data Centre",
+    "label": "Facebook · Say NO to Chapelcross AI Data Centre",
+    "url": "https://www.facebook.com/groups/1015424481301998/posts/1085056221005490/"
+   },
+   "thin": false,
+   "bodyText": "",
+   "contentFingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "photos": [
+    "media/facebook/1085056221005490/photo_1.png"
+   ],
+   "mediaCount": 1
+  },
+  {
+   "id": "1085056164338829",
+   "date": "2026-10-20",
+   "title": "Say NO to Chapelcross AI Data Centre",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Say NO to Chapelcross AI Data Centre",
+    "label": "Facebook · Say NO to Chapelcross AI Data Centre",
+    "url": "https://www.facebook.com/groups/1015424481301998/posts/1085056164338829/"
+   },
+   "thin": false,
+   "bodyText": "This article demonstrates the impact local community can have, if they're prepared to make a stand.\nNEWS.COM.AU Major data centre company in trading halt after Melbourne community backlash",
+   "contentFingerprint": "d81b7746211e03ecdc779c267afaa7b5d3a05b09d8a2cb3563e6ef2beb76b806",
+   "photos": [
+    "media/facebook/1085056164338829/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "NEWS.COM.AU Major data centre company in trading halt after Melbourne community backlash",
+     "url": "https://www.news.com.au/finance/business/other-industries/major-data-centre-company-in-trading-halt-after-melbourne-community-backlash/news-story/7f49fb540c60c0729175eae368f2bc13"
+    }
+   ],
+   "categories": [
+    "Data Centre"
+   ]
+  },
+  {
+   "id": "1085085577669221",
+   "date": "2026-10-20",
+   "title": "Say NO to Chapelcross AI Data Centre",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Say NO to Chapelcross AI Data Centre",
+    "label": "Facebook · Say NO to Chapelcross AI Data Centre",
+    "url": "https://www.facebook.com/groups/1015424481301998/posts/1085085577669221/"
+   },
+   "thin": false,
+   "bodyText": "Why is this not happening here ??!! I honestly think that even if the site was to be turned into a landfill site the majority of locals wouldn't speak out..it really saddens me. Too many folks moan amongst themselves but are happy to leave it to others to speak out loud.",
+   "contentFingerprint": "ccd517d31f33d83cb197bdde2b4afcb5ef50ed9d3e7ccd6de935c20e4d432ef2",
+   "photos": [
+    "media/facebook/1085085577669221/photo_1.png"
+   ],
+   "mediaCount": 1
+  },
+  {
+   "id": "1085086317669147",
+   "date": "2026-10-20",
+   "title": "Say NO to Chapelcross AI Data Centre",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Say NO to Chapelcross AI Data Centre",
+    "label": "Facebook · Say NO to Chapelcross AI Data Centre",
+    "url": "https://www.facebook.com/groups/1015424481301998/posts/1085086317669147/"
+   },
+   "thin": false,
+   "bodyText": "Cmon folks...WE should be doing this !!",
+   "contentFingerprint": "95686aac6c84f250907519e852fddf4d264a41aefae236631a6ce01470d920e9",
+   "photos": [
+    "media/facebook/1085086317669147/photo_1.png"
+   ],
+   "mediaCount": 1
+  },
+  {
+   "id": "1842988963821597",
+   "date": "2026-10-20",
+   "title": "Hurlford Rufus Data Centre Community Group",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Hurlford Rufus Data Centre Community Group",
+    "label": "Facebook · Hurlford Rufus Data Centre Community Group",
+    "url": "https://www.facebook.com/groups/1604173331036496/posts/1842988963821597/"
+   },
+   "thin": false,
+   "bodyText": "It's not something that should happen and then not be mentioned again. Was there a hacking incident involving an Ai model\nBBC.CO.UK Google Cloud says 'power event' behind outage affecting UK banks and websites",
+   "contentFingerprint": "d4c9ce0534c43ee9779b9b5fa31a8993a404aacd415bd44b6160301a2a2020fd",
+   "photos": [
+    "media/facebook/1842988963821597/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "BBC.CO.UK Google Cloud says 'power event' behind outage affecting UK banks and websites",
+     "url": "https://share.google/hhL5lkh1aqMrZNEJ2"
+    }
+   ]
+  },
+  {
+   "id": "3872664599540353",
+   "date": "2026-10-20",
+   "title": "WISBECH WITHOUT INCINERATION (WisWIN)",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "WISBECH WITHOUT INCINERATION (WisWIN)",
+    "label": "Facebook · WISBECH WITHOUT INCINERATION (WisWIN)",
+    "url": "https://www.facebook.com/groups/wiswin/posts/3872664599540353/"
+   },
+   "thin": false,
+   "bodyText": "We need the support of Wisbech and surrounding areas! Please join the Stop Longmarsh FB group and help us oppose the data centre.",
+   "contentFingerprint": "772166b24774629048039ec4b21793bf5e202373e38e75ce950882cd1bbabb89",
+   "photos": [
+    "media/facebook/3872664599540353/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "categories": [
+    "Data Centre"
    ]
   }
  ]
