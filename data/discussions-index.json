@@ -104799,7 +104799,17 @@
    "photos": [
     "media/facebook/1579068323545400/photo_1.png"
    ],
-   "mediaCount": 1
+   "mediaCount": 1,
+   "attachments": [
+    {
+     "name": "Hethersgill Community Meeting 20.10.2026 Final.pdf",
+     "href": "media/facebook/1579068323545400/attachments/Hethersgill-Community-Meeting-20-10-2026.pdf",
+     "type": "PDF",
+     "pages": 38,
+     "bytes": 14518895,
+     "note": "Slide deck attached to the Facebook post by the North Carlisle group. Author metadata removed."
+    }
+   ]
   },
   {
    "id": "4181714488786699",

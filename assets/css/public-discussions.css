@@ -212,6 +212,12 @@ body.pd-showing-detail .pd-detail-panel { display: block; }
 .pd-mirror { margin-top: 20px; padding-top: 16px; border-top: 1px dashed var(--card-border); }
 .pd-mirror-heading { font-family: var(--font-serif); font-size: 1rem; color: var(--accent-plum); margin: 0 0 10px; }
 .pd-mirror-text { font-size: 0.92rem; line-height: 1.6; white-space: pre-wrap; color: var(--text-primary); margin: 0 0 12px; }
+.pd-detail-attachments { margin: 14px 0; padding: 12px 14px; border: 1px solid var(--card-border); border-radius: 10px; background: var(--bg-paper-2); }
+.pd-detail-attachments h3 { margin: 0 0 6px; font-size: 0.95rem; }
+.pd-detail-attachments ul { margin: 0; padding-left: 18px; }
+.pd-detail-attachments li { margin: 4px 0; }
+.pd-attach-meta { color: var(--text-muted, #6b6b6b); font-size: 0.85rem; }
+.pd-attach-note { color: var(--text-muted, #6b6b6b); font-size: 0.85rem; margin-top: 2px; }
 .pd-mirror-photos { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
 .pd-mirror-photos img { max-width: 240px; max-height: 240px; border-radius: 10px; border: 1px solid var(--card-border); object-fit: cover; }
 .pd-mirror-comments { display: flex; flex-direction: column; gap: 10px; }

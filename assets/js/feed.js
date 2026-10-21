@@ -268,6 +268,22 @@ function detailPhotos(record) {
   return "";
 }
 
+// Documents attached to the Facebook post itself (for example a PDF slide deck).
+// Each one is a file the site holds under media/facebook/<id>/attachments/ and is linked, not embedded.
+function detailAttachments(record) {
+  const list = Array.isArray(record.attachments) ? record.attachments.filter((a) => a && a.href) : [];
+  if (!list.length) return "";
+  const items = list
+    .map((a) => {
+      const meta = [a.type, a.pages ? `${a.pages} pages` : "", a.bytes ? `${(a.bytes / 1048576).toFixed(1)} MB` : ""]
+        .filter(Boolean)
+        .join(", ");
+      return `<li><a href="${safeUrl(a.href)}" target="_blank" rel="noopener">${escapeHtml(a.name)}</a>${meta ? ` <span class="pd-attach-meta">(${escapeHtml(meta)})</span>` : ""}${a.note ? `<div class="pd-attach-note">${escapeHtml(a.note)}</div>` : ""}</li>`;
+    })
+    .join("");
+  return `<section class="pd-detail-attachments" aria-label="Attached documents"><h3>Document attached to the post</h3><ul>${items}</ul></section>`;
+}
+
 // When the archive captured nothing to show (no body text, no summary, no
 // mirror, no photo), fill the space with a clear, honest call to action
 // instead of either a disclaimer paragraph or bare whitespace -- never
@@ -321,6 +337,7 @@ export function renderDetail(panel, record, { onBack, hasMirror = false }) {
       <div class="pd-detail-date">${fmtHeader(record.date)}</div>
       <h2>${escapeHtml(record.title)}</h2>
       ${detailPhotos(record)}
+      ${detailAttachments(record)}
       ${record.bodyText ? `<p class="pd-detail-body">${linkifiedBody(record)}</p>` : ""}
       ${record.summary ? `<p class="pd-detail-summary">${escapeHtml(record.summary)}</p>` : ""}
       ${detailTextNote(record, hasMirror)}
