@@ -1,16 +1,16 @@
 {
- "generated": "2026-10-21T10:36:32.000Z",
+ "generated": "2026-10-23T18:41:10.000Z",
  "counts": {
-  "records": 3949,
+  "records": 3957,
   "thin": 320,
-  "withMedia": 1416,
-  "withCategories": 1154,
+  "withMedia": 1424,
+  "withCategories": 1158,
   "withTopics": 316,
   "withProject": 210,
   "withCoordinates": 95,
   "withSummary": 52,
-  "withBodyText": 2533,
-  "withPhotos": 1413,
+  "withBodyText": 2541,
+  "withPhotos": 1421,
   "withPreviewImage": 64,
   "councils": 4,
   "matchReviewLogged": 2,
@@ -22,7 +22,7 @@
  },
  "dateRange": {
   "from": "2024-04-12",
-  "to": "2026-10-21"
+  "to": "2026-10-23"
  },
  "records": [
   {
@@ -105368,6 +105368,299 @@
      "url": "https://petition.parliament.uk/petitions/780321?utm_id=97758_v0_s00_e0_tv2_a1den1nmkiepsq"
     }
    ]
+  },
+  {
+   "id": "29811026675166344",
+   "date": "2026-10-21",
+   "title": "Scotland Against Spin",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Scotland Against Spin",
+    "label": "Facebook · Scotland Against Spin",
+    "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29811026675166344/"
+   },
+   "thin": false,
+   "bodyText": "The Scottish Government has been urged to take a public stake in future offshore projects after ScottishPower's parent company reported profits of more than £2 billion.\nIberdrola, which is based in Bilbao, Spain reported an adjusted net profit of €5.1billion (£4.2bn) for the nine months to September 2026, including €2.7bn (£2.2bn) from its UK operations.\nThe Our Power campaign is urging the Scottish Government to commit to taking a stake in future renewable energy projects so that more of the nation's renewable wealth benefits Scottish communities.\nHERALDSCOTLAND.COM Scottish Government urged to take stake in offshore wind as profits soar",
+   "contentFingerprint": "d50b85a787dae0b24c4ab5c8ecc1bf87575f9f61b8b26b1b7c07bf8cda629278",
+   "photos": [
+    "media/facebook/29811026675166344/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "HERALDSCOTLAND.COM Scottish Government urged to take stake in offshore wind as profits soar",
+     "url": "https://www.heraldscotland.com/news/26657297.scottish-government-told-take-stake-offshore-wind/"
+    }
+   ]
+  },
+  {
+   "id": "29817791181156560",
+   "date": "2026-10-22",
+   "title": "Scotland Against Spin",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Scotland Against Spin",
+    "label": "Facebook · Scotland Against Spin",
+    "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29817791181156560/"
+   },
+   "thin": false,
+   "bodyText": "The chief executive of The Cabrach Trust, Jonathan Christie, spoke about how Galileo's plans to discount energy bills using AI would work in the Cabrach, stating that while the automated discount is \"no bad thing,\" the trust still harbours serious concerns about the area's green energy future.\nDespite cooperating with Galileo to secure a community-led charter, Christie and members of The Cabrach Trust have previously warned that the sheer scale of developments risks \"asset stripping\" a fragile community that already hosts 77 active turbines.\nPRESSANDJOURNAL.CO.UK 'AI-powered energy bills discount no bad thing for the Cabrach, but we have concerns about our green energy future'",
+   "contentFingerprint": "594c0cfff9b1a92fab029d714a861b07a2e157a2485ff755069243e6d69568f8",
+   "photos": [
+    "media/facebook/29817791181156560/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "PRESSANDJOURNAL.CO.UK 'AI-powered energy bills discount no bad thing for the Cabrach, but we have concerns about our green energy future'",
+     "url": "https://www.pressandjournal.co.uk/fp/news/moray/7135040/the-cabrach-trust-galileo-empower-dorenell-wind-farm-extension-ai-energy-bills/"
+    }
+   ],
+   "categories": [
+    "Onshore Wind"
+   ]
+  },
+  {
+   "id": "29822826713986340",
+   "date": "2026-10-22",
+   "title": "Scotland Against Spin",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Scotland Against Spin",
+    "label": "Facebook · Scotland Against Spin",
+    "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29822826713986340/"
+   },
+   "thin": false,
+   "bodyText": "AN INITIAL planning bid was submitted to Scottish Borders Council this week for the repowering of a wind farm once it reaches the end of its operational life.\nBowbeat Wind Farm, located in the Moorfoot Hills near Peebles and Innerleithen, has operated since 2003 but is expected to reach the end of its life in 2030.\nThe proposed repowering would take place after 2030, following the decommissioning of the existing wind farm\nBORDERTELEGRAPH.COM Initial planning bid lodged for repowering of Borders wind farm",
+   "contentFingerprint": "bb00d67fedf7fab4ec117c3b7720fa550fa7ded978a606245106b2e55ffa6ec3",
+   "photos": [
+    "media/facebook/29822826713986340/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "BORDERTELEGRAPH.COM Initial planning bid lodged for repowering of Borders wind farm",
+     "url": "https://www.bordertelegraph.com/news/26660382.repowering-bowbeat-wind-farm-agenda/"
+    }
+   ],
+   "categories": [
+    "Onshore Wind"
+   ]
+  },
+  {
+   "id": "29825942923674719",
+   "date": "2026-10-22",
+   "title": "Scotland Against Spin",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Scotland Against Spin",
+    "label": "Facebook · Scotland Against Spin",
+    "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29825942923674719/"
+   },
+   "thin": false,
+   "bodyText": "THE battle over the proposed Crosbie Wind Farm has been laid bare in final submissions to a public inquiry, with developers arguing the scheme is vital to Scotland's renewable energy ambitions while objectors claim it would irreversibly damage one of North Ayrshire's scenic areas of undeveloped moorland.\nIn its closing submission, the applicant Galileo maintained the 14-turbine development complies with national planning policy and should be approved by Scottish Ministers.\nThe developer argued that evidence presented by its own specialists on noise, planning policy, landscape impacts and renewable energy generation should carry greater weight than objections raised during the inquiry.\nLARGSANDMILLPORTNEWS.COM Crosbie Wind Farm developer backs 14 turbines as objectors warn of fire risks",
+   "contentFingerprint": "85ed7d8b7cf57b8865ec8b07c805ea913af9c6891ef97ff0bde91ee41b2cb105",
+   "photos": [
+    "media/facebook/29825942923674719/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "LARGSANDMILLPORTNEWS.COM Crosbie Wind Farm developer backs 14 turbines as objectors warn of fire risks",
+     "url": "https://www.largsandmillportnews.com/news/26656987.crosbie-wind-farm-inquiry-ends-ministers-weigh-decision/"
+    }
+   ],
+   "categories": [
+    "Onshore Wind"
+   ]
+  },
+  {
+   "id": "29833859712883040",
+   "date": "2026-10-23",
+   "title": "Scotland Against Spin",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    },
+    "categories": {
+     "method": "keyword"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Scotland Against Spin",
+    "label": "Facebook · Scotland Against Spin",
+    "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29833859712883040/"
+   },
+   "thin": false,
+   "bodyText": "Proposals for an energy park in north Caithness featuring up to five wind turbines have been condemned as “a new low point in the treatment of rural residents”.\nKoehler Renewable Energy (KRE) UK has submitted plans to the Scottish Government’s Energy Consents Unit for Charleston Energy Park, to the south of the A836 between Barrock and Mey.\nIf approved, the turbines will have a maximum height of 180 metres and the project will also involve access tracks, grid infrastructure and a battery energy storage system of up to 25MW.\nThe Save Caithness campaign has warned of “significant landscape and visual impacts on nearby communities” and is calling for objections to be lodged before a deadline of November 9.\nKoehler has offered to engage with Save Caithness, saying there is “an emerging myth that wind sector representatives do not want to speak to the public and address their questions and concerns”.\nJOHNOGROAT-JOURNAL.CO.UK Caithness energy park plans 'show cavalier disregard for the lives of rural residents'",
+   "contentFingerprint": "0f0ef171ab2cdc7c9a02c9e5868a99c653a41cbe81326345060ecad44471b7ce",
+   "photos": [
+    "media/facebook/29833859712883040/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "JOHNOGROAT-JOURNAL.CO.UK Caithness energy park plans 'show cavalier disregard for the lives of rural residents'",
+     "url": "https://www.johnogroat-journal.co.uk/news/caithness-energy-park-plans-show-cavalier-disregard-for-the-448084/"
+    }
+   ],
+   "categories": [
+    "BESS",
+    "Onshore Wind"
+   ]
+  },
+  {
+   "id": "29834114046190940",
+   "date": "2026-10-23",
+   "title": "Scotland Against Spin",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Scotland Against Spin",
+    "label": "Facebook · Scotland Against Spin",
+    "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29834114046190940/"
+   },
+   "thin": false,
+   "bodyText": "THE Scottish Greens are set to vote on whether to support new nuclear power at their upcoming party conference. If passed, the policy change would leave the SNP as the only party in Holyrood to oppose the development of new nuclear power stations in Scotland.\nThe Greens will meet in Inverness this weekend for their autumn conference, where they will debate a motion supporting the construction of new nuclear plants provided certain conditions are met.\nTHENATIONAL.SCOT Scottish Greens consider supporting new nuclear power stations in major policy shift",
+   "contentFingerprint": "5f51c7ab02cbb1a7ec46ed5e76d61e4e9c2979a9d410243cb17fa7f94639e21d",
+   "photos": [
+    "media/facebook/29834114046190940/photo_1.png"
+   ],
+   "mediaCount": 1,
+   "links": [
+    {
+     "text": "THENATIONAL.SCOT Scottish Greens consider supporting new nuclear power stations in major policy shift",
+     "url": "https://www.thenational.scot/news/26661068.scottish-greens-vote-backing-nuclear-power-major-policy-shift/"
+    }
+   ]
+  },
+  {
+   "id": "1160590673299186",
+   "date": "2026-10-21",
+   "title": "Suffolk Energy Action Solutions (SEAS)",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Suffolk Energy Action Solutions (SEAS)",
+    "label": "Facebook Page · Suffolk Energy Action Solutions (SEAS)",
+    "url": "https://www.facebook.com/SuffolkEnergyActionSolutions/posts/1160590673299186/"
+   },
+   "thin": false,
+   "bodyText": "LionLink: Who pays the price?\nSEAS and Walberswick Against LionLink (WALL) are calling on Ofgem to take another look at LionLink's economic case and protect electricity consumers from potentially unnecessary costs.\nThe figures matter. Ofgem's November 2024 assessment estimated losses to British consumers of £3.1 billion to £6.1 billion over 25 years across three scenarios. Under the cap and floor regime, consumers could ultimately bear the cost if the project underperforms financially.\nWe're asking for answers:\nWALL (Walberswick Against LionLink) is calling for updated economic assessments, greater transparency and a firm 2035 deadline.\nSEAS is urging a wider strategic assessment of LionLink alongside Sea Link and other major infrastructure planned for East Suffolk. Better-coordinated offshore infrastructure and shared platforms could help reduce onshore impacts and deliver better value for money.\nSupporting renewable energy doesn't mean giving every project a free pass.\nElectricity grid investment must be necessary, affordable and in the public interest - with proper scrutiny of the costs, benefits and impacts on our communities.",
+   "contentFingerprint": "1e55e228802aaa1e8cb7823d0edf5704b2ff4b015f4160f5e3a9eeeea408a043",
+   "photos": [
+    "media/facebook/1160590673299186/photo_1.png"
+   ],
+   "mediaCount": 1
+  },
+  {
+   "id": "1161462243212029",
+   "date": "2026-10-22",
+   "title": "Suffolk Energy Action Solutions (SEAS)",
+   "provenance": {
+    "title": {
+     "method": "neutral"
+    },
+    "bodyText": {
+     "method": "content_before_first_comment"
+    },
+    "photos": {
+     "method": "screenshot"
+    }
+   },
+   "source": {
+    "type": "facebook_group",
+    "name": "Suffolk Energy Action Solutions (SEAS)",
+    "label": "Facebook Page · Suffolk Energy Action Solutions (SEAS)",
+    "url": "https://www.facebook.com/SuffolkEnergyActionSolutions/posts/1161462243212029/"
+   },
+   "thin": false,
+   "bodyText": "On Tuesday, 14 October, the Energy Secretary Miatta Fahnbulleh and DESNZ Permanent Secretary Jonathan Brearley (former Chief Executive of Ofgem) gave oral evidence to Parliament's Energy Select Committee.\nThe discussion covered familiar arguments: grid bottlenecks are holding back clean power; energy prices remain unacceptably high; the current system is too fragmented; and grid construction must be accelerated through Great British Grid initiative with infrastructure costs shared between consumers, taxpayers and private companies.\nThe Secretary of State also acknowledged weaknesses in the regulatory framework for network companies.\nFor SEAS, building faster is not enough. Projects must be necessary, alternatives properly assessed, and value for money demonstrated.\nThese questions are particularly relevant to Sea Link and LionLink.",
+   "contentFingerprint": "d1fd06d14e5b1f414f80ab0f2f39a62647c4b45b5dc3c4393416f4dc46861388",
+   "photos": [
+    "media/facebook/1161462243212029/photo_1.png"
+   ],
+   "mediaCount": 1
   }
  ]
 }
