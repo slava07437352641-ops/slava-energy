@@ -1,14 +1,14 @@
 {
- "generated": "2026-10-23T18:41:10.000Z",
+ "generated": "2026-10-24T20:42:57Z",
  "counts": {
-  "records": 3957,
-  "thin": 320,
+  "records": 3962,
+  "thin": 325,
   "withMedia": 1424,
-  "withCategories": 1158,
+  "withCategories": 1162,
   "withTopics": 316,
   "withProject": 210,
   "withCoordinates": 95,
-  "withSummary": 52,
+  "withSummary": 57,
   "withBodyText": 2541,
   "withPhotos": 1421,
   "withPreviewImage": 64,
@@ -22,7 +22,7 @@
  },
  "dateRange": {
   "from": "2024-04-12",
-  "to": "2026-10-23"
+  "to": "2026-10-24"
  },
  "records": [
   {
@@ -105661,6 +105661,160 @@
     "media/facebook/1161462243212029/photo_1.png"
    ],
    "mediaCount": 1
+  },
+  {
+   "id": "29851698281099183",
+   "date": "2026-10-24",
+   "title": "Discussion of wind turbines during a storm in western Scotland",
+   "source": {
+    "type": "facebook_group",
+    "name": "Scotland Against Spin",
+    "label": "Facebook · Scotland Against Spin",
+    "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29851698281099183/"
+   },
+   "summary": "Source observation: a public group post describes turbines turning during stormy weather in western Scotland and expresses concern about power cuts. Weather, wind-speed and operational claims have not been independently verified.",
+   "thin": true,
+   "categories": [
+    "Onshore Wind"
+   ],
+   "provenance": {
+    "title": {
+     "method": "editorial_neutral_title"
+    },
+    "summary": {
+     "method": "editorial_summary_of_public_original_post",
+     "independentlyVerified": false
+    },
+    "date": {
+     "method": "Timestamp-link tooltip; no profile card",
+     "sourceLabel": "Saturday 24 October 2026 at 13:13",
+     "timezone": "Europe/London",
+     "precision": "minute"
+    }
+   }
+  },
+  {
+   "id": "29850897301179281",
+   "date": "2026-10-24",
+   "title": "Opinion on wind-farm payments during stormy weather",
+   "source": {
+    "type": "facebook_group",
+    "name": "Scotland Against Spin",
+    "label": "Facebook · Scotland Against Spin",
+    "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29850897301179281/"
+   },
+   "summary": "Source opinion: a public group post questions whether wind farms receive payments when they are not generating during stormy weather. The payment claim has not been independently verified.",
+   "thin": true,
+   "categories": [
+    "Onshore Wind"
+   ],
+   "provenance": {
+    "title": {
+     "method": "editorial_neutral_title"
+    },
+    "summary": {
+     "method": "editorial_summary_of_public_original_post",
+     "independentlyVerified": false
+    },
+    "date": {
+     "method": "Timestamp-link tooltip; no profile card",
+     "sourceLabel": "Saturday 24 October 2026 at 12:07",
+     "timezone": "Europe/London",
+     "precision": "minute"
+    }
+   }
+  },
+  {
+   "id": "1412148481077393",
+   "date": "2026-10-24",
+   "title": "Discussion of offshore wind-turbine power calculations",
+   "source": {
+    "type": "facebook_group",
+    "name": "Scottish Electricity Generating Stations",
+    "label": "Facebook · Scottish Electricity Generating Stations",
+    "url": "https://www.facebook.com/groups/443369301288654/posts/1412148481077393/"
+   },
+   "summary": "Source discussion: a post presents calculations relating turbine power to rotor size and wind speed. Its numerical results and annual-generation claims have not been independently verified.",
+   "thin": true,
+   "categories": [
+    "Offshore Wind"
+   ],
+   "provenance": {
+    "title": {
+     "method": "editorial_neutral_title"
+    },
+    "summary": {
+     "method": "editorial_summary_of_public_original_post",
+     "independentlyVerified": false
+    },
+    "date": {
+     "method": "Timestamp-link tooltip; no profile card",
+     "sourceLabel": "Saturday 24 October 2026 at 13:11",
+     "timezone": "Europe/London",
+     "precision": "minute"
+    }
+   }
+  },
+  {
+   "id": "1460435062887592",
+   "date": "2026-10-23",
+   "title": "Torrington campaign fundraiser announced for 30 October",
+   "source": {
+    "type": "facebook_group",
+    "name": "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
+    "label": "Facebook · Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
+    "url": "https://www.facebook.com/groups/1367957378802028/posts/1460435062887592/"
+   },
+   "summary": "Source announcement: a campaign post advertises a fundraiser at Torridge Vale Social Club on 30 October 2026, starting at 7 pm, in support of opposition to the proposed development. Event arrangements have not been independently confirmed.",
+   "thin": true,
+   "categories": [
+    "BESS",
+    "Data Centre"
+   ],
+   "provenance": {
+    "title": {
+     "method": "editorial_neutral_title"
+    },
+    "summary": {
+     "method": "editorial_summary_of_public_original_post",
+     "independentlyVerified": false
+    },
+    "date": {
+     "method": "Timestamp-link tooltip; no profile card",
+     "sourceLabel": "Friday 23 October 2026 at 22:12",
+     "timezone": "Europe/London",
+     "precision": "minute"
+    }
+   }
+  },
+  {
+   "id": "1119552753807839",
+   "date": "2026-10-23",
+   "title": "Campaign post calls for engineering expertise in energy oversight",
+   "source": {
+    "type": "facebook_group",
+    "name": "Communities B4 Power Companies",
+    "label": "Facebook · Communities B4 Power Companies",
+    "url": "https://www.facebook.com/groups/221782186918238/posts/1119552753807839/"
+   },
+   "summary": "Source opinion: a campaign post criticises oversight of energy policy and argues for more engineering expertise. Claims about individuals’ qualifications have not been independently verified.",
+   "thin": true,
+   "categories": [],
+   "provenance": {
+    "title": {
+     "method": "editorial_neutral_title"
+    },
+    "summary": {
+     "method": "editorial_summary_of_public_original_post",
+     "independentlyVerified": false
+    },
+    "date": {
+     "method": "Timestamp-link tooltip; no profile card",
+     "sourceLabel": "Friday 23 October 2026 at 15:55",
+     "timezone": "Europe/London",
+     "precision": "minute"
+    }
+   }
   }
  ]
 }
