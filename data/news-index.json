@@ -1,712 +1,711 @@
 {
- "generated": "2026-10-23T18:41:10.000Z",
- "sourceFilter": [
-  "Scotland Against Spin",
-  "Environmentalists Against Wind Turbines",
-  "Grampian Against Data Centres",
-  "Communities B4 Power Companies",
-  "Not A Just Transition",
-  "Mey BESS Action Group",
-  "7000 Acres Group",
-  "Better Cable Route (Strathpeffer & Contin)",
-  "Thirsk Against Battery Storage",
-  "Suffolk Energy Action Solutions (SEAS)",
-  "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
-  "Essex Suffolk Norfolk Pylons",
-  "Scottish Electricity Generating Stations",
-  "Worth Valley against Walshaw Moor Wind Farm",
-  "Wind Energy's Absurd",
-  "Rural Scotland (APRS)",
-  "Our Power",
-  "Say NO to Cockenzie Data Centre",
-  "Say No To Cato Data Centre",
-  "West Edinburgh Against AI Data Centre",
-  "Help Save Mochrum Fell",
-  "Save Our Hills - Dumfries and Galloway",
-  "Say No to West Calder Hyperscale Data Centre",
-  "NO to East Havering Data Centre in Upminster (Residents Group)",
-  "No Pylons Lincolnshire",
-  "Deeside Against Pylons",
-  "RE-Think Wales",
-  "North Carlisle Against Pylons and Substation",
-  "STOP EAST LINCOLNSHIRE PYLONS",
-  "Say NO to Chapelcross AI Data Centre",
-  "Hurlford Rufus Data Centre Community Group",
-  "Dunbar Against Massive Datacentres (DAMD)",
-  "WISBECH WITHOUT INCINERATION (WisWIN)",
-  "HOPE for Britain's countryside"
- ],
- "selection": "strict global recency (most recent records first, across all tracked sources)",
- "counts": {
-  "records": 18,
-  "Scotland Against Spin": 8,
-  "Suffolk Energy Action Solutions (SEAS)": 2,
-  "North Carlisle Against Pylons and Substation": 2,
-  "Say No To Cato Data Centre": 3,
-  "Help Save Mochrum Fell": 1,
-  "Communities B4 Power Companies": 1,
-  "No Pylons Lincolnshire": 1
- },
- "dateRange": {
-  "from": "2026-10-21",
-  "to": "2026-10-23"
- },
- "records": [
-  {
-   "id": "29834114046190940",
-   "date": "2026-10-23",
-   "title": "Scotland Against Spin",
-   "provenance": {
-    "title": {
-     "method": "neutral"
-    },
-    "bodyText": {
-     "method": "content_before_first_comment"
-    },
-    "photos": {
-     "method": "screenshot"
-    }
-   },
-   "source": {
-    "type": "facebook_group",
-    "name": "Scotland Against Spin",
-    "label": "Facebook · Scotland Against Spin",
-    "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29834114046190940/"
-   },
-   "thin": false,
-   "bodyText": "THE Scottish Greens are set to vote on whether to support new nuclear power at their upcoming party conference. If passed, the policy change would leave the SNP as the only party in Holyrood to oppose the development of new nuclear power stations in Scotland.\nThe Greens will meet in Inverness this weekend for their autumn conference, where they will debate a motion supporting the construction of new nuclear plants provided certain conditions are met.\nTHENATIONAL.SCOT Scottish Greens consider supporting new nuclear power stations in major policy shift",
-   "contentFingerprint": "5f51c7ab02cbb1a7ec46ed5e76d61e4e9c2979a9d410243cb17fa7f94639e21d",
-   "photos": [
-    "media/facebook/29834114046190940/photo_1.png"
-   ],
-   "mediaCount": 1,
-   "links": [
+  "generated": "2026-10-25T20:08:35.000Z",
+  "sourceFilter": [
+    "Scotland Against Spin",
+    "Environmentalists Against Wind Turbines",
+    "Grampian Against Data Centres",
+    "Communities B4 Power Companies",
+    "Not A Just Transition",
+    "Mey BESS Action Group",
+    "7000 Acres Group",
+    "Better Cable Route (Strathpeffer & Contin)",
+    "Thirsk Against Battery Storage",
+    "Suffolk Energy Action Solutions (SEAS)",
+    "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
+    "Essex Suffolk Norfolk Pylons",
+    "Scottish Electricity Generating Stations",
+    "Worth Valley against Walshaw Moor Wind Farm",
+    "Wind Energy's Absurd",
+    "Rural Scotland (APRS)",
+    "Our Power",
+    "Say NO to Cockenzie Data Centre",
+    "Say No To Cato Data Centre",
+    "West Edinburgh Against AI Data Centre",
+    "Help Save Mochrum Fell",
+    "Save Our Hills - Dumfries and Galloway",
+    "Say No to West Calder Hyperscale Data Centre",
+    "NO to East Havering Data Centre in Upminster (Residents Group)",
+    "No Pylons Lincolnshire",
+    "Deeside Against Pylons",
+    "RE-Think Wales",
+    "North Carlisle Against Pylons and Substation",
+    "STOP EAST LINCOLNSHIRE PYLONS",
+    "Say NO to Chapelcross AI Data Centre",
+    "Hurlford Rufus Data Centre Community Group",
+    "Dunbar Against Massive Datacentres (DAMD)",
+    "WISBECH WITHOUT INCINERATION (WisWIN)",
+    "HOPE for Britain's countryside",
+    "Angus Pylon Action Group"
+  ],
+  "selection": "strict global recency (most recent records first, across all tracked sources)",
+  "counts": {
+    "records": 18,
+    "Dunbar Against Massive Datacentres (DAMD)": 1,
+    "Thirsk Against Battery Storage": 1,
+    "Scotland Against Spin": 6,
+    "Worth Valley against Walshaw Moor Wind Farm": 1,
+    "Say No To Cato Data Centre": 3,
+    "Our Power": 1,
+    "Communities B4 Power Companies": 1,
+    "Angus Pylon Action Group": 1,
+    "Help Save Mochrum Fell": 1,
+    "NO to East Havering Data Centre in Upminster (Residents Group)": 1,
+    "Scottish Electricity Generating Stations": 1
+  },
+  "dateRange": {
+    "from": "2026-10-24",
+    "to": "2026-10-25"
+  },
+  "records": [
     {
-     "text": "THENATIONAL.SCOT Scottish Greens consider supporting new nuclear power stations in major policy shift",
-     "url": "https://www.thenational.scot/news/26661068.scottish-greens-vote-backing-nuclear-power-major-policy-shift/"
-    }
-   ]
-  },
-  {
-   "id": "29833859712883040",
-   "date": "2026-10-23",
-   "title": "Scotland Against Spin",
-   "provenance": {
-    "title": {
-     "method": "neutral"
+      "id": "1474907914498664",
+      "date": "2026-10-25",
+      "title": "Dunbar Against Massive Datacentres (DAMD)",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Dunbar Against Massive Datacentres (DAMD)",
+        "label": "Facebook · Dunbar Against Massive Datacentres (DAMD)",
+        "url": "https://www.facebook.com/groups/1316627133660077/posts/1474907914498664/"
+      },
+      "thin": false,
+      "bodyText": "Let's hope he's right!",
+      "contentFingerprint": "c9ccac6bdcde56326dca8da6a31cae3258d5f6df4d3847f2920d5637d5eda4b1",
+      "photos": [
+        "media/facebook/1474907914498664/photo_1.png"
+      ],
+      "mediaCount": 1
     },
-    "bodyText": {
-     "method": "content_before_first_comment"
-    },
-    "photos": {
-     "method": "screenshot"
-    },
-    "categories": {
-     "method": "keyword"
-    }
-   },
-   "source": {
-    "type": "facebook_group",
-    "name": "Scotland Against Spin",
-    "label": "Facebook · Scotland Against Spin",
-    "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29833859712883040/"
-   },
-   "thin": false,
-   "bodyText": "Proposals for an energy park in north Caithness featuring up to five wind turbines have been condemned as “a new low point in the treatment of rural residents”.\nKoehler Renewable Energy (KRE) UK has submitted plans to the Scottish Government’s Energy Consents Unit for Charleston Energy Park, to the south of the A836 between Barrock and Mey.\nIf approved, the turbines will have a maximum height of 180 metres and the project will also involve access tracks, grid infrastructure and a battery energy storage system of up to 25MW.\nThe Save Caithness campaign has warned of “significant landscape and visual impacts on nearby communities” and is calling for objections to be lodged before a deadline of November 9.\nKoehler has offered to engage with Save Caithness, saying there is “an emerging myth that wind sector representatives do not want to speak to the public and address their questions and concerns”.\nJOHNOGROAT-JOURNAL.CO.UK Caithness energy park plans 'show cavalier disregard for the lives of rural residents'",
-   "contentFingerprint": "0f0ef171ab2cdc7c9a02c9e5868a99c653a41cbe81326345060ecad44471b7ce",
-   "photos": [
-    "media/facebook/29833859712883040/photo_1.png"
-   ],
-   "mediaCount": 1,
-   "links": [
     {
-     "text": "JOHNOGROAT-JOURNAL.CO.UK Caithness energy park plans 'show cavalier disregard for the lives of rural residents'",
-     "url": "https://www.johnogroat-journal.co.uk/news/caithness-energy-park-plans-show-cavalier-disregard-for-the-448084/"
-    }
-   ],
-   "categories": [
-    "BESS",
-    "Onshore Wind"
-   ]
-  },
-  {
-   "id": "29825942923674719",
-   "date": "2026-10-22",
-   "title": "Scotland Against Spin",
-   "provenance": {
-    "title": {
-     "method": "neutral"
+      "id": "1686035713129578",
+      "date": "2026-10-25",
+      "title": "Thirsk Against Battery Storage",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Thirsk Against Battery Storage",
+        "label": "Facebook · Thirsk Against Battery Storage",
+        "url": "https://www.facebook.com/groups/1117445326655289/posts/1686035713129578/"
+      },
+      "thin": false,
+      "bodyText": "",
+      "contentFingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "photos": [
+        "media/facebook/1686035713129578/photo_1.png"
+      ],
+      "mediaCount": 1
     },
-    "bodyText": {
-     "method": "content_before_first_comment"
-    },
-    "photos": {
-     "method": "screenshot"
-    },
-    "categories": {
-     "method": "keyword"
-    }
-   },
-   "source": {
-    "type": "facebook_group",
-    "name": "Scotland Against Spin",
-    "label": "Facebook · Scotland Against Spin",
-    "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29825942923674719/"
-   },
-   "thin": false,
-   "bodyText": "THE battle over the proposed Crosbie Wind Farm has been laid bare in final submissions to a public inquiry, with developers arguing the scheme is vital to Scotland's renewable energy ambitions while objectors claim it would irreversibly damage one of North Ayrshire's scenic areas of undeveloped moorland.\nIn its closing submission, the applicant Galileo maintained the 14-turbine development complies with national planning policy and should be approved by Scottish Ministers.\nThe developer argued that evidence presented by its own specialists on noise, planning policy, landscape impacts and renewable energy generation should carry greater weight than objections raised during the inquiry.\nLARGSANDMILLPORTNEWS.COM Crosbie Wind Farm developer backs 14 turbines as objectors warn of fire risks",
-   "contentFingerprint": "85ed7d8b7cf57b8865ec8b07c805ea913af9c6891ef97ff0bde91ee41b2cb105",
-   "photos": [
-    "media/facebook/29825942923674719/photo_1.png"
-   ],
-   "mediaCount": 1,
-   "links": [
     {
-     "text": "LARGSANDMILLPORTNEWS.COM Crosbie Wind Farm developer backs 14 turbines as objectors warn of fire risks",
-     "url": "https://www.largsandmillportnews.com/news/26656987.crosbie-wind-farm-inquiry-ends-ministers-weigh-decision/"
-    }
-   ],
-   "categories": [
-    "Onshore Wind"
-   ]
-  },
-  {
-   "id": "1161462243212029",
-   "date": "2026-10-22",
-   "title": "Suffolk Energy Action Solutions (SEAS)",
-   "provenance": {
-    "title": {
-     "method": "neutral"
+      "id": "29865952456340432",
+      "date": "2026-10-25",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29865952456340432/"
+      },
+      "thin": false,
+      "bodyText": "Must need nerves of steel in that job at the moment",
+      "contentFingerprint": "180ddd326595be0e2d7d3477bebd3e5965117fc9bf4b705db39cfc367a300f75",
+      "photos": [
+        "media/facebook/29865952456340432/photo_1.png"
+      ],
+      "mediaCount": 1
     },
-    "bodyText": {
-     "method": "content_before_first_comment"
-    },
-    "photos": {
-     "method": "screenshot"
-    }
-   },
-   "source": {
-    "type": "facebook_group",
-    "name": "Suffolk Energy Action Solutions (SEAS)",
-    "label": "Facebook Page · Suffolk Energy Action Solutions (SEAS)",
-    "url": "https://www.facebook.com/SuffolkEnergyActionSolutions/posts/1161462243212029/"
-   },
-   "thin": false,
-   "bodyText": "On Tuesday, 14 October, the Energy Secretary Miatta Fahnbulleh and DESNZ Permanent Secretary Jonathan Brearley (former Chief Executive of Ofgem) gave oral evidence to Parliament's Energy Select Committee.\nThe discussion covered familiar arguments: grid bottlenecks are holding back clean power; energy prices remain unacceptably high; the current system is too fragmented; and grid construction must be accelerated through Great British Grid initiative with infrastructure costs shared between consumers, taxpayers and private companies.\nThe Secretary of State also acknowledged weaknesses in the regulatory framework for network companies.\nFor SEAS, building faster is not enough. Projects must be necessary, alternatives properly assessed, and value for money demonstrated.\nThese questions are particularly relevant to Sea Link and LionLink.",
-   "contentFingerprint": "d1fd06d14e5b1f414f80ab0f2f39a62647c4b45b5dc3c4393416f4dc46861388",
-   "photos": [
-    "media/facebook/1161462243212029/photo_1.png"
-   ],
-   "mediaCount": 1
-  },
-  {
-   "id": "29822826713986340",
-   "date": "2026-10-22",
-   "title": "Scotland Against Spin",
-   "provenance": {
-    "title": {
-     "method": "neutral"
-    },
-    "bodyText": {
-     "method": "content_before_first_comment"
-    },
-    "photos": {
-     "method": "screenshot"
-    },
-    "categories": {
-     "method": "keyword"
-    }
-   },
-   "source": {
-    "type": "facebook_group",
-    "name": "Scotland Against Spin",
-    "label": "Facebook · Scotland Against Spin",
-    "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29822826713986340/"
-   },
-   "thin": false,
-   "bodyText": "AN INITIAL planning bid was submitted to Scottish Borders Council this week for the repowering of a wind farm once it reaches the end of its operational life.\nBowbeat Wind Farm, located in the Moorfoot Hills near Peebles and Innerleithen, has operated since 2003 but is expected to reach the end of its life in 2030.\nThe proposed repowering would take place after 2030, following the decommissioning of the existing wind farm\nBORDERTELEGRAPH.COM Initial planning bid lodged for repowering of Borders wind farm",
-   "contentFingerprint": "bb00d67fedf7fab4ec117c3b7720fa550fa7ded978a606245106b2e55ffa6ec3",
-   "photos": [
-    "media/facebook/29822826713986340/photo_1.png"
-   ],
-   "mediaCount": 1,
-   "links": [
     {
-     "text": "BORDERTELEGRAPH.COM Initial planning bid lodged for repowering of Borders wind farm",
-     "url": "https://www.bordertelegraph.com/news/26660382.repowering-bowbeat-wind-farm-agenda/"
-    }
-   ],
-   "categories": [
-    "Onshore Wind"
-   ]
-  },
-  {
-   "id": "29817791181156560",
-   "date": "2026-10-22",
-   "title": "Scotland Against Spin",
-   "provenance": {
-    "title": {
-     "method": "neutral"
+      "id": "29865990659669945",
+      "date": "2026-10-25",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29865990659669945/"
+      },
+      "thin": false,
+      "bodyText": "https://youtu.be/hXGpsffa3Zk?is=osT907Lbo-12U6Oe",
+      "contentFingerprint": "9cd812457c18d19e390e75f39503cdaf0427003b9aca45b4f2cafbc590f097e3",
+      "photos": [
+        "media/facebook/29865990659669945/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://youtu.be/hXGpsffa3Zk?is=osT907Lbo-12U6Oe",
+          "url": "https://youtu.be/hXGpsffa3Zk?is=osT907Lbo-12U6Oe"
+        }
+      ]
     },
-    "bodyText": {
-     "method": "content_before_first_comment"
-    },
-    "photos": {
-     "method": "screenshot"
-    },
-    "categories": {
-     "method": "keyword"
-    }
-   },
-   "source": {
-    "type": "facebook_group",
-    "name": "Scotland Against Spin",
-    "label": "Facebook · Scotland Against Spin",
-    "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29817791181156560/"
-   },
-   "thin": false,
-   "bodyText": "The chief executive of The Cabrach Trust, Jonathan Christie, spoke about how Galileo's plans to discount energy bills using AI would work in the Cabrach, stating that while the automated discount is \"no bad thing,\" the trust still harbours serious concerns about the area's green energy future.\nDespite cooperating with Galileo to secure a community-led charter, Christie and members of The Cabrach Trust have previously warned that the sheer scale of developments risks \"asset stripping\" a fragile community that already hosts 77 active turbines.\nPRESSANDJOURNAL.CO.UK 'AI-powered energy bills discount no bad thing for the Cabrach, but we have concerns about our green energy future'",
-   "contentFingerprint": "594c0cfff9b1a92fab029d714a861b07a2e157a2485ff755069243e6d69568f8",
-   "photos": [
-    "media/facebook/29817791181156560/photo_1.png"
-   ],
-   "mediaCount": 1,
-   "links": [
     {
-     "text": "PRESSANDJOURNAL.CO.UK 'AI-powered energy bills discount no bad thing for the Cabrach, but we have concerns about our green energy future'",
-     "url": "https://www.pressandjournal.co.uk/fp/news/moray/7135040/the-cabrach-trust-galileo-empower-dorenell-wind-farm-extension-ai-energy-bills/"
-    }
-   ],
-   "categories": [
-    "Onshore Wind"
-   ]
-  },
-  {
-   "id": "1160590673299186",
-   "date": "2026-10-21",
-   "title": "Suffolk Energy Action Solutions (SEAS)",
-   "provenance": {
-    "title": {
-     "method": "neutral"
+      "id": "1421301439575296",
+      "date": "2026-10-25",
+      "title": "Worth Valley against Walshaw Moor Wind Farm",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Worth Valley against Walshaw Moor Wind Farm",
+        "label": "Facebook · Worth Valley against Walshaw Moor Wind Farm",
+        "url": "https://www.facebook.com/groups/735756034796510/posts/1421301439575296/"
+      },
+      "thin": false,
+      "bodyText": "This is a bit of a niche post but I'm hoping that someone may be able to help.\nI'm researching peat bog bursts on the area around Crow Hill near Stanbury, West Yorkshire.  I have all the information I need about the 1824 one and about the one in 1989, but I believe there have been others.  \nIf you have first hand knowledge of other bog bursts in this area (NOT examples of academic research, accounts in the press etc) then I would very much like to hear from you!",
+      "contentFingerprint": "d7a34adb4e0fffaa140ad3b3d827b9e47393853b2cb2362487050f519a796f2d",
+      "photos": [
+        "media/facebook/1421301439575296/photo_1.png"
+      ],
+      "mediaCount": 1
     },
-    "bodyText": {
-     "method": "content_before_first_comment"
-    },
-    "photos": {
-     "method": "screenshot"
-    }
-   },
-   "source": {
-    "type": "facebook_group",
-    "name": "Suffolk Energy Action Solutions (SEAS)",
-    "label": "Facebook Page · Suffolk Energy Action Solutions (SEAS)",
-    "url": "https://www.facebook.com/SuffolkEnergyActionSolutions/posts/1160590673299186/"
-   },
-   "thin": false,
-   "bodyText": "LionLink: Who pays the price?\nSEAS and Walberswick Against LionLink (WALL) are calling on Ofgem to take another look at LionLink's economic case and protect electricity consumers from potentially unnecessary costs.\nThe figures matter. Ofgem's November 2024 assessment estimated losses to British consumers of £3.1 billion to £6.1 billion over 25 years across three scenarios. Under the cap and floor regime, consumers could ultimately bear the cost if the project underperforms financially.\nWe're asking for answers:\nWALL (Walberswick Against LionLink) is calling for updated economic assessments, greater transparency and a firm 2035 deadline.\nSEAS is urging a wider strategic assessment of LionLink alongside Sea Link and other major infrastructure planned for East Suffolk. Better-coordinated offshore infrastructure and shared platforms could help reduce onshore impacts and deliver better value for money.\nSupporting renewable energy doesn't mean giving every project a free pass.\nElectricity grid investment must be necessary, affordable and in the public interest - with proper scrutiny of the costs, benefits and impacts on our communities.",
-   "contentFingerprint": "1e55e228802aaa1e8cb7823d0edf5704b2ff4b015f4160f5e3a9eeeea408a043",
-   "photos": [
-    "media/facebook/1160590673299186/photo_1.png"
-   ],
-   "mediaCount": 1
-  },
-  {
-   "id": "29811026675166344",
-   "date": "2026-10-21",
-   "title": "Scotland Against Spin",
-   "provenance": {
-    "title": {
-     "method": "neutral"
-    },
-    "bodyText": {
-     "method": "content_before_first_comment"
-    },
-    "photos": {
-     "method": "screenshot"
-    }
-   },
-   "source": {
-    "type": "facebook_group",
-    "name": "Scotland Against Spin",
-    "label": "Facebook · Scotland Against Spin",
-    "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29811026675166344/"
-   },
-   "thin": false,
-   "bodyText": "The Scottish Government has been urged to take a public stake in future offshore projects after ScottishPower's parent company reported profits of more than £2 billion.\nIberdrola, which is based in Bilbao, Spain reported an adjusted net profit of €5.1billion (£4.2bn) for the nine months to September 2026, including €2.7bn (£2.2bn) from its UK operations.\nThe Our Power campaign is urging the Scottish Government to commit to taking a stake in future renewable energy projects so that more of the nation's renewable wealth benefits Scottish communities.\nHERALDSCOTLAND.COM Scottish Government urged to take stake in offshore wind as profits soar",
-   "contentFingerprint": "d50b85a787dae0b24c4ab5c8ecc1bf87575f9f61b8b26b1b7c07bf8cda629278",
-   "photos": [
-    "media/facebook/29811026675166344/photo_1.png"
-   ],
-   "mediaCount": 1,
-   "links": [
     {
-     "text": "HERALDSCOTLAND.COM Scottish Government urged to take stake in offshore wind as profits soar",
-     "url": "https://www.heraldscotland.com/news/26657297.scottish-government-told-take-stake-offshore-wind/"
-    }
-   ]
-  },
-  {
-   "id": "1579072523544980",
-   "date": "2026-10-21",
-   "title": "North Carlisle Against Pylons and Substation",
-   "provenance": {
-    "title": {
-     "method": "neutral"
+      "id": "1588225962585346",
+      "date": "2026-10-25",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1588225962585346/"
+      },
+      "thin": false,
+      "bodyText": "JOIN US!\nSTOP AI DATA CENTRES - SCOTLAND MARCH \nSATURDAY 14TH NOVEMEMBER, 11.30AM TOP OF ROYAL MILE, EDINBURGH \n12:00PM MARCH \n1:00PM RALLY",
+      "contentFingerprint": "b47a09039f59c97c8d41f3f04ec7addb4968e9d148abfea4652d4449e3e2072a",
+      "photos": [
+        "media/facebook/1588225962585346/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
     },
-    "bodyText": {
-     "method": "content_before_first_comment"
-    },
-    "photos": {
-     "method": "screenshot"
-    },
-    "categories": {
-     "method": "keyword"
-    }
-   },
-   "source": {
-    "type": "facebook_group",
-    "name": "North Carlisle Against Pylons and Substation",
-    "label": "Facebook · North Carlisle Against Pylons and Substation",
-    "url": "https://www.facebook.com/groups/1321067339345501/posts/1579072523544980/"
-   },
-   "thin": false,
-   "bodyText": "A sincere thank you to Hethersgill Parish Council and residents from across the surrounding communities for welcoming North Carlisle Against Pylons and Substation (NCAPS) to our latest community meeting.\nThe strength of feeling was unmistakable, with residents and farmers expressing deep concerns about National Grid's proposed Cross Border Connection, the extensive pylon route and the potential North Cumbria mega-substation at Option A.\nThe meeting brought several important outcomes:\n Growing political recognition: We welcomed David Allen, Labour's mayoral candidate, who made clear his view that Option A was the wrong location for the proposed substation — a statement met with applause. He also committed to working with affected communities and ensuring their concerns are heard should he become Mayor.\n Strengthening the campaign: We outlined the establishment of NCAPS Community Action Limited, providing a formal structure to raise funds, secure specialist legal and technical advice, and mount an evidence-led challenge to the pylon route, its design and the proposed substation location.\n Communities working together: Continued collaboration with the North Cumbria Parish Council Alliance will help ensure communities across the affected area have a coordinated and effective voice.\n Holding Cumberland Council to account: Our petition will be presented to Full Council on 3 November, calling on the Council to take a more proactive role in assessing the cumulative impacts of these proposals and representing affected communities.\nIt was also encouraging to reflect that representatives from across the mayoral political parties have now engaged with our communities, with concerns about the adequacy of National Grid's consultation extending across party lines.\nWe are not against upgrading the electricity network. We are challenging how and where that infrastructure is being proposed, and the potentially irreversible consequences for North Cumbria.\nMore than a year of uncertainty is already taking its toll on residents, farmers and businesses. Continued community engagement, fundraising and support will be essential as NCAPS moves into its next phase.\nThank you again to Hethersgill for hosting us and to everyone who attended, spoke openly and offered their support.\nOur greatest strength remains the collective voice of our communities. We need to keep that momentum going.\n#NCAPS #NorthCumbria #Hethersgill #CrossBorderConnection #NationalGrid #CommunityVoice #Carlisle",
-   "contentFingerprint": "82f5c50a4a2e3ba627ce55e10e9f2e2b0608d094db88d0b959a5c7757da437d5",
-   "photos": [
-    "media/facebook/1579072523544980/photo_1.png"
-   ],
-   "mediaCount": 1,
-   "categories": [
-    "OHL (Pylons)",
-    "Substation"
-   ]
-  },
-  {
-   "id": "1579068323545400",
-   "date": "2026-10-21",
-   "title": "North Carlisle Against Pylons and Substation",
-   "provenance": {
-    "title": {
-     "method": "neutral"
-    },
-    "bodyText": {
-     "method": "content_before_first_comment"
-    },
-    "photos": {
-     "method": "screenshot"
-    }
-   },
-   "source": {
-    "type": "facebook_group",
-    "name": "North Carlisle Against Pylons and Substation",
-    "label": "Facebook · North Carlisle Against Pylons and Substation",
-    "url": "https://www.facebook.com/groups/1321067339345501/posts/1579068323545400/"
-   },
-   "thin": false,
-   "bodyText": "Hethersgill Community Meeting Slide Deck now available in the 'File' tab.",
-   "contentFingerprint": "46e0c56a0accce59667ca65a4c62c3c0f4b944f78340ecac6a54cbd32f58b16d",
-   "photos": [
-    "media/facebook/1579068323545400/photo_1.png"
-   ],
-   "mediaCount": 1
-  },
-  {
-   "id": "29804433942492284",
-   "date": "2026-10-21",
-   "title": "Scotland Against Spin",
-   "provenance": {
-    "title": {
-     "method": "neutral"
-    },
-    "bodyText": {
-     "method": "content_before_first_comment"
-    },
-    "photos": {
-     "method": "screenshot"
-    }
-   },
-   "source": {
-    "type": "facebook_group",
-    "name": "Scotland Against Spin",
-    "label": "Facebook · Scotland Against Spin",
-    "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29804433942492284/"
-   },
-   "thin": false,
-   "bodyText": "A vote in the Scottish Parliament has established the principle that fishermen should be compensated for financial losses caused by offshore wind development.",
-   "contentFingerprint": "fba2ba877260a6710121bb53107eef657d9e41706f50e8e6f09ae72b850ff4f0",
-   "photos": [
-    "media/facebook/29804433942492284/photo_1.png"
-   ],
-   "mediaCount": 1
-  },
-  {
-   "id": "1585452542862688",
-   "date": "2026-10-21",
-   "title": "Say No To Cato Data Centre",
-   "provenance": {
-    "title": {
-     "method": "neutral"
-    },
-    "bodyText": {
-     "method": "content_before_first_comment"
-    },
-    "photos": {
-     "method": "screenshot"
-    },
-    "categories": {
-     "method": "keyword"
-    }
-   },
-   "source": {
-    "type": "facebook_group",
-    "name": "Say No To Cato Data Centre",
-    "label": "Facebook · Say No To Cato Data Centre",
-    "url": "https://www.facebook.com/groups/1472242997516977/posts/1585452542862688/"
-   },
-   "thin": false,
-   "bodyText": "Evidence submitted by APRS to the Climate Action Committee on the impact of hyperscale data centres on Scotland's renewable energy resources and climate emissions. It's an excellent article and well worth reading.\nAPRS.SCOT Evidence Submitted to the Climate Action Committee - Action to Protect Rural Scotland",
-   "contentFingerprint": "8b0305c0fb97c65df89e65ffab67ee34d79062013785dcdaa0175552f6d7fea9",
-   "photos": [
-    "media/facebook/1585452542862688/photo_1.png"
-   ],
-   "mediaCount": 1,
-   "links": [
     {
-     "text": "APRS.SCOT Evidence Submitted to the Climate Action Committee - Action to Protect Rural Scotland",
-     "url": "https://aprs.scot/resources/evidence-submitted-to-the-climate-action-committee/"
-    }
-   ],
-   "categories": [
-    "Data Centre"
-   ]
-  },
-  {
-   "id": "3607716739376129",
-   "date": "2026-10-21",
-   "title": "Help Save Mochrum Fell",
-   "provenance": {
-    "title": {
-     "method": "neutral"
+      "id": "1589001599174449",
+      "date": "2026-10-25",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1589001599174449/"
+      },
+      "thin": false,
+      "bodyText": "Hallyards Castle\nI recently submitted my application to review HES's ridiculous refusal to designate the castle. I have included evidence that the following numerous reports and other crucial documents have yet to be produced by the developers, and this disproves HES's claim that the planning application is \"particularly far advanced\"-\n1) Full waste management plan\n2) Full drainage plan\n3) Full water consumption report\n4) Existing water infrastructure report\n5) Back-up generators plan\n6) Dimensional data centre hall plans\n7) Full consultation report\n Noise impairment assessment.\n9) Lighting impact assessment.\n10) Construction environmental management plan\n11) Landscape and maintenance plan\n12) Planting plan\n13) Tree protection plan\n14) Protected species plan\n15) Root assessment survey report\n16) Geotechnical survey report\n17) Commissioning drainage survey report\n18) Full arboreal report\n19) Access management plan\n20) Traffic management plan\n21) Full security plan\n22) Environmental impact assessment.",
+      "contentFingerprint": "a1ddc5c382fdad89072b88d3a24029a9e6c771b20563aff65335b3af89e6706a",
+      "photos": [
+        "media/facebook/1589001599174449/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
     },
-    "bodyText": {
-     "method": "content_before_first_comment"
-    },
-    "photos": {
-     "method": "screenshot"
-    },
-    "categories": {
-     "method": "keyword"
-    }
-   },
-   "source": {
-    "type": "facebook_group",
-    "name": "Help Save Mochrum Fell",
-    "label": "Facebook · Help Save Mochrum Fell",
-    "url": "https://www.facebook.com/groups/1730785547069267/posts/3607716739376129/"
-   },
-   "thin": false,
-   "bodyText": "WIND-WATCH.ORG Sediment transport pathways and organic carbon burial impacted by offshore wind farms in shelf seas",
-   "contentFingerprint": "4a44ed4663cb82c4299ddbe6a9dd9f6a40eeaa33a139610193c61f35599d3164",
-   "photos": [
-    "media/facebook/3607716739376129/photo_1.png"
-   ],
-   "mediaCount": 1,
-   "links": [
     {
-     "text": "WIND-WATCH.ORG Sediment transport pathways and organic carbon burial impacted by offshore wind farms in shelf seas",
-     "url": "https://www.wind-watch.org/documents/sediment-transport-pathways-and-organic-carbon-burial-impacted-by-offshore-wind-farms-in-shelf-seas/"
-    }
-   ],
-   "categories": [
-    "Onshore Wind"
-   ]
-  },
-  {
-   "id": "1585430569531552",
-   "date": "2026-10-21",
-   "title": "Say No To Cato Data Centre",
-   "provenance": {
-    "title": {
-     "method": "neutral"
+      "id": "122137181457244466",
+      "date": "2026-10-25",
+      "title": "Our Power",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Our Power",
+        "label": "Facebook · Our Power",
+        "url": "https://www.facebook.com/ourpower.scot/posts/122137181457244466"
+      },
+      "thin": false,
+      "bodyText": "\"The North Sea was built by our labour. Its decommissioning, and what succeeds it, should be shaped by our voices too.\"\nRead more from Mike Sarnecki in the Scottish Left Review\nhttps://scottishleftreview.scot/what-does-it-mean-for.../",
+      "contentFingerprint": "6091b4b0ab6848ed3dfbaab52b512dfc0e70cb7b1b9a09ed1809ded4442a866f",
+      "photos": [
+        "media/facebook/122137181457244466/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://scottishleftreview.scot/what-does-it-mean-for.../",
+          "url": "https://scottishleftreview.scot/what-does-it-mean-for-workers-to-be-involved-injust-transition-planning/"
+        }
+      ]
     },
-    "bodyText": {
-     "method": "content_before_first_comment"
-    },
-    "photos": {
-     "method": "screenshot"
-    }
-   },
-   "source": {
-    "type": "facebook_group",
-    "name": "Say No To Cato Data Centre",
-    "label": "Facebook · Say No To Cato Data Centre",
-    "url": "https://www.facebook.com/groups/1472242997516977/posts/1585430569531552/"
-   },
-   "thin": false,
-   "bodyText": "Interesting letter from a recently received FOI.",
-   "contentFingerprint": "4438b4dc0b6b6a39dd67a51345289578afe5461131b26e278618d2a348145f08",
-   "photos": [
-    "media/facebook/1585430569531552/photo_1.png"
-   ],
-   "mediaCount": 1
-  },
-  {
-   "id": "1117494230680358",
-   "date": "2026-10-21",
-   "title": "Communities B4 Power Companies",
-   "provenance": {
-    "title": {
-     "method": "neutral"
-    },
-    "bodyText": {
-     "method": "content_before_first_comment"
-    },
-    "photos": {
-     "method": "screenshot"
-    },
-    "categories": {
-     "method": "keyword"
-    }
-   },
-   "source": {
-    "type": "facebook_group",
-    "name": "Communities B4 Power Companies",
-    "label": "Facebook · Communities B4 Power Companies",
-    "url": "https://www.facebook.com/groups/221782186918238/posts/1117494230680358/"
-   },
-   "thin": false,
-   "bodyText": "Hmmm …..say one thing and do another. \nScottish government’s MO.\nFull text anyone please?\nHERALDSCOTLAND.COM SNP minister's letter raises questions over Scotland's huge data centre plans",
-   "contentFingerprint": "c954a04ae72625d902113fcf24a3d97fa623a1adc896cf73025ec0bdee38fa2d",
-   "photos": [
-    "media/facebook/1117494230680358/photo_1.png"
-   ],
-   "mediaCount": 1,
-   "links": [
     {
-     "text": "HERALDSCOTLAND.COM SNP minister's letter raises questions over Scotland's huge data centre plans",
-     "url": "https://www.heraldscotland.com/news/26654782.snp-minister-questioned-conflicting-data-centre-pledge/"
-    }
-   ],
-   "categories": [
-    "Data Centre"
-   ]
-  },
-  {
-   "id": "1585360819538527",
-   "date": "2026-10-21",
-   "title": "Say No To Cato Data Centre",
-   "provenance": {
-    "title": {
-     "method": "neutral"
+      "id": "1121209800308801",
+      "date": "2026-10-25",
+      "title": "Communities B4 Power Companies",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Communities B4 Power Companies",
+        "label": "Facebook · Communities B4 Power Companies",
+        "url": "https://www.facebook.com/groups/221782186918238/posts/1121209800308801/"
+      },
+      "thin": false,
+      "bodyText": "How ludicrous that the likes of FOE are only just beginning to understand the wind madness that has been unfolding in Scotland for two decades. \nThe global investors have really cleaned up while trashing our natural environment - enabled by our clueless government in Holyrood. \nAs they approved their energy buddies developments against the wishes of their own people they set us on a course of higher energy bills and distrust and fury at the political elite. Politicians so far removed from reality that they shouldn’t be in charge of anything at all. \nWe hate to say ‘we told you so’. \nHas anyone full text please?\nHERALDSCOTLAND.COM Billions to shareholders: Calls to nationalise Scots wind farms and buses",
+      "contentFingerprint": "5a3b64b1e3e3e1b5759a7272369278bbeae16b98bb78e2c7c76eccd35d2f59ba",
+      "photos": [
+        "media/facebook/1121209800308801/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "HERALDSCOTLAND.COM Billions to shareholders: Calls to nationalise Scots wind farms and buses",
+          "url": "https://www.heraldscotland.com/news/26665576.bus-services-wind-farms-scotland-urged-expand-public-ownership/"
+        }
+      ],
+      "categories": [
+        "Onshore Wind"
+      ]
     },
-    "bodyText": {
-     "method": "content_before_first_comment"
-    },
-    "photos": {
-     "method": "screenshot"
-    },
-    "categories": {
-     "method": "keyword"
-    }
-   },
-   "source": {
-    "type": "facebook_group",
-    "name": "Say No To Cato Data Centre",
-    "label": "Facebook · Say No To Cato Data Centre",
-    "url": "https://www.facebook.com/groups/1472242997516977/posts/1585360819538527/"
-   },
-   "thin": false,
-   "bodyText": "10079 signatures\nPETITION.PARLIAMENT.UK Petition: Ban the construction of new AI data centres",
-   "contentFingerprint": "06810b7b04baf0b69b189b9b496f9800f6a3680113773d9d0945d21b6e2c991f",
-   "photos": [
-    "media/facebook/1585360819538527/photo_1.png"
-   ],
-   "mediaCount": 1,
-   "links": [
     {
-     "text": "PETITION.PARLIAMENT.UK Petition: Ban the construction of new AI data centres",
-     "url": "https://petition.parliament.uk/petitions/776517?utm_id=97757_v0_s00_e0_tv2_a1demonl7li8rz"
-    }
-   ],
-   "categories": [
-    "Data Centre"
-   ]
-  },
-  {
-   "id": "1173555225147493",
-   "date": "2026-10-21",
-   "title": "No Pylons Lincolnshire",
-   "provenance": {
-    "title": {
-     "method": "neutral"
+      "id": "1588979795843296",
+      "date": "2026-10-25",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1588979795843296/"
+      },
+      "thin": false,
+      "bodyText": "Storms in October\nWe have the real probability of storms in this country and with these there are always power cuts.\nPOWER CUTS = TURNING ON EMERGENCY BACK UP GENERATION.\nIt won't be some backup generators switching on nationwide for routine testing, it'll be 6-8GW of backup switching on, 2500 to 3500 generators, probably more.\nIf the developers get their way like they are currently applying for in the Chapelhall proposal, they'll be used outwith the Emergency Backup regulations. This is unprecedented.\nRunning at 40% electrical efficiency the thermal power of these generators will be 15-20 GW of thermal heat. What was the point of leaving trillions of tonnes of coal and closing power stations only to use diesel, gas or (ha ha) HVO instead?\nSo as the Central Belt is asphyxiated by pollution, deafened by noise, drained of more drinking water for increased cooling and paralysed by power outages at least,according to Mark Wilson of ILI the surrounding lands will be heated up for tomato growing. Two and a half times more thermal waste from backup generation..... 99.9998% reliable, aye ok.",
+      "contentFingerprint": "717caf715991d8492c186e8bfd7489c8b30b1cd7c15c9a30d43aa049db5b8d8c",
+      "photos": [
+        "media/facebook/1588979795843296/photo_1.png"
+      ],
+      "mediaCount": 1
     },
-    "bodyText": {
-     "method": "content_before_first_comment"
-    },
-    "photos": {
-     "method": "screenshot"
-    }
-   },
-   "source": {
-    "type": "facebook_group",
-    "name": "No Pylons Lincolnshire",
-    "label": "Facebook · No Pylons Lincolnshire",
-    "url": "https://www.facebook.com/groups/427539323082424/posts/1173555225147493/"
-   },
-   "thin": false,
-   "bodyText": "Response to Steve Barclay's question - he asked government \"is the cost of Grimsby to Walpole likely to increase\"\nThe link takes you to Micheal Shanks reply (I can't say answer - as it clearly dodges the question)\nQUESTIONS-STATEMENTS.PARLIAMENT.UK Written questions and answers - Written questions, answers and statements - UK Parliament",
-   "contentFingerprint": "a530024e670b598bd2de67d39d841abaa7a459c5d3500304bb3c9ba94aacaebf",
-   "photos": [
-    "media/facebook/1173555225147493/photo_1.png"
-   ],
-   "mediaCount": 1,
-   "links": [
     {
-     "text": "QUESTIONS-STATEMENTS.PARLIAMENT.UK Written questions and answers - Written questions, answers and statements - UK Parliament",
-     "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-09/30373?utm_id=97757_v0_s00_e0_tv2_a1demonztw048v"
-    }
-   ]
-  },
-  {
-   "id": "29803583049244040",
-   "date": "2026-10-21",
-   "title": "Scotland Against Spin",
-   "provenance": {
-    "title": {
-     "method": "neutral"
+      "id": "1137005245931489",
+      "date": "2026-10-25",
+      "title": "Angus Pylon Action Group",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Angus Pylon Action Group",
+        "label": "Facebook · Angus Pylon Action Group",
+        "url": "https://www.facebook.com/groups/anguspag/posts/1137005245931489/"
+      },
+      "thin": false,
+      "bodyText": "At least one devolved government looks to be going in the right direction!!\nHolyrood take note!!\nBBC.CO.UK Wales could ban steel pylons as government launches consultation",
+      "contentFingerprint": "b44cb04f8011a5123d5432cedc9f4db92565ddb490f2639eae5a8b96bb27258c",
+      "photos": [
+        "media/facebook/1137005245931489/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "BBC.CO.UK Wales could ban steel pylons as government launches consultation",
+          "url": "https://www.bbc.co.uk/news/articles/c9x28dgj2r0go"
+        }
+      ],
+      "categories": [
+        "OHL (Pylons)"
+      ]
     },
-    "bodyText": {
-     "method": "content_before_first_comment"
-    },
-    "photos": {
-     "method": "screenshot"
-    },
-    "categories": {
-     "method": "keyword"
-    }
-   },
-   "source": {
-    "type": "facebook_group",
-    "name": "Scotland Against Spin",
-    "label": "Facebook · Scotland Against Spin",
-    "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29803583049244040/"
-   },
-   "thin": false,
-   "bodyText": "THE Scottish Government is facing questions over a minister’s letter which appeared to cast doubt on a commitment to introduce national planning guidance for huge, energyintensive data centres.\nPublic Finance Minister Hannah Mary Goodlad wrote to Scottish Green MSP Patrick Harvie on October 8 saying ministers were still considering whether to bring forward guidance for hyperscale developments.\nHowever, the letter came just two days after Ms Goodlad confirmed in a written parliamentary answer that the guidance would be published before Christmas. She had also told MSPS in September that the government would bring forward national planning guidance by the end of the year.\nHERALDSCOTLAND.COM SNP minister's letter raises questions over Scotland's huge data centre plans",
-   "contentFingerprint": "fc8af525faae4169b27e497b2d2054940635d5f2e26e5b7fefca652558fd5cb5",
-   "photos": [
-    "media/facebook/29803583049244040/photo_1.png"
-   ],
-   "mediaCount": 1,
-   "links": [
     {
-     "text": "HERALDSCOTLAND.COM SNP minister's letter raises questions over Scotland's huge data centre plans",
-     "url": "https://www.heraldscotland.com/news/26654782.snp-minister-questioned-conflicting-data-centre-pledge/"
+      "id": "3612867228861080",
+      "date": "2026-10-25",
+      "title": "Help Save Mochrum Fell",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Help Save Mochrum Fell",
+        "label": "Facebook · Help Save Mochrum Fell",
+        "url": "https://www.facebook.com/groups/1730785547069267/posts/3612867228861080/"
+      },
+      "thin": false,
+      "bodyText": "One Last Ask of Your MP Before the Budget on Wednesday\nDear Cherished Supporter,\nJohn Healey's first-ever Budget is this week. Most Likely outcome: More Pain by Omission\nBut you can still make a big difference, as we understand much of the Budget still has to be written.\nLET'S MAKE OUR VOICES IMPOSSIBLE TO IGNORE BEFORE WEDNESDAY'S BUDGET.\n\nPlease take 2 minutes to email your MP. I promise their parliamentary office will read your email. Over 50,000 supporters emailed the Chancellor and the Prime Minister in the last 2 weeks. Let's get your MP to amplify that message.\nhttps://fairfueluk.eaction.org.uk/Last-Ask-Oct28",
+      "contentFingerprint": "25ee61ec600e798b1c33a55c3f8dc36f15ed8d88536382b53e06754a45a6af6f",
+      "photos": [
+        "media/facebook/3612867228861080/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://fairfueluk.eaction.org.uk/Last-Ask-Oct28",
+          "url": "https://fairfueluk.eaction.org.uk/Last-Ask-Oct28"
+        }
+      ]
+    },
+    {
+      "id": "29862712493331095",
+      "date": "2026-10-25",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29862712493331095/"
+      },
+      "thin": false,
+      "bodyText": "Herald letters\nG DUNCAN writes that “the future is electric” and that we must shut down all fossil fuel production. While the electric motor is a wonderful thing, we will need more oil and gas far into the next century and I will explain why.\nWe need coal to make quality steel, oil as a lubricant, hydrocarbons for plastics, and gas for operating highly efficient domestic boilers which can heat your home in hours, not days like heat pumps after you return from an autumn break.\nDid you return on a jet after your holiday? Battery-powered like an EV? Er, no. Jet engines are powered by Jet A-1, which doesn’t freeze until -47C or Jet B which doesn’t freeze until -72C, whereas batteries will lose efficiency at freezing point and freeze solid at -20C. If the temperature at sea level is 8C, it will be -44C at 8,000 metres. So, no airline will use battery-powered aircraft. And batteries themselves are made of plastic made from oil, and metals mined by diesel power.\nThinking of an EV? Without hydrocarbons there would be no EVS.\nThinking of a newbuild? Then you need cement which is made using coal burned at 1,450C, and the roadways surfaced with tar, made from coal. Geologists have now discovered a one trillion-ton deposit under the Firth of Forth – one of many huge deposits in the UK – but, of course, politicians prefer to import coal from Columbia than mine it in Scotland, Yorkshire or Nottingham.\nLooking forward to dualling the A9? Try that without diesel power, cement, steel and asphalt.\nBeen to Specsavers? Your specs are made from oil and gas derivatives. Sore head? Aspirin is made from benzene. Going for an op? Impossible without plastics, chemicals, and gases made from hydrocarbons. The list of useful products made from hydrocarbons is endless.\nYet the electronic sandwich board wearers demand we shut down all oil, gas and coal production to “prevent climate change”. They rejoice in the phrase “fossil fuels” as if they belonged in, rather than emerged from, an ancient prehistoric epoch. I do not believe we can control the climate and there are many benefits from climate change for Scotland such as warmer summers and milder winters.\nThanks to the foolish net-zero policies of successive governments, the UK now depends on Norway for oil and gas for half its needs. Norway is continuing to licence new oil and gas fields and redevelop old ones with new technology in the same geology as the UK’S fields are. Let’s choose reality over ideology. Rosebank and Jackdaw must be initiated now.\nWilliam Loneskie, Berwickshire.\nI FULLY support Dave Morris in his wish that more should be done to protect Scotland’s Wild Land Areas, which he calls “some of Europe’s most cherished wild places”.\nHe bemoans their degradation through the current vogue for onshore wind farms, and argues that a change in energy policy is urgently needed.\nBut it is not only wind farms which are causing an attrition of our wild areas: forestry, indeed tree-planting schemes generally, are also changing the nature of these landscapes, introducing a new human-planned element.\nWhat would the Gaelic poet Duncan Ban Macintyre have made of all this, a poet who celebrated the nature of his beloved hills? In his song Last Farewell to the Mountains (translated from Gaelic by Anne Lorne Gillies), he sings: “Fairwell to the deer forests,\nOh! What wonderful mountains they are…\nThe moors which are so precious, And the pastures which are so plentiful,\nOh, joyfully I take my leave of them – My final blessings to them forever.” Or, to quote Sir Walter Scott: “What makes Scotland Scotland is fast disappearing.”\nOur distinctive landscapes are cherished by both residents and visitors alike, and the Charter for the Open Hill is an initiative set up to encourage the Scottish Government to safeguard them – so that they are still there to be enjoyed by future generations.\nEveryone is encouraged to sign the Charter.\nJames Fenton,\nOban.",
+      "contentFingerprint": "b31997b4f5079f44a0fba6c2a87a51622c85a503c0e41c14868c720cc1c1aefc",
+      "photos": [
+        "media/facebook/29862712493331095/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "29862511556684522",
+      "date": "2026-10-25",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29862511556684522/"
+      },
+      "thin": false,
+      "bodyText": "Billions of pounds in wind farm profits are being paid out to corporate shareholders over five years as public funding for Scotland’s buses and free travel has soared by 72% since before the pandemic — prompting demands to ministers for energy and transport to be brought into public ownership.  Full story can be read here https://archive.ph/SZXsa\nhttps://www.heraldscotland.com/.../26665576.bus-services.../\nHERALDSCOTLAND.COM Billions to shareholders: Calls to nationalise Scots wind farms and buses",
+      "contentFingerprint": "2e64d649962ed567edaa8d0958d93ce9c88b10683857bb507c60e4aef8fdbe51",
+      "photos": [
+        "media/facebook/29862511556684522/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://archive.ph/SZXsa",
+          "url": "https://archive.ph/SZXsa"
+        },
+        {
+          "text": "https://www.heraldscotland.com/.../26665576.bus-services.../",
+          "url": "https://www.heraldscotland.com/news/26665576.bus-services-wind-farms-scotland-urged-expand-public-ownership/"
+        },
+        {
+          "text": "HERALDSCOTLAND.COM Billions to shareholders: Calls to nationalise Scots wind farms and buses",
+          "url": "https://www.heraldscotland.com/news/26665576.bus-services-wind-farms-scotland-urged-expand-public-ownership/"
+        }
+      ],
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "29862019996733678",
+      "date": "2026-10-25",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29862019996733678/"
+      },
+      "thin": false,
+      "bodyText": "More than 1,000 juvenile lobsters have been released into the North Sea off Yorkshire as part of a Dogger Bank Wind Farm-backed conservation scheme.\nTHENORTHERNECHO.CO.UK Dogger Bank scheme releases more than 1,000 juvenile lobsters into North Sea",
+      "contentFingerprint": "10ac70bfb7de0c6cad6087577db020564613209908e3b74cdfa7d37d8d5f1ef9",
+      "photos": [
+        "media/facebook/29862019996733678/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "THENORTHERNECHO.CO.UK Dogger Bank scheme releases more than 1,000 juvenile lobsters into North Sea",
+          "url": "https://www.thenorthernecho.co.uk/news/26665045.1-000-lobsters-released-off-yorkshire-coast/"
+        }
+      ],
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "29861660363436308",
+      "date": "2026-10-25",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29861660363436308/"
+      },
+      "thin": false,
+      "bodyText": "DECOMMISSIONING COST FOR ONE OFFSHORE WIND TURBINE 6X THE FORECAST RATE FOR REMAINING 29 TURBINES AND SUBSIDIES ENDING SOON.\nThis is the second in a series of three articles looking at what recent events mean for the economics of wind power. The first looked at Gunfleet Sands. The final instalment will be about the proposal to repower the Whitelee onshore windfarm. This second piece looks at the Scroby Sands offshore windfarm. https://davidturver.substack.com/p/scroby-sands-running-aground?utm_campaign=email-half-post&r=6cjna4&utm_source=substack&utm_medium=email\nDAVIDTURVER.SUBSTACK.COM Scroby Sands is Running Aground",
+      "contentFingerprint": "b9da4e8b3211e9dc4c249c1422f99dc5668a44eface03f2bd2c7a92b2187a8f6",
+      "photos": [
+        "media/facebook/29861660363436308/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "DAVIDTURVER.SUBSTACK.COM Scroby Sands is Running Aground",
+          "url": "https://davidturver.substack.com/p/scroby-sands-running-aground?r=6cjna4&utm_id=97757_v0_s00_e0_tv2_a1demoo53jfjhl"
+        },
+        {
+          "text": "https://davidturver.substack.com/p/scroby-sands-running-aground?utm_campaign=email-half-post&r=6cjna4&utm_source=substack&utm_medium=email",
+          "url": "https://davidturver.substack.com/p/scroby-sands-running-aground?utm_campaign=email-half-post&r=6cjna4&utm_source=substack&utm_medium=email"
+        }
+      ],
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "1046548108409987",
+      "date": "2026-10-24",
+      "title": "NO to East Havering Data Centre in Upminster (Residents Group)",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "NO to East Havering Data Centre in Upminster (Residents Group)",
+        "label": "Facebook · NO to East Havering Data Centre in Upminster (Residents Group)",
+        "url": "https://www.facebook.com/groups/366637746401030/posts/1046548108409987/"
+      },
+      "thin": false,
+      "bodyText": "BBC.CO.UK Plans for AI data centre in Canterbury approved by council",
+      "contentFingerprint": "9eae6831751ebef450490606b23e62bd91faf2fd11d661cdcc854acbfda0f83e",
+      "photos": [
+        "media/facebook/1046548108409987/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "BBC.CO.UK Plans for AI data centre in Canterbury approved by council",
+          "url": "https://share.google/9b9xDJVvjMhm601qH"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1412505621041679",
+      "date": "2026-10-24",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1412505621041679/"
+      },
+      "thin": false,
+      "bodyText": "Building new utility-scale solar farms often faces two huge bottlenecks: clearing valuable farmland and waiting years to build expensive high-voltage transmission lines to connect to the power grid.\nOn the Alqueva reservoir in southern Portugal - Western Europe's largest artificial lake engineers at EDP created a triple-hybrid energy island by floating 12,000 photovoltaic panels right beside an existing hydroelectric dam.\nInstead of using pure virgin plastic floats, engineers teamed up with Portuguese cork manufacturer Corticeira Amorim to mold the four- hectare floating island from a carbon-negative composite of native cork and recycled polymers.\nDuring hot, sunny summer afternoons, the cool reservoir water underneath chills the floating panels to boost their electrical output by 10% while shading the reservoir surface to prevent precious fresh water from evaporating.\nBest of all, the floating solar island, the hydroelectric turbines, and an onshore battery bank all plug into the exact same grid substation - letting Portugal use solar by day and save hydro water for the night.— in Portugal.",
+      "contentFingerprint": "1da2218779715e0249f14cd7272ec1288f6266e0795f3388473f346dff0d8387",
+      "photos": [
+        "media/facebook/1412505621041679/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "OHL (Pylons)",
+        "Solar",
+        "Substation"
+      ]
     }
-   ],
-   "categories": [
-    "Data Centre"
-   ]
-  }
- ]
+  ]
 }
