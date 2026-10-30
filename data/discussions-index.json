@@ -1,16 +1,16 @@
 {
-  "generated": "2026-10-30T09:32:37.000Z",
+  "generated": "2026-10-30T16:50:20.000Z",
   "counts": {
-    "records": 4171,
+    "records": 4187,
     "thin": 327,
-    "withMedia": 1631,
-    "withCategories": 1280,
+    "withMedia": 1647,
+    "withCategories": 1290,
     "withTopics": 316,
     "withProject": 210,
     "withCoordinates": 95,
     "withSummary": 57,
-    "withBodyText": 2735,
-    "withPhotos": 1628,
+    "withBodyText": 2750,
+    "withPhotos": 1644,
     "withPreviewImage": 64,
     "councils": 4,
     "matchReviewLogged": 2,
@@ -113367,6 +113367,570 @@
       "contentFingerprint": "f7e8747728e5b593e4107f3294f46c75ffe5f651d2af2d96905d624ec16debe6",
       "photos": [
         "media/facebook/1148695337831282/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1593536808720928",
+      "date": "2026-10-30",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1593536808720928/"
+      },
+      "thin": false,
+      "bodyText": "https://www.theguardian.com/.../electrocutions-disease...\nTHEGUARDIAN.COM Electrocutions, disease and no pay: how workers risk exploitation in Europe’s datacentres",
+      "contentFingerprint": "6ce93447b4deb4f52e858111117fedc95093d2aff88a683aa750b514ee47d06b",
+      "photos": [
+        "media/facebook/1593536808720928/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://www.theguardian.com/.../electrocutions-disease...",
+          "url": "https://www.theguardian.com/global-development/2026/oct/30/electrocutions-disease-and-no-pay-how-workers-risk-exploitation-in-europes-datacentres"
+        },
+        {
+          "text": "THEGUARDIAN.COM Electrocutions, disease and no pay: how workers risk exploitation in Europe’s datacentres",
+          "url": "https://www.theguardian.com/global-development/2026/oct/30/electrocutions-disease-and-no-pay-how-workers-risk-exploitation-in-europes-datacentres"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "122137800585244466",
+      "date": "2026-10-30",
+      "title": "Our Power",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Our Power",
+        "label": "Facebook · Our Power",
+        "url": "https://www.facebook.com/ourpower.scot/posts/122137800585244466"
+      },
+      "thin": false,
+      "bodyText": "Community-owned renewables should be building wealth in our towns and villages, so why is progress being throttled?\nRight now, community energy groups across Scotland are hitting a wall. The Scottish Government’s Community and Renewable Energy Scheme (CARES) operates on a short, rigid 12-month funding cycle.\nA single community wind, solar, or hydro project takes years of planning, surveys, and grid negotiations. Yet every year, the clock resets. Funding vanishes. Local groups are forced into endless cycles of re-applying just to survive, stalling projects that should be cutting energy bills and funding local services.\nTo tackle community energy with the scale and ambition Scotland deserves, CARES must deliver multi-year certainty.\nHere's the best part: this is a zero-cost fix.\nThe Scottish Government doesn’t need to find millions of extra pounds. They simply need to shift CARES to a guaranteed multi-year settlement in the upcoming Scottish Budget.\nSame allocated budget. No new costs. Massive long-term impact. Use the link in the comments and send a quick message to the Minister for Public Finance and help us get this done!",
+      "contentFingerprint": "55a9478797ab77af65f581b96901d290ccd83af585ea40705dadd2002f3e4ac9",
+      "photos": [
+        "media/facebook/122137800585244466/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1135320438898504",
+      "date": "2026-10-30",
+      "title": "Not A Just Transition",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Not A Just Transition",
+        "label": "Facebook · Not A Just Transition",
+        "url": "https://www.facebook.com/groups/427061409724414/posts/1135320438898504/"
+      },
+      "thin": false,
+      "bodyText": "",
+      "contentFingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "photos": [
+        "media/facebook/1135320438898504/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "29156183777331959",
+      "date": "2026-10-30",
+      "title": "Sunnica Community Action Group",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Sunnica Community Action Group",
+        "label": "Facebook · Sunnica Community Action Group",
+        "url": "https://www.facebook.com/groups/saynotosunnica/posts/29156183777331959/"
+      },
+      "thin": false,
+      "bodyText": "Interesting article - the current policy upside down\n\"Most targeted land to date is high-grade agricultural land. Despite government claims that 0.1% of farmland will be required, some counties are seeing over 5% of high-grade farmland being proposed to go under solar panels. Use of arable farming land, with little or no livestock management, will see the removal of productive land for at least 40 years, and most likely forever. As electricity demand increases, the moving target of generation capacity will require an accelerating demand for land.\"\nhttps://knowledge.energyinst.org/new-energy-world/article?id=139982&fbclid=IwdGRleAVN_MVleHRuA2FlbQIxMQBwZG9mAWZkaWQWURE11RVvr4p1RcC2DngirA7fX-4A6HNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR4gkafRMO5IF_9MiuDfORarneFCGOjLvEM7Gw1RecR9O4ZerPCoDXo28uRYDw_aem_WVPGiLJUdi2KIBCl_ogEXg\nKNOWLEDGE.ENERGYINST.ORG New Energy World magazine",
+      "contentFingerprint": "5bbd1f931e8ee45bb78ccc7b718acdaf534d4cd6238a9f1a74c79977435a5847",
+      "photos": [
+        "media/facebook/29156183777331959/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "KNOWLEDGE.ENERGYINST.ORG New Energy World magazine",
+          "url": "https://knowledge.energyinst.org/new-energy-world/article?id=139982"
+        },
+        {
+          "text": "https://knowledge.energyinst.org/new-energy-world/article?id=139982&fbclid=IwdGRleAVN_MVleHRuA2FlbQIxMQBwZG9mAWZkaWQWURE11RVvr4p1RcC2DngirA7fX-4A6HNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR4gkafRMO5IF_9MiuDfORarneFCGOjLvEM7Gw1RecR9O4ZerPCoDXo28uRYDw_aem_WVPGiLJUdi2KIBCl_ogEXg",
+          "url": "https://knowledge.energyinst.org/new-energy-world/article?id=139982&fbclid=IwdGRleAVN_MVleHRuA2FlbQIxMQBwZG9mAWZkaWQWURE11RVvr4p1RcC2DngirA7fX-4A6HNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR4gkafRMO5IF_9MiuDfORarneFCGOjLvEM7Gw1RecR9O4ZerPCoDXo28uRYDw_aem_WVPGiLJUdi2KIBCl_ogEXg"
+        }
+      ],
+      "categories": [
+        "Solar"
+      ]
+    },
+    {
+      "id": "1051999144531550",
+      "date": "2026-10-30",
+      "title": "NO to East Havering Data Centre in Upminster (Residents Group)",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "NO to East Havering Data Centre in Upminster (Residents Group)",
+        "label": "Facebook · NO to East Havering Data Centre in Upminster (Residents Group)",
+        "url": "https://www.facebook.com/groups/366637746401030/posts/1051999144531550/"
+      },
+      "thin": false,
+      "bodyText": "Among the high expectations and often empty promises that data centres bring employment opportunities, (yes we now know the numbers are mostly transient), the Government and our Council may want to look at the dark side by reading this investigative report. It should send chills down the spine of every person who says a DC will bring prosperity and jobs to the area. Do they want to be responsible for this on their own doorstep?\nINVESTIGATE-EUROPE.EU Electrocutions, ‘mental terror’ and withheld wages: the exploited workers building Europe’s data centres",
+      "contentFingerprint": "53df88bd811ccec6af1e67149b21db091ce0e25d613e25082bd4f8bbb8f7c28b",
+      "photos": [
+        "media/facebook/1051999144531550/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "INVESTIGATE-EUROPE.EU Electrocutions, ‘mental terror’ and withheld wages: the exploited workers building Europe’s data centres",
+          "url": "https://www.investigate-europe.eu/posts/electrocutions-mental-terror-and-withheld-wages-the-exploited-workers-building-europes-data-centres"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1126057723157342",
+      "date": "2026-10-30",
+      "title": "Communities B4 Power Companies",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Communities B4 Power Companies",
+        "label": "Facebook · Communities B4 Power Companies",
+        "url": "https://www.facebook.com/groups/221782186918238/posts/1126057723157342/"
+      },
+      "thin": false,
+      "bodyText": "Weasel Charter - just as we said when it was first rolled out. A charter fit for weasels only many at Highland Council couldn’t see it - or pretended not to \nSmoke and mirrors. \nSSEN does nothing unless THEY benefit somehow.\nWell done Helen for raising this. \nI suspect much of the rest of the £200m is for repairing the roads and bridges SSEN is damaging as they rumble their extensive HGV construction traffic through our rural communities on lanes never built for this industrial garbage.",
+      "contentFingerprint": "2a42fb9f001375a73a0649f359940986ccf9bb6177f3a52109d163ac1c909e2d",
+      "photos": [
+        "media/facebook/1126057723157342/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "29937091055893238",
+      "date": "2026-10-30",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29937091055893238/"
+      },
+      "thin": false,
+      "bodyText": "Annual report about the Energy Consents Unit, including data and analysis of applications administered on behalf of the Scottish Ministers from April 2025 to March 2026.\nGOV.SCOT Energy Consents Unit: annual report 2025-2026",
+      "contentFingerprint": "daf03851d69c203459f54f7f5cdba73f587502d528027c77d59cf12b9643a391",
+      "photos": [
+        "media/facebook/29937091055893238/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "GOV.SCOT Energy Consents Unit: annual report 2025-2026",
+          "url": "https://www.gov.scot/publications/energy-consents-unit-annual-report-2025-26/pages/1/"
+        }
+      ]
+    },
+    {
+      "id": "1418079913817583",
+      "date": "2026-10-30",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1418079913817583/"
+      },
+      "thin": false,
+      "bodyText": "Finland's Olkiluoto 3 (OL3) reactor - 14 years late, three times over budget, and the most troubled nuclear construction project in European history - is now generating 14% of Finland's electricity and proving that the technology works.\nOlkiluoto 3 was the renaissance of European nuclear power. Ordered in 2003 as the first new European reactor in 15 years, it was meant to demonstrate that modern nuclear construction could be delivered on time, on budget, and with the kind of reliability that would justify a broader European nuclear revival. \nThe original timeline: commercial operation in 2009. The original budget: €3.2 billion. What happened was a textbook case of nuclear construction complexity: the first European Pressurised Reactor design had never been built before, the required quality standards for safety- critical concrete and steel components exceeded the capabilities of most European contractors, design changes rippled through a project that had been tendered on incomplete specifications, and disputes between Areva (now Framatome), Siemens, and Teollisuuden Voima (TVO) accumulated into years of litigation.\nOL3's EPR reactor — a 1,600 megawatt pressurised water reactor with a double- containment structure, passive safety cooling systems, and a core-catcher to prevent molten fuel from breaching the containment floor - began commercial electricity generation in April 2023 at a final cost of €11 billion: three times the original estimate, 14 years late. \nThe reactor's specifications are formidable: 1,600 MW of generating capacity, 90% capacity factor design target, 60-year operating licence. At Finnish electricity prices, OL3 will generate revenues of approximately €700 million annually. TVO expects to recover its investment within 12 to 15 years of commercial operation. The reactor that was supposed to save European nuclear became a cautionary tale about nuclear construction management — and is now delivering exactly what was promised, just 14 years later than promised.\nOlkiluoto 3's operating performance is the data point that matters. In its first full year of commercial operation, it generated 11.5 terawatt- hours - 14% of Finland's total electricity consumption — with a capacity factor of 82%, improving toward its design target as operators accumulate experience. Finland's electricity prices fell 35% in the year following OL3's grid connection as the reactor displaced expensive gas imports. A project that became a global symbol of nuclear cost overrun is now a national symbol of energy security. The reactor that took 20 years to build will run for 60 more. The mathematics of patience eventually worked in its favour.\nFinland's Olkiluoto-3 reactor reached full commercial operation,In 2025, OL3 recorded zero unplanned outages and achieved an 82.6% availability factor.\nOlkiluoto 3 (Finland) and Hinkley Point C (UK) are the most prominent examples of the European Pressurized Reactor (EPR) design. Developed by Framatome (formerly Areva), the EPR is a third- generation nuclear technology celebrated for its advanced safety systems. However, both projects have become famous case studies for the immense financial and logistical challenges facing modern civil nuclear power in Western regulatory environments.\nHinkley Point C & Sizewell C are currently under construction in the UK and are heading towards commissioning dates in early 2030s - 2035.\nThe UK Nuclear regulators required 7000 design changes to the EPR design installed at Olkiluoto 3.\nInitial budget for each site was £18B now revised to £35B and predicted to be £50B\nUK New Nuclear have a 35 year must take CFD contract with an initial price of £85 MWh indexed linked to £135MWh today and by mid 2030s heading above £150MWh.",
+      "contentFingerprint": "7a111a8d2737db192b86cb1d07e83237c5c633b8efc08eec03b62df389bc70d3",
+      "photos": [
+        "media/facebook/1418079913817583/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1051882204543244",
+      "date": "2026-10-30",
+      "title": "NO to East Havering Data Centre in Upminster (Residents Group)",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "NO to East Havering Data Centre in Upminster (Residents Group)",
+        "label": "Facebook · NO to East Havering Data Centre in Upminster (Residents Group)",
+        "url": "https://www.facebook.com/groups/366637746401030/posts/1051882204543244/"
+      },
+      "thin": false,
+      "bodyText": "Damn right! The Govt shouldn't be allowed to fast-track data centres!",
+      "contentFingerprint": "8969d1800224f3d13c21207c8520719603cafefc78d78ef5e9de859a84633982",
+      "photos": [
+        "media/facebook/1051882204543244/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1418138967145011",
+      "date": "2026-10-30",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1418138967145011/"
+      },
+      "thin": false,
+      "bodyText": "Greenock Corporation Electricity Undertaking\nHunter Place Electric Power Station was opened in 1899 and electrical development took place so rapidly that by the year 1906 the capacity of the generating station was severely overloaded. The Corporation decided to build a new generating station at Dellingburn Street. When it opened in 1907, only low tension direct current (DC) at 250 and 500 volts was supplied. At a later date, however, in order to cope with the increasing demand for power, particularly from the various shipbuilding yards, engine works, woollen mills, sugar refineries, etc., a high tension system of generation and distribution was introduced. The new system of three-phase 3.3 Kv alternating current (AC) was more economical than the low tension system for transmitting large supplies of electricity over considerable distances.\nThe industrial demand for electricity continued to increase, and the high tension system was extended accordingly. Eventually, Dellingburn became the sole generating station, and, since 1913, Hunter Place has been used as a sub-station for converting high pressure electricity to low pressure for special local requirements.\nIn the year 1914, the neighbouring industrial town of Port Glasgow decided to take a supply of electricity from Greenock. The transmission supply was 10.5Kv 3-phase AC which, on reaching Port Glasgow, was converted to 250v DC. All the principal shipbuilding yards and engineering works, also many of the shops and houses, have taken advantage of the electricity supply.\nThe electricity supply to Gourock was inaugurated in December, 1923, and proved very successful. Although there were no industries of note in Gourock, electrical development was rapid in connection with shops and houses, some 90 per cent of the shops and 60 per cent of the houses having been connected to the supply.\nFor a number of years, the Electricity Commissioners had been urging the co-ordination and centralization of electricity supplies. A step forward was made in 1924 when Paisley commenced taking power from Greenock, the interconnecting transmission lines operating at 22 Kv.\nThe passing of the Electricity Act of 1926, and the setting up of what is now known as the Central Electricity Board, resulted in much more ambitious schemes being considered. The intention of the Central Electricity Board is to close down all the\nsmall and inefficient generating stations, and to link together a number of generating stations selected because of their efficiency and geographical positions.\nThese stations became interconnected by means of transmission lines operating at 132Kv. The scheme in connection with the centre of Scotland progressed well and the section interconnecting Greenock with Yoker (on the upper reaches of the River Clyde) was in operation since December 1929.\nThe following figures give an indication of the electrical progress made since the opening of Hunter Place Power Station in 1899.\nThe Electricity Department operated in a progressive manner, and no efforts were spared to cope with the increasing demands for electricity. For a number of years the Department was chiefly concerned with the requirements of the industrial and business firms in the district. However, electricity was introduced into thousands of homes, and the demand for electricity and domestic electrical appliances grew daily. Hire Purchase Schemes were in operation which bring electricity and electrical appliances within the reach of everyone.\nThe Electricity Showrooms gave consumers an opportunity of inspecting the latest designs in lighting, heating, and cooking appliances, and also of having the uses of the various appliances explained and demonstrated. The installing and wiring of electric motors and other power appliances\nDellingburn Power Station History\n1907 The coal-fired powered station was opened by Greenock Corporation. It was also used to burn municipal waste for a while, which was not unusual for power stations of that era. The original capacity was c.400kw, with Coal being delivered by rail.\n1908 The station had a capacity of 1,000 kW and the Corporation added an extra 1,000 KW generator.\n1911 The station had a capacity of 2,000kW. The Corporation decided to add an extra 2000kW turbine generator.\n1912 A new Rateau-type turbine alternator was added to the station with capacity of 2,000kW. The total capacity of the station was said to be 10 MW; negotiations were underway between the Corporation and the Port of Glasgow to supply electricity to the shipyards.\n1913 New generating plant was ordered for the station to enable it to supply the Port of Glasgow; transmission would be at 10.6Kv.\nPower Station Capacity Development:\n1907 Capacity 210Kw\n1914 Capacity 5.3Mw\n1929 Capacity 14.16Mw\nBomb damage at Greenock during the air raids in May 1941 resulted in a permanent loss of capacity. The power station never reopened for power generation.\nGREENOCK FIREMASTER'S REPORT AIR RAID 7th. MAY 1941\nThe Air Raid Warning \"Red\" was received at 00.26 and the Air Raid message \"White\" at 03.39.\nIncidents. 56 actual incidents were recorded on the tally board at the Fire Brigade Headquarters.\nDetails of Raid. In the very early stages of the raid, high explosive bombs struck the Ardgowan Distillery and fired a warehouse containing about three million gallons of whisky. A tremendous body of fire was almost immediately generated and, from this time on, the area was systematically bombed, many neighbouring premises being set on fire. The Fire service was powerless to control the initial fire, in the circumstances, and the situation rapidly depreciated as succeeding buildings were fired. The raid then became more widespread and a serious fire situation developed.\nFor the purpose of dealing with the fires, operations were organised in three main areas, namely:-\n(1) Baker Street to Cartsburn Street, and from the Victoria Harbour to the railway behind the Distillery. In all, an area of about 600 yards by 300 yards.\n(2) About 250 yards of Cathcart Street and turnings off, and Brymner Street.\n(3) Belville Street area.There were numerous other individual fires if varying size scattered over the town, and the most serious, probably, involved three floors of a section of the Municipal Buildings.\nThe damage was extensive including the Distillery, Railway yard and various stores, School, Two foundries, Electricity Power Station & Distribution gear, Shops and tenements.\nOwnership of the site transferred to the South of Scotland Electricity Board in the 1950s.\nThe SPEN substations remains on the site of the former power station, a few changes over the 120 years of electricity supply in the area.\n— in Greenock.",
+      "contentFingerprint": "cd9f300b74fb46bf3071e4c7d718c5ddfec36cf2b75c15367a1c0867b37904ab",
+      "photos": [
+        "media/facebook/1418138967145011/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "OHL (Pylons)",
+        "Onshore Wind",
+        "Substation"
+      ]
+    },
+    {
+      "id": "1480439523945503",
+      "date": "2026-10-30",
+      "title": "Dunbar Against Massive Datacentres (DAMD)",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Dunbar Against Massive Datacentres (DAMD)",
+        "label": "Facebook · Dunbar Against Massive Datacentres (DAMD)",
+        "url": "https://www.facebook.com/groups/1316627133660077/posts/1480439523945503/"
+      },
+      "thin": false,
+      "bodyText": "A sneaky preview of the Campaigns Against Datacentres 2007 calendar which has been produced thanks to Johnathan Matheson-Dear to help local campaigns raise some funds. He has given us 20 calendars to sell (£10 per calendar) which will go towards Dunbar Against Massive Datacentres.\nI will bring them to the Action Group Meeting tonight (reminder it's 7pm at West Barns Village Hall). If you would like to buy one then bring cash along \nProceeds will go towards producing more campaign promotional materials in the first instance.\n@everyone @highlight",
+      "contentFingerprint": "2920f11a1528e50c465e9058ec530c05e4a4c9fe408f41ecfd04c68ca2bd5d8d",
+      "photos": [
+        "media/facebook/1480439523945503/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1841793566860890",
+      "date": "2026-10-30",
+      "title": "Essex Suffolk Norfolk Pylons",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Essex Suffolk Norfolk Pylons",
+        "label": "Facebook · Essex Suffolk Norfolk Pylons",
+        "url": "https://www.facebook.com/groups/pylonseastanglia/posts/1841793566860890/"
+      },
+      "thin": false,
+      "bodyText": "Calling all grid infrastructure campaigners!\nWEBINAR WITH AUTHOR OF OVERCHARGED, NICK ROSEN, ON MONDAY (2ND NOVEMBER) AT 6PM.\nJoin us at 6pm on Monday (2nd November) for a webinar in which we will hear from the author of \"OVERCHARGED: How The Grid Took Your Power\", Nick Rosen. He is keen to galvanise communities who face grid infrastructure projects to work together and the webinar will be of interest to those facing the 'great grid upgrade' in their area.\nNo need to sign up - just keep this link safe and click on it at 6: https://teams.microsoft.com/meet/3925848767779455...\nNick says:\n\"The webinar is timed to coincide with the Secretary of State's decision (due today, Friday) on the SeaLink project. Sealink is the first in a series of crucial decisions on grid infrastructure over the next few months and years.\nNational Grid is gaming the system and picking off local opposition one at a time. We need to get together and campaign nationally pointing out the bogus assumptions and unrealistic cost and revenue projections being used to fast track grid infrastructure.\nIt is being pushed through by government as fast as possible, overriding all reasonable opposition and cementing into place the wrong grid upgrade.\"\nI have started reading Overcharged (before this webinar was agreed) and it is fascinating, exposing 'how a system built for King Coal and one-way flows is buckling under the weight of 21st-century demand.\nNick Rosen is an off-grid energy pioneer, author, and award-winning documentary maker.\nNick has made films for BBC, ITV, Channel 4, PBS, CBS and others. He also appears frequently on radio shows and podcasts, and has written for The Guardian, The Times, The Spectator, Daily Mail, Washington Post, Reuters and many others, commenting on government energy policy and legislation. For much of the noughties he wrote a column in Revolution Magazine (Haymarket) – about latest developments in mobile internet. He now covers Grid Energy, Net Zero, Clean Energy , Microgrids, Battery technology, Data Centres, Renewables, Electric Vehicles, Local and Community energy, and notably Off-Grid Technology.",
+      "contentFingerprint": "7791e19c4de6d96d72415ae2817de8051bcaf310196bddafe8cbe2a3fa326972",
+      "photos": [
+        "media/facebook/1841793566860890/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://teams.microsoft.com/meet/3925848767779455...",
+          "url": "https://teams.microsoft.com/meet/3925848767779455?p=nO9WOMlGvJakql6rxR"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1645254297310765",
+      "date": "2026-10-30",
+      "title": "Grampian Against Data Centres",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Grampian Against Data Centres",
+        "label": "Facebook · Grampian Against Data Centres",
+        "url": "https://www.facebook.com/groups/1517407306762132/posts/1645254297310765/"
+      },
+      "thin": false,
+      "bodyText": "Don’t believe the lies, we are not in a race with China, or any other country. the United States has far surpassed all nations with how many data centers we currently have.",
+      "contentFingerprint": "d346c34f2bd971be08379b88cb2e43a9e1674bdeb3e0d8105ee19ba5eebc1dd1",
+      "photos": [
+        "media/facebook/1645254297310765/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1645278640641664",
+      "date": "2026-10-30",
+      "title": "Grampian Against Data Centres",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Grampian Against Data Centres",
+        "label": "Facebook · Grampian Against Data Centres",
+        "url": "https://www.facebook.com/groups/1517407306762132/posts/1645278640641664/"
+      },
+      "thin": false,
+      "bodyText": "Holyrood’s Climate Action Committee will hear from people who have concerns about the potential impacts of the facilities. Representatives from Action to Protect Rural Scotland and Friends of the Earth Scotland will give evidence. \nRecently, the Chapelcross data centre in Dumfries and Galloway has received a massive 10,000 objections from members of the public.",
+      "contentFingerprint": "ad7ffeac2b20869255be2ab584f78584986ea2e86c338afd254b3d02cb8a40ae",
+      "photos": [
+        "media/facebook/1645278640641664/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1418176460474595",
+      "date": "2026-10-30",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1418176460474595/"
+      },
+      "thin": false,
+      "bodyText": "Countryside once spoiled by open-cast mining is being turned green again after work began to plant a 500-hectare forest.\nBrockloch Forest, in East Ayrshire, received approval in June 2026 and ground preparation work is now underway, with planting expected to begin in early November.\nLandowner True North said the site west of New Cumnock, along with a second site named Greencroft in County Durham, represents the \"forests of the future\", which will boost biodiversity and help tackle climate change.\nPlanting at Brockloch is expected to be completed by March 2027. True North Real Asset Partners, the largest afforestation investor in the UK, bought the site in 2021.\nThe planting design for Brockloch showcases modern, best-practice forestry.\nRewarding to see work starting on site now, preparing the ground for a resilient woodland that will boost biodiversity, help tackle climate change and deliver a sustainable source of timber.\nBrockloch, formerly known as Bank and Afton, lies within both the Central Scotland Green Network, a zone targeted for woodland creation, and the Strategic Woodland Creation Area in East Ayrshire Council's non-statutory planning guidance.\nFormerly defined by open-cast mining, this part of East Ayrshire has since shifted to a mixture of commercial forestry, wind farms and pastoral farming on the lower slopes.\nAt Brockloch, about 100 hectares of the lower ground used for mining. Some landforms created remain as part of the landscape restoration.\nThe trees will be planted around them. This lower ground is relatively sheltered and fertile, making it well suited to more sensitive conifers.\nThe 493-hectare forestry creation scheme will comprise 303.7 hectares of Sitka spruce, accounting for 61.6% of the total area. The remaining species mix is as follows: Douglas fir, 15.9ha (3.2%); Norway spruce, 11.6ha (2.3%); noble fir, 7.6ha (1.5%); Pacific silver fir, 5.3ha (1.1%); Scots pine, 4.5ha (0.9%); native mixed broadleaves, 97.9ha (19.9%); and open ground, 46.3ha (9.3%).\nWith the highest ground unsuitable for planting, True North joined a consortium developing the Enoch Hill Wind Farm.\nThe wind farm was connected to the national grid this summer, and True North subsequently sold its share in the powered land to Electric Land Investors.\nThe 174.46 hectares of open hill ground were sold with a 32-year lease to RWE Renewables UK Offshore Wind Limited.\nAfter long and complex planning processes, particularly at Greencroft, great we to see practical groundwork taking place. These are forests for the future and we can look forward to watching them take shape.\nEnoch Hill Windfarm \nConstruction works was largely completed July 2025 with only minor civil & electrical works and commissioning of the wind turbines remaining.\nThis wind farm was expected to connect to the national grid 31/10/25 but the connection was delayed until February 2026 and again until April 2026.\nThe wind farm was finally connected to the grid 16/04/26 allowing the project to progress with final commissioning and testing to the wind turbines.\nRWE expect construction to be fully complete end of Summer 2026 and has  committed to supporting the communities around their wind farms. In 2025 alone RWE invested more than £5.7 million into the communities that surround our renewable energy projects.\nEnoch Hill Wind Farm brings with it an annual community fund worth £350,000 per year, index linked, for the operational lifetime of the Windfarm.— in New Cumnock.",
+      "contentFingerprint": "fa9c61f9c75d2885f2030f5ca7de185c8a7e8df95c002a95ba0792041b2a75f8",
+      "photos": [
+        "media/facebook/1418176460474595/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "1169238652434388",
+      "date": "2026-10-30",
+      "title": "Suffolk Energy Action Solutions (SEAS)",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Suffolk Energy Action Solutions (SEAS)",
+        "label": "Facebook · Suffolk Energy Action Solutions (SEAS)",
+        "url": "https://www.facebook.com/SuffolkEnergyActionSolutions/posts/1169238652434388"
+      },
+      "thin": false,
+      "bodyText": "We will of course be giving our own words on this very soon, as we come to terms with the decision and decide our next move if indeed we can fight it we will endeavor to try.\nSea Link - Development Consent Granted\nThe Secretary of State has today granted development consent for National Grid's Sea Link project, including the proposed converter station near Saxmundham.\nSaxmundham Town Council is disappointed by this decision. We have consistently opposed the proposed location of the converter station and submitted detailed representations highlighting concerns about landscape, traffic, biodiversity, heritage and the cumulative impact of major energy infrastructure on our town.\nWe also acknowledge the considerable efforts of Suffolk Energy Action Solutions, Saxmundham Against Needless Development and local residents who challenged the proposals throughout the examination process.\nOur focus now turns to protecting Saxmundham's interests as the project moves forward.\nThroughout the planning process, the Town Council has engaged constructively with National Grid, recognising the importance of seeking to reduce harm and secure meaningful community benefits.\nWe will continue pressing for effective mitigation, minimal disruption during construction and lasting investment in our community. This includes seeking support for environmental improvements, better community facilities, safer walking and cycling routes, and projects that strengthen our town centre and improve the wellbeing of local residents.\nWe believe National Grid's proposed Community Fund should provide opportunities to deliver lasting benefits for the communities most affected by this infrastructure.\nWe know that many residents will be disappointed by today's announcement. However, Saxmundham is a resilient and ambitious community, and we remain determined to pursue a positive and lasting legacy from the infrastructure imposed upon us.\nWe remain committed to protecting our community's interests and holding National Grid to its commitments.",
+      "contentFingerprint": "4c2acfed8d7fe4ce93dda0a5f6ef6124360f2c79a6dd0414178ee9cbdefc3c89",
+      "photos": [
+        "media/facebook/1169238652434388/photo_1.png"
       ],
       "mediaCount": 1
     }
