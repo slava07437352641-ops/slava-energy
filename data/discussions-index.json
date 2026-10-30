@@ -1,16 +1,16 @@
 {
-  "generated": "2026-10-28T15:02:32.000Z",
+  "generated": "2026-10-30T09:32:37.000Z",
   "counts": {
-    "records": 4115,
+    "records": 4171,
     "thin": 327,
-    "withMedia": 1575,
-    "withCategories": 1246,
+    "withMedia": 1631,
+    "withCategories": 1280,
     "withTopics": 316,
     "withProject": 210,
     "withCoordinates": 95,
     "withSummary": 57,
-    "withBodyText": 2682,
-    "withPhotos": 1572,
+    "withBodyText": 2735,
+    "withPhotos": 1628,
     "withPreviewImage": 64,
     "councils": 4,
     "matchReviewLogged": 2,
@@ -22,7 +22,7 @@
   },
   "dateRange": {
     "from": "2024-04-12",
-    "to": "2026-10-28"
+    "to": "2026-10-30"
   },
   "records": [
     {
@@ -111299,6 +111299,2076 @@
       "categories": [
         "OHL (Pylons)"
       ]
+    },
+    {
+      "id": "1556338753190086",
+      "date": "2026-10-29",
+      "title": "Wind Energy's Absurd",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Wind Energy's Absurd",
+        "label": "Facebook · Wind Energy's Absurd",
+        "url": "https://www.facebook.com/WindEnergysAbsurd/posts/1556338753190086"
+      },
+      "thin": false,
+      "bodyText": "Finally, we've finished watching, and making sense of the multiplicity of pages of note-taking, to produce as reasonable a length of report as we could manage, on the evidence given by NESO, DESNZ and Ofgem at the Public Accounts Committee on 22 October.\nWe had hoped that the official transcript would be up by now, but no - so we did the heavy lifting.  \nWe will put up separately jpgs of the report we've done as we really love this image of Fintan Slye - CEO of NESO and we wanted to keep it highlighted.  You will see why this has been done when you see what Rupert Lowe referred to - it was just too good to pass up.\nWe have said in the report that we have things to come back to, and we have, but we also have two other meetings to watch tomorrow, and so those other aspects will come later, probably over the weekend.",
+      "contentFingerprint": "6e026099300459862761afc49da8821b03c042b2a2727cb3ee9f039c1075948c",
+      "photos": [
+        "media/facebook/1556338753190086/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1556351609855467",
+      "date": "2026-10-29",
+      "title": "Wind Energy's Absurd",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Wind Energy's Absurd",
+        "label": "Facebook · Wind Energy's Absurd",
+        "url": "https://www.facebook.com/WindEnergysAbsurd/posts/1556351609855467"
+      },
+      "thin": false,
+      "bodyText": "Apologies for the slight greying of some of the text.  It's still readable and we decided no, we were not going to redo the jpgs.  In the words of Anna Dixon - we think we're done",
+      "contentFingerprint": "aca4115a923b1f07694cfc5e084556258395c1f3ac22e660eeca2a63b4d8c5d3",
+      "photos": [
+        "media/facebook/1556351609855467/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1478001314189324",
+      "date": "2026-10-28",
+      "title": "Dunbar Against Massive Datacentres (DAMD)",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Dunbar Against Massive Datacentres (DAMD)",
+        "label": "Facebook · Dunbar Against Massive Datacentres (DAMD)",
+        "url": "https://www.facebook.com/groups/1316627133660077/posts/1478001314189324/"
+      },
+      "thin": false,
+      "bodyText": "EXCLUSIVE: The US-tech firm contracted to Scotland’s 'AI Growth Zone' has seen its stock plummet in recent weeks, sparking fears over its part in a major infrastructure project in North Lanarkshire",
+      "contentFingerprint": "9321984313547df1a2b82f8070225722fe44fc52f38629d32f361d6ad5c65c16",
+      "photos": [
+        "media/facebook/1478001314189324/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1050014131396718",
+      "date": "2026-10-28",
+      "title": "NO to East Havering Data Centre in Upminster (Residents Group)",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "NO to East Havering Data Centre in Upminster (Residents Group)",
+        "label": "Facebook · NO to East Havering Data Centre in Upminster (Residents Group)",
+        "url": "https://www.facebook.com/groups/366637746401030/posts/1050014131396718/"
+      },
+      "thin": false,
+      "bodyText": "Last few days to add your voice to the petition calling for the removal of Grey Belt planning rules. \n Petition link: https://petition.parliament.uk/petitions/766093\nTogether we are stronger \nProtect The Green Belt\n18,000 signatures - last few days to add your voice!\nThe petition calling for the removal of grey belt planning rules has passed 18,000 signatures this morning\n. Thank you to everyone who keeps signing and sharing \n.\nPetition link - https://petition.parliament.uk/petitions/766093\nEVERY signature counts and amplifies our collective voice. The response from government is now overdue but everyone who signs the petition (& ticks the box for updates) will be amongst the first to get the response when it comes.\nEVERY share builds greater awareness of the problems many communities are facing with the introduction of the new 'grey belt' planning rules in December 2024. This affects constituencies ACROSS the country as can be seen by the map and the tables*.\nNO Green Belt area is safe. According to Angela Rayner in July 2024, the definition of 'grey belt' was supposed to be \"really targeted\" and focus on sites like old petrol stations and car parks*. However, in reality, it is sweeping up large areas of valuable Green Belt.\nPlease see Protect The Green Belt and Community Planning Alliance: the grassroots group for more information about the issues around the new rules.\nEVERY person CAN make a difference. This petition will close on 30th October, but the campaign to push the issues with 'grey belt' (its definition AND its application) UP the political agenda will continue.\n Thank you \nKath Sanders , Hannah Patrick , Lesley Bryan , Gemma Jackson , Melanie Steane , Deborah M Hodgetts\n* Notes:\n1) The tables show the number of signatures by constituency for the top 70+ constituencies ranked by highest number of signatures, based on the government's petition data as at 08:11, 28th October 2026. The tables also show the name of the respective MP - the inclusion of their name does not indicate their support for this petition.\n2) For Angela Rayner quote, see screenshots attached from the Channel 4 news documentary, \"Residents protest as UK looks to 'grey belts' to solve UK housing crisis\", 28th Aug 2026 (2 minutes in) - https://youtu.be/aYz6age_kw0?is=VXPgq6uDCWFsrtP_\nThe documentary states: \"Ministers had insisted that grey belt would apply to previously used sites, not open countryside.\"\nIt goes on to quote Angela Rayner speaking in July 2024. Angela Rayner said: \"I've defined what grey belt is. So, again, talking about sites that have been used before, old petrol stations, ... car parks, not the rolling hills of Suffolk. You know, it's going to ... be really targeted.\"",
+      "contentFingerprint": "692119564294487e1424ef35407e529fdef4c341dc88e6139c55a28e214a65c7",
+      "photos": [
+        "media/facebook/1050014131396718/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://petition.parliament.uk/petitions/766093",
+          "url": "https://petition.parliament.uk/petitions/766093?utm_id=97758_v0_s00_e0_tv4_a1dennhb3xtmzw"
+        },
+        {
+          "text": "https://petition.parliament.uk/petitions/766093",
+          "url": "https://petition.parliament.uk/petitions/766093?utm_id=97758_v0_s00_e0_tv0"
+        },
+        {
+          "text": "https://youtu.be/aYz6age_kw0?is=VXPgq6uDCWFsrtP_",
+          "url": "https://youtu.be/aYz6age_kw0?is=VXPgq6uDCWFsrtP_"
+        }
+      ]
+    },
+    {
+      "id": "1591921305549145",
+      "date": "2026-10-28",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1591921305549145/"
+      },
+      "thin": false,
+      "bodyText": "Here is the UK Government helping the Scottish Government force data centres onto communities.  When the Scottish Government says that data centres can only go ahead with the consent of communities what I suspect it is really saying is data centres can only go ahead with the consent of 'communities of (self) interest' and to hell with those 'communities of locality'.\nHERALDSCOTLAND.COM UK launches data centre covenant in 2026 Budget with jobs and water protection rules",
+      "contentFingerprint": "8339a003ced74e35f6c3825f04f5e2bed4a4850dcf85a457c17402f8e2949b2e",
+      "photos": [
+        "media/facebook/1591921305549145/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "HERALDSCOTLAND.COM UK launches data centre covenant in 2026 Budget with jobs and water protection rules",
+          "url": "https://www.heraldscotland.com/news/26677668.budget-2026-uk-data-centre-covenant-announced-tied-grid-access/"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1050232258041572",
+      "date": "2026-10-28",
+      "title": "NO to East Havering Data Centre in Upminster (Residents Group)",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "NO to East Havering Data Centre in Upminster (Residents Group)",
+        "label": "Facebook · NO to East Havering Data Centre in Upminster (Residents Group)",
+        "url": "https://www.facebook.com/groups/366637746401030/posts/1050232258041572/"
+      },
+      "thin": false,
+      "bodyText": "Announced today. Let’s see how this pans out in real-world terms. We know some developers fabricate claims in order to meet their goal. This change should be policed and checked with the strictest possible framework so that communities are not hood-winked. Note, too, the mention of Community benefits. Communities should mean those living closest to the fall out zone, not on the other side of the Borough to get park hedges or deer culled.\nWhat’s your view?\nGOV.UK The Data Centre Covenant",
+      "contentFingerprint": "63c4b9c4740b814a7c2104eda946592bc563c270a0d5aa635cc14aba01d04397",
+      "photos": [
+        "media/facebook/1050232258041572/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "GOV.UK The Data Centre Covenant",
+          "url": "https://www.gov.uk/government/publications/data-centre-covenant/the-data-centre-covenant"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1050235751374556",
+      "date": "2026-10-28",
+      "title": "NO to East Havering Data Centre in Upminster (Residents Group)",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "NO to East Havering Data Centre in Upminster (Residents Group)",
+        "label": "Facebook · NO to East Havering Data Centre in Upminster (Residents Group)",
+        "url": "https://www.facebook.com/groups/366637746401030/posts/1050235751374556/"
+      },
+      "thin": false,
+      "bodyText": "And more today from the Government. Draft Policy Framework for Data Centres. Consultation until January 2027. What a lot of publications on the same day as the budget!\nGOV.UK Draft National Policy Statement for Data Centres",
+      "contentFingerprint": "a34d0b7ff98be7b30db1f6027ff1bb026a9fd0cc6e72c37f2250168468806e38",
+      "photos": [
+        "media/facebook/1050235751374556/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "GOV.UK Draft National Policy Statement for Data Centres",
+          "url": "https://www.gov.uk/government/publications/draft-national-policy-statement-for-data-centres"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1050240501374081",
+      "date": "2026-10-28",
+      "title": "NO to East Havering Data Centre in Upminster (Residents Group)",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "NO to East Havering Data Centre in Upminster (Residents Group)",
+        "label": "Facebook · NO to East Havering Data Centre in Upminster (Residents Group)",
+        "url": "https://www.facebook.com/groups/366637746401030/posts/1050240501374081/"
+      },
+      "thin": false,
+      "bodyText": "Government have gone for the hat-trick today!\nQUESTIONS-STATEMENTS.PARLIAMENT.UK Written statements - Written questions, answers and statements - UK Parliament",
+      "contentFingerprint": "31905eeb408752f963a9116c492ac4c893182936749104b48436636de2c1e24a",
+      "photos": [
+        "media/facebook/1050240501374081/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "QUESTIONS-STATEMENTS.PARLIAMENT.UK Written statements - Written questions, answers and statements - UK Parliament",
+          "url": "https://questions-statements.parliament.uk/written-statements/detail/2026-10-28/hcws426?utm_id=97757_v0_s00_e0_tv2_a1dennhb5ji13c"
+        }
+      ]
+    },
+    {
+      "id": "1591639355577340",
+      "date": "2026-10-28",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1591639355577340/"
+      },
+      "thin": false,
+      "bodyText": "THECONVERSATION.COM We studied 1,584 data centers – and found the buildings full of machines are tied to modest local job growth",
+      "contentFingerprint": "ed2b6d0756efd1cf1c1398134701359dbe176889af7a98530231e5d0d1a318d1",
+      "photos": [
+        "media/facebook/1591639355577340/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "THECONVERSATION.COM We studied 1,584 data centers – and found the buildings full of machines are tied to modest local job growth",
+          "url": "https://theconversation.com/we-studied-1-584-data-centers-and-found-the-buildings-full-of-machines-are-tied-to-modest-local-job-growth-293872"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1591287272279215",
+      "date": "2026-10-28",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1591287272279215/"
+      },
+      "thin": false,
+      "bodyText": "The Bubble has burst and the Dominoes are falling\nWhile tech stocks around the world are looking shaky, China's tech market has already crashed due to overpriced companies being affected by fears of slowing AI demand and strict limits on Chinese exports. \nIn less than four months, China's STAR50 index, which tracks the country's top AI and computer chip companies, dropped by 40%, wiping out about $480 billion in value.\nThis massive drop is a bad warning sign for nervous global AI companies, and it will likely be a blow towards China's efforts to convince everyday citizens to invest their savings into the stock market to help pay for the country's AI growth.",
+      "contentFingerprint": "d3bf5c2992ec04d5c8e67f7bb131e2c9e1d99e113a73a3193edbf30bb108fd94",
+      "photos": [
+        "media/facebook/1591287272279215/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1591007948973814",
+      "date": "2026-10-28",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1591007948973814/"
+      },
+      "thin": false,
+      "bodyText": "I posted twice to show, not just the environment, energy, water, and other resources, but the financing will destroy our economies.",
+      "contentFingerprint": "a81fae80b5763cdee76d3a1039a4d29a081f09ef8575dbb16667a42e49516a22",
+      "photos": [
+        "media/facebook/1591007948973814/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1152258373807647",
+      "date": "2026-10-28",
+      "title": "Say No to West Calder Hyperscale Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No to West Calder Hyperscale Data Centre",
+        "label": "Facebook · Say No to West Calder Hyperscale Data Centre",
+        "url": "https://www.facebook.com/groups/1092406649792820/posts/1152258373807647/"
+      },
+      "thin": false,
+      "bodyText": "I was asked recently why I think that Scottish Govt should be held responsible for AI decisions (bearing in mind they are the alleged cause of the need for Hyperscale data centres) in Scotland when Westminster holds the key role...\nMy answer is as follows: Public Money and Public Services (Devolved Responsibility)\nWhile Westminster handles broad, overarching legislation for safety and regulation, the Scottish Government has complete control over how technology is implemented in Scotland's public sector. They are actively choosing how and where to use AI in key devolved areas:\nThe NHS and Education: Decisions on using AI to analyze patient data, diagnose illnesses, or assist in Scottish schools are made in Edinburgh, not London.\nTechnology is moving much faster than the political system.\nMany politicians simply do not have a technical background, which can lead to their vague talking points about \"innovation\" rather than sharp insightful questions about data privacy, worker layoffs, or corporate lobbying and it is leaving the public defenceless due to their ignorance! \nThe Scottish Government often use ambitious phrases like \"AI superpower\" to attract foreign tech investment and boost the economy. However, this economic enthusiasm causes leaders to ignore risks until problems actually arise! \nUltimately, while Westminster writes the overarching laws, the Scottish Government is the gatekeeper for how AI alters daily life, public services, and the local environment here in Scotland. \nThat is why they are expected to have concrete answers, even if their public statements currently fall short of my expectations.",
+      "contentFingerprint": "3b7aef22ed20ec5f0dd7eaec5f25fe10fef22e2a3d9000242f48c5c4b2c8a964",
+      "photos": [
+        "media/facebook/1152258373807647/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1050360258028772",
+      "date": "2026-10-28",
+      "title": "NO to East Havering Data Centre in Upminster (Residents Group)",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "NO to East Havering Data Centre in Upminster (Residents Group)",
+        "label": "Facebook · NO to East Havering Data Centre in Upminster (Residents Group)",
+        "url": "https://www.facebook.com/groups/366637746401030/posts/1050360258028772/"
+      },
+      "thin": false,
+      "bodyText": "Reprive - for now. Good to see Andrew Rosindell MP consistently supporting residents. But we carry on with our plans, regardless, in preparedness. The aim is still to pursue a rejection of the LDO by Havering Council.\nROMFORDRECORDER.CO.UK Council leader and MP share latest view on data centre planned on Havering Green Belt",
+      "contentFingerprint": "d9eb31c721b64e0537eeb37621210d1d09347a15618471a96de7d260620d21f3",
+      "photos": [
+        "media/facebook/1050360258028772/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "ROMFORDRECORDER.CO.UK Council leader and MP share latest view on data centre planned on Havering Green Belt",
+          "url": "https://www.romfordrecorder.co.uk/news/26678121.keith-prince-clarifies-position-controversial-havering-data-centre/"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "28915751138078302",
+      "date": "2026-10-28",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/28915751138078302/"
+      },
+      "thin": false,
+      "bodyText": "‘How Green Billionaires Convinced the World to Build Thousands of Useless Windmills\nhttps://www.climatedepot.com/2026/10/27/book-excerpt-how-green-billionaires-convinced-the-world-to-build-thousands-of-useless-windmills/\nCLIMATEDEPOT.COM Book Excerpt: ‘How Green Billionaires Convinced the World to Build Thousands of Useless Windmills’",
+      "contentFingerprint": "0e33aed2b885d45c8d688ca1ee9b52bde60788c3329b9b05c4734124f89336f6",
+      "photos": [
+        "media/facebook/28915751138078302/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "CLIMATEDEPOT.COM Book Excerpt: ‘How Green Billionaires Convinced the World to Build Thousands of Useless Windmills’",
+          "url": "https://www.climatedepot.com/2026/10/27/book-excerpt-how-green-billionaires-convinced-the-world-to-build-thousands-of-useless-windmills/"
+        },
+        {
+          "text": "https://www.climatedepot.com/2026/10/27/book-excerpt-how-green-billionaires-convinced-the-world-to-build-thousands-of-useless-windmills/",
+          "url": "https://www.climatedepot.com/2026/10/27/book-excerpt-how-green-billionaires-convinced-the-world-to-build-thousands-of-useless-windmills/"
+        }
+      ]
+    },
+    {
+      "id": "1167392052619048",
+      "date": "2026-10-28",
+      "title": "Suffolk Energy Action Solutions (SEAS)",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Suffolk Energy Action Solutions (SEAS)",
+        "label": "Facebook · Suffolk Energy Action Solutions (SEAS)",
+        "url": "https://www.facebook.com/SuffolkEnergyActionSolutions/posts/1167392052619048"
+      },
+      "thin": false,
+      "bodyText": "Calls for pause on Sea Link decision amid claims of rising costs, reduced need and cheaper alternative\n#stopsealink #energynews #news\nTHEISLEOFTHANETNEWS.COM Calls for pause on Sea Link decision amid claims of rising costs, reduced need and cheaper alternative",
+      "contentFingerprint": "2e3e6e350059c762b684dc83b2f9a2d06d3964aacce91a05d25c67e43693084b",
+      "photos": [
+        "media/facebook/1167392052619048/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "THEISLEOFTHANETNEWS.COM Calls for pause on Sea Link decision amid claims of rising costs, reduced need and cheaper alternative",
+          "url": "https://theisleofthanetnews.com/2026/10/28/calls-for-pause-on-sea-link-decision-amid-claims-of-rising-costs-reduced-need-and-cheaper-alternative/"
+        }
+      ]
+    },
+    {
+      "id": "1050410938023704",
+      "date": "2026-10-28",
+      "title": "NO to East Havering Data Centre in Upminster (Residents Group)",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "NO to East Havering Data Centre in Upminster (Residents Group)",
+        "label": "Facebook · NO to East Havering Data Centre in Upminster (Residents Group)",
+        "url": "https://www.facebook.com/groups/366637746401030/posts/1050410938023704/"
+      },
+      "thin": false,
+      "bodyText": "Sorry another petition, but all important especially following recent Government policy-making activity:\nPetition: Hold a UK-wide public consultation before further expansion of AI data centres\nHold a UK-wide public consultation on the environmental impacts of AI data centres, including whether further expansion should be restricted, paused or halted until impacts on wildlife, habitats, water, energy use, emissions, land and local communities are properly understood and addressed in full.\nPETITION.PARLIAMENT.UK Petition: Hold a UK-wide public consultation before further expansion of AI data centres",
+      "contentFingerprint": "1d4a119d75654779d312517b9d9e6d424b0b9e804fde16793470b2b0609d2464",
+      "photos": [
+        "media/facebook/1050410938023704/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "PETITION.PARLIAMENT.UK Petition: Hold a UK-wide public consultation before further expansion of AI data centres",
+          "url": "https://petition.parliament.uk/petitions/783905?utm_id=97757_v0_s00_e0_tv2_a1dennhb5ji13c"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1152326610467490",
+      "date": "2026-10-28",
+      "title": "Say No to West Calder Hyperscale Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No to West Calder Hyperscale Data Centre",
+        "label": "Facebook · Say No to West Calder Hyperscale Data Centre",
+        "url": "https://www.facebook.com/groups/1092406649792820/posts/1152326610467490/"
+      },
+      "thin": false,
+      "bodyText": "The Scottish Government has confirmed it will not include a standalone right to a healthy environment (wonder why??) in its upcoming Human Rights Bill, a decision announced by Equalities Minister Simita Kumar on Wednesday, October 28, 2026. \nMinisters stated that while they support the principle of environmental human rights, they believe including the right would create uncertainty or unintended delays in decision-making that could impact net-zero ambitions (never mind that they are not in course and will be missed totally if ANY Hyperscale Data Centres go ahead), and that the necessary legal clarity could not yet be achieved within the domestic framework. \nThe decision has drawn sharp criticism from campaigners and organizations:\nOxfam Scotland called the move a \"major retreat\" and part of a broader unravelling of Scotland’s climate credentials.\nAmnesty International described the exclusion as \"dismaying,\" arguing that social justice cannot be achieved without environmental justice.\nStop Climate Chaos Scotland accused the government of \"giving up on tackling the climate emergency,\" particularly noting the timing coincided with the approval of a new gas-fired power station.\nEnvironmental Rights Centre for Scotland (ERCS) expressed dismay, stating that the right is an essential tool for holding duty-bearers accountable and transforming business practices.\nThe Human Rights Bill is still expected to incorporate other economic, social, and cultural rights, but the specific inclusion of the right to clean air, safe climate, and healthy ecosystems has been removed from the legislative plan for this parliamentary session.\nWonder how this will affect any Local Council decisions made in favour of local people and environmental impacts being \"called up\" and overruled by SNP ...\nTHENATIONAL.SCOT Fury as Scottish Government drops right to healthy environment from human rights bill",
+      "contentFingerprint": "e254959fab8cb57d99377e40aca3f3aecb2dc8a29fa476506583975cef7681d3",
+      "photos": [
+        "media/facebook/1152326610467490/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "THENATIONAL.SCOT Fury as Scottish Government drops right to healthy environment from human rights bill",
+          "url": "https://www.thenational.scot/news/26677349.snp-scrap-right-healthy-environment-human-rights-bill/"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1592130068861602",
+      "date": "2026-10-28",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1592130068861602/"
+      },
+      "thin": false,
+      "bodyText": "I wonder what the plan is for the grid with all these gigawatt data centres when back in June this year we had to start importing power from France to avoid a blackout as the grid had reached production capacity.\nhttps://dispatches.kilowatts.io/.../better-connected-to...\nhttps://www.youtube.com/watch?v=mJ2j4aZFpVo\nYOUTUBE.COM How France saved Britain from a Blackout",
+      "contentFingerprint": "437efb98d3d4311527467fc43cc547ec6c6d5044ebeceaca55450f50d03d98b2",
+      "photos": [
+        "media/facebook/1592130068861602/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://dispatches.kilowatts.io/.../better-connected-to...",
+          "url": "https://dispatches.kilowatts.io/p/better-connected-to-paris-than-to"
+        },
+        {
+          "text": "https://www.youtube.com/watch?v=mJ2j4aZFpVo",
+          "url": "https://www.youtube.com/watch?v=mJ2j4aZFpVo"
+        },
+        {
+          "text": "YOUTUBE.COM How France saved Britain from a Blackout",
+          "url": "https://www.youtube.com/watch?v=mJ2j4aZFpVo"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1592108988863710",
+      "date": "2026-10-28",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1592108988863710/"
+      },
+      "thin": false,
+      "bodyText": "Has there been any development on the crowdfunding idea for our village to seek legal action on the basis of this hyperscale data centre being harmful to the people and animals that live around here?",
+      "contentFingerprint": "d248de6df9f5dc816e7c38de408d3cc8617273840e92b381ae0544413ca37306",
+      "photos": [
+        "media/facebook/1592108988863710/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1099036546281151",
+      "date": "2026-10-28",
+      "title": "West Edinburgh Against AI Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "West Edinburgh Against AI Data Centre",
+        "label": "Facebook · West Edinburgh Against AI Data Centre",
+        "url": "https://www.facebook.com/groups/994619683389505/posts/1099036546281151/"
+      },
+      "thin": false,
+      "bodyText": "This is BS. Hyperscale data centres benefit US tech oligarchs only. Cloud based Large language models that need this tech are based on a circular finance bubble and will fail. Open source models that can be run on local devices and networks will be the useful models and they don't need these large data centres.\nMy concern about 'processing healthcare data' is we don't need hyperscale data centres to do that unless the government plans to let the US tech oligarchs do that with their AI models. I suspect that is why we the tax payer are funding the digitalisation and integration of all our private healthcare data into a single electronic health record with the government as data controller to enable the tech oligarchs to do this. For their benefit and profits not for the patients and country.\nDitto defence. What will this be? Palantir contracts and mass surveillance dressed up as defence? Ukraine is fighting the definitive digital and drone war. How much data centre capacity do they have? The UK is already third biggest country in the world for data centres after the US then Germany. We clearly don't need more hyperscaling for actual defence. This is bullshit. We are being used by US tech oligarchs in our governments ear exploiting our countryside, our private healthcare data, our public funding. The government is contributing our taxes for this BS while people can't meet living costs and the Planet burns. \nAs for hyperscale data centres for public services. Outside of use in the tech industry, companies have found large language model and its agents fairly useless; business uptake is falling. The only ones stupid enough to buy their shite AI products are governments, buying them for public services. Enshittification. They don't have to worry about increased costs or shite services, it's our money, the tax payers money. Even if the services get worse and worse it's just us the public that suffer.\nSounds like Burnham has the US tech oligarchs in his ear. They convinced Starmer and he started the AI growth zones. This budget entrenched this. Hyperscale data centres are the sticking point for people across the world. We will fight them and we will win. You do not have public consent for this. We all smell BS and we are not having it. Do your homework, prove the use case for AI and then expand up data centres build out when you have any evidence it's needed or beneficial to this country. Minimal employment opportunities on build out then nothing. Just massive water consumption, energy consumption, noise and light pollution, nature damage and monstrosities built in local communities.\nJoin together, shout out and say no.\nLONDON, Oct 28 (Reuters) - 'Britain announced a fast-track plan for strategically important data centres on Wednesday, offering priority grid connections and planning support ​to boost AI computing capacity and stop sensitive defence and healthcare data ‌being processed abroad.\nGovernments are increasingly treating access to computing power as a strategic priority because of AI's importance in economic growth, public services and national security.'\nREUTERS.COM UK's Healey offers faster grid access for key data centres in AI push",
+      "contentFingerprint": "0ac55e74577a0caf5155592f937a1cdfd845fc75ae0055251c5408d254ec5179",
+      "photos": [
+        "media/facebook/1099036546281151/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "REUTERS.COM UK's Healey offers faster grid access for key data centres in AI push",
+          "url": "https://www.reuters.com/legal/litigation/uks-healey-offers-grid-access-incentives-critical-data-centres-2026-10-28/"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1592212885519987",
+      "date": "2026-10-28",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1592212885519987/"
+      },
+      "thin": false,
+      "bodyText": "The data centre covenant - its rather thin on detail.\nGOV.UK The Data Centre Covenant",
+      "contentFingerprint": "9381d40e7de2ec1825d60d532bcbadf0b418a04c12961c2792ae8a2acdf859ba",
+      "photos": [
+        "media/facebook/1592212885519987/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "GOV.UK The Data Centre Covenant",
+          "url": "https://www.gov.uk/government/publications/data-centre-covenant/the-data-centre-covenant"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1416537417305166",
+      "date": "2026-10-29",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1416537417305166/"
+      },
+      "thin": false,
+      "bodyText": "Laggan Dam over the weekend\nThe structure was built as part of the Lochaber hydroelectric scheme by Balfour Beatty for the British Aluminium Company and construction was finished in 1934. The supervising engineers were the firm of C S Meik and William Halcrow, now known as the Halcrow Group.\nThe dam was designated a Category B listed building in 1985. It was upgraded to Category A listing in 2011, following a review as part of Hydroelectric Power Thematic Survey 2010.\nThe dam is about 700 feet (210 metres) long,[3] and 48 m (157 ft) high between the level of the foundations and the crest of the spillway.It is curved upstream like an arch dam with a radius of curvature of 2,000 ft (610 m), but works purely on the principle of a gravity dam.\nThe dam impounds Laggan Reservoir and Loch Laggan, which are connected via a short section of the River Spean. This was dredged and straightened over a length of approximately 1.3 miles (2 km) to the confluence of the Amhainn Ghuilbinn. The reservoir has a capacity of 40,000,000 cubic metres (1.4 billion cubic feet), between a top water level of 820 feet (250 m) OD and maximum drawdown level of 804 feet (245 m) OD, giving an operational range of 16 feet (4.9 m).\nThe whole crest of the dam, except for a section in the middle that houses equipment, is a spillway broken into 29 bays by piers that support a roadway across the dam. As well as the spillway, there are six self-priming siphons embedded into the centre of the dam, controlled automatically by system of air valves. The siphons are set to operate in pairs, priming at 820.5, 821.0, and 821.25 feet OD (250.1, 250.2, 250.3 m OD), and discharge through 4′2″ (1.3 m) diameter Glenfield-Kennedy jet disperser pipes. Laggan Dam was the first large siphon spillway used in the UK.\nThe foundations are built on granite, and the dam was built in seven sections, with copper strip and hot poured asphalt water stops in the joints.\nWater from the dam is conveyed to Loch Treig through three miles (5 KM) of tunnel. From there, the waters travel through a further 15 miles (24 KM ) of tunnel, 15 feet (4.6 M) in diameter, before descending the hillside to a power house at Fort William through five steel pipes.\nThe dam can be found next to the A86 road from Fort William, however there is no public access over it. The catchment area of the dam was increased by an aqueduct which diverts flow from the River Mashie into the River Pattack. This can be seen at the side of the A86 road in Strath Mashie.\nBetween 1941 and 1943, the catchment was further expanded by constructing another dam across the headwaters of the River Spey, and diverting flow through a tunnel to Loch Laggan. This was constructed by the 1st Tunnelling Company of the Canadian Army.\n— at Laggan Dam.",
+      "contentFingerprint": "e26a85ac45447eb36eeec4e29e8221ef3100a35179683e83e307ee708b6722bc",
+      "photos": [
+        "media/facebook/1416537417305166/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "28885605681092848",
+      "date": "2026-10-29",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/28885605681092848/"
+      },
+      "thin": false,
+      "bodyText": "Just a little bit of humour for a Thursday",
+      "contentFingerprint": "0136fdc0871d54bd3b6212999a56a618396b60a647b0a5f1a47507c901df93fd",
+      "photos": [
+        "media/facebook/28885605681092848/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "28843882811931802",
+      "date": "2026-10-29",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/28843882811931802/"
+      },
+      "thin": false,
+      "bodyText": "",
+      "contentFingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "photos": [
+        "media/facebook/28843882811931802/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "28758199777166773",
+      "date": "2026-10-29",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/28758199777166773/"
+      },
+      "thin": false,
+      "bodyText": "Typical wear and tear on a turbine blade getting stuff everywhere, but at least we banned plastic straws.",
+      "contentFingerprint": "9676eb77be8247110933c574fc4715b819490d208d101d380f20f307836e0802",
+      "photos": [
+        "media/facebook/28758199777166773/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "28871193619200721",
+      "date": "2026-10-29",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/28871193619200721/"
+      },
+      "thin": false,
+      "bodyText": "ECOPORTAL.NET Technicians drive past 33 towers in a Swedish forest and find the third broken turbine blade on site, though each failure traces to a different cause",
+      "contentFingerprint": "18087bf213b8ddd8b0560edc3792a1fa2115330fcd3df86f3c58e53c295d9221",
+      "photos": [
+        "media/facebook/28871193619200721/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "ECOPORTAL.NET Technicians drive past 33 towers in a Swedish forest and find the third broken turbine blade on site, though each failure traces to a different cause",
+          "url": "https://www.ecoportal.net/en/technicians-drive-past-towers-swedish-forest/43558/"
+        }
+      ],
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "28871217955864954",
+      "date": "2026-10-29",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/28871217955864954/"
+      },
+      "thin": false,
+      "bodyText": "Post updated with project information:\nProject location is Northeast Missouri, Schuyler and Adair Counties\n175 Vestas turbines (correction 170)\nOnline December 2020\n5 have collapsed, first one was April 29, 2024\nBlade repair/replacement occurring for 2 years but project has remained online\nTurbine #5 is down this time in Adair County. Reports of two loud noises around 4-4:30am. Turbines were off when it fell. Be careful out there in the fields today!",
+      "contentFingerprint": "e7fce090196f9209626de3ab73f73116b47e58f6ad27671a7d0cdf5db48199d9",
+      "photos": [
+        "media/facebook/28871217955864954/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "122137650969244466",
+      "date": "2026-10-29",
+      "title": "Our Power",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Our Power",
+        "label": "Facebook · Our Power",
+        "url": "https://www.facebook.com/ourpower.scot/posts/122137650969244466"
+      },
+      "thin": false,
+      "bodyText": "We'd love to see you in Huntly!\nHuntly is organising a free one off event to learn together about future energy, economics, and local actions. We know that parents care about the future for their kids - so we have this craft corner so that you can take your little ones along.\nDecisions being made about energy now will shape the place our children grow up in: their bills, their jobs, their landscape.\nJoin us:\nBetween 2.30 and 5.30pm to browse info panels and watch short expert briefings on these topics, or simply drop in after school with your kids to craft with us. No need to book for this part.\nBook yourself in for the evening (5-8pm) and know that kids will have plenty to do while you learn about what you can do for a better future.\nGet them fed first and come at a bit later, we start at 6:15 with the speakers. You can watch the expert briefings online beforehand. \n Free, book to join the evening speakers and panel discussion. https://www.eventbrite.com/.../parents-for-future...",
+      "contentFingerprint": "af8eb1193cf3e96ff889580de678c639ebb42ffca6b4d2f5ba1d0ac8bc8c7871",
+      "photos": [
+        "media/facebook/122137650969244466/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://www.eventbrite.com/.../parents-for-future...",
+          "url": "https://www.eventbrite.com/e/parents-for-future-scotland-energy-transition-and-economics-huntly-tickets-2003656210663?aff=oddtdtcreator"
+        }
+      ]
+    },
+    {
+      "id": "1840526970320883",
+      "date": "2026-10-29",
+      "title": "Essex Suffolk Norfolk Pylons",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Essex Suffolk Norfolk Pylons",
+        "label": "Facebook · Essex Suffolk Norfolk Pylons",
+        "url": "https://www.facebook.com/groups/pylonseastanglia/posts/1840526970320883/"
+      },
+      "thin": false,
+      "bodyText": "Following on from Rosie's post, we now need to prepare for JR and ensure we have sufficient funds. \nPlease have a dabble on our £100 Amazon prize draw and be in with a chance to win while helping the cause\nCROWDFUNDER.CO.UK £100 Amazon Voucher !!!",
+      "contentFingerprint": "66dd52fb4b02fa7152adaf515b901e0b5b15751f6b06f1eb2f1ab9cdce4e7726",
+      "photos": [
+        "media/facebook/1840526970320883/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "CROWDFUNDER.CO.UK £100 Amazon Voucher !!!",
+          "url": "https://www.crowdfunder.co.uk/p/100-amazon-voucher-1"
+        }
+      ]
+    },
+    {
+      "id": "122137657197244466",
+      "date": "2026-10-29",
+      "title": "Our Power",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Our Power",
+        "label": "Facebook · Our Power",
+        "url": "https://www.facebook.com/ourpower.scot/posts/122137657197244466"
+      },
+      "thin": false,
+      "bodyText": "Whenever you hear us talking about ScotGov taking a public stake in offshore wind projects you might think ‘isn’t energy policy reserved to Westminster?’ and you’d be right; it, mostly, is.\nBut here's what you're missing. The regulation of the energy market isn’t the same as investing in renewables projects.\nYes, the UK Parliament sets National Grid rules and price caps. But commercial ownership? Buying shares? Holding public equity in energy infrastructure? That is not reserved.\nHow do we know? Because the Scottish Government has already done it.\nOff the coast of Caithness, the Scottish National Investment Bank (SNIB) took a direct £50 million equity stake in the Pentland Floating Offshore Wind Farm.\nThey didn't need Westminster's sign-off. They just did it, securing direct financial returns for the public purse.\nSo why stop there?\nBack in 2022, Scotland raised £756 million by auctioning off seabed leases. That was a single one-off payment. Meanwhile, multinational corporations and state-backed firms from other European governments will reap billions in returns from our wind over the next 30 to 40 years.\nIf the Scottish Government took a 20% public equity stake in future offshore wind developments, those revenues wouldn’t disappear into offshore shareholder pockets, they’d flow back year after year into local council services, public transport, and schools.\nWhen politicians claim their hands are tied, they aren't describing the law. They are defending a policy choice.\nDo you think Scotland should should make taking a 20% public stake in our offshore wind farms a standard, or leave the development entirely to private firms? Let us know your thoughts below.",
+      "contentFingerprint": "634379dce22453ad91d2923fac008c6a4c6541b02f551d6b06b4251186343635",
+      "photos": [
+        "media/facebook/122137657197244466/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "1840618683645045",
+      "date": "2026-10-29",
+      "title": "Essex Suffolk Norfolk Pylons",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Essex Suffolk Norfolk Pylons",
+        "label": "Facebook · Essex Suffolk Norfolk Pylons",
+        "url": "https://www.facebook.com/groups/pylonseastanglia/posts/1840618683645045/"
+      },
+      "thin": false,
+      "bodyText": "I was rather depressed to read through some of the submissions made by Suffolk Energy Action Solutions - SEAS to the Inspector for the Sea Link examination.  (I was intending to wish them good luck with their Secretary of State decision tomorrow as I had previously thought our two campaigns were friends fighting for the best for East Anglia).\nIn our Norwich to Tilbury campaign, we have always tried our utmost to think of the regional implications rather than just having a nimby perspective. I have been very firm that we do not play pylon ping pong, and we rejected certain coordination of infrastructure that resulted in extra pylons in East Suffolk.\nIt seems that SEAS prefers the nimby approach. \nWithout talking to us, they have recommended an alternative to the Inspector that involves 55km of 50m pylons from the coast to Bramford. (As if Bramford doesn’t have enough going on?). So they seek to inflict the anguish that we all feel with N2T (and B2T) on others across 55km of Suffolk.\nFurthermore, if they had talked to us (bearing in mind we have 4.5 years worth of research about pylons) they would see that they have very heavily underestimated their costings. They have not looked at comparable projects eg Bramford to Twinstead, now around £700m for 29km, or Hinkley. They have not included the Green Book costings for the impact of the project. And they appear not to have factored in that roughly half of their proposed route is National Landscape and this the line would have to be underground. Not HVDC underground, which we advocate for because it is less destructive than pylons, but HVAC undergrounding which those of you in the Dedham Vale will know is enormously damaging (construction swathes 200-500m wide). You could not use DC for 55km - it only really works for c120km+.\nIn addition, their reps state that N2T must go ahead. They don’t bother to argue that it could be part of an offshore grid, or an upgrade of the existing grid, or HVDC.\nSo while all these years I have supported their campaign, been up to visit them, mentioned them to the press when I talk about ours (and sent journalists their way) and tried to ensure that our campaign does NOT inflict extra infrastructure on Suffolk, this is what we get in return - a fellow campaign group trying to foist pylons on others. \nSo if you wonder why I am not wishing them good luck, now you know.",
+      "contentFingerprint": "5200604b4e0ef3d946f0c8102a558f98b5f78fd7f3424470f3a8a922f11952af",
+      "photos": [
+        "media/facebook/1840618683645045/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "OHL (Pylons)"
+      ]
+    },
+    {
+      "id": "1099565059561633",
+      "date": "2026-10-29",
+      "title": "West Edinburgh Against AI Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "West Edinburgh Against AI Data Centre",
+        "label": "Facebook · West Edinburgh Against AI Data Centre",
+        "url": "https://www.facebook.com/groups/994619683389505/posts/1099565059561633/"
+      },
+      "thin": false,
+      "bodyText": "",
+      "contentFingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "photos": [
+        "media/facebook/1099565059561633/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "28925501610436588",
+      "date": "2026-10-29",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/28925501610436588/"
+      },
+      "thin": false,
+      "bodyText": "Rhode Island Investigation of the F/V Mistress\nOctober 29, 2026\nhttps://www.windtaskforce.org/.../rhode-island...\nRepresentative Seth Magaziner, Senator Jack Reed, Senator Sheldon Whitehouse, and Representative Gabe Amo advocate for offshore wind turbines.\n.\nThe Rhode Island congressional delegation has consistently and unanimously pushed to protect and expand clean energy infrastructure, particularly offshore wind projects.\n.\nNone have publicly requested the Coast Guard reopen a 2019 investigation into the F/V Mistress. The fishing trawler was recently found 50 feet from the base of Block Island wind turbine # 1.\n(Raising more questions than answers)\n.\nThe only conclusion: Reopening the case would draw attention to the inadequate safety spacing of ocean wind turbines.\nWINDTASKFORCE.ORG Rhode Island Investigation of the F/V Mistress",
+      "contentFingerprint": "6958b256fa3a497bb28528a3628cf9c977ffdcd8b14a2497997f6ead0e93421b",
+      "photos": [
+        "media/facebook/28925501610436588/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://www.windtaskforce.org/.../rhode-island...",
+          "url": "https://www.windtaskforce.org/profiles/blogs/rhode-island-investigation-of-the-f-v-mistress"
+        },
+        {
+          "text": "WINDTASKFORCE.ORG Rhode Island Investigation of the F/V Mistress",
+          "url": "https://www.windtaskforce.org/profiles/blogs/rhode-island-investigation-of-the-f-v-mistress"
+        }
+      ],
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "1592807405460535",
+      "date": "2026-10-29",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1592807405460535/"
+      },
+      "thin": false,
+      "bodyText": "The Scottish Parliament Climate Action Committee was taking evidence this morning on hyperscale data centres. Here are some observations I came away with: 1) trying to understand what the environmental impacts of the proposed hyperscale data centres in Scotland might be by asking what issues there are with Irish data centres is not comparing like with like. The largest data centre campus operating in Ireland appears to be 155MW and buildings don't appear to exceed 23m in height with many much lower.\n2) Scotland will fail to meet it's climate targets if it allows any of the developments for hyperscale data centres currently in the planning system to go ahead. \n3) Granting grid connections to these hyperscale data centres will impact decarbonisation of the domestic and transport sectors. \n4) There is insufficient supply of HVO to supply generators so back up will need to be diesel. \n5) Gas will be required to power these hyperscale data centres. \n6) Don't believe the data centre industry when it says noise isn't an issue. I fact checked the claim made by the representative from the data centre industry that noise wasn't a problem. The EPA are currently investing issues relating to Echelon DUB10 data centre where 3 of its 4 planned facilities are currently operating. One of the complaints was made by a local councillor.\nhttps://www.scottishparliament.tv/.../climate-action...",
+      "contentFingerprint": "ac1fb1ba653896535b21d502a7784198df96e3265d4ebe327ba984b389ea000c",
+      "photos": [
+        "media/facebook/1592807405460535/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://www.scottishparliament.tv/.../climate-action...",
+          "url": "https://www.scottishparliament.tv/meeting/climate-action-committee-october-29-2026"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1134488888981659",
+      "date": "2026-10-29",
+      "title": "Not A Just Transition",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Not A Just Transition",
+        "label": "Facebook · Not A Just Transition",
+        "url": "https://www.facebook.com/groups/427061409724414/posts/1134488888981659/"
+      },
+      "thin": false,
+      "bodyText": "YOUTUBE.COM What is Scotland Becoming? A Protest Song for the Wild Highlands We Love",
+      "contentFingerprint": "1df7cda19a8b58eb8a4b28b3a3c321bdda3f4c19cffd375a84d794fb689e23c3",
+      "photos": [
+        "media/facebook/1134488888981659/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "YOUTUBE.COM What is Scotland Becoming? A Protest Song for the Wild Highlands We Love",
+          "url": "https://youtu.be/Dx1__upVuBY?is=et9zMxGNDoBAj7KJ"
+        }
+      ]
+    },
+    {
+      "id": "28927994373520645",
+      "date": "2026-10-29",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/28927994373520645/"
+      },
+      "thin": false,
+      "bodyText": "interesting article by the floating offshore wind industry that admits that the cost is currently prohibitive   “However, to maximize its role in delivering clean power, we need to develop a method to reduce the costs to a commercially acceptable level.”  additionally numerous issues with developing the industry are cited. notice they do not mention the US as a viable source of floating OSW and that currently the only operating projects are experimental.\nRENEWS.BIZ ORE Catapult study maps floating cost savings | Offshore Wind | reNEWS",
+      "contentFingerprint": "c6c6c16f65070c9d718805be9e213b42ddb92d855e0211dff944dc19656b3923",
+      "photos": [
+        "media/facebook/28927994373520645/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "RENEWS.BIZ ORE Catapult study maps floating cost savings | Offshore Wind | reNEWS",
+          "url": "https://www.renews.biz/offshore-wind/ore-catapult-study-maps-floating-cost-savings/"
+        }
+      ]
+    },
+    {
+      "id": "28928835580103191",
+      "date": "2026-10-29",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/28928835580103191/"
+      },
+      "thin": false,
+      "bodyText": "The green bastards lie about everything so this really would be a solution for ending this earth destroying fraud of an industry.\nPolygraph tests would absolutely send these tax robbing green fraudsters into outer space.",
+      "contentFingerprint": "fe44a3e36ac29c377f64bca00cedb2dc0fab913838dd3e6b986c4b1b80da2ff2",
+      "photos": [
+        "media/facebook/28928835580103191/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1425130329192407",
+      "date": "2026-10-29",
+      "title": "Worth Valley against Walshaw Moor Wind Farm",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Worth Valley against Walshaw Moor Wind Farm",
+        "label": "Facebook · Worth Valley against Walshaw Moor Wind Farm",
+        "url": "https://www.facebook.com/groups/735756034796510/posts/1425130329192407/"
+      },
+      "thin": false,
+      "bodyText": "Intrigued to read this in today's Keighley News - the Planning Inspector's decision is about protecting the South Pennines (Phase 2) Special Protection Area (SPA).  They remark that  the proposal, for a development of nine houses on Moorhouse Lane, Oxenhope, \"could cause harm to the land, which is close to the South Pennine Moors Special Protection Area – a protected natural habitat.\"  and “Residential development of the type proposed could result in the loss or deterioration of land that supports qualifying SPA bird species outside the designated site boundary. A  net increase in dwellings is also likely to increase recreational use of the sites, with potential effects including disturbance to breeding birds, trampling and erosion of sensitive habitats, increased fire risk and dog fouling.\"\nThis is fascinating - and encouraging from our campaign's point of view, for surely, if the Planning Inspectorate oppose nine houses on a site that is not even adjacent to the SPA, it's going to be difficult to approve a massive wind farm plonked right in the middle of it?\nMaps below to show what's what.  Moorhouse Lane is the road that runs between the Keighley and Worth Valley Railway station at Oxenhope and Marsh. The proposed development would be just below the words 'Marsh Top'. The other map is of the entire SPA with the boundary of the wind farm marked in red.\nFor anyone wondering, an SPA is a strictly designated conservation site set aside to protect rare, vulnerable and migratory wild birds and their habitats.  It is a European-level designation which was transposed into UK law after Brexit. It is the highest tier of wildlife designation and legal habitat protection for wild birds in the UK.\nhttps://www.keighleynews.co.uk/.../26670107.inspector.../",
+      "contentFingerprint": "7080cffc1ed7b5ce2d40a95c9f3ef5dbdcdddf7dbb211a726adab6456f523e2b",
+      "photos": [
+        "media/facebook/1425130329192407/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://www.keighleynews.co.uk/.../26670107.inspector.../",
+          "url": "https://www.keighleynews.co.uk/news/26670107.inspector-sides-council-green-belt-housing-refusal/"
+        }
+      ],
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "1592956982112244",
+      "date": "2026-10-29",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1592956982112244/"
+      },
+      "thin": false,
+      "bodyText": "https://www.theguardian.com/.../finland-criminal...\nTHEGUARDIAN.COM Finland launches criminal investigation into Google’s clearing of forest for datacentre site",
+      "contentFingerprint": "f3b14463008ef69b545ff4fc1146ce58d533102d454b4c449b635d07b1cddf3b",
+      "photos": [
+        "media/facebook/1592956982112244/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://www.theguardian.com/.../finland-criminal...",
+          "url": "https://www.theguardian.com/world/2026/oct/29/finland-criminal-investigation-google-clearing-forest-datacentre"
+        },
+        {
+          "text": "THEGUARDIAN.COM Finland launches criminal investigation into Google’s clearing of forest for datacentre site",
+          "url": "https://www.theguardian.com/world/2026/oct/29/finland-criminal-investigation-google-clearing-forest-datacentre"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1417284577230450",
+      "date": "2026-10-29",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1417284577230450/"
+      },
+      "thin": false,
+      "bodyText": "Loch Doon dam was intially built to create a head of water for the hydro-electric power station required to power the target system and other elements of the Loch Doon Gunnery School. \nIn initial dam was constructed at Loch Doon in 1916, as part of the attempt to create an Aerial Gunnery School nearby.\nThe purpose of the dam was to raise the level of the loch by 6 ft, to provide sufficient head of water to drive a hydroelectric generating scheme to power the school and its systems.\nLoch Doon Aerial Gunnery School was located to the west of Dalmellington, on the site of a World War I airfield constructed for the purpose between the B741 road and Bogton Loch. The airfield was part of a disastrous attempt by the War Office to establish a gunnery school on site, which began in 1916, and ended unsuccessfully two years later, having consumed at least £500,000 to no useful end. The true cost was never disclosed, and various accounts of the school raise this figure to £1 million, while others climb to £3 million. \nRegardless of the correct figure, correcting any of the figures given to express the cost in current monetary terms means this would be reported by the media as a multi million pound Government funded scandal.\nConceived by Colonel (later Brigadier General) Sefton Brancker when he discovered a similar facility some 35 miles from Bordeaux, while active service in France, the school was an inspired concept in a world where the military saw aircraft as a novelty, good only for observation and token gestures such as hand-thrown bombs with little real destructive effect. \nHaving achieved the position of Deputy Director of Military Aeronautics before resigning his post and serving abroad, Brancker was able to use his prior position to win acceptance of the concept. The scheme called for a landlocked body of water, and on paper at least, Loch Doon met this requirement, and was also well positioned close to steeply sloping hills, which would provide a suitable location on which to site the tracks for the target bogies.\nThe airfield was probably the outstanding folly established on the site, and appears to have been created without any consideration for local knowledge which could have been provided by the area's residents. The completed airfield was found to virtually useless, rendered largely inoperable by the combined effects of the marshy land it had been built on, and the adverse weather conditions which affected the location was all but useless for the aircraft types that were supposed to operate and train from the field.\nThe gunnery ranges were located in the nearby hills, and comprised rail mounted targets which zigzagged up and down the hillsides, followed by the trainee gunners, also on tracks, in carriages with guns mounted to reproduce their installations in aircraft.\nConstruction of the school had been a massive undertaking, requiring the construction of a light railway to the south west of Dalmellingto facilitate the work. Completed around April 1917, the track ran from a point about 200 metres northwest of Dalmellington Station, to the Airfield, and terminated in the area of Dalfarson, less than a mile to the south. A plan to extend the railway to the north end of Bogton Loch which would have involved blasting for a new tunnel, finally resulted in the Air Ministry examining the whole plan and ultimately led to the project being questioned and halted.\nIn addition to the airfield and railway, the plan also called for the construction of a dam and hydroelectric scheme on Loch Doon; an accommodation camp for 500 men in 18 brick built barracks; further accommodation for 1,500 civilian contractors working for Messrs McAlpine (the contractor) and for some 1,200 German PoWs employed as labourers. The site was also provided with a 400 seat cinema, sewage treatment works and water supply system. The airfield was equipped with workshop, stores, and had two centrally heated hangar Intended to cater for both land and sea planes, purpose built seaplane hangars were located to the south, on the west shore of Loch \nNothing significant remains of the airfield, and RAF aerial photographic surveys carried out after World War II showed the area had already been cleared of the installation. The seaplane hangars are also known to have been lost when construction of a local reservoir flooded the area. The school's own dam raised the level six feet, and the later works in 1936 raised this another 30 feet, engulfing the hangars which were necessarily located at the water's edge. Trace evidence of the gunnery school can still be found in the area, with some sections of the zigzag ranges and trenches still extant, and visible on the ground.\nThe later Loch Doon Dam provides the main seasonal storage for the upper three power stations on the Dee. Its original level was raised 27 ft by the construction of the dam across its natural outlet at the northern end.\nThe total length of the dam is 980 ft, the main central portion consisting of a mass concrete structure of the gravity type, slightly curved in plan. There is a 16 ft wide roadway along the crest. Flood water is dealt with by the 110 ft wide spillway assisted by a group of three siphons on the north flank. An interesting feature of the dam is the fish pass, which rises spirally inside a circular concrete tower within the reservoir.\nThis dam was also completed in 1937. The consulting engineer was Sir Alexander Gibb & Partners and the main contractor, Sir Robert McAlpine & Sons Ltd.\nThis latter dam drowned the elements of the gunnery school which were located close to the waters edge and raised the water level to form a major element of stage two of the Galloway Hydro-electric Scheme. It supplied water to the Water of Deugh, and hence to power stations at Kendoon, Carsfad, Earlstoun.\nand Tongland.\nLoch Doon Dam (1936)\nPurpose: seasonal storage\nType: gravity\nMaximum height of footway above river-bed: 43ft (13.1m)\nTotal length along crest: 980ft (298.7m)\nSpillway level: 705ft (22.9m) OD\nNormal maximum depth over crest: 3ft (0.9m)\nOverfall spillway length: 110ft (33.5m)\nSyphons (3): 5ft 6ins (1.7m) outlet diameter\nNormal maximum spillway capacity: 4675 cusecs\nThis dam controls the outflow from Loch Doon allowing storage capacity to be developed in the loch. Water is fed out at the South end of the loch into the River Deuch which conveys it down towards Kendoon. The dam is at the North end of the loch and regulates the flow across the watershed of the River Doon. The dam has a highly unusual octagonal section spiral fish ladder integrated into the upstream wall. This dam is of combined arch and gravity type and has an integrated spillway. The arcaded parapeted walkway to the top accommodates the public road. The design contains a highly unusual fish ladder which consists of an octagonal drum with an ascending spiral of linked water filled chambers. The dam is a significant landscape feature in an area of low moorland terrain.\nThis dam was intended solely to control the level of the loch, and so has neither integral nor directly associated generating capacity.\nDrumjohn Hydro Power Station was added 1984 on the culvert / pipework between Loch Doon outlet and the Water of Deugh.— at Loch Doon.",
+      "contentFingerprint": "cb89f8eacc0b8c9bc9ca96e2105822d8b9b9ce3b5022b644175db6ab2392f2fc",
+      "photos": [
+        "media/facebook/1417284577230450/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "28929853290001420",
+      "date": "2026-10-29",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/28929853290001420/"
+      },
+      "thin": false,
+      "bodyText": "Are Offshore Wind Farms Delaying Coast Guard Rescues?\nhttps://newenglandboating.com/are-offshore-wind-farms.../\nA prominent commercial fishing industry advocate is raising the alarm that New England’s rapidly expanding offshore wind farms are actively delaying life-saving U.S. Coast Guard rescues at sea. Speaking on 77 WABC with John Catsimatidis, Bonnie Brady, policy director of the New England Fishermen’s Stewardship Association, (NEFSA), stated bluntly that offshore turbines are compromising maritime safety, pointing to three recent examples.\nHer first concern stems from a recent medical evacuation near an offshore wind construction site. According to Brady, a Coast Guard broadcast on emergency Channel 16 explicitly stated help would arrive in 10 minutes “if it can make way past the wind farms.” Flight tracking data later showed an MH-60 helicopter taking a critical 12 minutes just to descend near a turbine. In a story covering the accident, the Mass Daily News noted they could not independently confirm the radio transmission.\nBrady’s second example involves the tragic October 3rd crash of a Latitude Air Ambulance jet south of Nantucket. In this case, Brady argues the turbines severely hampered the recovery. She claims a Coast Guard fast response cutter was forced to detour around the grid, adding 30 minutes to its transit.\nThe most haunting example ties into a seven-year-old maritime mystery. The fishing vessel Mistress sank off Block Island on New Year’s Day 2019, claiming two lives. This September, the advocacy group Green Oceans announced it located the missing wreckage—along with apparent human remains—sitting 92 feet down and just 50 feet from a Block Island Wind Farm turbine. Green Oceans president Michael Lombardi suggests the hull’s position indicates “the captain may have made a fatal starboard maneuver to avoid the turbine.”\nWritten by Tom Schlichter\nNEWENGLANDBOATING.COM Are Offshore Wind Farms Delaying Coast Guard Rescues? - New England Boating",
+      "contentFingerprint": "8d62f8f62455cf4e261095b9ce6fe1d00b6c17c016a1aff1ad4845f689dd1aa8",
+      "photos": [
+        "media/facebook/28929853290001420/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://newenglandboating.com/are-offshore-wind-farms.../",
+          "url": "https://newenglandboating.com/are-offshore-wind-farms-delaying-coast-guard-rescues/"
+        },
+        {
+          "text": "NEWENGLANDBOATING.COM Are Offshore Wind Farms Delaying Coast Guard Rescues? - New England Boating",
+          "url": "https://newenglandboating.com/are-offshore-wind-farms-delaying-coast-guard-rescues/"
+        }
+      ],
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "1417324677226440",
+      "date": "2026-10-29",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1417324677226440/"
+      },
+      "thin": false,
+      "bodyText": "Vattenfall has completed all 14 turbine foundations at its 63MW Clashindarroch II Wind Farm in Aberdeenshire, a major construction milestone delivered in 11 weeks. \nThe foundations used 11,256m³ of lower-carbon concrete and approximately 1,190 tonnes of recycled reinforcing steel — equivalent to the weight of 826 cars. Reusing steel reduces demand for newly produced material. \nThe concrete contains a cement blend with at least 25% pulverised fuel ash, replacing part of the conventional Portland cement. As Portland cement is the most carbon-intensive component, the blend is expected to reduce embodied carbon by around 20–30% per cubic metre. Concrete was produced at a temporary on-site batching facility, reducing long-distance deliveries and the associated fuel use, traffic movements and emissions. \nThe first foundation was poured on 30 June 2026. Around 85 tonnes of reinforcing steel was used in each foundation. Construction will now move to the next phase, with first power expected in summer 2027. \nOnce operational, the 14-turbine wind farm is expected to have an installed capacity of 63MW3 and generate enough renewable electricity to power the equivalent of around 61,500 UK homes annually. \nJones Bros Civil Engineering UK has been contracted by Vattenfall to deliver roads and access tracks, electrical infrastructure, turbine foundations and other infrastructure as part of the construction of Clashindarroch II Windfarm.\nThe company will upgrade nine miles of existing and five miles of new access tracks, construct 14 turbine foundations and associated crane hardstanding, and undertake cabling work to connect the site to Cairnford substation.\nJones Bros and Vattenfall have worked together to provide an in-depth social value commitment plan, which factors in jobs, skills and workforce development, the supply chain, and community.\nThe project package will create over 120 jobs at the site during construction, and a minimum of two new apprentice opportunities will be created. One paid work placement for an engineering undergraduate at a local college or university is also on offer.\nKey Project & Delivery Details\n• Project Capacity & Turbines: 14 Vestas V136 (4.5 MW each) onshore wind turbines.\n• Turbine Manufacturer: Vestas Wind Systems AS.\n• Tower Innovation: Features lower-carbon steel towers (using 100% scrap melted via wind-powered electric arc furnace from ArcelorMittal in Industeel Charleroi, Belgium), reducing tower carbon footprints by 36%.\n• Civil & Balance of Plant: Jones Bros Civil Engineering UK is managing site infrastructure, upgrading 9 miles of existing tracks and building 5 miles of new routes to accommodate heavy and abnormal-load component deliverie\nPowersystems will be responsible for delivering the critical electrical infrastructure required to connect the wind farm safely and efficiently to the electricity network. Working within the Scottish DNO network area, Powersystems will undertake the design, supply, installation, testing and commissioning of the project’s 33 kV electrical connection infrastructure.\nThe scope of works includes:\n• Supply, installation and testing of the 33 kV cable connection and fibre optic communications network between the Cairnford 275/33 kV Substation and the Clashindarroch II Wind Farm substation.\n• Installation of approximately 33 kV underground cable circuits along the wind farm access route, including cable jointing, terminations and network testing.\n•Supply and installation of a 24-fibre single-mode armoured fibre optic cable and associated communications infrastructure.\nSupply, installation and commissioning of the shared 33 kV switchboard serving both Vattenfall Renewables and Vattenfall iDNO operations.\n• Installation of a 110V DC battery charger system to support switchgear control, protection and tripping functions.\n• Supply and installation of power quality and disturbance recording equipment.\nInstallation of a COP2 metering panel and emergency trip facilities.\n•Completion of all associated commissioning, VLF cable testing and OTDR fibre optic testing activities.\nClashindarroch II wind farm will provide around £315,000 per annum in community benefit funding to the local community .— at Clashindarroch.",
+      "contentFingerprint": "f9687288bbd79e65d63f49a33178e08c562a5bda22226e41d2cecaca8aadaaee",
+      "photos": [
+        "media/facebook/1417324677226440/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind",
+        "Substation"
+      ]
+    },
+    {
+      "id": "1141471752151505",
+      "date": "2026-10-29",
+      "title": "Angus Pylon Action Group",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Angus Pylon Action Group",
+        "label": "Facebook · Angus Pylon Action Group",
+        "url": "https://www.facebook.com/groups/anguspag/posts/1141471752151505/"
+      },
+      "thin": false,
+      "bodyText": "Scottish & Southern Electricity Networks (SSEN) has confirmed a greenfield site near Muir of Pert just over 4km north-east of Brechin, as its preferred site being taken forward for its proposed new 275kv Substation.\nSSEN's announcement follows local consultations with communities and stakeholders across Angus and Aberdeenshire held in May 2026.\nSSSEN says the development will be known as the Muir of Pert 275kV substation. SSEN has published its report on its consultation that had identified Site 2 at Pert and an alternative Site 16 at former Edzell airfield.\nRead the Report on Consultation https://www.ssen-transmission.co.uk/.../report-on...\nSSEN's Lead Community Liaison Manager Louise Anderson says \"The report summarises the feedback received on Site 2 and the alternative Site 16 near RAF Edzell. It also explains how we considered this feedback alongside environmental, technical and economic assessments.\n\"We consulted between May and July 2026, holding public events in Edzell, Stacathro, Craigo and Brechin. We would like to thank everyone who attended an event or provided feedback.\n\"We will now progress the project into the pre-application and concept design stage, supported by further surveys and environmental assessment.\n\"We plan to hold a further round of public consultation in February 2027 and will provide more information nearer the time.\"\nWhen SSEN announced its consultation for the proposed new substation it's brochure explained that the new East Coast 275Kv Substation and Connections Project is required to enable a new connection location of the upgraded Bridge of Dun GSP substation and to enable the removal of over 82km of existing 132Kv Overhead Lines throughout Aberdeenshire & Angus.\nHowever, the newly announced report on the May 2026 recent community Consultations now states as follows: \"The project is required to support future renewable generation connections and support reinforcement of the East Coast transmission network\" Begs a question: Which future connections? Ossian Wndfarm? Glenskinno Solar?\nSSEN also published its East Coast Future Transmission Projects brochure file https://www.ssen-transmission.co.uk/.../muir-of-pert.../\nScottish & Southern Electricity Networks (SSEN)  has confirmed a greenfield site near Muir of Pert just over 4km north-east of Brechin, as its preferred site being taken forward for its proposed new 275kv Substation.  \nSSEN's announcement follows local consultations with communities and stakeholders  across Angus and Aberdeenshire held in May 2026.   \nSSSEN says the development will  be known as the Muir of Pert 275kV substation. SSEN has published its report on its consultation that had  identified  Site 2 at Pert and an  alternative Site 16 at former Edzell airfield.\nRead the Report on Consultation  https://www.ssen-transmission.co.uk/.../report-on...\nSSEN's Lead Community Liaison Manager Louise Anderson says \"The report summarises the feedback received on Site 2 and the alternative Site 16 near RAF Edzell. It also explains how we considered this feedback alongside environmental, technical and economic assessments.\n\"We consulted between May and July 2026, holding public events in Edzell, Stacathro, Craigo and Brechin. We would like to thank everyone who attended an event or provided feedback.\n\"We will now progress the project into the pre-application and concept design stage, supported by further surveys and environmental assessment.\n\"We plan to hold a further round of public consultation in February 2027 and will provide more information nearer the time.\"\nWhen SSEN announced its consultation for the proposed new substation it's brochure explained that the new East Coast 275Kv Substation and Connections Project is required to enable a new connection location of the upgraded Bridge of Dun GSP substation and to enable the removal of over 82km of existing 132Kv Overhead Lines throughout Aberdeenshire & Angus. \nHowever, the newly announced report on the May 2026  recent community Consultations  now states as follows: \"The project is required to support future renewable generation connections and support reinforcement of the East Coast transmission network\"  Begs a question: Which future connections? Ossian Wndfarm? Glenskinno Solar?\nSSEN also published its East Coast Future Transmission Projects brochure file https://www.ssen-transmission.co.uk/.../muir-of-pert.../",
+      "contentFingerprint": "e572abccc48ae735333f7d5b2cbce28ae632a538327c135062dcb90a1af75d76",
+      "photos": [
+        "media/facebook/1141471752151505/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://www.ssen-transmission.co.uk/.../report-on...",
+          "url": "https://www.ssen-transmission.co.uk/globalassets/projects/new-ec275-substation/report-on-consultation-2026/report-on-consultation_final.pdf"
+        },
+        {
+          "text": "https://www.ssen-transmission.co.uk/.../muir-of-pert.../",
+          "url": "https://www.ssen-transmission.co.uk/projects/project-map/muir-of-pert-275kv-substation/"
+        }
+      ],
+      "categories": [
+        "OHL (Pylons)",
+        "Substation"
+      ]
+    },
+    {
+      "id": "1466120412319057",
+      "date": "2026-10-29",
+      "title": "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
+        "label": "Facebook · Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
+        "url": "https://www.facebook.com/groups/1367957378802028/posts/1466120412319057/"
+      },
+      "thin": false,
+      "bodyText": "While Healey and Burnham introduce an AI covenant in the budget to drive massive hyperscale data centres across the country the bubble starts to burst.\nWake up old dudes. This is a scam. The AI bubble is bursting, open source models run on local devices and servers will be the future (cheaper and more data secure). The UK as an AI data centre plan is out of date. The limitation of cloud based large language models is showing itself. As for AI sovereignty through UK startups, Google bought our best AI startup deep mind years ago. Unless these 'sovereign' AI companies are majority UK state owned they can be bought out at any point by the US tech oligarchs that specifically pursue this strategy to maintain their monopolies in the tech sector.\nCan't bear what mugs our politicians are.\nTELEGRAPH.CO.UK What if AI turns out to be a terrible investment?",
+      "contentFingerprint": "80d1b55d7548de150d7820b7b4307ecd966d960c12e98cf92a5285558ed91648",
+      "photos": [
+        "media/facebook/1466120412319057/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "TELEGRAPH.CO.UK What if AI turns out to be a terrible investment?",
+          "url": "https://www.telegraph.co.uk/business/2026/10/28/what-if-ai-turns-out-to-be-a-terrible-investment/"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "28931603203159762",
+      "date": "2026-10-29",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/28931603203159762/"
+      },
+      "thin": false,
+      "bodyText": "",
+      "contentFingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "photos": [
+        "media/facebook/28931603203159762/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1593107012097241",
+      "date": "2026-10-29",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1593107012097241/"
+      },
+      "thin": false,
+      "bodyText": "https://www.reuters.com/.../data-centre-growth-triggers.../\nREUTERS.COM Data centre growth triggers backlash in Norway over power deficit concerns",
+      "contentFingerprint": "6be6790ae184761ab20e2fd1a39e2ec867793f4644c4fe8f70068ad06d89d7b6",
+      "photos": [
+        "media/facebook/1593107012097241/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://www.reuters.com/.../data-centre-growth-triggers.../",
+          "url": "https://www.reuters.com/business/energy/data-centre-growth-triggers-backlash-norway-over-power-deficit-concerns-2026-10-29/"
+        },
+        {
+          "text": "REUTERS.COM Data centre growth triggers backlash in Norway over power deficit concerns",
+          "url": "https://www.reuters.com/business/energy/data-centre-growth-triggers-backlash-norway-over-power-deficit-concerns-2026-10-29/"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1593110542096888",
+      "date": "2026-10-29",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1593110542096888/"
+      },
+      "thin": false,
+      "bodyText": "https://news.stv.tv/.../just-one-hyperscale-data-centre...\nNEWS.STV.TV Just one hyperscale data centre could have 'national consequences', MSPs warned",
+      "contentFingerprint": "ed37c936228d59de7544dd8c59aa3a8e3cb064a707be3cd39ae72b11720939c4",
+      "photos": [
+        "media/facebook/1593110542096888/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://news.stv.tv/.../just-one-hyperscale-data-centre...",
+          "url": "https://news.stv.tv/scotland/just-one-hyperscale-data-centre-could-have-national-consequences-msps-warned"
+        },
+        {
+          "text": "NEWS.STV.TV Just one hyperscale data centre could have 'national consequences', MSPs warned",
+          "url": "https://news.stv.tv/scotland/just-one-hyperscale-data-centre-could-have-national-consequences-msps-warned"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1593114685429807",
+      "date": "2026-10-29",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1593114685429807/"
+      },
+      "thin": false,
+      "bodyText": "https://www.computerweekly.com/.../Datacentre-covenant...\nCOMPUTERWEEKLY.COM Datacentre covenant pleases developers more than campaigners | Computer Weekly",
+      "contentFingerprint": "2ba596b0c3781f7dc7e903cc686b00f5d05ff06aa1d4433672836eb7decc08d4",
+      "photos": [
+        "media/facebook/1593114685429807/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://www.computerweekly.com/.../Datacentre-covenant...",
+          "url": "https://www.computerweekly.com/news/366652839/Datacentre-covenant-pleases-developers-more-than-campaigners"
+        },
+        {
+          "text": "COMPUTERWEEKLY.COM Datacentre covenant pleases developers more than campaigners | Computer Weekly",
+          "url": "https://www.computerweekly.com/news/366652839/Datacentre-covenant-pleases-developers-more-than-campaigners"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1134828422281039",
+      "date": "2026-10-29",
+      "title": "Not A Just Transition",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Not A Just Transition",
+        "label": "Facebook · Not A Just Transition",
+        "url": "https://www.facebook.com/groups/427061409724414/posts/1134828422281039/"
+      },
+      "thin": false,
+      "bodyText": "Zero nature & green spaces....never mind the shortage of water !! Please share\nThe government published a Data Centre Covenant to accompany the Budget. It pays less than lipservice to wildlife, summarising everything into two words: \"Protect nature\". Yet offers a package of measures to fast-track data centres.\nUnacceptable. Sign our petition calling for a consultation.",
+      "contentFingerprint": "74c7e0f9712e1e6abfcee52df11e0e6413945d8b1e58a37690817bda483e7022",
+      "photos": [
+        "media/facebook/1134828422281039/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "2423685215104124",
+      "date": "2026-10-29",
+      "title": "Deeside Against Pylons",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Deeside Against Pylons",
+        "label": "Facebook · Deeside Against Pylons",
+        "url": "https://www.facebook.com/groups/deesideagainstpylons/posts/2423685215104124/"
+      },
+      "thin": false,
+      "bodyText": "The media is keeping this in the spotlight. Another full page spread from our Press Release! \nSSEN’s admission - FINALLY - that their Kintore to Tealing 400kV OHL proposal WILL have significant impact on how farms operate, WILL reduce their efficiency and WILL force changes on landowners and businesses warrants nothing less than full and consistent coverage. \nA project this flawed which carries consequences on this scale deserves sustained media attention … and we’re getting it!\nMearns Leader, Angus County News and Ellon Times also picked up our release and have published the same full page story.\n@everyone",
+      "contentFingerprint": "bb273804ff9a42d78d05ddb2ce5a2737abc6419fe57419d09b5852a37511612a",
+      "photos": [
+        "media/facebook/2423685215104124/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "OHL (Pylons)"
+      ]
+    },
+    {
+      "id": "1100078046177001",
+      "date": "2026-10-30",
+      "title": "West Edinburgh Against AI Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "West Edinburgh Against AI Data Centre",
+        "label": "Facebook · West Edinburgh Against AI Data Centre",
+        "url": "https://www.facebook.com/groups/994619683389505/posts/1100078046177001/"
+      },
+      "thin": false,
+      "bodyText": "“The water that passes through data centre cooling systems does not come out the same as it went in. Biocides, heavy metals, corrosion inhibitors and PFAS — forever chemicals that do not break down in the environment — accumulate in cooling water and are discharged into municipal water systems.”\nhttps://michaelwest.com.au/waste-tsunami-water-and-the.../",
+      "contentFingerprint": "9d5286f2f2cb7b313459a2971f77821407a8aa23e43fee2c995b63f2fec951da",
+      "photos": [
+        "media/facebook/1100078046177001/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://michaelwest.com.au/waste-tsunami-water-and-the.../",
+          "url": "https://michaelwest.com.au/waste-tsunami-water-and-the-hidden-cost-of-ai-data-centres/"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "28878354875151262",
+      "date": "2026-10-30",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/28878354875151262/"
+      },
+      "thin": false,
+      "bodyText": "Is This the End for Hope Moor Wind Farm? \nPlans for 23 wind turbines, each over 200 metres tall, on moorland between Arkengarthdale and Teesdale have hit a major obstacle.\nThe Ministry of Defence (MOD) has objected, warning that the proposed development could cause unacceptable interference with RAF air defence and air traffic control radars, as well as obstruct low-flying military aircraft.\nDeveloper Fred. Olsen Renewables says it is working with the MOD, other stakeholders and the local community to explore practical solutions.\nWill the project overcome these concerns, or could this be the beginning of the end for Hope Moor Wind Farm?\n#HopeMoor #WindFarm #YorkshireDales #RenewableEnergy",
+      "contentFingerprint": "55b668573a019c5b911266c0cb2d02abc7b468afae19f455e0e19c01f617fd84",
+      "photos": [
+        "media/facebook/28878354875151262/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "28935474596105956",
+      "date": "2026-10-30",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/28935474596105956/"
+      },
+      "thin": false,
+      "bodyText": "MT FOX RESIDENTS RALLY TO PROTECT WILDLIFE\nResidents, wildlife carers and environmental advocates have gathered at Mt Fox to voice concerns about the proposed Gawara Baya wind farm, raising questions about habitat clearing, increased traffic, noise and impacts on vulnerable wildlife.\nLocated just 4.8km from the Wet Tropics World Heritage Area, the project has prompted community concern, while developer Windlab says biodiversity protection and ecological restoration are key priorities. \nRead more here: https://shorturl.at/O3FtY\n#HinchinbrookLife #Local #Community #Support #MtFoxRally",
+      "contentFingerprint": "0d2a8cfa01f1745529a0f081799ef5f24e8f3cb478779c1b80eaf0a715618446",
+      "photos": [
+        "media/facebook/28935474596105956/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://shorturl.at/O3FtY",
+          "url": "https://shorturl.at/O3FtY"
+        }
+      ],
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "1577128554459853",
+      "date": "2026-10-30",
+      "title": "Rural Scotland (APRS)",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Rural Scotland (APRS)",
+        "label": "Facebook · Rural Scotland (APRS)",
+        "url": "https://www.facebook.com/APRScotland/posts/1577128554459853"
+      },
+      "thin": false,
+      "bodyText": "In less than one month on Sat 14th Nov we will take to the streets of Edinburgh and march against AI data centres \nTo make the march a success and get as many people there as possible - we need your help!\nLink in Friends of the Earth Scotland bio to sign up to be a steward and to order flyers and posters. Head to the pinned march post on our page to share it! \nWe’re looking for stewards! \nA really important role that helps keep everyone safe and together during the march. You’ll be fully briefed on the day and will work in pairs at all times.\nLink in Friends of the Earth Scotland bio to sign up \n \nCan you share flyers in your local area? \nOrder flyers and posters from the order form in Friends of the Earth Scotland bio distribute in your local area. Cafes, pubs, community hubs or noticeboards are great places to ask to stick them up! \nCan you share the march posts? \nShare the main march graphic on your Instagram stories or DM it to a local organisation, send a screenshot to your neighbourhood Facebook group, or share it in a WhatsApp group with your pals. \nHelp get the word out - the post is pinned to the top of Friends of the Earth Scotland’s page \n \nHelp spread the word!",
+      "contentFingerprint": "5cf974bfde3ee3d6a58e9a0b80d1145b552a8a45ccc77247320d1beb6914d95c",
+      "photos": [
+        "media/facebook/1577128554459853/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "Friends of the Earth Scotland",
+          "url": "https://www.instagram.com/_u/foescot"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "29934020946200249",
+      "date": "2026-10-30",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/29934020946200249/"
+      },
+      "thin": false,
+      "bodyText": "Herald letters\nIn his support of Rosebank, Grant\nAitchison (Letters, October 28) makes a simple but telling point which so far hasn’t received the emphasis it deserves in the oil debate.\nWhich is that oil has a myriad of different uses other than simply the generation of energy, on which oil deniers focus.\nFor the overall picture, ask Google: “What are the uses of oil?” I did, and the AI answer was a long list of products, following the general comment that crude oil (petroleum) is primarily used to produce transportational fuels,\ngenerate energy and manufacture over 6,000 everyday products, including plastics, synthetic fibres and chemicals.\nAre oil deniers ignorant of all this? Or do they believe that if we buy our oil needs from other extracting countries, rather than extracting it ourselves, this will somehow polish our net zero credentials?\nWhatever the case, oil deniers cannot be allowed to avoid discussing a future without oil, without identifying the substitutes, if any, that they believe could be used instead to maintain the supply of all the products we have currently, courtesy of oil.\nAlan Fitzpatrick, Dunlop, Ayrshire.",
+      "contentFingerprint": "7cf2ff1c62d74fa93fd0f4e7debb07bb7a551dea0c59c3a1b2b29edb2f80b98e",
+      "photos": [
+        "media/facebook/29934020946200249/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1148695337831282",
+      "date": "2026-10-30",
+      "title": "Mey BESS Action Group",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Mey BESS Action Group",
+        "label": "Facebook · Mey BESS Action Group",
+        "url": "https://www.facebook.com/groups/711813121519508/posts/1148695337831282/"
+      },
+      "thin": false,
+      "bodyText": "The letter in today's John O'Groat Journal was submitted under the heading \"The Elephant in the Room\" and was accompanied by the attached image from  from The Highland Council, Energy Projects Map, which unfortunately was not included.",
+      "contentFingerprint": "f7e8747728e5b593e4107f3294f46c75ffe5f651d2af2d96905d624ec16debe6",
+      "photos": [
+        "media/facebook/1148695337831282/photo_1.png"
+      ],
+      "mediaCount": 1
     }
   ]
 }
