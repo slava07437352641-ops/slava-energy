@@ -1,0 +1,852 @@
+#!/usr/bin/env python3
+"""Build the search and AI-readable outputs for slava.it.com from data/discussions-index.json.
+
+Writes static files at the site root (overwritten on each run): robots.txt, sitemap.xml, llms.txt,
+llms-full.txt, feed.xml, feeds/{data-centres,pylons,wind}.xml, projects/<slug>.html and .md for every project
+with at least two linked posts, pylons-grid/, data-centres/ and renewables-wind/ (index.html and index.md),
+<indexnow-key>.txt, and two marker blocks in index.html (JSON-LD and the follow bar). No network access.
+
+Inputs are inside the repository only: data/discussions-index.json, data/register-facts-public.json (written by
+scripts/export_register_facts.py), data/page-dates.json, data/indexnow.json and index.html. A clean clone rebuilds
+the same files. The build stops with an error, and writes nothing, if the facts file is missing or invalid, or if a
+project page has no entry in it.
+
+Dates: a page's sitemap lastmod (and its JSON-LD dateModified) is the date its content last changed. data/page-dates.json
+holds a content hash and that date for every sitemap URL; the build keeps the recorded date while the hash is unchanged
+and sets the build date when the content, or a new page, differs. The dateModified value is left out of the hash, so a
+date alone is never a change. The first baseline is written once with --seed-page-dates from the pages already built.
+
+Privacy: outputs never contain post text, post titles or author names. They contain group names, dates,
+counts, theme tags, register facts (labelled as reported or register, with the licence credits of the
+registers) and links to the archive entries (?sel=<id>). Blocked post IDs are dropped everywhere.
+
+Usage: python3 scripts/build_seo_geo.py [--dry-run] [--build-date YYYY-MM-DD] [--site DIR]
+       python3 scripts/build_seo_geo.py --seed-page-dates [--site DIR]    (once; writes data/page-dates.json only)
+"""
+import argparse, collections, datetime, hashlib, html, json, os, re, sys, uuid
+import xml.etree.ElementTree as ET
+from email.utils import format_datetime
+from xml.sax.saxutils import escape as xesc
+
+SITE_URL = "https://slava.it.com"
+SITE_DEFAULT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+FACTS_REL = "data/register-facts-public.json"
+EXPORT_HINT = "Run scripts/export_register_facts.py where the registers are kept, then commit the file."
+DATES_REL = "data/page-dates.json"
+SEED_HINT = ("Run scripts/build_seo_geo.py --seed-page-dates once in a checkout whose pages are already built, "
+             "then commit the file.")
+DATE_SENTINEL = "0000-00-00"
+DATE_FIELD = re.compile(r'"dateModified": "\d{4}-\d{2}-\d{2}"')
+# The one email address that may appear in a generated page: the site's published correction and removal contact.
+CONTACT_EMAIL = "slava@atlasglobal.energy"
+CONTACT_SENTENCE = "For correction, privacy or removal requests:"
+# Generated pages run no script (JSON-LD is data, not executed) and style only with their own inline CSS. GitHub Pages
+# cannot send headers, so the policy rides in a meta tag, like index.html's (see SECURITY-HEADERS.md).
+PAGE_CSP = ("default-src 'none'; img-src 'self' https: data:; style-src 'unsafe-inline'; "
+            "base-uri 'none'; form-action 'none'")
+
+# Withheld from every generated output. The first six are the user's deletion orders (project memory);
+# 29488742940728054 is withheld from these pages until the user decides (it is not on the deletion list).
+BLOCKED_POST_IDS = frozenset({
+    "29510992631836418", "1814323132941267", "1814270869613160", "1098654185897696", "1813753316331582",
+    "1828353354871578", "29488742940728054"})
+BOTS = ["Googlebot", "Bingbot", "OAI-SearchBot", "ChatGPT-User", "GPTBot", "ClaudeBot", "Claude-Web",
+        "PerplexityBot", "Google-Extended", "Applebot-Extended"]
+HUBS = {
+    "pylons-grid": {"name": "Pylons and grid transmission", "cats": {"OHL (Pylons)", "Substation"},
+                    "feed": "pylons"},
+    "data-centres": {"name": "AI and data centres", "cats": {"Data Centre"}, "feed": "data-centres"},
+    "renewables-wind": {"name": "Wind, solar and storage", "cats": {"Onshore Wind", "Solar", "BESS", "Hybrid"},
+                        "feed": "wind"},
+}
+VERTICAL_PHRASE = {"AI data centre": "an AI data centre project", "Pylons and grid": "a pylons and grid project",
+                   "Wind, solar and storage": "a wind, solar and storage project"}
+JSONLD_MARK = ("<!-- seo-geo:jsonld:start -->", "<!-- seo-geo:jsonld:end -->")
+FOLLOW_MARK = ("<!-- seo-geo:follow:start -->", "<!-- seo-geo:follow:end -->")
+FEED_ITEMS = 50
+
+# Wording that must never appear in a public fact: internal notes, post-ID-sized numbers, email addresses.
+FORBIDDEN = [(re.compile(r"\buser\b", re.I), "internal wording 'user'"),
+             (re.compile(r"returned by search|not in search|search did not|reported by the user", re.I), "internal search wording"),
+             (re.compile(r"\d{13,}"), "post-ID-sized number"),
+             (re.compile(r"[\w.+-]+@[\w-]+\.[\w.]+"), "email address")]
+
+
+REQUIRED_DATE_LABELS = ("Release date", "Download date", "Facts exported")
+
+
+def date_problems(sid, dates):
+    """Problems with a licensed source's dates. Values must be an ISO date or the word 'unavailable'."""
+    if not isinstance(dates, list) or not dates:
+        return [f"source {sid}: dates missing"]
+    out, labels = [], set()
+    for d in dates:
+        if not isinstance(d, dict) or set(d) != {"label", "value"}:
+            out.append(f"source {sid}: each date needs a label and a value")
+            continue
+        labels.add(d["label"])
+        v = d["value"]
+        if d["label"] == "Edition" or v == "unavailable":
+            continue
+        try:
+            ok = bool(re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(v)))
+            datetime.date.fromisoformat(str(v))
+        except ValueError:
+            ok = False
+        if not ok:
+            out.append(f"source {sid}: '{d['label']}' must be an ISO date or 'unavailable', got {v!r}")
+    out += [f"source {sid}: date '{lab}' missing" for lab in REQUIRED_DATE_LABELS if lab not in labels]
+    return out
+
+
+FACT_BASES = ("register", "reported", "inferred", "unverified")
+RECORD_BASES = ("name_exact", "name_similar", "register_link", "neso_project_number", "unverified")
+REGISTER_LABELS = {"repd": "REPD", "neso_tec": "NESO TEC", "neso_embedded": "NESO Embedded"}
+RECORD_KEYS = {"register", "id", "name", "status", "capacity", "date", "relation", "basis"}
+
+
+class BuildError(Exception):
+    """A problem with the inputs. The build stops and writes nothing."""
+
+
+def norm(s):
+    s = str(s or "").lower().replace("’", "").replace("'", "")
+    return re.sub(r"[^a-z0-9]+", " ", s).strip()
+
+
+def slugify(s):
+    return re.sub(r"[^a-z0-9]+", "-", str(s).lower()).strip("-")
+
+
+def esc(s):
+    return html.escape(str(s), quote=True)
+
+
+def words(s):
+    return len(s.split())
+
+
+def jsonld(obj):
+    return json.dumps(obj, ensure_ascii=False).replace("</", "<\\/")
+
+
+def rfc822(date):
+    return format_datetime(datetime.datetime.fromisoformat(date).replace(tzinfo=datetime.timezone.utc))
+
+
+def read_json(site, rel, default):
+    p = os.path.join(site, rel)
+    return json.load(open(p, encoding="utf-8")) if os.path.exists(p) else default
+
+
+def validate_facts_doc(doc):
+    """Check the public facts document. Raises BuildError listing every problem found (first 20)."""
+    if not isinstance(doc, dict) or doc.get("schema") != 1:
+        raise BuildError(f"{FACTS_REL}: unsupported or missing schema (expected 1). {EXPORT_HINT}")
+    problems = []
+    srcs = doc.get("sources")
+    if not isinstance(srcs, dict) or not srcs:
+        raise BuildError(f"{FACTS_REL}: 'sources' is missing. {EXPORT_HINT}")
+    for sid, meta in srcs.items():
+        if not isinstance(meta, dict) or not meta.get("name"):
+            problems.append(f"source {sid}: name missing")
+            continue
+        if "licence" in meta:
+            for k in ("licence_url", "attribution", "source_url"):
+                if not meta.get(k):
+                    problems.append(f"source {sid}: {k} missing")
+                elif k.endswith("_url") and not str(meta[k]).startswith("https://"):
+                    problems.append(f"source {sid}: {k} is not an https link")
+            problems += date_problems(sid, meta.get("dates"))
+        elif "credit" in meta:
+            for k in ("credit", "source_url", "terms_url", "terms_note", "checked"):
+                if not meta.get(k):
+                    problems.append(f"source {sid}: {k} missing")
+            for k in ("source_url", "terms_url"):
+                if meta.get(k) and not str(meta[k]).startswith("https://"):
+                    problems.append(f"source {sid}: {k} is not an https link")
+            try:
+                datetime.date.fromisoformat(str(meta.get("checked")))
+            except ValueError:
+                problems.append(f"source {sid}: 'checked' must be an ISO date")
+    if not isinstance(doc.get("data_centre_projects"), list):
+        problems.append("'data_centre_projects' list missing")
+    projects = doc.get("projects")
+    if not isinstance(projects, dict):
+        problems.append("'projects' missing")
+        projects = {}
+    for name, e in projects.items():
+        if not isinstance(e, dict) or not isinstance(e.get("facts"), list) or not isinstance(e.get("sources"), list):
+            problems.append(f"{name}: needs 'facts' and 'sources' lists")
+            continue
+        for i, f in enumerate(e["facts"]):
+            if not isinstance(f, dict) or set(f) != {"label", "value", "basis", "source"}:
+                problems.append(f"{name} fact {i}: fields must be label, value, basis, source")
+                continue
+            if not str(f["label"]).strip() or not str(f["value"]).strip():
+                problems.append(f"{name} fact {i}: empty label or value")
+            if f["basis"] not in FACT_BASES:
+                problems.append(f"{name} fact '{f['label']}': basis must be one of {', '.join(FACT_BASES)}")
+            if f["source"] not in srcs:
+                problems.append(f"{name} fact '{f['label']}': unknown source '{f['source']}'")
+            for pat, why in FORBIDDEN:
+                if pat.search(f"{f['label']} {f['value']}"):
+                    problems.append(f"{name} fact '{f['label']}': {why}")
+        for u in e["sources"]:
+            if not str(u).startswith("https://") or "facebook.com" in str(u):
+                problems.append(f"{name}: source link must be a non-Facebook https link: {u}")
+        label = e.get("label")
+        if label is not None and (not isinstance(label, str) or not label.strip() or any(pat.search(label) for pat, _ in FORBIDDEN)):
+            problems.append(f"{name}: invalid label")
+        note = e.get("note")
+        if note is not None and (not isinstance(note, str) or not note.strip() or any(pat.search(note) for pat, _ in FORBIDDEN)):
+            problems.append(f"{name}: invalid note")
+        if note is not None and not e.get("records"):
+            problems.append(f"{name}: a note needs register records")
+        seen = set()
+        for i, rec in enumerate(e.get("records") or []):
+            if not isinstance(rec, dict) or set(rec) != RECORD_KEYS:
+                problems.append(f"{name} record {i}: fields must be {', '.join(sorted(RECORD_KEYS))}")
+                continue
+            if rec["register"] not in srcs or "licence" not in srcs[rec["register"]]:
+                problems.append(f"{name} record {rec['id']}: register '{rec['register']}' is not a licensed source")
+            if rec["basis"] not in RECORD_BASES:
+                problems.append(f"{name} record {rec['id']}: unknown basis '{rec['basis']}'")
+            if (rec["register"], rec["id"]) in seen:
+                problems.append(f"{name} record {rec['id']}: listed twice")
+            seen.add((rec["register"], rec["id"]))
+            for k in ("id", "name", "capacity", "date", "relation"):
+                if not str(rec[k]).strip():
+                    problems.append(f"{name} record {rec['id']}: empty {k}")
+            for pat, why in FORBIDDEN:
+                if pat.search(" ".join(str(rec[k]) for k in ("id", "name", "status", "capacity", "date", "relation"))):
+                    problems.append(f"{name} record {rec['id']}: {why}")
+    if problems:
+        extra = f"\n  ... and {len(problems) - 20} more" if len(problems) > 20 else ""
+        raise BuildError(f"{FACTS_REL} is invalid:\n  " + "\n  ".join(problems[:20]) + extra)
+
+
+def load_public_facts(site):
+    path = os.path.join(site, FACTS_REL)
+    if not os.path.exists(path):
+        raise BuildError(f"{FACTS_REL} is missing. {EXPORT_HINT}")
+    try:
+        doc = json.load(open(path, encoding="utf-8"))
+    except json.JSONDecodeError as e:
+        raise BuildError(f"{FACTS_REL} is not valid JSON: {e}")
+    validate_facts_doc(doc)
+    return doc
+
+
+def top_themes(counter, k):
+    return ", ".join(f"{t} ({n})" for t, n in counter.most_common(k)) or "none tagged"
+
+
+def fit(required, optional, hi=60):
+    opt = list(optional)
+    text = " ".join(required + opt)
+    while words(text) > hi and opt:
+        opt.pop()
+        text = " ".join(required + opt)
+    return text
+
+
+def is_data_centre(name, posts, dc_names):
+    return name in dc_names or sum("Data Centre" in (r.get("categories") or []) for r in posts) * 2 >= len(posts)
+
+
+def is_ohl(posts):
+    return sum(bool({"OHL (Pylons)", "Substation"} & set(r.get("categories") or [])) for r in posts) * 2 >= len(posts)
+
+
+def vertical_of(name, posts, dc_names):
+    if is_data_centre(name, posts, dc_names):
+        return "AI data centre"
+    return "Pylons and grid" if is_ohl(posts) else "Wind, solar and storage"
+
+
+def with_basis(label, value, basis):
+    """'Label: value (basis)'. An unverified value already says so, so the basis is not repeated."""
+    return f"{label}: {value}" if basis == "unverified" else f"{label}: {value} ({basis})"
+
+
+def record_summary(records):
+    by_reg = collections.Counter(REGISTER_LABELS[r["register"]] for r in records)
+    breakdown = ", ".join(f"{n} {k}" for k, n in by_reg.items())
+    statuses = collections.Counter(r["status"] or "not recorded" for r in records)
+    return breakdown, statuses
+
+
+def project_model(name, posts, entry, dc_names):
+    posts = sorted(posts, key=lambda r: (r["date"], r["id"]), reverse=True)
+    groups = collections.Counter(r["source"]["name"] for r in posts)
+    themes = collections.Counter(t for r in posts for t in (r.get("categories") or []))
+    latest, earliest = posts[0]["date"], posts[-1]["date"]
+    n, g = len(posts), len(groups)
+    title = entry.get("label") or name
+    vertical = vertical_of(name, posts, dc_names)
+    facts = [(f["label"], f["value"], f["basis"]) for f in entry["facts"]]
+    records = entry.get("records") or []
+    credits = list(dict.fromkeys([f["source"] for f in entry["facts"]] + [r["register"] for r in records]))
+    planning_bits = [with_basis(lab, v, b) for lab, v, b in facts if lab in
+                     ("Planning reference", "Application type", "Status", "Consent or stage", "REPD status", "TEC project status",
+                      "Embedded Register project status")]
+    if records:
+        breakdown, statuses = record_summary(records)
+        listing = ", ".join(f"{s_} ({c})" for s_, c in statuses.most_common())
+        facts = [("Register records", f"{len(records)} listed ({breakdown}). Statuses: {listing}", "register")] + facts
+        ref = f"{len(records)} register records are listed ({breakdown})"
+        status = ("Their statuses differ, so no single status is given" if len(statuses) > 1
+                  else f"All list the status {next(iter(statuses))}")
+        answer = ((f"No single status applies. Statuses by register record: {listing}. The table gives each record's identifier, "
+                   "date and relationship; records are not combined.") if len(statuses) > 1 else
+                  f"All {len(records)} listed register records show the status {next(iter(statuses))}.")
+        if planning_bits:
+            answer += " Reported: " + "; ".join(planning_bits) + "."
+        if entry.get("note"):
+            answer += " " + entry["note"]
+    else:
+        ref = next((with_basis(lab, v, b) for lab, v, b in facts if lab in ("Planning reference", "REPD reference", "Planning reference (TEC)")), None)
+        status = next((with_basis(lab, v, b) for lab, v, b in facts if lab in ("Status", "REPD status", "TEC project status", "Embedded Register project status", "Consent or stage")), None)
+        answer = ("Recorded: " + "; ".join(planning_bits) + ".") if planning_bits else "No planning status is recorded in the registers used for this page."
+    req = [f"{title} is {VERTICAL_PHRASE[vertical]} tracked on slava.it.com.",
+           f"The archive holds {n} community post{'s' if n != 1 else ''} from {g} group{'s' if g != 1 else ''}, latest {latest}.",
+           f"{ref}." if ref else "No planning reference is recorded in the registers used.",
+           f"{status}." if status else "No status is recorded in the registers used.",
+           f"Top recurring themes: {top_themes(themes, 2)}."]
+    opt = ["Posts are archived public group posts and are not independently verified."]
+    capsule = fit(req, opt)
+    if words(capsule) > 60:
+        req[-1] = f"Top recurring theme: {top_themes(themes, 1)}."
+        capsule = fit(req, opt)
+    qa = [(f"What is the planning status of {title}?", answer),
+          (f"What are the main community discussions around {title}?",
+           f"{n} archived public post{'s' if n != 1 else ''} from {g} group{'s' if g != 1 else ''}, dated {earliest} to {latest}. "
+           f"The most frequent theme tags are {top_themes(themes, 3)}. Post text is not reproduced here; each archive entry links to the post.")]
+    return {"name": name, "title": title, "slug": slugify(name), "vertical": vertical, "posts": posts, "groups": groups,
+            "themes": themes, "latest": latest, "earliest": earliest, "facts": facts, "records": records, "note": entry.get("note", ""), "capsule": capsule,
+            "qa": qa, "sources": entry["sources"], "credits": credits, "words": words(capsule)}
+
+
+def hub_model(key, spec, projects):
+    members = [p for p in projects if any(set(r.get("categories") or []) & spec["cats"] for r in p["posts"])]
+    posts = list({r["id"]: r for p in members for r in p["posts"]
+                  if set(r.get("categories") or []) & spec["cats"]}.values())
+    groups = collections.Counter(r["source"]["name"] for r in posts)
+    themes = collections.Counter(t for r in posts for t in (r.get("categories") or []))
+    latest = max((r["date"] for r in posts), default="")
+    k, n, g = len(members), len(posts), len(groups)
+    req = [f"The {spec['name']} hub lists {k} project{'s' if k != 1 else ''} with at least two linked community posts,",
+           f"covering {n} posts from {g} group{'s' if g != 1 else ''}, latest {latest}.",
+           f"Top recurring themes: {top_themes(themes, 2)}.",
+           "Each project page gives register facts and links to the archive entries."]
+    capsule = fit(req, [])
+    qa = [("Which projects are in this hub?",
+           "; ".join(p["title"] for p in members) + "." if members else "No project in this hub has at least two linked posts."),
+          ("What are the main community themes in this hub?",
+           f"The most frequent theme tags are {top_themes(themes, 3)}, from {n} archived public posts.")]
+    return {"key": key, "spec": spec, "members": members, "posts": posts, "groups": groups, "themes": themes,
+            "latest": latest, "capsule": capsule, "qa": qa, "words": words(capsule)}
+
+
+def faq_ld(qa):
+    return {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+        {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in qa]}
+
+
+def dataset_ld(name, desc, url, date, keywords):
+    return {"@context": "https://schema.org", "@type": "Dataset", "name": name, "description": desc,
+            "url": url, "dateModified": date, "keywords": keywords, "isAccessibleForFree": True,
+            "creator": {"@type": "Organization", "name": "slava.it.com", "url": SITE_URL}}
+
+
+def nav_html():
+    return ('<nav><a href="/">Archive</a> · <a href="/pylons-grid/">Pylons and grid</a> · '
+            '<a href="/data-centres/">Data centres</a> · <a href="/renewables-wind/">Wind, solar and storage</a></nav>')
+
+
+def follow_html():
+    return (f"{FOLLOW_MARK[0]}\n<aside class=\"seo-follow\" style=\"margin:1.5rem 0 0;font-size:.95em\" aria-label=\"Follow updates\"><p>Follow UK infrastructure updates: "
+            f"<a href=\"/feed.xml\">RSS feed (newest {FEED_ITEMS} posts)</a> · <a href=\"/feeds/data-centres.xml\">data centres</a> · "
+            "<a href=\"/feeds/pylons.xml\">pylons</a> · <a href=\"/feeds/wind.xml\">wind, solar and storage</a></p></aside>\n"
+            f"{FOLLOW_MARK[1]}")
+
+
+def credit_lines(p, srcs):
+    """Credit entries for the sources whose facts or records appear on the page."""
+    out = []
+    for sid in p["credits"]:
+        m = srcs[sid]
+        if "licence" in m:
+            copyright_ = f" (\u00a9 {m['copyright']})" if m.get("copyright") else ""
+            dates = "; ".join(f"{d['label']}: {d['value']}" for d in m["dates"])
+            out.append({"text": f"{m['attribution'].rstrip('.')}. Data: {m['name']}{copyright_}.", "terms_label": "Licence",
+                        "terms": m["licence"], "terms_url": m["licence_url"], "source_url": m["source_url"], "dates": dates})
+        elif "credit" in m:
+            out.append({"text": f"{m['credit'].rstrip('.')}. Data: {m['name']}.", "terms_label": "Terms",
+                        "terms": m["terms_note"], "terms_url": m["terms_url"], "source_url": m["source_url"],
+                        "dates": f"Terms checked: {m['checked']}"})
+    return out
+
+
+RECORDS_CSS = (".records{min-width:36rem}"
+               "@media (max-width:640px){.records{min-width:0}.records thead{display:none}"
+               ".records,.records tbody,.records tr,.records td{display:block;width:auto}"
+               ".records tr{border:1px solid #d8cfc0;margin:.6rem 0;background:#fffdf8}"
+               ".records td{border:0;border-bottom:1px solid #eee6d8;padding:.25rem .6rem}"
+               ".records td::before{content:attr(data-label) \": \";font-weight:600}}")
+RECORD_HEAD = ("Register", "Identifier", "Name as recorded", "Status", "Capacity", "Date", "Relationship")
+RECORD_NOTE = ("Each row is one register record with its own identifier; records are not combined. Relationships are stated only "
+               "where a register links the records, and are otherwise labelled as unlinked or unverified.")
+RECORD_DATE_NOTES = {
+    "repd": "REPD dates are the record's update date and the date of the status event where one is recorded.",
+    "neso": "The NESO files give no status date; the date shown is the MW effective-from date.",
+}
+
+
+def record_note(p):
+    """The note above a records table, with a date explanation only for the registers the page lists."""
+    parts = [RECORD_NOTE]
+    regs = {r["register"] for r in p["records"]}
+    if "repd" in regs:
+        parts.append(RECORD_DATE_NOTES["repd"])
+    if regs & {"neso_tec", "neso_embedded"}:
+        parts.append(RECORD_DATE_NOTES["neso"])
+    return " ".join(parts)
+
+
+def record_cells(r):
+    return (REGISTER_LABELS[r["register"]], r["id"], r["name"], r["status"] or "not recorded", r["capacity"], r["date"], r["relation"])
+
+
+def records_html(p):
+    if not p["records"]:
+        return ""
+    head = "".join(f"<th>{h}</th>" for h in RECORD_HEAD)
+    def cell(h, c):
+        text = esc(c)
+        if h in ("Identifier", "Date"):  # keep identifiers and ISO dates on one line instead of breaking at their hyphens
+            text = re.sub(r"(\d{4}-\d{2}-\d{2}|PRO-\d+(?:-\d+)?)", r'<span style="white-space:nowrap">\1</span>', text)
+            if h == "Identifier" and "<span" not in text:
+                text = f'<span style="white-space:nowrap">{text}</span>'
+        return f"<td data-label=\"{h}\">{text}</td>"
+
+    rows = "".join("<tr>" + "".join(cell(h, c) for h, c in zip(RECORD_HEAD, record_cells(r))) + "</tr>" for r in p["records"])
+    note = f"<p class=\"records-note\">{esc(p['note'])}</p>" if p["note"] else ""
+    return f"<h2>Register records</h2><p>{esc(record_note(p))}</p><div style=\"overflow-x:auto\"><table class=\"records\"><thead><tr>{head}</tr></thead><tbody>{rows}</tbody></table></div>{note}\n"
+
+
+def records_md(p):
+    if not p["records"]:
+        return ""
+    rows = "\n".join("| " + " | ".join(str(c).replace("|", "/") for c in record_cells(r)) + " |" for r in p["records"])
+    note = f"{p['note']}\n\n" if p["note"] else ""
+    return (f"## Register records\n\n{record_note(p)}\n\n| " + " | ".join(RECORD_HEAD) + " |\n|" + "---|" * len(RECORD_HEAD) + f"\n{rows}\n\n{note}")
+
+
+FOOTER_SENTENCE = ("Facebook group posts are archived public posts and are not independently verified. "
+                   "Post text is not reproduced.")
+FACTS_HEADING = "Facts and where they come from"
+# What each Basis label means. The key on a page lists only the labels that page uses.
+BASIS_KEY = {
+    "register": "taken from a public register (dates and licences are under Data credits)",
+    "reported": "stated in a report linked under Sources for reported facts; we have not checked it",
+    "inferred": "our own deduction, not confirmed by a source",
+    "unverified": "no source we could rely on was found",
+}
+# Abbreviations that appear in fact labels, records and summaries. Defined on a page only when it uses them.
+ABBREVIATIONS = (("REPD", "Renewable Energy Planning Database"),
+                 ("TEC", "Transmission Entry Capacity register"),
+                 ("NESO", "National Energy System Operator"))
+
+
+def key_lines(p):
+    """(basis key, abbreviation key) for a project page; either is '' when the page needs none."""
+    used = [b for b in FACT_BASES if any(f[2] == b for f in p["facts"])]
+    text = " ".join([f"{lab} {v}" for lab, v, _ in p["facts"]] + [REGISTER_LABELS[r["register"]] for r in p["records"]]
+                    + [p["capsule"]])
+    abbr = [f"{a} = {full}" for a, full in ABBREVIATIONS if re.search(rf"\b{a}\b", text)]
+    basis = "; ".join(f"{b} = {BASIS_KEY[b]}" for b in used)
+    return (f"Basis: {basis}." if basis else ""), (f"Abbreviations: {'; '.join(abbr)}." if abbr else "")
+
+
+def meta_description(text, limit=160):
+    """The longest run of whole sentences within the limit, so a search snippet never ends mid-sentence or mid-date.
+    Only a first sentence longer than the limit is cut, at a word boundary."""
+    out = ""
+    for s in re.split(r"(?<=[.!?])\s+", text.strip()):
+        cand = f"{out} {s}".strip()
+        if len(cand) > limit:
+            break
+        out = cand
+    return out or text[:limit - 1].rsplit(" ", 1)[0].rstrip(",;:") + "…"
+
+
+def nowrap_dates(text):
+    """Keep each ISO date on one line instead of breaking at its hyphens (markup only; the words are unchanged)."""
+    return re.sub(r"(\d{4}-\d{2}-\d{2})", r'<span style="white-space:nowrap">\1</span>', text)
+
+
+def contact_html():
+    return f"<p>{CONTACT_SENTENCE} <a href=\"mailto:{CONTACT_EMAIL}\">{CONTACT_EMAIL}</a>.</p>"
+
+
+def contact_md():
+    return f"{CONTACT_SENTENCE} {CONTACT_EMAIL}.\n"
+
+
+def page(title, desc, canonical, body, lds, extra_css=""):
+    ld = "\n".join(f'<script type="application/ld+json">{jsonld(x)}</script>' for x in lds)
+    return (
+        '<!doctype html>\n<html lang="en-GB">\n<head>\n<meta charset="utf-8">\n'
+        '<meta name="viewport" content="width=device-width, initial-scale=1">\n'
+        f'<meta http-equiv="Content-Security-Policy" content="{PAGE_CSP}">\n'
+        '<meta name="referrer" content="strict-origin-when-cross-origin">\n'
+        f"<title>{esc(title)}</title>\n<meta name=\"description\" content=\"{esc(desc)}\">\n"
+        f"<link rel=\"canonical\" href=\"{esc(canonical)}\">\n"
+        f"<link rel=\"alternate\" type=\"application/rss+xml\" title=\"slava.it.com\" href=\"{SITE_URL}/feed.xml\">\n"
+        f"{ld}\n"
+        "<style>body{font-family:system-ui,sans-serif;max-width:46rem;margin:0 auto;padding:1rem;line-height:1.5;color:#222;background:#faf7f2}"
+        "table{border-collapse:collapse;width:100%;margin:.5rem 0}th,td{border:1px solid #d8cfc0;padding:.35rem .5rem;text-align:left;vertical-align:top}"
+        "a{color:#a2421f}.seo-follow{margin:2rem 0 1rem;padding:.75rem 1rem;border:1px solid #d8cfc0;border-radius:6px}" + extra_css + "</style>\n"
+        f"</head>\n<body>\n{nav_html()}\n<main>\n{body}\n</main>\n"
+        f"<footer><p>{FOOTER_SENTENCE}</p>{contact_html()}</footer>\n"
+        f"{follow_html()}\n</body>\n</html>\n")
+
+
+def project_html(p, srcs, modified):
+    rows = "".join(f"<tr><td>{esc(lab)}</td><td>{esc(v)}</td><td>{esc(b)}</td></tr>" for lab, v, b in p["facts"])
+    facts_html = (f"<table><tr><th>Item</th><th>Value</th><th>Basis</th></tr>{rows}</table>" if rows
+                  else "<p>No register facts are recorded for this project.</p>")
+    src = "".join(f"<li style=\"overflow-wrap:anywhere\"><a href=\"{esc(u)}\">{esc(u)}</a></li>" for u in p["sources"])
+    src_html = f"<h2>Sources for reported facts</h2><ul>{src}</ul>" if src else ""
+    cl = credit_lines(p, srcs)
+    credit_html = ""
+    if cl:
+        items = "".join(f"<li style=\"overflow-wrap:anywhere\">{esc(c['text'])} {c['terms_label']}: <a href=\"{esc(c['terms_url'])}\">{esc(c['terms'])}</a>. "
+                        f"Source: <a href=\"{esc(c['source_url'])}\">{esc(c['source_url'])}</a>. "
+                        f"Source dates: {nowrap_dates(esc(c['dates']))}.</li>" for c in cl)
+        credit_html = (f"<h2>Data credits</h2><ul>{items}<li>Use of these registers does not imply endorsement "
+                       "by their publishers.</li></ul>\n")
+    grows = "".join(f"<tr><td>{esc(g)}</td><td>{n}</td></tr>" for g, n in p["groups"].most_common())
+    trows = "".join(f"<tr><td>{esc(t)}</td><td>{n}</td></tr>" for t, n in p["themes"].most_common())
+    entries = "".join(
+        f"<li><a href=\"{SITE_URL}/?sel={r['id']}\">{esc(r['date'])}, {esc(r['source']['name'])}</a>"
+        f" · themes: {esc(', '.join(r.get('categories') or []) or 'none tagged')}</li>" for r in p["posts"])
+    qa_html = "".join(f"<h2>{esc(q)}</h2><p>{esc(a)}</p>" for q, a in p["qa"])
+    basis_key, abbr_key = key_lines(p)
+    key_html = "".join(f"<p class=\"key\">{esc(k)}</p>\n" for k in (basis_key, abbr_key) if k)
+    body = (f"<h1>{esc(p['title'])}</h1>\n<p class=\"capsule\">{esc(p['capsule'])}</p>\n"
+            f"<h2>{FACTS_HEADING}</h2>\n{key_html}{facts_html}\n{records_html(p)}{src_html}\n{credit_html}"
+            f"<h2>Source groups</h2><table><tr><th>Group</th><th>Posts</th></tr>{grows}</table>\n"
+            f"<h2>Theme breakdown</h2><table><tr><th>Theme</th><th>Posts</th></tr>{trows}</table>\n"
+            f"{qa_html}\n<h2>Archive entries</h2><ul>{entries}</ul>\n<p><a href=\"/\">Back to the archive</a></p>")
+    url = f"{SITE_URL}/projects/{p['slug']}.html"
+    ds = dataset_ld(f"Community discussion archive: {p['title']}", p["capsule"], url, modified, sorted(p["themes"]))
+    return page(f"{p['title']} · community discussion archive", meta_description(p["capsule"]), url, body, [ds, faq_ld(p["qa"])],
+                RECORDS_CSS if p["records"] else "")
+
+
+def project_md(p, srcs):
+    f = "\n".join(f"| {lab} | {v.replace('|', '/')} | {b} |" for lab, v, b in p["facts"]) or "| none recorded | | |"
+    g = "\n".join(f"| {x} | {n} |" for x, n in p["groups"].most_common())
+    t = "\n".join(f"| {x} | {n} |" for x, n in p["themes"].most_common())
+    e = "\n".join(f"- {r['date']}, {r['source']['name']}: {SITE_URL}/?sel={r['id']} (themes: {', '.join(r.get('categories') or []) or 'none tagged'})"
+                  for r in p["posts"])
+    qa = "\n\n".join(f"## {q}\n\n{a}" for q, a in p["qa"])
+    cl = credit_lines(p, srcs)
+    credit_md = ""
+    if cl:
+        credit_md = ("## Data credits\n\n" + "\n".join(
+            f"- {c['text']} {c['terms_label']}: [{c['terms']}]({c['terms_url']}). Source: {c['source_url']}. Source dates: {c['dates']}." for c in cl)
+            + "\n- Use of these registers does not imply endorsement by their publishers.\n\n")
+    key_md = "".join(f"{k}\n\n" for k in key_lines(p) if k)
+    return (f"# {p['title']}\n\n{p['capsule']}\n\n## {FACTS_HEADING}\n\n{key_md}| Item | Value | Basis |\n|---|---|---|\n{f}\n\n"
+            f"{records_md(p)}{credit_md}"
+            f"## Source groups\n\n| Group | Posts |\n|---|---|\n{g}\n\n## Theme breakdown\n\n| Theme | Posts |\n|---|---|\n{t}\n\n"
+            f"{qa}\n\n## Archive entries\n\n{e}\n\n---\nHTML version: {SITE_URL}/projects/{p['slug']}.html\n"
+            f"{FOOTER_SENTENCE}\n{contact_md()}")
+
+
+def hub_html(h, modified):
+    rows = "".join(
+        f"<tr><td><a href=\"/projects/{p['slug']}.html\">{esc(p['title'])}</a></td><td>{len(p['posts'])}</td>"
+        f"<td>{esc(p['latest'])}</td></tr>" for p in h["members"])
+    trows = "".join(f"<tr><td>{esc(t)}</td><td>{n}</td></tr>" for t, n in h["themes"].most_common())
+    qa_html = "".join(f"<h2>{esc(q)}</h2><p>{esc(a)}</p>" for q, a in h["qa"])
+    body = (f"<h1>{esc(h['spec']['name'])}</h1>\n<p class=\"capsule\">{esc(h['capsule'])}</p>\n"
+            f"<h2>Projects</h2><table><tr><th>Project</th><th>Posts</th><th>Latest</th></tr>{rows}</table>\n"
+            f"<h2>Theme breakdown</h2><table><tr><th>Theme</th><th>Posts</th></tr>{trows}</table>\n{qa_html}")
+    url = f"{SITE_URL}/{h['key']}/"
+    return page(f"{h['spec']['name']} · community discussion archive", meta_description(h["capsule"]), url, body,
+                [dataset_ld(f"Community discussion archive: {h['spec']['name']}", h["capsule"], url, modified,
+                            sorted(h["themes"])), faq_ld(h["qa"])])
+
+
+def hub_md(h):
+    rows = "\n".join(f"- [{p['title']}]({SITE_URL}/projects/{p['slug']}.md): {len(p['posts'])} posts; latest {p['latest']}"
+                     for p in h["members"])
+    qa = "\n\n".join(f"## {q}\n\n{a}" for q, a in h["qa"])
+    return (f"# {h['spec']['name']}\n\n{h['capsule']}\n\n## Projects\n\n{rows}\n\n{qa}\n\nHTML version: {SITE_URL}/{h['key']}/\n"
+            f"{FOOTER_SENTENCE}\n{contact_md()}")
+
+
+def feed_xml(title, items, path, build_date):
+    body = "".join(
+        f"<item><title>{xesc(r['source']['name'])} post, {r['date']}</title>"
+        f"<link>{SITE_URL}/?sel={r['id']}</link><guid isPermaLink=\"true\">{SITE_URL}/?sel={r['id']}</guid>"
+        f"<pubDate>{rfc822(r['date'])}</pubDate>"
+        f"<description>{xesc('Themes: ' + (', '.join(r.get('categories') or []) or 'none tagged') + '. Project: ' + (r.get('project') or 'not linked') + '. Post text is not reproduced.')}</description></item>\n"
+        for r in items)
+    return ('<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n<channel>\n'
+            f"<title>{xesc(title)}</title><link>{SITE_URL}/</link>"
+            "<description>Archived public UK infrastructure community posts (no post text).</description>\n"
+            f"<lastBuildDate>{rfc822(build_date)}</lastBuildDate>\n"
+            f'<atom:link href="{SITE_URL}/{path}" rel="self" type="application/rss+xml"/>\n{body}</channel>\n</rss>\n')
+
+
+def page_hash(texts):
+    """Content hash of a page (its files in order) with every dateModified value masked."""
+    masked = [DATE_FIELD.sub(f'"dateModified": "{DATE_SENTINEL}"', t) for t in texts]
+    return hashlib.sha256("\0".join(masked).encode("utf-8")).hexdigest()
+
+
+def url_files(url):
+    """The generated files that make up the page at a sitemap URL, relative to the site root."""
+    rel = url[len(SITE_URL) + 1:]
+    if rel == "":
+        return ["index.html"]
+    if rel.endswith("/"):
+        return [f"{rel}index.html", f"{rel}index.md"]
+    return [rel, rel[:-len(".html")] + ".md"]
+
+
+def iso_date_ok(v):
+    try:
+        datetime.date.fromisoformat(str(v))
+    except ValueError:
+        return False
+    return bool(re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(v)))
+
+
+def load_page_dates(site):
+    path = os.path.join(site, DATES_REL)
+    if not os.path.exists(path):
+        raise BuildError(f"{DATES_REL} is missing. {SEED_HINT}")
+    try:
+        doc = json.load(open(path, encoding="utf-8"))
+    except json.JSONDecodeError as e:
+        raise BuildError(f"{DATES_REL} is not valid JSON: {e}")
+    pages = doc.get("pages") if isinstance(doc, dict) and doc.get("schema") == 1 else None
+    if not isinstance(pages, dict):
+        raise BuildError(f"{DATES_REL}: unsupported or missing schema (expected 1 with a 'pages' object). {SEED_HINT}")
+    bad = [u for u, e in pages.items()
+           if not (isinstance(e, dict) and set(e) == {"sha256", "modified"} and re.fullmatch(r"[0-9a-f]{64}", str(e["sha256"]))
+                   and iso_date_ok(e["modified"]))]
+    if bad:
+        raise BuildError(f"{DATES_REL}: invalid entries for {', '.join(bad[:5])}" + (" ..." if len(bad) > 5 else ""))
+    return pages
+
+
+def settle_page_dates(hashes, state, build_date):
+    """({url: modified date}, new state, [urls whose content is new or changed]).
+
+    A page keeps its recorded date while its content hash is unchanged. A changed page, or a page with no record,
+    takes the build date. A date never moves backwards."""
+    modified, new_state, changed = {}, {}, []
+    for url, h in sorted(hashes.items()):
+        old = state.get(url)
+        if old and old["sha256"] == h:
+            date = old["modified"]
+        else:
+            if old and build_date < old["modified"]:
+                raise BuildError(f"{url} has changed, but the build date {build_date} is earlier than its recorded "
+                                 f"change date {old['modified']}")
+            date = build_date
+            changed.append(url)
+        modified[url] = date
+        new_state[url] = {"sha256": h, "modified": date}
+    return modified, new_state, changed
+
+
+def dates_json(pages):
+    return json.dumps({"schema": 1, "pages": pages}, indent=1, sort_keys=True) + "\n"
+
+
+def seed_page_dates(site):
+    """The baseline: the content hash of every page already on disk with the lastmod of the sitemap on disk."""
+    ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+    try:
+        root = ET.parse(os.path.join(site, "sitemap.xml")).getroot()
+    except (OSError, ET.ParseError) as e:
+        raise BuildError(f"cannot read sitemap.xml to seed {DATES_REL}: {e}")
+    pages = {}
+    for u in root.findall("s:url", ns):
+        url, lastmod = u.find("s:loc", ns).text, u.find("s:lastmod", ns).text
+        try:
+            texts = [open(os.path.join(site, rel), encoding="utf-8").read() for rel in url_files(url)]
+        except OSError as e:
+            raise BuildError(f"cannot read a page of {url}: {e}")
+        pages[url] = {"sha256": page_hash(texts), "modified": lastmod}
+    return dates_json(pages)
+
+
+def build_files(site, build_date):
+    if not iso_date_ok(build_date):
+        raise BuildError(f"build date must be an ISO date, got {build_date!r}")
+    state = load_page_dates(site)
+    all_recs = read_json(site, "data/discussions-index.json", {"records": []})["records"]
+    recs = [r for r in all_recs if r["id"] not in BLOCKED_POST_IDS and r.get("date") and r.get("source")]
+    facts_doc = load_public_facts(site)
+    srcs, dc_names = facts_doc["sources"], set(facts_doc["data_centre_projects"])
+    by_proj = collections.defaultdict(list)
+    for r in recs:
+        if r.get("project"):
+            by_proj[r["project"]].append(r)
+    linked = sorted(by_proj)
+    page_names = [n for n in linked if len(by_proj[n]) >= 2]
+    missing = [n for n in page_names if n not in facts_doc["projects"]]
+    if missing:
+        raise BuildError(f"{FACTS_REL} has no entry for {len(missing)} project page(s): " + "; ".join(missing[:10])
+                         + (" ..." if len(missing) > 10 else "") + f". {EXPORT_HINT}")
+    projects = [project_model(n, by_proj[n], facts_doc["projects"][n], dc_names) for n in page_names]
+    slugs = [p["slug"] for p in projects]
+    assert len(set(slugs)) == len(slugs), "project slug collision"
+    hubs = {k: hub_model(k, s, projects) for k, s in HUBS.items()}
+    newest = max(r["date"] for r in recs)
+    total_groups = len({r["source"]["name"] for r in recs})
+    vc = collections.Counter(vertical_of(n, by_proj[n], dc_names) for n in linked)
+    desc = (f"{len(recs)} tracked public community posts from {total_groups} Facebook groups, linked to {len(linked)} UK projects "
+            f"({vc['Wind, solar and storage']} wind, solar and storage; {vc['Pylons and grid']} pylons and grid; "
+            f"{vc['AI data centre']} AI data centres). Posts are archived public group posts, not independently verified.")
+    idx_base = open(os.path.join(site, "index.html"), encoding="utf-8").read()
+    for a, b in (JSONLD_MARK, FOLLOW_MARK):
+        idx_base = re.sub(re.escape(a) + r".*?" + re.escape(b) + r"\n?", "", idx_base, flags=re.S)
+    home_url = f"{SITE_URL}/"
+    page_urls = [home_url] + [f"{SITE_URL}/{k}/" for k in hubs] + [f"{SITE_URL}/projects/{p['slug']}.html" for p in projects]
+
+    def index_html(modified):
+        site_ld = [{"@context": "https://schema.org", "@type": "WebSite", "name": "slava.it.com", "url": home_url,
+                    "description": desc},
+                   dataset_ld("UK infrastructure community discussion archive", desc, home_url, modified,
+                              sorted({t for r in recs for t in (r.get("categories") or [])}))]
+        jl = (f"{JSONLD_MARK[0]}\n" + "\n".join(f'<script type="application/ld+json">{jsonld(x)}</script>' for x in site_ld)
+              + f"\n{JSONLD_MARK[1]}\n")
+        out = idx_base.replace("</head>", jl + "</head>", 1)
+        # the follow bar sits inside the existing footer so it inherits the site's type and margins
+        return out.replace("</footer>", follow_html() + "\n</footer>", 1) if "</footer>" in out \
+            else out.replace("</body>", follow_html() + "\n</body>", 1)
+
+    def render(mod):
+        out = {}
+        for p in projects:
+            out[f"projects/{p['slug']}.html"] = project_html(p, srcs, mod[f"{SITE_URL}/projects/{p['slug']}.html"])
+            out[f"projects/{p['slug']}.md"] = project_md(p, srcs)
+        for k, h in hubs.items():
+            out[f"{k}/index.html"] = hub_html(h, mod[f"{SITE_URL}/{k}/"])
+            out[f"{k}/index.md"] = hub_md(h)
+        out["index.html"] = index_html(mod[home_url])
+        return out
+
+    # Pass 1 renders every page with a placeholder date to hash its content; pass 2 renders with the settled dates.
+    draft = render({u: DATE_SENTINEL for u in page_urls})
+    modified, new_state, changed = settle_page_dates(
+        {u: page_hash([draft[rel] for rel in url_files(u)]) for u in page_urls}, state, build_date)
+    F = render(modified)
+    F[DATES_REL] = dates_json(new_state)
+    F["sitemap.xml"] = ('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+                        + "".join(f"<url><loc>{xesc(u)}</loc><lastmod>{modified[u]}</lastmod></url>\n" for u in page_urls)
+                        + "</urlset>\n")
+    F["robots.txt"] = ("".join(f"User-agent: {b}\nAllow: /\nDisallow: /briefs/\n\n" for b in BOTS)
+                       + "User-agent: *\nAllow: /\nDisallow: /briefs/\n\n" + f"Sitemap: {SITE_URL}/sitemap.xml\n")
+    withheld = len(all_recs) - len(recs)
+    note = ""
+    if withheld:
+        note = (f" The discussions index holds {len(all_recs):,} records; these pages cover {len(recs):,} because "
+                f"{withheld} record{' is' if withheld == 1 else 's are'} excluded from them.")
+    lines = ["# slava.it.com", "", f"> {desc}", "",
+             f"Counts are generated from the discussions index on {build_date}. Projects with at least two linked posts have a page.{note}", "",
+             "## Hubs"]
+    for k, h in hubs.items():
+        lines.append(f"- [{h['spec']['name']}]({SITE_URL}/{k}/index.md): {len(h['members'])} projects, {len(h['posts'])} posts; latest {h['latest']}")
+    lines += ["", "## Projects"]
+    for p in projects:
+        lines.append(f"- [{p['title']}]({SITE_URL}/projects/{p['slug']}.md): {len(p['posts'])} posts from {len(p['groups'])} groups; "
+                     f"latest {p['latest']}; {p['vertical'].lower()}.")
+    lines += ["", "## Feeds", f"- [All posts feed]({SITE_URL}/feed.xml): newest {FEED_ITEMS} posts", "",
+              "## Optional", f"- [Full text of hub and project pages]({SITE_URL}/llms-full.txt)", ""]
+    F["llms.txt"] = "\n".join(lines)
+    F["llms-full.txt"] = "\n\n---\n\n".join([F[f"projects/{p['slug']}.md"] for p in projects]
+                                           + [F[f"{k}/index.md"] for k in hubs]) + "\n"
+    ordered = sorted(recs, key=lambda r: (r["date"], r["id"]), reverse=True)
+    F["feed.xml"] = feed_xml("slava.it.com: UK infrastructure community posts", ordered[:FEED_ITEMS], "feed.xml", build_date)
+    for k, h in hubs.items():
+        items = [r for r in ordered if set(r.get("categories") or []) & HUBS[k]["cats"]][:FEED_ITEMS]
+        path = f"feeds/{HUBS[k]['feed']}.xml"
+        F[path] = feed_xml(f"slava.it.com: {h['spec']['name']}", items, path, build_date)
+    key = read_json(site, "data/indexnow.json", {}).get("key") or uuid.uuid4().hex
+    F[f"{key}.txt"] = key + "\n"
+    F["data/indexnow.json"] = json.dumps({"key": key}, indent=1) + "\n"
+    projects_dir = os.path.join(site, "projects")
+    existing = set(os.listdir(projects_dir)) if os.path.isdir(projects_dir) else set()
+    wanted = {f"{p['slug']}{ext}" for p in projects for ext in (".html", ".md")}
+    stats = {"records": len(recs), "index_records": len(all_recs), "groups": total_groups, "linked_projects": len(linked),
+             "project_pages": len(projects), "verticals": dict(vc),
+             "hubs": {k: len(h["members"]) for k, h in hubs.items()}, "newest": newest, "key": key,
+             "changed_pages": changed,
+             "capsule_words": {p["slug"]: p["words"] for p in projects},
+             "stale_project_files": sorted(existing - wanted)}
+    return F, stats
+
+
+def main(argv=None):
+    ap = argparse.ArgumentParser(description="Build SEO and GEO outputs for slava.it.com.")
+    ap.add_argument("--site", default=SITE_DEFAULT)
+    ap.add_argument("--build-date", default=datetime.date.today().isoformat())
+    ap.add_argument("--dry-run", action="store_true", help="build in memory and print the checks; write nothing")
+    ap.add_argument("--seed-page-dates", action="store_true",
+                    help=f"write the baseline {DATES_REL} from the pages and sitemap already on disk, then stop")
+    a = ap.parse_args(argv)
+    if a.seed_page_dates:
+        target = os.path.join(a.site, DATES_REL)
+        if os.path.exists(target):
+            print(f"error: {DATES_REL} already exists; it is written once and then kept up to date by every build", file=sys.stderr)
+            return 2
+        try:
+            text = seed_page_dates(a.site)
+        except BuildError as e:
+            print(f"error: {e}", file=sys.stderr)
+            return 2
+        os.makedirs(os.path.dirname(target), exist_ok=True)
+        with open(target, "w", encoding="utf-8") as fh:
+            fh.write(text)
+        print(f"wrote {target}: {len(json.loads(text)['pages'])} pages")
+        return 0
+    try:
+        F, stats = build_files(a.site, a.build_date)
+    except BuildError as e:
+        print(f"error: {e}", file=sys.stderr)
+        return 2
+    bad = {s: w for s, w in stats["capsule_words"].items() if not 40 <= w <= 60}
+    print(json.dumps({k: v for k, v in stats.items() if k not in ("capsule_words", "changed_pages")}, indent=1, ensure_ascii=False))
+    print(f"pages with new or changed content (lastmod set to {a.build_date}): {len(stats['changed_pages'])}")
+    print("capsules outside 40-60 words:", bad or "none")
+    if a.dry_run:
+        print("dry run: nothing written;", len(F), "files built")
+        return 0
+    if bad:
+        print("error: refusing to write: fix capsule lengths first", file=sys.stderr)
+        return 1
+    for rel, text in F.items():
+        path = os.path.join(a.site, rel)
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, "w", encoding="utf-8") as fh:
+            fh.write(text)
+    for stale in stats["stale_project_files"]:
+        os.remove(os.path.join(a.site, "projects", stale))
+    print("wrote", len(F), "files; removed", len(stats["stale_project_files"]), "stale project files")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

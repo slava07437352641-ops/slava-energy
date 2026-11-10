@@ -1,0 +1,2188 @@
+# Arecleoch Wind Farm and extension
+
+Arecleoch Wind Farm and extension is a wind, solar and storage project tracked on slava.it.com. The archive holds 2 community posts from 2 groups, latest 2026-10-02. 6 register records are listed (3 REPD, 3 NESO TEC). Their statuses differ, so no single status is given. Top recurring themes: Onshore Wind (1).
+
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+Abbreviations: REPD = Renewable Energy Planning Database; TEC = Transmission Entry Capacity register; NESO = National Energy System Operator.
+
+| Item | Value | Basis |
+|---|---|---|
+| Register records | 6 listed (3 REPD, 3 NESO TEC). Statuses: Scoping (2), Under Construction (2), Operational (1), Built (1) | register |
+
+## Register records
+
+Each row is one register record with its own identifier; records are not combined. Relationships are stated only where a register links the records, and are otherwise labelled as unlinked or unverified. REPD dates are the record's update date and the date of the status event where one is recorded. The NESO files give no status date; the date shown is the MW effective-from date.
+
+| Register | Identifier | Name as recorded | Status | Capacity | Date | Relationship |
+|---|---|---|---|---|---|---|
+| REPD | 3258 | Arecleoch Windfarm | Operational | 120 MW | record updated 2011-10-25; status event 2011-06-14 | Original wind farm; the name is spelled 'Arecleoch Windfarm'; no identifier is shared with the REPD NESO rows. |
+| NESO TEC | PRO-000012-1 | Arecleoch | Built | connected 114 MW; cumulative 114 MW | no effective date in the file | Stage 1 of NESO project PRO-000012; relation to REPD 3258 is unverified (same site name, no shared identifier). |
+| NESO TEC | PRO-000012-2 | Arecleoch | Scoping | connected 0 MW; cumulative 330 MW | MW effective from 2032-06-15 | Stage 2 of NESO project PRO-000012. |
+| REPD | 6798 | Arecleoch Wind Farm (extension) | Under Construction | 72.8 MW | record updated 2025-07-25; status event 2025-06-01 | Extension: the REPD name is 'Arecleoch Wind Farm (extension)'. |
+| REPD | 7882 | Arecleoch Wind Farm (extension) | Under Construction | 20 MW | record updated 2025-07-25; status event 2025-06-01 | Extension battery storage; REPD links it to 6798 (storage co-location). |
+| NESO TEC | PRO-001111 | Arecleoch Extension Windfarm | Scoping | connected 0 MW; cumulative 72.8 MW | MW effective from 2026-08-31 | 'Arecleoch Extension Windfarm'; same capacity (72.8 MW) as REPD 6798 but no shared identifier, so the relation is unverified. |
+
+## Data credits
+
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: 2026-08-03; Latest record update in the file: 2026-07-24; Download date: 2026-08-25; Facts exported: 2026-10-18.
+- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register. Source dates: Release date: 2026-10-10; Download date: 2026-10-13; Facts exported: 2026-10-18.
+- Use of these registers does not imply endorsement by their publishers.
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Scottish Electricity Generating Stations | 1 |
+| Scotland Against Spin | 1 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+| Onshore Wind | 1 |
+
+## What is the planning status of Arecleoch Wind Farm and extension?
+
+No single status applies. Statuses by register record: Scoping (2), Under Construction (2), Operational (1), Built (1). The table gives each record's identifier, date and relationship; records are not combined.
+
+## What are the main community discussions around Arecleoch Wind Farm and extension?
+
+2 archived public posts from 2 groups, dated 2026-10-01 to 2026-10-02. The most frequent theme tags are Onshore Wind (1). Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-10-02, Scottish Electricity Generating Stations: https://slava.it.com/?sel=1392067416418833 (themes: Onshore Wind)
+- 2026-10-01, Scotland Against Spin: https://slava.it.com/?sel=29526709653598049 (themes: none tagged)
+
+---
+HTML version: https://slava.it.com/projects/arecleoch.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# Beauly to Peterhead 400kV overhead line
+
+Beauly to Peterhead 400kV overhead line is a pylons and grid project tracked on slava.it.com. The archive holds 4 community posts from 2 groups, latest 2026-10-14. No planning reference is recorded in the registers used. Consent or stage: Section 37 application, ECU00005165, submitted October 2025 (reported). Top recurring themes: OHL (Pylons) (3), Substation (1).
+
+## Facts and where they come from
+
+Basis: reported = stated in a report linked under Sources for reported facts; we have not checked it.
+
+| Item | Value | Basis |
+|---|---|---|
+| Consent or stage | Section 37 application, ECU00005165, submitted October 2025 | reported |
+| Operator | SSEN Transmission | reported |
+| Kind | grid corridor (planned) | reported |
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Wind Energy's Absurd | 3 |
+| Scotland Against Spin | 1 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+| OHL (Pylons) | 3 |
+| Substation | 1 |
+
+## What is the planning status of Beauly to Peterhead 400kV overhead line?
+
+Recorded: Consent or stage: Section 37 application, ECU00005165, submitted October 2025 (reported).
+
+## What are the main community discussions around Beauly to Peterhead 400kV overhead line?
+
+4 archived public posts from 2 groups, dated 2026-08-14 to 2026-10-14. The most frequent theme tags are OHL (Pylons) (3), Substation (1). Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-10-14, Wind Energy's Absurd: https://slava.it.com/?sel=1541261961364432 (themes: OHL (Pylons), Substation)
+- 2026-10-12, Wind Energy's Absurd: https://slava.it.com/?sel=1539008044923157 (themes: OHL (Pylons))
+- 2026-09-23, Wind Energy's Absurd: https://slava.it.com/?sel=1520507503439878 (themes: none tagged)
+- 2026-08-14, Scotland Against Spin: https://slava.it.com/?sel=28881478868121134 (themes: OHL (Pylons))
+
+---
+HTML version: https://slava.it.com/projects/beauly-to-peterhead-400kv-overhead-line.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# Berwick Bank Offshore Wind Farm
+
+Berwick Bank Offshore Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 11 community posts from 2 groups, latest 2026-10-07. REPD reference: 9873 (register). REPD status: Planning Permission Granted (register). Top recurring themes: Onshore Wind (6). Posts are archived public group posts and are not independently verified.
+
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+Abbreviations: REPD = Renewable Energy Planning Database.
+
+| Item | Value | Basis |
+|---|---|---|
+| REPD reference | 9873 | register |
+| REPD status | Planning Permission Granted | register |
+
+## Data credits
+
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: 2026-08-03; Latest record update in the file: 2026-07-24; Download date: 2026-08-25; Facts exported: 2026-10-18.
+- Use of these registers does not imply endorsement by their publishers.
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Scotland Against Spin | 10 |
+| Communities B4 Power Companies | 1 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+| Onshore Wind | 6 |
+
+## What is the planning status of Berwick Bank Offshore Wind Farm?
+
+Recorded: REPD status: Planning Permission Granted (register).
+
+## What are the main community discussions around Berwick Bank Offshore Wind Farm?
+
+11 archived public posts from 2 groups, dated 2025-12-29 to 2026-10-07. The most frequent theme tags are Onshore Wind (6). Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-10-07, Scotland Against Spin: https://slava.it.com/?sel=29606509875618026 (themes: Onshore Wind)
+- 2026-09-28, Scotland Against Spin: https://slava.it.com/?sel=29481626051439743 (themes: Onshore Wind)
+- 2026-09-11, Scotland Against Spin: https://slava.it.com/?sel=29249400334662317 (themes: Onshore Wind)
+- 2026-09-10, Scotland Against Spin: https://slava.it.com/?sel=29240154772253540 (themes: Onshore Wind)
+- 2026-09-04, Scotland Against Spin: https://slava.it.com/?sel=29146764008259284 (themes: none tagged)
+- 2026-09-04, Communities B4 Power Companies: https://slava.it.com/?sel=1076142111482237 (themes: none tagged)
+- 2026-07-17, Scotland Against Spin: https://slava.it.com/?sel=28543690945233263 (themes: Onshore Wind)
+- 2026-06-25, Scotland Against Spin: https://slava.it.com/?sel=28293904693545224 (themes: Onshore Wind)
+- 2026-05-26, Scotland Against Spin: https://slava.it.com/?sel=27909600401975657 (themes: none tagged)
+- 2026-05-15, Scotland Against Spin: https://slava.it.com/?sel=27770567929212239 (themes: none tagged)
+- 2025-12-29, Scotland Against Spin: https://slava.it.com/?sel=26370970762505303 (themes: none tagged)
+
+---
+HTML version: https://slava.it.com/projects/berwick-bank-offshore-wind-farm.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# Blackdog data centre campus
+
+Blackdog data centre campus is an AI data centre project tracked on slava.it.com. The archive holds 11 community posts from 2 groups, latest 2026-10-15. No planning reference is recorded in the registers used. Status: Phase one reportedly consented by Aberdeenshire Council (press, unverified) (reported). Top recurring themes: Data Centre (8).
+
+## Facts and where they come from
+
+Basis: reported = stated in a report linked under Sources for reported facts; we have not checked it.
+
+| Item | Value | Basis |
+|---|---|---|
+| Status | Phase one reportedly consented by Aberdeenshire Council (press, unverified) | reported |
+| Developer | Ashfield Land with TechRE (press reports) | reported |
+| Council | Aberdeenshire Council | reported |
+| Capacity | 600 MW first phase on about 200 acres (press reports) | reported |
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Grampian Against Data Centres | 10 |
+| Help Save Mochrum Fell | 1 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+| Data Centre | 8 |
+
+## What is the planning status of Blackdog data centre campus?
+
+Recorded: Status: Phase one reportedly consented by Aberdeenshire Council (press, unverified) (reported).
+
+## What are the main community discussions around Blackdog data centre campus?
+
+11 archived public posts from 2 groups, dated 2026-07-21 to 2026-10-15. The most frequent theme tags are Data Centre (8). Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-10-15, Help Save Mochrum Fell: https://slava.it.com/?sel=3599864030161400 (themes: Data Centre)
+- 2026-10-11, Grampian Against Data Centres: https://slava.it.com/?sel=1626713512498177 (themes: Data Centre)
+- 2026-09-30, Grampian Against Data Centres: https://slava.it.com/?sel=1616876836815178 (themes: Data Centre)
+- 2026-09-25, Grampian Against Data Centres: https://slava.it.com/?sel=1611030354066493 (themes: Data Centre)
+- 2026-09-12, Grampian Against Data Centres: https://slava.it.com/?sel=1600350458467816 (themes: none tagged)
+- 2026-09-05, Grampian Against Data Centres: https://slava.it.com/?sel=1594599109042951 (themes: none tagged)
+- 2026-08-17, Grampian Against Data Centres: https://slava.it.com/?sel=1578302574005938 (themes: Data Centre)
+- 2026-08-17, Grampian Against Data Centres: https://slava.it.com/?sel=1578076680695194 (themes: Data Centre)
+- 2026-07-31, Grampian Against Data Centres: https://slava.it.com/?sel=1563619782140884 (themes: none tagged)
+- 2026-07-30, Grampian Against Data Centres: https://slava.it.com/?sel=1562801765556019 (themes: Data Centre)
+- 2026-07-21, Grampian Against Data Centres: https://slava.it.com/?sel=1555063929663136 (themes: Data Centre)
+
+---
+HTML version: https://slava.it.com/projects/blackdog-data-centre-campus.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# Carn Fearna Wind Farm
+
+Carn Fearna Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 2 community posts from 2 groups, latest 2026-10-07. REPD reference: 14288 (register). REPD status: Planning Application Submitted (register). Top recurring themes: Onshore Wind (2). Posts are archived public group posts and are not independently verified.
+
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+Abbreviations: REPD = Renewable Energy Planning Database; TEC = Transmission Entry Capacity register.
+
+| Item | Value | Basis |
+|---|---|---|
+| REPD reference | 14288 | register |
+| REPD status | Planning Application Submitted | register |
+| TEC project status | Scoping | register |
+
+## Data credits
+
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: 2026-08-03; Latest record update in the file: 2026-07-24; Download date: 2026-08-25; Facts exported: 2026-10-18.
+- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register. Source dates: Release date: 2026-10-10; Download date: 2026-10-13; Facts exported: 2026-10-18.
+- Use of these registers does not imply endorsement by their publishers.
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Communities B4 Power Companies | 1 |
+| Scotland Against Spin | 1 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+| Onshore Wind | 2 |
+
+## What is the planning status of Carn Fearna Wind Farm?
+
+Recorded: REPD status: Planning Application Submitted (register); TEC project status: Scoping (register).
+
+## What are the main community discussions around Carn Fearna Wind Farm?
+
+2 archived public posts from 2 groups, dated 2026-07-31 to 2026-10-07. The most frequent theme tags are Onshore Wind (2). Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-10-07, Communities B4 Power Companies: https://slava.it.com/?sel=1104606161969165 (themes: Onshore Wind)
+- 2026-07-31, Scotland Against Spin: https://slava.it.com/?sel=28710169265252096 (themes: Onshore Wind)
+
+---
+HTML version: https://slava.it.com/projects/carn-fearna-wind-farm.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# Cato data centre campus (ILI Group, Auchtertool, Fife)
+
+Cato data centre campus (ILI Group, Auchtertool, Fife) is an AI data centre project tracked on slava.it.com. The archive holds 5 community posts from 1 group, latest 2026-10-15. No planning reference is recorded in the registers used. Status: Application submitted June 2026; more than 1,200 objections reported July 2026; no decision found (reported). Top recurring themes: Data Centre (1).
+
+## Facts and where they come from
+
+Basis: reported = stated in a report linked under Sources for reported facts; we have not checked it.
+
+| Item | Value | Basis |
+|---|---|---|
+| Application type | Planning permission in principle (reported) | reported |
+| Status | Application submitted June 2026; more than 1,200 objections reported July 2026; no decision found | reported |
+| Developer | ILI Group | reported |
+| Council | Fife Council | reported |
+| Capacity | 600 MW; about GBP 5 billion (developer and press) | reported |
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Say No To Cato Data Centre | 5 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+| Data Centre | 1 |
+
+## What is the planning status of Cato data centre campus (ILI Group, Auchtertool, Fife)?
+
+Recorded: Application type: Planning permission in principle (reported) (reported); Status: Application submitted June 2026; more than 1,200 objections reported July 2026; no decision found (reported).
+
+## What are the main community discussions around Cato data centre campus (ILI Group, Auchtertool, Fife)?
+
+5 archived public posts from 1 group, dated 2026-10-15 to 2026-10-15. The most frequent theme tags are Data Centre (1). Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-10-15, Say No To Cato Data Centre: https://slava.it.com/?sel=1580548473353095 (themes: none tagged)
+- 2026-10-15, Say No To Cato Data Centre: https://slava.it.com/?sel=1580537943354148 (themes: Data Centre)
+- 2026-10-15, Say No To Cato Data Centre: https://slava.it.com/?sel=1580437400030869 (themes: none tagged)
+- 2026-10-15, Say No To Cato Data Centre: https://slava.it.com/?sel=1580369203371022 (themes: none tagged)
+- 2026-10-15, Say No To Cato Data Centre: https://slava.it.com/?sel=1579421156799160 (themes: none tagged)
+
+---
+HTML version: https://slava.it.com/projects/cato-data-centre-campus-ili-group-auchtertool-fife.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# Chapelcross data centre campus (CX Tech)
+
+Chapelcross data centre campus (CX Tech) is an AI data centre project tracked on slava.it.com. The archive holds 29 community posts from 5 groups, latest 2026-10-16. Planning reference: 26/1649/PIP (reported). Status: Validated 28 September 2026; no decision found in coverage to early October (reported). Top recurring themes: Data Centre (20), Onshore Wind (2).
+
+## Facts and where they come from
+
+Basis: reported = stated in a report linked under Sources for reported facts; we have not checked it.
+
+| Item | Value | Basis |
+|---|---|---|
+| Planning reference | 26/1649/PIP | reported |
+| Application type | Planning permission in principle | reported |
+| Status | Validated 28 September 2026; no decision found in coverage to early October | reported |
+| Developer | CX Tech Limited | reported |
+| Council | Dumfries and Galloway Council | reported |
+| Capacity | about 1 GW, eight buildings, 162,000 sq m (developer and press) | reported |
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Say NO to Chapelcross AI Data Centre | 20 |
+| Scotland Against Spin | 6 |
+| Say No To Cato Data Centre | 1 |
+| Rural Scotland (APRS) | 1 |
+| Scottish Electricity Generating Stations | 1 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+| Data Centre | 20 |
+| Onshore Wind | 2 |
+
+## What is the planning status of Chapelcross data centre campus (CX Tech)?
+
+Recorded: Planning reference: 26/1649/PIP (reported); Application type: Planning permission in principle (reported); Status: Validated 28 September 2026; no decision found in coverage to early October (reported).
+
+## What are the main community discussions around Chapelcross data centre campus (CX Tech)?
+
+29 archived public posts from 5 groups, dated 2026-09-30 to 2026-10-16. The most frequent theme tags are Data Centre (20), Onshore Wind (2). Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-10-16, Say No To Cato Data Centre: https://slava.it.com/?sel=1580670113340931 (themes: Data Centre)
+- 2026-10-16, Say NO to Chapelcross AI Data Centre: https://slava.it.com/?sel=1081606211350491 (themes: Data Centre)
+- 2026-10-16, Say NO to Chapelcross AI Data Centre: https://slava.it.com/?sel=1081533028024476 (themes: Data Centre)
+- 2026-10-16, Say NO to Chapelcross AI Data Centre: https://slava.it.com/?sel=1081348611376251 (themes: Data Centre)
+- 2026-10-16, Say NO to Chapelcross AI Data Centre: https://slava.it.com/?sel=1081327311378381 (themes: Data Centre)
+- 2026-10-15, Say NO to Chapelcross AI Data Centre: https://slava.it.com/?sel=1080874871423625 (themes: none tagged)
+- 2026-10-15, Say NO to Chapelcross AI Data Centre: https://slava.it.com/?sel=1080821241428988 (themes: Data Centre)
+- 2026-10-15, Say NO to Chapelcross AI Data Centre: https://slava.it.com/?sel=1080815414762904 (themes: Data Centre)
+- 2026-10-15, Say NO to Chapelcross AI Data Centre: https://slava.it.com/?sel=1080800864764359 (themes: none tagged)
+- 2026-10-15, Say NO to Chapelcross AI Data Centre: https://slava.it.com/?sel=1080789551432157 (themes: none tagged)
+- 2026-10-15, Say NO to Chapelcross AI Data Centre: https://slava.it.com/?sel=1080763651434747 (themes: none tagged)
+- 2026-10-15, Say NO to Chapelcross AI Data Centre: https://slava.it.com/?sel=1080729551438157 (themes: Data Centre)
+- 2026-10-15, Say NO to Chapelcross AI Data Centre: https://slava.it.com/?sel=1080664648111314 (themes: none tagged)
+- 2026-10-15, Say NO to Chapelcross AI Data Centre: https://slava.it.com/?sel=1080643631446749 (themes: Data Centre)
+- 2026-10-15, Say NO to Chapelcross AI Data Centre: https://slava.it.com/?sel=1080458881465224 (themes: Data Centre)
+- 2026-10-15, Say NO to Chapelcross AI Data Centre: https://slava.it.com/?sel=1080457944798651 (themes: none tagged)
+- 2026-10-15, Say NO to Chapelcross AI Data Centre: https://slava.it.com/?sel=1080407661470346 (themes: none tagged)
+- 2026-10-15, Say NO to Chapelcross AI Data Centre: https://slava.it.com/?sel=1080346888143090 (themes: Data Centre)
+- 2026-10-15, Say NO to Chapelcross AI Data Centre: https://slava.it.com/?sel=1080280164816429 (themes: none tagged)
+- 2026-10-15, Say NO to Chapelcross AI Data Centre: https://slava.it.com/?sel=1080273724817073 (themes: Data Centre)
+- 2026-10-15, Say NO to Chapelcross AI Data Centre: https://slava.it.com/?sel=1080256708152108 (themes: none tagged)
+- 2026-10-12, Scotland Against Spin: https://slava.it.com/?sel=29668668026068877 (themes: Data Centre)
+- 2026-10-11, Scotland Against Spin: https://slava.it.com/?sel=29655851374017209 (themes: Data Centre)
+- 2026-10-10, Scotland Against Spin: https://slava.it.com/?sel=29644336895168657 (themes: Data Centre, Onshore Wind)
+- 2026-10-10, Rural Scotland (APRS): https://slava.it.com/?sel=1556729249833117 (themes: Data Centre)
+- 2026-10-07, Scotland Against Spin: https://slava.it.com/?sel=29598057669796580 (themes: Data Centre, Onshore Wind)
+- 2026-10-07, Scottish Electricity Generating Stations: https://slava.it.com/?sel=1396029099355998 (themes: Data Centre)
+- 2026-10-05, Scotland Against Spin: https://slava.it.com/?sel=29570885062513841 (themes: Data Centre)
+- 2026-09-30, Scotland Against Spin: https://slava.it.com/?sel=29507500055519009 (themes: Data Centre)
+
+---
+HTML version: https://slava.it.com/projects/chapelcross-data-centre-campus-cx-tech.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# Cockenzie data centre (SDCL, former power station site)
+
+Cockenzie data centre (SDCL, former power station site) is an AI data centre project tracked on slava.it.com. The archive holds 5 community posts from 1 group, latest 2026-10-15. No planning reference is recorded in the registers used. Status: Early stage; no planning application found in coverage (council: very early stage) (reported). Top recurring themes: Data Centre (2).
+
+## Facts and where they come from
+
+Basis: reported = stated in a report linked under Sources for reported facts; we have not checked it.
+
+| Item | Value | Basis |
+|---|---|---|
+| Status | Early stage; no planning application found in coverage (council: very early stage) | reported |
+| Developer | SDCL (preferred bidder; joint venture being explored) | reported |
+| Council | East Lothian Council | reported |
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Say NO to Cockenzie Data Centre | 5 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+| Data Centre | 2 |
+
+## What is the planning status of Cockenzie data centre (SDCL, former power station site)?
+
+Recorded: Status: Early stage; no planning application found in coverage (council: very early stage) (reported).
+
+## What are the main community discussions around Cockenzie data centre (SDCL, former power station site)?
+
+5 archived public posts from 1 group, dated 2026-10-14 to 2026-10-15. The most frequent theme tags are Data Centre (2). Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-10-15, Say NO to Cockenzie Data Centre: https://slava.it.com/?sel=1620072269595725 (themes: none tagged)
+- 2026-10-15, Say NO to Cockenzie Data Centre: https://slava.it.com/?sel=1620066612929624 (themes: none tagged)
+- 2026-10-14, Say NO to Cockenzie Data Centre: https://slava.it.com/?sel=1619303903005895 (themes: none tagged)
+- 2026-10-14, Say NO to Cockenzie Data Centre: https://slava.it.com/?sel=1619303379672614 (themes: Data Centre)
+- 2026-10-14, Say NO to Cockenzie Data Centre: https://slava.it.com/?sel=1619301559672796 (themes: Data Centre)
+
+---
+HTML version: https://slava.it.com/projects/cockenzie-data-centre-sdcl-former-power-station-site.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# Ditcher Law
+
+Ditcher Law is a wind, solar and storage project tracked on slava.it.com. The archive holds 3 community posts from 1 group, latest 2026-09-06. No planning reference is recorded in the registers used. TEC project status: Awaiting Consents (register). Top recurring themes: Onshore Wind (2). Posts are archived public group posts and are not independently verified.
+
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+Abbreviations: TEC = Transmission Entry Capacity register.
+
+| Item | Value | Basis |
+|---|---|---|
+| TEC project status | Awaiting Consents | register |
+
+## Data credits
+
+- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register. Source dates: Release date: 2026-10-10; Download date: 2026-10-13; Facts exported: 2026-10-18.
+- Use of these registers does not imply endorsement by their publishers.
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Scotland Against Spin | 3 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+| Onshore Wind | 2 |
+
+## What is the planning status of Ditcher Law?
+
+Recorded: TEC project status: Awaiting Consents (register).
+
+## What are the main community discussions around Ditcher Law?
+
+3 archived public posts from 1 group, dated 2026-05-11 to 2026-09-06. The most frequent theme tags are Onshore Wind (2). Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-09-06, Scotland Against Spin: https://slava.it.com/?sel=29181271918141826 (themes: none tagged)
+- 2026-06-19, Scotland Against Spin: https://slava.it.com/?sel=28227794806822880 (themes: Onshore Wind)
+- 2026-05-11, Scotland Against Spin: https://slava.it.com/?sel=27717514404517592 (themes: Onshore Wind)
+
+---
+HTML version: https://slava.it.com/projects/ditcher-law.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# Giants Burn Wind Farm
+
+Giants Burn Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 3 community posts from 1 group, latest 2026-06-19. REPD reference: 16077 (register). REPD status: Planning Application Submitted (register). Top recurring themes: Onshore Wind (3). Posts are archived public group posts and are not independently verified.
+
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+Abbreviations: REPD = Renewable Energy Planning Database; TEC = Transmission Entry Capacity register.
+
+| Item | Value | Basis |
+|---|---|---|
+| REPD reference | 16077 | register |
+| REPD status | Planning Application Submitted | register |
+| TEC project status | Scoping | register |
+
+## Data credits
+
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: 2026-08-03; Latest record update in the file: 2026-07-24; Download date: 2026-08-25; Facts exported: 2026-10-18.
+- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register. Source dates: Release date: 2026-10-10; Download date: 2026-10-13; Facts exported: 2026-10-18.
+- Use of these registers does not imply endorsement by their publishers.
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Scotland Against Spin | 3 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+| Onshore Wind | 3 |
+
+## What is the planning status of Giants Burn Wind Farm?
+
+Recorded: REPD status: Planning Application Submitted (register); TEC project status: Scoping (register).
+
+## What are the main community discussions around Giants Burn Wind Farm?
+
+3 archived public posts from 1 group, dated 2026-04-19 to 2026-06-19. The most frequent theme tags are Onshore Wind (3). Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-06-19, Scotland Against Spin: https://slava.it.com/?sel=28230422949893399 (themes: Onshore Wind)
+- 2026-05-07, Scotland Against Spin: https://slava.it.com/?sel=27669122659356767 (themes: Onshore Wind)
+- 2026-04-19, Scotland Against Spin: https://slava.it.com/?sel=27453198680949167 (themes: Onshore Wind)
+
+---
+HTML version: https://slava.it.com/projects/giants-burn-wind-farm.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# Glen Earrach Pumped Storage Hydro
+
+Glen Earrach Pumped Storage Hydro is a wind, solar and storage project tracked on slava.it.com. The archive holds 8 community posts from 3 groups, latest 2026-10-10. REPD reference: 16442 (register). REPD status: Planning Application Submitted (register). Top recurring themes: BESS (1). Posts are archived public group posts and are not independently verified.
+
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+Abbreviations: REPD = Renewable Energy Planning Database.
+
+| Item | Value | Basis |
+|---|---|---|
+| REPD reference | 16442 | register |
+| REPD status | Planning Application Submitted | register |
+
+## Data credits
+
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: 2026-08-03; Latest record update in the file: 2026-07-24; Download date: 2026-08-25; Facts exported: 2026-10-18.
+- Use of these registers does not imply endorsement by their publishers.
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Communities B4 Power Companies | 4 |
+| Scotland Against Spin | 3 |
+| Wind Energy's Absurd | 1 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+| BESS | 1 |
+
+## What is the planning status of Glen Earrach Pumped Storage Hydro?
+
+Recorded: REPD status: Planning Application Submitted (register).
+
+## What are the main community discussions around Glen Earrach Pumped Storage Hydro?
+
+8 archived public posts from 3 groups, dated 2026-09-30 to 2026-10-10. The most frequent theme tags are BESS (1). Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-10-10, Scotland Against Spin: https://slava.it.com/?sel=29647644271504586 (themes: none tagged)
+- 2026-10-07, Wind Energy's Absurd: https://slava.it.com/?sel=1534313488725946 (themes: none tagged)
+- 2026-10-07, Communities B4 Power Companies: https://slava.it.com/?sel=1105086135254501 (themes: none tagged)
+- 2026-10-06, Scotland Against Spin: https://slava.it.com/?sel=29579461481656199 (themes: none tagged)
+- 2026-10-01, Communities B4 Power Companies: https://slava.it.com/?sel=1099748189121629 (themes: none tagged)
+- 2026-09-30, Scotland Against Spin: https://slava.it.com/?sel=29511781315090883 (themes: none tagged)
+- 2026-09-30, Communities B4 Power Companies: https://slava.it.com/?sel=1098361129260335 (themes: none tagged)
+- 2026-09-30, Communities B4 Power Companies: https://slava.it.com/?sel=1098284702601311 (themes: BESS)
+
+---
+HTML version: https://slava.it.com/projects/glen-earrach-pumped-storage-hydro.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# Glenvernoch
+
+Glenvernoch is a wind, solar and storage project tracked on slava.it.com. The archive holds 4 community posts from 1 group, latest 2026-06-30. No planning reference is recorded in the registers used. TEC project status: Scoping (register). Top recurring themes: Onshore Wind (4). Posts are archived public group posts and are not independently verified.
+
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+Abbreviations: TEC = Transmission Entry Capacity register.
+
+| Item | Value | Basis |
+|---|---|---|
+| TEC project status | Scoping | register |
+
+## Data credits
+
+- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register. Source dates: Release date: 2026-10-10; Download date: 2026-10-13; Facts exported: 2026-10-18.
+- Use of these registers does not imply endorsement by their publishers.
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Scotland Against Spin | 4 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+| Onshore Wind | 4 |
+
+## What is the planning status of Glenvernoch?
+
+Recorded: TEC project status: Scoping (register).
+
+## What are the main community discussions around Glenvernoch?
+
+4 archived public posts from 1 group, dated 2026-01-26 to 2026-06-30. The most frequent theme tags are Onshore Wind (4). Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-06-30, Scotland Against Spin: https://slava.it.com/?sel=28354908137444879 (themes: Onshore Wind)
+- 2026-06-28, Scotland Against Spin: https://slava.it.com/?sel=28336244669311226 (themes: Onshore Wind)
+- 2026-01-30, Scotland Against Spin: https://slava.it.com/?sel=26653301590938884 (themes: Onshore Wind)
+- 2026-01-26, Scotland Against Spin: https://slava.it.com/?sel=26614688914800152 (themes: Onshore Wind)
+
+---
+HTML version: https://slava.it.com/projects/glenvernoch.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# Golticlay Wind Farm
+
+Golticlay Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 4 community posts from 2 groups, latest 2026-10-02. 7 register records are listed (4 REPD, 3 NESO Embedded). Their statuses differ, so no single status is given. Top recurring themes: Onshore Wind (3). Posts are archived public group posts and are not independently verified.
+
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+Abbreviations: REPD = Renewable Energy Planning Database; NESO = National Energy System Operator.
+
+| Item | Value | Basis |
+|---|---|---|
+| Register records | 7 listed (4 REPD, 3 NESO Embedded). Statuses: Planning Application Submitted (2), Awaiting Consents (2), Under Construction (1), No Application Required (1), Scoping (1) | register |
+
+## Register records
+
+Each row is one register record with its own identifier; records are not combined. Relationships are stated only where a register links the records, and are otherwise labelled as unlinked or unverified. REPD dates are the record's update date and the date of the status event where one is recorded. The NESO files give no status date; the date shown is the MW effective-from date.
+
+| Register | Identifier | Name as recorded | Status | Capacity | Date | Relationship |
+|---|---|---|---|---|---|---|
+| REPD | 5195 | Golticlay Wind Farm | Under Construction | 72.6 MW | record updated 2026-02-23; status event 2025-07-01 | Exact name match. |
+| REPD | 20387 | Golticlay Wind Farm 2 | No Application Required | 13.2 MW | record updated 2026-02-23 | 'Golticlay Wind Farm 2'; the REPD file gives it the same map reference as 5195; no identifier link. |
+| REPD | 18325 | Golticlay Wind Farm, Bulreanrob - Wind Farm | Planning Application Submitted | not recorded | record updated 2026-01-09; status event 2025-12-03 | Bulreanrob wind farm record; REPD links 18325 and 18326 to each other, not to 5195. |
+| REPD | 18326 | Golticlay Wind Farm, Bulreanrob - Battery Energy Storage | Planning Application Submitted | not recorded | record updated 2026-01-09; status event 2025-12-03 | Bulreanrob battery storage; REPD links it to 18325 (storage co-location). |
+| NESO Embedded | PRO-000370-1 | Golticlay Wind Farm | Awaiting Consents | connected 0 MW; cumulative 50.07 MW | MW effective from 2026-07-31 | Stage 1 of NESO project PRO-000370 (Embedded Register); same name as REPD 5195 but capacity differs and no identifier is shared, so the link is unverified. |
+| NESO Embedded | PRO-000370-2 | Golticlay Wind Farm | Scoping | connected 0 MW; cumulative 58 MW | MW effective from 2026-07-31 | Stage 2 of NESO project PRO-000370. |
+| NESO Embedded | PRO-000926 | Golticlay Extension Wind Farm | Awaiting Consents | connected 0 MW; cumulative 55 MW | MW effective from 2027-09-30 | 'Golticlay Extension Wind Farm'; a different NESO project number; relation to the REPD records is unverified. |
+
+## Data credits
+
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: 2026-08-03; Latest record update in the file: 2026-07-24; Download date: 2026-08-25; Facts exported: 2026-10-18.
+- Supported by National Energy SO Open Data. Data: Embedded Register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/embedded-register. Source dates: Release date: 2026-10-10; Download date: 2026-10-13; Facts exported: 2026-10-18.
+- Use of these registers does not imply endorsement by their publishers.
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Scotland Against Spin | 3 |
+| Scottish Electricity Generating Stations | 1 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+| Onshore Wind | 3 |
+
+## What is the planning status of Golticlay Wind Farm?
+
+No single status applies. Statuses by register record: Planning Application Submitted (2), Awaiting Consents (2), Under Construction (1), No Application Required (1), Scoping (1). The table gives each record's identifier, date and relationship; records are not combined.
+
+## What are the main community discussions around Golticlay Wind Farm?
+
+4 archived public posts from 2 groups, dated 2026-02-22 to 2026-10-02. The most frequent theme tags are Onshore Wind (3). Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-10-02, Scottish Electricity Generating Stations: https://slava.it.com/?sel=1392082223084019 (themes: Onshore Wind)
+- 2026-04-07, Scotland Against Spin: https://slava.it.com/?sel=27328971073371929 (themes: none tagged)
+- 2026-03-25, Scotland Against Spin: https://slava.it.com/?sel=27179144738354564 (themes: Onshore Wind)
+- 2026-02-22, Scotland Against Spin: https://slava.it.com/?sel=26870903272512047 (themes: Onshore Wind)
+
+---
+HTML version: https://slava.it.com/projects/golticlay-wind-farm.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# Grudie Bridge
+
+Grudie Bridge is a wind, solar and storage project tracked on slava.it.com. The archive holds 2 community posts from 1 group, latest 2026-10-10. No planning reference is recorded in the registers used. Embedded Register project status: Built (register). Top recurring themes: none tagged. Posts are archived public group posts and are not independently verified.
+
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+| Item | Value | Basis |
+|---|---|---|
+| Embedded Register project status | Built | register |
+
+## Data credits
+
+- Supported by National Energy SO Open Data. Data: Embedded Register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/embedded-register. Source dates: Release date: 2026-10-10; Download date: 2026-10-13; Facts exported: 2026-10-18.
+- Use of these registers does not imply endorsement by their publishers.
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Scottish Electricity Generating Stations | 2 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+
+
+## What is the planning status of Grudie Bridge?
+
+Recorded: Embedded Register project status: Built (register).
+
+## What are the main community discussions around Grudie Bridge?
+
+2 archived public posts from 1 group, dated 2026-10-01 to 2026-10-10. The most frequent theme tags are none tagged. Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-10-10, Scottish Electricity Generating Stations: https://slava.it.com/?sel=1399260365699538 (themes: none tagged)
+- 2026-10-01, Scottish Electricity Generating Stations: https://slava.it.com/?sel=1391140323178209 (themes: none tagged)
+
+---
+HTML version: https://slava.it.com/projects/grudie-bridge.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# Hawks Nest Farm - Battery Storage
+
+Hawks Nest Farm - Battery Storage is a wind, solar and storage project tracked on slava.it.com. The archive holds 2 community posts from 1 group, latest 2026-09-03. REPD reference: 17532 (register). REPD status: Planning Permission Refused (register). Top recurring themes: Onshore Wind (2). Posts are archived public group posts and are not independently verified.
+
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+Abbreviations: REPD = Renewable Energy Planning Database.
+
+| Item | Value | Basis |
+|---|---|---|
+| REPD reference | 17532 | register |
+| REPD status | Planning Permission Refused | register |
+
+## Data credits
+
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: 2026-08-03; Latest record update in the file: 2026-07-24; Download date: 2026-08-25; Facts exported: 2026-10-18.
+- Use of these registers does not imply endorsement by their publishers.
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Environmentalists Against Wind Turbines | 2 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+| Onshore Wind | 2 |
+
+## What is the planning status of Hawks Nest Farm - Battery Storage?
+
+Recorded: REPD status: Planning Permission Refused (register).
+
+## What are the main community discussions around Hawks Nest Farm - Battery Storage?
+
+2 archived public posts from 1 group, dated 2026-09-01 to 2026-09-03. The most frequent theme tags are Onshore Wind (2). Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-09-03, Environmentalists Against Wind Turbines: https://slava.it.com/?sel=28170384702614953 (themes: Onshore Wind)
+- 2026-09-01, Environmentalists Against Wind Turbines: https://slava.it.com/?sel=28138634599123297 (themes: Onshore Wind)
+
+---
+HTML version: https://slava.it.com/projects/hawks-nest-farm-battery-storage.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# Hawthorn Pit -Solar Farm
+
+Hawthorn Pit -Solar Farm is a pylons and grid project tracked on slava.it.com. The archive holds 2 community posts from 1 group, latest 2026-10-12. REPD reference: 9799 (register). REPD status: Appeal Granted (register). Top recurring themes: Onshore Wind (1), Solar (1). Posts are archived public group posts and are not independently verified.
+
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+Abbreviations: REPD = Renewable Energy Planning Database.
+
+| Item | Value | Basis |
+|---|---|---|
+| REPD reference | 9799 | register |
+| REPD status | Appeal Granted | register |
+
+## Data credits
+
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: 2026-08-03; Latest record update in the file: 2026-07-24; Download date: 2026-08-25; Facts exported: 2026-10-18.
+- Use of these registers does not imply endorsement by their publishers.
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Scottish Electricity Generating Stations | 2 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+| Onshore Wind | 1 |
+| Solar | 1 |
+| Substation | 1 |
+
+## What is the planning status of Hawthorn Pit -Solar Farm?
+
+Recorded: REPD status: Appeal Granted (register).
+
+## What are the main community discussions around Hawthorn Pit -Solar Farm?
+
+2 archived public posts from 1 group, dated 2026-09-26 to 2026-10-12. The most frequent theme tags are Onshore Wind (1), Solar (1), Substation (1). Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-10-12, Scottish Electricity Generating Stations: https://slava.it.com/?sel=1401172058841702 (themes: none tagged)
+- 2026-09-26, Scottish Electricity Generating Stations: https://slava.it.com/?sel=1386023633689878 (themes: Onshore Wind, Solar, Substation)
+
+---
+HTML version: https://slava.it.com/projects/hawthorn-pit-solar-farm.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# Inch Cape
+
+Inch Cape is an AI data centre project tracked on slava.it.com. The archive holds 2 community posts from 2 groups, latest 2026-10-16. REPD reference: 2527 (register). REPD status: Under Construction (register). Top recurring themes: Data Centre (1), Onshore Wind (1). Posts are archived public group posts and are not independently verified.
+
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+Abbreviations: REPD = Renewable Energy Planning Database.
+
+| Item | Value | Basis |
+|---|---|---|
+| REPD reference | 2527 | register |
+| REPD status | Under Construction | register |
+
+## Data credits
+
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: 2026-08-03; Latest record update in the file: 2026-07-24; Download date: 2026-08-25; Facts exported: 2026-10-18.
+- Use of these registers does not imply endorsement by their publishers.
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Say NO to Cockenzie Data Centre | 1 |
+| Wind Energy's Absurd | 1 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+| Data Centre | 1 |
+| Onshore Wind | 1 |
+
+## What is the planning status of Inch Cape?
+
+Recorded: REPD status: Under Construction (register).
+
+## What are the main community discussions around Inch Cape?
+
+2 archived public posts from 2 groups, dated 2026-09-22 to 2026-10-16. The most frequent theme tags are Data Centre (1), Onshore Wind (1). Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-10-16, Say NO to Cockenzie Data Centre: https://slava.it.com/?sel=1620358816233737 (themes: Data Centre)
+- 2026-09-22, Wind Energy's Absurd: https://slava.it.com/?sel=1519835023507126 (themes: Onshore Wind)
+
+---
+HTML version: https://slava.it.com/projects/inch-cape.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# Kintore to Tealing 400kV overhead line
+
+Kintore to Tealing 400kV overhead line is a wind, solar and storage project tracked on slava.it.com. The archive holds 5 community posts from 1 group, latest 2026-09-19. No planning reference is recorded in the registers used. Consent or stage: Section 37 application submitted (Scottish Ministers); determination expected within 12 months (reported). Top recurring themes: OHL (Pylons) (1).
+
+## Facts and where they come from
+
+Basis: reported = stated in a report linked under Sources for reported facts; we have not checked it.
+
+| Item | Value | Basis |
+|---|---|---|
+| Consent or stage | Section 37 application submitted (Scottish Ministers); determination expected within 12 months | reported |
+| Operator | SSEN Transmission | reported |
+| Kind | grid corridor (planned) | reported |
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Scotland Against Spin | 5 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+| OHL (Pylons) | 1 |
+
+## What is the planning status of Kintore to Tealing 400kV overhead line?
+
+Recorded: Consent or stage: Section 37 application submitted (Scottish Ministers); determination expected within 12 months (reported).
+
+## What are the main community discussions around Kintore to Tealing 400kV overhead line?
+
+5 archived public posts from 1 group, dated 2026-03-15 to 2026-09-19. The most frequent theme tags are OHL (Pylons) (1). Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-09-19, Scotland Against Spin: https://slava.it.com/?sel=29364277263174623 (themes: OHL (Pylons))
+- 2026-06-16, Scotland Against Spin: https://slava.it.com/?sel=28184724974463197 (themes: none tagged)
+- 2026-06-09, Scotland Against Spin: https://slava.it.com/?sel=28093182463617449 (themes: none tagged)
+- 2026-03-20, Scotland Against Spin: https://slava.it.com/?sel=27125121483756890 (themes: none tagged)
+- 2026-03-15, Scotland Against Spin: https://slava.it.com/?sel=27076838365251869 (themes: none tagged)
+
+---
+HTML version: https://slava.it.com/projects/kintore-to-tealing-400kv-overhead-line.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# Lairg II Wind Farm
+
+Lairg II Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 2 community posts from 1 group, latest 2026-07-16. No planning reference is recorded in the registers used. TEC project status: Consents Approved (register). Top recurring themes: Onshore Wind (2). Posts are archived public group posts and are not independently verified.
+
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+Abbreviations: TEC = Transmission Entry Capacity register.
+
+| Item | Value | Basis |
+|---|---|---|
+| TEC project status | Consents Approved | register |
+
+## Data credits
+
+- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register. Source dates: Release date: 2026-10-10; Download date: 2026-10-13; Facts exported: 2026-10-18.
+- Use of these registers does not imply endorsement by their publishers.
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Scotland Against Spin | 2 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+| Onshore Wind | 2 |
+
+## What is the planning status of Lairg II Wind Farm?
+
+Recorded: TEC project status: Consents Approved (register).
+
+## What are the main community discussions around Lairg II Wind Farm?
+
+2 archived public posts from 1 group, dated 2026-05-11 to 2026-07-16. The most frequent theme tags are Onshore Wind (2). Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-07-16, Scotland Against Spin: https://slava.it.com/?sel=28533732886229069 (themes: Onshore Wind)
+- 2026-05-11, Scotland Against Spin: https://slava.it.com/?sel=27715842301351469 (themes: Onshore Wind)
+
+---
+HTML version: https://slava.it.com/projects/lairg-ii-wind-farm.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# Leithenwater Wind Energy Hub - Wind Farm
+
+Leithenwater Wind Energy Hub - Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 3 community posts from 1 group, latest 2026-10-14. 2 register records are listed (2 REPD). All list the status Planning Application Submitted. Top recurring themes: Onshore Wind (3). Posts are archived public group posts and are not independently verified.
+
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+Abbreviations: REPD = Renewable Energy Planning Database.
+
+| Item | Value | Basis |
+|---|---|---|
+| Register records | 2 listed (2 REPD). Statuses: Planning Application Submitted (2) | register |
+
+## Register records
+
+Each row is one register record with its own identifier; records are not combined. Relationships are stated only where a register links the records, and are otherwise labelled as unlinked or unverified. REPD dates are the record's update date and the date of the status event where one is recorded.
+
+| Register | Identifier | Name as recorded | Status | Capacity | Date | Relationship |
+|---|---|---|---|---|---|---|
+| REPD | 12283 | Leithenwater Wind Energy Hub - Wind Farm | Planning Application Submitted | 85.8 MW | record updated 2024-06-14; status event 2024-04-04 | Exact name match. |
+| REPD | 16496 | Leithenwater Wind Energy Hub - Wind Farm | Planning Application Submitted | 10 MW | record updated 2024-06-14; status event 2024-04-04 | Exact name match; REPD links it to 12283 (storage co-location). |
+
+## Data credits
+
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: 2026-08-03; Latest record update in the file: 2026-07-24; Download date: 2026-08-25; Facts exported: 2026-10-18.
+- Use of these registers does not imply endorsement by their publishers.
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Scotland Against Spin | 3 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+| Onshore Wind | 3 |
+
+## What is the planning status of Leithenwater Wind Energy Hub - Wind Farm?
+
+All 2 listed register records show the status Planning Application Submitted.
+
+## What are the main community discussions around Leithenwater Wind Energy Hub - Wind Farm?
+
+3 archived public posts from 1 group, dated 2026-09-29 to 2026-10-14. The most frequent theme tags are Onshore Wind (3). Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-10-14, Scotland Against Spin: https://slava.it.com/?sel=29706417315627281 (themes: Onshore Wind)
+- 2026-10-05, Scotland Against Spin: https://slava.it.com/?sel=29579169978352016 (themes: Onshore Wind)
+- 2026-09-29, Scotland Against Spin: https://slava.it.com/?sel=29501516866117328 (themes: Onshore Wind)
+
+---
+HTML version: https://slava.it.com/projects/leithenwater-wind-energy-hub-wind-farm.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# Machair
+
+Machair is a wind, solar and storage project tracked on slava.it.com. The archive holds 4 community posts from 3 groups, latest 2026-09-22. REPD reference: 13428 (register). REPD status: Planning Application Submitted (register). Top recurring themes: Onshore Wind (3). Posts are archived public group posts and are not independently verified.
+
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+Abbreviations: REPD = Renewable Energy Planning Database.
+
+| Item | Value | Basis |
+|---|---|---|
+| REPD reference | 13428 | register |
+| REPD status | Planning Application Submitted | register |
+
+## Data credits
+
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: 2026-08-03; Latest record update in the file: 2026-07-24; Download date: 2026-08-25; Facts exported: 2026-10-18.
+- Use of these registers does not imply endorsement by their publishers.
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Scotland Against Spin | 2 |
+| Wind Energy's Absurd | 1 |
+| Environmentalists Against Wind Turbines | 1 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+| Onshore Wind | 3 |
+
+## What is the planning status of Machair?
+
+Recorded: REPD status: Planning Application Submitted (register).
+
+## What are the main community discussions around Machair?
+
+4 archived public posts from 3 groups, dated 2026-07-28 to 2026-09-22. The most frequent theme tags are Onshore Wind (3). Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-09-22, Wind Energy's Absurd: https://slava.it.com/?sel=1519569630200332 (themes: none tagged)
+- 2026-08-14, Scotland Against Spin: https://slava.it.com/?sel=28881914988077522 (themes: Onshore Wind)
+- 2026-08-14, Environmentalists Against Wind Turbines: https://slava.it.com/?sel=27918885094431583 (themes: Onshore Wind)
+- 2026-07-28, Scotland Against Spin: https://slava.it.com/?sel=28665193446416345 (themes: Onshore Wind)
+
+---
+HTML version: https://slava.it.com/projects/machair.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# Mochrum Fell Wind Farm
+
+Mochrum Fell Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 2 community posts from 1 group, latest 2026-10-15. 2 register records are listed (2 REPD). Their statuses differ, so no single status is given. Top recurring themes: none tagged. Posts are archived public group posts and are not independently verified.
+
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+Abbreviations: REPD = Renewable Energy Planning Database.
+
+| Item | Value | Basis |
+|---|---|---|
+| Register records | 2 listed (2 REPD). Statuses: Revised (1), Planning Application Submitted (1) | register |
+
+## Register records
+
+Each row is one register record with its own identifier; records are not combined. Relationships are stated only where a register links the records, and are otherwise labelled as unlinked or unverified. REPD dates are the record's update date and the date of the status event where one is recorded.
+
+| Register | Identifier | Name as recorded | Status | Capacity | Date | Relationship |
+|---|---|---|---|---|---|---|
+| REPD | 4466 | Mochrum Fell Wind Farm | Revised | 24 MW | record updated 2018-10-31 | Exact name match; the earlier application. REPD links it to 7891 as a possible re-application. |
+| REPD | 7891 | Mochrum Fell Wind Farm | Planning Application Submitted | 24 MW | record updated 2021-11-18; status event 2020-10-01 | Later application; REPD link 'Are they re-applying (New REPD Ref)' joins it to 4466. |
+
+## Data credits
+
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: 2026-08-03; Latest record update in the file: 2026-07-24; Download date: 2026-08-25; Facts exported: 2026-10-18.
+- Use of these registers does not imply endorsement by their publishers.
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Help Save Mochrum Fell | 2 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+
+
+## What is the planning status of Mochrum Fell Wind Farm?
+
+No single status applies. Statuses by register record: Revised (1), Planning Application Submitted (1). The table gives each record's identifier, date and relationship; records are not combined.
+
+## What are the main community discussions around Mochrum Fell Wind Farm?
+
+2 archived public posts from 1 group, dated 2026-10-15 to 2026-10-15. The most frequent theme tags are none tagged. Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-10-15, Help Save Mochrum Fell: https://slava.it.com/?sel=3599910093490127 (themes: none tagged)
+- 2026-10-15, Help Save Mochrum Fell: https://slava.it.com/?sel=3599882856826184 (themes: none tagged)
+
+---
+HTML version: https://slava.it.com/projects/mochrum-fell-wind-farm.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# Mossy Hill Wind Farm
+
+Mossy Hill Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 3 community posts from 3 groups, latest 2026-09-30. No planning reference is recorded in the registers used. TEC project status: Consents Approved (register). Top recurring themes: Onshore Wind (3), Solar (1). Posts are archived public group posts and are not independently verified.
+
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+Abbreviations: TEC = Transmission Entry Capacity register.
+
+| Item | Value | Basis |
+|---|---|---|
+| TEC project status | Consents Approved | register |
+
+## Data credits
+
+- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register. Source dates: Release date: 2026-10-10; Download date: 2026-10-13; Facts exported: 2026-10-18.
+- Use of these registers does not imply endorsement by their publishers.
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Scottish Electricity Generating Stations | 1 |
+| Communities B4 Power Companies | 1 |
+| Scotland Against Spin | 1 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+| Onshore Wind | 3 |
+| Solar | 1 |
+
+## What is the planning status of Mossy Hill Wind Farm?
+
+Recorded: TEC project status: Consents Approved (register).
+
+## What are the main community discussions around Mossy Hill Wind Farm?
+
+3 archived public posts from 3 groups, dated 2026-05-01 to 2026-09-30. The most frequent theme tags are Onshore Wind (3), Solar (1). Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-09-30, Scottish Electricity Generating Stations: https://slava.it.com/?sel=1389789376646637 (themes: Onshore Wind, Solar)
+- 2026-09-30, Communities B4 Power Companies: https://slava.it.com/?sel=1098402605922854 (themes: Onshore Wind)
+- 2026-05-01, Scotland Against Spin: https://slava.it.com/?sel=27597986236470410 (themes: Onshore Wind)
+
+---
+HTML version: https://slava.it.com/projects/mossy-hill-wind-farm.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# New Cumnock BESS
+
+New Cumnock BESS is a wind, solar and storage project tracked on slava.it.com. The archive holds 3 community posts from 1 group, latest 2026-06-15. No planning reference is recorded in the registers used. TEC project status: Scoping (register). Top recurring themes: Onshore Wind (3). Posts are archived public group posts and are not independently verified.
+
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+Abbreviations: TEC = Transmission Entry Capacity register.
+
+| Item | Value | Basis |
+|---|---|---|
+| TEC project status | Scoping | register |
+
+## Data credits
+
+- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register. Source dates: Release date: 2026-10-10; Download date: 2026-10-13; Facts exported: 2026-10-18.
+- Use of these registers does not imply endorsement by their publishers.
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Scotland Against Spin | 3 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+| Onshore Wind | 3 |
+
+## What is the planning status of New Cumnock BESS?
+
+Recorded: TEC project status: Scoping (register).
+
+## What are the main community discussions around New Cumnock BESS?
+
+3 archived public posts from 1 group, dated 2026-01-24 to 2026-06-15. The most frequent theme tags are Onshore Wind (3). Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-06-15, Scotland Against Spin: https://slava.it.com/?sel=28172986168970411 (themes: Onshore Wind)
+- 2026-04-22, Scotland Against Spin: https://slava.it.com/?sel=27488307164104985 (themes: Onshore Wind)
+- 2026-01-24, Scotland Against Spin: https://slava.it.com/?sel=26600985372837173 (themes: Onshore Wind)
+
+---
+HTML version: https://slava.it.com/projects/new-cumnock-bess.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# Newlands Hill Wind Energy Hub
+
+Newlands Hill Wind Energy Hub is a wind, solar and storage project tracked on slava.it.com. The archive holds 5 community posts from 1 group, latest 2026-10-13. 3 register records are listed (2 REPD, 1 NESO TEC). Their statuses differ, so no single status is given. Top recurring themes: BESS (1), Hybrid (1).
+
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+Abbreviations: REPD = Renewable Energy Planning Database; TEC = Transmission Entry Capacity register; NESO = National Energy System Operator.
+
+| Item | Value | Basis |
+|---|---|---|
+| Register records | 3 listed (2 REPD, 1 NESO TEC). Statuses: Planning Application Submitted (2), Awaiting Consents (1) | register |
+
+## Register records
+
+Each row is one register record with its own identifier; records are not combined. Relationships are stated only where a register links the records, and are otherwise labelled as unlinked or unverified. REPD dates are the record's update date and the date of the status event where one is recorded. The NESO files give no status date; the date shown is the MW effective-from date.
+
+| Register | Identifier | Name as recorded | Status | Capacity | Date | Relationship |
+|---|---|---|---|---|---|---|
+| REPD | 12289 | Newlands Hill Wind Energy Hub | Planning Application Submitted | 136 MW | record updated 2023-12-07; status event 2023-11-14 | Exact name match. |
+| REPD | 15383 | Newlands Hill Wind Energy Hub | Planning Application Submitted | 136 MW | record updated 2023-12-07; status event 2023-11-14 | Exact name match; REPD links it to 12289 (storage co-location). |
+| NESO TEC | PRO-002549 | Newlands Hill Wind Energy Hub | Awaiting Consents | connected 0 MW; cumulative 119 MW | MW effective from 2030-04-03 | Exact name match in the NESO file; no identifier is shared with the REPD records. |
+
+## Data credits
+
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: 2026-08-03; Latest record update in the file: 2026-07-24; Download date: 2026-08-25; Facts exported: 2026-10-18.
+- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register. Source dates: Release date: 2026-10-10; Download date: 2026-10-13; Facts exported: 2026-10-18.
+- Use of these registers does not imply endorsement by their publishers.
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Scotland Against Spin | 5 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+| BESS | 1 |
+| Hybrid | 1 |
+| Onshore Wind | 1 |
+
+## What is the planning status of Newlands Hill Wind Energy Hub?
+
+No single status applies. Statuses by register record: Planning Application Submitted (2), Awaiting Consents (1). The table gives each record's identifier, date and relationship; records are not combined.
+
+## What are the main community discussions around Newlands Hill Wind Energy Hub?
+
+5 archived public posts from 1 group, dated 2026-02-27 to 2026-10-13. The most frequent theme tags are BESS (1), Hybrid (1), Onshore Wind (1). Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-10-13, Scotland Against Spin: https://slava.it.com/?sel=29684760257792987 (themes: BESS, Hybrid, Onshore Wind)
+- 2026-07-10, Scotland Against Spin: https://slava.it.com/?sel=28466187459650279 (themes: none tagged)
+- 2026-03-07, Scotland Against Spin: https://slava.it.com/?sel=26998468626422177 (themes: none tagged)
+- 2026-03-06, Scotland Against Spin: https://slava.it.com/?sel=26987878154147891 (themes: none tagged)
+- 2026-02-27, Scotland Against Spin: https://slava.it.com/?sel=26920117477590626 (themes: none tagged)
+
+---
+HTML version: https://slava.it.com/projects/newlands-hill-wind-energy-hub.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# Norwich to Tilbury (East Anglia GREEN)
+
+Norwich to Tilbury (East Anglia GREEN) is a wind, solar and storage project tracked on slava.it.com. The archive holds 2 community posts from 1 group, latest 2026-10-13. No planning reference is recorded in the registers used. Consent or stage: DCO application EN020027, accepted for examination 26 September 2025 (reported). Top recurring themes: none tagged.
+
+## Facts and where they come from
+
+Basis: reported = stated in a report linked under Sources for reported facts; we have not checked it.
+
+| Item | Value | Basis |
+|---|---|---|
+| Consent or stage | DCO application EN020027, accepted for examination 26 September 2025 | reported |
+| Operator | National Grid Electricity Transmission | reported |
+| Kind | grid corridor (planned) | reported |
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Essex Suffolk Norfolk Pylons | 2 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+
+
+## What is the planning status of Norwich to Tilbury (East Anglia GREEN)?
+
+Recorded: Consent or stage: DCO application EN020027, accepted for examination 26 September 2025 (reported).
+
+## What are the main community discussions around Norwich to Tilbury (East Anglia GREEN)?
+
+2 archived public posts from 1 group, dated 2026-10-07 to 2026-10-13. The most frequent theme tags are none tagged. Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-10-13, Essex Suffolk Norfolk Pylons: https://slava.it.com/?sel=1825800558460191 (themes: none tagged)
+- 2026-10-07, Essex Suffolk Norfolk Pylons: https://slava.it.com/?sel=1819995232374057 (themes: none tagged)
+
+---
+HTML version: https://slava.it.com/projects/norwich-to-tilbury-east-anglia-green.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# Olrig Mains Wind Farm
+
+Olrig Mains Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 2 community posts from 2 groups, latest 2026-09-30. No planning reference is recorded in the registers used. Embedded Register project status: Scoping (register). Top recurring themes: Onshore Wind (2), BESS (1). Posts are archived public group posts and are not independently verified.
+
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+| Item | Value | Basis |
+|---|---|---|
+| Embedded Register project status | Scoping | register |
+
+## Data credits
+
+- Supported by National Energy SO Open Data. Data: Embedded Register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/embedded-register. Source dates: Release date: 2026-10-10; Download date: 2026-10-13; Facts exported: 2026-10-18.
+- Use of these registers does not imply endorsement by their publishers.
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Scotland Against Spin | 1 |
+| Mey BESS Action Group | 1 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+| Onshore Wind | 2 |
+| BESS | 1 |
+| Hybrid | 1 |
+
+## What is the planning status of Olrig Mains Wind Farm?
+
+Recorded: Embedded Register project status: Scoping (register).
+
+## What are the main community discussions around Olrig Mains Wind Farm?
+
+2 archived public posts from 2 groups, dated 2026-09-28 to 2026-09-30. The most frequent theme tags are Onshore Wind (2), BESS (1), Hybrid (1). Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-09-30, Scotland Against Spin: https://slava.it.com/?sel=29506537835615231 (themes: Onshore Wind)
+- 2026-09-28, Mey BESS Action Group: https://slava.it.com/?sel=1118643160836500 (themes: BESS, Hybrid, Onshore Wind)
+
+---
+HTML version: https://slava.it.com/projects/olrig-mains-wind-farm.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# Overhill Wind Farm
+
+Overhill Wind Farm is a pylons and grid project tracked on slava.it.com. The archive holds 2 community posts from 1 group, latest 2026-10-06. No planning reference is recorded in the registers used. TEC project status: Consents Approved (register). Top recurring themes: Onshore Wind (2), Substation (1). Posts are archived public group posts and are not independently verified.
+
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+Abbreviations: TEC = Transmission Entry Capacity register.
+
+| Item | Value | Basis |
+|---|---|---|
+| TEC project status | Consents Approved | register |
+
+## Data credits
+
+- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register. Source dates: Release date: 2026-10-10; Download date: 2026-10-13; Facts exported: 2026-10-18.
+- Use of these registers does not imply endorsement by their publishers.
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Scotland Against Spin | 2 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+| Onshore Wind | 2 |
+| Substation | 1 |
+
+## What is the planning status of Overhill Wind Farm?
+
+Recorded: TEC project status: Consents Approved (register).
+
+## What are the main community discussions around Overhill Wind Farm?
+
+2 archived public posts from 1 group, dated 2026-09-25 to 2026-10-06. The most frequent theme tags are Onshore Wind (2), Substation (1). Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-10-06, Scotland Against Spin: https://slava.it.com/?sel=29590247160577631 (themes: Onshore Wind, Substation)
+- 2026-09-25, Scotland Against Spin: https://slava.it.com/?sel=29447279554874393 (themes: Onshore Wind)
+
+---
+HTML version: https://slava.it.com/projects/overhill-wind-farm.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# Ravenscraig data centre (SevenFourEight)
+
+Ravenscraig data centre (SevenFourEight) is an AI data centre project tracked on slava.it.com. The archive holds 4 community posts from 1 group, latest 2026-09-11. No planning reference is recorded in the registers used. Status: Application reported filed (2025); no documents or decision found; a pre-application exhibition was set for 6 October (reported). Top recurring themes: Data Centre (4), BESS (1).
+
+## Facts and where they come from
+
+Basis: reported = stated in a report linked under Sources for reported facts; we have not checked it.
+
+| Item | Value | Basis |
+|---|---|---|
+| Status | Application reported filed (2025); no documents or decision found; a pre-application exhibition was set for 6 October | reported |
+| Developer | Apatura (Apatura DC Project 2 Ltd for the battery element) | reported |
+| Council | North Lanarkshire Council | reported |
+| Capacity | 550 MW demand capacity (public notice, 2025) | reported |
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Grampian Against Data Centres | 4 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+| Data Centre | 4 |
+| BESS | 1 |
+
+## What is the planning status of Ravenscraig data centre (SevenFourEight)?
+
+Recorded: Status: Application reported filed (2025); no documents or decision found; a pre-application exhibition was set for 6 October (reported).
+
+## What are the main community discussions around Ravenscraig data centre (SevenFourEight)?
+
+4 archived public posts from 1 group, dated 2026-08-31 to 2026-09-11. The most frequent theme tags are Data Centre (4), BESS (1). Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-09-11, Grampian Against Data Centres: https://slava.it.com/?sel=1599581118544750 (themes: Data Centre)
+- 2026-09-06, Grampian Against Data Centres: https://slava.it.com/?sel=1595403538962508 (themes: BESS, Data Centre)
+- 2026-08-31, Grampian Against Data Centres: https://slava.it.com/?sel=1590222566147272 (themes: Data Centre)
+- 2026-08-31, Grampian Against Data Centres: https://slava.it.com/?sel=1590220179480844 (themes: Data Centre)
+
+---
+HTML version: https://slava.it.com/projects/ravenscraig-data-centre-sevenfoureight.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# Rufus data centre campus (Hurlford)
+
+Rufus data centre campus (Hurlford) is an AI data centre project tracked on slava.it.com. The archive holds 2 community posts from 2 groups, latest 2026-10-16. No planning reference is recorded in the registers used. Status: Unverified: no primary source has been confirmed for display here, so check the council's public planning register. Top recurring themes: Data Centre (2).
+
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits); inferred = our own deduction, not confirmed by a source; unverified = no source we could rely on was found.
+
+| Item | Value | Basis |
+|---|---|---|
+| Status | Unverified: no primary source has been confirmed for display here, so check the council's public planning register | unverified |
+| Company | ILI RUFUS LIMITED (company number SC825440); Active; incorporated 2024-10-10 | register |
+| Controlling company (person with significant control) | Intelligent Land Investments Group Plc | register |
+| Council (inferred) | East Ayrshire Council, inferred from the site's location in Hurlford; not confirmed by a planning register | inferred |
+| Capacity | Unverified: no primary source found | unverified |
+
+## Data credits
+
+- Company facts: Companies House public register. Data: Companies House, the UK register of companies. Terms: [Companies House states that it imposes no rules or requirements on how the information on the public register is used (page updated 9 August 2019)](https://www.gov.uk/government/publications/companies-house-accreditation-to-information-fair-traders-scheme/public-task-copyright-and-crown-copyright). Source: https://find-and-update.company-information.service.gov.uk/. Source dates: Terms checked: 2026-10-17.
+- Use of these registers does not imply endorsement by their publishers.
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Hurlford Rufus Data Centre Community Group | 1 |
+| Scotland Against Spin | 1 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+| Data Centre | 2 |
+
+## What is the planning status of Rufus data centre campus (Hurlford)?
+
+Recorded: Status: Unverified: no primary source has been confirmed for display here, so check the council's public planning register.
+
+## What are the main community discussions around Rufus data centre campus (Hurlford)?
+
+2 archived public posts from 2 groups, dated 2026-03-30 to 2026-10-16. The most frequent theme tags are Data Centre (2). Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-10-16, Hurlford Rufus Data Centre Community Group: https://slava.it.com/?sel=1839328240854336 (themes: Data Centre)
+- 2026-03-30, Scotland Against Spin: https://slava.it.com/?sel=27240914685510902 (themes: Data Centre)
+
+---
+HTML version: https://slava.it.com/projects/rufus-data-centre-campus-hurlford.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# Sanquhar II Wind Farm
+
+Sanquhar II Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 6 community posts from 2 groups, latest 2026-10-13. 2 register records are listed (2 NESO TEC). All list the status Consents Approved. Top recurring themes: Onshore Wind (5). Posts are archived public group posts and are not independently verified.
+
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+Abbreviations: TEC = Transmission Entry Capacity register; NESO = National Energy System Operator.
+
+| Item | Value | Basis |
+|---|---|---|
+| Register records | 2 listed (2 NESO TEC). Statuses: Consents Approved (2) | register |
+
+## Register records
+
+Each row is one register record with its own identifier; records are not combined. Relationships are stated only where a register links the records, and are otherwise labelled as unlinked or unverified. The NESO files give no status date; the date shown is the MW effective-from date.
+
+| Register | Identifier | Name as recorded | Status | Capacity | Date | Relationship |
+|---|---|---|---|---|---|---|
+| NESO TEC | PRO-000352-1 | Sanquhar II Wind Farm | Consents Approved | connected 0 MW; cumulative 137 MW | MW effective from 2026-07-31 | Stage 1 of NESO project PRO-000352. |
+| NESO TEC | PRO-000352-2 | Sanquhar II Wind Farm | Consents Approved | connected 0 MW; cumulative 250 MW | MW effective from 2027-02-28 | Stage 2 of NESO project PRO-000352. |
+
+## Data credits
+
+- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register. Source dates: Release date: 2026-10-10; Download date: 2026-10-13; Facts exported: 2026-10-18.
+- Use of these registers does not imply endorsement by their publishers.
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Scotland Against Spin | 5 |
+| Scottish Electricity Generating Stations | 1 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+| Onshore Wind | 5 |
+
+## What is the planning status of Sanquhar II Wind Farm?
+
+All 2 listed register records show the status Consents Approved.
+
+## What are the main community discussions around Sanquhar II Wind Farm?
+
+6 archived public posts from 2 groups, dated 2026-01-21 to 2026-10-13. The most frequent theme tags are Onshore Wind (5). Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-10-13, Scottish Electricity Generating Stations: https://slava.it.com/?sel=1402323545393220 (themes: Onshore Wind)
+- 2026-04-10, Scotland Against Spin: https://slava.it.com/?sel=27358399713762398 (themes: Onshore Wind)
+- 2026-04-09, Scotland Against Spin: https://slava.it.com/?sel=27352363804365989 (themes: Onshore Wind)
+- 2026-03-05, Scotland Against Spin: https://slava.it.com/?sel=26981039984831708 (themes: none tagged)
+- 2026-02-10, Scotland Against Spin: https://slava.it.com/?sel=26761150260154016 (themes: Onshore Wind)
+- 2026-01-21, Scotland Against Spin: https://slava.it.com/?sel=26569330446002666 (themes: Onshore Wind)
+
+---
+HTML version: https://slava.it.com/projects/sanquhar-ii-wind-farm.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# Scoop Hill Wind Farm
+
+Scoop Hill Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 4 community posts from 1 group, latest 2026-05-28. 3 register records are listed (2 REPD, 1 NESO TEC). Their statuses differ, so no single status is given. Top recurring themes: Onshore Wind (3).
+
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+Abbreviations: REPD = Renewable Energy Planning Database; TEC = Transmission Entry Capacity register; NESO = National Energy System Operator.
+
+| Item | Value | Basis |
+|---|---|---|
+| Register records | 3 listed (2 REPD, 1 NESO TEC). Statuses: Planning Permission Refused (2), Awaiting Consents (1) | register |
+
+## Register records
+
+Each row is one register record with its own identifier; records are not combined. Relationships are stated only where a register links the records, and are otherwise labelled as unlinked or unverified. REPD dates are the record's update date and the date of the status event where one is recorded. The NESO files give no status date; the date shown is the MW effective-from date.
+
+| Register | Identifier | Name as recorded | Status | Capacity | Date | Relationship |
+|---|---|---|---|---|---|---|
+| REPD | 7454 | Scoop Hill Wind Farm | Planning Permission Refused | 432 MW | record updated 2026-06-22; status event 2026-02-05 | Exact name match. |
+| REPD | 20966 | Scoop Hill Wind Farm | Planning Permission Refused | 200 MW | record updated date not recorded; status event 2026-02-05 | Exact name match; REPD links it to 7454 (storage co-location link type). |
+| NESO TEC | PRO-000327 | Scoop Hill Wind Farm | Awaiting Consents | connected 0 MW; cumulative 500 MW | MW effective from 2027-10-31 | Exact name match in the NESO file; no identifier is shared with the REPD records. |
+
+## Data credits
+
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: 2026-08-03; Latest record update in the file: 2026-07-24; Download date: 2026-08-25; Facts exported: 2026-10-18.
+- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register. Source dates: Release date: 2026-10-10; Download date: 2026-10-13; Facts exported: 2026-10-18.
+- Use of these registers does not imply endorsement by their publishers.
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Scotland Against Spin | 4 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+| Onshore Wind | 3 |
+
+## What is the planning status of Scoop Hill Wind Farm?
+
+No single status applies. Statuses by register record: Planning Permission Refused (2), Awaiting Consents (1). The table gives each record's identifier, date and relationship; records are not combined.
+
+## What are the main community discussions around Scoop Hill Wind Farm?
+
+4 archived public posts from 1 group, dated 2026-02-06 to 2026-05-28. The most frequent theme tags are Onshore Wind (3). Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-05-28, Scotland Against Spin: https://slava.it.com/?sel=27938132439122453 (themes: Onshore Wind)
+- 2026-05-24, Scotland Against Spin: https://slava.it.com/?sel=27885467874388910 (themes: Onshore Wind)
+- 2026-02-06, Scotland Against Spin: https://slava.it.com/?sel=26719613500974359 (themes: none tagged)
+- 2026-02-06, Scotland Against Spin: https://slava.it.com/?sel=26718997297702646 (themes: Onshore Wind)
+
+---
+HTML version: https://slava.it.com/projects/scoop-hill-wind-farm.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# Seagreen
+
+Seagreen is a wind, solar and storage project tracked on slava.it.com. The archive holds 2 community posts from 1 group, latest 2026-10-12. REPD reference: 2540 (register). REPD status: Operational (register). Top recurring themes: Onshore Wind (2). Posts are archived public group posts and are not independently verified.
+
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+Abbreviations: REPD = Renewable Energy Planning Database.
+
+| Item | Value | Basis |
+|---|---|---|
+| REPD reference | 2540 | register |
+| REPD status | Operational | register |
+
+## Data credits
+
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: 2026-08-03; Latest record update in the file: 2026-07-24; Download date: 2026-08-25; Facts exported: 2026-10-18.
+- Use of these registers does not imply endorsement by their publishers.
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Wind Energy's Absurd | 2 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+| Onshore Wind | 2 |
+
+## What is the planning status of Seagreen?
+
+Recorded: REPD status: Operational (register).
+
+## What are the main community discussions around Seagreen?
+
+2 archived public posts from 1 group, dated 2026-09-14 to 2026-10-12. The most frequent theme tags are Onshore Wind (2). Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-10-12, Wind Energy's Absurd: https://slava.it.com/?sel=1538873608269934 (themes: Onshore Wind)
+- 2026-09-14, Wind Energy's Absurd: https://slava.it.com/?sel=1512400374250591 (themes: Onshore Wind)
+
+---
+HTML version: https://slava.it.com/projects/seagreen.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# Shinness Wind Farm
+
+Shinness Wind Farm is a wind, solar and storage project tracked on slava.it.com. The archive holds 3 community posts from 2 groups, latest 2026-10-01. 2 register records are listed (2 REPD). All list the status Planning Application Submitted. Top recurring themes: Onshore Wind (3). Posts are archived public group posts and are not independently verified.
+
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+Abbreviations: REPD = Renewable Energy Planning Database.
+
+| Item | Value | Basis |
+|---|---|---|
+| Register records | 2 listed (2 REPD). Statuses: Planning Application Submitted (2) | register |
+
+## Register records
+
+Each row is one register record with its own identifier; records are not combined. Relationships are stated only where a register links the records, and are otherwise labelled as unlinked or unverified. REPD dates are the record's update date and the date of the status event where one is recorded.
+
+| Register | Identifier | Name as recorded | Status | Capacity | Date | Relationship |
+|---|---|---|---|---|---|---|
+| REPD | 12027 | Shinness Wind Farm | Planning Application Submitted | 105.6 MW | record updated 2024-06-11; status event 2024-04-15 | Exact name match. |
+| REPD | 12029 | Shinness Wind Farm | Planning Application Submitted | 105 MW | record updated 2024-06-11; status event 2024-04-15 | Exact name match; REPD links it to 12027 (storage co-location). |
+
+## Data credits
+
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: 2026-08-03; Latest record update in the file: 2026-07-24; Download date: 2026-08-25; Facts exported: 2026-10-18.
+- Use of these registers does not imply endorsement by their publishers.
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Wind Energy's Absurd | 2 |
+| Scotland Against Spin | 1 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+| Onshore Wind | 3 |
+
+## What is the planning status of Shinness Wind Farm?
+
+All 2 listed register records show the status Planning Application Submitted.
+
+## What are the main community discussions around Shinness Wind Farm?
+
+3 archived public posts from 2 groups, dated 2026-07-06 to 2026-10-01. The most frequent theme tags are Onshore Wind (3). Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-10-01, Wind Energy's Absurd: https://slava.it.com/?sel=1528193569337938 (themes: Onshore Wind)
+- 2026-09-28, Wind Energy's Absurd: https://slava.it.com/?sel=1525424429614852 (themes: Onshore Wind)
+- 2026-07-06, Scotland Against Spin: https://slava.it.com/?sel=28423298557272503 (themes: Onshore Wind)
+
+---
+HTML version: https://slava.it.com/projects/shinness-wind-farm.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# Spiorad na Mara
+
+Spiorad na Mara is a wind, solar and storage project tracked on slava.it.com. The archive holds 3 community posts from 1 group, latest 2026-09-01. REPD reference: 13735 (register). REPD status: Planning Application Submitted (register). Top recurring themes: Onshore Wind (1). Posts are archived public group posts and are not independently verified.
+
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+Abbreviations: REPD = Renewable Energy Planning Database.
+
+| Item | Value | Basis |
+|---|---|---|
+| REPD reference | 13735 | register |
+| REPD status | Planning Application Submitted | register |
+
+## Data credits
+
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: 2026-08-03; Latest record update in the file: 2026-07-24; Download date: 2026-08-25; Facts exported: 2026-10-18.
+- Use of these registers does not imply endorsement by their publishers.
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Scotland Against Spin | 3 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+| Onshore Wind | 1 |
+
+## What is the planning status of Spiorad na Mara?
+
+Recorded: REPD status: Planning Application Submitted (register).
+
+## What are the main community discussions around Spiorad na Mara?
+
+3 archived public posts from 1 group, dated 2026-03-22 to 2026-09-01. The most frequent theme tags are Onshore Wind (1). Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-09-01, Scotland Against Spin: https://slava.it.com/?sel=29113186714950347 (themes: none tagged)
+- 2026-06-16, Scotland Against Spin: https://slava.it.com/?sel=28189987387270289 (themes: none tagged)
+- 2026-03-22, Scotland Against Spin: https://slava.it.com/?sel=27151152114487160 (themes: Onshore Wind)
+
+---
+HTML version: https://slava.it.com/projects/spiorad-na-mara.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# Whitelee
+
+Whitelee is a wind, solar and storage project tracked on slava.it.com. The archive holds 6 community posts from 4 groups, latest 2026-10-15. 13 register records are listed (8 REPD, 5 NESO TEC). Their statuses differ, so no single status is given. Top recurring themes: Onshore Wind (5). Posts are archived public group posts and are not independently verified.
+
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+Abbreviations: REPD = Renewable Energy Planning Database; TEC = Transmission Entry Capacity register; NESO = National Energy System Operator.
+
+| Item | Value | Basis |
+|---|---|---|
+| Register records | 13 listed (8 REPD, 5 NESO TEC). Statuses: Operational (4), Planning Permission Granted (3), Scoping (3), Built (2), Appeal Refused (1) | register |
+
+## Register records
+
+Each row is one register record with its own identifier; records are not combined. Relationships are stated only where a register links the records, and are otherwise labelled as unlinked or unverified. REPD dates are the record's update date and the date of the status event where one is recorded. The NESO files give no status date; the date shown is the MW effective-from date.
+
+| Register | Identifier | Name as recorded | Status | Capacity | Date | Relationship |
+|---|---|---|---|---|---|---|
+| REPD | 3489 | Whitelee | Operational | 322 MW | record updated 2010-05-20; status event 2007-12-14 | Exact name match. |
+| REPD | 7174 | Whitelee Wind Farm Battery Storage Extension | Operational | 50 MW | record updated 2022-02-21; status event 2021-10-01 | Battery storage extension; REPD links it to 3489 (storage co-location). |
+| REPD | 2757 | Whitelee Windfarm Extension phase 2 | Operational | 109 MW | record updated 2013-04-19; status event 2013-01-15 | 'Whitelee Windfarm Extension phase 2'; no REPD link to 3489. |
+| REPD | 3981 | Whitelee Windfarm Extension Phase 1 | Operational | 108 MW | record updated 2013-04-22; status event 2012-10-31 | 'Whitelee Windfarm Extension Phase 1'; no REPD link to 3489. |
+| REPD | 4232 | Whitelee Windfarm Extension Phase 3 | Appeal Refused | 12 MW | record updated 2016-11-01; status event 2016-10-19 | 'Whitelee Windfarm Extension Phase 3'; no REPD link to 3489. |
+| REPD | 8341 | Whitelees Hydrogen Production Facility, Solar Farm & Battery Storage | Planning Permission Granted | 40 MW | record updated 2025-01-20; status event 2025-01-09 | 'Whitelees' hydrogen, solar and battery project; REPD links 8341, 8342 and 9076 to each other, not to 3489. |
+| REPD | 8342 | Whitelees Hydrogen Production Facility, Solar Farm & Battery Storage | Planning Permission Granted | 50 MW | record updated 2025-01-20; status event 2025-01-09 | 'Whitelees' hydrogen, solar and battery project; linked to 8341 and 9076 only. |
+| REPD | 9076 | Whitelees Hydrogen Production Facility, Solar Farm & Battery Storage | Planning Permission Granted | 20 MW | record updated 2025-01-20; status event 2025-01-09 | 'Whitelees' hydrogen, solar and battery project; linked to 8341 and 8342 only. |
+| NESO TEC | PRO-000067-1 | Whitelee | Built | connected 305 MW; cumulative 305 MW | no effective date in the file | Stage 1 of NESO project PRO-000067; no identifier is shared with the REPD records, so the link to REPD 3489 is unverified. |
+| NESO TEC | PRO-000067-2 | Whitelee | Scoping | connected 0 MW; cumulative 355 MW | MW effective from 2031-05-02 | Stage 2 of NESO project PRO-000067. |
+| NESO TEC | PRO-000067-3 | Whitelee | Scoping | connected 0 MW; cumulative 660 MW | MW effective from 2033-04-25 | Stage 3 of NESO project PRO-000067. |
+| NESO TEC | PRO-000067-4 | Whitelee | Scoping | connected 0 MW; cumulative 818 MW | MW effective from 2034-04-27 | Stage 4 of NESO project PRO-000067. |
+| NESO TEC | PRO-000068 | Whitelee Extension | Built | connected 206 MW; cumulative 238 MW | MW effective from 2026-12-01 | 'Whitelee Extension'; a different NESO project number; its relation to the REPD extension records is unverified. |
+
+The records listed describe the registered assets. Several archived posts discuss a repowering proposal; a search of the registers by name did not establish that proposal's register status, so none is shown here.
+
+## Data credits
+
+- Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: 2026-08-03; Latest record update in the file: 2026-07-24; Download date: 2026-08-25; Facts exported: 2026-10-18.
+- Supported by National Energy SO Open Data. Data: Transmission Entry Capacity (TEC) register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/transmission-entry-capacity-tec-register. Source dates: Release date: 2026-10-10; Download date: 2026-10-13; Facts exported: 2026-10-18.
+- Use of these registers does not imply endorsement by their publishers.
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Scotland Against Spin | 3 |
+| Hurlford Rufus Data Centre Community Group | 1 |
+| Our Power | 1 |
+| Scottish Electricity Generating Stations | 1 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+| Onshore Wind | 5 |
+
+## What is the planning status of Whitelee?
+
+No single status applies. Statuses by register record: Operational (4), Planning Permission Granted (3), Scoping (3), Built (2), Appeal Refused (1). The table gives each record's identifier, date and relationship; records are not combined. The records listed describe the registered assets. Several archived posts discuss a repowering proposal; a search of the registers by name did not establish that proposal's register status, so none is shown here.
+
+## What are the main community discussions around Whitelee?
+
+6 archived public posts from 4 groups, dated 2026-07-22 to 2026-10-15. The most frequent theme tags are Onshore Wind (5). Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-10-15, Hurlford Rufus Data Centre Community Group: https://slava.it.com/?sel=1838183050968855 (themes: Onshore Wind)
+- 2026-10-14, Our Power: https://slava.it.com/?sel=122135942973244466 (themes: Onshore Wind)
+- 2026-10-13, Scotland Against Spin: https://slava.it.com/?sel=29683618354573844 (themes: Onshore Wind)
+- 2026-10-12, Scottish Electricity Generating Stations: https://slava.it.com/?sel=1401079868850921 (themes: Onshore Wind)
+- 2026-09-30, Scotland Against Spin: https://slava.it.com/?sel=29514705728131775 (themes: Onshore Wind)
+- 2026-07-22, Scotland Against Spin: https://slava.it.com/?sel=28603122292623461 (themes: none tagged)
+
+---
+HTML version: https://slava.it.com/projects/whitelee.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# Pylons and grid transmission
+
+The Pylons and grid transmission hub lists 4 projects with at least two linked community posts, covering 6 posts from 3 groups, latest 2026-10-14. Top recurring themes: OHL (Pylons) (4), Substation (3). Each project page gives register facts and links to the archive entries.
+
+## Projects
+
+- [Beauly to Peterhead 400kV overhead line](https://slava.it.com/projects/beauly-to-peterhead-400kv-overhead-line.md): 4 posts; latest 2026-10-14
+- [Hawthorn Pit -Solar Farm](https://slava.it.com/projects/hawthorn-pit-solar-farm.md): 2 posts; latest 2026-10-12
+- [Kintore to Tealing 400kV overhead line](https://slava.it.com/projects/kintore-to-tealing-400kv-overhead-line.md): 5 posts; latest 2026-09-19
+- [Overhill Wind Farm](https://slava.it.com/projects/overhill-wind-farm.md): 2 posts; latest 2026-10-06
+
+## Which projects are in this hub?
+
+Beauly to Peterhead 400kV overhead line; Hawthorn Pit -Solar Farm; Kintore to Tealing 400kV overhead line; Overhill Wind Farm.
+
+## What are the main community themes in this hub?
+
+The most frequent theme tags are OHL (Pylons) (4), Substation (3), Onshore Wind (2), from 6 archived public posts.
+
+HTML version: https://slava.it.com/pylons-grid/
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# AI and data centres
+
+The AI and data centres hub lists 7 projects with at least two linked community posts, covering 38 posts from 9 groups, latest 2026-10-16. Top recurring themes: Data Centre (38), Onshore Wind (2). Each project page gives register facts and links to the archive entries.
+
+## Projects
+
+- [Blackdog data centre campus](https://slava.it.com/projects/blackdog-data-centre-campus.md): 11 posts; latest 2026-10-15
+- [Cato data centre campus (ILI Group, Auchtertool, Fife)](https://slava.it.com/projects/cato-data-centre-campus-ili-group-auchtertool-fife.md): 5 posts; latest 2026-10-15
+- [Chapelcross data centre campus (CX Tech)](https://slava.it.com/projects/chapelcross-data-centre-campus-cx-tech.md): 29 posts; latest 2026-10-16
+- [Cockenzie data centre (SDCL, former power station site)](https://slava.it.com/projects/cockenzie-data-centre-sdcl-former-power-station-site.md): 5 posts; latest 2026-10-15
+- [Inch Cape](https://slava.it.com/projects/inch-cape.md): 2 posts; latest 2026-10-16
+- [Ravenscraig data centre (SevenFourEight)](https://slava.it.com/projects/ravenscraig-data-centre-sevenfoureight.md): 4 posts; latest 2026-09-11
+- [Rufus data centre campus (Hurlford)](https://slava.it.com/projects/rufus-data-centre-campus-hurlford.md): 2 posts; latest 2026-10-16
+
+## Which projects are in this hub?
+
+Blackdog data centre campus; Cato data centre campus (ILI Group, Auchtertool, Fife); Chapelcross data centre campus (CX Tech); Cockenzie data centre (SDCL, former power station site); Inch Cape; Ravenscraig data centre (SevenFourEight); Rufus data centre campus (Hurlford).
+
+## What are the main community themes in this hub?
+
+The most frequent theme tags are Data Centre (38), Onshore Wind (2), BESS (1), from 38 archived public posts.
+
+HTML version: https://slava.it.com/data-centres/
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+
+
+---
+
+# Wind, solar and storage
+
+The Wind, solar and storage hub lists 27 projects with at least two linked community posts, covering 67 posts from 9 groups, latest 2026-10-15. Top recurring themes: Onshore Wind (65), BESS (4). Each project page gives register facts and links to the archive entries.
+
+## Projects
+
+- [Arecleoch Wind Farm and extension](https://slava.it.com/projects/arecleoch.md): 2 posts; latest 2026-10-02
+- [Berwick Bank Offshore Wind Farm](https://slava.it.com/projects/berwick-bank-offshore-wind-farm.md): 11 posts; latest 2026-10-07
+- [Carn Fearna Wind Farm](https://slava.it.com/projects/carn-fearna-wind-farm.md): 2 posts; latest 2026-10-07
+- [Chapelcross data centre campus (CX Tech)](https://slava.it.com/projects/chapelcross-data-centre-campus-cx-tech.md): 29 posts; latest 2026-10-16
+- [Ditcher Law](https://slava.it.com/projects/ditcher-law.md): 3 posts; latest 2026-09-06
+- [Giants Burn Wind Farm](https://slava.it.com/projects/giants-burn-wind-farm.md): 3 posts; latest 2026-06-19
+- [Glen Earrach Pumped Storage Hydro](https://slava.it.com/projects/glen-earrach-pumped-storage-hydro.md): 8 posts; latest 2026-10-10
+- [Glenvernoch](https://slava.it.com/projects/glenvernoch.md): 4 posts; latest 2026-06-30
+- [Golticlay Wind Farm](https://slava.it.com/projects/golticlay-wind-farm.md): 4 posts; latest 2026-10-02
+- [Hawks Nest Farm - Battery Storage](https://slava.it.com/projects/hawks-nest-farm-battery-storage.md): 2 posts; latest 2026-09-03
+- [Hawthorn Pit -Solar Farm](https://slava.it.com/projects/hawthorn-pit-solar-farm.md): 2 posts; latest 2026-10-12
+- [Inch Cape](https://slava.it.com/projects/inch-cape.md): 2 posts; latest 2026-10-16
+- [Lairg II Wind Farm](https://slava.it.com/projects/lairg-ii-wind-farm.md): 2 posts; latest 2026-07-16
+- [Leithenwater Wind Energy Hub - Wind Farm](https://slava.it.com/projects/leithenwater-wind-energy-hub-wind-farm.md): 3 posts; latest 2026-10-14
+- [Machair](https://slava.it.com/projects/machair.md): 4 posts; latest 2026-09-22
+- [Mossy Hill Wind Farm](https://slava.it.com/projects/mossy-hill-wind-farm.md): 3 posts; latest 2026-09-30
+- [New Cumnock BESS](https://slava.it.com/projects/new-cumnock-bess.md): 3 posts; latest 2026-06-15
+- [Newlands Hill Wind Energy Hub](https://slava.it.com/projects/newlands-hill-wind-energy-hub.md): 5 posts; latest 2026-10-13
+- [Olrig Mains Wind Farm](https://slava.it.com/projects/olrig-mains-wind-farm.md): 2 posts; latest 2026-09-30
+- [Overhill Wind Farm](https://slava.it.com/projects/overhill-wind-farm.md): 2 posts; latest 2026-10-06
+- [Ravenscraig data centre (SevenFourEight)](https://slava.it.com/projects/ravenscraig-data-centre-sevenfoureight.md): 4 posts; latest 2026-09-11
+- [Sanquhar II Wind Farm](https://slava.it.com/projects/sanquhar-ii-wind-farm.md): 6 posts; latest 2026-10-13
+- [Scoop Hill Wind Farm](https://slava.it.com/projects/scoop-hill-wind-farm.md): 4 posts; latest 2026-05-28
+- [Seagreen](https://slava.it.com/projects/seagreen.md): 2 posts; latest 2026-10-12
+- [Shinness Wind Farm](https://slava.it.com/projects/shinness-wind-farm.md): 3 posts; latest 2026-10-01
+- [Spiorad na Mara](https://slava.it.com/projects/spiorad-na-mara.md): 3 posts; latest 2026-09-01
+- [Whitelee](https://slava.it.com/projects/whitelee.md): 6 posts; latest 2026-10-15
+
+## Which projects are in this hub?
+
+Arecleoch Wind Farm and extension; Berwick Bank Offshore Wind Farm; Carn Fearna Wind Farm; Chapelcross data centre campus (CX Tech); Ditcher Law; Giants Burn Wind Farm; Glen Earrach Pumped Storage Hydro; Glenvernoch; Golticlay Wind Farm; Hawks Nest Farm - Battery Storage; Hawthorn Pit -Solar Farm; Inch Cape; Lairg II Wind Farm; Leithenwater Wind Energy Hub - Wind Farm; Machair; Mossy Hill Wind Farm; New Cumnock BESS; Newlands Hill Wind Energy Hub; Olrig Mains Wind Farm; Overhill Wind Farm; Ravenscraig data centre (SevenFourEight); Sanquhar II Wind Farm; Scoop Hill Wind Farm; Seagreen; Shinness Wind Farm; Spiorad na Mara; Whitelee.
+
+## What are the main community themes in this hub?
+
+The most frequent theme tags are Onshore Wind (65), BESS (4), Data Centre (3), from 67 archived public posts.
+
+HTML version: https://slava.it.com/renewables-wind/
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.
+

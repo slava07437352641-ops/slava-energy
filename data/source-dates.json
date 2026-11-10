@@ -1,0 +1,30 @@
+{
+ "schema": 1,
+ "purpose": "Release and download dates of the register files behind the displayed facts, with the evidence for each. Read by scripts/export_register_facts.py. A date applies only to the file whose SHA-256 is given here; a different file needs a new entry.",
+ "sources": {
+  "repd": {
+   "file": "REPD_Publication_Q2_2026.csv",
+   "sha256": "84c1b5f958a934d8b4b86ec88f50bdcf43830ded7ff2efc27bffca0c98695035",
+   "release_date": "2026-08-03",
+   "release_evidence": "GOV.UK publication page for the Renewable Energy Planning Database: its update log entry of 3 August 2026 reads 'Updated the Renewable Energy Planning Database (REPD) for July 2026', and the page lists this file as the Q2 2026 edition.",
+   "download_date": "2026-08-25",
+   "download_evidence": "The earliest local copy of this exact file (same SHA-256) was created on 2026-08-25. A second copy created on 2026-08-29 carries a download record from assets.publishing.service.gov.uk."
+  },
+  "neso_tec": {
+   "file": "tec-register-2026-10-10.csv",
+   "sha256": "eaa01c4c6398065586f530bc76a72cb8a16d182f33850aed47ffdeecb2fa9da1",
+   "release_date": "2026-10-10",
+   "release_evidence": "NESO publishes this dataset twice weekly and names each file by its date (for example tec-register-16-october-2026.csv). This copy is dated 10 October 2026 in its file name, and the notes written when it was downloaded describe it as the 'status of 10 Oct 2026'.",
+   "download_date": "2026-10-13",
+   "download_evidence": "The notes written when the NESO files were downloaded are dated 2026-10-13, and the earliest local copy of this exact file (same SHA-256) was created on 2026-10-13."
+  },
+  "neso_embedded": {
+   "file": "embedded-register-2026-10-10.csv",
+   "sha256": "1ad2538bd4535bc253f7af009a6defbb7f4aa9b53eb32420867c0b123c3e8bbb",
+   "release_date": "2026-10-10",
+   "release_evidence": "NESO publishes this dataset twice weekly and names each file by its date (for example embedded-register-16-october-2026.csv). This copy is dated 10 October 2026 in its file name.",
+   "download_date": "2026-10-13",
+   "download_evidence": "The notes written when the NESO files were downloaded are dated 2026-10-13, and the earliest local copy of this exact file (same SHA-256) was created on 2026-10-13."
+  }
+ }
+}

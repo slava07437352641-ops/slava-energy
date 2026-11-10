@@ -1,0 +1,46 @@
+# Grudie Bridge
+
+Grudie Bridge is a wind, solar and storage project tracked on slava.it.com. The archive holds 2 community posts from 1 group, latest 2026-10-10. No planning reference is recorded in the registers used. Embedded Register project status: Built (register). Top recurring themes: none tagged. Posts are archived public group posts and are not independently verified.
+
+## Facts and where they come from
+
+Basis: register = taken from a public register (dates and licences are under Data credits).
+
+| Item | Value | Basis |
+|---|---|---|
+| Embedded Register project status | Built | register |
+
+## Data credits
+
+- Supported by National Energy SO Open Data. Data: Embedded Register, National Energy System Operator. Licence: [NESO Open Data Licence v1.0](https://www.neso.energy/data-portal/neso-open-licence). Source: https://www.neso.energy/data-portal/embedded-register. Source dates: Release date: 2026-10-10; Download date: 2026-10-13; Facts exported: 2026-10-18.
+- Use of these registers does not imply endorsement by their publishers.
+
+## Source groups
+
+| Group | Posts |
+|---|---|
+| Scottish Electricity Generating Stations | 2 |
+
+## Theme breakdown
+
+| Theme | Posts |
+|---|---|
+
+
+## What is the planning status of Grudie Bridge?
+
+Recorded: Embedded Register project status: Built (register).
+
+## What are the main community discussions around Grudie Bridge?
+
+2 archived public posts from 1 group, dated 2026-10-01 to 2026-10-10. The most frequent theme tags are none tagged. Post text is not reproduced here; each archive entry links to the post.
+
+## Archive entries
+
+- 2026-10-10, Scottish Electricity Generating Stations: https://slava.it.com/?sel=1399260365699538 (themes: none tagged)
+- 2026-10-01, Scottish Electricity Generating Stations: https://slava.it.com/?sel=1391140323178209 (themes: none tagged)
+
+---
+HTML version: https://slava.it.com/projects/grudie-bridge.html
+Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
+For correction, privacy or removal requests: slava@atlasglobal.energy.

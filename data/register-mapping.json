@@ -1,0 +1,310 @@
+{
+ "schema": 1,
+ "checked": "2026-10-17",
+ "purpose": "Explicit mapping from a project page to the register records it lists. Each record is listed by its own identifier and is never combined with another. The exporter reads every listed record from its primary file, checks the identifier, name and stated basis, and refuses to export a page with several same-name records unless they are all listed here.",
+ "bases": {
+  "name_exact": "the record's name equals the project name",
+  "name_similar": "similar name only, no identifier link",
+  "register_link": "a register's own link joins the two records (checked against the REPD link table)",
+  "neso_project_number": "the NESO project number is the same (the suffix is the stage)",
+  "unverified": "relation not established by any identifier"
+ },
+ "projects": {
+  "Whitelee": {
+   "records": [
+    {
+     "register": "repd",
+     "id": "3489",
+     "basis": "name_exact",
+     "relation": "Exact name match."
+    },
+    {
+     "register": "repd",
+     "id": "7174",
+     "basis": "register_link",
+     "relation": "Battery storage extension; REPD links it to 3489 (storage co-location).",
+     "with": "3489"
+    },
+    {
+     "register": "repd",
+     "id": "2757",
+     "basis": "name_similar",
+     "relation": "'Whitelee Windfarm Extension phase 2'; no REPD link to 3489."
+    },
+    {
+     "register": "repd",
+     "id": "3981",
+     "basis": "name_similar",
+     "relation": "'Whitelee Windfarm Extension Phase 1'; no REPD link to 3489."
+    },
+    {
+     "register": "repd",
+     "id": "4232",
+     "basis": "name_similar",
+     "relation": "'Whitelee Windfarm Extension Phase 3'; no REPD link to 3489."
+    },
+    {
+     "register": "repd",
+     "id": "8341",
+     "basis": "name_similar",
+     "relation": "'Whitelees' hydrogen, solar and battery project; REPD links 8341, 8342 and 9076 to each other, not to 3489."
+    },
+    {
+     "register": "repd",
+     "id": "8342",
+     "basis": "name_similar",
+     "relation": "'Whitelees' hydrogen, solar and battery project; linked to 8341 and 9076 only."
+    },
+    {
+     "register": "repd",
+     "id": "9076",
+     "basis": "name_similar",
+     "relation": "'Whitelees' hydrogen, solar and battery project; linked to 8341 and 8342 only."
+    },
+    {
+     "register": "neso_tec",
+     "id": "PRO-000067-1",
+     "basis": "neso_project_number",
+     "relation": "Stage 1 of NESO project PRO-000067; no identifier is shared with the REPD records, so the link to REPD 3489 is unverified.",
+     "group": "PRO-000067"
+    },
+    {
+     "register": "neso_tec",
+     "id": "PRO-000067-2",
+     "basis": "neso_project_number",
+     "relation": "Stage 2 of NESO project PRO-000067.",
+     "group": "PRO-000067"
+    },
+    {
+     "register": "neso_tec",
+     "id": "PRO-000067-3",
+     "basis": "neso_project_number",
+     "relation": "Stage 3 of NESO project PRO-000067.",
+     "group": "PRO-000067"
+    },
+    {
+     "register": "neso_tec",
+     "id": "PRO-000067-4",
+     "basis": "neso_project_number",
+     "relation": "Stage 4 of NESO project PRO-000067.",
+     "group": "PRO-000067"
+    },
+    {
+     "register": "neso_tec",
+     "id": "PRO-000068",
+     "basis": "name_similar",
+     "relation": "'Whitelee Extension'; a different NESO project number; its relation to the REPD extension records is unverified."
+    }
+   ],
+   "note": "The records listed describe the registered assets. Several archived posts discuss a repowering proposal; a search of the registers by name did not establish that proposal's register status, so none is shown here."
+  },
+  "Arecleoch": {
+   "label": "Arecleoch Wind Farm and extension",
+   "records": [
+    {
+     "register": "repd",
+     "id": "3258",
+     "basis": "name_similar",
+     "relation": "Original wind farm; the name is spelled 'Arecleoch Windfarm'; no identifier is shared with the REPD NESO rows."
+    },
+    {
+     "register": "neso_tec",
+     "id": "PRO-000012-1",
+     "basis": "neso_project_number",
+     "relation": "Stage 1 of NESO project PRO-000012; relation to REPD 3258 is unverified (same site name, no shared identifier).",
+     "group": "PRO-000012"
+    },
+    {
+     "register": "neso_tec",
+     "id": "PRO-000012-2",
+     "basis": "neso_project_number",
+     "relation": "Stage 2 of NESO project PRO-000012.",
+     "group": "PRO-000012"
+    },
+    {
+     "register": "repd",
+     "id": "6798",
+     "basis": "name_similar",
+     "relation": "Extension: the REPD name is 'Arecleoch Wind Farm (extension)'."
+    },
+    {
+     "register": "repd",
+     "id": "7882",
+     "basis": "register_link",
+     "relation": "Extension battery storage; REPD links it to 6798 (storage co-location).",
+     "with": "6798"
+    },
+    {
+     "register": "neso_tec",
+     "id": "PRO-001111",
+     "basis": "unverified",
+     "relation": "'Arecleoch Extension Windfarm'; same capacity (72.8 MW) as REPD 6798 but no shared identifier, so the relation is unverified."
+    }
+   ]
+  },
+  "Golticlay Wind Farm": {
+   "records": [
+    {
+     "register": "repd",
+     "id": "5195",
+     "basis": "name_exact",
+     "relation": "Exact name match."
+    },
+    {
+     "register": "repd",
+     "id": "20387",
+     "basis": "name_similar",
+     "relation": "'Golticlay Wind Farm 2'; the REPD file gives it the same map reference as 5195; no identifier link."
+    },
+    {
+     "register": "repd",
+     "id": "18325",
+     "basis": "name_similar",
+     "relation": "Bulreanrob wind farm record; REPD links 18325 and 18326 to each other, not to 5195."
+    },
+    {
+     "register": "repd",
+     "id": "18326",
+     "basis": "register_link",
+     "relation": "Bulreanrob battery storage; REPD links it to 18325 (storage co-location).",
+     "with": "18325"
+    },
+    {
+     "register": "neso_embedded",
+     "id": "PRO-000370-1",
+     "basis": "neso_project_number",
+     "relation": "Stage 1 of NESO project PRO-000370 (Embedded Register); same name as REPD 5195 but capacity differs and no identifier is shared, so the link is unverified.",
+     "group": "PRO-000370"
+    },
+    {
+     "register": "neso_embedded",
+     "id": "PRO-000370-2",
+     "basis": "neso_project_number",
+     "relation": "Stage 2 of NESO project PRO-000370.",
+     "group": "PRO-000370"
+    },
+    {
+     "register": "neso_embedded",
+     "id": "PRO-000926",
+     "basis": "name_similar",
+     "relation": "'Golticlay Extension Wind Farm'; a different NESO project number; relation to the REPD records is unverified."
+    }
+   ]
+  },
+  "Mochrum Fell Wind Farm": {
+   "records": [
+    {
+     "register": "repd",
+     "id": "4466",
+     "basis": "name_exact",
+     "relation": "Exact name match; the earlier application. REPD links it to 7891 as a possible re-application."
+    },
+    {
+     "register": "repd",
+     "id": "7891",
+     "basis": "register_link",
+     "relation": "Later application; REPD link 'Are they re-applying (New REPD Ref)' joins it to 4466.",
+     "with": "4466"
+    }
+   ]
+  },
+  "Leithenwater Wind Energy Hub - Wind Farm": {
+   "records": [
+    {
+     "register": "repd",
+     "id": "12283",
+     "basis": "name_exact",
+     "relation": "Exact name match."
+    },
+    {
+     "register": "repd",
+     "id": "16496",
+     "basis": "register_link",
+     "relation": "Exact name match; REPD links it to 12283 (storage co-location).",
+     "with": "12283"
+    }
+   ]
+  },
+  "Newlands Hill Wind Energy Hub": {
+   "records": [
+    {
+     "register": "repd",
+     "id": "12289",
+     "basis": "name_exact",
+     "relation": "Exact name match."
+    },
+    {
+     "register": "repd",
+     "id": "15383",
+     "basis": "register_link",
+     "relation": "Exact name match; REPD links it to 12289 (storage co-location).",
+     "with": "12289"
+    },
+    {
+     "register": "neso_tec",
+     "id": "PRO-002549",
+     "basis": "name_exact",
+     "relation": "Exact name match in the NESO file; no identifier is shared with the REPD records."
+    }
+   ]
+  },
+  "Scoop Hill Wind Farm": {
+   "records": [
+    {
+     "register": "repd",
+     "id": "7454",
+     "basis": "name_exact",
+     "relation": "Exact name match."
+    },
+    {
+     "register": "repd",
+     "id": "20966",
+     "basis": "register_link",
+     "relation": "Exact name match; REPD links it to 7454 (storage co-location link type).",
+     "with": "7454"
+    },
+    {
+     "register": "neso_tec",
+     "id": "PRO-000327",
+     "basis": "name_exact",
+     "relation": "Exact name match in the NESO file; no identifier is shared with the REPD records."
+    }
+   ]
+  },
+  "Shinness Wind Farm": {
+   "records": [
+    {
+     "register": "repd",
+     "id": "12027",
+     "basis": "name_exact",
+     "relation": "Exact name match."
+    },
+    {
+     "register": "repd",
+     "id": "12029",
+     "basis": "register_link",
+     "relation": "Exact name match; REPD links it to 12027 (storage co-location).",
+     "with": "12027"
+    }
+   ]
+  },
+  "Sanquhar II Wind Farm": {
+   "records": [
+    {
+     "register": "neso_tec",
+     "id": "PRO-000352-1",
+     "basis": "neso_project_number",
+     "relation": "Stage 1 of NESO project PRO-000352.",
+     "group": "PRO-000352"
+    },
+    {
+     "register": "neso_tec",
+     "id": "PRO-000352-2",
+     "basis": "neso_project_number",
+     "relation": "Stage 2 of NESO project PRO-000352.",
+     "group": "PRO-000352"
+    }
+   ]
+  }
+ }
+}

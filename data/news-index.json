@@ -1,0 +1,711 @@
+{
+  "generated": "2026-11-09T19:14:59.000Z",
+  "sourceFilter": [
+    "Scotland Against Spin",
+    "Environmentalists Against Wind Turbines",
+    "Grampian Against Data Centres",
+    "Communities B4 Power Companies",
+    "Not A Just Transition",
+    "Mey BESS Action Group",
+    "7000 Acres Group",
+    "Better Cable Route (Strathpeffer & Contin)",
+    "Thirsk Against Battery Storage",
+    "Suffolk Energy Action Solutions (SEAS)",
+    "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
+    "Essex Suffolk Norfolk Pylons",
+    "Scottish Electricity Generating Stations",
+    "Worth Valley against Walshaw Moor Wind Farm",
+    "Wind Energy's Absurd",
+    "Rural Scotland (APRS)",
+    "Our Power",
+    "Say NO to Cockenzie Data Centre",
+    "Say No To Cato Data Centre",
+    "West Edinburgh Against AI Data Centre",
+    "Help Save Mochrum Fell",
+    "Save Our Hills - Dumfries and Galloway",
+    "Say No to West Calder Hyperscale Data Centre",
+    "NO to East Havering Data Centre in Upminster (Residents Group)",
+    "No Pylons Lincolnshire",
+    "Deeside Against Pylons",
+    "RE-Think Wales",
+    "North Carlisle Against Pylons and Substation",
+    "STOP EAST LINCOLNSHIRE PYLONS",
+    "Say NO to Chapelcross AI Data Centre",
+    "Hurlford Rufus Data Centre Community Group",
+    "Dunbar Against Massive Datacentres (DAMD)",
+    "WISBECH WITHOUT INCINERATION (WisWIN)",
+    "HOPE for Britain's countryside",
+    "Angus Pylon Action Group",
+    "Say No to One Earth Solar Farm",
+    "Sunnica Community Action Group",
+    "LEAVE OUR HILLS ALONE!"
+  ],
+  "selection": "strict global recency (most recent records first, across all tracked sources)",
+  "counts": {
+    "records": 18,
+    "Say No to One Earth Solar Farm": 1,
+    "Dunbar Against Massive Datacentres (DAMD)": 1,
+    "Say No To Cato Data Centre": 4,
+    "Scotland Against Spin": 3,
+    "Environmentalists Against Wind Turbines": 1,
+    "Scottish Electricity Generating Stations": 2,
+    "Essex Suffolk Norfolk Pylons": 1,
+    "Thirsk Against Battery Storage": 1,
+    "Worth Valley against Walshaw Moor Wind Farm": 1,
+    "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)": 1,
+    "Communities B4 Power Companies": 1,
+    "Our Power": 1
+  },
+  "dateRange": {
+    "from": "2026-11-09",
+    "to": "2026-11-09"
+  },
+  "records": [
+    {
+      "id": "1386059796939903",
+      "date": "2026-11-09",
+      "title": "Say No to One Earth Solar Farm",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No to One Earth Solar Farm",
+        "label": "Facebook · Say No to One Earth Solar Farm",
+        "url": "https://www.facebook.com/groups/729207392625150/posts/1386059796939903/"
+      },
+      "thin": false,
+      "bodyText": "Some research to show how much of Robert Jenrick's constituency is being, or has been, earmarked for solar: https://images.squarespace-cdn.com/.../2NewarkJune26.jpg\nMore information on the https://www.solarq.org/repdanalysis website.\nSOLARQ.ORG Land-take by ground-mounted solar in England — SolarQ UK",
+      "contentFingerprint": "d83db1fab908b59906f692215ed3d378ea98c1a7a00e85817ed72b7140fc14d8",
+      "photos": [
+        "media/facebook/1386059796939903/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://images.squarespace-cdn.com/.../2NewarkJune26.jpg",
+          "url": "https://images.squarespace-cdn.com/content/v1/66b64cf10e5ed51b580b08b4/509c7520-2266-40a4-b9fa-a7d565b500dc/2NewarkJune26.jpg"
+        },
+        {
+          "text": "https://www.solarq.org/repdanalysis",
+          "url": "https://www.solarq.org/repdanalysis"
+        },
+        {
+          "text": "SOLARQ.ORG Land-take by ground-mounted solar in England — SolarQ UK",
+          "url": "https://www.solarq.org/repdanalysis"
+        }
+      ]
+    },
+    {
+      "id": "1489195329736589",
+      "date": "2026-11-09",
+      "title": "Dunbar Against Massive Datacentres (DAMD)",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Dunbar Against Massive Datacentres (DAMD)",
+        "label": "Facebook · Dunbar Against Massive Datacentres (DAMD)",
+        "url": "https://www.facebook.com/groups/1316627133660077/posts/1489195329736589/"
+      },
+      "thin": false,
+      "bodyText": "We have the rights to live our life’s the way we want to.this is not China",
+      "contentFingerprint": "5981177a71903ce9bef588891bcd36fd747da1661231b497d1c372da3393c5f7",
+      "photos": [
+        "media/facebook/1489195329736589/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1603245321083410",
+      "date": "2026-11-09",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1603245321083410/"
+      },
+      "thin": false,
+      "bodyText": "https://invc.com/noise.../diesel-generator-noise-reduction/",
+      "contentFingerprint": "a46bffd26858a7ea776691f11158853bea7ae449a3327fe63942e674b7b8bf28",
+      "photos": [
+        "media/facebook/1603245321083410/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://invc.com/noise.../diesel-generator-noise-reduction/",
+          "url": "https://invc.com/noise-control/diesel-generator-noise-reduction/"
+        }
+      ]
+    },
+    {
+      "id": "1603244837750125",
+      "date": "2026-11-09",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1603244837750125/"
+      },
+      "thin": false,
+      "bodyText": "https://invc.com/noise-control/chiller-noise-reduction/",
+      "contentFingerprint": "17b10a0efa138e38f84f6ca7da90547e9509f5843d68957ee03e27fa5a94e00f",
+      "photos": [
+        "media/facebook/1603244837750125/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://invc.com/noise-control/chiller-noise-reduction/",
+          "url": "https://invc.com/noise-control/chiller-noise-reduction/"
+        }
+      ]
+    },
+    {
+      "id": "1603324041075538",
+      "date": "2026-11-09",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1603324041075538/"
+      },
+      "thin": false,
+      "bodyText": "Portugal is drawing a line in the water. \nWith gigantic new data centers planned across the country, Portugal says that under laws due next year they will have to run on renewable power, go through a full environmental review, and use cooling that does not rely on fresh water.\nThat matters. A single large data center can use millions of litres of water a day just to keep its machines cool, and in many places that water comes from the same rivers and reservoirs that families and farmers depend on. Southern Europe already knows what drought feels like.\nNeighbouring Spain is moving too, planning to require large data centers to get 80% of their power from clean sources.\nTechnology can be built responsibly. It just has to be asked.",
+      "contentFingerprint": "8fd5e60ee0ae62c464e3d5720249f7a8c3167e8ea3d1376c71a71104a9578061",
+      "photos": [
+        "media/facebook/1603324041075538/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "30083101461292196",
+      "date": "2026-11-09",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/30083101461292196/"
+      },
+      "thin": false,
+      "bodyText": "Landscape standards in wind farm development\nCan wind farm objectors rely on the professionalism of landscape architects working for developers?\nCan they trust the Landscape Institute to uphold professional standards?\nNot in my experience\nAfter two years of trying privately to have my complaint given serious consideration by the Landscape Institute, I have written an open letter to its Trustees.\nThe summary below sets out the main points of that letter. I believe these could be relevant to others in a similar position.\nConclusions from my experience:\n1. The Institute is not serious in investigating complaints\nMy complaint has been repeatedly dismissed, but I remain confident in my case.\nI was therefore unsurprised when subject access disclosures revealed that the Institute had described my complaint as “Hugely Controversial” and suggested that “someone should talk to (me)”. Despite that suggestion, no one contacted me.\n2. The subject of my complaint is probably endemic across the Wind Farm Industry\nWhy did someone within the Institute describe my complaint as “hugely controversial”?\nAn offer to provide a statement confirming the reviewer’s independence was withdrawn after I asked whether the reviewer was involved with any wind industry bodies.\n3. The Review of my complaint was a whitewash\nThe review did not address some of the points I raised and misinterpreted the Institute’s own guidance on others.\nAssuming the reviewer was appropriately selected from within the Institute’s leadership, this raises serious questions about the review’s conclusions. I believe that upholding my complaint could have wider implications for the wind farm and renewable energy industry.\n4. The Institute’s Professional Code of Practice does not require members to follow its technical guidance notes\nThe Institute publishes many technical guidance notes. I find it difficult to understand why its Code of Practice—with 11 rules and 17 pages of explanation—does not explicitly require members to follow that guidance.\n5. Landscape professionals are not held accountable for acting independently and consulting a cross section of the affected community.\nIn my experience, the Institute pays only lip service to its stated aim of “uphold(ing)……… competence and conduct of those who practice Landscape Architecture as a profession.”\nGuidance acknowledges the professional’s involvement in a scheme while requiring an independent stance: “Landscape professionals are likely to be closely involved in the development of the scheme and its design……In carrying out an LVIA the Landscape professional must always take an independent stance…..”\nThe Code of Practice also calls for engagement with a range of community perspectives: “Landscape professionals should actively seek out a diversity of viewpoints in any engagement or consultation relating to landscape work. This includes ensuring a cross section of the affected community is consulted and that representatives of relevant communities are engaged.”\nFrom my close involvement with a development, I have seen no evidence that the Institute member engaged with anyone other than their client and the client’s advisers.\n6. The Institute’s published complaints guidance aims to prevent scrutiny of planning matters\nThe guidance states that the Institute cannot investigate certain matters, including:\n· “An issue which relates to a current planning application or appeal”\n· “Any matter that took place more than 6 months ago.”\nIn my view, these two restrictions conflict in the context of the planning process.\nA full copy of the open letter can be found at: https://scotlandagainstspin.org/.../open-letter-to.../...\nSCOTLANDAGAINSTSPIN.ORG Open letter to the Trustees of the Landscape Institute",
+      "contentFingerprint": "750542a5cc25f6ce91ea7bbca73cc8fe9f753fd380ee014f3b9b805ab2337734",
+      "photos": [
+        "media/facebook/30083101461292196/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://scotlandagainstspin.org/.../open-letter-to.../...",
+          "url": "https://scotlandagainstspin.org/2026/11/open-letter-to-the-trustees-of-the-landscape-institute/"
+        },
+        {
+          "text": "SCOTLANDAGAINSTSPIN.ORG Open letter to the Trustees of the Landscape Institute",
+          "url": "https://scotlandagainstspin.org/2026/11/open-letter-to-the-trustees-of-the-landscape-institute/"
+        }
+      ],
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "29082983291355085",
+      "date": "2026-11-09",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/29082983291355085/"
+      },
+      "thin": false,
+      "bodyText": "F/V Mistress - USCG Document ECF No.14-7 Requiring Reopening Investigation\nWhy aren't they reopening the investigation?\nConcerns Over Industry Ties: Critics have pointed to connections between retired regulatory personnel and both the oil transportation barges and offshore wind industry, noting past transitions of Coast Guard officials to roles with maritime interests. If a Coast Guard officer moves directly from a role where they inspected or regulated a specific oil barge or offshore wind company to a role with that company, it can create a perception of bias.\n98,000 gallons of No. 6 heavy fuel oil into Buzzards Bay\nThe crew and captain involved in the 2003 Bouchard Barge No. 120 oil spill were not tested for drugs or alcohol until 18 hours after the accident occurred. In Buzzards Bay, during a standard small recreational safety check—like verifying life jackets or flares—if the operator shows any signs of impairment, a Coast Guard boarding team will immediately transition the encounter into a BUI investigation and conduct alcohol testing.\nF/V Mistress lack of reopening an investigation over two months:\nIn the context of federal maritime investigations, ECF No. 14-7 refers to the January 2, 2020, U.S. Coast Guard (USCG) Investigative Determination regarding the sinking of the fishing vessel F/V Mistress. The final page of that report explicitly states that the case was closed \"with the understanding the case would be re-opened pending receipt of information sufficient to determine the apparent cause of the MISTRESS disappearance.\"\nIn a 2022 U.S. District Court lawsuit in Rhode Island, a 2020 Coast Guard document (ECF No. 14-7). Exhibit 7, Docket Number 14, is 29 pages. On page 29, Coast Guard Headquarters closed the case with the understanding that it would be reopened pending receipt of information sufficient to determine the disappearance of the F/V Mistress.\nThe F/V Mistress sank on January 1, 2019. The Coast Guard considered the trawler lost. Green Oceans found it in August next to Block Island turbine #1.\n.\nGreen Oceans sent the Coast Guard the information over two months ago. Physical evidence now exists, including sonar imagery, photographs, and potentially human remains.\n.\nThe Administrative Procedure Act (APA) governs how the U.S. Coast Guard—as a federal agency—makes regulations, conducts formal hearings, and handles public accountability\nUnder the APA, federal agencies cannot simply sit on mandatory duties or formal commitments indefinitely. Failure to Act: Section 706(1) grants federal courts the authority to \"compel agency action unlawfully withheld or unreasonably delayed.\"\nUS COAST GUARD REPORT OF THE INVESTIGATION INTO THE SINKING WITH LOSS OF LIFE ABOARD THE COMMERCIAL FISHING VESSEL MISTRESS ( O.N. 672568) 3 NAUTICAL MILES EAST OF BLOCK ISLAND, RHODE ISLAND, ON JANUARY 1, 2019 --\nMISLE Activity Number: 6618087\nSearch and Rescue (SAR) Case Number: 1158048\nVessel Identification Number (VIN): 672568\nLast page:\n\"Recommend Coast Guard Headquarters close the MISTRESS case with the understanding the case would be re-opened pending receipt of information sufficient to determine the apparent cause of the MISTRESS disappearance.\"\n.\nEXHIBIT G Coast Guard Investigative Determination of F/V Mistress 1/2/2020\n.\nThe USCG issued a report, dated January 2, 2020, on the sinking of the Mistress. (ECF No. 14-7.)\n.\nThis is the last page of the report:\n.\nUS District Court Rhode Island: Case 1:20-cv-00478-MSM-LDA Document 14-7 Filed 03/31/22 Page 29 of 29 PageID\n#: 226 See last page\n8, Recommendations\n8.1. Safety Recommendations\nNo safety recommendations were recommended.\n8.2. Administrative Recommendations\nRecommend Coast Guard Headquarters close the MISTRESS case with the understanding the case would be re-opened pending receipt of information sufficient to determine the apparent cause of the MISTRESS disappearance.\n.\nSignature Blacked Out\n.\nLieutenant Commander, U.S. Coast Guard\nChief Investigations, Division\n.\nLinks to page 29; flip the pages\nhttps://go.fliplink.me/.../1C312C9C-0BF8-4570-96AA...",
+      "contentFingerprint": "69bf615172f9c98c4b3422c74ce331825de77d0adc50e54a5cd4da89577d25e9",
+      "photos": [
+        "media/facebook/29082983291355085/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://go.fliplink.me/.../1C312C9C-0BF8-4570-96AA...",
+          "url": "https://go.fliplink.me/view/1C312C9C-0BF8-4570-96AA-2A78E3EBA60B"
+        }
+      ],
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "1428503116108596",
+      "date": "2026-11-09",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1428503116108596/"
+      },
+      "thin": false,
+      "bodyText": "The Berwick Bank Wind Farm is a massive proposed offshore wind energy project in the outer Firth of Forth in the North Sea, developed by SSE Renewables.\nKey Project Details\n• Capacity: Up to 4.1 GW of installed capacity, making it one of the largest offshore wind developments in the world.\n• Power Generation: Capable of generating enough clean energy to power over 6 million homes (more than twice all Scottish households).\n• Project Phases: Split into three phases (including Berwick Bank A, B, and C), with phase B having secured a Contract for Difference (CfD) in January 2026.\n• Grid Connections: Connected to the national transmission network at Branxton in East Lothian (consented by the Scottish Government in July 2025) and via the Cambois Connection near Blyth in Northumberland (which received marine licence approval in November 2026).\n• Timeline: Final Investment Decision (FID) is expected around 2027–2028, with offshore construction and first power targeted toward 2028.\n• Economic Impact: Projected to generate up to £8.3 billion for the UK economy and create over 9,000 UK-based jobs (around 4,650 in Scotland) at peak construction.\nSSE completed Berwick Bank C connection permits with the maritime authorization allowing the third phase of the Berwick Bank wind farm to be connected to the national grid via HVDC cables.\nSSE Renewables has obtained maritime authorization to develop the electrical infrastructure of Berwick Bank C, the third phase of its 4.1 GW offshore wind project in the UK has been granted permission by the Marine Management Organisation (MMO) to complete the regulatory procedures necessary to connect this phase to the national transmission grid.\nThe authorization belongs to Cambois Connection, the system that will transport the electricity generated at the wind farm to Northumberland, in northeast England.\nBerwick Bank C will have an HVDC connection of up to 1.8 GW\nThe project envisions the installation of up to four high-voltage direct current submarine cables (HVDC), with a combined transmission capacity of up to 1,8 GW. These cables will carry electricity from Berwick Bank C to Cambois, near Blyth, where the connection to the national grid will be established.\nHVDC technology is particularly well-suited for transporting large volumes of electricity over long distances, as it reduces transmission losses. Its application in offshore wind farms facilitates the integration of energy generated at sea with onshore electrical systems.\nOn land, the infrastructure will include the cable landing point, a converter station, and the facilities necessary to incorporate the electricity into the national grid.The license completes the permissions of Cambois Connection\nThe MMO authorization culminates a regulatory process that has progressed in stages over the past few years. In November 2024, Northumberland County Council approved the onshore transmission facilities. Subsequently, in July 2025, the Scottish Government authorized the development of the Berwick Bank wind farm in Scottish waters, along with the planned evacuation cables to Branxton in East Lothian.\nWith this latest decision, the project completes the authorizations for its electrical infrastructure, organized around two connection points, the first being in Branxton and the second one is in Blyth.\nHowever, obtaining the permits does not imply the immediate start of construction, investments, contracting of the work, and execution schedules must progress according to the planning of each phase.@\nLocated in the outer Firth of Forth, approximately 38km east of the Scottish coast, Berwick Bank is among a list offshore wind developments planned across the country.\nThe offshore wind project is divided into three phases which, once completed, would total 4.1 GW of installed capacity, according to the project’s estimates, that power would allow for the annual generation of enough electricity to cover the equivalent consumption of more than six million homes.\nGiven its scale, the project represents a significant addition of renewable capacity to the @electricity system. However, its implementation will depend on investment decisions, trade agreements, and the construction of generation and transmission infrastructure. Li\nWhile the third phase connection progresses, SSE Renewables is also preparing the next steps to Berwick Bank B, which will have a planned capacity of 1.4 GW.\nIn January 2026, this phase secured a 20-year contract for difference (CfD) during the UK’s seventh allocation round, known as Allocation Round 7. This mechanism provides a revenue framework for the electricity the project will generate and supports its financial development.\nIn the UK's Contracts for Difference (CfD) Allocation Round 7 (AR7), announced in January 2026, the strike prices for offshore wind were awarded at:\nFixed-Bottom Offshore Wind (Scotland): £89.49/MWh (in 2024 prices) \nKey Details from AR7\n• Administrative Strike Price Cap: Set at £113/MWh for standard offshore wind prior to the auction.\n• Contract Duration: Contracts awarded under AR7 run for an extended 20-year term (increased from previous 15-year terms). \n• Capacity Procured: A record total of around 8.4 GW of offshore wind capacity was secured across fixed-bottom and floating projects.\nWith this contract, SSE plans to reach the final investment decision in 2027, the company also selected Seaway7 as preferred supplier for the engineering, supply, construction and installation of the foundations and interconnecting cables for this phase.\nAs for Berwick Bank A and C, both phases could participate in future rounds of contract for difference allocation. For now, the authorization of Cambois Connection represents progress for Berwick Bank C, as it resolves an essential regulatory requirement before developing its electrical connection infrastructure.\nI think this project should be renamed as East of the Kingdom of Fife Energy Hub, just to highlight where it’s actually located.— at The Forth Estuary.",
+      "contentFingerprint": "dd006b0acfba1931410819d2d2a63865dc4e0e0475e224f10241283d33870ea1",
+      "photos": [
+        "media/facebook/1428503116108596/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "1852194899154090",
+      "date": "2026-11-09",
+      "title": "Essex Suffolk Norfolk Pylons",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Essex Suffolk Norfolk Pylons",
+        "label": "Facebook · Essex Suffolk Norfolk Pylons",
+        "url": "https://www.facebook.com/groups/pylonseastanglia/posts/1852194899154090/"
+      },
+      "thin": false,
+      "bodyText": "So that I don’t have to keep commenting below posts:\n1. Photos showing pylons being built in Suffolk are for the Bramford to Twinstead project, which has consent. Norwich to Tilbury does NOT.\n2. Works along the Norwich to Tilbury route are SURVEYS eg archaeological.\nThe Norwich to Tilbury Inspectors have to make their recommendation to the Secretary of State by tomorrow. She then has three months to decide.\nBw\nRosie",
+      "contentFingerprint": "c1585720750c8d50190b24812dbd5fbf91f9db9358d155e5aeb6cffefe9c889f",
+      "photos": [
+        "media/facebook/1852194899154090/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "OHL (Pylons)"
+      ]
+    },
+    {
+      "id": "1701302734936209",
+      "date": "2026-11-09",
+      "title": "Thirsk Against Battery Storage",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Thirsk Against Battery Storage",
+        "label": "Facebook · Thirsk Against Battery Storage",
+        "url": "https://www.facebook.com/groups/1117445326655289/posts/1701302734936209/"
+      },
+      "thin": false,
+      "bodyText": "Protect Hambleton is holding a public meeting this Thursday about the large-scale energy development planned across our area.\nThursday 12 November\n7pm\nSessay Village Hall\nCome and find out what’s being proposed, what it could mean for our lanes, our land and the view from Sutton Bank, and how to make sure your views are formally on record.\nEveryone’s welcome. It’s free, you don’t need to be a member and you don’t need to know anything about planning.\nThe more local people turn up, the harder we are to ignore. Please share and bring a neighbour.\n[protecthambleton.org.uk](https://protecthambleton.org.uk/...)",
+      "contentFingerprint": "209ef891279cc0e7925fc7f33ee13e7ab8ee6fae759cf90893d31ea297633b7d",
+      "photos": [
+        "media/facebook/1701302734936209/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "protecthambleton.org.uk",
+          "url": "https://protecthambleton.org.uk/"
+        },
+        {
+          "text": "https://protecthambleton.org.uk/...",
+          "url": "https://protecthambleton.org.uk/"
+        }
+      ]
+    },
+    {
+      "id": "1602696934471582",
+      "date": "2026-11-09",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1602696934471582/"
+      },
+      "thin": false,
+      "bodyText": "Scottish AI data centre developers ditch renewables to rely fully on National Grid\nDEVELOPERS of a hyperscale AI data centre near Glasgow have admitted it will fully rely on the National Grid despite previously claiming the facility would be powered by renewable energy.\nThe National revealed in September that DataVita submitted proposals for a 120MW “green data centre” in Chapelhall, North Lanarkshire, south of the junction between Lancaster Avenue and Bellside Road.\nDevelopers originally claimed the AI facility would draw up to 1GW directly from dedicated green energy sources including wind, solar, and battery storage, which would be “delivered through private wire connections directly linked to the data centre”.\nHowever, DataVita has since U-turned on its previous announcement, as it told The Guardian its complex will instead rely entirely on the National Grid.\nA DataVita spokesperson told the newspaper it had not misrepresented its intention to supply renewables to the site earlier this year, claiming their “commitment to renewable energy is unchanged”.\nThe spokesperson added: “Our datacentres are being designed to be grid served … Our grid supply will be through a renewable power purchase agreement.”\nKat Jones, the director of Action to Protect Rural Scotland, said DataVita’s change in power plans was “emblematic of the hyperbolic claims being made by data centre developers in Scotland”.\nShe said: “Hyperscale AI datacentres simply cannot run on renewable power alone, they absolutely need a highly reliable source of grid power.”\nAdding: “It is not surprising that the goalposts have now changed.”\nIt comes after it was revealed in September there had been fears from locals and campaign groups over DataVita’s backup engine plans for the North Lanarkshire site.\nThe generators would expand the site’s power capacity when peak customer demand coincided with air temperatures above 21C. Up to 32 of the total 48 generators could start operating in “load support mode” to help cool computing equipment, planning documents show.\nJen Thompson, who lives 50m from the proposed site, said the potential air pollution and noise were a “massive worry” for her four children.\nAt the time, the Scottish Greens called for a definition of a “green data centre” to “exclude the use of polluting diesel generators”.\nDataVita already runs another data centre in Chapelhall – the DV1 site – which, at a capacity of 24MW, makes it the largest data centre in Scotland currently in operation.\nThe DV1 data centre provides server networks to nearby businesses, with expansion work planned to increase its capacity to around 40MW.\nThe new site, which is called DV4, is classed as a \"hyperscale\" data centre due to the large number of megawatts required to run it.\nThe latest plans would fall inside Scotland's first AI Growth Zone, which was announced would be in Lanarkshire earlier this year",
+      "contentFingerprint": "975cf0551e2ed98adda9360f0b9f1b138bead37be4420960c28f1e6a34ea839d",
+      "photos": [
+        "media/facebook/1602696934471582/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "BESS",
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1435303618175078",
+      "date": "2026-11-09",
+      "title": "Worth Valley against Walshaw Moor Wind Farm",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Worth Valley against Walshaw Moor Wind Farm",
+        "label": "Facebook · Worth Valley against Walshaw Moor Wind Farm",
+        "url": "https://www.facebook.com/groups/735756034796510/posts/1435303618175078/"
+      },
+      "thin": false,
+      "bodyText": "Nick MacKinnon has a great blog out which for some reason I haven't drawn to your attention.\nThings are not going well for CEP and Al-Gihaz. Deep Stoat is supplying us with excellent inside information, and Al-Gihaz and CEP are being bombarded with legal letters...\nWhat we liked best [about the article in the Telegraph] (and my father-in-law noticed its significance) was that the article concluded with this sentence:\n“Al Gihaz Holding was contacted for comment.”\nIt was good that the Telegraph contacted Mustapha Hajjar in Riyadh, an example of the once-vivid phrase: “Don’t ask the monkey; speak to the organ-grinder.” Hajjar cannot expect his comedy subsidiary to provide much protection now. The WTRG bog burst letter will cost him £100,000 just for the first reply, because somebody at Pinsent Masons [CEP's very expensive London lawyers]has to get an understanding of thixotropic peat at least as good as Haworth with Stanbury Parish Council’s. The itemised bill will include “Purchase of two copies of Charlotte Brontë at the Anthropocene by Shawna Ross £100.” “Reading time by specialised counsel of 326 pages of post-doctoral text £32,600.” Of course, they could save fifty quid by using the copy Dr Mills showed me at Hebden Bridge. They will find my thumb-print on page 68 where I had to point out the 1989 bog burst. Pinsent Masons must keep in mind that Ross, 2020 was Dr Mills’ own reference and we know for certain that he did not read it, so Pinsent Masons better had. There will be a test.\nhttps://markavery.info/.../guest-blog-boft-hole-of-cep...",
+      "contentFingerprint": "ec952a096d93535addf658837f0f5dab7d1ee689f36f2a21f90fcf2abb81133f",
+      "photos": [
+        "media/facebook/1435303618175078/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://markavery.info/.../guest-blog-boft-hole-of-cep...",
+          "url": "https://markavery.info/2026/10/08/guest-blog-boft-hole-of-cep-240-mw-by-nick-mackinnon"
+        }
+      ]
+    },
+    {
+      "id": "1476556091275489",
+      "date": "2026-11-09",
+      "title": "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
+        "label": "Facebook · Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
+        "url": "https://www.facebook.com/groups/1367957378802028/posts/1476556091275489/"
+      },
+      "thin": false,
+      "bodyText": "",
+      "contentFingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "photos": [
+        "media/facebook/1476556091275489/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1428259632799611",
+      "date": "2026-11-09",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1428259632799611/"
+      },
+      "thin": false,
+      "bodyText": "Cockenzie Power Station demolition and site clearance ready for its next redevelopment as the onshore substation for the 1100MW Inchcape Offshore Windfarm currently under construction.— at Cockenzie.",
+      "contentFingerprint": "3faf55e60e020b79212a1027099bab44e5d521bc1ca7c987a9498953ea17a8fc",
+      "photos": [
+        "media/facebook/1428259632799611/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind",
+        "Substation"
+      ]
+    },
+    {
+      "id": "1136052335491214",
+      "date": "2026-11-09",
+      "title": "Communities B4 Power Companies",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Communities B4 Power Companies",
+        "label": "Facebook · Communities B4 Power Companies",
+        "url": "https://www.facebook.com/groups/221782186918238/posts/1136052335491214/"
+      },
+      "thin": false,
+      "bodyText": "Whoo Hoo wind is producing 1.6% of demand - 2% less than yesterday’s post",
+      "contentFingerprint": "972f1c49f2d0c3ab11ebfb18606543fd273bf9fca414474e6e7fcd781c7798f9",
+      "photos": [
+        "media/facebook/1136052335491214/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "122139001731244466",
+      "date": "2026-11-09",
+      "title": "Our Power",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Our Power",
+        "label": "Facebook · Our Power",
+        "url": "https://www.facebook.com/ourpower.scot/posts/122139001731244466"
+      },
+      "thin": false,
+      "bodyText": "An Scottish Trades Union Congress (STUC) investigation reveals Scotland is missing out on almost *£9 BILLION* from wind turbines on our own hills and seas. Their estimates say that money could fund 10,000 to 14,000 nurses for 20 years.\nInstead, £500M of Scottish public money is subsidising private firms, while:\n-90% of onshore wind profits are paid straight to corporate shareholders.\n-Over 75% of ScotWind capacity is owned overseas by global asset managers like BlackRock and Vanguard, and oil giants Shell and BP.\n-Wind creates just ONE job per £1M turnover, compared to 14 in oil and gas.\n-Offshore workers transitioning face a 40% wage cut, while turbine parts ship in from China.\n European governments and multinational corporations take our wealth, leaving Scottish communities with crumbs.\nIs this fair to Scotland? Drop your thoughts below.",
+      "contentFingerprint": "38a4e245e3f5bfc10eccfe85de268da5f487306a2bf108d8da65cf7c05f4f244",
+      "photos": [
+        "media/facebook/122139001731244466/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "30078785605057115",
+      "date": "2026-11-09",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/30078785605057115/"
+      },
+      "thin": false,
+      "bodyText": "A message from DPEA.\nPlanned Outage of Case Management System\nThe DPEA Case Management System (CMS) will be unavailable from 20–27 November 2026 inclusive due to planned migration activities. During this period, users will be unable to access case information. Normal service is expected to resume from 30 November 2026. Alternative submission arrangements and further guidance will be available on our website. We apologise for any inconvenience caused and thank you for your patience while we complete these essential improvements to our service",
+      "contentFingerprint": "4a4d4609ff95baa1e5545013e5a3ebb50ef3cb7a87eea40bf29f1b5a69b767c6",
+      "photos": [
+        "media/facebook/30078785605057115/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "30078739251728417",
+      "date": "2026-11-09",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/30078739251728417/"
+      },
+      "thin": false,
+      "bodyText": "Not good news.\nSSE Renewables has secured a marine licence from the UK’s Marine Management Organisation (MMO) for the export cable infrastructure of its Berwick Bank C offshore wind farm in English waters, completing the required consents for the project's grid connection.\nKnown as the Cambois Connection, the infrastructure will link the offshore wind farm to the national transmission network at Cambois, near Blyth in Northumberland. The approved scheme includes up to four high-voltage direct current (HVDC) export cables, with transmission capacity of up to 1.8 GW. https://www.offshorewind.biz/2026/11/09/sse-secures-grid-connection-consent-for-third-phase-of-41-gw-berwick-bank\nOFFSHOREWIND.BIZ SSE Secures Grid Connection Consent for Third Phase of 4.1 GW Berwick Bank",
+      "contentFingerprint": "bcf1db919faa1868883909d08016ecb0951e9a6074c2bbf4cf8e6e60f9b534f0",
+      "photos": [
+        "media/facebook/30078739251728417/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "OFFSHOREWIND.BIZ SSE Secures Grid Connection Consent for Third Phase of 4.1 GW Berwick Bank",
+          "url": "https://www.offshorewind.biz/2026/11/09/sse-secures-grid-connection-consent-for-third-phase-of-41-gw-berwick-bank"
+        },
+        {
+          "text": "https://www.offshorewind.biz/2026/11/09/sse-secures-grid-connection-consent-for-third-phase-of-41-gw-berwick-bank",
+          "url": "https://www.offshorewind.biz/2026/11/09/sse-secures-grid-connection-consent-for-third-phase-of-41-gw-berwick-bank"
+        }
+      ],
+      "categories": [
+        "Onshore Wind"
+      ]
+    }
+  ]
+}
