@@ -487,6 +487,14 @@ def nowrap_dates(text):
     return re.sub(r"(\d{4}-\d{2}-\d{2})", r'<span style="white-space:nowrap">\1</span>', text)
 
 
+MAP_URL = "https://slava.energy/"
+
+
+def map_link_html():
+    """One plain link from every generated page to the interactive map. No per-project deep link: the map has stable project links for only four pilot projects, none of them on this site."""
+    return f"<p>Interactive map of UK energy projects and grid: <a href=\"{MAP_URL}\">slava.energy</a>.</p>"
+
+
 def contact_html():
     return f"<p>{CONTACT_SENTENCE} <a href=\"mailto:{CONTACT_EMAIL}\">{CONTACT_EMAIL}</a>.</p>"
 
@@ -510,7 +518,7 @@ def page(title, desc, canonical, body, lds, extra_css=""):
         "table{border-collapse:collapse;width:100%;margin:.5rem 0}th,td{border:1px solid #d8cfc0;padding:.35rem .5rem;text-align:left;vertical-align:top}"
         "a{color:#a2421f}.seo-follow{margin:2rem 0 1rem;padding:.75rem 1rem;border:1px solid #d8cfc0;border-radius:6px}" + extra_css + "</style>\n"
         f"</head>\n<body>\n{nav_html()}\n<main>\n{body}\n</main>\n"
-        f"<footer><p>{FOOTER_SENTENCE}</p>{contact_html()}</footer>\n"
+        f"<footer><p>{FOOTER_SENTENCE}</p>{map_link_html()}{contact_html()}</footer>\n"
         f"{follow_html()}\n</body>\n</html>\n")
 
 

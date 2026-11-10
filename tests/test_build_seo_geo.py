@@ -824,3 +824,16 @@ def test_every_generated_page_carries_the_security_policy_and_referrer_tags():
         assert '<meta name="referrer" content="strict-origin-when-cross-origin">' in head, k
         assert "script-src" not in sg.PAGE_CSP and "unsafe-eval" not in sg.PAGE_CSP
         assert not re.search(r'<script(?![^>]*application/ld\+json)', F[k]), k
+
+
+def test_every_generated_page_links_to_the_map_and_the_home_page_has_a_canonical_and_share_tags():
+    F, _ = built()
+    pages = [k for k in F if k.endswith(".html") and k != "index.html"]
+    assert len(pages) >= 39
+    for k in pages:
+        foot = F[k].split("<footer>")[1].split("</footer>")[0]
+        assert 'href="https://slava.energy/"' in foot, k
+    home = open(os.path.join(ROOT, "index.html"), encoding="utf-8").read().split("</head>")[0]
+    assert home.count('rel="canonical" href="https://slava.it.com/"') == 1
+    for tag in ('property="og:title"', 'property="og:description"', 'property="og:url"', 'name="twitter:card"'):
+        assert home.count(tag) == 1, tag
