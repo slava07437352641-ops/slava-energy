@@ -1,16 +1,16 @@
 {
-  "generated": "2026-11-09T19:14:59.000Z",
+  "generated": "2026-11-10T22:09:53.000Z",
   "counts": {
-    "records": 4490,
+    "records": 4493,
     "thin": 327,
-    "withMedia": 1950,
-    "withCategories": 1437,
+    "withMedia": 1953,
+    "withCategories": 1438,
     "withTopics": 316,
     "withProject": 210,
     "withCoordinates": 95,
     "withSummary": 57,
-    "withBodyText": 3034,
-    "withPhotos": 1947,
+    "withBodyText": 3036,
+    "withPhotos": 1950,
     "withPreviewImage": 64,
     "councils": 4,
     "matchReviewLogged": 2,
@@ -124817,6 +124817,109 @@
           "text": "SOLARQ.ORG Land-take by ground-mounted solar in England — SolarQ UK",
           "url": "https://www.solarq.org/repdanalysis"
         }
+      ]
+    },
+    {
+      "id": "1600361728038436",
+      "date": "2026-11-06",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1600361728038436/"
+      },
+      "thin": false,
+      "bodyText": "Some of you may remember I emailed the head of Fife Council Planning Department regarding their stopping the use of email for submitting objections/representations. Today I emailed the Service Manager for planning, who responded to my previous email, to ask if the Planning Department had undertaken an Equality Impact Assessment prior to implementing these changes. Surprise, surprise, they haven't. I think they might be in breach of The Equality Act 2010.",
+      "contentFingerprint": "47da7206a53b09a7db30a33dda110b437c2cacc1c8481b162833314f5fc4d597",
+      "photos": [
+        "media/facebook/1600361728038436/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1602523977822211",
+      "date": "2026-11-08",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1602523977822211/"
+      },
+      "thin": false,
+      "bodyText": "",
+      "contentFingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "photos": [
+        "media/facebook/1602523977822211/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1062043566860441",
+      "date": "2026-11-09",
+      "title": "NO to East Havering Data Centre in Upminster (Residents Group)",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "NO to East Havering Data Centre in Upminster (Residents Group)",
+        "label": "Facebook · NO to East Havering Data Centre in Upminster (Residents Group)",
+        "url": "https://www.facebook.com/groups/366637746401030/posts/1062043566860441/"
+      },
+      "thin": false,
+      "bodyText": "Local press coverage from Saturday. Thank you The Havering Daily. We’re hoping there are another two articles coming soon from AP and City.\nhttps://thehaveringdaily.co.uk/.../say-no-to-the-data.../...\nTHEHAVERINGDAILY.CO.UK ‘Say No to the Data Centre’: Havering Residents Take to the Streets Over Green Belt Plans",
+      "contentFingerprint": "4d53e6d1809a90ccd4d88f7b1a956f7a2f2869ba0973fa052979e61b890f3eac",
+      "photos": [
+        "media/facebook/1062043566860441/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://thehaveringdaily.co.uk/.../say-no-to-the-data.../...",
+          "url": "https://thehaveringdaily.co.uk/2026/11/09/say-no-to-the-data-centre-havering-residents-take-to-the-streets-over-green-belt-plans/"
+        },
+        {
+          "text": "THEHAVERINGDAILY.CO.UK ‘Say No to the Data Centre’: Havering Residents Take to the Streets Over Green Belt Plans",
+          "url": "https://thehaveringdaily.co.uk/2026/11/09/say-no-to-the-data-centre-havering-residents-take-to-the-streets-over-green-belt-plans/"
+        }
+      ],
+      "categories": [
+        "Data Centre"
       ]
     }
   ]

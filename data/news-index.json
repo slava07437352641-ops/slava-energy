@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-09T19:14:59.000Z",
+  "generated": "2026-11-10T22:09:53.000Z",
   "sourceFilter": [
     "Scotland Against Spin",
     "Environmentalists Against Wind Turbines",
@@ -46,7 +46,7 @@
     "Say No to One Earth Solar Farm": 1,
     "Dunbar Against Massive Datacentres (DAMD)": 1,
     "Say No To Cato Data Centre": 4,
-    "Scotland Against Spin": 3,
+    "Scotland Against Spin": 2,
     "Environmentalists Against Wind Turbines": 1,
     "Scottish Electricity Generating Stations": 2,
     "Essex Suffolk Norfolk Pylons": 1,
@@ -54,7 +54,8 @@
     "Worth Valley against Walshaw Moor Wind Farm": 1,
     "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)": 1,
     "Communities B4 Power Companies": 1,
-    "Our Power": 1
+    "Our Power": 1,
+    "NO to East Havering Data Centre in Upminster (Residents Group)": 1
   },
   "dateRange": {
     "from": "2026-11-09",
@@ -634,6 +635,51 @@
       ]
     },
     {
+      "id": "1062043566860441",
+      "date": "2026-11-09",
+      "title": "NO to East Havering Data Centre in Upminster (Residents Group)",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "NO to East Havering Data Centre in Upminster (Residents Group)",
+        "label": "Facebook · NO to East Havering Data Centre in Upminster (Residents Group)",
+        "url": "https://www.facebook.com/groups/366637746401030/posts/1062043566860441/"
+      },
+      "thin": false,
+      "bodyText": "Local press coverage from Saturday. Thank you The Havering Daily. We’re hoping there are another two articles coming soon from AP and City.\nhttps://thehaveringdaily.co.uk/.../say-no-to-the-data.../...\nTHEHAVERINGDAILY.CO.UK ‘Say No to the Data Centre’: Havering Residents Take to the Streets Over Green Belt Plans",
+      "contentFingerprint": "4d53e6d1809a90ccd4d88f7b1a956f7a2f2869ba0973fa052979e61b890f3eac",
+      "photos": [
+        "media/facebook/1062043566860441/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://thehaveringdaily.co.uk/.../say-no-to-the-data.../...",
+          "url": "https://thehaveringdaily.co.uk/2026/11/09/say-no-to-the-data-centre-havering-residents-take-to-the-streets-over-green-belt-plans/"
+        },
+        {
+          "text": "THEHAVERINGDAILY.CO.UK ‘Say No to the Data Centre’: Havering Residents Take to the Streets Over Green Belt Plans",
+          "url": "https://thehaveringdaily.co.uk/2026/11/09/say-no-to-the-data-centre-havering-residents-take-to-the-streets-over-green-belt-plans/"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
       "id": "30078785605057115",
       "date": "2026-11-09",
       "title": "Scotland Against Spin",
@@ -661,51 +707,6 @@
         "media/facebook/30078785605057115/photo_1.png"
       ],
       "mediaCount": 1
-    },
-    {
-      "id": "30078739251728417",
-      "date": "2026-11-09",
-      "title": "Scotland Against Spin",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Scotland Against Spin",
-        "label": "Facebook · Scotland Against Spin",
-        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/30078739251728417/"
-      },
-      "thin": false,
-      "bodyText": "Not good news.\nSSE Renewables has secured a marine licence from the UK’s Marine Management Organisation (MMO) for the export cable infrastructure of its Berwick Bank C offshore wind farm in English waters, completing the required consents for the project's grid connection.\nKnown as the Cambois Connection, the infrastructure will link the offshore wind farm to the national transmission network at Cambois, near Blyth in Northumberland. The approved scheme includes up to four high-voltage direct current (HVDC) export cables, with transmission capacity of up to 1.8 GW. https://www.offshorewind.biz/2026/11/09/sse-secures-grid-connection-consent-for-third-phase-of-41-gw-berwick-bank\nOFFSHOREWIND.BIZ SSE Secures Grid Connection Consent for Third Phase of 4.1 GW Berwick Bank",
-      "contentFingerprint": "bcf1db919faa1868883909d08016ecb0951e9a6074c2bbf4cf8e6e60f9b534f0",
-      "photos": [
-        "media/facebook/30078739251728417/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "links": [
-        {
-          "text": "OFFSHOREWIND.BIZ SSE Secures Grid Connection Consent for Third Phase of 4.1 GW Berwick Bank",
-          "url": "https://www.offshorewind.biz/2026/11/09/sse-secures-grid-connection-consent-for-third-phase-of-41-gw-berwick-bank"
-        },
-        {
-          "text": "https://www.offshorewind.biz/2026/11/09/sse-secures-grid-connection-consent-for-third-phase-of-41-gw-berwick-bank",
-          "url": "https://www.offshorewind.biz/2026/11/09/sse-secures-grid-connection-consent-for-third-phase-of-41-gw-berwick-bank"
-        }
-      ],
-      "categories": [
-        "Onshore Wind"
-      ]
     }
   ]
 }
