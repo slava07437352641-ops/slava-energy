@@ -51,4 +51,4 @@ Recorded: Status: Phase one reportedly consented by Aberdeenshire Council (press
 ---
 HTML version: https://slava.it.com/projects/blackdog-data-centre-campus.html
 Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
-For correction, privacy or removal requests: slava@atlasglobal.energy.
+For correction, privacy or removal requests: bd@slava.energy.

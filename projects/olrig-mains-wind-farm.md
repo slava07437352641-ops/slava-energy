@@ -46,4 +46,4 @@ Recorded: Embedded Register project status: Scoping (register).
 ---
 HTML version: https://slava.it.com/projects/olrig-mains-wind-farm.html
 Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
-For correction, privacy or removal requests: slava@atlasglobal.energy.
+For correction, privacy or removal requests: bd@slava.energy.

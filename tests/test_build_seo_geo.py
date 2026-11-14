@@ -617,7 +617,7 @@ def test_dates_and_identifiers_do_not_break_at_hyphens_but_the_text_is_unchanged
 
 # ---- correction contact, content-change dates and recorded source dates -------------------------------------
 
-CONTACT = "slava@atlasglobal.energy"
+CONTACT = "bd@slava.energy"
 NS = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
 CHAPELCROSS = "Chapelcross data centre campus (CX Tech)"
 CHAPELCROSS_URL = "https://slava.it.com/projects/chapelcross-data-centre-campus-cx-tech.html"

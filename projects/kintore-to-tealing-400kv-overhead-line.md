@@ -43,4 +43,4 @@ Recorded: Consent or stage: Section 37 application submitted (Scottish Ministers
 ---
 HTML version: https://slava.it.com/projects/kintore-to-tealing-400kv-overhead-line.html
 Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
-For correction, privacy or removal requests: slava@atlasglobal.energy.
+For correction, privacy or removal requests: bd@slava.energy.

@@ -40,4 +40,4 @@ Recorded: Consent or stage: DCO application EN020027, accepted for examination 2
 ---
 HTML version: https://slava.it.com/projects/norwich-to-tilbury-east-anglia-green.html
 Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
-For correction, privacy or removal requests: slava@atlasglobal.energy.
+For correction, privacy or removal requests: bd@slava.energy.

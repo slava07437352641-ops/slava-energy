@@ -44,4 +44,4 @@ Recorded: Consent or stage: Section 37 application, ECU00005165, submitted Octob
 ---
 HTML version: https://slava.it.com/projects/beauly-to-peterhead-400kv-overhead-line.html
 Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
-For correction, privacy or removal requests: slava@atlasglobal.energy.
+For correction, privacy or removal requests: bd@slava.energy.

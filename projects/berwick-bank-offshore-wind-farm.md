@@ -56,4 +56,4 @@ Recorded: REPD status: Planning Permission Granted (register).
 ---
 HTML version: https://slava.it.com/projects/berwick-bank-offshore-wind-farm.html
 Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
-For correction, privacy or removal requests: slava@atlasglobal.energy.
+For correction, privacy or removal requests: bd@slava.energy.

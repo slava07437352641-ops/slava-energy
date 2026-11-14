@@ -49,4 +49,4 @@ Recorded: REPD status: Planning Application Submitted (register); TEC project st
 ---
 HTML version: https://slava.it.com/projects/giants-burn-wind-farm.html
 Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
-For correction, privacy or removal requests: slava@atlasglobal.energy.
+For correction, privacy or removal requests: bd@slava.energy.

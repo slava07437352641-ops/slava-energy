@@ -38,7 +38,7 @@ SEED_HINT = ("Run scripts/build_seo_geo.py --seed-page-dates once in a checkout 
 DATE_SENTINEL = "0000-00-00"
 DATE_FIELD = re.compile(r'"dateModified": "\d{4}-\d{2}-\d{2}"')
 # The one email address that may appear in a generated page: the site's published correction and removal contact.
-CONTACT_EMAIL = "slava@atlasglobal.energy"
+CONTACT_EMAIL = "bd@slava.energy"
 CONTACT_SENTENCE = "For correction, privacy or removal requests:"
 # Generated pages run no script (JSON-LD is data, not executed) and style only with their own inline CSS. GitHub Pages
 # cannot send headers, so the policy rides in a meta tag, like index.html's (see SECURITY-HEADERS.md).

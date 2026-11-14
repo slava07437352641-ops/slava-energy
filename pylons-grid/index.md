@@ -19,4 +19,4 @@ The most frequent theme tags are OHL (Pylons) (4), Substation (3), Onshore Wind 
 
 HTML version: https://slava.it.com/pylons-grid/
 Facebook group posts are archived public posts and are not independently verified. Post text is not reproduced.
-For correction, privacy or removal requests: slava@atlasglobal.energy.
+For correction, privacy or removal requests: bd@slava.energy.
