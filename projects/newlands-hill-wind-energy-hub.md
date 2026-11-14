@@ -22,6 +22,8 @@ Each row is one register record with its own identifier; records are not combine
 | REPD | 15383 | Newlands Hill Wind Energy Hub | Planning Application Submitted | 136 MW | record updated 2023-12-07; status event 2023-11-14 | Exact name match; REPD links it to 12289 (storage co-location). |
 | NESO TEC | PRO-002549 | Newlands Hill Wind Energy Hub | Awaiting Consents | connected 0 MW; cumulative 119 MW | MW effective from 2030-04-03 | Exact name match in the NESO file; no identifier is shared with the REPD records. |
 
+Planning record pages on slava.energy (the same REPD records, with their dated status history): [REPD 12289, Newlands Hill Wind Energy Hub](https://slava.energy/uk-renewable-projects/repd-12289); [REPD 15383, Newlands Hill Wind Energy Hub](https://slava.energy/uk-renewable-projects/repd-15383).
+
 ## Data credits
 
 - Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: 2026-08-03; Latest record update in the file: 2026-07-24; Download date: 2026-08-25; Facts exported: 2026-10-18.

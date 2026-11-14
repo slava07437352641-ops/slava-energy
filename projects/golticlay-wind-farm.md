@@ -26,6 +26,8 @@ Each row is one register record with its own identifier; records are not combine
 | NESO Embedded | PRO-000370-2 | Golticlay Wind Farm | Scoping | connected 0 MW; cumulative 58 MW | MW effective from 2026-07-31 | Stage 2 of NESO project PRO-000370. |
 | NESO Embedded | PRO-000926 | Golticlay Extension Wind Farm | Awaiting Consents | connected 0 MW; cumulative 55 MW | MW effective from 2027-09-30 | 'Golticlay Extension Wind Farm'; a different NESO project number; relation to the REPD records is unverified. |
 
+Planning record pages on slava.energy (the same REPD records, with their dated status history): [REPD 5195, Golticlay Wind Farm](https://slava.energy/uk-renewable-projects/repd-5195); [REPD 20387, Golticlay Wind Farm 2](https://slava.energy/uk-renewable-projects/repd-20387); [REPD 18325, Golticlay Wind Farm, Bulreanrob - Wind Farm](https://slava.energy/uk-renewable-projects/repd-18325); [REPD 18326, Golticlay Wind Farm, Bulreanrob - Battery Energy Storage](https://slava.energy/uk-renewable-projects/repd-18326).
+
 ## Data credits
 
 - Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: 2026-08-03; Latest record update in the file: 2026-07-24; Download date: 2026-08-25; Facts exported: 2026-10-18.

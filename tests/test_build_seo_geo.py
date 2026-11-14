@@ -395,6 +395,47 @@ def test_record_tables_render_every_identifier_and_never_combine_statuses():
     assert "No single status applies." in wl
 
 
+def test_a_project_page_links_each_of_its_repd_records_to_the_map_sites_page_for_that_record():
+    F, _ = built()
+    linked = 0
+    for name in MAPPED:
+        slug = sg.slugify(name)
+        page, md = F[f"projects/{slug}.html"], F[f"projects/{slug}.md"]
+        repd = [r for r in _records(name) if r["register"] == "repd"]
+        for r in repd:
+            url = f"https://slava.energy/uk-renewable-projects/repd-{str(r['id']).lower()}"
+            assert f'<a href="{url}">REPD {r["id"]}, ' in page and f"]({url})" in md, (name, r["id"])
+            linked += 1
+        if not repd:  # a project with no REPD record has no such line
+            assert "Planning record pages on slava.energy" not in page and "Planning record pages on slava.energy" not in md, name
+    assert linked >= 25  # the 25 REPD records known on 2026-11-14, each with a page on slava.energy
+    assert "repd-3258" in F["projects/arecleoch.html"]
+
+
+def test_no_link_is_made_for_a_non_repd_record_or_an_identifier_that_does_not_fit_the_address_grammar():
+    recs = [{"register": "neso_tec", "id": "PRO-000012-1", "name": "N"}, {"register": "repd", "id": "../x", "name": "Bad"}, {"register": "repd", "id": "7A", "name": "Good"}]
+    assert sg.repd_links(recs) == [("7A", "Good", "https://slava.energy/uk-renewable-projects/repd-7a")]
+
+
+def test_every_generated_page_links_to_the_map_sites_landing_page_and_the_llms_file_names_it():
+    F, _ = built()
+    for k in [k for k in F if k.endswith(".html") and k != "index.html"]:
+        foot = F[k].split("<footer>")[1].split("</footer>")[0]
+        assert 'href="https://slava.energy/uk-renewable-projects"' in foot, k
+    assert "https://slava.energy/uk-renewable-projects" in F["llms.txt"]
+
+
+def test_the_home_page_no_longer_calls_itself_slava_energy_and_points_to_the_map():
+    home = open(os.path.join(ROOT, "index.html"), encoding="utf-8").read()
+    head, body = home.split("</head>")
+    title = re.search(r"<title>(.*?)</title>", head).group(1)
+    assert title.endswith("slava.it.com") and "slava.energy" not in title
+    assert '<a href="/" class="pd-brand">slava.it.com</a>' in body
+    assert 'class="pd-brand">slava.energy' not in body
+    assert body.count('href="https://slava.energy/uk-renewable-projects"') == 2  # one in the navigation, one in the sentence under the heading
+    assert "a separate site" in body
+
+
 def test_unverified_relationships_are_labelled_as_such():
     F, _ = built()
     assert "relation to REPD 3258 is unverified" in F["projects/arecleoch.md"]

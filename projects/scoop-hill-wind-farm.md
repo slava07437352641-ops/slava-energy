@@ -22,6 +22,8 @@ Each row is one register record with its own identifier; records are not combine
 | REPD | 20966 | Scoop Hill Wind Farm | Planning Permission Refused | 200 MW | record updated date not recorded; status event 2026-02-05 | Exact name match; REPD links it to 7454 (storage co-location link type). |
 | NESO TEC | PRO-000327 | Scoop Hill Wind Farm | Awaiting Consents | connected 0 MW; cumulative 500 MW | MW effective from 2027-10-31 | Exact name match in the NESO file; no identifier is shared with the REPD records. |
 
+Planning record pages on slava.energy (the same REPD records, with their dated status history): [REPD 7454, Scoop Hill Wind Farm](https://slava.energy/uk-renewable-projects/repd-7454); [REPD 20966, Scoop Hill Wind Farm](https://slava.energy/uk-renewable-projects/repd-20966).
+
 ## Data credits
 
 - Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: 2026-08-03; Latest record update in the file: 2026-07-24; Download date: 2026-08-25; Facts exported: 2026-10-18.

@@ -21,6 +21,8 @@ Each row is one register record with its own identifier; records are not combine
 | REPD | 12283 | Leithenwater Wind Energy Hub - Wind Farm | Planning Application Submitted | 85.8 MW | record updated 2024-06-14; status event 2024-04-04 | Exact name match. |
 | REPD | 16496 | Leithenwater Wind Energy Hub - Wind Farm | Planning Application Submitted | 10 MW | record updated 2024-06-14; status event 2024-04-04 | Exact name match; REPD links it to 12283 (storage co-location). |
 
+Planning record pages on slava.energy (the same REPD records, with their dated status history): [REPD 12283, Leithenwater Wind Energy Hub - Wind Farm](https://slava.energy/uk-renewable-projects/repd-12283); [REPD 16496, Leithenwater Wind Energy Hub - Wind Farm](https://slava.energy/uk-renewable-projects/repd-16496).
+
 ## Data credits
 
 - Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: 2026-08-03; Latest record update in the file: 2026-07-24; Download date: 2026-08-25; Facts exported: 2026-10-18.

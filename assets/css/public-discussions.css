@@ -53,6 +53,7 @@ body {
 .pd-header { padding: 28px 28px 6px; max-width: 1400px; margin: 0 auto; }
 .pd-header h1 { font-family: var(--font-serif); font-size: clamp(1.8rem, 4vw, 2.6rem); margin: 0 0 6px; }
 .pd-sub { color: var(--text-secondary); font-size: 0.92rem; max-width: 62ch; line-height: 1.55; margin: 0; }
+.pd-sub a { color: var(--text-primary); text-decoration: underline; }
 
 /* ---- controls ---- */
 .pd-controls { padding: 18px 28px 6px; max-width: 1400px; margin: 0 auto; }

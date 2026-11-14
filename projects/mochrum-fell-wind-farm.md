@@ -21,6 +21,8 @@ Each row is one register record with its own identifier; records are not combine
 | REPD | 4466 | Mochrum Fell Wind Farm | Revised | 24 MW | record updated 2018-10-31 | Exact name match; the earlier application. REPD links it to 7891 as a possible re-application. |
 | REPD | 7891 | Mochrum Fell Wind Farm | Planning Application Submitted | 24 MW | record updated 2021-11-18; status event 2020-10-01 | Later application; REPD link 'Are they re-applying (New REPD Ref)' joins it to 4466. |
 
+Planning record pages on slava.energy (the same REPD records, with their dated status history): [REPD 4466, Mochrum Fell Wind Farm](https://slava.energy/uk-renewable-projects/repd-4466); [REPD 7891, Mochrum Fell Wind Farm](https://slava.energy/uk-renewable-projects/repd-7891).
+
 ## Data credits
 
 - Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: 2026-08-03; Latest record update in the file: 2026-07-24; Download date: 2026-08-25; Facts exported: 2026-10-18.

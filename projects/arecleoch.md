@@ -25,6 +25,8 @@ Each row is one register record with its own identifier; records are not combine
 | REPD | 7882 | Arecleoch Wind Farm (extension) | Under Construction | 20 MW | record updated 2025-07-25; status event 2025-06-01 | Extension battery storage; REPD links it to 6798 (storage co-location). |
 | NESO TEC | PRO-001111 | Arecleoch Extension Windfarm | Scoping | connected 0 MW; cumulative 72.8 MW | MW effective from 2026-08-31 | 'Arecleoch Extension Windfarm'; same capacity (72.8 MW) as REPD 6798 but no shared identifier, so the relation is unverified. |
 
+Planning record pages on slava.energy (the same REPD records, with their dated status history): [REPD 3258, Arecleoch Windfarm](https://slava.energy/uk-renewable-projects/repd-3258); [REPD 6798, Arecleoch Wind Farm (extension)](https://slava.energy/uk-renewable-projects/repd-6798); [REPD 7882, Arecleoch Wind Farm (extension)](https://slava.energy/uk-renewable-projects/repd-7882).
+
 ## Data credits
 
 - Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: 2026-08-03; Latest record update in the file: 2026-07-24; Download date: 2026-08-25; Facts exported: 2026-10-18.

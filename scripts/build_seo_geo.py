@@ -433,7 +433,10 @@ def records_html(p):
 
     rows = "".join("<tr>" + "".join(cell(h, c) for h, c in zip(RECORD_HEAD, record_cells(r))) + "</tr>" for r in p["records"])
     note = f"<p class=\"records-note\">{esc(p['note'])}</p>" if p["note"] else ""
-    return f"<h2>Register records</h2><p>{esc(record_note(p))}</p><div style=\"overflow-x:auto\"><table class=\"records\"><thead><tr>{head}</tr></thead><tbody>{rows}</tbody></table></div>{note}\n"
+    links = repd_links(p["records"])
+    pages = ("<p>Planning record pages on slava.energy (the same REPD records, with their dated status history): "
+             + "; ".join(f"<a href=\"{esc(u)}\">REPD {esc(i)}, {esc(n)}</a>" for i, n, u in links) + ".</p>") if links else ""
+    return f"<h2>Register records</h2><p>{esc(record_note(p))}</p><div style=\"overflow-x:auto\"><table class=\"records\"><thead><tr>{head}</tr></thead><tbody>{rows}</tbody></table></div>{note}{pages}\n"
 
 
 def records_md(p):
@@ -441,7 +444,10 @@ def records_md(p):
         return ""
     rows = "\n".join("| " + " | ".join(str(c).replace("|", "/") for c in record_cells(r)) + " |" for r in p["records"])
     note = f"{p['note']}\n\n" if p["note"] else ""
-    return (f"## Register records\n\n{record_note(p)}\n\n| " + " | ".join(RECORD_HEAD) + " |\n|" + "---|" * len(RECORD_HEAD) + f"\n{rows}\n\n{note}")
+    links = repd_links(p["records"])
+    pages = ("Planning record pages on slava.energy (the same REPD records, with their dated status history): "
+             + "; ".join(f"[REPD {i}, {n}]({u})" for i, n, u in links) + ".\n\n") if links else ""
+    return (f"## Register records\n\n{record_note(p)}\n\n| " + " | ".join(RECORD_HEAD) + " |\n|" + "---|" * len(RECORD_HEAD) + f"\n{rows}\n\n{note}{pages}")
 
 
 FOOTER_SENTENCE = ("Facebook group posts are archived public posts and are not independently verified. "
@@ -488,11 +494,23 @@ def nowrap_dates(text):
 
 
 MAP_URL = "https://slava.energy/"
+PLANNING_URL = "https://slava.energy/uk-renewable-projects"          # the map site's landing page and, below it, one page per REPD record (2026-11-14)
+REPD_REF = re.compile(r"[A-Za-z0-9]{1,12}")
+
+
+def repd_page_url(ref):
+    return f"{PLANNING_URL}/repd-{str(ref).lower()}"
+
+
+def repd_links(records):
+    """(ref, name, url) for every listed REPD record whose identifier fits the map site's address grammar; none for a register that is not REPD."""
+    return [(r["id"], r["name"], repd_page_url(r["id"])) for r in records if r["register"] == "repd" and REPD_REF.fullmatch(str(r["id"]))]
 
 
 def map_link_html():
     """One plain link from every generated page to the interactive map. No per-project deep link: the map has stable project links for only four pilot projects, none of them on this site."""
-    return f"<p>Interactive map of UK energy projects and grid: <a href=\"{MAP_URL}\">slava.energy</a>.</p>"
+    return (f"<p>Interactive map of UK energy projects and grid: <a href=\"{MAP_URL}\">slava.energy</a>. "
+            f"A page for every record in the UK government's Renewable Energy Planning Database: <a href=\"{PLANNING_URL}\">slava.energy/uk-renewable-projects</a>.</p>")
 
 
 def contact_html():
@@ -774,6 +792,7 @@ def build_files(site, build_date):
         note = (f" The discussions index holds {len(all_recs):,} records; these pages cover {len(recs):,} because "
                 f"{withheld} record{' is' if withheld == 1 else 's are'} excluded from them.")
     lines = ["# slava.it.com", "", f"> {desc}", "",
+             f"The interactive map of UK energy projects and the grid, and a page for every UK government planning (REPD) record, are on a separate site: {PLANNING_URL}", "",
              f"Counts are generated from the discussions index on {build_date}. Projects with at least two linked posts have a page.{note}", "",
              "## Hubs"]
     for k, h in hubs.items():

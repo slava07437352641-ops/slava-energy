@@ -25,6 +25,8 @@ Each row is one register record with its own identifier; records are not combine
 | REPD | 7882 | Arecleoch Wind Farm (extension) | Under Construction | 20 MW | record updated 2025-07-25; status event 2025-06-01 | Extension battery storage; REPD links it to 6798 (storage co-location). |
 | NESO TEC | PRO-001111 | Arecleoch Extension Windfarm | Scoping | connected 0 MW; cumulative 72.8 MW | MW effective from 2026-08-31 | 'Arecleoch Extension Windfarm'; same capacity (72.8 MW) as REPD 6798 but no shared identifier, so the relation is unverified. |
 
+Planning record pages on slava.energy (the same REPD records, with their dated status history): [REPD 3258, Arecleoch Windfarm](https://slava.energy/uk-renewable-projects/repd-3258); [REPD 6798, Arecleoch Wind Farm (extension)](https://slava.energy/uk-renewable-projects/repd-6798); [REPD 7882, Arecleoch Wind Farm (extension)](https://slava.energy/uk-renewable-projects/repd-7882).
+
 ## Data credits
 
 - Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: 2026-08-03; Latest record update in the file: 2026-07-24; Download date: 2026-08-25; Facts exported: 2026-10-18.
@@ -729,6 +731,8 @@ Each row is one register record with its own identifier; records are not combine
 | NESO Embedded | PRO-000370-2 | Golticlay Wind Farm | Scoping | connected 0 MW; cumulative 58 MW | MW effective from 2026-07-31 | Stage 2 of NESO project PRO-000370. |
 | NESO Embedded | PRO-000926 | Golticlay Extension Wind Farm | Awaiting Consents | connected 0 MW; cumulative 55 MW | MW effective from 2027-09-30 | 'Golticlay Extension Wind Farm'; a different NESO project number; relation to the REPD records is unverified. |
 
+Planning record pages on slava.energy (the same REPD records, with their dated status history): [REPD 5195, Golticlay Wind Farm](https://slava.energy/uk-renewable-projects/repd-5195); [REPD 20387, Golticlay Wind Farm 2](https://slava.energy/uk-renewable-projects/repd-20387); [REPD 18325, Golticlay Wind Farm, Bulreanrob - Wind Farm](https://slava.energy/uk-renewable-projects/repd-18325); [REPD 18326, Golticlay Wind Farm, Bulreanrob - Battery Energy Storage](https://slava.energy/uk-renewable-projects/repd-18326).
+
 ## Data credits
 
 - Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: 2026-08-03; Latest record update in the file: 2026-07-24; Download date: 2026-08-25; Facts exported: 2026-10-18.
@@ -1109,6 +1113,8 @@ Each row is one register record with its own identifier; records are not combine
 | REPD | 12283 | Leithenwater Wind Energy Hub - Wind Farm | Planning Application Submitted | 85.8 MW | record updated 2024-06-14; status event 2024-04-04 | Exact name match. |
 | REPD | 16496 | Leithenwater Wind Energy Hub - Wind Farm | Planning Application Submitted | 10 MW | record updated 2024-06-14; status event 2024-04-04 | Exact name match; REPD links it to 12283 (storage co-location). |
 
+Planning record pages on slava.energy (the same REPD records, with their dated status history): [REPD 12283, Leithenwater Wind Energy Hub - Wind Farm](https://slava.energy/uk-renewable-projects/repd-12283); [REPD 16496, Leithenwater Wind Energy Hub - Wind Farm](https://slava.energy/uk-renewable-projects/repd-16496).
+
 ## Data credits
 
 - Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: 2026-08-03; Latest record update in the file: 2026-07-24; Download date: 2026-08-25; Facts exported: 2026-10-18.
@@ -1227,6 +1233,8 @@ Each row is one register record with its own identifier; records are not combine
 |---|---|---|---|---|---|---|
 | REPD | 4466 | Mochrum Fell Wind Farm | Revised | 24 MW | record updated 2018-10-31 | Exact name match; the earlier application. REPD links it to 7891 as a possible re-application. |
 | REPD | 7891 | Mochrum Fell Wind Farm | Planning Application Submitted | 24 MW | record updated 2021-11-18; status event 2020-10-01 | Later application; REPD link 'Are they re-applying (New REPD Ref)' joins it to 4466. |
+
+Planning record pages on slava.energy (the same REPD records, with their dated status history): [REPD 4466, Mochrum Fell Wind Farm](https://slava.energy/uk-renewable-projects/repd-4466); [REPD 7891, Mochrum Fell Wind Farm](https://slava.energy/uk-renewable-projects/repd-7891).
 
 ## Data credits
 
@@ -1398,6 +1406,8 @@ Each row is one register record with its own identifier; records are not combine
 | REPD | 12289 | Newlands Hill Wind Energy Hub | Planning Application Submitted | 136 MW | record updated 2023-12-07; status event 2023-11-14 | Exact name match. |
 | REPD | 15383 | Newlands Hill Wind Energy Hub | Planning Application Submitted | 136 MW | record updated 2023-12-07; status event 2023-11-14 | Exact name match; REPD links it to 12289 (storage co-location). |
 | NESO TEC | PRO-002549 | Newlands Hill Wind Energy Hub | Awaiting Consents | connected 0 MW; cumulative 119 MW | MW effective from 2030-04-03 | Exact name match in the NESO file; no identifier is shared with the REPD records. |
+
+Planning record pages on slava.energy (the same REPD records, with their dated status history): [REPD 12289, Newlands Hill Wind Energy Hub](https://slava.energy/uk-renewable-projects/repd-12289); [REPD 15383, Newlands Hill Wind Energy Hub](https://slava.energy/uk-renewable-projects/repd-15383).
 
 ## Data credits
 
@@ -1792,6 +1802,8 @@ Each row is one register record with its own identifier; records are not combine
 | REPD | 20966 | Scoop Hill Wind Farm | Planning Permission Refused | 200 MW | record updated date not recorded; status event 2026-02-05 | Exact name match; REPD links it to 7454 (storage co-location link type). |
 | NESO TEC | PRO-000327 | Scoop Hill Wind Farm | Awaiting Consents | connected 0 MW; cumulative 500 MW | MW effective from 2027-10-31 | Exact name match in the NESO file; no identifier is shared with the REPD records. |
 
+Planning record pages on slava.energy (the same REPD records, with their dated status history): [REPD 7454, Scoop Hill Wind Farm](https://slava.energy/uk-renewable-projects/repd-7454); [REPD 20966, Scoop Hill Wind Farm](https://slava.energy/uk-renewable-projects/repd-20966).
+
 ## Data credits
 
 - Contains public sector information licensed under the Open Government Licence v3.0. Data: Renewable Energy Planning Database (REPD), Department for Energy Security and Net Zero (© Crown copyright). Licence: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Source: https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract. Source dates: Edition: Q2 2026; Release date: 2026-08-03; Latest record update in the file: 2026-07-24; Download date: 2026-08-25; Facts exported: 2026-10-18.
@@ -1908,6 +1920,8 @@ Each row is one register record with its own identifier; records are not combine
 |---|---|---|---|---|---|---|
 | REPD | 12027 | Shinness Wind Farm | Planning Application Submitted | 105.6 MW | record updated 2024-06-11; status event 2024-04-15 | Exact name match. |
 | REPD | 12029 | Shinness Wind Farm | Planning Application Submitted | 105 MW | record updated 2024-06-11; status event 2024-04-15 | Exact name match; REPD links it to 12027 (storage co-location). |
+
+Planning record pages on slava.energy (the same REPD records, with their dated status history): [REPD 12027, Shinness Wind Farm](https://slava.energy/uk-renewable-projects/repd-12027); [REPD 12029, Shinness Wind Farm](https://slava.energy/uk-renewable-projects/repd-12029).
 
 ## Data credits
 
@@ -2038,6 +2052,8 @@ Each row is one register record with its own identifier; records are not combine
 | NESO TEC | PRO-000068 | Whitelee Extension | Built | connected 206 MW; cumulative 238 MW | MW effective from 2026-12-01 | 'Whitelee Extension'; a different NESO project number; its relation to the REPD extension records is unverified. |
 
 The records listed describe the registered assets. Several archived posts discuss a repowering proposal; a search of the registers by name did not establish that proposal's register status, so none is shown here.
+
+Planning record pages on slava.energy (the same REPD records, with their dated status history): [REPD 3489, Whitelee](https://slava.energy/uk-renewable-projects/repd-3489); [REPD 7174, Whitelee Wind Farm Battery Storage Extension](https://slava.energy/uk-renewable-projects/repd-7174); [REPD 2757, Whitelee Windfarm Extension phase 2](https://slava.energy/uk-renewable-projects/repd-2757); [REPD 3981, Whitelee Windfarm Extension Phase 1](https://slava.energy/uk-renewable-projects/repd-3981); [REPD 4232, Whitelee Windfarm Extension Phase 3](https://slava.energy/uk-renewable-projects/repd-4232); [REPD 8341, Whitelees Hydrogen Production Facility, Solar Farm & Battery Storage](https://slava.energy/uk-renewable-projects/repd-8341); [REPD 8342, Whitelees Hydrogen Production Facility, Solar Farm & Battery Storage](https://slava.energy/uk-renewable-projects/repd-8342); [REPD 9076, Whitelees Hydrogen Production Facility, Solar Farm & Battery Storage](https://slava.energy/uk-renewable-projects/repd-9076).
 
 ## Data credits
 

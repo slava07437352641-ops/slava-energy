@@ -2,6 +2,8 @@
 
 > 4678 tracked public community posts from 38 Facebook groups, linked to 83 UK projects (65 wind, solar and storage; 11 pylons and grid; 7 AI data centres). Posts are archived public group posts, not independently verified.
 
+The interactive map of UK energy projects and the grid, and a page for every UK government planning (REPD) record, are on a separate site: https://slava.energy/uk-renewable-projects
+
 Counts are generated from the discussions index on 2026-11-14. Projects with at least two linked posts have a page. The discussions index holds 4,679 records; these pages cover 4,678 because 1 record is excluded from them.
 
 ## Hubs

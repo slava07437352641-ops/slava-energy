@@ -2,163 +2,163 @@
  "pages": {
   "https://slava.it.com/": {
    "modified": "2026-11-14",
-   "sha256": "8599bdd26e9227bdc01f6c1a3411d8bb6af35d2b6ca99ff34511a2357e86c9dd"
+   "sha256": "115c371844adfef38515d3094e0dda50bf2e7fbc104d05a77e350faa4fc66c83"
   },
   "https://slava.it.com/data-centres/": {
    "modified": "2026-11-14",
-   "sha256": "20416fa5e36417fff7c6f14bc4d0e2121a9665539d2fe5a203b5dbccd7dff608"
+   "sha256": "acd1061fce7c37e1b7ea54cafd338f5124c77110f3c595b1fbf690e6f9223798"
   },
   "https://slava.it.com/projects/arecleoch.html": {
    "modified": "2026-11-14",
-   "sha256": "07d5d23f5f9c3f3148a20648d4fc7b95f9d88e2289372e506971242887997f30"
+   "sha256": "ade03ed0187ba2732feb17b9204730a9e37ae95079424ee5df1d5b44a0f8d1c5"
   },
   "https://slava.it.com/projects/beauly-to-peterhead-400kv-overhead-line.html": {
    "modified": "2026-11-14",
-   "sha256": "6d8613d391331b8518fa48677c6520ca27a7c5a860a3b7c164f44864dd3791b8"
+   "sha256": "df8a35d7a4f758ddbfc722fe7e2bbecf2f4d946c2757697de1d1b44e08e3ce5e"
   },
   "https://slava.it.com/projects/berwick-bank-offshore-wind-farm.html": {
    "modified": "2026-11-14",
-   "sha256": "de246d38436de89465d194bd4542614615fadd9b001f7f74e565351f90733a75"
+   "sha256": "82a2f83dd265ccfeb816c03d77fb92ba5453cb3ff659a48089cb7cbd3babb6d1"
   },
   "https://slava.it.com/projects/blackdog-data-centre-campus.html": {
    "modified": "2026-11-14",
-   "sha256": "115e896fb5e895126b10e9846619a3c3dd3c67c492983ecb8e98bab59f2f6470"
+   "sha256": "84d5be3d530de67ecd657c9aaed359de4095c1467cfd20bbe316b5fc61a278e6"
   },
   "https://slava.it.com/projects/carn-fearna-wind-farm.html": {
    "modified": "2026-11-14",
-   "sha256": "a6a3b45c1f2d48199bed0161638355786bd6614a043089e6bb42ac4af979668c"
+   "sha256": "ce07ad9aa0d3a3360b37c342673f8975d2539a618ed35944cac4ac5b6f5c3300"
   },
   "https://slava.it.com/projects/cato-data-centre-campus-ili-group-auchtertool-fife.html": {
    "modified": "2026-11-14",
-   "sha256": "380220cfedffb4428d702b33268b5b420945245f630346a69dbbbad112c1eff1"
+   "sha256": "b562cb8615c60629728544607a1cb033b51434ad2bd49157fda25c286c601dfa"
   },
   "https://slava.it.com/projects/chapelcross-data-centre-campus-cx-tech.html": {
    "modified": "2026-11-14",
-   "sha256": "4775f267e8c119439a13306e17f6a209d5b119722e38e0b72b1e0eee299c0195"
+   "sha256": "3748a6c699b85e6b2560b030cb8c3c9be1d50a9869863894becd0886499a8c8f"
   },
   "https://slava.it.com/projects/cockenzie-data-centre-sdcl-former-power-station-site.html": {
    "modified": "2026-11-14",
-   "sha256": "80e22c15a4a81e41069fc672fd7cf8a1c3f1d72ea3e0936b4d508b197751a987"
+   "sha256": "fa7f8108cb726f262a2b8822b407b7cd039b798b9f12dd54af6624527566057f"
   },
   "https://slava.it.com/projects/ditcher-law.html": {
    "modified": "2026-11-14",
-   "sha256": "f78765ecab98454087273b3451635dc6f85a1983a080794a1a5051d82e064af1"
+   "sha256": "be903d44f0ab6b20a4f907b0dbaa8f3122dfa9e936fd1d342f53a7979845a79d"
   },
   "https://slava.it.com/projects/giants-burn-wind-farm.html": {
    "modified": "2026-11-14",
-   "sha256": "d5cbd48c3a0fb246557e047d8febe60a7911a0917b8bddc1505059709922ce87"
+   "sha256": "2c6c96a45ed106a58ec67b013f8c0d324870bcd5d37892a13fc4925d638e870f"
   },
   "https://slava.it.com/projects/glen-earrach-pumped-storage-hydro.html": {
    "modified": "2026-11-14",
-   "sha256": "fd8e9f9977301fb8c62d47398d913cad10cfc079233d80b0a4727205051cd179"
+   "sha256": "49a17066eeb8439dfc6e0f3e801285f0f1e1fcb13dcb11f8ce634ded29b50053"
   },
   "https://slava.it.com/projects/glenvernoch.html": {
    "modified": "2026-11-14",
-   "sha256": "4569dd89377f10291bb4f7ab86cdaf3f902abea4a5e9cdd2c7a0c3550dc3032b"
+   "sha256": "4f26fb52b623d10461541507210107ed1ec095cbb7546338d1b0b50000506491"
   },
   "https://slava.it.com/projects/golticlay-wind-farm.html": {
    "modified": "2026-11-14",
-   "sha256": "f9681e58eb7dc2f229e920cea261afd9e9db29bb9b6f66530e7b1165eb4405ce"
+   "sha256": "8729d381efb2a42f3b9d1bffd69cf53cb86024cf925069578792e77cbc134aa7"
   },
   "https://slava.it.com/projects/grudie-bridge.html": {
    "modified": "2026-11-14",
-   "sha256": "f0eb01bcc93cfa939a94bd0b284b3584269729ccfc52dcf7d1cfb04816490fde"
+   "sha256": "44ea6a5fa381e67ecacff28ad3d88396c3c0c44774dbfaa4ed495da25efd5ddb"
   },
   "https://slava.it.com/projects/hawks-nest-farm-battery-storage.html": {
    "modified": "2026-11-14",
-   "sha256": "3ce861c5412e0720ffc70cfe7e354bc67967ce376808ef592361e128701ac192"
+   "sha256": "073105b5e8b36af8ff8c486d6f24637c2549f3660b2989c84580412a2e9f1479"
   },
   "https://slava.it.com/projects/hawthorn-pit-solar-farm.html": {
    "modified": "2026-11-14",
-   "sha256": "db78bea32aa5a512b2d9d42bdc1c118df5c2e1f367c917c07a50c1cb157e75eb"
+   "sha256": "286ee7a7316f438eb84d7d0c99dd2e82eb411024d7bda25467459775a908c70b"
   },
   "https://slava.it.com/projects/inch-cape.html": {
    "modified": "2026-11-14",
-   "sha256": "4d7b84e09843e707b87c127a7511d4fdcff7d88afdc8b006d0998a5aac76cdb1"
+   "sha256": "3200e6408eeb1d68b77c9c898af1594f1902906141d89236b2372e1edd5b7a50"
   },
   "https://slava.it.com/projects/kintore-to-tealing-400kv-overhead-line.html": {
    "modified": "2026-11-14",
-   "sha256": "997f83278e0475717d71ba5d5121583e1b64c4bd428af1b312cf4bd6abfd3dc2"
+   "sha256": "6b4cbbf6a7718ef35cf41f1dd576780f4c5f645153ef4c1120b50b768a821ce2"
   },
   "https://slava.it.com/projects/lairg-ii-wind-farm.html": {
    "modified": "2026-11-14",
-   "sha256": "8984fd0c6af863ec3c9f7e42e04a54ccea1ef00d802b090b81454cfcbfcf1d10"
+   "sha256": "cb79121ba0d5efb7f3d3f0af31c4f7f4dc2060c62f858a529830b74e17da7672"
   },
   "https://slava.it.com/projects/leithenwater-wind-energy-hub-wind-farm.html": {
    "modified": "2026-11-14",
-   "sha256": "ba61a2806e163ce0d6e52e4f119091e40053def8ebfd2f7efd4aa4361257ecca"
+   "sha256": "e291b470833b37a0b978f98b447d7e294c9aa92936176ed51658692b632144ce"
   },
   "https://slava.it.com/projects/machair.html": {
    "modified": "2026-11-14",
-   "sha256": "e21d9e312bf7a9bffe0994f45f95a431c8c7e96b00deb0d895063aa04743df49"
+   "sha256": "60e456da97929d22520771c41887534a7b147015a4ef7d3807d3c424f8b5fc7c"
   },
   "https://slava.it.com/projects/mochrum-fell-wind-farm.html": {
    "modified": "2026-11-14",
-   "sha256": "b0586bc75bb450d7307b64cca39fd742f61263798c6fbaff06292e27c744d62d"
+   "sha256": "1870ec78b47520fdec1a00ef786dd4bbffe8a40d51a2c941ab5c0e8cc5b8e458"
   },
   "https://slava.it.com/projects/mossy-hill-wind-farm.html": {
    "modified": "2026-11-14",
-   "sha256": "892ef8afcb71d7a90f888b3972cd2b77b1e4ca748b8594b1a688d5dc6e059dbd"
+   "sha256": "779a3f0b0fd92b90558bf87da0c78d09606f7e33726bb9a657c6d9758ef42292"
   },
   "https://slava.it.com/projects/new-cumnock-bess.html": {
    "modified": "2026-11-14",
-   "sha256": "b541e158a3d65f8749aa4be381b1a2e05013880e14d3a8d6e6f24491de4228a4"
+   "sha256": "2d51b6fcc323917f016563636a9ddab0ca7975802edec66df80f4cf81e238f3d"
   },
   "https://slava.it.com/projects/newlands-hill-wind-energy-hub.html": {
    "modified": "2026-11-14",
-   "sha256": "8d6ea80935d1ed94a94e6ca0dca7f27e2032039bf55a84f2f494eb2cee52e35b"
+   "sha256": "3c59678947378a624b74daea5f5ebbc3742e98d7f7ef970f46de7b4e0a85a370"
   },
   "https://slava.it.com/projects/norwich-to-tilbury-east-anglia-green.html": {
    "modified": "2026-11-14",
-   "sha256": "c7248d2dbc5b64618f2c0b0a0524204fb7760395145d8a26b0afb0bc63884a22"
+   "sha256": "b3a44ed277b186acd747498b8802f871a93fc4bb67b88db4c0dac5e795093c98"
   },
   "https://slava.it.com/projects/olrig-mains-wind-farm.html": {
    "modified": "2026-11-14",
-   "sha256": "e141dba110e989533df117e454008903a655a3b2a134b633159264dda0464c66"
+   "sha256": "9673acff27c14d73a7014398185aa8e0467390971ce0d04febf5d83f31fb7b77"
   },
   "https://slava.it.com/projects/overhill-wind-farm.html": {
    "modified": "2026-11-14",
-   "sha256": "5c7a44a5ee38c37a8e6b201989beb59544b61a81b09dff35f2eba32ae64ec225"
+   "sha256": "78e7a14f797fd10ff2f0f2d2d71a96f9271a70eeee6a54eb53a056306c2d1dce"
   },
   "https://slava.it.com/projects/ravenscraig-data-centre-sevenfoureight.html": {
    "modified": "2026-11-14",
-   "sha256": "fa577a6f27a1ffb0e6ee0690aeb2fe067bd217872f7a07e49a79900e7f644a39"
+   "sha256": "8dcc8cd1b01988073055a31ae83ec1e0526deae45781e64351de5331a1b21884"
   },
   "https://slava.it.com/projects/rufus-data-centre-campus-hurlford.html": {
    "modified": "2026-11-14",
-   "sha256": "41cd48ea531afe24d69412a0d9ef6bc22fe17de16a2ede750bf7d8e647d94be5"
+   "sha256": "fcebcddc5f2db0e00d0db7084feaa46d0c58dd4786ec58e6b7a1595a960d7e2f"
   },
   "https://slava.it.com/projects/sanquhar-ii-wind-farm.html": {
    "modified": "2026-11-14",
-   "sha256": "91c5d633a4ba7d26e2abb1d04603f88248da55101b078de97ba271fea8b8744d"
+   "sha256": "c2336429c15bdb67a575b3bc216b30b7bc8f31cdd36ca1b3061fd955ce054f36"
   },
   "https://slava.it.com/projects/scoop-hill-wind-farm.html": {
    "modified": "2026-11-14",
-   "sha256": "9c8c61e64b9de0b1dce248204dd548d70a3da6855d88f65e7da50f6d5185004e"
+   "sha256": "7459a8ec6098a3eee09cb0e15e6e41c00c217440314cb4313d581f4b7b6fba5e"
   },
   "https://slava.it.com/projects/seagreen.html": {
    "modified": "2026-11-14",
-   "sha256": "95ff8297cf005169ebeb1b9318e910305b5caadf60efd3e5308b30127c65485b"
+   "sha256": "dbf705bc025a04b03cdf41091cf2612f3d0cad1f2385ad13c24daacef2a94b44"
   },
   "https://slava.it.com/projects/shinness-wind-farm.html": {
    "modified": "2026-11-14",
-   "sha256": "8f3e9e3d68b38979116c37d6a31a50ea188d3fe11d740acd28e05c576fe75d50"
+   "sha256": "25240acfbefd87e62a2c99352f6d57a31a3f671fea47f572d064e4353085c95a"
   },
   "https://slava.it.com/projects/spiorad-na-mara.html": {
    "modified": "2026-11-14",
-   "sha256": "f446a4c37b04a824a862f30f3354d43c2d8302e340be27920470ff99036b6c1a"
+   "sha256": "bec4a051fb40b15f086ccb6d89bfe9e5b799d3d3bfb2b12ed576d50796786c23"
   },
   "https://slava.it.com/projects/whitelee.html": {
    "modified": "2026-11-14",
-   "sha256": "de2c23167c9e2f6498e3c6712b8f8c784faf75d4f38a3242b71fad2406b71db0"
+   "sha256": "31b4c98e0ca1799dc0d932ef45490b3ff8e9f90d771ddb6f5c537ac55bc85399"
   },
   "https://slava.it.com/pylons-grid/": {
    "modified": "2026-11-14",
-   "sha256": "6483e4fc543269f7a37be052ba73f51d7f13ef246205804653f5c6d9092fb601"
+   "sha256": "b4484926de93b79c2ae76f8f43cc3414e4b790b82b6b9761538488be7c234a57"
   },
   "https://slava.it.com/renewables-wind/": {
    "modified": "2026-11-14",
-   "sha256": "65a019f1dd943e0789f7aed0fd0aa02efc98ce8fc29ac5117b615092adb9e58a"
+   "sha256": "33018610b34577520a6aa38575b809dd8d2a0fe5baf3a32d0d7ad5ea0b7494b4"
   }
  },
  "schema": 1
