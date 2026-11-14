@@ -393,7 +393,7 @@ export function renderDetail(panel, record, { onBack, hasMirror = false }) {
 // called unless the site owner has explicitly published that record's
 // mirror file -- either by hand (a screenshot) or via promote-to-mirror.mjs
 // (U10-C), always a deliberate per-record decision either way.
-const MIRROR_CONTACT_EMAIL = "slava@atlasglobal.energy";
+const MIRROR_CONTACT_EMAIL = "bd@slava.energy";
 
 // "Featured" is honest while mirrors are the hand-picked few the 2026-09-11
 // decision scoped this to; past a rough threshold the same badge would

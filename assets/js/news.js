@@ -1,7 +1,7 @@
 // Render news panel from news-index.json (U4 of feat-daily-news-panel-plan.md)
 // Loads Scotland Against Spin and APR Scotland posts and displays them in the news panel.
 
-import { renderDetail, makeCardKeyboardAccessible } from "./feed.js?v=20261002b";
+import { renderDetail, makeCardKeyboardAccessible } from "./feed.js?v=20261114d";
 
 // Single source of truth for how many items the Recent News panel shows --
 // main.js imports this too, to exclude the same IDs from the main feed
