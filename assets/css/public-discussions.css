@@ -81,6 +81,10 @@ body {
 .pd-skel-chip { display: inline-block; width: 92px; height: 31px; border-radius: 980px; border: 1px solid var(--card-border); }
 .pd-skel-card { min-height: 300px; border: 1px solid var(--card-border); border-radius: 12px; background: var(--card-bg); }
 .pd-feed { min-height: 100vh; min-height: 100svh; }
+/* The counter text grows from a dash to "3,180 discussions (showing 50)" when the data arrives. On a narrow screen that wraps it
+   onto its own line and pushed the chips and news panel down; giving it its own line from the start keeps the height fixed. */
+.pd-count { min-height: 1.4em; }
+@media (max-width: 800px) { .pd-count { flex: 1 0 100%; } }
 .pd-chip {
   padding: 7px 15px; border-radius: 980px; font-size: 0.8rem; font-weight: 600;
   border: 1px solid var(--card-border); background: transparent; color: var(--text-secondary); cursor: pointer;
