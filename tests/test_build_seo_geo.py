@@ -887,3 +887,19 @@ def test_every_generated_page_links_to_the_map_and_the_home_page_has_a_canonical
     assert home.count('rel="canonical" href="https://slava.it.com/"') == 1
     for tag in ('property="og:title"', 'property="og:description"', 'property="og:url"', 'name="twitter:card"'):
         assert home.count(tag) == 1, tag
+
+
+def test_the_follow_box_is_styled_by_class_not_inline():
+    # the home page policy (style-src 'self') blocks inline styles, so the box takes its look from CSS on every page (2026-11-14)
+    F, _ = built()
+    block = re.compile(r"<!-- seo-geo:follow:start -->(.*?)<!-- seo-geo:follow:end -->", re.S)
+    pages = [k for k, v in F.items() if k.endswith(".html") and block.search(v)]
+    assert pages
+    for k in pages:
+        aside = block.search(F[k]).group(1)
+        assert 'class="seo-follow"' in aside and "style=" not in aside, k
+        assert "Follow UK infrastructure updates:" in aside, k
+        if k != "index.html":          # the home page takes the rule from the linked stylesheet; every other page carries it in its own style block
+            assert ".seo-follow{margin:1.5rem 0 0;font-size:.95em;" in F[k], k
+    css = open(os.path.join(ROOT, "assets", "css", "public-discussions.css"), encoding="utf-8").read()
+    assert ".seo-follow { margin: 1.5rem 0 0; font-size: .95em; }" in css

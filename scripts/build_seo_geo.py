@@ -366,7 +366,7 @@ def nav_html():
 
 
 def follow_html():
-    return (f"{FOLLOW_MARK[0]}\n<aside class=\"seo-follow\" style=\"margin:1.5rem 0 0;font-size:.95em\" aria-label=\"Follow updates\"><p>Follow UK infrastructure updates: "
+    return (f"{FOLLOW_MARK[0]}\n<aside class=\"seo-follow\" aria-label=\"Follow updates\"><p>Follow UK infrastructure updates: "
             f"<a href=\"/feed.xml\">RSS feed (newest {FEED_ITEMS} posts)</a> · <a href=\"/feeds/data-centres.xml\">data centres</a> · "
             "<a href=\"/feeds/pylons.xml\">pylons</a> · <a href=\"/feeds/wind.xml\">wind, solar and storage</a></p></aside>\n"
             f"{FOLLOW_MARK[1]}")
@@ -535,7 +535,7 @@ def page(title, desc, canonical, body, lds, extra_css=""):
         "<style>body{font-family:system-ui,sans-serif;max-width:46rem;margin:0 auto;padding:1rem;line-height:1.5;color:#222;background:#faf7f2}"
         "table{border-collapse:collapse;width:100%;margin:.5rem 0}th,td{border:1px solid #d8cfc0;padding:.35rem .5rem;text-align:left;vertical-align:top}"
         "a{color:#a2421f}.skip{position:absolute;left:.5rem;top:-4rem;z-index:5;padding:.5rem .9rem;background:#fff;color:#222;border:2px solid #a2421f;border-radius:6px;font-weight:600;text-decoration:none}.skip:focus{top:.5rem}"
-        ".seo-follow{margin:2rem 0 1rem;padding:.75rem 1rem;border:1px solid #d8cfc0;border-radius:6px}" + extra_css + "</style>\n"
+        ".seo-follow{margin:1.5rem 0 0;font-size:.95em;padding:.75rem 1rem;border:1px solid #d8cfc0;border-radius:6px}" + extra_css + "</style>\n"
         f"</head>\n<body>\n<a class=\"skip\" href=\"#main\">Skip to the main content</a>\n{nav_html()}\n<main id=\"main\">\n{body}\n</main>\n"
         f"<footer><p>{FOOTER_SENTENCE}</p>{map_link_html()}{contact_html()}</footer>\n"
         f"{follow_html()}\n</body>\n</html>\n")
