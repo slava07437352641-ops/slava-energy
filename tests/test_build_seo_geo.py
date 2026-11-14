@@ -11,7 +11,16 @@ import shutil  # noqa: E402
 
 _CACHE = {}
 # Later than every date recorded in data/page-dates.json, so only changed content takes this date.
-BUILD_DATE = "2026-10-20"
+def _day_after_latest_recorded_date():
+    """The day after the newest date in data/page-dates.json, so only changed content takes the test build date even after the
+    real builder has run again (a fixed date goes stale every time it does)."""
+    import datetime
+    pages = json.load(open(os.path.join(ROOT, "data", "page-dates.json"), encoding="utf-8"))["pages"]
+    latest = max(v["modified"] for v in pages.values())
+    return (datetime.date.fromisoformat(latest) + datetime.timedelta(days=1)).isoformat()
+
+
+BUILD_DATE = _day_after_latest_recorded_date()
 
 
 def built():
@@ -632,12 +641,12 @@ def test_page_hash_ignores_dateModified_and_nothing_else():
 
 def test_a_content_change_sets_only_that_pages_lastmod_and_a_later_rebuild_is_stable(tmp_path):
     site = _mini_site(tmp_path, edit=_edit_chapelcross)
-    F, stats = sg.build_files(site, "2026-10-25")
+    F, stats = sg.build_files(site, BUILD_DATE)
     assert stats["changed_pages"] == [CHAPELCROSS_URL]
     lastmod = _lastmod(F["sitemap.xml"])
-    assert lastmod[CHAPELCROSS_URL] == "2026-10-25"
-    assert all(d != "2026-10-25" for u, d in lastmod.items() if u != CHAPELCROSS_URL)
-    assert '"dateModified": "2026-10-25"' in F["projects/chapelcross-data-centre-campus-cx-tech.html"]
+    assert lastmod[CHAPELCROSS_URL] == BUILD_DATE
+    assert all(d != BUILD_DATE for u, d in lastmod.items() if u != CHAPELCROSS_URL)
+    assert f'"dateModified": "{BUILD_DATE}"' in F["projects/chapelcross-data-centre-campus-cx-tech.html"]
     (tmp_path / sg.DATES_REL).write_text(F[sg.DATES_REL], encoding="utf-8")
     F2, stats2 = sg.build_files(site, "2026-10-30")
     assert stats2["changed_pages"] == []
@@ -650,8 +659,8 @@ def test_a_new_page_takes_the_build_date(tmp_path):
     state = json.load(open(tmp_path / sg.DATES_REL, encoding="utf-8"))
     del state["pages"][CHAPELCROSS_URL]
     (tmp_path / sg.DATES_REL).write_text(json.dumps(state), encoding="utf-8")
-    F, stats = sg.build_files(site, "2026-10-25")
-    assert stats["changed_pages"] == [CHAPELCROSS_URL] and _lastmod(F["sitemap.xml"])[CHAPELCROSS_URL] == "2026-10-25"
+    F, stats = sg.build_files(site, BUILD_DATE)
+    assert stats["changed_pages"] == [CHAPELCROSS_URL] and _lastmod(F["sitemap.xml"])[CHAPELCROSS_URL] == BUILD_DATE
 
 
 def test_builder_needs_the_page_dates_baseline(tmp_path, capsys):
