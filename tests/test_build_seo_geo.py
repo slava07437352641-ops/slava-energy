@@ -433,7 +433,8 @@ def test_the_home_page_no_longer_calls_itself_slava_energy_and_points_to_the_map
     assert '<a href="/" class="pd-brand">slava.it.com</a>' in body
     assert 'class="pd-brand">slava.energy' not in body
     assert body.count('href="https://slava.energy/uk-renewable-projects"') == 2  # one in the navigation, one in the sentence under the heading
-    assert "a separate site" in body
+    assert "The interactive map of UK projects and the grid: <a" in body
+    assert "separate site" not in body and "Renewable Energy Planning Database, is" not in body  # owner asked for that wording to be removed (2026-11-16)
 
 
 def test_unverified_relationships_are_labelled_as_such():
