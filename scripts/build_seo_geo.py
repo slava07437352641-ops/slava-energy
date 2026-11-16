@@ -536,7 +536,7 @@ def page(title, desc, canonical, body, lds, extra_css=""):
         "table{border-collapse:collapse;width:100%;margin:.5rem 0}th,td{border:1px solid #d8cfc0;padding:.35rem .5rem;text-align:left;vertical-align:top}"
         "a{color:#a2421f}.skip{position:absolute;left:.5rem;top:-4rem;z-index:5;padding:.5rem .9rem;background:#fff;color:#222;border:2px solid #a2421f;border-radius:6px;font-weight:600;text-decoration:none}.skip:focus{top:.5rem}"
         ".seo-follow{margin:1.5rem 0 0;font-size:.95em;padding:.75rem 1rem;border:1px solid #d8cfc0;border-radius:6px}"
-        "@media (pointer:coarse){nav a,footer a,.seo-follow a{display:inline-block;padding-block:.4rem}}" + extra_css + "</style>\n"
+        "nav a,footer a,.seo-follow a{display:inline-block;padding-block:.4rem}" + extra_css + "</style>\n"
         f"</head>\n<body>\n<a class=\"skip\" href=\"#main\">Skip to the main content</a>\n{nav_html()}\n<main id=\"main\">\n{body}\n</main>\n"
         f"<footer><p>{FOOTER_SENTENCE}</p>{map_link_html()}{contact_html()}</footer>\n"
         f"{follow_html()}\n</body>\n</html>\n")
