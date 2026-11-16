@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-14T14:09:12.000Z",
+  "generated": "2026-11-16T09:39:49.000Z",
   "sourceFilter": [
     "Scotland Against Spin",
     "Environmentalists Against Wind Turbines",
@@ -43,26 +43,25 @@
   "selection": "strict global recency (most recent records first, across all tracked sources)",
   "counts": {
     "records": 18,
-    "Grampian Against Data Centres": 1,
-    "Scottish Electricity Generating Stations": 4,
-    "Environmentalists Against Wind Turbines": 3,
-    "NO to East Havering Data Centre in Upminster (Residents Group)": 1,
-    "Essex Suffolk Norfolk Pylons": 1,
+    "Help Save Mochrum Fell": 1,
+    "Scotland Against Spin": 4,
+    "Dunbar Against Massive Datacentres (DAMD)": 2,
     "Say No To Cato Data Centre": 2,
-    "Rural Scotland (APRS)": 1,
-    "Scotland Against Spin": 3,
-    "Sunnica Community Action Group": 1,
-    "Say NO to Cockenzie Data Centre": 1
+    "Scottish Electricity Generating Stations": 5,
+    "Not A Just Transition": 1,
+    "NO to East Havering Data Centre in Upminster (Residents Group)": 1,
+    "Communities B4 Power Companies": 1,
+    "Say No to West Calder Hyperscale Data Centre": 1
   },
   "dateRange": {
-    "from": "2026-11-13",
-    "to": "2026-11-14"
+    "from": "2026-11-15",
+    "to": "2026-11-16"
   },
   "records": [
     {
-      "id": "1661138129055715",
-      "date": "2026-11-14",
-      "title": "Grampian Against Data Centres",
+      "id": "3644289132385556",
+      "date": "2026-11-16",
+      "title": "Help Save Mochrum Fell",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -76,21 +75,255 @@
       },
       "source": {
         "type": "facebook_group",
-        "name": "Grampian Against Data Centres",
-        "label": "Facebook · Grampian Against Data Centres",
-        "url": "https://www.facebook.com/groups/1517407306762132/posts/1661138129055715/"
+        "name": "Help Save Mochrum Fell",
+        "label": "Facebook · Help Save Mochrum Fell",
+        "url": "https://www.facebook.com/groups/1730785547069267/posts/3644289132385556/"
       },
       "thin": false,
-      "bodyText": "",
-      "contentFingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bodyText": "https://c.org/JpGm8n6FxB\nCHANGE.ORG Sign the Petition",
+      "contentFingerprint": "24b4ad62d2c160f4f6dbaeab45e2c2e330eb150f33d78eb0f6502a0acdb9de97",
       "photos": [
-        "media/facebook/1661138129055715/photo_1.png"
+        "media/facebook/3644289132385556/photo_1.png"
       ],
-      "mediaCount": 1
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://c.org/JpGm8n6FxB",
+          "url": "https://c.org/JpGm8n6FxB"
+        },
+        {
+          "text": "CHANGE.ORG Sign the Petition",
+          "url": "https://c.org/JpGm8n6FxB"
+        }
+      ]
     },
     {
-      "id": "1433591402266434",
-      "date": "2026-11-14",
+      "id": "30180818158187192",
+      "date": "2026-11-16",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/30180818158187192/"
+      },
+      "thin": false,
+      "bodyText": "ASCOTTISH council has signed a secrecy agreement with an AI data centre developer, a Freedom of Information request has revealed. West Lothian Council signed the secretive non-disclosure agreement (NDA) with an unknown firm in the 2025-26 financial year.\nWhile the majority of local authorities said they had not signed any NDAs, three councils which have live planning applications for hyperscale data centres would not confirm or deny if they had done so.\nThese were Dumfries and Galloway, where potentially the world’s largest data centre is proposed at Chapelcross; North Ayrshire, where a data centre is proposed at Hunterston; and East Lothian, where data centres are planned near Dunbar and at the former Cockenzie power station.\nTHENATIONAL.SCOT Scottish council signed secrecy deal with mystery AI data centre firm, FoI reveals",
+      "contentFingerprint": "1bc249dd5cb17ac5470dc6c21534ed34ee0f833ffaa5770b09c6964a78855066",
+      "photos": [
+        "media/facebook/30180818158187192/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "THENATIONAL.SCOT Scottish council signed secrecy deal with mystery AI data centre firm, FoI reveals",
+          "url": "https://www.thenational.scot/news/26728545.scottish-council-signed-secrecy-deal-mystery-ai-data-centre-firm/"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "30180762971526044",
+      "date": "2026-11-16",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/30180762971526044/"
+      },
+      "thin": false,
+      "bodyText": "Herald letters\nTHE SNP policy of installing 18GW (gigawatts) of wind power in Scotland to meet a maximum demand of only 4GW means a massive constraint payment debt under periods of high winds. This explains why electricity bills in Scotland are double those on the continent. Too much power for the current demand means high levies being paid to power companies.\nHowever, what is surprising is the deafening silence from opposition politicians at Holyrood.\nThey are not demanding to know why, under dunkelflaute conditions, wind farm operators are not required to provide free electricity to Scottish energy users when a lack of wind means renewable generators fail to do what’s claimed on the tin, forcing the use of expensive gas turbines to keep the lights on in Scotland.\nWhy does the SNP always favour big business at the expense of the Scottish consumer?\nIan Moir, Castle Douglas.",
+      "contentFingerprint": "b80a102e28463506e1610c5f4085b432e1cf1a472ae030fe3103e7b098393b66",
+      "photos": [
+        "media/facebook/30180762971526044/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "30180517904883884",
+      "date": "2026-11-16",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/30180517904883884/"
+      },
+      "thin": false,
+      "bodyText": "Despite ongoing regulatory reforms by the National Energy System Operator and Ofgem to purge speculative \"zombie\" projects from the UK's grid-connection queue, clean energy developments continue to experience severe delays. While thousands of stalled proposals representing hundreds of gigawatts have been targeted for removal, full timelines remain obstructed by slow planning consents, necessary infrastructure lags, and regional development imbalances\nTHETIMES.COM Power plants mired in delays despite reforms to kill ‘zombie’ projects",
+      "contentFingerprint": "71ad9c0bc3993b365cc3fbb87f537a0b18a360d8032faa5e950bc54fcad688a2",
+      "photos": [
+        "media/facebook/30180517904883884/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "THETIMES.COM Power plants mired in delays despite reforms to kill ‘zombie’ projects",
+          "url": "https://www.thetimes.com/business/energy/article/power-plants-grid-connection-neso-7l6jxdxhb"
+        }
+      ]
+    },
+    {
+      "id": "30180230978245910",
+      "date": "2026-11-16",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/30180230978245910/"
+      },
+      "thin": false,
+      "bodyText": "Homes are being powered from today by gas flowing to Aberdeenshire from the North Sea’s Jackdaw field.\nThe significant moment was hailed as proof there is still plenty of life left in the offshore energy industry.\nThe gas field was only [finally approved](https://www.pressandjournal.co.uk/.../jackdaw-gas-approved/) last month after being snarled up in a legal battle over environmental concerns.\n  https://www.pressandjournal.co.uk/.../jackdaw-gas-starts.../\nPRESSANDJOURNAL.CO.UK Taps turn on as Jackdaw gas starts flowing to Aberdeenshire",
+      "contentFingerprint": "9a35a40f97af9015ca55916fe40f45dfc050e351315e57ca023f9ab5533b1432",
+      "photos": [
+        "media/facebook/30180230978245910/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://www.pressandjournal.co.uk/.../jackdaw-gas-approved/",
+          "url": "https://www.pressandjournal.co.uk/fp/politics/7134577/jackdaw-gas-approved/"
+        },
+        {
+          "text": "https://www.pressandjournal.co.uk/.../jackdaw-gas-starts.../",
+          "url": "https://www.pressandjournal.co.uk/fp/politics/7153591/jackdaw-gas-starts-aberdeenshire/"
+        },
+        {
+          "text": "PRESSANDJOURNAL.CO.UK Taps turn on as Jackdaw gas starts flowing to Aberdeenshire",
+          "url": "https://www.pressandjournal.co.uk/fp/politics/7153591/jackdaw-gas-starts-aberdeenshire/"
+        }
+      ]
+    },
+    {
+      "id": "1496794418976680",
+      "date": "2026-11-16",
+      "title": "Dunbar Against Massive Datacentres (DAMD)",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Dunbar Against Massive Datacentres (DAMD)",
+        "label": "Facebook · Dunbar Against Massive Datacentres (DAMD)",
+        "url": "https://www.facebook.com/groups/1316627133660077/posts/1496794418976680/"
+      },
+      "thin": false,
+      "bodyText": "Sam Heughan using his speech to make a point to the Scottish Government about the beauty of Scotland and the need to keep AI Data Centres away...",
+      "contentFingerprint": "88129f14ef7e6565634de23d560680162832a9aeddcb1c6876c8fe78114c7019",
+      "photos": [
+        "media/facebook/1496794418976680/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1609419020466040",
+      "date": "2026-11-16",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1609419020466040/"
+      },
+      "thin": false,
+      "bodyText": "THEGUARDIAN.COM The Guardian view on civil service reform: AI cannot conjure a capable state on its own | Editorial",
+      "contentFingerprint": "1ae24f093df176eab6eca0606ddcb482a714312b0e8bb0bd25d19bbfe501d507",
+      "photos": [
+        "media/facebook/1609419020466040/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "THEGUARDIAN.COM The Guardian view on civil service reform: AI cannot conjure a capable state on its own | Editorial",
+          "url": "https://www.theguardian.com/commentisfree/2026/nov/15/the-guardian-view-on-civil-service-reform-ai-cannot-conjure-a-capable-state-on-its-own?CMP=share_btn_url"
+        }
+      ]
+    },
+    {
+      "id": "1435035368788704",
+      "date": "2026-11-16",
       "title": "Scottish Electricity Generating Stations",
       "provenance": {
         "title": {
@@ -110,23 +343,29 @@
         "type": "facebook_group",
         "name": "Scottish Electricity Generating Stations",
         "label": "Facebook · Scottish Electricity Generating Stations",
-        "url": "https://www.facebook.com/groups/443369301288654/posts/1433591402266434/"
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1435035368788704/"
       },
       "thin": false,
-      "bodyText": "SSE Renwables £80M upgrade of Lochay Hydro Power Station\nAs Principal Contractor for SSE Renewables at Lochay Hydro Power Station in Killin, Global Infrastructure is delivering the planning, coordination, and safe execution of works within a live hydroelectric generation environment. The project forms part of SSE Renewables' programme to repower the station with modern, more efficient turbine technology, extending its operational life by at least a further 40 years.\nOn site, Global Infrastructure has also been carrying out all civil works, incorporating old and new systems to ensure the asset is in its optimal position. There are three turbines within the power station, two major and one minor. Originally built around 1958, they have been in continuous operation and are now being upgraded to extend their lifespan. The disposal and dismantle phase has included the removal of existing turbines, generators, and ancillary components.\nThe main portion of the works has involved the partial removal of an existing concrete foundation and the construction of a new concrete plinth, including a 20T embedded plate for a new generator. This has required concrete cutting using wire ropes, intricate reinforcement, and Complex formwork Due to the nature of a water- driven turbine, achieving very fine tolerances is critical, as any deviation can lead to vibration issues.\nThe project was started in April 2025 with the immediate removal of one turbine, generator and associated equipment. Civils works to rebuild the foundation were completed in March 2026 and the full mechanical rebuild completed and No.1 Hydro Turbine returned to service. The second turbine will start being dismantled in April 2027.\nLochay Power Station will be commissioned with an unrated export conocity of 51MW (from 45MW) and will be be connected via a new substation. This substation forms part of a separate project currently being delivered for SSEN Transmission, which is progressing through construction.\nSSE Renewables reached a major milestone in November 2026 by commissioning and returning the first of two new turbine generating units to commercial operation as part of an £80 million upgrade and repowering of the Lochay Hydro Power Station in Killin, Perthshire.\nProject Overview\n• Location: Killin, Perthshire, Scotland (part of the Breadalbane hydro scheme, originally commissioned in 1958).\n• Investment: £80 million refurbishment.\n• Lifespan Extension: Extends the station's operational life by 40+ years.\n• Timeline: The full repowering project is scheduled for completion in 2028, coinciding with the facility's 70th anniversary.\nKey Details & Scope\n• Modernization: Replacing main generation components with modern, higher-efficiency turbine technology while retaining the historic 1950s civil infrastructure.\n• Contractors: Voith Hydro (lead mechanical and electrical), Global Infrastructure (enabling works), AJT Engineering and Jack Tighe (penstock), Stantec (civil design), Konecranes Demag UK (crane), and McDonald Scaffolding.\n• Economic Impact: Supports regional supply chains and local jobs (including peak construction jobs).— at Glen Lochay.",
-      "contentFingerprint": "82f515fe98dd328dd3f14c50089095284a8df48449291d545949eb3f62a8f712",
+      "bodyText": "Strathy South wind farm project is located to the south of SSE Renewables' operational Strathy North wind farm, approximately 12km to the south of Strathy village.\nIn November 2021, planning permission was granted consent by Scottish Ministers to construct and operate 35 turbines, known as Strathy South Wind Farm, (with a ground to blade tip maximum height of 200m metres), in lands near Strathy, Sutherland.\nIn December 2024, the final decision to proceed to construction in spring 2025 with commercial operations expected in late 2027.\nSSE Renewables made the final investment decision to proceed with construction of the 208MW Strathy South wind farm after more than a decade of development.\nOnce complete, with 35 Vestas V162-6.2 wind turbines, Strathy South will be capable of powering around 200,000 homes annually.\nPart of the development was to establish a community investment fund as part of the Strathy South project, which is valued at £1m per year for the lifetime of the wind farm.\nIn addition, Strathy South will have a vast biodiversity net gain (BNG) through the restoration of peatland at the site and the removal of over 1000 hectares of non-native commercial forestry.\nAt 38.1% projected wind load factor is expect from the installed capacity of 208MW\nStrathy South Compulsory Purchase Order\nThe Scottish Ministers have confirmed SSE Renewables’ Compulsory Purchase Order (“CPO”) to secure necessary land for the transport of turbine components to Strathy South wind farm.\nA complete set of the submitted CPO documents is available below, including the Statement of Reasons, which provides additional detail on the rationale for the use of these powers. The documents relating to the Inquiry are available on the Scottish Government’s Planning and Environmental Appeals Vision website at the following link Scottish Government - DPEA - Case Details (scotland.gov.uk)— in Strathy.",
+      "contentFingerprint": "41fdbd750100db5a66d2b9a1fb403f576f352e7bcb3bb123a255167379be840c",
       "photos": [
-        "media/facebook/1433591402266434/photo_1.png"
+        "media/facebook/1435035368788704/photo_1.png"
       ],
       "mediaCount": 1,
+      "links": [
+        {
+          "text": "scotland.gov.uk",
+          "url": "http://scotland.gov.uk/"
+        }
+      ],
       "categories": [
-        "Substation"
+        "Onshore Wind"
       ]
     },
     {
-      "id": "29154525400867540",
-      "date": "2026-11-14",
-      "title": "Environmentalists Against Wind Turbines",
+      "id": "1435005245458383",
+      "date": "2026-11-16",
+      "title": "Scottish Electricity Generating Stations",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -143,24 +382,231 @@
       },
       "source": {
         "type": "facebook_group",
-        "name": "Environmentalists Against Wind Turbines",
-        "label": "Facebook · Environmentalists Against Wind Turbines",
-        "url": "https://www.facebook.com/groups/835899539823505/posts/29154525400867540/"
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1435005245458383/"
       },
       "thin": false,
-      "bodyText": "Coast Guard Radar Clutter Rescue Failure F/V Mistress Block Island Wind Turbine #1\n#CoastGuard",
-      "contentFingerprint": "c560e82cfc1ca9da48bd09c7472e6eed63d09125f3152827555502449ad13af5",
+      "bodyText": "Cumberhead Wind Farm is an operating 50 MW onshore wind energy facility located within Cumberhead Forest in South Lanarkshire.\nThe site features 12 Nordex N133/4800 wind turbines (consisting of ten 83-metre and two 110-metre hub height units).\nConstruction began following planning and forestry approvals (managed alongside land partner Bidwells), and the farm entered commercial operation in March 2023.\nIt is owned by Octopus Renewables Infrastructure Trust and supplies clean power through a novel corporate power-purchase arrangement—notably launching with ties to companies like Kimberly-Clark to help decarbonize energy intensive manufacturing.\nThe electricity feeds into the transmission grid via the Cumberhead Collector Substation (completed by SP Energy Networks in late 2022), tying into nearby lines toward the Coalburn Grid Substation.\nCumberhead West Wind Farm: A neighboring expansion and development project (partnered by 3R Energy and ScottishPower Renewables) sits adjacent to the original site. It is designed to add 21 larger turbines (up to 200m tip height) with a 126 MW capacity and a 40 MW energy storage facility.— in Douglas, South Lanarkshire.",
+      "contentFingerprint": "1d84293a9c6cb9762ff195d979b2fcc09e78e87d0ad678a1ea36d36725d5dc28",
       "photos": [
-        "media/facebook/29154525400867540/photo_1.png"
+        "media/facebook/1435005245458383/photo_1.png"
       ],
       "mediaCount": 1,
       "categories": [
-        "Onshore Wind"
+        "Onshore Wind",
+        "Substation"
       ]
     },
     {
-      "id": "1067532406311557",
-      "date": "2026-11-14",
+      "id": "1434989062126668",
+      "date": "2026-11-16",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1434989062126668/"
+      },
+      "thin": false,
+      "bodyText": "Just outside Thornton, near Glenrothes, there was once an ambitious mining project that was expected to transform the future of Fife.\nRothes Colliery was planned as one of the National Coal Board's great new superpits.\nWork began in 1946, and expectations were enormous. The mine was designed to produce an incredible 5,000 tons of coal every day and was expected to operate for around 100 years.\nSo confident were the planners that the new town of Glenrothes was developed partly to provide homes for the thousands of workers expected to be employed there.\nOn 30 June 1958, Queen Elizabeth II officially opened the colliery.\nIts two enormous concrete winding towers became familiar landmarks across the Fife landscape.\nBut beneath the ground, things were going badly wrong. The mine encountered serious geological difficulties, thinning coal seams and persistent flooding. Water continually entered the workings, making it increasingly difficult and expensive to extract coal.\nDespite the enormous investment and optimism, Rothes Colliery closed in May 1962, just five years after production began.\nThe two towering concrete structures remained standing for another three decades, overlooking the landscape and reminding po people of an extraordinary industrial ambition.\nIn March 1993, they were finally demolished.\nToday, only remnants of the surface infrastructure remain.\nImagine building an entire new town around the promise of a mine that was expected to last a century, only for it to close after five years.\nRothes Colliery: a forgotten chapter in Fife's industrial history.\nText & Photos by Brian Mackie.— at Thorton.",
+      "contentFingerprint": "1d6d8038dffeadfb4c95f47d0fa4b1347fde9dba6c706f871c40e25d19459b9e",
+      "photos": [
+        "media/facebook/1434989062126668/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1434977568794484",
+      "date": "2026-11-16",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1434977568794484/"
+      },
+      "thin": false,
+      "bodyText": "Most people when thinking about the mine shafts at Leadhills think about the Glengonner Mine, Susannah Mine and other areas around the perimeter of the village but there were shafts right in the middle of the village.\nOne of these was next to the Curfew Bell at the junction of Store Brae and Ramsay Road.\nCockburns Shaft was used latterly to pump water from the Meadowfoot Vein. A water pressure pump was installed in 1833 to pump from 70 fathoms (420ft. 120mtrs) but it was not a new shaft then but fitted into an earlier shaft shown on older maps.\nThe old photo of the Curfew Bell has a fenced off area where the shaft is.\nThis was one of the shafts checked in 1991 when work was done on a lot of the shafts within the village (and Wanlockhead) arranged by Scottish Enterprise, Clydesdale Council and Nithsdale Council as they were then.\nThe photo and report are from the published result of the survey and shows any work carried out if required at the sites.\nThere were over 40 sites within and around Leadhills alone checked and made safe at that time.\nText & Photos by Ken Ledger— in Leadhills.",
+      "contentFingerprint": "783916a44e598287cc1da903cdad7d6d3c00f3daa5e0924d66e511d18fa76ce9",
+      "photos": [
+        "media/facebook/1434977568794484/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1434971598795081",
+      "date": "2026-11-15",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1434971598795081/"
+      },
+      "thin": false,
+      "bodyText": "The image shows a photograph of British Rail Class 20 locomotives (numbered 20179 and 20221) hauling MGR (Merry-Go-Round) coal hopper empties from Longannet Power Station through Charleston Junction on 16th July1975.\nEach train load was approx 800 Tonnes as this was loading limit across the Forth Rail Bridge. At full load Longannet Power Station consumed 24000 Tonnes per day.\nLocation at Charleston Junction (near Dunfermline/Rosyth area in Fife).— in Charlestown, Fife.",
+      "contentFingerprint": "b73f362fdc67a2daa0cab2c8d1298f5f8b9529eb29bea1f44d2861ccb097a37a",
+      "photos": [
+        "media/facebook/1434971598795081/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1609072930500649",
+      "date": "2026-11-15",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1609072930500649/"
+      },
+      "thin": false,
+      "bodyText": "https://www.qub.ac.uk/.../Wildlifepayingthepricefornoisep...\nQUB.AC.UK Wildlife paying the price for noise pollution, Queen’s study finds",
+      "contentFingerprint": "ce321352bb46320d8badd4ee4e4c74b18321f8b77a8cea91c662823a7d9abd0e",
+      "photos": [
+        "media/facebook/1609072930500649/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://www.qub.ac.uk/.../Wildlifepayingthepricefornoisep...",
+          "url": "https://www.qub.ac.uk/News/Allnews/2026/WildlifepayingthepricefornoisepollutionQueensstudyfinds-1.html"
+        },
+        {
+          "text": "QUB.AC.UK Wildlife paying the price for noise pollution, Queen’s study finds",
+          "url": "https://www.qub.ac.uk/News/Allnews/2026/WildlifepayingthepricefornoisepollutionQueensstudyfinds-1.html"
+        }
+      ]
+    },
+    {
+      "id": "1496599695662819",
+      "date": "2026-11-15",
+      "title": "Dunbar Against Massive Datacentres (DAMD)",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Dunbar Against Massive Datacentres (DAMD)",
+        "label": "Facebook · Dunbar Against Massive Datacentres (DAMD)",
+        "url": "https://www.facebook.com/groups/1316627133660077/posts/1496599695662819/"
+      },
+      "thin": false,
+      "bodyText": "*REMINDER* - Closing tonight at midnight for YOUR views on DCs for the Holyrood Ctees:\nhttps://yourviews.parliament.scot/.../hyper.../consult_view/  Please be sure to put in even a short expression of concern!  \nTwo Committees of the Scottish Parliament are seeking views on the impact of hyperscale data centres in Scotland.\n1. The *Climate Action Committee* wants to understand the environmental impacts of potential hyperscale data centre construction and operation in Scotland. \n2. ⁠The *Economy, Tourism and Energy Committee* is interested in understanding the potential economic and energy implications of hyperscale data centre development in Scotland. Responses will help inform the Committees’ consideration of any future work in this area.\n@everyone @highlight\nYOURVIEWS.PARLIAMENT.SCOT Hyperscale Data Centres - Detailed Call for Evidence - Scottish Parliament - Citizen Space",
+      "contentFingerprint": "110387b4f55ace9356d615ad57e7b3542856de4bfefe7b8ba90af4726c9a7d02",
+      "photos": [
+        "media/facebook/1496599695662819/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://yourviews.parliament.scot/.../hyper.../consult_view/",
+          "url": "https://yourviews.parliament.scot/329/hyperscale-data-centres-detailed-cfvs/consult_view/"
+        },
+        {
+          "text": "YOURVIEWS.PARLIAMENT.SCOT Hyperscale Data Centres - Detailed Call for Evidence - Scottish Parliament - Citizen Space",
+          "url": "https://yourviews.parliament.scot/329/hyperscale-data-centres-detailed-cfvs/consult_view/"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1152475233849691",
+      "date": "2026-11-15",
+      "title": "Not A Just Transition",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Not A Just Transition",
+        "label": "Facebook · Not A Just Transition",
+        "url": "https://www.facebook.com/groups/427061409724414/posts/1152475233849691/"
+      },
+      "thin": false,
+      "bodyText": "So ther Scottish Government is going to produce, at short notice, a strategy on Data Centres which will include benefit to the community.   Two points - after many years we are still waiting for a strategy for all renewables.   Secondly, once again the Scottish Government thinks that throwing (Community Benefit )money at communities will make the reckless vandalism of our fair rural land OK.    At no point has this Scottish Government taken any time to actually listen to what the people (they are supposed to represent) are saying.",
+      "contentFingerprint": "bc9ef769ec4142df689573bf07635880f5d6b70edad98b6ebdfc69ebe546a3e1",
+      "photos": [
+        "media/facebook/1152475233849691/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1068780096186788",
+      "date": "2026-11-15",
       "title": "NO to East Havering Data Centre in Upminster (Residents Group)",
       "provenance": {
         "title": {
@@ -171,38 +617,61 @@
         },
         "photos": {
           "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
         }
       },
       "source": {
         "type": "facebook_group",
         "name": "NO to East Havering Data Centre in Upminster (Residents Group)",
         "label": "Facebook · NO to East Havering Data Centre in Upminster (Residents Group)",
-        "url": "https://www.facebook.com/groups/366637746401030/posts/1067532406311557/"
+        "url": "https://www.facebook.com/groups/366637746401030/posts/1068780096186788/"
       },
       "thin": false,
-      "bodyText": "If anyone is any doubt about data centre noise, please read this report done by experts from an organisation called Quiet Communities.\nDATACENTERNOISE.ORG Data Center Noise & dBA Limits | Quiet Communities",
-      "contentFingerprint": "b0fe1577242627b9c23496ca43a98876a93a010456a13e61d71e282bd993babd",
+      "bodyText": "Here are the redacted responses to the LDO consultation in  March-April 2026.  Is it any wonder they want to go again for another consultation!  Statutory Consultees are indicated.  No response from London Fire Brigade.",
+      "contentFingerprint": "8abd1d7f4044def3e59cf215d618b7c49523f8f9a92a846d31b1293e87073b4d",
       "photos": [
-        "media/facebook/1067532406311557/photo_1.png"
+        "media/facebook/1068780096186788/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1142623494834098",
+      "date": "2026-11-15",
+      "title": "Communities B4 Power Companies",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Communities B4 Power Companies",
+        "label": "Facebook · Communities B4 Power Companies",
+        "url": "https://www.facebook.com/groups/221782186918238/posts/1142623494834098/"
+      },
+      "thin": false,
+      "bodyText": "Good!\nThe marine life will be left alone and the environment not trashed by industrial wind.\nTHENATIONAL.SCOT Nearly £100bn of offshore wind projects ‘under threat’ from Labour, SNP warn",
+      "contentFingerprint": "efc816a1930edb190db598394d35ddcb9cdae53cfde443d596fe926b6386dcb5",
+      "photos": [
+        "media/facebook/1142623494834098/photo_1.png"
       ],
       "mediaCount": 1,
       "links": [
         {
-          "text": "DATACENTERNOISE.ORG Data Center Noise & dBA Limits | Quiet Communities",
-          "url": "https://datacenternoise.org/this-is-a-real-measurable-problem/"
+          "text": "THENATIONAL.SCOT Nearly £100bn of offshore wind projects ‘under threat’ from Labour, SNP warn",
+          "url": "https://www.thenational.scot/news/26729769.nearly-100bn-offshore-wind-projects-under-threat-snp-warn/"
         }
-      ],
-      "categories": [
-        "Data Centre"
       ]
     },
     {
-      "id": "1433523878939853",
-      "date": "2026-11-14",
-      "title": "Scottish Electricity Generating Stations",
+      "id": "1170860295280788",
+      "date": "2026-11-15",
+      "title": "Say No to West Calder Hyperscale Data Centre",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -219,458 +688,21 @@
       },
       "source": {
         "type": "facebook_group",
-        "name": "Scottish Electricity Generating Stations",
-        "label": "Facebook · Scottish Electricity Generating Stations",
-        "url": "https://www.facebook.com/groups/443369301288654/posts/1433523878939853/"
+        "name": "Say No to West Calder Hyperscale Data Centre",
+        "label": "Facebook · Say No to West Calder Hyperscale Data Centre",
+        "url": "https://www.facebook.com/groups/1092406649792820/posts/1170860295280788/"
       },
       "thin": false,
-      "bodyText": "The Stronelairg Wind Farm is a major onshore renewable energy facility located in the Scottish Highlands.\nKey Overview & Specifications\n• Location: High up on a remote plateau in the Monadhliath Mountains near Fort Augustus, south-east of Loch Ness (Highland, Scotland), at an elevation of roughly 600 meters above sea level.\n• Capacity & Turbines: Features 66 Vestas wind turbines with a total installed generating capacity of 228 MW (227.7 MW official rating).\n• Commissioning: Fully operational since December 2018.\n• Ownership: Developed and operated by SSE Renewables (50.1%) alongside co-owner Greencoat UK Wind Plc (49.9%).\n• Integration: Co-located next to the existing Glendoe Hydroelectric Scheme, allowing both projects to share core electrical and access infrastructure.\nThe project faced a prolonged and contentious planning battle. Conservation groups—including the John Muir Trust and Mountaineering Scotland—launched legal challenges arguing that industrializing the high central plateau would damage the character of Scotland's designated wild land.\nAfter initial court rulings went against the project, Scotland's Inner House of the Court of Session overturned the blocks in 2016, clearing the way for construction. Developers countered that the adjacent Glendoe hydro site already altered the immediate footprint, reducing its status as pristine wild land.\nThrough the Stronelairg Community Fund, roughly £569,250 is directed to local community and charitable initiatives each year, with an estimated £28 million projected over the lifespan of the project (2017–2042).\nAdditional funding feeds into a biennial Highland-wide Sustainable Development Fund.\nStronelairg sits at an elevation of around 600m above sea level in the Moadhliath Mountain range making it one of SSE windiest wind farms.\nIt sits within a natural bowl on a plateau, set well back from Loch Ness meaning that no turbines are visible from the main tourist routes in the area.  Stronelairg is also located adjacent to our 100MW Glendoe hydro scheme and so the construction teams were able to use the hydro infrastructure as do our operational teams now.\nConstruction began in late 2016 and the wind farm became operational in December 2018, six months ahead of schedule.\nIn February 2019, SSE agreed the sale of 49.9% of Stronelairg (and the Dunmaglass wind farm) to Greencoat UK Wind Plc\nGlobal Infrastructure acted as Principle Contractor for SSE Renewables in 2024 on removing a steel arch culvert on the access road to Stronelairg Wind Farm.\nThe culvert was damaged during a flood event in June 2023, and replaced it with 12 no. box culvert sections with a headwall at either end.\nThe access road had a live HV and Fibre cable running adjacent to it in the verge. A temporary cable bridge was installed which supported these cables throughout the job. Contractors involved in the replacement culvert included:\n• Civil and temporary works design was carried out by CS Eng (Group) Ltd www.csenggroup.co.uk.\n• Contract lift was completed by @stoddartcranehire .\n• Culverts supplied by FP McCann.— at Monadhliath Mountains.",
-      "contentFingerprint": "beb0bcc90aa298d6e70d607d228d6cdc17f8ea70e9aad1e8b284f10a07a222a7",
+      "bodyText": "An interesting fun fact.\nThe West Calder site is planned to have a 250MW BESS (Battery Energy Storage System).\nThe main strategy for these is to charge up during the off-peak times with the objective that they discharge during peak times. As far as I understand it \"off-Peak\", with many suppliers, are the hours between 23:30 and 5:50 - the rest of the day is at the full rate. \nCurrently, for domestic suppliers the off-peak rate is about one fifth of the full rate - this is because demand dips overnight to the extend that the main supplier has to compensate the wind farms etc. for disabling their wind turbines to protect the grid from excess supply. I assume a similar reduction will be available for business customers.\nNow, under normal operating procedure, the aim is to run batteries  between 20 and 80% capacity (in order to maintain battery health and prolong life); that means only 60% of the 250MW is the forecasted usable amount (150MW).\nHowever, assuming this amount was only to cover the peak times, the site would need additional power during off-peak whilst the batteries were recharging. There's a huge over simplification here but assuming that 150MW covers 18 hours (Peak); extending to 24 hours means the consumption will likely be 200MW.\nGiven that the average household consumption is around 30KW this means that 200MW is enough for around 6,667 private dwellings.\nAnd I read somewhere they're looking at potentially 20 Hyper Data Centres in Scotland?\nScotland's current electrical generating capacity stands at 18.1GW. if all the proposed hyper data centres had the demand then they would need approximately 4GW or 22% or our entire generating capacity.\nGiven that we're all being encouraged to switch to Electric Vehicles and Air-Source Heat pumps that's going to potentially increase domestic demand by up by maybe 40% by 2030. \nHow is this even possible?",
+      "contentFingerprint": "25a608319bd2e9aeceb3d7298149165e59bedbb95231af9a9114b07c6290f551",
       "photos": [
-        "media/facebook/1433523878939853/photo_1.png"
+        "media/facebook/1170860295280788/photo_1.png"
       ],
       "mediaCount": 1,
-      "links": [
-        {
-          "text": "www.csenggroup.co.uk.",
-          "url": "http://www.csenggroup.co.uk/"
-        }
-      ],
       "categories": [
+        "BESS",
+        "Data Centre",
         "Onshore Wind"
-      ]
-    },
-    {
-      "id": "1433504668941774",
-      "date": "2026-11-14",
-      "title": "Scottish Electricity Generating Stations",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Scottish Electricity Generating Stations",
-        "label": "Facebook · Scottish Electricity Generating Stations",
-        "url": "https://www.facebook.com/groups/443369301288654/posts/1433504668941774/"
-      },
-      "thin": false,
-      "bodyText": "Windy Standard III developed by Brockloch Rig III Ltd. received planning approval in March 2021 to construct and operate Windy Standard III. The 20-turbine project is an extension to Windy Standard I and Windy Standard. The project comprises the northern Meaul Hill Cluster with 12 x 177.5m turbines and the southern Waterhead Hill cluster with 8 x 125m turbines.\nThe wind farm extension is located in Carsphairn Forest, Dumfries and Galloway (Postcode DG7 3UP).\nSituated north-east of Carsphairn and south of New Cumnock.(Coordinates: Latitude 55° 12' 42.1\" N, Longitude -4° 15' 35.8\" W (or approximately 55.106163, -4.1629523).\nThe project is now in construction and the team are working to discharge the associated planning conditions. To ensure that the site can be delivered efficiently and can achieve the greatest capacity, a later application was made to the Scottish Government to vary the consent - proposing to increase the tip height of the 12 turbines in the northern Meaul Hill Cluster to 180m to tip. This allows us to bring forward the site using readily available turbine technology.\nIt is envisaged that Windy Standard III will be commissioned in December 2026.\nMore information about the Windy Standard Wind Farm can be found at windystandardwindfarm.co.uk\nCollett & Sons Ltd have successfully delivered 344 turbine components to Windy Standard III Wind Farm Extension in Dumfries and Galloway, supporting the construction of 20 ENERCON turbines.\nWorking from Glasgow and Ayr, the team completed the two-phase programme with loads including 68-metre blades and tower sections weighing up to 81 Tonnes. Theie Nooteboom Super Wing Carriers, tower clamp trailers and step- frame trailers were utlisised across the deliveries.\nFrom vessel discharges to night-time deliveries, their skill and commitment helped overcome roadworks, tight junctions and access restrictions to get the components to site.\nWindy Standard III onshore wind farm extension in Dumfries and Galloway, Scotland, features 20 Enercon wind turbines totaling an 87.6 MW capacity:\nThe Wind Turbine Generators are:\n12 x Enercon E-138 EP3 E3 turbines (Meaul Hill cluster), rated at 4.26 MW each and operating in a 4.5 MW Yield Optimised Mode on 111 m steel towers.\n8 x Enercon E-115 EP3 turbines (Waterhead Hill cluster). \nThe project is developed by Fred. Olsen Renewables, with component deliveries completed by Collett Transport in late 2026 ahead of its scheduled commissioning. Full specifications for the main turbine model can be reviewed on the Enercon E-138 EP3\nProduct Page.— in Carsphairn.",
-      "contentFingerprint": "4a7a1b7f8d7f8c087c49a87f125a738da06117ac8c885d75c4b7739233f66081",
-      "photos": [
-        "media/facebook/1433504668941774/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "links": [
-        {
-          "text": "windystandardwindfarm.co.uk",
-          "url": "http://windystandardwindfarm.co.uk/"
-        }
-      ],
-      "categories": [
-        "Onshore Wind"
-      ]
-    },
-    {
-      "id": "29138297042490376",
-      "date": "2026-11-14",
-      "title": "Environmentalists Against Wind Turbines",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Environmentalists Against Wind Turbines",
-        "label": "Facebook · Environmentalists Against Wind Turbines",
-        "url": "https://www.facebook.com/groups/835899539823505/posts/29138297042490376/"
-      },
-      "thin": false,
-      "bodyText": "",
-      "contentFingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "photos": [
-        "media/facebook/29138297042490376/photo_1.png"
-      ],
-      "mediaCount": 1
-    },
-    {
-      "id": "29152989817687765",
-      "date": "2026-11-14",
-      "title": "Environmentalists Against Wind Turbines",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Environmentalists Against Wind Turbines",
-        "label": "Facebook · Environmentalists Against Wind Turbines",
-        "url": "https://www.facebook.com/groups/835899539823505/posts/29152989817687765/"
-      },
-      "thin": false,
-      "bodyText": "",
-      "contentFingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "photos": [
-        "media/facebook/29152989817687765/photo_1.png"
-      ],
-      "mediaCount": 1
-    },
-    {
-      "id": "1857479555292291",
-      "date": "2026-11-14",
-      "title": "Essex Suffolk Norfolk Pylons",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Essex Suffolk Norfolk Pylons",
-        "label": "Facebook · Essex Suffolk Norfolk Pylons",
-        "url": "https://www.facebook.com/groups/pylonseastanglia/posts/1857479555292291/"
-      },
-      "thin": false,
-      "bodyText": "Dear Secretary of State,\nOur Judicial Review team is ready.\nJust letting you know while you consider your decision about N2T.\nKind regards\nThe Essex Suffolk Norfolk Pylons campaign",
-      "contentFingerprint": "3abeb0a8fd8cd5311ade502e49fe01cb1941682ac9717e7ecedaebc56611b0b0",
-      "photos": [
-        "media/facebook/1857479555292291/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "categories": [
-        "OHL (Pylons)"
-      ]
-    },
-    {
-      "id": "1607678517306757",
-      "date": "2026-11-14",
-      "title": "Say No To Cato Data Centre",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Say No To Cato Data Centre",
-        "label": "Facebook · Say No To Cato Data Centre",
-        "url": "https://www.facebook.com/groups/1472242997516977/posts/1607678517306757/"
-      },
-      "thin": false,
-      "bodyText": "",
-      "contentFingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "photos": [
-        "media/facebook/1607678517306757/photo_1.png"
-      ],
-      "mediaCount": 1
-    },
-    {
-      "id": "1594407262731982",
-      "date": "2026-11-14",
-      "title": "Rural Scotland (APRS)",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Rural Scotland (APRS)",
-        "label": "Facebook · Rural Scotland (APRS)",
-        "url": "https://www.facebook.com/APRScotland/posts/1594407262731982"
-      },
-      "thin": false,
-      "bodyText": "",
-      "contentFingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "photos": [
-        "media/facebook/1594407262731982/photo_1.png"
-      ],
-      "mediaCount": 1
-    },
-    {
-      "id": "30153479594254382",
-      "date": "2026-11-14",
-      "title": "Scotland Against Spin",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Scotland Against Spin",
-        "label": "Facebook · Scotland Against Spin",
-        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/30153479594254382/"
-      },
-      "thin": false,
-      "bodyText": "I'm sure both would be delighted to get rid of the goats to make their lives easier.\nNote: Proposals have been submitted for an 18-turbine wind farm (with turbines up to 720 feet or 220 meters tall) on hills near Newcastleton in the Borders, close to areas managed by Oxygen Conservation.\nThe wind farm project is being pursued by Low Carbon UK (which submitted scoping requests to the Scottish Borders Council and the Scottish Government's Energy Consents Unit), rather than Oxygen Conservation.\nThe developments overlap geographically in the Borders upland area and have drawn combined scrutiny from local campaigners and petitioners.\nhttps://www.thenational.scot/.../26727747.fury-plans.../\nTHENATIONAL.SCOT Fury as English firm plans to 'shoot ancient wild goats' in Scottish Borders estate",
-      "contentFingerprint": "63b13eedf46e3f6068d0e4678426d43873cd025795c98a241502b93329bd2cfd",
-      "photos": [
-        "media/facebook/30153479594254382/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "links": [
-        {
-          "text": "https://www.thenational.scot/.../26727747.fury-plans.../",
-          "url": "https://www.thenational.scot/news/26727747.fury-plans-shoot-wild-goats-roaming-scottish-estate/"
-        },
-        {
-          "text": "THENATIONAL.SCOT Fury as English firm plans to 'shoot ancient wild goats' in Scottish Borders estate",
-          "url": "https://www.thenational.scot/news/26727747.fury-plans-shoot-wild-goats-roaming-scottish-estate/"
-        }
-      ],
-      "categories": [
-        "Onshore Wind"
-      ]
-    },
-    {
-      "id": "30152940837641591",
-      "date": "2026-11-14",
-      "title": "Scotland Against Spin",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Scotland Against Spin",
-        "label": "Facebook · Scotland Against Spin",
-        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/30152940837641591/"
-      },
-      "thin": false,
-      "bodyText": "The UK government has signalled that future energy generation projects including Scotland's flagship ScotWind and floating offshore wind developments may not receive backing unless they can prove they deliver cheaper energy and have guaranteed grid connections\nUK Energy and Treasury officials, including Chancellor John Healey and minister Dan Tomlinson, stated that future project approvals will depend on whether they bring cheaper energy and can reliably connect to the grid.\nAround 60% of ScotWind proposals involve floating offshore wind, which faces severe hurdles and potential contract culls due to delayed transmission upgrades and high infrastructure costs.\nCritics warn that the new framework could pivot support away from northern waters toward projects sitting closer to south-east England with more advanced or accessible grid infrastructure.\nSNP energy ministers and industry leaders have accused Westminster of an \"attack\" on Scotland's renewables sector, warning that a lack of grid certainty risks stranding Scottish ports and losing billions in investment. https://www.scotsman.com/news/politics/scotland-north-sea-offshore-wind-scotwind-9350805\nSCOTSMAN.COM Warning Burnham poised for ‘full-frontal attack’ on Scotland’s offshore wind industry",
-      "contentFingerprint": "c4e790e4d8b68e31fc85a62e910be2188cb3f196fb804b6d876fb83613d7ce34",
-      "photos": [
-        "media/facebook/30152940837641591/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "links": [
-        {
-          "text": "SCOTSMAN.COM Warning Burnham poised for ‘full-frontal attack’ on Scotland’s offshore wind industry",
-          "url": "https://www.scotsman.com/news/politics/scotland-north-sea-offshore-wind-scotwind-9350805"
-        },
-        {
-          "text": "https://www.scotsman.com/news/politics/scotland-north-sea-offshore-wind-scotwind-9350805",
-          "url": "https://www.scotsman.com/news/politics/scotland-north-sea-offshore-wind-scotwind-9350805"
-        }
-      ]
-    },
-    {
-      "id": "30152814667654208",
-      "date": "2026-11-14",
-      "title": "Scotland Against Spin",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Scotland Against Spin",
-        "label": "Facebook · Scotland Against Spin",
-        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/30152814667654208/"
-      },
-      "thin": false,
-      "bodyText": "Scotsman letters\nAn interesting take on events from Joyce Mcmillan (“As climate change hits food security, parties backslide on net zero”, Perspective, 13 November), and as imaginative as usual.\nShe mentions how Kellogg’s announced that Rice Krispies “on this side of the Atlantic will no longer be made from whole rice grains” and cites the company claiming that “changing weather” in Europe is the cause. It would help if she had explained that the company who make Rice Krispies in Europe is a different company from the US Kellogg’s and that the US end continues to use rice! “Climate change” is the cause, she says.\nRegarding the regular supplies to which consumers “have become accustomed over the last 80 years”, reports from earlier decades show the rice crop (amongst others) regularly suffered from what the Press & Journal in 1938 called the weather “playing pranks”, with wildly varying rainfall, droughts etc. It isn’t some recent development.\nAt least the latest COP she mentioned didn’t chop down virgin rainforest, or build motorways through it like last year’s. There will only be 92,000 delegates there, readers will be pleased to learn, but they will still have their big cars, their “aides” and their hotel aircon, you can bet. The only leader to attend is Andy Burnham, so little importance is attached to it by the people it’s supposed to make change their ways.\nAndrew HN Gray Edinburgh",
-      "contentFingerprint": "ad2acd90b54c9a3fa9a568a449fe6c911fe2034ed51a07f0dd51b7b7b3562b2c",
-      "photos": [
-        "media/facebook/30152814667654208/photo_1.png"
-      ],
-      "mediaCount": 1
-    },
-    {
-      "id": "1607613153979960",
-      "date": "2026-11-14",
-      "title": "Say No To Cato Data Centre",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Say No To Cato Data Centre",
-        "label": "Facebook · Say No To Cato Data Centre",
-        "url": "https://www.facebook.com/groups/1472242997516977/posts/1607613153979960/"
-      },
-      "thin": false,
-      "bodyText": "",
-      "contentFingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "photos": [
-        "media/facebook/1607613153979960/photo_1.png"
-      ],
-      "mediaCount": 1
-    },
-    {
-      "id": "1433095578982683",
-      "date": "2026-11-14",
-      "title": "Scottish Electricity Generating Stations",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Scottish Electricity Generating Stations",
-        "label": "Facebook · Scottish Electricity Generating Stations",
-        "url": "https://www.facebook.com/groups/443369301288654/posts/1433095578982683/"
-      },
-      "thin": false,
-      "bodyText": "Orkney Link is a major 220 kV high-voltage alternating current (HVAC) transmission connection built by SSEN Transmission to connect the Orkney Islands to the national grid network for the first time.\nKey Project Details\n• Interconnector capacity up to 220 MW of renewable electricity transmission.\n• Route connected a new substation at Finstown in Orkney to the Dounreay West Substation in Caithness, Scotland.\n• Cable Scope: Approximately 69 km total length, including a 53 km subsea cable across the Pentland Firth, plus underground land cables in Orkney and Caithness. \n• Construction began in late 2024, subsea cable manufacturing and testing milestones were reached through 2025 and 2026, and full energization is targeted for 2028.\n• Development unlocks the potential wind, tidal, and marine renewable energy from Orkney to help feed the UK's Net Zero targets.\nYou can track updates or view the interactive layout major milestone achieved for the Orkney Link project\nNexans has successfully completed the Factory Acceptance Test (FAT) of the 220 kV subsea cable for the Orkney Link project, marking a significant milestone in the delivery of this important electricity transmission infrastructure.\nThe successful completion of the FAT testing represents the culmination of more than a year of manufacturing activities at Nexans' facility in Halden, Norway.\nDeveloped by SSEN Transmission, the Orkney Link is a 220 kV HVAC connection between Finstown in Orkney and Dounreay in Caithness, Scotland. Featuring approximately 53 km of subsea cable and a transmission capacity of up to 220 MW, the link will play a key role in unlocking Orkney's renewable energy potential and strengthening Scotland's electricity transmission network.\nWith this important manufacturing milestone achieved, project activities continue to progress on several fronts. Nexans' teams are currently advancing onshore cable installation and jointing works in Orkney, while preparations continue for the offshore installation campaign scheduled for 2027.— in Orkney Islands.",
-      "contentFingerprint": "9e37f07719eb97ac4b1d4182418b8f1a48b0aff1af9f32f36ab038008a76d17f",
-      "photos": [
-        "media/facebook/1433095578982683/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "categories": [
-        "Substation"
-      ]
-    },
-    {
-      "id": "29364661579817510",
-      "date": "2026-11-13",
-      "title": "Sunnica Community Action Group",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Sunnica Community Action Group",
-        "label": "Facebook · Sunnica Community Action Group",
-        "url": "https://www.facebook.com/groups/saynotosunnica/posts/29364661579817510/"
-      },
-      "thin": false,
-      "bodyText": "",
-      "contentFingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "photos": [
-        "media/facebook/29364661579817510/photo_1.png"
-      ],
-      "mediaCount": 1
-    },
-    {
-      "id": "1648828006720151",
-      "date": "2026-11-13",
-      "title": "Say NO to Cockenzie Data Centre",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Say NO to Cockenzie Data Centre",
-        "label": "Facebook · Say NO to Cockenzie Data Centre",
-        "url": "https://www.facebook.com/groups/959791135623845/posts/1648828006720151/"
-      },
-      "thin": false,
-      "bodyText": "Good Luck to everyone who is marching against AI Hyperscale Data Centres tomorrow.\nHave a great day and please share any photos you take.\nNote... Dunbar and Cockenzie campaigns are meeting at the top of Cockburn Street at 11.30 am.",
-      "contentFingerprint": "593878ebfc043449c290f488c2799feacb9e7eee06d4a85a3bb2a7e28ab3c190",
-      "photos": [
-        "media/facebook/1648828006720151/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "categories": [
-        "Data Centre"
       ]
     }
   ]
