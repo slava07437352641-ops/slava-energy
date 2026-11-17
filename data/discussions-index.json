@@ -1,16 +1,16 @@
 {
-  "generated": "2026-11-16T09:39:49.000Z",
+  "generated": "2026-11-17T07:33:07.000Z",
   "counts": {
-    "records": 4737,
+    "records": 4758,
     "thin": 327,
-    "withMedia": 2197,
-    "withCategories": 1561,
+    "withMedia": 2218,
+    "withCategories": 1577,
     "withTopics": 316,
     "withProject": 210,
     "withCoordinates": 95,
     "withSummary": 57,
-    "withBodyText": 3260,
-    "withPhotos": 2194,
+    "withBodyText": 3281,
+    "withPhotos": 2215,
     "withPreviewImage": 64,
     "councils": 4,
     "matchReviewLogged": 2,
@@ -133741,6 +133741,822 @@
           "text": "CHANGE.ORG Sign the Petition",
           "url": "https://c.org/JpGm8n6FxB"
         }
+      ]
+    },
+    {
+      "id": "1143143561448758",
+      "date": "2026-11-16",
+      "title": "Communities B4 Power Companies",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Communities B4 Power Companies",
+        "label": "Facebook · Communities B4 Power Companies",
+        "url": "https://www.facebook.com/groups/221782186918238/posts/1143143561448758/"
+      },
+      "thin": false,
+      "bodyText": "SPITTAL TO BEAULY OHL HEARINGS\n24/11/2026 - Landscape and visual hearing,\nDornoch Station Hotel.\n25, 26 and 27 /11/2026 - Cultural heritage hearing,\nDornoch Station Hotel.\nCOMMUNITY HEARINGS\n30/11/2026 - Community Scotscalder Hall, Halkirk\n2-4pm & 6-8pm.\n01/12/2026 - Duthac Centre, Tain\n1-3pm, 3:30-4:45pm & 6-8pm.\n02/12/2026 - Strathpeffer Pavillion, Strathpeffer\n2:00-4:15pm & 6-8pm.\n03/12/2026 - Traffic & transport hearing at\nStrathpeffer Pavillion, Strathpeffer .\n14 & 15/12/2026 - Ecology hearing (Virtual Meeting).\n16/12/2026 - Conditions hearing (Virtual Meeting)\n& 17/12/2026 if required.\nIn person and virtual hearings will be held, the dates and venues for the sessions are indicated above.\nArrangements for and the speakers at the community hearings have been confirmed. Members of the public are welcome to attend the hearing sessions to observe proceedings. Please note the proceedings may be webcast and if so, will be available to view at [www.youtube.com/@DPEAScotGov](https://www.youtube.com/@DPEAScotGov...),",
+      "contentFingerprint": "9b43acbb2c8565d4070268a61f427a933f38b12fe474c66d3c085078d7849112",
+      "photos": [
+        "media/facebook/1143143561448758/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "www.youtube.com/@DPEAScotGov",
+          "url": "https://www.youtube.com/@DPEAScotGov"
+        },
+        {
+          "text": "https://www.youtube.com/@DPEAScotGov...",
+          "url": "https://www.youtube.com/@DPEAScotGov"
+        }
+      ],
+      "categories": [
+        "OHL (Pylons)"
+      ]
+    },
+    {
+      "id": "1596922269147148",
+      "date": "2026-11-16",
+      "title": "Rural Scotland (APRS)",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Rural Scotland (APRS)",
+        "label": "Facebook · Rural Scotland (APRS)",
+        "url": "https://www.facebook.com/APRScotland/posts/1596922269147148"
+      },
+      "thin": false,
+      "bodyText": "Taking a look at the fantastic photos taken by Matt Aslett @docphot who was out at the march on Saturday volunteering for APRS! Here are a few of them and an article by Kat Jones, our director which was published in the Scotsman yesterday:\nYesterday six thoudand people marched down the royal mile to demand to have a say on AI Data Centres. It was a colourful, noisy gathering with hand-appliqued banners, bagpipes and music, with a rally at the Parliament afterwards with music and rousing speeches. It was a much larger version of the rally outside the Parliament at the start of September when more than 300 people from communities opposed to hyperscale data centre proposals gathered outside the Parliament with others concerned about the impact of AI on jobs, and on the power of a few US tech bosses over our lives.\nSince then things have moved on rapidly,  a debate in the Parliament in mid September resulted in a vote to pause data centre decisions until guidance was in place followed, almost immediately, by a developer putting in an application for a 1000MW data centre in Dumfries and Galloway. The proposal is to be bigger than the largest operating on the planet at the moment, Colossus 2, in Memphis, which is powering Elon Musk’s problematic chatbot Grok.\nWe are in a dramatically different position than we were just over a year ago when I wrote in the Scotsman to launch our campaign calling for Environmental Impact Assessments (EIAs) for all hyperscale data centres and proper research into their impacts. In an article entitled ‘Why AI data centres pose a huge threat to Scotland's countryside’ I explained why a countryside charity is taking on the hyperscale AI data centres, which, due to their vast energy demands,  will dramatically increase the amount of energy infrastructure in the countryside and, also, our ability to tackle climate change.\nAs I wrote “We need all sectors of the economy and society to pull in the same direction so that we can avoid the worst impacts of climate change. And we can’t build data centres that use the same energy as whole cities without clear-sighted and strategic decision-making informed by knowledge of the full environmental impacts.”\nSince then five new planning applications have landed, totaling 2,150 MW of capacity, joining the 213 MW Edinburgh Gyle proposal. Around 5,000 MW is still waiting in the wings in pre-planning. NESO says that there is even more in the grid queue, enough to triple Scotland’s peak energy demand. But we also now have several of the things we asked for, including EIAs for all data centres over 50MW, and assurances that planning guidance and a strategic approach will be produced. However the most fundamental aspect of what we have been asking for, a proper investigation into the impacts on the grid, communities, climate goals and land is not forthcoming and neither is any kind of public consultation on the measures being proposed.\nWe need the Scottish Government to make the pause voted for by the Parliament real. The Minister for Public Finance, Hannah Mary Goodlad has said on multiple occasions since then that she does not anticipate any decisions being made before they publish their guidance. But they have not written to the local authorities to advise them how to handle applications and we still have two applications, Larbert and Chapelcross under active consideration by local authorities with a determination date for Larbert being imminent. We also have an active inquiry ongoing from the Climate Action Committee which heard from its third set of witnesses on Thursday. Meanwhile the Scottish Government is insistent that they will not be consulting on the guidance that they are writing and that this will be rushed out for Christmas. We say that can’t happen. This is on a subject of national interest and should be open for proper scrutiny.\nThere is now a whole movement of people who have joined calls for proper scrutiny of these proposals. At least fifteen local campaigns have grown out of efforts to stop proposals for hyperscale AI data centres in their communities. These dedicated and knowledgeable campaigners are, very effectively, making the case that each and every one of the proposals would have extremely detrimental effects on local environment, local health and on wider issues like climate. And the campaign has grown way beyond local campaigns, Friends of the Earth, who coordinated the march on Saturday published the names of 80 organisations backing the march including trade unions, parent groups and peace groups as well as the community campaign groups.\nThe calls for consultation with the public and civil society now stretch much further than our asks regarding the policy and guidance for data centres. The march was calling for no less than a national conversation about AI and hyperscale data centres. Scotland held a general election less than six months ago and hyperscale AI data centres did not feature in the manifestos, nor the campaigns of any of the political parties. The Scottish Government simply do not have a mandate to push forward with their plans to roll out the red carpet to hyperscale AI data centres, the public wants a say.\nIt is difficult to escape the news that data centres were the big issue in the US Midterms, with candidates across the political spectrum from MAGA to Democrats winning seats on a ticket to stop the data centres. We have seen a similar cross-party interest in the issue of hyperscale AI data centres here in Scotland with debates brought to the Parliament both by Greens and by Reform, and parliamentary questions asked by every single party. In the light of the analysis of voting motivation from the US midterms, it will be interesting to see what Scotland’s local council elections bring in May.",
+      "contentFingerprint": "6737d304e5f057deac5a76b4afec551d56daef8094e33ced3eb760e6e1b596a2",
+      "photos": [
+        "media/facebook/1596922269147148/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1609625610445381",
+      "date": "2026-11-16",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1609625610445381/"
+      },
+      "thin": false,
+      "bodyText": "https://www.facebook.com/share/p/1ChfgYNLjh/?  Apatura who are proposing a 100MW BESS near to the Cato Proposal",
+      "contentFingerprint": "3c194a3f8a8c96f1a613ddc896e44e2d8757d226a55792f2d4a0a008fe9dcd94",
+      "photos": [
+        "media/facebook/1609625610445381/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://www.facebook.com/share/p/1ChfgYNLjh/",
+          "url": "https://www.facebook.com/share/p/1ChfgYNLjh/?__cft__%5B0%5D=AZjryQSBLJxYHWes70tkOOnY4zLMigGYzn7jG6rHhOdTgtuC1QOmvGjUse4Y3xIZRJhVX6b8b4yoFKEkDOMMGrCQ-AwSJ8smAQSWE7k8as09P38Vq0tnxhZtBc14qr4B9UbLXdpPjgESQcUsy70KJW0SWELmKlU"
+        }
+      ],
+      "categories": [
+        "BESS"
+      ]
+    },
+    {
+      "id": "1435447048747536",
+      "date": "2026-11-16",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1435447048747536/"
+      },
+      "thin": false,
+      "bodyText": "A little bit of electricity power generation history, the old McDonald Road power station. A wee look inside today, through the open side door.\nThe McDonald Road Power Station was a coal-fired power generating station built for Edinburgh Corporation Electricity Department in 1898-99 and supplied electricity to domestic, commercial and industrial consumers, and for street lighting. The Italian Renaissance basilica elevation and the red brick boiler-house chimney are still evident on McDonald Road.\nConstructed with steam engine capacity 5000 HP with building equipment capacity for 30000 HP. 5MW steam turbine alternator installed for Edinburgh tram conversion from cable to electric traction. Cooling Water for set obtained from Edinburgh sewage system. 5MW set relocated to Portobello Power Station when site converted to grid substation (c1925 onwards)\nBack in Edinburgh, demand far outstripped the supply from Dewar Place on the day it started to operate, 177 street arc lamps and 40 private connections were already made with fully 1/2 of its capacity had already been subscribed for. The station was just too small, so it was extended as soon as 1897 to allow for more capacity. But even with expansion, such was the demand for this new-fangled, must have, life changing stuff, that Dewar Place was again already too small. Penned in on all 4 sides, it couldn't realistically be expanded any further so a new station was needed. A site next to Carson Street off Leith Walk was selected; you will know it as McDonald Road, the old street was extended and renamed in 1897 to accommodate the power station, the name being that of the Lord Provost Sir Andrew McDonald, whose wife had turned on the electricity in the city just a few years before.\nThe new site was conveniently adjacent to a railway that ran past the north of the site, for direct deliveries of coal. Construction started in 1899 to the designs of City Architect Morham and it was an altogether grander affair than Dewar Place; with a steel frame clad in a sandstone \"Renaissance Basilica\", completed by a rather mismatched, octagonal, red-brick chimney. The Corporation had already been caught out twice in as many years with the rapid expansion of demand, so this building was to be big enough to meet future demand, with sufficient land was reserved to double or even triple it in size. When completed it had a capacity of 5,000 HP but it was estimated it could make 20- 30000 HP if the site were to be fully utilised. If you look at the remains of the generation hall today, you can see the stubs of the projecting steel arches for where the next half of the building could have gone.\nPart of the project included an intriguing 1,220 yard tunnel under Leith Walk from the top of McDonald Road to Little King Street (where John Lewis now is) to carry the 21 principal power cables to a distribution node. It was 6.5 feet high and 3.5feet wide to allow workers access to maintain the cables without having to repeatedly dig the street up. When McDonald Road was connected to the network at the end of October 1899, it was noted that there were 245,000 electric lamps in the city (at this time the supply was only for domestic and municipal lighting) and that the peak load was 10,400 Amperes. New connections were being made at the rate of 1,500 lamps per week.\nEdinburgh Corporation was quickly faced by problems. The new site at McDonald road had the room for the machinery to expand, but the world had now settled on turbo-alternators (steam turbines producing AC current) as the most reliable and efficient way to produce electricity. The difficulty was that steam turbines, to operate efficiently, have to exhaust steam into a vacuum. To create that vacuum you need a condenser; a very big and effective condenser. And to have a condenser you need either a very large cooling tower or a huge supply of cooling water. McDonald Road had neither - there were cooling towers at Dewar Place for its small turbine units, but the vapour clouds they produced were totally unsuited to a city centre location, and the Water of Leith was totally insufficient for cooling purposes.\nAs an interim solution, it was proposed to draw cooling water for the condensers from Lochend Loch to the east and return it back, warmed, from whence it came. However Leith Corporation had a veto over this as it still used its former drinking water supply for industrial purposes and the scheme came to nothing. Its customers were paying for water for cooling purposes too, and would not accept it being pre-warmed by the neighbouring burgh of Edinburgh. Instead, in 1908 an ingenious scheme was hatched whereby small turbines were added running off of the exhaust steam of the reciprocating engines. To solve the condensing issue, a shaft 26 feet in diameter and 30 feet deep was sunk from the power station to intercept the main sewer running between Edinburgh and Leith. Four eighteen inch pipes were run down the shaft through which the liquid contents of the sewer were pumped up into the power station and run through the condensers, before being returned to the sewer nicely warmed But for the long term it was back to the drawing board...\nThe drawing board needed the Corporation to find a new site, and to solve the cooling question they decided to make use of the abundant waters of the Forth, which we all know to be nippy, even in the summer. They soon settled on two candidate, logically on the outskirts to keep pollution away from the city. One was at Granton adjacent to the Edinburgh & Leith Gas Commissioners gasworks, the other was off the Kings Road at Portobello.\nGranton may have been attractive as land and infrastructure could have been shared with the existing municipal gasworks, but it was half a mile and 100feet of elevation above the sea and that would have required significant effort\nThe Corporation had to find a new site, and to solve the cooling question they decided to make use of the abundant waters of the Forth, which we know to be cold, even in the summer. They soon settled on two candidates, logically on the outskirts to keep pollution away from the city. One was at Granton adjacent to the Edinburgh & Leith Gas Commissioners gasworks, the other was off the Kings Road at Portobello.\nGranton may have been attractive as land and infrastructure could have been shared with the existing municipal gasworks, but it was half a mile and 100 feet of elevation above the sea and that would have required significant effort in pumping just to get to at the coolant. So Portobello was selected, right on the sea shore and just off the existing railway that gave access the Lothian coal fields.\nMcdonald Road continued to generate until Portobello Power Station was commissioned in 1923. The 5MW Turbo Alternator from Mcdonald Road was relocated to Portobello and Mcdonald Road was redeveloped as a substation for the City.\nThe substation site continues to provide power to the city today, after more than 120 years in service, refurbshment of the site is planned shortly to continue this role going forward. Shrubhill A & B 33kV switching stations are still located in that building. \nThe 275/33kV substation is located behind the building, on the other side of the railway.\nIt's one of the three substations where the 275kv cables come in to the city - the other two are at Cultins Rd and Dewar Pl.— in Mcdonald Road; Edinburgh.",
+      "contentFingerprint": "55c59eaccd6dbf720844d086605233beeec29b7a68751f290f50232323c1a999",
+      "photos": [
+        "media/facebook/1435447048747536/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Substation"
+      ]
+    },
+    {
+      "id": "1609639017110707",
+      "date": "2026-11-16",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1609639017110707/"
+      },
+      "thin": false,
+      "bodyText": "https://www.thenational.scot/news/26732150.scottish-commissioner-data-centre-legal-warning-snp-government/\nSCOTLAND'S Children’s Commissioner has issued a legal warning to the SNP Government over its proposed data centre guidance.\nWriting to Hannah Mary Goodlad – Scotland’s public finance minister – Nicola Killean said the potential environmental impacts posed by AI data centres “clearly interacts” with children’s rights as set out in law.\nIn her letter, the commissioner calls on the Scottish Government to do an impact assessment as well as a consultation with children and young people to inform the development of the forthcoming data centre guidance.\nThe Scottish Government has stopped short of placing a moratorium on the building of new data centres but has said that guidance is expected to be published by the end of the year.\nBut the guidance has already been criticised by the Scottish Greens, who said it was a “huge failure” that the Scottish Government does not plan to hold a public consultation on the matter.\nKillean also questioned the exclusion of children and young people’s views on data centres, warning that this approach many not meet the Scottish Government’s human rights obligations to include the views of children and young people in decision-making.\nUnder the UNCRC (Scotland) Act 2004, Scottish ministers are also required to prepare and publish a Children’s Rights and Wellbeing Impact Assessment (CRWIA) for decisions of a strategic nature relating to children’s rights and wellbeing.\nHannah Mary Goodlad (Image: PA)\nIn her letter, the commissioner also said that it was her view that “the preparation and publication of data centres guidance is a clear example of a strategic nature. It is not an operational or routine matter and therefore a CRWIA must be undertaken\".\nKillean asked the Scottish Government to “confirm that a CRWIA will be carried out in relation to the guidance” as well as applications where the Scottish Government is a decision maker.\nShe also urged SNP ministers to “set out what the Scottish Government is doing to ensure the meaningful participation of children and young people” as part of the development of the guidance.\nFinally, the commissioner has also submitted evidence to the joint parliamentary call for evidence, from the Climate Action Committee and the Economy, Tourism and Energy Committee, on hyperscale data centres.\nThe Scottish Government have been approached for comment.\nTHENATIONAL.SCOT Scottish commissioner in legal warning to SNP Government over AI data centres",
+      "contentFingerprint": "df3159306388f089664e7ad2a7a75f0cb54d14fc7be45f909cd1fd92e044d973",
+      "photos": [
+        "media/facebook/1609639017110707/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "THENATIONAL.SCOT Scottish commissioner in legal warning to SNP Government over AI data centres",
+          "url": "https://www.thenational.scot/news/26732150.scottish-commissioner-data-centre-legal-warning-snp-government/"
+        },
+        {
+          "text": "https://www.thenational.scot/news/26732150.scottish-commissioner-data-centre-legal-warning-snp-government/",
+          "url": "https://www.thenational.scot/news/26732150.scottish-commissioner-data-centre-legal-warning-snp-government/"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1609640003777275",
+      "date": "2026-11-16",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1609640003777275/"
+      },
+      "thin": false,
+      "bodyText": "https://www.cypcs.org.uk/.../childrens-commissioner.../\nCYPCS.ORG.UK Children's Commissioner warns Scottish Government over proposed data centre guidance",
+      "contentFingerprint": "0f5459cad97df1a5d809a9b9c588413055c1cc297dce2a79a76e30dc9938d4e3",
+      "photos": [
+        "media/facebook/1609640003777275/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://www.cypcs.org.uk/.../childrens-commissioner.../",
+          "url": "https://www.cypcs.org.uk/news-and-stories/childrens-commissioner-warns-scottish-government-over-proposed-data-centre-guidance/"
+        },
+        {
+          "text": "CYPCS.ORG.UK Children's Commissioner warns Scottish Government over proposed data centre guidance",
+          "url": "https://www.cypcs.org.uk/news-and-stories/childrens-commissioner-warns-scottish-government-over-proposed-data-centre-guidance/"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1609667317107877",
+      "date": "2026-11-16",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1609667317107877/"
+      },
+      "thin": false,
+      "bodyText": "https://www.ribaj.com/.../data-centre-numbers-energy.../\nRIBAJ.COM The mind-boggling numbers behind the UK’s data centre boom",
+      "contentFingerprint": "592bb0f54e048592ccb124a344c6a067cc48cd795449a0bd88d047c719361e22",
+      "photos": [
+        "media/facebook/1609667317107877/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://www.ribaj.com/.../data-centre-numbers-energy.../",
+          "url": "https://www.ribaj.com/intelligence/data-centre-numbers-energy-consumption-carbon-footprint/"
+        },
+        {
+          "text": "RIBAJ.COM The mind-boggling numbers behind the UK’s data centre boom",
+          "url": "https://www.ribaj.com/intelligence/data-centre-numbers-energy-consumption-carbon-footprint/"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "29180957308224349",
+      "date": "2026-11-16",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/29180957308224349/"
+      },
+      "thin": false,
+      "bodyText": "MANDATORY 2-NAUTICAL-MILE SPACING FOR OFFSHORE WIND TURBINE\nNOVEMBER 16, 2026\nhttps://www.windtaskforce.org/.../mandatory-2-nautical...\nCore Argument for 2-Nautical-Mile Spacing: F/V Mistress\n.\nLong before modern lease areas were finalized, the local fishing industry and maritime operators met at the Hyannis Marina in October of 2008 to address marine radar interference, navigation, and safety concerns regarding the proposed Cape Wind project, calling for a minimum of 2 to 3 nautical miles between offshore wind turbine towers.\n.\nLarge rotating turbine blades generate electromagnetic clutter on shipboard radar systems, and wider spacing reduces target density on vessel screens.\n.\nIn 2019, five major New England offshore wind developers jointly submitted a 1-nautical-mile layout to the U.S. Coast Guard because of submarine cable costs.\n.\nAt the same time, politicians pushed to rapidly advance U.S. offshore wind, driven primarily by East Coast state governors, senators, and state representatives enacting aggressive procurement mandates. The U.S. Coast Guard and the Bureau of Ocean Energy Management standardized the offshore wind companies' uniform 1 x 1 nautical mile grid layout across regional lease areas.\n.\nDoubling the spacing from 1 nautical mile to 2 nautical miles quadruples the ocean area required per turbine, driving up subsea array cable costs. Maritime advocates warned that a 1-NM grid limits maneuvering room for rescue vessels and complicates low-altitude Coast Guard helicopter operations during storms or low visibility. The 1-nautical-mile spacing creates severe marine radar clutter, transit hazards, and safety risks.\n.\nIndependent reports say a recording from a Coast Guard cutter shows a 30-minute time loss near offshore wind turbines while responding to the October 3, 2026 air ambulance crash near Nantucket. Most media outlets lack investigative journalism and instead rely on press releases.\n.\nThe most prominent publicly documented case of turbine radar interference impacting a Coast Guard rescue is the F/V Mistress search on January 1, 2019. An MH-60T Jayhawk helicopter searching for the sinking fishing trawler near the Block Island Wind Farm in Rhode Island aborted its hover and pattern search after 37 minutes. Coast Guard logs cited severe radar clutter from the turbines alongside 40-knot winds, low ceilings, and poor visibility. Renewed scrutiny followed in August 2026 when a private dive team from Green Oceans located the wreckage roughly 50 feet from turbine number one.\n.\nNote # The MH-60T Jayhawk is an all-weather, search and rescue helicopter engineered to fly in tropical storms, severe winter gales, heavy rain, and low-visibility conditions worse than those of this aborted rescue.\n.\nThe U.S. Coast Guard was formally asked 3 months ago to reopen its investigation into the sinking of the F/V Mistress and recover the human remains found at the site. So far, no response.\n.\nBOEM and the Coast Guard rejected 2-nautical-mile turbine spacing during initial project approvals; ongoing federal permit reexaminations and legal challenges initiated in 2025 and 2026 have reopened broader debates over offshore wind siting and navigational standards.\n.\nTime to reopen the investigation and adopt two-nautical-mile spacing\nWINDTASKFORCE.ORG Mandatory 2-Nautical-Mile Spacing For Offshore Wind Turbines",
+      "contentFingerprint": "38455a0035f7f005b1c732e7e8e9b4a2360c08ff3252100f92b626c9ec92f1c0",
+      "photos": [
+        "media/facebook/29180957308224349/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://www.windtaskforce.org/.../mandatory-2-nautical...",
+          "url": "https://www.windtaskforce.org/profiles/blogs/mandatory-2-nautical-mile-spacing-for-offshore-wind-turbines"
+        },
+        {
+          "text": "WINDTASKFORCE.ORG Mandatory 2-Nautical-Mile Spacing For Offshore Wind Turbines",
+          "url": "https://www.windtaskforce.org/profiles/blogs/mandatory-2-nautical-mile-spacing-for-offshore-wind-turbines"
+        }
+      ],
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "1609688027105806",
+      "date": "2026-11-16",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1609688027105806/"
+      },
+      "thin": false,
+      "bodyText": "Freedom of Information (FoI) disclosure revealed that West Lothian Council signed a secretive non-disclosure agreement (NDA) with an unidentified data centre developer during the 2025–26 financial year. [1]\nFreedom of Information (FoI) disclosure revealed that West Lothian Council signed a secretive non-disclosure agreement (NDA) with an unidentified data centre developer during the 2025–26 financial year.\nKey Details\n• The Council: West Lothian Council confirmed one NDA was concluded with an unknown firm, though it did not disclose the specific identity of the company or the exact project parameters.\n• Potential Links: Data centre developer Apatura has proposed a major 250MW hyperscale data centre at the old Freeport site in West Calder within West Lothian's boundaries, though it has not been officially confirmed if they are the party tied to the NDA\nThe Council: West Lothian Council confirmed one NDA was concluded with an unknown firm, though it did not disclose the specific identity of the company or the exact project parameters. [1, 2]\nPotential Links: Data centre developer Apatura has proposed a major 250MW hyperscale data centre at the old Freeport site in West Calder within West Lothian's boundaries, though it has not been officially confirmed if they are the party tied to the NDA\nFreedom of Information (FoI) disclosure revealed that West Lothian Council signed a secretive non-disclosure agreement (NDA) with an unidentified data centre developer during the 2025–26 financial year. [1]",
+      "contentFingerprint": "5e0634f06666ce4559fb47f16ff861ac205ebd5a63d0ae64d7e6cdcca5122ef8",
+      "photos": [
+        "media/facebook/1609688027105806/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "3644819542332515",
+      "date": "2026-11-16",
+      "title": "Help Save Mochrum Fell",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Help Save Mochrum Fell",
+        "label": "Facebook · Help Save Mochrum Fell",
+        "url": "https://www.facebook.com/groups/1730785547069267/posts/3644819542332515/"
+      },
+      "thin": false,
+      "bodyText": "https://www.youtube.com/watch?v=64LISlwdm5E\nYOUTUBE.COM Kathryn Porter: Is Britain vulnerable to an energy crisis?",
+      "contentFingerprint": "ae2ef0248a9a4f8267db1a01bab1025c6618a7a8aa87297f560b045b04f6e4f6",
+      "photos": [
+        "media/facebook/3644819542332515/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://www.youtube.com/watch?v=64LISlwdm5E",
+          "url": "https://www.youtube.com/watch?v=64LISlwdm5E"
+        },
+        {
+          "text": "YOUTUBE.COM Kathryn Porter: Is Britain vulnerable to an energy crisis?",
+          "url": "https://www.youtube.com/watch?v=64LISlwdm5E"
+        }
+      ]
+    },
+    {
+      "id": "1609816750426267",
+      "date": "2026-11-16",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1609816750426267/"
+      },
+      "thin": false,
+      "bodyText": "Just drawing attention to this gorgeous waterfall within the proposed site of the Data Centre. I sincerely hope the project never goes ahead both for the village and the landscape. A hidden gem IMO.— in Auchtertool.",
+      "contentFingerprint": "a9c85ade987692a3406b1fe0fc4f07415bf2aaccd4044c2d143682f3eaf0c1f4",
+      "photos": [
+        "media/facebook/1609816750426267/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1171840205182797",
+      "date": "2026-11-16",
+      "title": "Say No to West Calder Hyperscale Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No to West Calder Hyperscale Data Centre",
+        "label": "Facebook · Say No to West Calder Hyperscale Data Centre",
+        "url": "https://www.facebook.com/groups/1092406649792820/posts/1171840205182797/"
+      },
+      "thin": false,
+      "bodyText": "Scottish Government speaking points regarding Hyperscale Data Centres/Myths busted...\nROBINMCALPINE.ORG Fight data centre myths",
+      "contentFingerprint": "71c0b7c50ca12daf658f6420a967a8472a38331fdd8c276c58e50f2b5607f755",
+      "photos": [
+        "media/facebook/1171840205182797/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "ROBINMCALPINE.ORG Fight data centre myths",
+          "url": "https://robinmcalpine.org/fight-data-centre-myths/"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "29184000727920007",
+      "date": "2026-11-16",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/29184000727920007/"
+      },
+      "thin": false,
+      "bodyText": "F/V Mistress: Come forward, speak up, do the right thing\nIt's been 78 days since the F/V Mistress, declared \"Lost\" by the USCG, was discovered - just 50 feet from the base of Block Island turbine #1. As I have nothing to hide, some facts about what has since transpired:\n-the discovery was reported through official channels to multiple federal agencies, along with notification provided to state officials, their staffers, and others in positions of authority, all no later than mid-September.\n-No substantive responses have been received, which seem warranted in the interest of public trust and transparency, to at the least acknowledge the circumstances.\n-families of the victims have verified that the wreckage located is indeed the Mistress.\n-I was personally contacted by the RI State Police to provide information that may help guide their efforts for a forensic recovery. There is no indication that this has yet occurred. I and others remain fully cooperative and transparent.\n-Despite requests to secure the site pending appropriate and warranted investigations, the site has not been secured and continues to be compromised with a spud barge anchoring on site just weeks ago.\n-New evidence continues to emerge - indicating that the wreckage was observed during federally funded environmental surveying contracts as early as 2019. It is unclear what was done with this information by contractors, though it is clear that the whereabouts of this \"lost\" vessel has been known, which should have prompted an update to the USCG initial investigation report to include this new evidence, being the wreckage itself, and what can be learned from the wreckage, which is significant.\n-I have personally met with members of the victims’ families, and the sole survivor of the accident, and those were not easy discussions. I and others have assisted with their navigating legal pathways to get the answers they deserve and find some closure. Obviously, being told that loved ones were lost at sea versus being at the foot of a routinely worked industrial site are very different issues to reconcile.\n-those clearly unhappy about this discovery have gone to great lengths to discredit the work, employing trolls, bots, and other cyber attacks and bullying. I'd suspect they will chime in here as well.\nThose with a soul will continue to see this issue through to get answers. There are people out there that have knowledge of the accident and the whereabouts of the wreckage since 2019, and their continuing to withhold information only further implicates all involved.\nCome forward, speak up, do the right thing.",
+      "contentFingerprint": "5b6531a72267f2db026f829c9b297bee105c69da8dc556febabb7e698bd627bd",
+      "photos": [
+        "media/facebook/29184000727920007/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "1484050813621247",
+      "date": "2026-11-16",
+      "title": "LEAVE OUR HILLS ALONE!",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "LEAVE OUR HILLS ALONE!",
+        "label": "Facebook · LEAVE OUR HILLS ALONE!",
+        "url": "https://www.facebook.com/groups/1203358325023832/posts/1484050813621247/"
+      },
+      "thin": false,
+      "bodyText": "Preserve and protect our land \n don't throw it away on AI data sites (and industrial wind power stations)....",
+      "contentFingerprint": "6e26f9a1616e18bdc3d16ce7448ad1d5e6fae9c4c59b898d6f0f875287ff6a18",
+      "photos": [
+        "media/facebook/1484050813621247/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1143382048091576",
+      "date": "2026-11-16",
+      "title": "Communities B4 Power Companies",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Communities B4 Power Companies",
+        "label": "Facebook · Communities B4 Power Companies",
+        "url": "https://www.facebook.com/groups/221782186918238/posts/1143382048091576/"
+      },
+      "thin": false,
+      "bodyText": "OBJECT.NOW Object To Aberedw Energy Park",
+      "contentFingerprint": "b1d602f9a65ffbd45aa4f92b5d9788a40b41d55fd033c9668e19f5b35b6ae13e",
+      "photos": [
+        "media/facebook/1143382048091576/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "OBJECT.NOW Object To Aberedw Energy Park",
+          "url": "https://object.now/aberedw-energy-park/"
+        }
+      ]
+    },
+    {
+      "id": "1435784388713802",
+      "date": "2026-11-16",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1435784388713802/"
+      },
+      "thin": false,
+      "bodyText": "Dounreay has commissioned an Oxfordshire- based company to manufacture 1600 specialist waste drums.\nNuclear Restoration Services (NRS) has asked LTi Metaltech to produce and supply the 500-litre liquid waste drums for use in its cementation plant.\nThis contract marks a major milestone at Dounreay, nuclear decommissioning site awards multi-million pound contract to UK company\nLTi Metaltech's Oxfordshire facility will produce the drums in a multi-million pound contract that will support the nuclear plant's ongoing programme of waste management.\nThis forms part of the ongoing decommissioning activities at Dounreay recently extended from 2030 till 2070. The site is aiming to be nuclear free by 2333. The latest estimated cost for Dounreay decommissioning was £8N.\nLTi Metaltech Ltd, a leading UK manufacturer of high-integrity pressure vessels and safety-critical fabrications, has secured a multi-million pound contract with Nuclear Restoration Services (NRS) to manufacture and supply 1,600 specialist 500-litre liquid waste drums for the Dounreay nuclear decommissioning programme in Scotland.\nThe contract will see LTi Metaltech manufacture Mk3 500-litre lost-paddle liquid waste drums for the Dounreay Cementation Plant, supporting the site’s ongoing work to safely manage and treat radioactive liquid waste.\nDounreay is one of the UK’s major nuclear decommissioning sites, where complex operations continue to address the legacy of its nuclear research and development activities. The specialist drums will support the site’s waste management programme, contributing to the safe and responsible management of nuclear materials.\nManufactured at LTi Metaltech’s Oxfordshire facility, the drums will be produced to stringent nuclear quality requirements, with controlled fabrication and welding processes, rigorous inspection and material traceability throughout production.\nThe contract will draw on LTi Metaltech’s established expertise in high-integrity serial manufacturing, combining specialist welding capabilities, advanced production processes and robust quality assurance systems to deliver consistent, repeatable products at scale.\nDeliveries will be phased over the contract period in line with NRS programme requirements, with LTi Metaltech working closely with NRS and project stakeholders to meet the required technical, quality and delivery standards.\nThey are delighted to have awarded the contract as it marks a major milestone in the Dounreay Cementation Plant Programme of Work. The award introduces a new manufacturer for the specialist drums which we hope will strengthen the supply chain capability and provide future opportunities for LTi.\nThe contract also demonstrates the contribution of UK manufacturing to the country’s nuclear decommissioning mission, providing the specialist skills, manufacturing capacity and quality assurance needed to deliver safety-critical products.— at Dounreay Nuclear Site.",
+      "contentFingerprint": "9b9d7b670dd0ef1a32ffefe90a3118ef87220af29543df6906e9c7dee576625c",
+      "photos": [
+        "media/facebook/1435784388713802/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1576628967827731",
+      "date": "2026-11-16",
+      "title": "Wind Energy's Absurd",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Wind Energy's Absurd",
+        "label": "Facebook · Wind Energy's Absurd",
+        "url": "https://www.facebook.com/WindEnergysAbsurd/posts/1576628967827731"
+      },
+      "thin": false,
+      "bodyText": "The key takeaway is from Paul Burgess' piece on Bute Energy/GreenGen -'Green Energy Ruining Beautiful Wales'.\nHe challenges the justification for Green GEN Cymru's proposed 132kV overhead lines across mid-Wales, including the Towy–Usk (approximately 98km), Towy–Teifi and Vyrnwy–Frankton schemes.\nHis principal arguments are:\n- The £1.3 billion economic benefit is misleading. The figure, drawn from a BiGGAR Economics report commissioned for RenewableUK Cymru, includes £1.1 billion of projected spending on the wind and solar developments supposedly enabled by the additional grid capacity. Counting construction expenditure as an economic benefit is circular, particularly when the underlying need for the generation is disputed. The report also claims 540 jobs.\n- Electricity demand does not support the projections. UK electricity consumption has declined over approximately two decades, while per-capita consumption has fallen by around 30% since 2000. Industrial energy use is now only about 27% of its 1973 peak. Against this background, NESO forecasts demand rising from approximately 290 TWh today to 540–646 TWh by 2035.\n- High electricity prices are undermining the very demand being forecast. UK industrial electricity prices are the highest among IEA countries, which Paul  Burgess argues is accelerating deindustrialisation and making the projected expansion of industrial electricity consumption unrealistic.\n- More renewable generation does not necessarily mean more usable electricity. He points to the emergence of solar constraint payments in 2025 and argues that additional wind and solar capacity will increase surplus generation unless viable storage is available.\n- Hydrogen is not a viable storage solution. Drawing on his separate analysis of the full hydrogen production, transport and storage chain, he puts the cost of delivered electricity at £850–£1,370/MWh, compared with approximately £65/MWh for gas CCGT. He argues that official assessments omit important elements of the full-cycle cost.\n- Consumers ultimately bear the cost. He estimates existing constraint payments at £1.5–3 billion annually, potentially reaching £15 billion or more by 2035 if demand remains near current levels. He also warns of stranded transmission and generation assets if the anticipated demand never materialises.\nHis conclusion\nHe considers that neither the longer through-Wales route nor the shorter bypass route should be progressed on the basis of the current demand assumptions. He argues that the programme should be paused or scaled back until the underlying demand case is properly reassessed.\nHis central message is that the route debate is secondary: the real question is whether the additional generation and transmission infrastructure is justified by any credible future demand.\nhttps://climaterealism.substack.com/.../green-energy...",
+      "contentFingerprint": "df025ca2572069745eef09ff2868056e5740dbefbcf6e7cd893da3dfbfc01416",
+      "photos": [
+        "media/facebook/1576628967827731/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://climaterealism.substack.com/.../green-energy...",
+          "url": "https://climaterealism.substack.com/p/green-energy-ruining-beautiful-wales?publication_id=4755483&post_id=225229635&isFreemail=true&r=npq0o&triedRedirect=true&utm_id=97758_v0_s00_e0_tv2"
+        }
+      ],
+      "categories": [
+        "OHL (Pylons)",
+        "Solar"
+      ]
+    },
+    {
+      "id": "30187862140816127",
+      "date": "2026-11-16",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/30187862140816127/"
+      },
+      "thin": false,
+      "bodyText": "Britain’s wind farm owners are paying back millions of pounds after the Iran crisis sent electricity prices surging.\nDespite the savings, however, several other factors are still pushing up bills overall.\nFull story here https://archive.ph/vxX5F#selection-3823.0-3823.116\nhttps://www.telegraph.co.uk/.../wind-farms-hand-back-18m.../\nTELEGRAPH.CO.UK Wind farms hand back millions as power prices jump",
+      "contentFingerprint": "ed818983a7d607bd388a596c35390df09ae0dd3a75c5663321b820673d79195b",
+      "photos": [
+        "media/facebook/30187862140816127/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://archive.ph/vxX5F#selection-3823.0-3823.116",
+          "url": "https://archive.ph/vxX5F#selection-3823.0-3823.116"
+        },
+        {
+          "text": "https://www.telegraph.co.uk/.../wind-farms-hand-back-18m.../",
+          "url": "https://www.telegraph.co.uk/business/2026/11/16/wind-farms-hand-back-18m-to-billpayers-as-power-prices-jump/"
+        },
+        {
+          "text": "TELEGRAPH.CO.UK Wind farms hand back millions as power prices jump",
+          "url": "https://www.telegraph.co.uk/business/2026/11/16/wind-farms-hand-back-18m-to-billpayers-as-power-prices-jump/"
+        }
+      ],
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "1609953260412616",
+      "date": "2026-11-16",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1609953260412616/"
+      },
+      "thin": false,
+      "bodyText": "https://heated.world/p/the-first-study-of-ai-data-centers\nHEATED.WORLD The first study of AI data centers’ climate pollution is here—and it’s a massive undercount",
+      "contentFingerprint": "13944422dd220e22f33e7b44fb4db06200f00d5830b22bcef0ca25045a27007a",
+      "photos": [
+        "media/facebook/1609953260412616/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://heated.world/p/the-first-study-of-ai-data-centers",
+          "url": "https://heated.world/p/the-first-study-of-ai-data-centers"
+        },
+        {
+          "text": "HEATED.WORLD The first study of AI data centers’ climate pollution is here—and it’s a massive undercount",
+          "url": "https://heated.world/p/the-first-study-of-ai-data-centers"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1435800005378907",
+      "date": "2026-11-16",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1435800005378907/"
+      },
+      "thin": false,
+      "bodyText": "Tullis Russell Papermakers, Markinch (1950s)\nSteam Turbine Alternators providing electricity to papermill, process steam provided to the paper manufacturing process.\nSome photographs detailing a well laid out turbine plant: a small industrial installation serving the paper mill. 1 x 10MW and 3 x 5MW passout condensing sets, all Parsons machines. \nThe wonderful thing about industrial plants like this often is the \"organic growth\", leading to a lack of uniformity, and a variety of equipment from different periods being installed side-by-side. That said, the 3 x 5MW machines seen here were repeat orders.\nPlant replaced by the 55MW RWE Markinch Biomass plant in 2010 which continues operating post papermill closure in 2014. In 2019 an Energy Centre and District Heating network was installed to provide lower cost heating to 400 domestic properties and 63 business within the local Glenrothes area at Tullis Russell Papermakers.— in Markinch.",
+      "contentFingerprint": "6cb53252d3bd36f43bbe1e9aaa0605d9d6fc899246311bebb1ccd39638184a38",
+      "photos": [
+        "media/facebook/1435800005378907/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1435883225370585",
+      "date": "2026-11-16",
+      "title": "Scottish Electricity Generating Stations",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scottish Electricity Generating Stations",
+        "label": "Facebook · Scottish Electricity Generating Stations",
+        "url": "https://www.facebook.com/groups/443369301288654/posts/1435883225370585/"
+      },
+      "thin": false,
+      "bodyText": "Connagill Substation is a 275/132 kV Supergrid open busbar electrical substation located in Strath Halladale, Sutherland, in the far north of Scotland (roughly 20 miles west of Thurso).\nBuilt around 2013 by Omexom and civil contractors to interface regional renewable projects with the main high-voltage grid. Positioned adjacent to Tower 33 of the existing Beauly-to-Dounreay 275kV overhead transmission line.\nUndergoing active equipment upgrades and supergrid transformer (SGT) installations to accommodate growing regional clean-energy output.\nActs as a central hub for the \"Connagill Cluster,\" gathering and stepping up power from multiple regional wind farms in Sutherland and Caithness—including Strathy North (67.75 MW) Strathy South (208 MW) Strathy Wood (65MW), Armadale(58MW), Melvich (57.6 MW) and Kirkton (53 MW)\nStrathy North to Connagill 275kV overhead line - SSEN Transmission\nThe development will include 14.6km of Steel Lattice double circuit from the end of the Strathy Wood to Strathy North steel lattice overhead line (OHL)\nPowerteam, a subsidiary company of VINCI Energies, was appointed by SSE Power Distribution, Transmission Department.\nThe project was required to accommodate the new transmission connections from Strathy North and South Wind Farms and design was also to support future expansion of a further SGT and associated equipment to connect Strathy Wood Wind Farm.\nCivil design included the provision of Planning drawings, Ground Investigation, Plant and Equipment foundation design and full road, compound and drainage design.\nCivil design also involved a strong link with environmentalists to ensure protection of flora and fauna was optimised. Eco friendly solutions were also developed for the substantial peat retention bunds required\nInterface was required with 3rd Party designers, namely, the Substation Control Building designers and Transmission and Distribution Overhead line designers. These interfaces required compatible designs to be agreed for siting of building and cable installations to the Control Rooms and also Access roads, crane pads and piling platforms to be designed to accommodate the Transmission tower works.\nPrimary Plant Layout and design was developed closely with Powerteam to accommodate their preferred, and SSE Issued plant and equipment. Design included, busbar and clamp design, Safety clearance checks, earthing layout, multicore cable routes and design loadings.\nOver 130 Aluminium 132kV and 275kV Support Structures were designed and supplied including single and three-phase structures, varying from 2.1m to 7.2m high and 2 No Double Bay 12m high Galvanised steel gantries to accommodate the incoming downleads from the new Transmission Tower connections. All structures were designed to accommodate the various earth connection points and equipment mounting interfaces specific for each item of equipment.\nAll Structures were delivered and erected to meet Powerteam's accelerated programme. All remaining primary works were completed on program.— in Achiemore (Rhiconich, Sutherland).",
+      "contentFingerprint": "8f38e45bcbdbbecb7c0ef05bd6c92d0d8b73a7c9391863568a37840e94aae32b",
+      "photos": [
+        "media/facebook/1435883225370585/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "OHL (Pylons)",
+        "Onshore Wind",
+        "Substation"
       ]
     }
   ]
