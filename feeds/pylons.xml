@@ -2,8 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>slava.it.com: Pylons and grid transmission</title><link>https://slava.it.com/</link><description>Archived public UK infrastructure community posts (no post text).</description>
-<lastBuildDate>Tue, 17 Nov 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Wed, 18 Nov 2026 00:00:00 +0000</lastBuildDate>
 <atom:link href="https://slava.it.com/feeds/pylons.xml" rel="self" type="application/rss+xml"/>
+<item><title>Deeside Against Pylons post, 2026-11-17</title><link>https://slava.it.com/?sel=2444970799642232</link><guid isPermaLink="true">https://slava.it.com/?sel=2444970799642232</guid><pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate><description>Themes: OHL (Pylons). Project: not linked. Post text is not reproduced.</description></item>
 <item><title>Wind Energy's Absurd post, 2026-11-16</title><link>https://slava.it.com/?sel=1576628967827731</link><guid isPermaLink="true">https://slava.it.com/?sel=1576628967827731</guid><pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate><description>Themes: OHL (Pylons), Solar. Project: not linked. Post text is not reproduced.</description></item>
 <item><title>Scottish Electricity Generating Stations post, 2026-11-16</title><link>https://slava.it.com/?sel=1435883225370585</link><guid isPermaLink="true">https://slava.it.com/?sel=1435883225370585</guid><pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate><description>Themes: OHL (Pylons), Onshore Wind, Substation. Project: not linked. Post text is not reproduced.</description></item>
 <item><title>Scottish Electricity Generating Stations post, 2026-11-16</title><link>https://slava.it.com/?sel=1435447048747536</link><guid isPermaLink="true">https://slava.it.com/?sel=1435447048747536</guid><pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate><description>Themes: Substation. Project: not linked. Post text is not reproduced.</description></item>
@@ -53,6 +54,5 @@
 <item><title>Say No To Cato Data Centre post, 2026-11-03</title><link>https://slava.it.com/?sel=1597491264992149</link><guid isPermaLink="true">https://slava.it.com/?sel=1597491264992149</guid><pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate><description>Themes: Data Centre, Substation. Project: not linked. Post text is not reproduced.</description></item>
 <item><title>Scottish Electricity Generating Stations post, 2026-11-03</title><link>https://slava.it.com/?sel=1422285003397074</link><guid isPermaLink="true">https://slava.it.com/?sel=1422285003397074</guid><pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate><description>Themes: Substation. Project: not linked. Post text is not reproduced.</description></item>
 <item><title>Essex Suffolk Norfolk Pylons post, 2026-11-02</title><link>https://slava.it.com/?sel=1844872326553014</link><guid isPermaLink="true">https://slava.it.com/?sel=1844872326553014</guid><pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate><description>Themes: OHL (Pylons). Project: not linked. Post text is not reproduced.</description></item>
-<item><title>Essex Suffolk Norfolk Pylons post, 2026-11-02</title><link>https://slava.it.com/?sel=1844600969913483</link><guid isPermaLink="true">https://slava.it.com/?sel=1844600969913483</guid><pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate><description>Themes: OHL (Pylons). Project: not linked. Post text is not reproduced.</description></item>
 </channel>
 </rss>
