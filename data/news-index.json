@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-18T10:54:13.000Z",
+  "generated": "2026-11-19T19:39:45.000Z",
   "sourceFilter": [
     "Scotland Against Spin",
     "Environmentalists Against Wind Turbines",
@@ -43,65 +43,24 @@
   "selection": "strict global recency (most recent records first, across all tracked sources)",
   "counts": {
     "records": 18,
-    "Scotland Against Spin": 2,
     "Say No To Cato Data Centre": 3,
-    "Scottish Electricity Generating Stations": 3,
-    "Say No to West Calder Hyperscale Data Centre": 2,
+    "Our Power": 1,
+    "Say No to West Calder Hyperscale Data Centre": 3,
+    "Environmentalists Against Wind Turbines": 2,
+    "Scotland Against Spin": 3,
     "Communities B4 Power Companies": 3,
-    "Deeside Against Pylons": 1,
-    "West Edinburgh Against AI Data Centre": 2,
-    "Wind Energy's Absurd": 1,
-    "Essex Suffolk Norfolk Pylons": 1
+    "LEAVE OUR HILLS ALONE!": 1,
+    "Worth Valley against Walshaw Moor Wind Farm": 1,
+    "NO to East Havering Data Centre in Upminster (Residents Group)": 1
   },
   "dateRange": {
-    "from": "2026-11-17",
-    "to": "2026-11-18"
+    "from": "2026-11-19",
+    "to": "2026-11-19"
   },
   "records": [
     {
-      "id": "30211558578446483",
-      "date": "2026-11-18",
-      "title": "Scotland Against Spin",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Scotland Against Spin",
-        "label": "Facebook · Scotland Against Spin",
-        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/30211558578446483/"
-      },
-      "thin": false,
-      "bodyText": "Reminder: 19/11/2026 at 11am\nApplication For Consent Under S36 Of The Electricity Act 1989 And Deemed Planning Permission For The Construction And Operation Of Tormsdale Wind Farm south of Halkirk\nWIN-270-23 - Tormsdale Wind Farm - Pre Examination Meeting\nhttps://www.youtube.com/watch?v=gAicFJZk0bc\nYOUTUBE.COM WIN-270-23 - Tormsdale Wind Farm - Pre Examination Meeting",
-      "contentFingerprint": "775f7b107b312b9fe1966b8f538e207733f7c1fd1392162ab5c24638c05e9455",
-      "photos": [
-        "media/facebook/30211558578446483/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "links": [
-        {
-          "text": "https://www.youtube.com/watch?v=gAicFJZk0bc",
-          "url": "https://www.youtube.com/watch?v=gAicFJZk0bc"
-        }
-      ],
-      "categories": [
-        "Onshore Wind"
-      ]
-    },
-    {
-      "id": "1611298350278107",
-      "date": "2026-11-18",
+      "id": "1612629843478291",
+      "date": "2026-11-19",
       "title": "Say No To Cato Data Centre",
       "provenance": {
         "title": {
@@ -121,23 +80,23 @@
         "type": "facebook_group",
         "name": "Say No To Cato Data Centre",
         "label": "Facebook · Say No To Cato Data Centre",
-        "url": "https://www.facebook.com/groups/1472242997516977/posts/1611298350278107/"
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1612629843478291/"
       },
       "thin": false,
-      "bodyText": "https://aprs.scot/.../damning-report-on-hyperscale-data.../\nAPRS.SCOT Damning report on hyperscale data centres ‘quietly’ published amid public outcry over frenzied rollout - Action to Protect Rural Scotland",
-      "contentFingerprint": "6162934941110871fd2ce3dcd013bcadb807e5bb9c31f815c9082360bdc0746a",
+      "bodyText": "https://www.theguardian.com/.../uk-growth-plan...\nTHEGUARDIAN.COM Ram through datacentres no one wants and hope the AI bubble never bursts: that’s the UK’s growth plan | George Monbiot",
+      "contentFingerprint": "f3ea586a02b43bde7b00ff8b75328db7a8b2a3a2d6b366f57393a33fec7b8e7c",
       "photos": [
-        "media/facebook/1611298350278107/photo_1.png"
+        "media/facebook/1612629843478291/photo_1.png"
       ],
       "mediaCount": 1,
       "links": [
         {
-          "text": "https://aprs.scot/.../damning-report-on-hyperscale-data.../",
-          "url": "https://aprs.scot/press-release/damning-report-on-hyperscale-data-centres-quietly-published-amid-public-outcry-over-frenzied-rollout/"
+          "text": "https://www.theguardian.com/.../uk-growth-plan...",
+          "url": "https://www.theguardian.com/commentisfree/2026/nov/19/uk-growth-plan-datacentres-ai-bubble-big-tech"
         },
         {
-          "text": "APRS.SCOT Damning report on hyperscale data centres ‘quietly’ published amid public outcry over frenzied rollout - Action to Protect Rural Scotland",
-          "url": "https://aprs.scot/press-release/damning-report-on-hyperscale-data-centres-quietly-published-amid-public-outcry-over-frenzied-rollout/"
+          "text": "THEGUARDIAN.COM Ram through datacentres no one wants and hope the AI bubble never bursts: that’s the UK’s growth plan | George Monbiot",
+          "url": "https://www.theguardian.com/commentisfree/2026/nov/19/uk-growth-plan-datacentres-ai-bubble-big-tech"
         }
       ],
       "categories": [
@@ -145,9 +104,9 @@
       ]
     },
     {
-      "id": "1611266523614623",
-      "date": "2026-11-18",
-      "title": "Say No To Cato Data Centre",
+      "id": "122140156557244466",
+      "date": "2026-11-19",
+      "title": "Our Power",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -161,85 +120,21 @@
       },
       "source": {
         "type": "facebook_group",
-        "name": "Say No To Cato Data Centre",
-        "label": "Facebook · Say No To Cato Data Centre",
-        "url": "https://www.facebook.com/groups/1472242997516977/posts/1611266523614623/"
+        "name": "Our Power",
+        "label": "Facebook · Our Power",
+        "url": "https://www.facebook.com/ourpower.scot/posts/122140156557244466"
       },
       "thin": false,
-      "bodyText": "Fife Council are using robotic cleaners at their Bankhead HQ in Glenrothes. Is this where they are heading? What other jobs are they planning to replace with AI tech? \nThere are an estimated 7,100 over 16 year-olds unemployed in Fife. Do Fife Council not realise that people need people and they need salaries to create homes and feed their family.",
-      "contentFingerprint": "1786372b38fd84a388459976670749c744d776c3b3524525f11bbf7b247223a3",
+      "bodyText": "Energy companies have been pulling the biggest heist on Scotland for years now. It's time to take Our Power back with more public and community owned renewables!",
+      "contentFingerprint": "41e5787576298a996e731ff97d6e9e95ec5455c1b3c2a807f742f5efb363cdb5",
       "photos": [
-        "media/facebook/1611266523614623/photo_1.png"
+        "media/facebook/122140156557244466/photo_1.png"
       ],
       "mediaCount": 1
     },
     {
-      "id": "30210849935184014",
-      "date": "2026-11-18",
-      "title": "Scotland Against Spin",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Scotland Against Spin",
-        "label": "Facebook · Scotland Against Spin",
-        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/30210849935184014/"
-      },
-      "thin": false,
-      "bodyText": "Scotsman letters\nGB Energy is turning out to be exactly what its doubters suspected. Not a publicly owned energy company, but a costly taxpayer-funded exercise in political branding.\nIts own accounts, published in September, show a £14.1 million loss, while chief executive Dan Mcgrail received a total pay package of about £390,000.\nThis is the same body presented as part of a plan to cut household bills, yet the reality is soaring system costs, eye-wateringly expensive offshore wind and ever-costlier grid infrastructure for which consumers will ultimately pay.\nMeanwhile, as The Scotsman has reported (14 November), support for Scotland’s Scotwind ambitions is now in doubt under Westminster’s revised strategy, hardly inspiring confidence that renewables will deliver the promised savings.\nGB Energy has little to show for the £18.7m of public money already spent. It appears to offer spin, salaries and symbolism rather than any credible route to lower bills.\nEileen West Banchory",
-      "contentFingerprint": "2a41a7371565d8ec05f8c2ddcc03182ece143f702885b644e6dbd1f3f1b6fc76",
-      "photos": [
-        "media/facebook/30210849935184014/photo_1.png"
-      ],
-      "mediaCount": 1
-    },
-    {
-      "id": "1436945955264312",
-      "date": "2026-11-18",
-      "title": "Scottish Electricity Generating Stations",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Scottish Electricity Generating Stations",
-        "label": "Facebook · Scottish Electricity Generating Stations",
-        "url": "https://www.facebook.com/groups/443369301288654/posts/1436945955264312/"
-      },
-      "thin": false,
-      "bodyText": "Viking Wind Farm is a major onshore wind power station located in the central mainland of the Shetland Islands. Completed in August–September 2024, it stands as one of the UK's most productive and largest onshore wind energy projects.\nKey specification 443 MW of generation capacity across 103 Vestas turbines, producing around 1.8 TWh annually and capable of powering roughly 500,000 homes (including all households on the Shetland Islands).\nLinked to the Scottish mainland transmission grid via the Shetland HVDC Connection, a 260 km subsea and underground high-voltage direct current cable.\nDeveloped and operated by SSE Renewables in partnership with local community interests via Viking Energy.\nCommunity Benefits features a multi-million-pound community fund (providing roughly £2.2 million annually / over £72 million across its lifespan) to support local projects and host areas.\nOverview\nThe Viking Wind Farm in the Shetland Islands has a reported project cost of around £1 billion overall, with SSE Renewables' direct capital expenditure on the wind farm itself estimated at roughly £580 million.\nKey Cost & Financial Details\nOverall Project Cost: Approximately £1 billion across the project, alongside the separate Shetland HVDC undersea transmission connection required to export power to the Scottish mainland.\nWind Farm Capital Expenditure: Estimated at around £580 million by SSE Renewables for the 443 MW, 103-turbine onshore wind farm.\nSupply Chain Spend: Over £70 million had already been spent with suppliers across Shetland and the wider UK supply chain by July 2023 during construction.\nContracts for Difference (CfD) & Consumer Costs: Its future CfD strike price is £67/MWh (scheduled for 2027–2028). In August 2024—its first month reaching full capacity—analysis by the Renewable Energy Foundation estimated it earned over £10 million (including £2.5 million in grid constraint payments) for 52.3 GWh generated, equating to roughly £199/MWh while discarding over 60% of potential output due to grid constraints.\nViking Wind Farm Community Income. Land Lease/Rentals fixed amount per MWh. % of gross income. Community Levy. £2000/MW per annum +2.5%.— at Shetland Islands.",
-      "contentFingerprint": "815a3f5bd4ff9ac143b9559d177fd44238268394db8c638efd3b79d0b17fbc3e",
-      "photos": [
-        "media/facebook/1436945955264312/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "categories": [
-        "Onshore Wind"
-      ]
-    },
-    {
-      "id": "1172971781736306",
-      "date": "2026-11-17",
+      "id": "1174696951563789",
+      "date": "2026-11-19",
       "title": "Say No to West Calder Hyperscale Data Centre",
       "provenance": {
         "title": {
@@ -259,13 +154,13 @@
         "type": "facebook_group",
         "name": "Say No to West Calder Hyperscale Data Centre",
         "label": "Facebook · Say No to West Calder Hyperscale Data Centre",
-        "url": "https://www.facebook.com/groups/1092406649792820/posts/1172971781736306/"
+        "url": "https://www.facebook.com/groups/1092406649792820/posts/1174696951563789/"
       },
       "thin": false,
-      "bodyText": "At the moment; there's something to take my breath away every day.\nAPRS.SCOT Data Centre Map - Action to Protect Rural Scotland",
-      "contentFingerprint": "b3106b452c0055b9212780ed94c46c8ad624bfdd972bc189aaada347d67e32ea",
+      "bodyText": "And this is how Apatura, the company putting forward planning for Freeport/West Calder Hyperscale Data Centre treats locals:",
+      "contentFingerprint": "b56aa4a08a775a64a98b615ab507c4c6c93b25e1173a48c3b40ac09cc6f11342",
       "photos": [
-        "media/facebook/1172971781736306/photo_1.png"
+        "media/facebook/1174696951563789/photo_1.png"
       ],
       "mediaCount": 1,
       "categories": [
@@ -273,9 +168,83 @@
       ]
     },
     {
-      "id": "1436866458605595",
-      "date": "2026-11-17",
-      "title": "Scottish Electricity Generating Stations",
+      "id": "29224537593866320",
+      "date": "2026-11-19",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/29224537593866320/"
+      },
+      "thin": false,
+      "bodyText": "https://youtu.be/AS0IGZLDbgA\nYOUTUBE.COM The Green Wall Problem: Why Planting Trees Won't Offset 60-Million-Year-Old Carbon | Andy Pitman",
+      "contentFingerprint": "019858474c6703a4ab111b2e0f4dce288389fee59ee23a38fb067dcfbc492dcb",
+      "photos": [
+        "media/facebook/29224537593866320/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://youtu.be/AS0IGZLDbgA",
+          "url": "https://youtu.be/AS0IGZLDbgA"
+        },
+        {
+          "text": "YOUTUBE.COM The Green Wall Problem: Why Planting Trees Won't Offset 60-Million-Year-Old Carbon | Andy Pitman",
+          "url": "https://youtu.be/AS0IGZLDbgA"
+        }
+      ]
+    },
+    {
+      "id": "1174628654903952",
+      "date": "2026-11-19",
+      "title": "Say No to West Calder Hyperscale Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No to West Calder Hyperscale Data Centre",
+        "label": "Facebook · Say No to West Calder Hyperscale Data Centre",
+        "url": "https://www.facebook.com/groups/1092406649792820/posts/1174628654903952/"
+      },
+      "thin": false,
+      "bodyText": "I'm fed up with politicians lying/misleading us! \n \nShame Hillsborough Law isn't already in place they'd all be prosecuted! \n \nWell the councillors and Ministers who lied and misled at least. \n Please sign the petition below  and share (remember to confirm the email) to include MSPs and MPs!! \n \nMain points of the Hillsborough Law (Public Office (Accountability) Bill): \nDuty of candour and assistance — a legal obligation on public authorities and officials to act with honesty, transparency and frankness when engaging with inquiries, inquests and investigations.\nNew criminal offences — replacing the common law offence of misconduct in public office with two clearer STATUTORY offences, plus a new offence of misleading the public (intentional or reckless, on matters of significant public concern).\nEthical conduct framework — public authorities must adopt and publish codes of conduct and take active steps to make staff aware of them.\nNon-means-tested legal aid — for bereaved families at inquests where a public authority is an interested person (England and Wales only; Scotland has not yet matched this, please write to MSPs).\nParity of representation — bereaved families can have legal representation at inquiries/investigations. \nIntelligence services — the duty of candour applies to individual intelligence employees without carve-outs (resolved July 2026).\nTerritorial scope — the duty of candour, ethical conduct, and the misleading-the-public and misconduct offences extend to Scotland, England, Wales and Northern Ireland. The legal aid and parity-of-arms provisions are England and Wales only.\nEXECPROSEC.ORG PETITION: Include all lawmakers under the Hillsborough Law",
+      "contentFingerprint": "b8334308f4df1c1bd03e58b1a4ac898e370a9c197fc7c616767c8e60a05ac6e0",
+      "photos": [
+        "media/facebook/1174628654903952/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "EXECPROSEC.ORG PETITION: Include all lawmakers under the Hillsborough Law",
+          "url": "https://www.execprosec.org/petition/"
+        }
+      ]
+    },
+    {
+      "id": "30229142540021420",
+      "date": "2026-11-19",
+      "title": "Scotland Against Spin",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -292,24 +261,79 @@
       },
       "source": {
         "type": "facebook_group",
-        "name": "Scottish Electricity Generating Stations",
-        "label": "Facebook · Scottish Electricity Generating Stations",
-        "url": "https://www.facebook.com/groups/443369301288654/posts/1436866458605595/"
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/30229142540021420/"
       },
       "thin": false,
-      "bodyText": "Collie Power Station\nFor nearly three decades, Collie Power Station has helped power Western Australia. But in less than a year, the coal-fired facility is scheduled to shut down permanently.\nLocated about 200km southeast of Perth, Collie has been a centerpiece of WA's coal industry since the late 1800s.\nConstruction of the A$575 million power station began in 1996, with the facility officially opening in June 1999.\nOriginally rated at 300 MW , its generating capacity was subsequently increased to 340 MW.\nAt the time, it was considered one of Australia's most modern coal-fired power stations, adding roughly 10% to the state's main electricity network.\nUnlike many eastern Australian coal operations, Collie's coal is primarily consumed domestically.\nThe station receives locally mined coal from Premier Coal through an overland conveyor system, feeding a large boiler connected to a single steam turbine.\nEven today, the facility remains operational, generating 861 GWh of electricity during the 2024–25 financial year.\nHowever, its future is now approaching.\nOwned by Synergy, Collie Power Station is scheduled to close on October 1, 2027, as Western Australia gradually retires its state-owned coal generation.\nThe government cites increasing renewable generation, rooftop solar and changing electricity demand as major reasons.\nNearby, a 500 MW battery storage facility has already entered operation, while more than A$700 million has been committed to supporting Collie's economic transition.\nDecommissioning work will follow the closure, with the remaining Muja coal units scheduled for retirement in 2029.\nFor a WA town built around coal, the next few years will mark the end of an important industrial era.",
-      "contentFingerprint": "1fa26bbeb91d6df29fc2717ff911fcf4684057e0fbdb54f652560e65360b0745",
+      "bodyText": "The Scottish government has approved plans for a 67-turbine floating offshore wind farm at a site about 39 miles (63km) from Peterhead in Aberdeenshire.\nDeveloper Fred Olsen Seawind said its 1GW Muir Mhòr project could generate enough electricity annually for more than a million homes. https://www.bbc.co.uk/news/articles/cmj6l7eeze27o\nBBC.CO.UK Muir Mhòr offshore wind farm approved for site off Peterhead",
+      "contentFingerprint": "45cf4053b41b6a173e2b49eadcd6049d120af85d48a7af712bc186d2a2cb6493",
       "photos": [
-        "media/facebook/1436866458605595/photo_1.png"
+        "media/facebook/30229142540021420/photo_1.png"
       ],
       "mediaCount": 1,
+      "links": [
+        {
+          "text": "BBC.CO.UK Muir Mhòr offshore wind farm approved for site off Peterhead",
+          "url": "https://www.bbc.co.uk/news/articles/cmj6l7eeze27o"
+        },
+        {
+          "text": "https://www.bbc.co.uk/news/articles/cmj6l7eeze27o",
+          "url": "https://www.bbc.co.uk/news/articles/cmj6l7eeze27o"
+        }
+      ],
       "categories": [
-        "BESS"
+        "Onshore Wind"
       ]
     },
     {
-      "id": "1144647821298332",
-      "date": "2026-11-17",
+      "id": "1174622124904605",
+      "date": "2026-11-19",
+      "title": "Say No to West Calder Hyperscale Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No to West Calder Hyperscale Data Centre",
+        "label": "Facebook · Say No to West Calder Hyperscale Data Centre",
+        "url": "https://www.facebook.com/groups/1092406649792820/posts/1174622124904605/"
+      },
+      "thin": false,
+      "bodyText": "AI data centres are being fast-tracked across the UK. We had no say.\n \n No public consultation. No environmental assessment. No transparency on water, energy, or emissions. \n \n The government met 137* businesses to shape this policy.  It met zero environmental/campaign groups.\n We're asking for one thing: a UK-wide public consultation before any further expansion. \n \n  No more green lights without evidence.\n \n Sign: https://petition.parliament.uk/petitions/783905\n Share before the next one goes up (remember to confirm email sent)\nCreated by @Robert Pownall\n*Zoned Out report by Spotlight on Corruption, published 27 October 2026\nPETITION.PARLIAMENT.UK Petition: Hold a UK-wide public consultation before further expansion of AI data centres",
+      "contentFingerprint": "3a0995cc48b96b6d05e3bb123246aee1347b269fa33ab297e9033db27c6f786f",
+      "photos": [
+        "media/facebook/1174622124904605/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://petition.parliament.uk/petitions/783905",
+          "url": "https://petition.parliament.uk/petitions/783905?utm_id=97758_v0_s00_e0_tv4"
+        },
+        {
+          "text": "PETITION.PARLIAMENT.UK Petition: Hold a UK-wide public consultation before further expansion of AI data centres",
+          "url": "https://petition.parliament.uk/petitions/783905?utm_id=97757_v0_s00_e0_tv2"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1145622654534182",
+      "date": "2026-11-19",
       "title": "Communities B4 Power Companies",
       "provenance": {
         "title": {
@@ -320,45 +344,6 @@
         },
         "photos": {
           "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Communities B4 Power Companies",
-        "label": "Facebook · Communities B4 Power Companies",
-        "url": "https://www.facebook.com/groups/221782186918238/posts/1144647821298332/"
-      },
-      "thin": false,
-      "bodyText": "November 17 The DPEA have updated the timings for the sessions. PLEASE TAKE NOTE OF CHANGES\nI WILL LET YOU KNOW OF ANY FURTHER CHANGES\nALSO WILL AMEND INDIVIDUAL AREA POSTS\nScotscalder Hall Halkirk - Monday 30 November\n12:45 Doors open to participants and public\n13:00 Hearing commences\n14:30/15:00 (approx) Refreshments break\n15:45 Close of hearing\nDuthac Centre Tain - Tuesday 1 December Afternoon\n13:45 Doors open to participants and public\n14:00 Hearing commences\n16:00 Close of afternoon hearing\nEvening 17:45 Doors open to participants and public\n18:00 Hearing commences\n20:00 Close of evening hearing\nStrathpeffer Pavillion - Strathpeffer\nWednesday 2 December Afternoon\n13:15 Doors open to participants and public\n13:30 Hearing commences\n16:00 Close of afternoon hearing\nEvening 17:45 Doors open to participants and public\n18:00 Hearing commences\n19:45 Close of evening hearing\nIn person and virtual hearings will be held, the dates and venues for the sessions are indicated above. Arrangements for and the speakers at the community hearings have been confirmed. Members of the public are welcome to attend the hearing sessions to observe proceedings. Please note the proceedings may be webcast and if so, will be available to view at [www.youtube.com/@DPEAScotGov](https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2F%40DPEAScotGov%3Ffbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgFicmlkETBiOHhoY0tEcU9aZFlSYXQ2c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABH7iEJL2s1g0mfSIpCvzoCKM5X-rSOg7JtBTr8zllS_slyTmFXMCqUy_nivNI_aem_3LMEGDMT1DlEPeo-d6O7NA&h=AUCdMcGrronasAWQ5DWypta4HY9cFPQbCBdUit7j8FsT-Rpm3NGJqeQiOmOCVXOZTNg0e-6zV1gaTe1cqJ-5Nyp2h_qRvZO-hZy8UUy54A1SjpQ7kcmZXKzPNB0RJn1-Mgl2_yDe3BFoXEm559a6G-I&__tn__=-UK-R&c[0]=AUCidK2eqPF3-0MjRk65gZEFPkycwLvr5_l__Jiw6iG_lLklMXBPM-7u3bmOsyHrKmlOrBuB0eOC9p64UlcTL82w8t8pDNZst07eh_2HaoWZzpj50hrVr7IRK4afbJQSJC6-rsqeJXdqvkIcwH3key-P5cqgqOZ9qBEsjghaoZs4tQ),\nSee less",
-      "contentFingerprint": "47ba7a25c149fd9ec6c3becd12c4178416d826eb0d77e1c42b476cf2e24347e7",
-      "photos": [
-        "media/facebook/1144647821298332/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "links": [
-        {
-          "text": "www.youtube.com/@DPEAScotGov",
-          "url": "https://www.youtube.com/@DPEAScotGov"
-        },
-        {
-          "text": "https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2F%40DPEAScotGov%3Ffbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgFicmlkETBiOHhoY0tEcU9aZFlSYXQ2c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABH7iEJL2s1g0mfSIpCvzoCKM5X-rSOg7JtBTr8zllS_slyTmFXMCqUy_nivNI_aem_3LMEGDMT1DlEPeo-d6O7NA&h=AUCdMcGrronasAWQ5DWypta4HY9cFPQbCBdUit7j8FsT-Rpm3NGJqeQiOmOCVXOZTNg0e-6zV1gaTe1cqJ-5Nyp2h_qRvZO-hZy8UUy54A1SjpQ7kcmZXKzPNB0RJn1-Mgl2_yDe3BFoXEm559a6G-I&__tn__=-UK-R&c[0]=AUCidK2eqPF3-0MjRk65gZEFPkycwLvr5_l__Jiw6iG_lLklMXBPM-7u3bmOsyHrKmlOrBuB0eOC9p64UlcTL82w8t8pDNZst07eh_2HaoWZzpj50hrVr7IRK4afbJQSJC6-rsqeJXdqvkIcwH3key-P5cqgqOZ9qBEsjghaoZs4tQ",
-          "url": "https://www.youtube.com/@DPEAScotGov"
-        }
-      ]
-    },
-    {
-      "id": "2444970799642232",
-      "date": "2026-11-17",
-      "title": "Deeside Against Pylons",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
         },
         "categories": {
           "method": "keyword"
@@ -366,170 +351,35 @@
       },
       "source": {
         "type": "facebook_group",
-        "name": "Deeside Against Pylons",
-        "label": "Facebook · Deeside Against Pylons",
-        "url": "https://www.facebook.com/groups/deesideagainstpylons/posts/2444970799642232/"
+        "name": "Communities B4 Power Companies",
+        "label": "Facebook · Communities B4 Power Companies",
+        "url": "https://www.facebook.com/groups/221782186918238/posts/1145622654534182/"
       },
       "thin": false,
-      "bodyText": "I’m being asked a lot of questions about what happened today. \nThe hearing scheduled for today, 17th November, convened by the Scottish Government Reporters examining SSEN’s 11 Necessary Wayleave applications to Dunecht Estates for the Kintore to Tealing OHL was cancelled at the 11th hour after Dunecht Estates withdrew its opposition. \nThis followed their acceptance of an undisclosed financial settlement with SSEN. \nThe result is that it was unnecessary for the Reporters to hear the public’s responses to Wayleave and land crossing questions in a public forum. \nLate settlement of such matters is unfortunately common.  The system embraces consideration of the public questions … whether there should be a line at all, and where it should go and private questions of which fields it should be in, whereabouts in those fields it should cross and how much should be paid to a landowner for crossing private land.  \nWayleaves are a vital part of the system and there is no obligation to accept the initial offer of a Wayleave. Where that issue is contested, the forum for a decision is the Public Inquiry, but it’s open to parties to settle at any time. It’s a skilled and difficult part of legal practice and the arrangements arrived at are justifiably private as they involve no issues of public interest and do not bear in any way on the Section 37 application decision.\nObviously, if there is no consent for the line, as we have argued so vigorously, there need be no Wayleave agreement between farmers and SSEN.\nThe hearing with Linton Estates and SSEN is still scheduled to go ahead tomorrow.\n@everyone",
-      "contentFingerprint": "dbc004d6f0878facd6fe1fb490159d010f8ebf29a8a807ef31ae22f42805029a",
+      "bodyText": "SSEN, the monopoly electricity transmission operator owned by SSE plc, has insisted that it must build its proposed new 400KV Kintore-Tealing OH and mega pylons to carry the high volt cables because  technical reasons prevent the upgrading of its existing 275kv OHL and pylon towers .\nSSEN when  questioned at the recent public planning  inquiry did not explain those technical reasons. \nQuestion: Do the existing 275K route and towers have a dual purpose/ provide an additional income to SSE plc via its  subsidiary company NEOS Networks?\nNEOS Networks delivers essential national infrastructure for NE Scotland's internet broadband - high capacity business connectivity. NEOS published  map shows its NE Scotland connectivity route remarkably  matching SSEN’s existing 275kv OHL route. \nUK Government Companies House records shows that in July 2026 NEOS changed its HQ business address from that of  its parent  SSE's Perth HQ addresss  Inveralmond House, Dunkeld Road, Perth to a new address in Glasgow....\nhttps://find-and-update.company-information.service.gov.u...    \nSSE needing to put some distance between conflict of commercial interests? \nhttps://neosnetworks.com/",
+      "contentFingerprint": "e13068d5ad6c2ca0d3388d3db1203ca2d3c9c5fb1975a4d0cb44b6cf5b157921",
       "photos": [
-        "media/facebook/2444970799642232/photo_1.png"
+        "media/facebook/1145622654534182/photo_1.png"
       ],
       "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://find-and-update.company-information.service.gov.u...",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/SC213457/filing-history"
+        },
+        {
+          "text": "https://neosnetworks.com/",
+          "url": "https://neosnetworks.com/"
+        }
+      ],
       "categories": [
         "OHL (Pylons)"
       ]
     },
     {
-      "id": "1172839538416197",
-      "date": "2026-11-17",
-      "title": "Say No to West Calder Hyperscale Data Centre",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Say No to West Calder Hyperscale Data Centre",
-        "label": "Facebook · Say No to West Calder Hyperscale Data Centre",
-        "url": "https://www.facebook.com/groups/1092406649792820/posts/1172839538416197/"
-      },
-      "thin": false,
-      "bodyText": "@john_swinney_snp latest dodging of questions and no  confirmation that we will get a say on \"guidance\" presumably partially written by Apatura if Scottish Govt track record is followed...",
-      "contentFingerprint": "698fcd85d601fe7831841ed5b5843078d9b491fca4d3497da5036218aa71b836",
-      "photos": [
-        "media/facebook/1172839538416197/photo_1.png"
-      ],
-      "mediaCount": 1
-    },
-    {
-      "id": "1119023837615755",
-      "date": "2026-11-17",
-      "title": "West Edinburgh Against AI Data Centre",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "West Edinburgh Against AI Data Centre",
-        "label": "Facebook · West Edinburgh Against AI Data Centre",
-        "url": "https://www.facebook.com/groups/994619683389505/posts/1119023837615755/"
-      },
-      "thin": false,
-      "bodyText": "Captured in Porty. Many a true word. If there's a hill to die on, this is the one. The French had the right idea. 1789 required again.",
-      "contentFingerprint": "3eb117ee611bb8b19414ea5c3299fa2e910c1c11b907eb916d972d7181b303f5",
-      "photos": [
-        "media/facebook/1119023837615755/photo_1.png"
-      ],
-      "mediaCount": 1
-    },
-    {
-      "id": "1119021590949313",
-      "date": "2026-11-17",
-      "title": "West Edinburgh Against AI Data Centre",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "West Edinburgh Against AI Data Centre",
-        "label": "Facebook · West Edinburgh Against AI Data Centre",
-        "url": "https://www.facebook.com/groups/994619683389505/posts/1119021590949313/"
-      },
-      "thin": false,
-      "bodyText": "The only #DigitalChain #DataEnslavementCentres we will ever need.",
-      "contentFingerprint": "ca7ef830f8657c4ea2dd24ce583967b361fe7c0334795d772cb88be2ebbcb9fb",
-      "photos": [
-        "media/facebook/1119021590949313/photo_1.png"
-      ],
-      "mediaCount": 1
-    },
-    {
-      "id": "1436581981967376",
-      "date": "2026-11-17",
-      "title": "Scottish Electricity Generating Stations",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Scottish Electricity Generating Stations",
-        "label": "Facebook · Scottish Electricity Generating Stations",
-        "url": "https://www.facebook.com/groups/443369301288654/posts/1436581981967376/"
-      },
-      "thin": false,
-      "bodyText": "Robert Craig and Sons\nNewbattle and Caldercruix and Moffat Mills, Airdrie, Dalkeith, Scotland\nBy 1851 Robert Craig had incorporated his paper making business as Robert Craig and Sons.\n1890 The Craig's Newbattle Mill closed when agreement could not be reached to renew the lease. 300 employees lost their jobs, though some transferred to Craig’s two other mills at Moffat and Caldercruix.\n1892 Article [1]\n'MESSRS R. CRAIG & SONS' NEW PAPER WORKS.\n'The following description of Messrs R. Craig & Sons, paper works at Caldercruix and Moffat Mill, near Airdrie, is taken from \"The Paper Maker's Circular\" for September :—\n'The visitor to Caldercruix, is at once struck by the fact that the whole district seems given up to paper making. At the railway station are noticed the siding, and the vans, bearing the name of Robert Craig & Sons, which are waiting to carry Manilas and Blottings to the markets. The large business done makes it well worth while for the North British Railway Company to agree to satisfactory arrangements as to railway rates and modes of transit. Workmen's dwellings are adjacent to the Caldercruix Mill, as is also the Craig Memorial Church, by which the name of the late Mr Craig is to be perpetuated.\nAt the present time, great improvements are being made in the important matter of filtration and Messrs Blaikie Brothers, Limited, of Aberdeen, have put in a new revolving boiler. This boiler is of an improved type : dimensions are 18' 6\" long, 8 feet diameter, of mild steel with cast steel trunnions and door frames, and suitable for a working pressure of 60 lbs. per square inch. The steam inlet trunnion is fitted with an internal pipe having three passages, with wrought iron pipes inside the boiler, and a three ported valve piece outside fitting in the valve chamber, which is arranged to admit steam to the lowest pipe for about one third of a revolution. By having the distribution of the steam effected by an arrangement outside the boiler, it is always accessible for examination and cleaning when necessary. The boiler is fitted with the usual perforated bottom and blow-off cocks, also a perforated diaphragm at the blow-off end to prevent waste of material in the process of boiling, and is constructed throughout in first class style, all the holes being drilled in position, and all rivetting, where practicable, done by hydraulic pressure. The boiler is driven by helical wheel secured to the trunnion flange and a train of gearing.\n'The water is from the Hillend Reservoir, the largest artificial reservoir in Scotland, and the water is of excellent quality for paper making purposes. In order to further improve the already snow white velvet blotting, a most elaborate and expensive process of filtration is now being put down and will soon be in operation.\n'The mill is driven by a large steam engine of 600 h.p. made by Messrs William and John Yates, of Blackburn, (now Yates & Thom). This engine works most efficiently and it is interesting to note that Messrs Craig, who have a very high opinion of these engines, were the first to introduce them into Scots paper mills.\n'Experience at Chirnside and elsewhere, shows how dangerous it is to depend on one steam engine alone; and to prevent the great stoppage caused by a breakdown, it is advisable to have another engine in reserve. This is evidently the opinion of the Caldercruix Paper Makers, who use in addition to the engine just noted the old one, which they formally used at Newbattle. This, which is of 300 h.p., was made by Yates and Thom, 13 years ago, but the larger new engine already referred to is the prototype of that afterwards supplied to Moffat Mill, and also of that at Messrs Cowan's Penicuik Mills, and of a still larger one supplied to Messrs Annandale, for Beltonford, and since unfortunately injured by the disastrous fire at that mill. Each of these engines has a small starting engine, which must be a great advantage over the old system. The arrangement for lubricating these engines is also unique. The firm have a private gas plant of their own, which they manage themselves, entirely independent of any gas company.\n'As might be expected in a go-ahead mill, such as Caldercruix, the electric light is used, and is found a great improvement on gas lighting, which renders futile the close examinations of tinted papers.\n'The mills are lighted by means of twenty-nine 2,000 c. p. Brush arc Lamps, five 1,000 c. p. arc lamps, and a hundred and thirty 16 c.p. incandescent lamps; the whole of which were fitted up by the Brush Electric Engineering Company, Limited, in 1888. The dynamo machines, are of the \"Victoria\" D 2 type, driven from beneath by means of counter shafting, by a special engine made by the Airdrie Iron Company, and can also be given [driven] by the main engine should it at any time be required. The 2,000 c.p. Brush arc lamps are used in the beater and machine houses, rag stores, etc., and also outside the mill. Four of the 1,000 c.p. Brush arc lamps are in the mechanics' shops, and the fifth is used as a colour tester at night. The large wood pulp store, size 130 feet by 80 feet is largely under cover, and a railway siding goes through it; close to it may be seen a battery of Lowcock's Fuel Economisers, which work very satisfactorily. More pipes are shortly to be added.\n'Five of the boilers were supplied by Yates & Thom, who have done a great deal for these mills, and two by Mr Sinclair, of Leith; and as much as 400 tons of coal per week, are used here alone.\n'The rag store is truly enormous, and is believed to be the largest in the world. So far from buying less rags than heretofore, Messrs R. Craig & Sons, are buying an ever increasing-quantity, most of the orders going to Glasgow and Edinburgh houses. Egyptian and Turkish rags, which are of the dirtiest order, are dusted in an outhouse, by the fanning system, similar to that which is used in corn mills. In the rag house are the most elaborate fire appliances, since this is the usual place where fires originate. There have been two fires here, but the outbreaks have been of slight consequence, and have been easily put out.\n'Several cutters are in use, including Bentley & Jackson's well known Coburn-Taylor and Nuttall machines, and there are long gangways for running the rags into the store. As the rags arrive, they are hoisted from the vans by a steam crane ; whilst the rag houses are connected with the mill by two iron bridges over the railway siding, which divides the rag department from the mill proper.\n'In a second house, the sorted rags are kept ; and stand like the servants of the King and Queen of Hearts. \"according to their grades.\" This arrangement is very convenient for the rapid manufacture of paper, and a special stock of rags is reserved for the blottings. A large stock of boiled rags is always to be found in the rag boiling house, where are three revolving rag and three stationary boilers made by Sinclair, Umpherston and Blaikie respectively. For rag washing, Aitchison's \" Malcolm \" washer is employed.\n'The boaters and breakers supplied by Messrs Bertrams Limited, James Milne & Son, Limited, and Umpherston are ample, amounting to 18 and 10 respectively. The chemical department has large tanks of resin and sizing, and the lime mixing room is remarkably light and roomy. Great attention is paid to economy in bleach, which is lifted by a special hoist. We also notice that new shafting is being arranged for driving the kollergangs ; and that the half stuff, of which several hundred tons are stored, is drawn in small chests through perforated kiln tiles. In the paper machine house there are three paper making machines. The largest, made by J. Milne & Son, is the machine on which the blottinge are made, and has a wire of 77 inches, and has 12 cylinders. It will give an idea of the enormous trade the firm are now doing, when we mention that this large machine is constantly making blotting.\n'Another machine made by G. & W. Bertram has a wire of 70 inches, and is used exclusively for Manilla, label, and other strong paper for which Caldercruix have a very old and world-wide reputation. The third machine by James Milne & Son, is the Yankee for making glazed one side papers, better known in the trade by Messrs Craig's original designation of M.G. papers.\n'In the calender and cutting house are three super-calendering and friction glazers, made by Mr James Parrot, of Salford, with three revolving cutters and two ripping machines. Next is the paper storehouse. Here may be seen the largest stock of blottings in the world. These include the excellent \" velvet\" blottings which we noticed a few months ago. These were originally only white, but many other colours have since been adopted. The latest favourite is of a heliotrope shade, in the manufacture of which, however, no colouring matter is used. As regards the quality of the papers, which even Americans admit to be unequalled, we still think that it is a defect, that when we have blotted a letter, other people should read of our private affairs on the blotting paper. We hope, therefore, that Messrs Craig may succeed in removing this defect. Then indeed the Caldercruix blottings will be perfection.\n'The demand is very much on the increase, the blottings which have secured the patronage of Queen Victoria, being stocked by nearly every important firm of wholesale stationers in London and the provinces. The motto of the \" Velvet \" speciality, is \"why spoil a well-written letter by using bad blotting paper!\" is now well-known in the United States, where Mr Wildridge recently had a most successful journey and where a large quantity of the paper is imported in spite of the heavy 33 per cent. duty. ..... [much about blotting paper] ....\n'In the store house are a large stock of dandy rolls hailing from Stoke Newington, and bearing some of the best known water marks in the trade. The remaining rooms of the mills are the salle, which is lighted very well by means of windows on the top of it as well at the sides, and the laboratory where paper testing is carried on. The salle is pentagonal in shape, and contains one of Greig's cutting, and one of Wood's weighing machines. The paper is shot out from the salle on to the trucks on the siding.\n'The Moffat Paper Mill is very close to Caldercruix, being only four miles off. The driving is accomplished by an immense 800 h.p. steam engine, manufactured by Yates & Thom of Blackburn, who are specialists in this matter, and have given much thought to the perfecting of these engines. Behind the engine is a large condenser, and in conjunction with it, as at the other paper mill, is a starting engine.\n'The Moffat Mill also lighted by electricity, the installation, which is of the Thomson-Houston system, having recently been completed by Mr R. Miller of Glasgow, who has had considerable experience in the lighting of mills. Messrs Craig's installation consists of a Thomson-Houston Arclight dynamo, with 35 Thomson-Houston double carbons, 10 ampere arc lamps in series, and an incandescent dynamo with 115 16 c.p incandescent lamps.\n'The arc temps light all the large rooms, and the incandescent, are for passages, offices, and dark places, such as under mills, where so powerful a light as an arc lamp is not required. The arc lamps give practically the conditions of day light, and allow colours to be easily compared, and matched at night.\n'The series system of arc lighting has been adopted as it is the most economical both in power used and cost of carbons. With the series system there is no wasteful dead resistance required for each arc lamp, and the carbons cost less than one third of three required with the parallel system.\n'All the rags bought by Messrs Craig are received at Caldereruix, for the two mills. Those required for Moffat are sorted, cut and dusted, and then transferred along the railway in trucks. A considerable portion of the mill has a very fine roofing, which was used for the Edinburgh Exhibition. The raw material store is of immense dimensions and a siding runs through the centre of it.\n'The beater house, which comprises the whole of the old mill, has beaters by Milne and other engineers, and the boiler house has boilers by Blaikie and Sinclair. Above this is the rosin store, close to which are placed three revolving boilers. In the breaker house are six breakers and six hosiers of the ordinary style. In the machine house, we note that both the paper making machines were manufactured by Messrs Bertrams, Limited. One has a wire 88 wide and 4 feet drying cylinders while the other has a wire 70 wide with drying cylinders. At No. 1 machine is used one of Fanning's patent resolving doctors, which was manufactured at Duren.\n'The Calender house is very spacious, and is exceptionally well stored with requisite machinery. Here is one of C. G. Haubold's famous eight rolled calendere, one of Parrott's friction glazing calenders, an eight rolled glazing calendar, put in by Bertnms, Limited, and three embossing calendars, which the Chemnitz Worke have also supplied. Here too, are three revolving cutters, two front the Sciennes and one from Abbeyhill, and two ripping machines for wall paper, from Bertrams, Limited, and James Bertrams & Son.\n'Adjoining this room, a new house, large and light, has been erected for the reception of the Mammoth calender, which is the piece de resistance of the Moffat Paper Mill. This immense machine, which is 20 foot in height by 18 feet in breadth, has ten rolls, and was put in a few weeks ago by Messrs Joseph Eck & Sons of Dusseldorf Machinery Works, Germany, who hope to secure further orders from other mills for similar machines. Than the appearance of this calender, no better testimonial could be furnished. Like the circulation of various daily papers, this calendar is \"the largest in the world.\" At present it gives complete satisfaction and is used for glazing the fine series of \" Academy \" and \" Rustic\" tints, which are a specialty of the mills. It gives a first-rate glossy surface, and can also be used for friction or supercalendering purposes. The frames and rolls of this calendar have been constructed so as to withstand a working pressure of 50 tons on one end of the top roll, and the reeling apparatus has brakes on both sides. The chilled rolls, to which doctors have been fitted on, have been bored out and effectually plugged at the back.\n'The maximum speed of the calender is from 230 to 300 feet per minute when rolling.\n'The \"Mammoth\" extender is driven by an engine supplied by Messrs Herbert & Co. At its side is an iron staircase, leading to a platform in front.\n'The \" Academy \" and \" Rustic \" tints which are very numerous are of great variety in colour. The only tints to equal them are the crêpe and crinkled tissues made by the Cromptons, an entirely different kind of paper.\n'As at Caldercruix, there is an engineering shop and a laboratory, and the mills are connected with one another by telephonic communication. The present output of Caldercruix is about 90 tons weekly, and at Moffat 80, whereas 50 tons was the average output at Newbattle.\n'For the sale of papers, Messrs Craig have a warehouse in New Brown Street, Manchester, and are represented in London by the well known firm of Frank Green Co., who do a big trade in the velvet blotting', and others.\n'It will thus be seen that since the exodus from Newbattle, enormous improvements have been made in every respect, which show that the old firm of Robert Craig & Sons are likely to ensure in the future an even greater run of success than in the past.'\n1898 Incorporated as a private limited company.\n1914 Paper manufacturers. Specialities: blotting papers and coloured papers, \"Velvet\" and \"Spongia\" blottings. Employees 800 to 900.\nThe site has been demolished and redeveloped for housing\n— at Caldercruix.",
-      "contentFingerprint": "815c34b34a9cfcfa17e711153099d3b00d3b2143a90b52da2a5b7e50df2ef14c",
-      "photos": [
-        "media/facebook/1436581981967376/photo_1.png"
-      ],
-      "mediaCount": 1
-    },
-    {
-      "id": "1144320951331019",
-      "date": "2026-11-17",
+      "id": "1146097354486712",
+      "date": "2026-11-19",
       "title": "Communities B4 Power Companies",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Communities B4 Power Companies",
-        "label": "Facebook · Communities B4 Power Companies",
-        "url": "https://www.facebook.com/groups/221782186918238/posts/1144320951331019/"
-      },
-      "thin": false,
-      "bodyText": "",
-      "contentFingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "photos": [
-        "media/facebook/1144320951331019/photo_1.png"
-      ],
-      "mediaCount": 1
-    },
-    {
-      "id": "1577370557753572",
-      "date": "2026-11-17",
-      "title": "Wind Energy's Absurd",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -546,31 +396,162 @@
       },
       "source": {
         "type": "facebook_group",
-        "name": "Wind Energy's Absurd",
-        "label": "Facebook · Wind Energy's Absurd",
-        "url": "https://www.facebook.com/WindEnergysAbsurd/posts/1577370557753572"
+        "name": "Communities B4 Power Companies",
+        "label": "Facebook · Communities B4 Power Companies",
+        "url": "https://www.facebook.com/groups/221782186918238/posts/1146097354486712/"
       },
       "thin": false,
-      "bodyText": "This is long, but is a great discussion between Kathryn Porter and Harry Wilkinson of the GWPF.\nKathryn pulls no punches, as always.\nThe discussion topics were:\nUK ETS & the threat to domestic oil refineries and the strategi value of diesel and petrochmicals\nCarbon border adjustments mechanism\nGrid stability & electricity margin notices \nWind curtailment, constraints & high balancing costs\nScrutiny, Ofgem, and Treasury budget dynamics\nThe Energy Independence Bill & offshore licensing\nNESO control room allegations & whistleblower reports\n Blackout risks & system resilience\nLessons from the Iberian blackout\nCritique of zonal & locational marginal pricing\nCapacity markets, intermittency & new CCGT plants\nTransmission networks, GB grid & supply chain bottlenecks\nConclusion & final thoughts\nTowards the end, Harry Wilkinson raised the subject of Dieter Helm's Cost of Energy Review and, in particular, that DH had suggested that generators pay for intermittency they create on the system.\nKP said that it was a good idea, but wasn't implemented because nobody would build any wind or solar farms; that the only reason they are built is because they get big subsidies, and that if they were made to pay for intermittency as well, they would need even bigger subsidies. They are not interested in taking that risk.  She said that demonstrates the lack of economic feasibility.  \nWe're highlighting this next part of what KP said:\n𝐖𝐞 𝐬𝐭𝐚𝐫𝐭𝐞𝐝 𝐬𝐮𝐛𝐬𝐢𝐝𝐢𝐬𝐢𝐧𝐠 𝐰𝐢𝐧𝐝 𝐢𝐧 𝟏𝟗𝟗𝟎 𝐚𝐧𝐝 𝐰𝐞'𝐯𝐞 𝐛𝐞𝐞𝐧 𝐭𝐨𝐥𝐝 𝐰𝐞 𝐡𝐚𝐯𝐞 𝐭𝐨 𝐩𝐫𝐢𝐦𝐞 𝐭𝐡𝐞 𝐩𝐮𝐦𝐩 𝐟𝐨𝐫 𝐚𝐧 𝐢𝐦𝐦𝐚𝐭𝐮𝐫𝐞 𝐭𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐲.  𝐈'𝐦 𝐬𝐨𝐫𝐫𝐲, 𝐛𝐮𝐭 𝐢𝐟 𝐚𝐟𝐭𝐞𝐫 𝟑𝟔 𝐲𝐞𝐚𝐫𝐬, 𝐲𝐨𝐮𝐫 𝐭𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐲 𝐢𝐬𝐧'𝐭 𝐦𝐚𝐭𝐮𝐫𝐞, 𝐭𝐡𝐞𝐫𝐞'𝐬 𝐬𝐨𝐦𝐞𝐭𝐡𝐢𝐧𝐠 𝐫𝐞𝐚𝐥𝐥𝐲 𝐟𝐮𝐧𝐝𝐚𝐦𝐞𝐧𝐭𝐚𝐥𝐥𝐲 𝐰𝐫𝐨𝐧𝐠 𝐰𝐢𝐭𝐡 𝐢𝐭.  \n𝐖𝐞 𝐰𝐢𝐥𝐥 𝐧𝐞𝐯𝐞𝐫 𝐛𝐞 𝐚𝐛𝐥𝐞 𝐭𝐨 𝐬𝐭𝐨𝐩 𝐬𝐮𝐛𝐬𝐢𝐝𝐢𝐬𝐢𝐧𝐠 𝐰𝐢𝐧𝐝.  𝐖𝐞 𝐦𝐢𝐠𝐡𝐭 𝐠𝐞𝐭 𝐚𝐰𝐚𝐲 𝐰𝐢𝐭𝐡 𝐧𝐨𝐭 𝐬𝐮𝐛𝐬𝐢𝐝𝐢𝐬𝐢𝐧𝐠 𝐬𝐨𝐥𝐚𝐫; 𝐰𝐞 𝐰𝐢𝐥𝐥 𝐧𝐞𝐯𝐞𝐫 𝐞𝐯𝐞𝐫 𝐛𝐞 𝐚𝐛𝐥𝐞 𝐭𝐨 𝐬𝐭𝐨𝐩 𝐬𝐮𝐛𝐬𝐢𝐝𝐢𝐬𝐢𝐧𝐠 𝐰𝐢𝐧𝐝.\n𝐒𝐨 𝐢𝐟 𝐰𝐞 𝐰𝐚𝐧𝐭 𝐭𝐨 𝐦𝐚𝐤𝐞 𝐨𝐮𝐫 𝐞𝐧𝐞𝐫𝐠𝐲 𝐬𝐲𝐬𝐭𝐞𝐦 𝐜𝐡𝐞𝐚𝐩𝐞𝐫, 𝐰𝐞 𝐬𝐡𝐨𝐮𝐥𝐝 𝐬𝐭𝐨𝐩 𝐛𝐮𝐢𝐥𝐝𝐢𝐧𝐠 𝐰𝐢𝐧𝐝.  𝐈 𝐰𝐨𝐮𝐥𝐝𝐧'𝐭 𝐛𝐚𝐧 𝐢𝐭.  𝐈 𝐦𝐞𝐚𝐧 𝐈 𝐰𝐨𝐮𝐥𝐝 𝐝𝐞𝐟𝐢𝐧𝐢𝐭𝐞𝐥𝐲 𝐛𝐚𝐧 𝐭𝐡𝐞 𝐬𝐮𝐛𝐬𝐢𝐝𝐢𝐞𝐬 𝐚𝐧𝐝 𝐭𝐡𝐞𝐧 𝐭𝐡𝐚𝐭 𝐞𝐟𝐟𝐞𝐜𝐭𝐢𝐯𝐞𝐥𝐲 𝐰𝐨𝐮𝐥𝐝 𝐛𝐚𝐧 𝐭𝐡𝐞 𝐰𝐡𝐨𝐥𝐞 𝐭𝐡𝐢𝐧𝐠 𝐛𝐞𝐜𝐚𝐮𝐬𝐞 𝐧𝐨𝐛𝐨𝐝𝐲'𝐬 𝐠𝐨𝐢𝐧𝐠 𝐭𝐨 𝐛𝐮𝐢𝐥𝐝 𝐢𝐭 𝐰𝐢𝐭𝐡𝐨𝐮𝐭 𝐬𝐮𝐛𝐬𝐢𝐝𝐢𝐞𝐬.\nYOUTUBE.COM Kathryn Porter: Is Britain vulnerable to an energy crisis?",
-      "contentFingerprint": "2504e7726c46459ef2d3fca756bcbd436c589710feaf7df8d575d0aa04791a2d",
+      "bodyText": "Why the hell are The Highland Council even considering this and not listening to the local residents who know their areas far better than the majority of the Councillors on the Planning Committee who do not give a damn as they live far from this location and will continue to remain totally unaffected by any of this. They should now do the right thing and finally consign this \n to the dustbins of history before it causes any further stress and hassle to the local population.\nhttps://www.bbc.co.uk/news/articles/c6g7lznk1z1po\nBBC.CO.UK Plan to store wind farm parts at Skye's Broadford Aerodrome",
+      "contentFingerprint": "2d1c2929d07798469a8d50963b42987a640c3a23144dceadace09ac317491a25",
       "photos": [
-        "media/facebook/1577370557753572/photo_1.png"
+        "media/facebook/1146097354486712/photo_1.png"
       ],
       "mediaCount": 1,
       "links": [
         {
-          "text": "YOUTUBE.COM Kathryn Porter: Is Britain vulnerable to an energy crisis?",
-          "url": "https://www.youtube.com/watch?v=64LISlwdm5E&t=1s"
+          "text": "BBC.CO.UK Plan to store wind farm parts at Skye's Broadford Aerodrome",
+          "url": "https://www.bbc.co.uk/news/articles/c6g7lznk1z1po"
+        },
+        {
+          "text": "https://www.bbc.co.uk/news/articles/c6g7lznk1z1po",
+          "url": "https://www.bbc.co.uk/news/articles/c6g7lznk1z1po"
         }
       ],
       "categories": [
-        "Solar"
+        "Onshore Wind"
       ]
     },
     {
-      "id": "1860762488297331",
-      "date": "2026-11-17",
-      "title": "Essex Suffolk Norfolk Pylons",
+      "id": "29224532680533478",
+      "date": "2026-11-19",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/29224532680533478/"
+      },
+      "thin": false,
+      "bodyText": "GE Vernova wind turbine faults at Dogger Bank\nNov 18, 2026\nhttps://www.yahoo.com/.../energy-giant-hit-wind-turbine...\n\"In July 2024, a GE Vernova Haliade-X turbine blade suffered a catastrophic failure at the Vineyard Wind 1 project in Massachusetts, sending debris onto Nantucket beaches and prompting a major cleanup operation.\"",
+      "contentFingerprint": "d7bd2c08e94122e01cb2a800f2cd70f01b5e258568ba3e49137dc1b8e9b0e507",
+      "photos": [
+        "media/facebook/29224532680533478/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://www.yahoo.com/.../energy-giant-hit-wind-turbine...",
+          "url": "https://www.yahoo.com/news/science/articles/energy-giant-hit-wind-turbine-194135950.html"
+        }
+      ],
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "30226851826917158",
+      "date": "2026-11-19",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/30226851826917158/"
+      },
+      "thin": false,
+      "bodyText": "New Sealetter posted! Tens of thousands of offshore wind turbines are planned for the North Sea alone. In this Sealetter I explore how large offshore wind farms can change Ocean dynamics and the consequences for the marine environment.\nhttps://sealetters.substack.com/p/ocean-impacts-of-large-offshore-wind\nSEALETTERS.SUBSTACK.COM Ocean Impacts of Large Offshore Wind Farms",
+      "contentFingerprint": "cf0236f77189913e8053ea549c61ff4a6bfd71b46ef21a3d1840cfaeaf45e406",
+      "photos": [
+        "media/facebook/30226851826917158/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "SEALETTERS.SUBSTACK.COM Ocean Impacts of Large Offshore Wind Farms",
+          "url": "https://sealetters.substack.com/p/ocean-impacts-of-large-offshore-wind?utm_id=97757_v0_s00_e0_tv2"
+        },
+        {
+          "text": "https://sealetters.substack.com/p/ocean-impacts-of-large-offshore-wind",
+          "url": "https://sealetters.substack.com/p/ocean-impacts-of-large-offshore-wind"
+        }
+      ],
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "30227239040211770",
+      "date": "2026-11-19",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/30227239040211770/"
+      },
+      "thin": false,
+      "bodyText": "MID HILL WIND FARM – PUBLIC UPDATE\n Tuesday 24th November\n Forman Hall, Roberton\n Doors open 6.30pm | Presentation 7pm\nInvenergy plans 13 wind turbines, each 200 metres high – taller than Blackpool Tower – in the Borthwickwater and Teviot valleys.\nCome along to find out what is planned, where we are in the process and how it could affect you. We'll cover the many objections raised so far – including from the Ministry of Defence, RSPB Scotland and the Council's own Landscape Architect – and explain how you can have your voice heard before the Council's planning committee considers the application in February.\nEveryone welcome. Please share with friends and neighbours \nBorthwickwater Landscape Conservation Group\n blcg.org | \n info@blcg.org",
+      "contentFingerprint": "7a221ee7f847683b320fb26bf68f09ae32b7f239ec1485f97b232eba1e67de32",
+      "photos": [
+        "media/facebook/30227239040211770/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "blcg.org",
+          "url": "https://blcg.org/"
+        }
+      ],
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "1486529916706670",
+      "date": "2026-11-19",
+      "title": "LEAVE OUR HILLS ALONE!",
       "provenance": {
         "title": {
           "method": "neutral"
@@ -584,31 +565,62 @@
       },
       "source": {
         "type": "facebook_group",
-        "name": "Essex Suffolk Norfolk Pylons",
-        "label": "Facebook · Essex Suffolk Norfolk Pylons",
-        "url": "https://www.facebook.com/groups/pylonseastanglia/posts/1860762488297331/"
+        "name": "LEAVE OUR HILLS ALONE!",
+        "label": "Facebook · LEAVE OUR HILLS ALONE!",
+        "url": "https://www.facebook.com/groups/1203358325023832/posts/1486529916706670/"
       },
       "thin": false,
-      "bodyText": "Landowners & farmers - don't forget our survey!\nIt could be key to a legal challenge.\nSo please spend a few minutes telling us about National Grid / Fisher German and how they've behaved.\nHave they come onto your land without permission? Have they given a broad reason to come on without specific survey details, locations, or timings?\nAll these things are helpful.\nPlease also share this with your neighbours.\n(NORWICH TO TILBURY ONLY)\nhttps://docs.google.com/.../1FAIpQLSfxKVLodVg.../viewform...\nDOCS.GOOGLE.COM Norwich to Tilbury farmers & landowners survey",
-      "contentFingerprint": "11b2595d3aaa77c21ac259927284d3afeda5302c03b6f66a49f0418896bc5f32",
+      "bodyText": "This is an important opportunity to have you say in how FLS manage the woodland, drop in on Monday 23rd November at GMI... Have a read on the attached link and come along!\nFORESTRYANDLAND.GOV.SCOT Upper Nithsdale Long Term Plan",
+      "contentFingerprint": "fa4d5abe34cef363e9ede5f8636a9ae8aef6b03723817518ff72af2b79827520",
       "photos": [
-        "media/facebook/1860762488297331/photo_1.png"
+        "media/facebook/1486529916706670/photo_1.png"
       ],
       "mediaCount": 1,
       "links": [
         {
-          "text": "https://docs.google.com/.../1FAIpQLSfxKVLodVg.../viewform...",
-          "url": "https://docs.google.com/forms/d/e/1FAIpQLSfxKVLodVgo05iFLDu28cDn-qYeXzuFs8l1hpIZzLkhnXflhA/viewform?usp=header"
-        },
-        {
-          "text": "DOCS.GOOGLE.COM Norwich to Tilbury farmers & landowners survey",
-          "url": "https://docs.google.com/forms/d/e/1FAIpQLSfxKVLodVgo05iFLDu28cDn-qYeXzuFs8l1hpIZzLkhnXflhA/viewform?usp=header"
+          "text": "FORESTRYANDLAND.GOV.SCOT Upper Nithsdale Long Term Plan",
+          "url": "https://forestryandland.gov.scot/living-and-working/communities/land-management-plans/all-current-consultations/upper-nithsdale"
         }
       ]
     },
     {
-      "id": "1610575323683743",
-      "date": "2026-11-17",
+      "id": "1612202770187665",
+      "date": "2026-11-19",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1612202770187665/"
+      },
+      "thin": false,
+      "bodyText": "FT.COM AI borrowing binge has ‘historic parallels’ with subprime bubble, says ECB",
+      "contentFingerprint": "a1519af5e1ab0fcc67fb1330d1db5cdbefe638737439540329ab66c4d63a9fb6",
+      "photos": [
+        "media/facebook/1612202770187665/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "FT.COM AI borrowing binge has ‘historic parallels’ with subprime bubble, says ECB",
+          "url": "https://www.ft.com/content/d16475ce-efce-4dc1-b5a3-2f7c79e9dea9?syn-25a6b1a6=1"
+        }
+      ]
+    },
+    {
+      "id": "1612290323512243",
+      "date": "2026-11-19",
       "title": "Say No To Cato Data Centre",
       "provenance": {
         "title": {
@@ -628,19 +640,19 @@
         "type": "facebook_group",
         "name": "Say No To Cato Data Centre",
         "label": "Facebook · Say No To Cato Data Centre",
-        "url": "https://www.facebook.com/groups/1472242997516977/posts/1610575323683743/"
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1612290323512243/"
       },
       "thin": false,
-      "bodyText": "Very informative webinar, especially Michael Maciocia's section on his experiences with the Larbert EIA\nWell worth a watch, to gain more knowledge of the EIA process.\nYOUTUBE.COM Data Centres & EIAs",
-      "contentFingerprint": "2a7217d9ef4b36966a8805be02b1f0c75e0112fc2b8fbf37f46650fadaf77de7",
+      "bodyText": "https://www.theguardian.com/.../datacentres-to-create-70...",
+      "contentFingerprint": "c24f84611b1d8ebd2272599231936ea6ff7a734511d65301ad5e766b970c6603",
       "photos": [
-        "media/facebook/1610575323683743/photo_1.png"
+        "media/facebook/1612290323512243/photo_1.png"
       ],
       "mediaCount": 1,
       "links": [
         {
-          "text": "YOUTUBE.COM Data Centres & EIAs",
-          "url": "https://youtube.com/watch?v=C8soXpcYyCs&is=ZAad7dYnDriwE35l"
+          "text": "https://www.theguardian.com/.../datacentres-to-create-70...",
+          "url": "https://www.theguardian.com/world/2026/nov/19/datacentres-to-create-70-more-carbon-emissions-by-2030-iea-report-warns?CMP=GTUK_email"
         }
       ],
       "categories": [
@@ -648,8 +660,78 @@
       ]
     },
     {
-      "id": "1144260738003707",
-      "date": "2026-11-17",
+      "id": "1444275850611188",
+      "date": "2026-11-19",
+      "title": "Worth Valley against Walshaw Moor Wind Farm",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Worth Valley against Walshaw Moor Wind Farm",
+        "label": "Facebook · Worth Valley against Walshaw Moor Wind Farm",
+        "url": "https://www.facebook.com/groups/735756034796510/posts/1444275850611188/"
+      },
+      "thin": false,
+      "bodyText": "Yorkshire Wildlife Trust has a podcast with Stronger Together to Stop Calderdale Wind Farm campaigner Nick MacKinnon, also featuring Ann Dinsdale, 'wise owl' and principal curator of Brontë Parsonage Museum -",
+      "contentFingerprint": "f0250a5667fd1a057241d01f03806ac369e452408dd0b1b3c8e9cdb38d66658b",
+      "photos": [
+        "media/facebook/1444275850611188/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "1072310712500393",
+      "date": "2026-11-19",
+      "title": "NO to East Havering Data Centre in Upminster (Residents Group)",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "NO to East Havering Data Centre in Upminster (Residents Group)",
+        "label": "Facebook · NO to East Havering Data Centre in Upminster (Residents Group)",
+        "url": "https://www.facebook.com/groups/366637746401030/posts/1072310712500393/"
+      },
+      "thin": false,
+      "bodyText": "An interesting analogy:\n‘The East Havering Data Centre is not a story, it’s a box-set.’\nIt’s actually so much more than that!\nWith prequels, sequels, and spin-offs.",
+      "contentFingerprint": "5668967a00641132a2e38672a134c1ba36cbc6597e6ff7b592bd7e13e28a72b0",
+      "photos": [
+        "media/facebook/1072310712500393/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1146041131159001",
+      "date": "2026-11-19",
       "title": "Communities B4 Power Companies",
       "provenance": {
         "title": {
@@ -660,26 +742,32 @@
         },
         "photos": {
           "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
         }
       },
       "source": {
         "type": "facebook_group",
         "name": "Communities B4 Power Companies",
         "label": "Facebook · Communities B4 Power Companies",
-        "url": "https://www.facebook.com/groups/221782186918238/posts/1144260738003707/"
+        "url": "https://www.facebook.com/groups/221782186918238/posts/1146041131159001/"
       },
       "thin": false,
-      "bodyText": "This is all over our TVs and also polluting our devices. \nDeliberate indoctrination by the global investors who so desperately want our money to keep flowing into their coffers.\nThe Advertising Standards Agency ought to be all over this.\nApart from the 50% energy from renewables and energy independent baloney this ain't the truth either. \n\"Energy that's stable, more affordable and ours\" \nPull the other branch on that magic public money tree. We aren't as stupid as you would like us to be.\nMOVINGTHEGRIDFORWARD.CO.UK Moving the Grid Forward and Powering a Cleaner Future | Moving the Grid Forward",
-      "contentFingerprint": "843ec3b649cae463d6b986104695d6cee48b41fe234d075302e82b99ae47261e",
+      "bodyText": "Agenda for Spittal - Beauly OHL \nDecember 2 at Strathpeffer\nhttps://www.dpea.scotland.gov.uk/Document.aspx?id=1248779\nGives timings and list of speakers.",
+      "contentFingerprint": "1e3a0362316d78bdff55fd58e39999a15c900d22f33d0738ba4fc11c8f221de7",
       "photos": [
-        "media/facebook/1144260738003707/photo_1.png"
+        "media/facebook/1146041131159001/photo_1.png"
       ],
       "mediaCount": 1,
       "links": [
         {
-          "text": "MOVINGTHEGRIDFORWARD.CO.UK Moving the Grid Forward and Powering a Cleaner Future | Moving the Grid Forward",
-          "url": "https://movingthegridforward.co.uk/?dclid=CMzmjqD9jpgDFXwf6wQdU_4nAg&gad_source=7&gad_campaignid=24363045559"
+          "text": "https://www.dpea.scotland.gov.uk/Document.aspx?id=1248779",
+          "url": "https://www.dpea.scotland.gov.uk/Document.aspx?id=1248779"
         }
+      ],
+      "categories": [
+        "OHL (Pylons)"
       ]
     }
   ]
