@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-22T10:58:42.000Z",
+  "generated": "2026-11-23T10:35:51.000Z",
   "sourceFilter": [
     "Scotland Against Spin",
     "Environmentalists Against Wind Turbines",
@@ -38,647 +38,29 @@
     "Angus Pylon Action Group",
     "Say No to One Earth Solar Farm",
     "Sunnica Community Action Group",
-    "LEAVE OUR HILLS ALONE!"
+    "LEAVE OUR HILLS ALONE!",
+    "Save Fyrish"
   ],
   "selection": "strict global recency (most recent records first, across all tracked sources)",
   "counts": {
     "records": 18,
-    "Say No To Cato Data Centre": 4,
-    "Essex Suffolk Norfolk Pylons": 2,
-    "Scotland Against Spin": 6,
-    "Say NO to Cockenzie Data Centre": 1,
-    "Environmentalists Against Wind Turbines": 2,
-    "Communities B4 Power Companies": 1,
-    "Wind Energy's Absurd": 1,
-    "NO to East Havering Data Centre in Upminster (Residents Group)": 1
+    "NO to East Havering Data Centre in Upminster (Residents Group)": 2,
+    "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)": 1,
+    "Say No To Cato Data Centre": 6,
+    "Scotland Against Spin": 3,
+    "Save Fyrish": 1,
+    "Environmentalists Against Wind Turbines": 3,
+    "West Edinburgh Against AI Data Centre": 1,
+    "LEAVE OUR HILLS ALONE!": 1
   },
   "dateRange": {
-    "from": "2026-11-21",
-    "to": "2026-11-22"
+    "from": "2026-11-22",
+    "to": "2026-11-23"
   },
   "records": [
     {
-      "id": "1615196729888269",
-      "date": "2026-11-22",
-      "title": "Say No To Cato Data Centre",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Say No To Cato Data Centre",
-        "label": "Facebook · Say No To Cato Data Centre",
-        "url": "https://www.facebook.com/groups/1472242997516977/posts/1615196729888269/"
-      },
-      "thin": false,
-      "bodyText": "I think The Herald have been pinching my ideas. I sent them my Cato data centre illustration some weeks ago with a letter to the editor about a story they printed about Mark Wilson's absurd tomato farming idea for reusing waste heat.",
-      "contentFingerprint": "fbc2c671e3145967c81c406047cae73575bab6e4d06e50add55e44b1aaae37fd",
-      "photos": [
-        "media/facebook/1615196729888269/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "categories": [
-        "Data Centre"
-      ]
-    },
-    {
-      "id": "1865529457820634",
-      "date": "2026-11-22",
-      "title": "Essex Suffolk Norfolk Pylons",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Essex Suffolk Norfolk Pylons",
-        "label": "Facebook · Essex Suffolk Norfolk Pylons",
-        "url": "https://www.facebook.com/groups/pylonseastanglia/posts/1865529457820634/"
-      },
-      "thin": false,
-      "bodyText": "Another case of pylons being completely flattened in a storm in Australia\nABC.NET.AU 'Completely flattened': Farmers count their losses after wild storm",
-      "contentFingerprint": "a4f7c2dd6e3d0d028df50290b11c6afe35ed4190d4324b432bd8b810dd5c2f87",
-      "photos": [
-        "media/facebook/1865529457820634/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "links": [
-        {
-          "text": "ABC.NET.AU 'Completely flattened': Farmers count their losses after wild storm",
-          "url": "https://www.abc.net.au/news/2026-11-20/electranet-transmission-towers-farmers-crop-loss-shed-storm/107408426"
-        }
-      ],
-      "categories": [
-        "OHL (Pylons)"
-      ]
-    },
-    {
-      "id": "30264512639817743",
-      "date": "2026-11-22",
-      "title": "Scotland Against Spin",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Scotland Against Spin",
-        "label": "Facebook · Scotland Against Spin",
-        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/30264512639817743/"
-      },
-      "thin": false,
-      "bodyText": "Herald letters\nAn interesting letter whether you are religious or not!\nTHE question is not whether “climate science” and the deification of “carbon neutrality” is a cult, but rather whether or not it is a false religion?\nLast Sunday morning, I listened to a sermon based on the confrontation which took place on Mount Carmel between Elijah and the false prophets of Baal. It wasn’t the first sermon that I had heard on that subject. However, it was only after reading a letter in The Herald that it struck me that something significant had never been mentioned about this encounter that may be highly relevant for such a time as this.\nThe letter entitled “Climate science is no cult, despite what many critics continue to claim” (The Herald on Ssunday, November 15) was making the counterclaim that climate science wasn’t a cult.\nHowever, the close juxtaposition of my reading this letter with the Biblical\naccount in 1 Kings 18:16-46 highlighted something very important that I had not seen highlighted previously.\nThe important point is this: the authentication that Elijah was a true prophet of the only true God came in verse 38 when “the fire of the Lord fell, and consumed the burnt sacrifice”.\nGod had miraculously intervened and it is noteworthy that this divine intervention took the form of an act of combustion. It wasn’t carbon neutral.\nThe sacrifice offered by the false prophets of the false god Baal remained unburned and essentially carbon neutral relative to that of Elijah.\nPerhaps one modern application of this text might be that our nation should spend more time seeking to worship the one true God rather than the god of carbon neutrality.\nWe need to turn away from this worship of “environmentalism” per se to worshipful responsible stewardship of the planet and natural resources God has given us for the benefit of mankind. Dr Steven William Welsh, Western Isles.",
-      "contentFingerprint": "344f394ca29eaf56e9778c97f4580d0dac1d1680aab12141191afcd2827aed64",
-      "photos": [
-        "media/facebook/30264512639817743/photo_1.png"
-      ],
-      "mediaCount": 1
-    },
-    {
-      "id": "1657209725881979",
-      "date": "2026-11-22",
-      "title": "Say NO to Cockenzie Data Centre",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Say NO to Cockenzie Data Centre",
-        "label": "Facebook · Say NO to Cockenzie Data Centre",
-        "url": "https://www.facebook.com/groups/959791135623845/posts/1657209725881979/"
-      },
-      "thin": false,
-      "bodyText": "A Scottish Enterprise report that warns of the harmful impacts that hyperscale data centres could have on Scotland has been quietly published on the government agency’s website.\nhttps://aprs.scot/.../damning-report-on-hyperscale-data...\nAPRS.SCOT Scottish Enterprise report hhighlights the economic downside of hyperscale data centres - Action to Protect Rural Scotland",
-      "contentFingerprint": "c92a6307ace69ad0ceb3cad33fd475877fa2c036b2a6de9db9054520926afbd5",
-      "photos": [
-        "media/facebook/1657209725881979/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "links": [
-        {
-          "text": "https://aprs.scot/.../damning-report-on-hyperscale-data...",
-          "url": "https://aprs.scot/press-release/damning-report-on-hyperscale-data-centres-quietly-published-amid-public-outcry-over-frenzied-rollout"
-        },
-        {
-          "text": "APRS.SCOT Scottish Enterprise report hhighlights the economic downside of hyperscale data centres - Action to Protect Rural Scotland",
-          "url": "https://aprs.scot/press-release/damning-report-on-hyperscale-data-centres-quietly-published-amid-public-outcry-over-frenzied-rollout/"
-        }
-      ],
-      "categories": [
-        "Data Centre"
-      ]
-    },
-    {
-      "id": "30263723443229996",
-      "date": "2026-11-22",
-      "title": "Scotland Against Spin",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Scotland Against Spin",
-        "label": "Facebook · Scotland Against Spin",
-        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/30263723443229996/"
-      },
-      "thin": false,
-      "bodyText": "Major upgrades to the electricity grid have left Aberdeenshire officials scrambling to protect key roads and bridges across the region – which could result in more being closed or being made restricted access.\nPower network operator SSEN is on a major upgrade spree across the north-east, spending billions on new substations and subsea cables.\nRoads officials this week made clear that maintenance has drastically fallen behind, and council funding would need to be doubled to get back.\nPRESSANDJOURNAL.CO.UK 'Increasingly difficult' to find roads for SSEN's Aberdeenshire construction traffic amid council fear for bridges and roads",
-      "contentFingerprint": "01eca3f79722af71d3dda7f0b3c4064d25799a85c9e08a4d422f971cd8933e1d",
-      "photos": [
-        "media/facebook/30263723443229996/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "links": [
-        {
-          "text": "PRESSANDJOURNAL.CO.UK 'Increasingly difficult' to find roads for SSEN's Aberdeenshire construction traffic amid council fear for bridges and roads",
-          "url": "https://www.pressandjournal.co.uk/fp/news/aberdeen-aberdeenshire/7156467/aberdeenshire-bridges-ssen/"
-        }
-      ],
-      "categories": [
-        "Substation"
-      ]
-    },
-    {
-      "id": "30263060459962961",
-      "date": "2026-11-22",
-      "title": "Scotland Against Spin",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Scotland Against Spin",
-        "label": "Facebook · Scotland Against Spin",
-        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/30263060459962961/"
-      },
-      "thin": false,
-      "bodyText": "This paper looks at the impact of the Climate Change Levy (CCL), Carbon Price Support (CPS), the UK Emissions Trading Scheme (ETS), and Fuel Duty, quantifying their scale and tracing their effects on energy costs, industrial competitiveness, electricity prices, and overall economic performance.\nDAVIDTURVER.SUBSTACK.COM Abolish Carbon Taxes",
-      "contentFingerprint": "67e6c238a2768b8f3c780caa9cc2939dba08bb3e54919698684f62cca56f4663",
-      "photos": [
-        "media/facebook/30263060459962961/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "links": [
-        {
-          "text": "DAVIDTURVER.SUBSTACK.COM Abolish Carbon Taxes",
-          "url": "https://davidturver.substack.com/p/abolish-carbon-taxes-save-economy?publication_id=1285567&post_id=224765098&isFreemail=true&r=6cjna4&triedRedirect=true&utm_id=97757_v0_s00_e0_tv2"
-        }
-      ]
-    },
-    {
-      "id": "29104640942522653",
-      "date": "2026-11-22",
-      "title": "Environmentalists Against Wind Turbines",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Environmentalists Against Wind Turbines",
-        "label": "Facebook · Environmentalists Against Wind Turbines",
-        "url": "https://www.facebook.com/groups/835899539823505/posts/29104640942522653/"
-      },
-      "thin": false,
-      "bodyText": "Thank you SECONN DIVERS for hosting a conversation about the F/V Mistress discovery. This was the first, and certainly not the last, public presentation of the newly discovered wreck indicating that the vessel is not, and perhaps never was, \"Lost\". There are numerous important questions that remain unanswered, and it is critical that they continue to be a part of public conversation. Green Oceans Senator Sheldon Whitehouse Senator Jack Reed President Donald J. Trump\nFOXNEWS.COM Haunting clues emerge in 7-year fishing boat mystery after wreckage found off island",
-      "contentFingerprint": "379e7b62a393484c7a5bc46f836d37e69c9be5d10dc6fc79899fe6c59df9c734",
-      "photos": [
-        "media/facebook/29104640942522653/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "links": [
-        {
-          "text": "FOXNEWS.COM Haunting clues emerge in 7-year fishing boat mystery after wreckage found off island",
-          "url": "https://www.foxnews.com/travel/haunting-clues-emerge-7-year-fishing-boat-mystery-wreckage-found-island"
-        }
-      ]
-    },
-    {
-      "id": "28450411864612234",
-      "date": "2026-11-22",
-      "title": "Environmentalists Against Wind Turbines",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Environmentalists Against Wind Turbines",
-        "label": "Facebook · Environmentalists Against Wind Turbines",
-        "url": "https://www.facebook.com/groups/835899539823505/posts/28450411864612234/"
-      },
-      "thin": false,
-      "bodyText": "Please help keep this issue front and center. Ask questions, demand answers. State officials were informed of this serious matter on Sept 14. No statements.\nTURNTO10.COM Green Oceans President Michael Lombardi shares more about discovery of shipwreck",
-      "contentFingerprint": "212ad1338e57c294c844c74969f47119994442b170e973cd0f5c16ef915e3298",
-      "photos": [
-        "media/facebook/28450411864612234/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "links": [
-        {
-          "text": "TURNTO10.COM Green Oceans President Michael Lombardi shares more about discovery of shipwreck",
-          "url": "https://turnto10.com/news/gene-off-script/green-ocean-president-michael-lombardi-shares-discovery-of-a-lost-shipwreck-wind-turbines-gene-off-script-september-23-2026"
-        }
-      ]
-    },
-    {
-      "id": "1614736909934251",
-      "date": "2026-11-21",
-      "title": "Say No To Cato Data Centre",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Say No To Cato Data Centre",
-        "label": "Facebook · Say No To Cato Data Centre",
-        "url": "https://www.facebook.com/groups/1472242997516977/posts/1614736909934251/"
-      },
-      "thin": false,
-      "bodyText": "Norfolk villages face solar farms and data centre\nWe have a fight going on in Norfolk small villages going to be surrounded by solar farms and a monstrosity of a Data Centre. Please help if you can. Thank you, we are in the early stages of this nightmare.",
-      "contentFingerprint": "81fe9b6c8235d425242da0131298b9f741b85c6552a46e633ca69312941073c0",
-      "photos": [
-        "media/facebook/1614736909934251/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "categories": [
-        "Data Centre",
-        "Solar"
-      ]
-    },
-    {
-      "id": "30258187323783608",
-      "date": "2026-11-21",
-      "title": "Scotland Against Spin",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Scotland Against Spin",
-        "label": "Facebook · Scotland Against Spin",
-        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/30258187323783608/"
-      },
-      "thin": false,
-      "bodyText": "BLADE delivery schedules for Sanquhar II Wind Farm for next week have been confirmed from the firm in charge.\nDelays have been reported through the transfer route as components make their way to the wind farm.\nThe deliveries form part of the construction of the 44-turbine Sanquhar II Wind Farm, a major renewable energy development spanning parts of East Ayrshire and Dumfries and Galloway.\nAccording to the latest delivery timetable released by CWP Energy, turbine blades will be transported from King George V Docks in Glasgow to the project's transfer area this coming Monday, Tuesday, Wednesday and Thursday.\nThe developer states that deliveries will depart King George V Docks from 9pm onwards each evening.\nNo deliveries are currently planned for Friday, November 27, Saturday, November 28 or Sunday, November 29.\nCUMNOCKCHRONICLE.COM Blade delivery schedules confirmed for Sanquhar II Wind Farm amid route delays",
-      "contentFingerprint": "7c47802cf9d05359e2184ad4bb1fce1d25fb2c7740c3e99963b542061f8e9446",
-      "photos": [
-        "media/facebook/30258187323783608/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "links": [
-        {
-          "text": "CUMNOCKCHRONICLE.COM Blade delivery schedules confirmed for Sanquhar II Wind Farm amid route delays",
-          "url": "https://www.cumnockchronicle.com/news/26749356.sanquhar-ii-wind-farm-blade-delivery-schedule-confirmed/"
-        }
-      ],
-      "categories": [
-        "Onshore Wind"
-      ]
-    },
-    {
-      "id": "30258149790454028",
-      "date": "2026-11-21",
-      "title": "Scotland Against Spin",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Scotland Against Spin",
-        "label": "Facebook · Scotland Against Spin",
-        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/30258149790454028/"
-      },
-      "thin": false,
-      "bodyText": "In the early evening of June 23rd 2026, the electricity system covering Great Britain came within 1 MW (out of 35,000 MW) of having to cut off customers to avoid a widespread blackout. This near miss has prompted political and regulatory acrimony, as well as an investigation by lawyers which highlighted a dysfunctional culture at the system operator (NESO).\nCLOUDWISDOM.SUBSTACK.COM Lessons from a system near miss",
-      "contentFingerprint": "15dd85fe69fe3e2517622449ad0e2d5853e58b8937e99ff96f344226c73e7c37",
-      "photos": [
-        "media/facebook/30258149790454028/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "links": [
-        {
-          "text": "CLOUDWISDOM.SUBSTACK.COM Lessons from a system near miss",
-          "url": "https://cloudwisdom.substack.com/p/lessons-from-a-system-near-miss?publication_id=1028331&post_id=225913475&isFreemail=true&r=6cjna4&triedRedirect=true&utm_id=97757_v0_s00_e0_tv2"
-        }
-      ]
-    },
-    {
-      "id": "1614574903283785",
-      "date": "2026-11-21",
-      "title": "Say No To Cato Data Centre",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Say No To Cato Data Centre",
-        "label": "Facebook · Say No To Cato Data Centre",
-        "url": "https://www.facebook.com/groups/1472242997516977/posts/1614574903283785/"
-      },
-      "thin": false,
-      "bodyText": "This is the sort of money that has to spent. A semiconductor fabrication plant to build the type of chips needed to make Europe independent of US and Asia is 20€ billion.  We need to buy ARM back and use their design technology for our computing development and design labs.\nCNBC.COM Lagarde says EU funds should take first losses on chip plants, data centers",
-      "contentFingerprint": "39ba8e03c4d0fc208b45ebd931fb4065fa6b6644e3ed3a11c37a7837f4427101",
-      "photos": [
-        "media/facebook/1614574903283785/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "links": [
-        {
-          "text": "CNBC.COM Lagarde says EU funds should take first losses on chip plants, data centers",
-          "url": "https://share.google/DyGQezYKqrlipxoFK"
-        }
-      ],
-      "categories": [
-        "Data Centre"
-      ]
-    },
-    {
-      "id": "1864724087901171",
-      "date": "2026-11-21",
-      "title": "Essex Suffolk Norfolk Pylons",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Essex Suffolk Norfolk Pylons",
-        "label": "Facebook · Essex Suffolk Norfolk Pylons",
-        "url": "https://www.facebook.com/groups/pylonseastanglia/posts/1864724087901171/"
-      },
-      "thin": false,
-      "bodyText": "No need to carry out bird surveys inland, says National Grid, because there is nothing to see…",
-      "contentFingerprint": "20bf1c63b05c1c6a6b094047acf16966ca1321c3438a9dfd14abb16a7fd6234c",
-      "photos": [
-        "media/facebook/1864724087901171/photo_1.png"
-      ],
-      "mediaCount": 1
-    },
-    {
-      "id": "30254371747498499",
-      "date": "2026-11-21",
-      "title": "Scotland Against Spin",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Scotland Against Spin",
-        "label": "Facebook · Scotland Against Spin",
-        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/30254371747498499/"
-      },
-      "thin": false,
-      "bodyText": "Wind farms in Scotland were paid an eyewatering £470 million in constraint payments in October 2026. \nThere are 2.57 million households in Scotland - thats £182 per Scottish household paid in constraint payments in October alone.  Of course Scottish households do not pick up the bill for all constraints - they are added to everyone’s electricity bills across the UK. \nThe total bill for constraint payments across the UK was £744 million for October.. \nAnd we wonder why electricity bills are so high??\nThe National Energy System Operator recognises too many wind farms are planned in Scotland and that even the proposed grid upgrades would not remove the need for constraint payments. \nMost of the £470,000,000 will go to the (ultimately overseas based) shareholders and owners…..",
-      "contentFingerprint": "bd7f6a5bd470d8d70d734d678ee5ff85a481a8bcabaeaa6e743dbd4691fbdae9",
-      "photos": [
-        "media/facebook/30254371747498499/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "categories": [
-        "Onshore Wind"
-      ]
-    },
-    {
-      "id": "1148160450947069",
-      "date": "2026-11-21",
-      "title": "Communities B4 Power Companies",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Communities B4 Power Companies",
-        "label": "Facebook · Communities B4 Power Companies",
-        "url": "https://www.facebook.com/groups/221782186918238/posts/1148160450947069/"
-      },
-      "thin": false,
-      "bodyText": "Not just here!",
-      "contentFingerprint": "13d404f3d365c521cc03f15c91c55f4a2d7db31957d4e7a5548422035490921e",
-      "photos": [
-        "media/facebook/1148160450947069/photo_1.png"
-      ],
-      "mediaCount": 1
-    },
-    {
-      "id": "1581499404007354",
-      "date": "2026-11-21",
-      "title": "Wind Energy's Absurd",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Wind Energy's Absurd",
-        "label": "Facebook · Wind Energy's Absurd",
-        "url": "https://www.facebook.com/WindEnergysAbsurd/posts/1581499404007354"
-      },
-      "thin": false,
-      "bodyText": "𝐃𝐲𝐧𝐚𝐦𝐢𝐜 𝐋𝐢𝐧𝐞 𝐑𝐚𝐭𝐢𝐧𝐠, 𝐧𝐞𝐭𝐰𝐨𝐫𝐤 𝐜𝐚𝐩𝐚𝐜𝐢𝐭𝐲 𝐚𝐧𝐝 𝐭𝐡𝐞 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧 𝐨𝐟 𝐧𝐞𝐞𝐝How much additional electricity infrastructure do we actually need, and are we making the best possible use of what we already have?The question of the need for new electricity infrastructure is one that deserves rather more scrutiny than it receives, from the Government/s and NGOs at least - campaign groups/Ian Kelly, the planning consultant/barristers acting for groups - all have asked the question, time after time.We regularly hear about the requirement for additional transmission lines, substations and network reinforcement, but there is another side to the equation: how much more could we achieve by making better use of existing infrastructure?One technology that illustrates this particularly well is Dynamic Line Rating (DLR). We said in our summary of the Public Accounts Committee meeting that we would return to this subject. Firstly, a word about what  Dynamic Line Rating is.Traditionally, overhead transmission lines have operated within predetermined capacity limits, based on conservative assumptions about the conditions in which the conductors are operating.However, the amount of electricity an overhead line can safely carry is affected by environmental conditions. Wind speed, ambient temperature and solar radiation all influence the temperature of the conductor and its ability to dissipate heat.DLR uses sensors and monitoring technology to assess these conditions and calculate how much electricity a conductor can safely carry at a given time.For example, where wind conditions provide greater cooling, a line may be able to carry more electricity than its conventional rating would permit. Conversely, under hotter or less favourable conditions, its available capacity may be lower.The advantage is that the network operator can make use of capacity that would otherwise remain unavailable under a fixed rating.It doesn't eliminate the need for new infrastructure where additional enduring capacity is required, but it can improve utilisation of existing lines, increase available transmission capacity and potentially reduce the need for, or urgency of, some reinforcement.𝐃𝐲𝐧𝐚𝐦𝐢𝐜 𝐋𝐢𝐧𝐞 𝐑𝐚𝐭𝐢𝐧𝐠 𝐢𝐬 𝐧𝐨𝐭 𝐭𝐡𝐞 𝐨𝐧𝐥𝐲 𝐨𝐩𝐭𝐢𝐨𝐧During the Kintore–Tealing Public Local Inquiry, Brian Wade, who submitted evidence on technological alternatives, raised a wider question about the use of existing transmission infrastructure.In his written submission, Brian identified several technologies falling under the general heading of Grid Enhancing Technologies. These include Dynamic Line Rating, reconductoring using modern high-capacity conductors, Flexible AC Transmission Systems and topology control.The technologies work in different ways, but share an important objective: increasing the capacity or improving the utilisation of the existing electricity network.Reconductoring, for example, can involve replacing conventional conductors with modern, higher-capacity alternatives, potentially allowing significantly greater power flows without constructing an entirely new transmission route. The extent of any increase depends on the capabilities and limitations of the existing infrastructure.Brian also raised the question of whether alternatives such as underground HVDC connections and greater integration of offshore transmission networks had been adequately considered in the TKUP proposals.His wider argument was that infrastructure options should be assessed not simply on their initial construction costs, but on their whole-life costs, technical performance and environmental and community impacts.These are questions which deserve consideration whenever major new transmission infrastructure is proposed. DLR is one example of how technology can make better use of existing assets, but it is not the only one. 𝐒𝐒𝐄𝐍'𝐬 𝐢𝐧𝐬𝐭𝐚𝐥𝐥𝐚𝐭𝐢𝐨𝐧 𝐛𝐞𝐭𝐰𝐞𝐞𝐧 𝐁𝐞𝐚𝐮𝐥𝐲 𝐚𝐧𝐝 𝐃𝐨𝐮𝐧𝐫𝐞𝐚𝐲An article in the John O'Groat Journal on 25 September 2026 which we covered on 5 October, reported that SSEN Transmission had installed DLR technology on more than 300km of overhead transmission lines between Beauly and Dounreay.The article reported that the system had gone live on the first DLR-enabled circuit in the north of Scotland.SSEN Transmission also reported that DLR technology installed elsewhere on its network had delivered nearly £300 million in savings for consumers since 2021.The article highlighted the potential for DLR to reduce constraint costs by allowing more electricity to flow through existing infrastructure when conditions permit.This is particularly relevant in Scotland, where renewable generation is frequently constrained because the transmission network cannot always accommodate the electricity available to it.Making better use of existing transmission capacity is therefore an important part of addressing the problem.𝐖𝐡𝐚𝐭 𝐝𝐢𝐝 𝐭𝐡𝐞 𝐏𝐮𝐛𝐥𝐢𝐜 𝐀𝐜𝐜𝐨𝐮𝐧𝐭𝐬 𝐂𝐨𝐦𝐦𝐢𝐭𝐭𝐞𝐞 𝐡𝐞𝐚𝐫 𝐚𝐛𝐨𝐮𝐭 𝐜𝐨𝐧𝐬𝐭𝐫𝐚𝐢𝐧𝐭 𝐜𝐨𝐬𝐭𝐬?The subject of constraint costs also arose during the Public Accounts Committee's examination of the electricity system.The Committee Chair returned to the projected £7–8 billion figure, questioning why there had been no updated assessment since the original analysis in 2024.Fintan Slye explained that the next analysis was due in the following months. Jonathan Brearley acknowledged that he was not happy with the figure and that work was under way to bring it down.The Chair also questioned why the costs and implications of individual grid upgrades were not being made available, including the cost of not undertaking them. The discussion highlighted the importance of bringing together the timing and cost of network upgrades with the generation expected to come online, in order to understand their combined effect on constraint costs.When the Chair returned to the £7–8 billion estimate, Slye identified a number of shorter-term measures being introduced to reduce costs, including the rollout of Dynamic Line Rating in conjunction with transmission companies.He explained that the technology was being installed on transmission lines to maximise the amount of power that could be transmitted, according to the prevailing conditions and the sag of the conductor.This exchange is worth noting for two reasons. Firstly, it demonstrates that the projected constraint-cost figure was not static and that updated analysis was needed. Secondly, it confirms that technological and operational improvements, including DLR, were already being deployed as part of the effort to reduce costs.It also raises a wider question: when decisions are being made about the need for new electricity infrastructure, how fully are the potential benefits of making better use of existing infrastructure being taken into account?The relevant exchanges are in images.𝐌𝐞𝐚𝐧𝐰𝐡𝐢𝐥𝐞, 𝐒𝐒𝐄𝐍 𝐬𝐮𝐛𝐦𝐢𝐭𝐬 𝐚𝐧 £𝟖.𝟕 𝐛𝐢𝐥𝐥𝐢𝐨𝐧 𝐢𝐧𝐯𝐞𝐬𝐭𝐦𝐞𝐧𝐭 𝐩𝐥𝐚𝐧 𝐭𝐨 𝐎𝐟𝐠𝐞𝐦Yesterday, SSEN Distribution announced that it had submitted its business plan to Ofgem for the next electricity distribution price-control period, ED3, covering 2028–2033.The proposed investment is £8.7 billion.Of this, £1.3 billion has already been approved by Ofgem, with SSEN seeking approval for the remaining £7.4 billion.There is also the possibility of a further £1.5 billion through in-period uncertainty mechanisms, which could take total expenditure to £10.2 billion.The plan, titled 'Electrified. Resilient. Affordable', covers SSEN's two distribution licence areas: the north of Scotland and central southern England.It is intended to accommodate forecast growth in electricity demand, support electrification of transport and heating, facilitate new connections and improve network resilience.Among its principal proposals are:- Increasing network capacity by 24%.- Deploying 13.4GW of flexibility, six times the level in the current ED2 period.- Maintaining overall network reliability of 99.98%.- Rebuilding or undergrounding approximately 350km of high-risk overhead lines.- Replacing around 250km of climate-vulnerable cabling.- Offering 5GW of early-access connections.SSEN is also proposing to keep the distribution element of household bills flat in real terms until 2030, subject to the necessary regulatory and government approvals.It is important to understand that this is a distribution investment plan. It is not an SSEN Transmission investment programme. The two businesses operate at different levels of the electricity network.𝐁𝐮𝐢𝐥𝐝 𝐚𝐧𝐝 𝐅𝐥𝐞𝐱: 𝐦𝐚𝐤𝐢𝐧𝐠 𝐛𝐞𝐭𝐭𝐞𝐫 𝐮𝐬𝐞 𝐨𝐟 𝐞𝐱𝐢𝐬𝐭𝐢𝐧𝐠 𝐢𝐧𝐟𝐫𝐚𝐬𝐭𝐫𝐮𝐜𝐭𝐮𝐫𝐞There is something particularly interesting in the ED3 business plan.SSEN recognises that simply building additional infrastructure is not necessarily the most efficient way of meeting future demand.Its proposed Build and Flex approach is intended to make greater use of existing network capacity, using flexibility where possible and reinforcing the network where additional enduring capacity is required.The plan identifies six ways in which flexibility can be used, including:- Replacing conventional reinforcement where flexibility is economically viable.- Managing uncertainty in the timing and scale of future demand.- Bridging the gap where justified reinforcement cannot be delivered immediately.- Providing temporary capacity to accelerate customer connections.- Managing planned and unplanned outages.- Coordinating the use of the network through operational signals and flexible assets.SSEN estimates that its enhanced Build and Flex approach could defer £195 million of capital expenditure during ED3.It is also proposing an agile funding mechanism which would allow it to proceed with construction if the anticipated flexibility does not materialise or if new requirements emerge.In other words, SSEN acknowledges that better utilisation of existing network capacity can reduce the amount of new infrastructure required, or at least defer investment until the need becomes clearer.𝐎𝐭𝐡𝐞𝐫 𝐭𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐢𝐞𝐬 𝐚𝐫𝐞 𝐚𝐥𝐬𝐨 𝐛𝐞𝐢𝐧𝐠 𝐩𝐫𝐨𝐩𝐨𝐬𝐞𝐝The ED3 plan includes a separate investment programme of £107 million in smarter network capabilities.One of its proposals is to introduce dynamic voltage management across 50% of network load. SSEN estimates that this could release more than 1GW of additional capacity for low-carbon technologies, including electric vehicle chargers and heat pumps, without major reinforcement.This is not the same technology as Dynamic Line Rating. DLR assesses the thermal capacity of overhead conductors, whereas dynamic voltage management concerns the control of voltage on distribution networks.Nevertheless, both illustrate the wider principle of making better use of existing infrastructure through improved monitoring, control and operational management.𝐖𝐡𝐞𝐫𝐞 𝐝𝐨𝐞𝐬 𝐭𝐡𝐢𝐬 𝐥𝐞𝐚𝐯𝐞 𝐭𝐡𝐞 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧 𝐨𝐟 𝐧𝐞𝐞𝐝?We are not suggesting that all additional infrastructure can be avoided -  electricity demand is changing, electrification is increasing, and there will undoubtedly be parts of the network where reinforcement is necessary.However, there is a distinction between establishing that additional capacity will be needed and determining how best to provide it.SSEN's own ED3 business plan recognises this. It says that it assesses different demand scenarios, considers flexibility alongside conventional reinforcement and uses sensitivity testing to identify investment that is genuinely required within the price-control period.It also acknowledges that flexibility can avoid unnecessary reinforcement and that investment decisions should adapt as the evidence develops.The question is whether the same degree of scrutiny is consistently applied across the wider electricity network.SSEN Distribution's £8.7 billion plan covers both northern Scotland and central southern England. Its Scottish distribution network serves around 800,000 customers, but accounts for nearly 39% of the combined network length. The southern English operation has a different demand profile, including significant concentrations of new demand.The entire investment programme does not relate only to Scotland, and the circumstances in the two licence areas are not interchangeable.  We will be returning to this subject in another post.But the wider point remains.As we see proposals for major new transmission infrastructure, including the overhead lines and substations required to accommodate projected increases in electricity flows, we should be asking:- Have the capabilities of existing infrastructure been fully assessed?- Have technologies such as Dynamic Line Rating been properly considered?- Have flexibility and other operational solutions been evaluated alongside conventional reinforcement?- Are demand forecasts sufficiently robust, and have alternative scenarios been tested?- Is the proposed infrastructure necessary now, or could some investment be deferred while existing capacity is used more effectively?The answer will not always be that new infrastructure can be avoided. But it should be possible to demonstrate why it is necessary, and why the alternatives are insufficient.𝐂𝐨𝐧𝐬𝐮𝐦𝐞𝐫𝐬 𝐚𝐫𝐞 𝐛𝐞𝐢𝐧𝐠 𝐚𝐬𝐤𝐞𝐝 𝐭𝐨 𝐟𝐮𝐧𝐝 𝐚𝐧 𝐞𝐧𝐨𝐫𝐦𝐨𝐮𝐬 𝐩𝐫𝐨𝐠𝐫𝐚𝐦𝐦𝐞 𝐨𝐟 𝐞𝐥𝐞𝐜𝐭𝐫𝐢𝐜𝐢𝐭𝐲 𝐧𝐞𝐭𝐰𝐨𝐫𝐤 𝐢𝐧𝐯𝐞𝐬𝐭𝐦𝐞𝐧𝐭. 𝐓𝐡𝐞𝐲 𝐚𝐫𝐞 𝐞𝐧𝐭𝐢𝐭𝐥𝐞𝐝 𝐭𝐨 𝐞𝐱𝐩𝐞𝐜𝐭 𝐭𝐡𝐚𝐭 𝐞𝐱𝐢𝐬𝐭𝐢𝐧𝐠 𝐢𝐧𝐟𝐫𝐚𝐬𝐭𝐫𝐮𝐜𝐭𝐮𝐫𝐞 𝐢𝐬 𝐛𝐞𝐢𝐧𝐠 𝐮𝐬𝐞𝐝 𝐚𝐬 𝐞𝐟𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐥𝐲 𝐚𝐬 𝐩𝐨𝐬𝐬𝐢𝐛𝐥𝐞 𝐛𝐞𝐟𝐨𝐫𝐞 𝐭𝐡𝐞𝐲 𝐚𝐫𝐞 𝐚𝐬𝐤𝐞𝐝 𝐭𝐨 𝐩𝐚𝐲 𝐟𝐨𝐫 𝐦𝐨𝐫𝐞.On the subject of that expectation and transparency, we go back to our post of 5 October on the Groat piece:𝑊𝑒 𝑡𝑜𝑜𝑘 𝑎 𝑙𝑜𝑜𝑘 𝑎𝑡 𝑤ℎ𝑎𝑡 𝑆𝑆𝐸𝑁 ℎ𝑎𝑑 𝑠𝑎𝑖𝑑 𝑝𝑟𝑒𝑣𝑖𝑜𝑢𝑠𝑙𝑦 𝑎𝑏𝑜𝑢𝑡 𝑟𝑒𝑖𝑛𝑓𝑜𝑟𝑐𝑖𝑛𝑔 𝑡ℎ𝑒 𝑒𝑥𝑖𝑠𝑡𝑖𝑛𝑔 275𝑘𝑉 𝑙𝑖𝑛𝑒𝑠 - 𝑓𝑟𝑜𝑚 2022, 2023 𝑎𝑛𝑑 2025.𝐼𝑛 𝑎𝑙𝑙 𝑜𝑓 𝑡ℎ𝑒𝑚, 𝑡ℎ𝑒 𝑓𝑖𝑛𝑎𝑛𝑐𝑖𝑎𝑙 𝑑𝑒𝑡𝑎𝑖𝑙𝑠 ℎ𝑎𝑣𝑒 𝑏𝑒𝑒𝑛 𝑟𝑒𝑑𝑎𝑐𝑡𝑒𝑑 - 𝑐𝑎𝑝𝑒𝑥, 𝑜𝑝𝑒𝑥, 𝑆𝑆𝐸𝑁 𝑐𝑜𝑠𝑡𝑠, 𝑐𝑜𝑛𝑠𝑡𝑟𝑎𝑖𝑛𝑡 𝑠𝑎𝑣𝑖𝑛𝑔𝑠 𝑎𝑛𝑑 𝑎𝑙𝑙𝑜𝑤𝑎𝑛𝑐𝑒𝑠 𝑟𝑒𝑞𝑢𝑒𝑠𝑡𝑒𝑑.  𝐶𝑜𝑚𝑚𝑒𝑟𝑐𝑖𝑎𝑙/𝑐𝑜𝑛𝑓𝑖𝑑𝑒𝑛𝑡𝑖𝑎𝑙𝑖𝑡𝑦 𝑔𝑟𝑜𝑢𝑛𝑑𝑠 𝑛𝑜𝑡𝑤𝑖𝑡ℎ𝑠𝑡𝑎𝑛𝑑𝑖𝑛𝑔, 𝑡ℎ𝑖𝑠 𝑖𝑠 𝑝𝑢𝑏𝑙𝑖𝑐 𝑚𝑜𝑛𝑒𝑦 𝑤ℎ𝑒𝑛 𝑖𝑡 𝑐𝑜𝑚𝑒𝑠 𝑡𝑜 𝑎𝑙𝑙𝑜𝑤𝑎𝑛𝑐𝑒𝑠 - 𝑎𝑛𝑑 𝑐𝑜𝑛𝑠𝑡𝑟𝑎𝑖𝑛𝑡𝑠.𝑊ℎ𝑎𝑡 𝑒𝑥𝑎𝑐𝑡𝑙𝑦 ℎ𝑎𝑠 𝑏𝑒𝑒𝑛 𝑤𝑖𝑡ℎℎ𝑒𝑙𝑑 𝑎𝑛𝑑 𝑤ℎ𝑦, 𝑝𝑎𝑟𝑡𝑖𝑐𝑢𝑙𝑎𝑟𝑙𝑦 𝑏𝑒𝑐𝑎𝑢𝑠𝑒 𝑡ℎ𝑖𝑠 𝑖𝑠 𝑎𝑛 𝑂𝑓𝑔𝑒𝑚-𝑓𝑢𝑛𝑑𝑒𝑑 𝑡𝑟𝑎𝑛𝑠𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝑖𝑛𝑣𝑒𝑠𝑡𝑚𝑒𝑛𝑡 𝑎𝑛𝑑 𝑆𝑆𝐸𝑁'𝑠 𝑐𝑎𝑠𝑒 𝑖𝑠 𝑒𝑥𝑝𝑙𝑖𝑐𝑖𝑡𝑙𝑦 𝑓𝑟𝑎𝑚𝑒𝑑 𝑎𝑟𝑜𝑢𝑛𝑑 𝑏𝑒𝑛𝑒𝑓𝑖𝑡𝑠 𝑎𝑛𝑑 𝑠𝑎𝑣𝑖𝑛𝑔𝑠 𝑡𝑜 𝑐𝑜𝑛𝑠𝑢𝑚𝑒𝑟𝑠?𝐹𝑟𝑜𝑚 𝑡ℎ𝑒 2025 𝑑𝑜𝑐𝑢𝑚𝑒𝑛𝑡 - 𝐓𝐡𝐞 𝐜𝐨𝐬𝐭 𝐨𝐟 𝐭𝐡𝐢𝐬 𝐬𝐨𝐥𝐮𝐭𝐢𝐨𝐧 𝐰𝐢𝐥𝐥 𝐛𝐞 𝐫𝐞𝐜𝐨𝐯𝐞𝐫𝐞𝐝 𝐛𝐲 𝐬𝐚𝐯𝐢𝐧𝐠𝐬 𝐦𝐚𝐝𝐞 𝐟𝐫𝐨𝐦 𝐚𝐥𝐥𝐞𝐯𝐢𝐚𝐭𝐢𝐧𝐠 𝐟𝐮𝐭𝐮𝐫𝐞 𝐧𝐞𝐭𝐰𝐨𝐫𝐤 𝐜𝐨𝐧𝐬𝐭𝐫𝐚𝐢𝐧𝐭𝐬.𝐻𝑜𝑤?𝐴𝑛 𝑒𝑥𝑎𝑚𝑝𝑙𝑒 𝑜𝑓 𝑟𝑒𝑑𝑎𝑐𝑡𝑖𝑜𝑛𝑠 𝑖𝑠 𝑡𝑎𝑘𝑒𝑛 𝑓𝑟𝑜𝑚 𝑡ℎ𝑒 '𝑁𝑒𝑒𝑑' 𝑠𝑒𝑐𝑡𝑖𝑜𝑛 𝑜𝑓 𝑡ℎ𝑒 2025 𝑑𝑜𝑐𝑢𝑚𝑒𝑛𝑡:𝐀 𝐬𝐢𝐠𝐧𝐢𝐟𝐢𝐜𝐚𝐧𝐭 𝐚𝐦𝐨𝐮𝐧𝐭 𝐨𝐟 𝐫𝐞𝐧𝐞𝐰𝐚𝐛𝐥𝐞 𝐠𝐞𝐧𝐞𝐫𝐚𝐭𝐢𝐨𝐧 𝐢𝐬 𝐜𝐨𝐧𝐭𝐫𝐚𝐜𝐭𝐞𝐝 𝐭𝐨 𝐜𝐨𝐧𝐧𝐞𝐜𝐭 𝐧𝐨𝐫𝐭𝐡 𝐨𝐟 𝐁𝐞𝐚𝐮𝐥𝐲 𝐬𝐮𝐛𝐬𝐭𝐚𝐭𝐢𝐨𝐧, 𝐢𝐧 𝐭𝐡𝐞 𝐂𝐚𝐢𝐭𝐡𝐧𝐞𝐬𝐬 𝐫𝐞𝐠𝐢𝐨𝐧 𝐨𝐟 𝐨𝐮𝐫 𝐧𝐞𝐭𝐰𝐨𝐫𝐤. 𝐀𝐭 𝐭𝐡𝐞 𝐭𝐢𝐦𝐞 𝐨𝐟 𝐨𝐮𝐫 𝐌𝐒𝐈𝐏 𝐫𝐞-𝐨𝐩𝐞𝐧𝐞𝐫 𝐬𝐮𝐛𝐦𝐢𝐬𝐬𝐢𝐨𝐧 𝐢𝐧 𝐉𝐚𝐧𝐮𝐚𝐫𝐲 𝟐𝟎𝟐𝟐 𝑟𝑒𝑑𝑎𝑐𝑡𝑒𝑑 𝐌𝐖 𝐨𝐟 𝐧𝐞𝐰 𝐫𝐞𝐧𝐞𝐰𝐚𝐛𝐥𝐞 𝐠𝐞𝐧𝐞𝐫𝐚𝐭𝐢𝐨𝐧 𝐰𝐚𝐬 𝐜𝐨𝐧𝐭𝐫𝐚𝐜𝐭𝐞𝐝 𝐭𝐨 𝐜𝐨𝐧𝐧𝐞𝐜𝐭 𝐢𝐧 𝐭𝐡𝐞 𝐚𝐫𝐞𝐚. 𝐓𝐡𝐞𝐫𝐞 𝐢𝐬 𝐧𝐨𝐰 𝐚𝐩𝐩𝐫𝐨𝐱𝐢𝐦𝐚𝐭𝐞𝐥𝐲 𝑟𝑒𝑑𝑎𝑐𝑡𝑒𝑑 𝐌𝐖 𝐨𝐟 𝐧𝐞𝐰 𝐫𝐞𝐧𝐞𝐰𝐚𝐛𝐥𝐞 𝐠𝐞𝐧𝐞𝐫𝐚𝐭𝐢𝐨𝐧 𝐜𝐨𝐧𝐭𝐫𝐚𝐜𝐭𝐞𝐝 𝐭𝐨 𝐜𝐨𝐧𝐧𝐞𝐜𝐭 𝐢𝐧 𝐭𝐡𝐞 𝐚𝐫𝐞𝐚 𝐰𝐢𝐭𝐡 𝐚 𝐜𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐨𝐧 𝐝𝐚𝐭𝐞 𝐩𝐫𝐢𝐨𝐫 𝐭𝐨 𝐎𝐜𝐭𝐨𝐛𝐞𝐫 𝟐𝟎𝟑𝟎.https://www.ssen.co.uk/.../SSEN-Distribution-prioritises.../",
-      "contentFingerprint": "fc427a8a1177b29345ee615b3b297cf91f85cb9d244be69cc0ae5b36a38b1fcb",
-      "photos": [
-        "media/facebook/1581499404007354/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "links": [
-        {
-          "text": "https://www.ssen.co.uk/.../SSEN-Distribution-prioritises.../",
-          "url": "https://www.ssen.co.uk/news-views/2026/SSEN-Distribution-prioritises-affordability-for-households-in-plan-to-deliver-a-bigger-smarter-and-more-resilient-network/"
-        }
-      ],
-      "categories": [
-        "OHL (Pylons)",
-        "Substation"
-      ]
-    },
-    {
-      "id": "1613664850041457",
-      "date": "2026-11-21",
-      "title": "Say No To Cato Data Centre",
-      "provenance": {
-        "title": {
-          "method": "neutral"
-        },
-        "bodyText": {
-          "method": "content_before_first_comment"
-        },
-        "photos": {
-          "method": "screenshot"
-        },
-        "categories": {
-          "method": "keyword"
-        }
-      },
-      "source": {
-        "type": "facebook_group",
-        "name": "Say No To Cato Data Centre",
-        "label": "Facebook · Say No To Cato Data Centre",
-        "url": "https://www.facebook.com/groups/1472242997516977/posts/1613664850041457/"
-      },
-      "thin": false,
-      "bodyText": "HM Treasury has published a Policy paper dated 28 October 2026 called The Data Centre Covenant.\nHM Treasury has published a Policy paper dated 28 October 2026 called The Data Centre Covenant.\nThe 2nd paragraph states \"We must ensure the UK is one of those countries, so that British firms and people have a say in how AI develops in the months and years ahead.\"\nWonder when we'll get to have our say",
-      "contentFingerprint": "303fa34c470b41b0d5071263c512d0c5c4a3a786a13e6ef6fbd8a6c7c3d5d44a",
-      "photos": [
-        "media/facebook/1613664850041457/photo_1.png"
-      ],
-      "mediaCount": 1,
-      "categories": [
-        "Data Centre"
-      ]
-    },
-    {
-      "id": "1074337272297737",
-      "date": "2026-11-21",
+      "id": "1076511022080362",
+      "date": "2026-11-23",
       "title": "NO to East Havering Data Centre in Upminster (Residents Group)",
       "provenance": {
         "title": {
@@ -689,6 +71,45 @@
         },
         "photos": {
           "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "NO to East Havering Data Centre in Upminster (Residents Group)",
+        "label": "Facebook · NO to East Havering Data Centre in Upminster (Residents Group)",
+        "url": "https://www.facebook.com/groups/366637746401030/posts/1076511022080362/"
+      },
+      "thin": false,
+      "bodyText": "A great article featuring one of neighbouring affected areas, Epping Forest.\nhttps://futureintelligence.co.uk/.../the-aliens-on.../...\nFUTUREINTELLIGENCE.CO.UK The aliens on the edge of town - Future Intelligence",
+      "contentFingerprint": "bf9d9adfdc7be38f353a61d56a6a22ce8fc3d4f06e71e92fca9c6f911a5e0682",
+      "photos": [
+        "media/facebook/1076511022080362/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://futureintelligence.co.uk/.../the-aliens-on.../...",
+          "url": "https://futureintelligence.co.uk/2026/11/23/the-aliens-on-the-edge-of-town/"
+        },
+        {
+          "text": "FUTUREINTELLIGENCE.CO.UK The aliens on the edge of town - Future Intelligence",
+          "url": "https://futureintelligence.co.uk/2026/11/23/the-aliens-on-the-edge-of-town/"
+        }
+      ]
+    },
+    {
+      "id": "1490685683195863",
+      "date": "2026-11-23",
+      "title": "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
         },
         "categories": {
           "method": "keyword"
@@ -696,23 +117,635 @@
       },
       "source": {
         "type": "facebook_group",
-        "name": "NO to East Havering Data Centre in Upminster (Residents Group)",
-        "label": "Facebook · NO to East Havering Data Centre in Upminster (Residents Group)",
-        "url": "https://www.facebook.com/groups/366637746401030/posts/1074337272297737/"
+        "name": "Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
+        "label": "Facebook · Smart Design Protects Nature - No BESS Or AI Data Centre (Devon)",
+        "url": "https://www.facebook.com/groups/1367957378802028/posts/1490685683195863/"
       },
       "thin": false,
-      "bodyText": "Interesting that Havering included the update on water reservoir levels and the continuing water restrictions in their latest newsletter. This is on the the same day as one of the Upminster and Cranham Councillors (HARA) has been commenting on Facebook yesterday about the proposed data centre and saying how the next LDO draft and proposed water usage has changed now. So there’s no need to worry about the water guzzling data centre as apparently it will use much less, she says. You know who, without me naming her. Really? How does she know this, and why does she know this? Why is she still promoting this project for Digital Reef? We would have hoped that if discussions were taking place and changes were being made, resident’s would have been engaged this time. They don’t have to speak with me, I know I’m not their favourite person, but they can engage with any number  of you out there.  \nWe were always told that ‘Councillors don’t get involved in Planning’ when we used to ask for engagement.  But this one seems to have detailed knowledge of what’s about to be published in the next round of the LDO consultation. \nWhat do you think about this?\nProtect the Greenbelt, transparency ….\nhttps://www.eswater.co.uk/.../saving.../temporary-use-ban/",
-      "contentFingerprint": "0e7450ac83ca5ad1a056c8e3e2fbd5d62504c6ae55742a76d77f8ba95e9aefc9",
+      "bodyText": "BUSINESSINSIDER.COM Elon Musk warns data center delays could leave AI companies short on cash: 'Going to be nuts'",
+      "contentFingerprint": "aac0f061062fd57a6c9fbd7325dc600d6c52a0ef7a0c67ab52d6f76399311355",
       "photos": [
-        "media/facebook/1074337272297737/photo_1.png"
+        "media/facebook/1490685683195863/photo_1.png"
       ],
       "mediaCount": 1,
       "links": [
         {
-          "text": "https://www.eswater.co.uk/.../saving.../temporary-use-ban/",
-          "url": "https://www.eswater.co.uk/help-and-support/water/saving-water/temporary-use-ban/"
+          "text": "BUSINESSINSIDER.COM Elon Musk warns data center delays could leave AI companies short on cash: 'Going to be nuts'",
+          "url": "https://share.google/gORI0eJBWKOQYiGio"
         }
       ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1616112803129995",
+      "date": "2026-11-23",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1616112803129995/"
+      },
+      "thin": false,
+      "bodyText": "Ministers have cited independent scientists to justify new rules governing Scotland’s booming data centre industry while refusing to reveal what those experts actually told them, campaigners have revealed.\nThe Scottish Government has redacted in full the substantive advice it received from the Scottish Science Advisory Council (SSAC) before introducing a new 50MW threshold at which proposed data centres require an Environmental Impact Assessment.\nThe documents, obtained through freedom of information request by Stop Climate Chaos Scotland (SCCS), confirm that officials consulted the independent scientific body over the threshold shortly before the new rule was introduced.\nBut the Government has withheld the scientists’ recommendations, meaning the public cannot establish whether they supported the eventual 50MW figure.\nPublic Finance Minister Hannah Mary Goodlad previously said the rule had been developed “with input from the Scottish Science Advisory Council”.\nFraser Sutherland, coalition manager at SCCS, said: “Ministers told communities that independent scientists shaped the new data centre rules. They now refuse to show the public a single line of what those scientists said.\n(Image: Apatura)\n“People facing hyperscale data centres on their doorsteps deserve to know whether the 50MW threshold has scientific backing. If the advice supports the government's approach, there is no reason to hide it.”\nThe released correspondence shows officials sent SSAC a paper marked “Official-sensitive” and asked the body to treat it in confidence.\n.On September 9, SSAC provided advice produced by a short-life working group, described by its chair as “high level outputs, provided at pace”.\nAn “Immediate” briefing on the scientific advice was sent to the minister the following day, and the new 50MW direction was issued on September 16.\nBut the Government has redacted the advice, the questions posed to SSAC and the briefing subsequently given to the minister.\nREAD MORE:\n7 reveals from Government AI data centre information request\nThe Future of AI and Data Centres: a deep dive series\nCan communities benefit from hyperscale data centre boom?\nIt has relied on exemptions covering internal communications and personal data and said disclosure could “undermine or constrain” its consideration of policy which remained “under discussion and development”.\nSCCS contests that argument, pointing out that the 50MW EIA rule is already in force.\nKat Jones, director of Action to Protect Rural Scotland, a rural charity that has campaigned against hyperscale data centres, said: \"There is absolutely no reason at all that scientific advice received by Ministers on hyperscale AI data centres should not be in the public domain.\n\"The secrecy surrounding this information makes it look like the government has something to hide. They should immediately release this advice and any other advice and reports they have received so their decision making can be properly scrutinised.\n\"Taken together with other information know by government that has come to light in the past couple of weeks, it shows how important it is for them to halt the plans to rush out guidance by Christmas. The Scottish Government must set up an independent and transparent process for researching what impacts hyperscale AI data centres will have on Scotland, the grid, climate targets, land and local communities. And all this information should be published before any guidance or strategic approach is produced.\"\n(Image: PA)\nThe row comes as Scotland faces a surge of proposed data centre developments, accompanied by concerns over their electricity consumption, impact on the power network and implications for communities and the environment.\nIt also comes weeks after First Minister John Swinney restated the importance of transparency in government.\nWriting in the foreword to the Scottish Ministerial Code published on October 2, Swinney said “citizens rightly expect transparency in decision-making”. The code states that information should not be withheld from the public “unless there are clear and lawful reasons”.\nSutherland said: “The EIA rules are already in force, so there is no live policy debate left to protect.\n“Six weeks ago the First Minister told the public they rightly expect transparency in decision-making. His government has now hidden the science behind a new national planning rule.”\nSCCS has called for the SSAC recommendations to be published in full.\nIts environmental information request was submitted on October 9. The statutory deadline for a response was November 6, but the Government replied on November 12 and apologised for the delay.\nThe Scottish Government said it held no correspondence between SSAC and ministers or special advisers over data centres. It also said the scientific council did not contribute to the separate notification direction for data centre applications or the Programme for Government's strategic approach to green data centres.\nA Scottish Government spokesperson said: “Scotland’s freedom of information laws are the strongest in the UK and the Scottish Government has responded to more than 3,800 FoI and EIR requests since the start of this year, with more than 96% on time.\n“Exemptions do apply to Freedom of Information and environmental information, including where disclosure would make available internal communications and where the public interest is served by protecting uninhibited discussion of policy development within government.\n”The Scottish Government will be publishing new planning guidance on data centres before the end of the year and, in parallel, is developing a strategic approach to maximise the economic and public benefit from data centre investment in Scotland.”\nHERALDSCOTLAND.COM Scottish ministers withhold science advice on 50MW data rule",
+      "contentFingerprint": "33fad86f8d24c6aeaa4bc97eb95816b4d594538158e9e485caa1981d24cb98ff",
+      "photos": [
+        "media/facebook/1616112803129995/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "HERALDSCOTLAND.COM Scottish ministers withhold science advice on 50MW data rule",
+          "url": "https://www.heraldscotland.com/news/26751516.scottish-ministers-withhold-science-advice-50mw-data-rule/?ref=fbshr"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "30276472321955108",
+      "date": "2026-11-23",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/30276472321955108/"
+      },
+      "thin": false,
+      "bodyText": "Thirty hyperscale AI data centres planned for Scotland could raise [household energy bills](https://www.dailyrecord.co.uk/all-about/fuel-bills) by over £300 a year it has been warned.\nResearchers from the [Scottish Greens](https://www.dailyrecord.co.uk/all-about/scottish-green-party) calculate the controversial schemes will require so much power they would raise wholesale electricity prices across the UK due to increased demand on the grid.\nA Sunday Mail investigation has also uncovered a briefing from the Scottish Parliament’s own research centre which reveals just one of the proposed developments - the 600MW monster site in Auchtertool, Fife - would consume the same [energy](https://www.dailyrecord.co.uk/all-about/energy) as 1.6million households.  https://www.dailyrecord.co.uk/.../controversial-ai-data...\nDAILYRECORD.CO.UK Controversial AI data centres 'could add £300 a year to Scottish fuel bills'",
+      "contentFingerprint": "dbb3d45d3aededf567d9c83f5a50dacf1c29a4c36c449628edde2e067dfb092a",
+      "photos": [
+        "media/facebook/30276472321955108/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://www.dailyrecord.co.uk/all-about/fuel-bills",
+          "url": "https://www.dailyrecord.co.uk/all-about/fuel-bills"
+        },
+        {
+          "text": "https://www.dailyrecord.co.uk/all-about/scottish-green-party",
+          "url": "https://www.dailyrecord.co.uk/all-about/scottish-green-party"
+        },
+        {
+          "text": "https://www.dailyrecord.co.uk/all-about/energy",
+          "url": "https://www.dailyrecord.co.uk/all-about/energy"
+        },
+        {
+          "text": "https://www.dailyrecord.co.uk/.../controversial-ai-data...",
+          "url": "https://www.dailyrecord.co.uk/news/scottish-news/controversial-ai-data-centres-could-37902201"
+        },
+        {
+          "text": "DAILYRECORD.CO.UK Controversial AI data centres 'could add £300 a year to Scottish fuel bills'",
+          "url": "https://www.dailyrecord.co.uk/news/scottish-news/controversial-ai-data-centres-could-37902201"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "30276431095292564",
+      "date": "2026-11-23",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/30276431095292564/"
+      },
+      "thin": false,
+      "bodyText": "An animal rescue charity were called to Turriff after six swans died after flying into overhead power lines.\nNew Arc Wildlife Rescue posted to social media confirming that a flock of Whooper swans had been killed near the River Deveron north of Turriff on Sunday morning.\nThe discovery was made by the land owner, who lost power to his property.\nAnimal rescue officers attended the scene, but five of the birds were already dead, and the sixth was severely injured that the officers decided euthanasia was the only humane option. https://news.stv.tv/north/six-swans-die-after-being-electrocuted-by-overhead-power-lines-in-aberdeenshire\nNEWS.STV.TV Six swans die after being electrocuted by overhead power lines",
+      "contentFingerprint": "0b1d4ab2426e4a55eb9c98e0771ad9298c23d1411bf65d8f0b6c0379a01abaf9",
+      "photos": [
+        "media/facebook/30276431095292564/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "NEWS.STV.TV Six swans die after being electrocuted by overhead power lines",
+          "url": "https://news.stv.tv/north/six-swans-die-after-being-electrocuted-by-overhead-power-lines-in-aberdeenshire"
+        },
+        {
+          "text": "https://news.stv.tv/north/six-swans-die-after-being-electrocuted-by-overhead-power-lines-in-aberdeenshire",
+          "url": "https://news.stv.tv/north/six-swans-die-after-being-electrocuted-by-overhead-power-lines-in-aberdeenshire"
+        }
+      ],
+      "categories": [
+        "OHL (Pylons)"
+      ]
+    },
+    {
+      "id": "30275719905363683",
+      "date": "2026-11-23",
+      "title": "Scotland Against Spin",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Scotland Against Spin",
+        "label": "Facebook · Scotland Against Spin",
+        "url": "https://www.facebook.com/groups/ScotlandAgainstSpin/posts/30275719905363683/"
+      },
+      "thin": false,
+      "bodyText": "UNDERSTANDING VARIABILITY IN ELECTRICITY SYSTEMS - PART 2\nhttps://cloudwisdom.substack.com/.../basic-elements-of...\nCLOUDWISDOM.SUBSTACK.COM Basic elements of load and price variability",
+      "contentFingerprint": "76d8ffb2e5bc7058bb2f9518f0c87000f2f42570089b66365bd0fbf465a6c8e4",
+      "photos": [
+        "media/facebook/30275719905363683/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://cloudwisdom.substack.com/.../basic-elements-of...",
+          "url": "https://cloudwisdom.substack.com/p/basic-elements-of-load-and-price?publication_id=1028331&post_id=226075932&isFreemail=true&r=6cjna4&triedRedirect=true&utm_id=97758_v0_s00_e0_tv0"
+        },
+        {
+          "text": "CLOUDWISDOM.SUBSTACK.COM Basic elements of load and price variability",
+          "url": "https://cloudwisdom.substack.com/p/basic-elements-of-load-and-price?publication_id=1028331&post_id=226075932&isFreemail=true&r=6cjna4&triedRedirect=true&utm_id=97757_v0_s00_e0_tv2"
+        }
+      ]
+    },
+    {
+      "id": "1424112023041004",
+      "date": "2026-11-23",
+      "title": "Save Fyrish",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Save Fyrish",
+        "label": "Facebook · Save Fyrish",
+        "url": "https://www.facebook.com/groups/844266177692261/posts/1424112023041004/"
+      },
+      "thin": false,
+      "bodyText": "Please attend and support those who will be speaking up for you.",
+      "contentFingerprint": "f7169f09299c0ab7b73ca3148ddb1659c70c82454a3123f32d7653dd831604ce",
+      "photos": [
+        "media/facebook/1424112023041004/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "29256116084041804",
+      "date": "2026-11-23",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/29256116084041804/"
+      },
+      "thin": false,
+      "bodyText": "The Hidden Waste Challenge of Wind Energy \nWind turbines are often presented as a symbol of a cleaner energy future, but there is another side to the story: what happens when they reach the end of their working lives?\nMany turbine blades have an expected lifespan of around 20–30 years. As installations from the 2000s and 2010s approach retirement, recycling and disposal of these large composite structures will become an increasingly important challenge.\nA greener future must consider not only how energy is produced, but also what happens to the materials when the technology reaches the end of its life.\nThe scale of the problem is not merely hypothetical. A UK government review cites global projections ranging from over 2 million to 30–44 million tonnes of blade waste by 2050, depending on the study and assumptions. assets.publishing.service.gov.uk +1\nThe question is simple: if we're building a greener future today, are we planning responsibly for the waste it could leave behind tomorrow?\n#WindEnergy #RenewableEnergy #Environment",
+      "contentFingerprint": "26fb5afa009dbfee6b4bf7e52e568034549c136b60113f8f6b1b72947a1ac116",
+      "photos": [
+        "media/facebook/29256116084041804/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "assets.publishing.service.gov.uk",
+          "url": "https://assets.publishing.service.gov.uk/"
+        }
+      ],
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "29263740746612671",
+      "date": "2026-11-23",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/29263740746612671/"
+      },
+      "thin": false,
+      "bodyText": "Areas at the highest risk of fuel poverty have 18% higher rates of hospital admissions with respiratory diagnoses compared with areas at the lowest risk, as well as higher rates of emergency care use, cardiovascular-related hospital admissions and poor mental health.\nDAILYSCEPTIC.ORG Doctors Should Admit That the Green Agenda is Bad for Health – The Daily Sceptic",
+      "contentFingerprint": "a5423d7be6b7fdec9019393fad14e4788d48dcb091fdffac62a0715f27ed0024",
+      "photos": [
+        "media/facebook/29263740746612671/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "DAILYSCEPTIC.ORG Doctors Should Admit That the Green Agenda is Bad for Health – The Daily Sceptic",
+          "url": "https://dailysceptic.org/2026/11/22/doctors-should-admit-that-the-green-agenda-is-bad-for-health/"
+        }
+      ]
+    },
+    {
+      "id": "29263421456644600",
+      "date": "2026-11-23",
+      "title": "Environmentalists Against Wind Turbines",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Environmentalists Against Wind Turbines",
+        "label": "Facebook · Environmentalists Against Wind Turbines",
+        "url": "https://www.facebook.com/groups/835899539823505/posts/29263421456644600/"
+      },
+      "thin": false,
+      "bodyText": "Light pollution - something that Enbridge and the Saskatchewan Party really don’t care about. THEY don’t live here. And guess what… neither do the majority of those who signed on to the project. \nWho’s left living with the mess “if” the project proceeds? \n#ruralvoicesmatter #landoflivingskies #followthemoney #greenwashing",
+      "contentFingerprint": "6f160f7eb0adc44cfcecd7ba17fdafee98062bcca4425746f9d6ad9e49357c33",
+      "photos": [
+        "media/facebook/29263421456644600/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1075589315505866",
+      "date": "2026-11-22",
+      "title": "NO to East Havering Data Centre in Upminster (Residents Group)",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "NO to East Havering Data Centre in Upminster (Residents Group)",
+        "label": "Facebook · NO to East Havering Data Centre in Upminster (Residents Group)",
+        "url": "https://www.facebook.com/groups/366637746401030/posts/1075589315505866/"
+      },
+      "thin": false,
+      "bodyText": "Very interesting documentary worth a watch on C4 called AI: Probably Nothing to Worry About. Unfortunately they don't look into the environmental impact though.",
+      "contentFingerprint": "cba16c0b092e1f7cf82aeca5fb508d16e4ccc616301bc892c2dc126cf4260f8b",
+      "photos": [
+        "media/facebook/1075589315505866/photo_1.png"
+      ],
+      "mediaCount": 1
+    },
+    {
+      "id": "1124290337089105",
+      "date": "2026-11-22",
+      "title": "West Edinburgh Against AI Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "West Edinburgh Against AI Data Centre",
+        "label": "Facebook · West Edinburgh Against AI Data Centre",
+        "url": "https://www.facebook.com/groups/994619683389505/posts/1124290337089105/"
+      },
+      "thin": false,
+      "bodyText": "AI DATA CENTRES = DEAD MONEY\nThe whole circular investment map is based on debt. Each cog invests debt into the SPECULATIVE wheel of fortune.  THEY NEED US TO THINK THERE IS A DEMAND WHILE THEY HOLD EACH OTHER UP WITH A  FALSE ECONOMY\nBain's 2026 report (released 29 Sep 2026) has tripled  the target to $6T in  annual revenue by 2031, with a $4.2T shortfall — so the gap has widened significantly in the last year.\"\nBIS 2026 Annual Report identifies AI Data Centre Investment as one of three biggest risks to global financial stability.\nWE DONT NEED THE EXCESS IN PRODUCTIVITY - IT IS ONLY FOR PROFITEERING\nCURRENT AI Data Centre OPERATIONS GLOBALLY\n8GW (Knight Frank Apr 26)\n PLANNED/UNDER CONSTRUCTION\n80-92GW (BNEF C&W)\nDEMAND\nNot confirmed. Only information available is capacity to generate electricity (nuclear SMRs?) NOT  AI Data Centre forecast need/ demand.\nUK CURRENT OPERATIONS\n~2 GW \nPLANNED/UNDER CONSTRUCTION\n80-92GW (BNEF C&W)\nDEMAND\n6 GW According to UK Gov/ DSIT and UK Compute Roadmap\nBUT \nonly 0.6GW up to 2030 (Guardian, Jul 2026)\n\"The UK government's own 6 GW target is 10× the independent energy system operator's demand forecast. The 50 GW in the grid connection queue is almost entirely speculative — 58% has no final investment decision, only 32% has secured offtakers.\"\nhttps://britishresilienceindex.com/deep-dive/data-centres\n(This report is a must read for timelines and decisions.)\nAlso from this report..\n\"What data centres draw today, what the system operator models, and what developers have asked to connect are three different numbers, and they are routinely conflated. The metered figure is 4.5 TWh. The connection queue is 50.8 GW of capacity requests, most of which NESO itself expects never to be built\". \nWhy would most of the connections to the grid not be built? Possibly because the smrs can generate their own electricity on site?\nSo billions and possibly trillions are speculatively invested in these projects yet there is no sound evidence to forecast what AI data centres will need in only three years' time? \nIf the governments would come clean and admit they are building SMR nuclear plants (as this knowledge is quickly becoming global) we would be able to respect them more and at least they would be offering us a real and transparent consultation opportunity. Instead we are faced with all this deceipt in cloaked intent.  \nWe just wonder are all those investors, staff and other shareholders (including our banks and pension funds!) aware of what they are supporting? \nMaybe it's time we asked them!",
+      "contentFingerprint": "332b54c402039159ff72b25f678019063377c431f20277313e00450a4d077706",
+      "photos": [
+        "media/facebook/1124290337089105/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://britishresilienceindex.com/deep-dive/data-centres",
+          "url": "https://britishresilienceindex.com/deep-dive/data-centres"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1489947529698242",
+      "date": "2026-11-22",
+      "title": "LEAVE OUR HILLS ALONE!",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "LEAVE OUR HILLS ALONE!",
+        "label": "Facebook · LEAVE OUR HILLS ALONE!",
+        "url": "https://www.facebook.com/groups/1203358325023832/posts/1489947529698242/"
+      },
+      "thin": false,
+      "bodyText": "Like the wider Dumfries and Galloway region and southern Scotland, Glencairn is dominated by Atlantic weather systems moving north-eastward across the UK. Migrating birds will hit a wall of spinning blades and guy wires if Met Masts and Turbines are approved.\nDear Councillors, dear F&LS, dear present and absent Landowners, please grow trees, not turbines.",
+      "contentFingerprint": "9ad32a35f03b7d4468bd42418ae4bd2d89b569f0b52f26291f96fcc44e66e6ba",
+      "photos": [
+        "media/facebook/1489947529698242/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Onshore Wind"
+      ]
+    },
+    {
+      "id": "1615560453185230",
+      "date": "2026-11-22",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1615560453185230/"
+      },
+      "thin": false,
+      "bodyText": "The Auchtertool Action Group recently wrote to all the elected MSP for the area asking them to seek answers from ministers to the following questions:\n1. When did the Scottish Government first become aware of the findings contained within the May 2026 Scottish Enterprise Report?\n2. What action, if any, has been taken in response to each of the seven key points identified?\n3. Why have these concerns not been given greater public attention?\n4. Has the potential economic and social damage to Scotland been properly assessed?\n5. What discussions have taken place within Government regarding the recommendations and warnings contained in the report?\n6. What assurances can you give that these issues will not simply be ignored or allowed to worsen?\n7. Will you raise these concerns directly with the relevant Cabinet Secretary and seek a formal response from the Scottish Government?\nIt is encouraging to see Murdo Fraser MSP has lodged the following question. \n“To ask the Scottish Government what elements of the Frazer-Nash report on hyperscale data centres ministers have considered in developing Scotland’s approach to such developments.”\nPARLIAMENT.SCOT The Scottish Parliament",
+      "contentFingerprint": "7ca5dcaac5a981ab7d9f30c244a14a9a87f2bce7f8c9ab8eda84c67e79184306",
+      "photos": [
+        "media/facebook/1615560453185230/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "PARLIAMENT.SCOT The Scottish Parliament",
+          "url": "https://www.parliament.scot/chamber-and-committees/questions-and-answers/question?ref=S7W-05293"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1615161373225138",
+      "date": "2026-11-22",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1615161373225138/"
+      },
+      "thin": false,
+      "bodyText": "Fife Council leaders, Scottish MSPs and big tech CEOs need a fast-tracked lesson in environmental science. \nApple clearly didn't realise that the natural world is essential for our existence, when they designed this data centre. \nWhere are the trees that remove poisonous carbon dioxide from the air? Where are the flowers and shrubs for the bees? Are they going to invent robotic bees to pollinate our crops, so we can have fruit and vegetables? \nAnd can you believe that Google illegally destroyed 250,000 trees in Finland to create a toxic place to work with no soul.\nThe bottom line is... no trees, no bees... no us.",
+      "contentFingerprint": "8a8e12aa36a3ae4f7e0adb7380e01e2da1814fedf87488a51c7628ffa468fd5d",
+      "photos": [
+        "media/facebook/1615161373225138/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1615378573203418",
+      "date": "2026-11-22",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1615378573203418/"
+      },
+      "thin": false,
+      "bodyText": "https://www.theguardian.com/.../debt-laden-cloud...\nTHEGUARDIAN.COM ‘Little room for error’: what a debt-laden cloud computing company says about the AI boom",
+      "contentFingerprint": "5aa03da443452699f14a007fba853c94ef9f9862052b2754cf42cc98c7e38ec1",
+      "photos": [
+        "media/facebook/1615378573203418/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "https://www.theguardian.com/.../debt-laden-cloud...",
+          "url": "https://www.theguardian.com/business/2026/nov/21/debt-laden-cloud-computing-company-coreweave-ai-boom"
+        },
+        {
+          "text": "THEGUARDIAN.COM ‘Little room for error’: what a debt-laden cloud computing company says about the AI boom",
+          "url": "https://www.theguardian.com/business/2026/nov/21/debt-laden-cloud-computing-company-coreweave-ai-boom"
+        }
+      ]
+    },
+    {
+      "id": "1615371866537422",
+      "date": "2026-11-22",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1615371866537422/"
+      },
+      "thin": false,
+      "bodyText": "The problem is the Scottish Government doesn’t even want to talk to communities that will be directly affected by hyperscale data centre developments.\nTHECONVERSATION.COM Who gets to decide whether an AI data centre has a ‘social licence’ to operate?",
+      "contentFingerprint": "024ea6d98f9a1a3c579a845341070e05bef9169ef5341e66acc37d11413ad3c6",
+      "photos": [
+        "media/facebook/1615371866537422/photo_1.png"
+      ],
+      "mediaCount": 1,
+      "links": [
+        {
+          "text": "THECONVERSATION.COM Who gets to decide whether an AI data centre has a ‘social licence’ to operate?",
+          "url": "https://theconversation.com/who-gets-to-decide-whether-an-ai-data-centre-has-a-social-licence-to-operate-295729"
+        }
+      ],
+      "categories": [
+        "Data Centre"
+      ]
+    },
+    {
+      "id": "1615363146538294",
+      "date": "2026-11-22",
+      "title": "Say No To Cato Data Centre",
+      "provenance": {
+        "title": {
+          "method": "neutral"
+        },
+        "bodyText": {
+          "method": "content_before_first_comment"
+        },
+        "photos": {
+          "method": "screenshot"
+        },
+        "categories": {
+          "method": "keyword"
+        }
+      },
+      "source": {
+        "type": "facebook_group",
+        "name": "Say No To Cato Data Centre",
+        "label": "Facebook · Say No To Cato Data Centre",
+        "url": "https://www.facebook.com/groups/1472242997516977/posts/1615363146538294/"
+      },
+      "thin": false,
+      "bodyText": "The impact of data centres on fuel prices.",
+      "contentFingerprint": "aa86897e4026280762243f6b1f2395efb2a5895fa8711e5e63d699c37918cedb",
+      "photos": [
+        "media/facebook/1615363146538294/photo_1.png"
+      ],
+      "mediaCount": 1,
       "categories": [
         "Data Centre"
       ]
